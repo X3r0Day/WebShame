@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-12T22:36:17.069533+00:00",
+  "generatedAt": "2026-03-12T22:53:58.093089+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -186,6 +186,114 @@
       ]
     },
     {
+      "repo": "Amandine0127/sonate",
+      "url": "https://github.com/Amandine0127/sonate",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 34.99,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 2b0d3a0",
+          "line": 259,
+          "source": "commit",
+          "preview": "AIza************************jAMQ"
+        }
+      ]
+    },
+    {
+      "repo": "bshopify87-source/le-journal-Forex-3",
+      "url": "https://github.com/bshopify87-source/le-journal-Forex-3",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 12.26,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 3d71b7a",
+          "line": 556,
+          "source": "commit",
+          "preview": "AIza************************dfww"
+        }
+      ]
+    },
+    {
+      "repo": "palouner/crlvcswrdcnmjiklxs",
+      "url": "https://github.com/palouner/crlvcswrdcnmjiklxs",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 27.76,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit faeff6c",
+          "line": 1758,
+          "source": "commit",
+          "preview": "8735************************qe9c"
+        }
+      ]
+    },
+    {
+      "repo": "sg3728/adaw",
+      "url": "https://github.com/sg3728/adaw",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.74,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit d6a1928",
+          "line": 24,
+          "source": "commit",
+          "preview": "http************************V7SX"
+        }
+      ]
+    },
+    {
       "repo": "Wigwam-js/Personal_Budget_Tracker",
       "url": "https://github.com/Wigwam-js/Personal_Budget_Tracker",
       "status": "leaked",
@@ -209,6 +317,60 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************NraE"
+        }
+      ]
+    },
+    {
+      "repo": "amgrullon/Capstone_Project4",
+      "url": "https://github.com/amgrullon/Capstone_Project4",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.03,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Capstone_Project4-main/src/main/java/com/example/capstone/SignInController.java",
+          "line": 82,
+          "source": "file",
+          "preview": "AIza************************7bVM"
+        }
+      ]
+    },
+    {
+      "repo": "edrinsons1-droid/sumador",
+      "url": "https://github.com/edrinsons1-droid/sumador",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.34,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "sumador-main/app.js",
+          "line": 10,
+          "source": "file",
+          "preview": "eyJh************************S6iM"
         }
       ]
     },
@@ -317,6 +479,60 @@
           "line": 4,
           "source": "file",
           "preview": "eyJh************************l-zQ"
+        }
+      ]
+    },
+    {
+      "repo": "paulobrainy/agendapro",
+      "url": "https://github.com/paulobrainy/agendapro",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.19,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "agendapro-main/app.json",
+          "line": 28,
+          "source": "file",
+          "preview": "AIza************************QYUU"
+        }
+      ]
+    },
+    {
+      "repo": "rfos/nginx-proxy-manager",
+      "url": "https://github.com/rfos/nginx-proxy-manager",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 114.27,
+      "exposureScore": 20,
+      "topTypes": [
+        "AWS Access Key ID"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "nginx-proxy-manager-main/backend/certbot/dns-plugins.json",
+          "line": 567,
+          "source": "file",
+          "preview": "AKIA************MPLE"
         }
       ]
     }
