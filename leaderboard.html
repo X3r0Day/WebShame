@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebShame | Leaderboards</title>
+    <meta name="description" content="Leaderboards for exposed API keys." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script defer src="assets/leaderboard.js"></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="top-nav">
+        <div class="brand">WebShame</div>
+        <nav class="nav-links" aria-label="Primary">
+          <a class="nav-link" href="index.html">Overview</a>
+          <a class="nav-link" href="live.html">Live Keys</a>
+          <a class="nav-link active" href="leaderboard.html">Leaderboards</a>
+        </nav>
+      </header>
+
+      <main class="content">
+        <section class="page-header">
+          <h1>Leaderboards</h1>
+          <div class="meta-line" id="leaderboard-meta">Loading...</div>
+        </section>
+
+        <section class="rank-grid" aria-label="Leaderboards">
+          <div>
+            <h2>Most Exposed Keys</h2>
+            <ol class="rank-list" id="leaderboard-providers"></ol>
+          </div>
+          <div>
+            <h2>Top Repos</h2>
+            <ol class="rank-list" id="leaderboard-repos"></ol>
+          </div>
+          <div>
+            <h2>Top Users</h2>
+            <ol class="rank-list" id="leaderboard-owners"></ol>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

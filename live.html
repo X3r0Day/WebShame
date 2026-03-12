@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebShame | Live Keys</title>
+    <meta name="description" content="Live sanitized API key findings." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script defer src="assets/live.js"></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="top-nav">
+        <div class="brand">WebShame</div>
+        <nav class="nav-links" aria-label="Primary">
+          <a class="nav-link" href="index.html">Overview</a>
+          <a class="nav-link active" href="live.html">Live Keys</a>
+          <a class="nav-link" href="leaderboard.html">Leaderboards</a>
+        </nav>
+      </header>
+
+      <main class="content">
+        <section class="page-header">
+          <h1>Live Keys</h1>
+          <div class="meta-line" id="live-meta">Loading...</div>
+        </section>
+
+        <section class="controls-panel" aria-label="Filters">
+          <label class="control">
+            <span>Search</span>
+            <input id="live-search" type="search" placeholder="Repo, owner, provider, file" />
+          </label>
+
+          <label class="control">
+            <span>Provider</span>
+            <select id="live-provider">
+              <option value="all">All providers</option>
+            </select>
+          </label>
+
+          <label class="control">
+            <span>Severity</span>
+            <select id="live-severity">
+              <option value="all">All levels</option>
+              <option value="critical">Critical</option>
+              <option value="high">High</option>
+              <option value="medium">Medium</option>
+              <option value="low">Low</option>
+            </select>
+          </label>
+        </section>
+
+        <section class="list" id="live-list" aria-live="polite"></section>
+        <div class="empty-state" id="live-empty" hidden>No matches.</div>
+      </main>
+    </div>
+  </body>
+</html>

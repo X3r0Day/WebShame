@@ -103,7 +103,7 @@ function normalizeRepo(rawRepo, index) {
       Number(rawRepo.exposureScore) || totalSecrets * 12 + uniqueTypes * 8 + commitFindings * 10,
     topTypes,
     typeCounts,
-    findings: findings.slice(0, 6),
+    findings: findings.slice(0, 3),
   };
 }
 
@@ -180,6 +180,9 @@ function formatGeneratedAt(value) {
 }
 
 function renderStats(repos) {
+  if (!elements.stats.repos) {
+    return;
+  }
   const providerCounts = buildProviderCounts(repos);
   const totals = repos.reduce(
     (accumulator, repo) => {
@@ -197,6 +200,9 @@ function renderStats(repos) {
 }
 
 function renderProviderList(repos) {
+  if (!elements.providerList) {
+    return;
+  }
   const providerCounts = buildProviderCounts(repos);
   const top = providerCounts.slice(0, 8);
   const maxCount = top[0]?.[1] || 1;
@@ -371,26 +377,20 @@ async function loadDataset() {
     state.generatedAt = normalized.generatedAt;
     state.repos = normalized.repos;
 
-    elements.datasetMeta.textContent = `Source: ${state.sourceName} | Updated ${formatGeneratedAt(
-      state.generatedAt
-    )}`;
+    elements.datasetMeta.textContent = `Updated ${formatGeneratedAt(state.generatedAt)}`;
 
     populateProviderFilter(state.repos);
     renderBoard();
 
     if (!state.repos.length) {
-      showStatus("Dataset loaded, but no leaked repositories were present.");
+      showStatus("No leaked repos.");
       return;
     }
 
-    showStatus(
-      "This board renders masked previews only. Keep raw findings out of the public Pages branch."
-    );
+    showStatus("Masked previews only.");
   } catch (error) {
     elements.datasetMeta.textContent = "Dataset unavailable";
-    showStatus(
-      "Could not load data/hall-of-shame.json. Publish a sanitized export before deploying the site."
-    );
+    showStatus("No data file.");
     renderStats([]);
     renderProviderList([]);
     elements.grid.innerHTML = "";

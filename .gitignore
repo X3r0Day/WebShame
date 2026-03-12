@@ -1,3 +1,4 @@
 XeroDay-APISniffer/
 data/private/
 *.raw.json
+__pycache__/

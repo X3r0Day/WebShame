@@ -142,6 +142,8 @@ jobs:
         run: |
           mkdir -p "$SITE_DIST"
           cp index.html "$SITE_DIST/"
+          cp live.html "$SITE_DIST/"
+          cp leaderboard.html "$SITE_DIST/"
           cp .nojekyll "$SITE_DIST/"
           cp -R assets "$SITE_DIST/assets"
           cp -R data "$SITE_DIST/data"
