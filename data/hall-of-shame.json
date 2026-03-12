@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-12T23:19:16.707052+00:00",
+  "generatedAt": "2026-03-12T23:46:22.381340+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -498,6 +498,87 @@
       ]
     },
     {
+      "repo": "yigongfangmp/yigongfangmp",
+      "url": "https://github.com/yigongfangmp/yigongfangmp",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 19.15,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 0425ce7",
+          "line": 932,
+          "source": "commit",
+          "preview": "eyJh************************hdWc"
+        }
+      ]
+    },
+    {
+      "repo": "LuanVelo/satelite-tracker",
+      "url": "https://github.com/LuanVelo/satelite-tracker",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.46,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "satelite-tracker-main/src/globe.js",
+          "line": 4,
+          "source": "file",
+          "preview": "eyJh************************YZxk"
+        }
+      ]
+    },
+    {
+      "repo": "Nvafeomo/RimRun",
+      "url": "https://github.com/Nvafeomo/RimRun",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.36,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "RimRun-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************ZU_o"
+        }
+      ]
+    },
+    {
       "repo": "SAST-UP-DP-DEV-env/SAST-Test-Repo-a54262fd-e42a-4925-a6d2-f15dcecb3cfb",
       "url": "https://github.com/SAST-UP-DP-DEV-env/SAST-Test-Repo-a54262fd-e42a-4925-a6d2-f15dcecb3cfb",
       "status": "leaked",
@@ -872,6 +953,33 @@
           "line": 567,
           "source": "file",
           "preview": "AKIA************MPLE"
+        }
+      ]
+    },
+    {
+      "repo": "ronald6666/atlasbotts",
+      "url": "https://github.com/ronald6666/atlasbotts",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "atlasbotts-main/atlaschain_v16.py",
+          "line": 51,
+          "source": "file",
+          "preview": "8350************************-Kug"
         }
       ]
     }
