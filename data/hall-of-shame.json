@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-12T23:08:09.721324+00:00",
+  "generatedAt": "2026-03-12T23:19:16.707052+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -241,6 +241,47 @@
       ]
     },
     {
+      "repo": "bradboucher/mcgrawhill",
+      "url": "https://github.com/bradboucher/mcgrawhill",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 48.27,
+      "exposureScore": 44,
+      "topTypes": [
+        "AWS Access Key ID"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 3
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "mcgrawhill-main/testing.txt",
+          "line": 3,
+          "source": "file",
+          "preview": "AKIA************RB6Z"
+        },
+        {
+          "type": "AWS Access Key ID",
+          "file": "mcgrawhill-main/testing.txt",
+          "line": 7,
+          "source": "file",
+          "preview": "AKIA************R9S0"
+        },
+        {
+          "type": "AWS Access Key ID",
+          "file": "mcgrawhill-main/testing.txt",
+          "line": 12,
+          "source": "file",
+          "preview": "AKIA************Y123"
+        }
+      ]
+    },
+    {
       "repo": "Amandine0127/sonate",
       "url": "https://github.com/Amandine0127/sonate",
       "status": "leaked",
@@ -349,6 +390,33 @@
       ]
     },
     {
+      "repo": "hanafiappymurzuki-bit/approvalchiD",
+      "url": "https://github.com/hanafiappymurzuki-bit/approvalchiD",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.12,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 73f378a",
+          "line": 2557,
+          "source": "commit",
+          "preview": "AIza************************HpWI"
+        }
+      ]
+    },
+    {
       "repo": "palouner/crlvcswrdcnmjiklxs",
       "url": "https://github.com/palouner/crlvcswrdcnmjiklxs",
       "status": "leaked",
@@ -426,6 +494,60 @@
           "line": 24,
           "source": "commit",
           "preview": "http************************V7SX"
+        }
+      ]
+    },
+    {
+      "repo": "SAST-UP-DP-DEV-env/SAST-Test-Repo-a54262fd-e42a-4925-a6d2-f15dcecb3cfb",
+      "url": "https://github.com/SAST-UP-DP-DEV-env/SAST-Test-Repo-a54262fd-e42a-4925-a6d2-f15dcecb3cfb",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 31.71,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "SAST-Test-Repo-a54262fd-e42a-4925-a6d2-f15dcecb3cfb-main/src/test/java/org/owasp/webgoat/webwolf/jwt/JWTTokenTest.java",
+          "line": 28,
+          "source": "file",
+          "preview": "eyJh************************sg6I"
+        }
+      ]
+    },
+    {
+      "repo": "SAST-UP-DP-DEV-env/SAST-Test-Repo-da0a64de-ac9c-4d4d-b978-e5835e41c0df",
+      "url": "https://github.com/SAST-UP-DP-DEV-env/SAST-Test-Repo-da0a64de-ac9c-4d4d-b978-e5835e41c0df",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 139.84,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "SAST-Test-Repo-da0a64de-ac9c-4d4d-b978-e5835e41c0df-main/src/test/java/org/owasp/webgoat/webwolf/jwt/JWTTokenTest.java",
+          "line": 28,
+          "source": "file",
+          "preview": "eyJh************************sg6I"
         }
       ]
     },
@@ -696,6 +818,33 @@
           "line": 28,
           "source": "file",
           "preview": "AIza************************QYUU"
+        }
+      ]
+    },
+    {
+      "repo": "r9594122-debug/primeiro-projeto",
+      "url": "https://github.com/r9594122-debug/primeiro-projeto",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 69.36,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "primeiro-projeto-main/script.js",
+          "line": 5,
+          "source": "file",
+          "preview": "eyJh************************FKow"
         }
       ]
     },
