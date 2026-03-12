@@ -46,7 +46,7 @@ jobs:
     env:
       PYTHONUNBUFFERED: "1"
       APISNIFFER_REPO: "https://github.com/X3r0Day/XeroDay-APISniffer.git"
-      APISNIFFER_DIR: "${{ runner.temp }}/XeroDay-APISniffer"
+      APISNIFFER_DIR: "${{ github.workspace }}/.tmp/XeroDay-APISniffer"
       SITE_DIST: "${{ github.workspace }}/site-dist"
 
     steps:
@@ -82,6 +82,9 @@ jobs:
           echo "MAX_THREADS=$MAX_THREADS" >> "$GITHUB_ENV"
           echo "HISTORY_DEPTH=$HISTORY_DEPTH" >> "$GITHUB_ENV"
 
+      - name: Prepare workspace temp
+        run: mkdir -p "$(dirname "$APISNIFFER_DIR")"
+
       - name: Clone XeroDay-APISniffer
         run: git clone --depth 1 "$APISNIFFER_REPO" "$APISNIFFER_DIR"
 
@@ -92,10 +95,12 @@ jobs:
         run: python scripts/materialize_scan_state.py --state data/scan-history.json --output-dir "$APISNIFFER_DIR"
 
       - name: Write proxy list if configured
-        if: ${{ secrets.APISNIFFER_PROXIES != '' }}
         env:
           APISNIFFER_PROXIES: ${{ secrets.APISNIFFER_PROXIES }}
-        run: printf '%s\n' "$APISNIFFER_PROXIES" > "$APISNIFFER_DIR/live_proxies.txt"
+        run: |
+          if [ -n "$APISNIFFER_PROXIES" ]; then
+            printf '%s\n' "$APISNIFFER_PROXIES" > "$APISNIFFER_DIR/live_proxies.txt"
+          fi
 
       - name: Run discovery
         working-directory: ${{ env.APISNIFFER_DIR }}
