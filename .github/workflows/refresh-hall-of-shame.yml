@@ -10,15 +10,15 @@ on:
       lookback_mins:
         description: "How many recent minutes discovery should cover"
         required: false
-        default: "35"
+        default: "3"
       chunk_mins:
         description: "Discovery chunk size in minutes"
         required: false
-        default: "5"
+        default: "1"
       pages_to_scrape:
         description: "Max GitHub search pages per discovery chunk"
         required: false
-        default: "3"
+        default: "10"
       proxy_retry_limit:
         description: "Maximum proxies to try before giving up"
         required: false
@@ -26,7 +26,7 @@ on:
       max_threads:
         description: "Scanner thread count"
         required: false
-        default: "4"
+        default: "25"
       history_depth:
         description: "How many recent commits to scan"
         required: false
