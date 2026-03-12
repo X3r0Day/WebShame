@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-12T22:53:58.093089+00:00",
+  "generatedAt": "2026-03-12T23:08:09.721324+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -150,6 +150,61 @@
       ]
     },
     {
+      "repo": "Pranit-Jadhav/Getfly_Task",
+      "url": "https://github.com/Pranit-Jadhav/Getfly_Task",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 5,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 25.54,
+      "exposureScore": 68,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 5
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Getfly_Task-main/Construction_App.postman_collection.json",
+          "line": 48,
+          "source": "file",
+          "preview": "eyJh************************vmFM"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Getfly_Task-main/Construction_App.postman_collection.json",
+          "line": 98,
+          "source": "file",
+          "preview": "eyJh************************kDyA"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Getfly_Task-main/Construction_App.postman_collection.json",
+          "line": 142,
+          "source": "file",
+          "preview": "eyJh************************Ynig"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Getfly_Task-main/Construction_App.postman_collection.json",
+          "line": 393,
+          "source": "file",
+          "preview": "eyJh************************NuFo"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Getfly_Task-main/Construction_App.postman_collection.json",
+          "line": 438,
+          "source": "file",
+          "preview": "eyJh************************EafI"
+        }
+      ]
+    },
+    {
       "repo": "harbor-data/internal-tools",
       "url": "https://github.com/harbor-data/internal-tools",
       "status": "leaked",
@@ -213,6 +268,33 @@
       ]
     },
     {
+      "repo": "Classic-ia/classic-ia",
+      "url": "https://github.com/Classic-ia/classic-ia",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 13.24,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit fbf88fb",
+          "line": 428,
+          "source": "commit",
+          "preview": "eyJh************************WRhw"
+        }
+      ]
+    },
+    {
       "repo": "bshopify87-source/le-journal-Forex-3",
       "url": "https://github.com/bshopify87-source/le-journal-Forex-3",
       "status": "leaked",
@@ -240,6 +322,33 @@
       ]
     },
     {
+      "repo": "eliujahirbautistadelacruz-dotcom/hfyfgfygv",
+      "url": "https://github.com/eliujahirbautistadelacruz-dotcom/hfyfgfygv",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 12.5,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 1c92d2e",
+          "line": 202,
+          "source": "commit",
+          "preview": "AIza************************SoFY"
+        }
+      ]
+    },
+    {
       "repo": "palouner/crlvcswrdcnmjiklxs",
       "url": "https://github.com/palouner/crlvcswrdcnmjiklxs",
       "status": "leaked",
@@ -260,6 +369,33 @@
         {
           "type": "Telegram Bot Token",
           "file": "Commit faeff6c",
+          "line": 1758,
+          "source": "commit",
+          "preview": "8735************************qe9c"
+        }
+      ]
+    },
+    {
+      "repo": "palouner/rnucxswumnvcewascio",
+      "url": "https://github.com/palouner/rnucxswumnvcewascio",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.01,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit ba9b80f",
           "line": 1758,
           "source": "commit",
           "preview": "8735************************qe9c"
@@ -344,6 +480,33 @@
           "line": 82,
           "source": "file",
           "preview": "AIza************************7bVM"
+        }
+      ]
+    },
+    {
+      "repo": "chessy328/betting-bot",
+      "url": "https://github.com/chessy328/betting-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.36,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "betting-bot-main/python app.py",
+          "line": 25,
+          "source": "file",
+          "preview": "8641************************jQsc"
         }
       ]
     },
@@ -479,6 +642,33 @@
           "line": 4,
           "source": "file",
           "preview": "eyJh************************l-zQ"
+        }
+      ]
+    },
+    {
+      "repo": "miramuhammad710-star/Abood66",
+      "url": "https://github.com/miramuhammad710-star/Abood66",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.42,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Abood66-main/inputaltayar.php",
+          "line": 2,
+          "source": "file",
+          "preview": "7790************************tNs8"
         }
       ]
     },
