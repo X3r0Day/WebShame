@@ -1,6 +1,10 @@
 name: Refresh Hall of Shame
 
 on:
+  push:
+    branches:
+      - main
+      - master
   workflow_dispatch:
     inputs:
       lookback_mins:
