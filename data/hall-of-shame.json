@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-03-13T00:00:00Z",
-  "source": "sample-export",
+  "generatedAt": "2026-03-12T22:36:17.069533+00:00",
+  "source": "XeroDay-APISniffer",
   "repos": [
     {
       "repo": "acme-labs/payments-portal",
@@ -102,6 +102,54 @@
       ]
     },
     {
+      "repo": "miguelcolli719-alt/serviciosocial",
+      "url": "https://github.com/miguelcolli719-alt/serviciosocial",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 3,
+      "scanTimeSeconds": 12.65,
+      "exposureScore": 86,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 4
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "serviciosocial-main/android/app/google-services.json",
+          "line": 23,
+          "source": "file",
+          "preview": "AIza************************gZVo"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit f809513",
+          "line": 35388,
+          "source": "commit",
+          "preview": "AIza************************oznU"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit f809513",
+          "line": 35406,
+          "source": "commit",
+          "preview": "AIza************************3G_w"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit f809513",
+          "line": 35426,
+          "source": "commit",
+          "preview": "AIza************************m4wk"
+        }
+      ]
+    },
+    {
       "repo": "harbor-data/internal-tools",
       "url": "https://github.com/harbor-data/internal-tools",
       "status": "leaked",
@@ -138,6 +186,33 @@
       ]
     },
     {
+      "repo": "Wigwam-js/Personal_Budget_Tracker",
+      "url": "https://github.com/Wigwam-js/Personal_Budget_Tracker",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.82,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Personal_Budget_Tracker-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************NraE"
+        }
+      ]
+    },
+    {
       "repo": "ember-stack/demo-portal",
       "url": "https://github.com/ember-stack/demo-portal",
       "status": "leaked",
@@ -161,6 +236,87 @@
           "line": 7,
           "source": "file",
           "preview": "6978*******************Qx8"
+        }
+      ]
+    },
+    {
+      "repo": "garywstewart-afk/Context-Hub-for-Hullic",
+      "url": "https://github.com/garywstewart-afk/Context-Hub-for-Hullic",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 92.06,
+      "exposureScore": 20,
+      "topTypes": [
+        "Slack Webhook"
+      ],
+      "typeCounts": {
+        "Slack Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Slack Webhook",
+          "file": "Context-Hub-for-Hullic-main/content/slack/docs/workspace/python/DOC.md",
+          "line": 171,
+          "source": "file",
+          "preview": "http************************XXXX"
+        }
+      ]
+    },
+    {
+      "repo": "hosamgrebe/ahlam",
+      "url": "https://github.com/hosamgrebe/ahlam",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 58.01,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ahlam-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************en6o"
+        }
+      ]
+    },
+    {
+      "repo": "idgmedia2025-app/appa-saas-gobras",
+      "url": "https://github.com/idgmedia2025-app/appa-saas-gobras",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 21.45,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "appa-saas-gobras-main/src/supabaseClient.js",
+          "line": 4,
+          "source": "file",
+          "preview": "eyJh************************l-zQ"
         }
       ]
     }
