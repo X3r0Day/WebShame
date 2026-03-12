@@ -1,0 +1,156 @@
+name: Refresh Hall of Shame
+
+on:
+  workflow_dispatch:
+    inputs:
+      lookback_mins:
+        description: "How many recent minutes discovery should cover"
+        required: false
+        default: "35"
+      chunk_mins:
+        description: "Discovery chunk size in minutes"
+        required: false
+        default: "5"
+      pages_to_scrape:
+        description: "Max GitHub search pages per discovery chunk"
+        required: false
+        default: "3"
+      proxy_retry_limit:
+        description: "Maximum proxies to try before giving up"
+        required: false
+        default: "30"
+      max_threads:
+        description: "Scanner thread count"
+        required: false
+        default: "4"
+      history_depth:
+        description: "How many recent commits to scan"
+        required: false
+        default: "5"
+  schedule:
+    - cron: "*/2 * * * *"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: webshame-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    env:
+      PYTHONUNBUFFERED: "1"
+      APISNIFFER_REPO: "https://github.com/X3r0Day/XeroDay-APISniffer.git"
+      APISNIFFER_DIR: "${{ runner.temp }}/XeroDay-APISniffer"
+      SITE_DIST: "${{ github.workspace }}/site-dist"
+
+    steps:
+      - name: Check out site repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.ref_name }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Resolve runtime settings
+        run: |
+          LOOKBACK_MINS="${{ github.event.inputs.lookback_mins }}"
+          CHUNK_MINS="${{ github.event.inputs.chunk_mins }}"
+          PAGES_TO_SCRAPE="${{ github.event.inputs.pages_to_scrape }}"
+          PROXY_RETRY_LIMIT="${{ github.event.inputs.proxy_retry_limit }}"
+          MAX_THREADS="${{ github.event.inputs.max_threads }}"
+          HISTORY_DEPTH="${{ github.event.inputs.history_depth }}"
+          : "${LOOKBACK_MINS:=35}"
+          : "${CHUNK_MINS:=5}"
+          : "${PAGES_TO_SCRAPE:=3}"
+          : "${PROXY_RETRY_LIMIT:=30}"
+          : "${MAX_THREADS:=4}"
+          : "${HISTORY_DEPTH:=5}"
+          echo "LOOKBACK_MINS=$LOOKBACK_MINS" >> "$GITHUB_ENV"
+          echo "CHUNK_MINS=$CHUNK_MINS" >> "$GITHUB_ENV"
+          echo "PAGES_TO_SCRAPE=$PAGES_TO_SCRAPE" >> "$GITHUB_ENV"
+          echo "PROXY_RETRY_LIMIT=$PROXY_RETRY_LIMIT" >> "$GITHUB_ENV"
+          echo "MAX_THREADS=$MAX_THREADS" >> "$GITHUB_ENV"
+          echo "HISTORY_DEPTH=$HISTORY_DEPTH" >> "$GITHUB_ENV"
+
+      - name: Clone XeroDay-APISniffer
+        run: git clone --depth 1 "$APISNIFFER_REPO" "$APISNIFFER_DIR"
+
+      - name: Install APISniffer dependencies
+        run: python -m pip install -r "$APISNIFFER_DIR/requirements.txt"
+
+      - name: Restore safe scan state
+        run: python scripts/materialize_scan_state.py --state data/scan-history.json --output-dir "$APISNIFFER_DIR"
+
+      - name: Write proxy list if configured
+        if: ${{ secrets.APISNIFFER_PROXIES != '' }}
+        env:
+          APISNIFFER_PROXIES: ${{ secrets.APISNIFFER_PROXIES }}
+        run: printf '%s\n' "$APISNIFFER_PROXIES" > "$APISNIFFER_DIR/live_proxies.txt"
+
+      - name: Run discovery
+        working-directory: ${{ env.APISNIFFER_DIR }}
+        run: |
+          python src/APISniffer.py \
+            --lookback-mins "$LOOKBACK_MINS" \
+            --chunk-mins "$CHUNK_MINS" \
+            --pages-to-scrape "$PAGES_TO_SCRAPE" \
+            --proxy-retry-limit "$PROXY_RETRY_LIMIT"
+
+      - name: Run scanner
+        working-directory: ${{ env.APISNIFFER_DIR }}
+        run: |
+          python src/APIScanner.py \
+            --max-threads "$MAX_THREADS" \
+            --history-depth "$HISTORY_DEPTH"
+
+      - name: Export public dataset and safe state
+        run: |
+          python scripts/export_hall_of_shame.py \
+            --input "$APISNIFFER_DIR/leaked_keys.json" \
+            --clean-input "$APISNIFFER_DIR/clean_repos.json" \
+            --failed-input "$APISNIFFER_DIR/failed_repos.json" \
+            --output data/hall-of-shame.json \
+            --history-output data/scan-history.json
+
+      - name: Commit refreshed data
+        run: |
+          if git diff --quiet -- data/hall-of-shame.json data/scan-history.json; then
+            echo "No public data changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/hall-of-shame.json data/scan-history.json
+          git commit -m "Refresh hall of shame data"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push origin HEAD:"${GITHUB_REF_NAME}"
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Build Pages artifact
+        run: |
+          mkdir -p "$SITE_DIST"
+          cp index.html "$SITE_DIST/"
+          cp .nojekyll "$SITE_DIST/"
+          cp -R assets "$SITE_DIST/assets"
+          cp -R data "$SITE_DIST/data"
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ env.SITE_DIST }}
+
+      - name: Deploy Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

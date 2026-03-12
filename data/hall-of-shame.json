@@ -1,0 +1,168 @@
+{
+  "generatedAt": "2026-03-13T00:00:00Z",
+  "source": "sample-export",
+  "repos": [
+    {
+      "repo": "acme-labs/payments-portal",
+      "url": "https://github.com/acme-labs/payments-portal",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 11,
+      "uniqueTypes": 4,
+      "filesAffected": 5,
+      "commitFindings": 2,
+      "scanTimeSeconds": 4.91,
+      "exposureScore": 180,
+      "topTypes": [
+        "Stripe Secret Key",
+        "AWS Access Key ID",
+        "Slack Webhook",
+        "GitHub Fine-Grained PAT"
+      ],
+      "typeCounts": {
+        "Stripe Secret Key": 4,
+        "AWS Access Key ID": 3,
+        "Slack Webhook": 2,
+        "GitHub Fine-Grained PAT": 2
+      },
+      "findings": [
+        {
+          "type": "Stripe Secret Key",
+          "file": "services/billing.js",
+          "line": 88,
+          "source": "file",
+          "preview": "sk_l********************8Qz2"
+        },
+        {
+          "type": "AWS Access Key ID",
+          "file": "terraform/prod.tfvars",
+          "line": 14,
+          "source": "file",
+          "preview": "AKIA****************R8P2"
+        },
+        {
+          "type": "Slack Webhook",
+          "file": "ops/alerts.env",
+          "line": 3,
+          "source": "file",
+          "preview": "http*************************Gg9q"
+        },
+        {
+          "type": "GitHub Fine-Grained PAT",
+          "file": "Commit a18f02b",
+          "line": 0,
+          "source": "commit",
+          "preview": "github_pat_****************C91k"
+        }
+      ]
+    },
+    {
+      "repo": "northstar-ai/agent-playground",
+      "url": "https://github.com/northstar-ai/agent-playground",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 7,
+      "uniqueTypes": 3,
+      "filesAffected": 4,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.26,
+      "exposureScore": 118,
+      "topTypes": [
+        "OpenAI Project Key",
+        "Anthropic API Key",
+        "Supabase Service Role Key"
+      ],
+      "typeCounts": {
+        "OpenAI Project Key": 3,
+        "Anthropic API Key": 2,
+        "Supabase Service Role Key": 2
+      },
+      "findings": [
+        {
+          "type": "OpenAI Project Key",
+          "file": "src/config.ts",
+          "line": 42,
+          "source": "file",
+          "preview": "sk-p********************3f7a"
+        },
+        {
+          "type": "Anthropic API Key",
+          "file": "prompts/dev.env",
+          "line": 6,
+          "source": "file",
+          "preview": "sk-a************************9e1d"
+        },
+        {
+          "type": "Supabase Service Role Key",
+          "file": "Commit f91c8a1",
+          "line": 0,
+          "source": "commit",
+          "preview": "eyJh************************rrQ"
+        }
+      ]
+    },
+    {
+      "repo": "harbor-data/internal-tools",
+      "url": "https://github.com/harbor-data/internal-tools",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 4,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.44,
+      "exposureScore": 64,
+      "topTypes": [
+        "Discord Webhook",
+        "Postman API Key"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 3,
+        "Postman API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "bots/notify.py",
+          "line": 91,
+          "source": "file",
+          "preview": "http*************************R7d1"
+        },
+        {
+          "type": "Postman API Key",
+          "file": "team-secrets.json",
+          "line": 11,
+          "source": "file",
+          "preview": "PMAK************************6zM2"
+        }
+      ]
+    },
+    {
+      "repo": "ember-stack/demo-portal",
+      "url": "https://github.com/ember-stack/demo-portal",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.37,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "examples/local.settings.json",
+          "line": 7,
+          "source": "file",
+          "preview": "6978*******************Qx8"
+        }
+      ]
+    }
+  ]
+}

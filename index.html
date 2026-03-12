@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebShame | Hall of Shame</title>
+    <meta
+      name="description"
+      content="Static Hall of Shame interface for reviewing sanitized XeroDay-APISniffer findings on GitHub Pages."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script defer src="assets/app.js"></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Static Security Index</p>
+          <h1>Hall of Shame</h1>
+          <p class="hero-text">
+            A GitHub Pages-ready view over sanitized repository leak findings. The
+            UI is designed to consume a public-safe export, not raw secrets.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#board">Open Board</a>
+            <a class="button button-secondary" href="README.md">Integration Notes</a>
+          </div>
+        </div>
+
+        <section class="summary-panel" aria-label="Dataset summary">
+          <div class="summary-card">
+            <span class="summary-label">Flagged Repos</span>
+            <strong class="summary-value" data-stat="repos">0</strong>
+          </div>
+          <div class="summary-card">
+            <span class="summary-label">Exposed Secrets</span>
+            <strong class="summary-value" data-stat="secrets">0</strong>
+          </div>
+          <div class="summary-card">
+            <span class="summary-label">Provider Types</span>
+            <strong class="summary-value" data-stat="types">0</strong>
+          </div>
+          <div class="summary-card">
+            <span class="summary-label">Commit Hits</span>
+            <strong class="summary-value" data-stat="commitHits">0</strong>
+          </div>
+        </section>
+      </header>
+
+      <main class="content">
+        <section class="controls-panel" id="board" aria-label="Filters">
+          <label class="control">
+            <span>Search</span>
+            <input
+              id="search-input"
+              type="search"
+              placeholder="Repo, file, or provider"
+              autocomplete="off"
+            />
+          </label>
+
+          <label class="control">
+            <span>Severity</span>
+            <select id="severity-filter">
+              <option value="all">All levels</option>
+              <option value="critical">Critical</option>
+              <option value="high">High</option>
+              <option value="medium">Medium</option>
+              <option value="low">Low</option>
+            </select>
+          </label>
+
+          <label class="control">
+            <span>Provider</span>
+            <select id="provider-filter">
+              <option value="all">All providers</option>
+            </select>
+          </label>
+
+          <label class="control">
+            <span>Source</span>
+            <select id="source-filter">
+              <option value="all">Files and commits</option>
+              <option value="file">Files only</option>
+              <option value="commit">Commit history</option>
+            </select>
+          </label>
+
+          <label class="control">
+            <span>Sort</span>
+            <select id="sort-select">
+              <option value="score">Exposure score</option>
+              <option value="secrets">Secret count</option>
+              <option value="repo">Repo name</option>
+              <option value="scan">Fastest scan</option>
+            </select>
+          </label>
+        </section>
+
+        <section class="dashboard">
+          <div class="board-column">
+            <div class="section-heading">
+              <div>
+                <p class="eyebrow">Repository Board</p>
+                <h2>Public Leak Snapshot</h2>
+              </div>
+              <p class="dataset-meta" id="dataset-meta">Loading dataset...</p>
+            </div>
+
+            <div class="status-banner" id="status-banner" hidden></div>
+            <div class="repo-grid" id="repo-grid" aria-live="polite"></div>
+            <div class="empty-state" id="empty-state" hidden>
+              <h3>No repositories match the current filters.</h3>
+              <p>Try broadening the search or swapping back to all severities.</p>
+            </div>
+          </div>
+
+          <aside class="side-column">
+            <section class="side-panel">
+              <div class="section-heading compact">
+                <div>
+                  <p class="eyebrow">Breakdown</p>
+                  <h2>Provider Heat</h2>
+                </div>
+              </div>
+              <div class="provider-list" id="provider-list"></div>
+            </section>
+
+            <section class="side-panel">
+              <div class="section-heading compact">
+                <div>
+                  <p class="eyebrow">Publishing Model</p>
+                  <h2>Pages-Safe By Design</h2>
+                </div>
+              </div>
+              <ul class="rules-list">
+                <li>Only sanitized previews are rendered.</li>
+                <li>Use the export script before publishing findings.</li>
+                <li>All assets use relative paths, so repo subpath hosting works.</li>
+              </ul>
+            </section>
+          </aside>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
