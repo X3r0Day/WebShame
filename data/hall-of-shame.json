@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T21:39:36.492459+00:00",
+  "generatedAt": "2026-03-13T22:07:49.205133+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -1521,6 +1521,42 @@
       ]
     },
     {
+      "repo": "mariyarahman127-stack/imperial_vote",
+      "url": "https://github.com/mariyarahman127-stack/imperial_vote",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 167.84,
+      "exposureScore": 60,
+      "topTypes": [
+        "Google API/GCP Key",
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "Firebase Database URL": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 71167b6",
+          "line": 1634,
+          "source": "commit",
+          "preview": "AIza************************9Bgs"
+        },
+        {
+          "type": "Firebase Database URL",
+          "file": "Commit 71167b6",
+          "line": 2419,
+          "source": "commit",
+          "preview": "http************************json"
+        }
+      ]
+    },
+    {
       "repo": "radioestilo/Venta",
       "url": "https://github.com/radioestilo/Venta",
       "status": "leaked",
@@ -2806,6 +2842,40 @@
       ]
     },
     {
+      "repo": "ayushs1214/closeloop-v1-backend",
+      "url": "https://github.com/ayushs1214/closeloop-v1-backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.37,
+      "exposureScore": 32,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 2
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "closeloop-v1-backend-main/.env",
+          "line": 6,
+          "source": "file",
+          "preview": "eyJh************************DP28"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "closeloop-v1-backend-main/.env",
+          "line": 7,
+          "source": "file",
+          "preview": "eyJh************************GKRQ"
+        }
+      ]
+    },
+    {
       "repo": "matted-persea986/Botstore",
       "url": "https://github.com/matted-persea986/Botstore",
       "status": "leaked",
@@ -3721,6 +3791,33 @@
           "line": 726,
           "source": "commit",
           "preview": "AIza************************rEYU"
+        }
+      ]
+    },
+    {
+      "repo": "RishikKolpekwar/plum",
+      "url": "https://github.com/RishikKolpekwar/plum",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 76.32,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 5c78574",
+          "line": 17941,
+          "source": "commit",
+          "preview": "eyJh************************C30Q"
         }
       ]
     },
@@ -4882,6 +4979,33 @@
           "line": 138,
           "source": "commit",
           "preview": "7598************************9J8E"
+        }
+      ]
+    },
+    {
+      "repo": "mendalerenda89-droid/aeterna",
+      "url": "https://github.com/mendalerenda89-droid/aeterna",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 43.85,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 9fffc09",
+          "line": 679,
+          "source": "commit",
+          "preview": "AIza************************EU2E"
         }
       ]
     },
@@ -7829,6 +7953,33 @@
       ]
     },
     {
+      "repo": "Sayed22y/Mini-Rag",
+      "url": "https://github.com/Sayed22y/Mini-Rag",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.62,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenAI API Key (Project)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Project)": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Project)",
+          "file": "Mini-Rag-main/src/.env",
+          "line": 23,
+          "source": "file",
+          "preview": "sk-p************************pSEA"
+        }
+      ]
+    },
+    {
       "repo": "Shaxdos/OPenbudget",
       "url": "https://github.com/Shaxdos/OPenbudget",
       "status": "leaked",
@@ -9391,6 +9542,33 @@
           "line": 5,
           "source": "file",
           "preview": "8462************************P0f4"
+        }
+      ]
+    },
+    {
+      "repo": "imaadsoc24/cyberwatch-bot",
+      "url": "https://github.com/imaadsoc24/cyberwatch-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.57,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "cyberwatch-bot-master/osint_bot.py",
+          "line": 7,
+          "source": "file",
+          "preview": "8649************************cVr4"
         }
       ]
     },
@@ -11605,6 +11783,33 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************7LUY"
+        }
+      ]
+    },
+    {
+      "repo": "xor2003/neuro-fed",
+      "url": "https://github.com/xor2003/neuro-fed",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 57.46,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "neuro-fed-master/config.toml",
+          "line": 17,
+          "source": "file",
+          "preview": "sk-o************************358c"
         }
       ]
     },
