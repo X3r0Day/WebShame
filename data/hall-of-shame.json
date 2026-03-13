@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T08:51:03.055620+00:00",
+  "generatedAt": "2026-03-13T09:38:20.462713+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -1453,6 +1453,33 @@
       ]
     },
     {
+      "repo": "nightworms/ticketing-ecoles",
+      "url": "https://github.com/nightworms/ticketing-ecoles",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 13.49,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit e8738d0",
+          "line": 465,
+          "source": "commit",
+          "preview": "eyJh************************TS-0"
+        }
+      ]
+    },
+    {
       "repo": "nirajscorpio1-arch/oxygen-x",
       "url": "https://github.com/nirajscorpio1-arch/oxygen-x",
       "status": "leaked",
@@ -1476,6 +1503,33 @@
           "line": 118,
           "source": "commit",
           "preview": "sk-o************************bcbf"
+        }
+      ]
+    },
+    {
+      "repo": "nma2k5rinrin-dev/Moimoi-POS-Flutter",
+      "url": "https://github.com/nma2k5rinrin-dev/Moimoi-POS-Flutter",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 13.01,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 62e49ec",
+          "line": 9410,
+          "source": "commit",
+          "preview": "eyJh************************6rJk"
         }
       ]
     },
@@ -2263,6 +2317,33 @@
       ]
     },
     {
+      "repo": "QuantumCoderHack/SMS_BOMBER",
+      "url": "https://github.com/QuantumCoderHack/SMS_BOMBER",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.07,
+      "exposureScore": 20,
+      "topTypes": [
+        "AWS Access Key ID"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "SMS_BOMBER-main/SMS-BOMBER-main/README.md",
+          "line": 5,
+          "source": "file",
+          "preview": "AKIA************K4ZA"
+        }
+      ]
+    },
+    {
       "repo": "SAST-UP-DP-DEV-env/SAST-Test-Repo-a54262fd-e42a-4925-a6d2-f15dcecb3cfb",
       "url": "https://github.com/SAST-UP-DP-DEV-env/SAST-Test-Repo-a54262fd-e42a-4925-a6d2-f15dcecb3cfb",
       "status": "leaked",
@@ -2421,6 +2502,33 @@
           "line": 119,
           "source": "file",
           "preview": "AIza************************2Ucc"
+        }
+      ]
+    },
+    {
+      "repo": "aditirewadkar3/skill_Synk",
+      "url": "https://github.com/aditirewadkar3/skill_Synk",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 86.07,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "skill_Synk-main/mobile/src/config/firebase.js",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************n7CY"
         }
       ]
     },
@@ -2641,6 +2749,33 @@
       ]
     },
     {
+      "repo": "farhanminaaj-blip/eccomerce-dashboard-backend",
+      "url": "https://github.com/farhanminaaj-blip/eccomerce-dashboard-backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 36.6,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "eccomerce-dashboard-backend-main/node_modules/zod/src/v4/mini/tests/string.test.ts",
+          "line": 321,
+          "source": "file",
+          "preview": "eyJh************************sw5c"
+        }
+      ]
+    },
+    {
       "repo": "garywstewart-afk/Context-Hub-for-Hullic",
       "url": "https://github.com/garywstewart-afk/Context-Hub-for-Hullic",
       "status": "leaked",
@@ -2691,6 +2826,33 @@
           "line": 12,
           "source": "file",
           "preview": "8432************************gido"
+        }
+      ]
+    },
+    {
+      "repo": "harjot-cr/BACKEND",
+      "url": "https://github.com/harjot-cr/BACKEND",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 20.31,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "BACKEND-main/src/__tests__/utils/auth.test.ts",
+          "line": 106,
+          "source": "file",
+          "preview": "eyJh************************ture"
         }
       ]
     },
@@ -2826,6 +2988,33 @@
           "line": 159,
           "source": "file",
           "preview": "eyJh************************_Ghc"
+        }
+      ]
+    },
+    {
+      "repo": "leeej9801-max/0313_homework",
+      "url": "https://github.com/leeej9801-max/0313_homework",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.82,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "0313_homework-main/study47/frontend/src/utils/network.js",
+          "line": 8,
+          "source": "file",
+          "preview": "eyJh************************QV30"
         }
       ]
     },
@@ -3042,6 +3231,33 @@
           "line": 14,
           "source": "file",
           "preview": "AIza************************5ppU"
+        }
+      ]
+    },
+    {
+      "repo": "nasrunminallah876-ai/bot",
+      "url": "https://github.com/nasrunminallah876-ai/bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 51.24,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Bot Token"
+      ],
+      "typeCounts": {
+        "Discord Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Bot Token",
+          "file": "bot-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "MTQ4************************cCDs"
         }
       ]
     },
