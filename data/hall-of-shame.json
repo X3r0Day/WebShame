@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T23:31:55.225831+00:00",
+  "generatedAt": "2026-03-13T23:57:24.948043+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -3014,6 +3014,40 @@
       ]
     },
     {
+      "repo": "motichihssan-gif/atelier4-nodejs",
+      "url": "https://github.com/motichihssan-gif/atelier4-nodejs",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.7,
+      "exposureScore": 32,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 2
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "atelier4-nodejs-main/API_TESTS.md",
+          "line": 66,
+          "source": "file",
+          "preview": "eyJh************************ture"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "atelier4-nodejs-main/README.md",
+          "line": 105,
+          "source": "file",
+          "preview": "eyJh************************.sig"
+        }
+      ]
+    },
+    {
       "repo": "ngotskut/Cos",
       "url": "https://github.com/ngotskut/Cos",
       "status": "leaked",
@@ -3760,6 +3794,33 @@
           "line": 30398,
           "source": "commit",
           "preview": "6173************************ICTY"
+        }
+      ]
+    },
+    {
+      "repo": "Nexviuslabs/Dicetek",
+      "url": "https://github.com/Nexviuslabs/Dicetek",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 10.0,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 301b7d3",
+          "line": 402,
+          "source": "commit",
+          "preview": "AIza************************nsaM"
         }
       ]
     },
@@ -5384,6 +5445,33 @@
       ]
     },
     {
+      "repo": "neocodexa/glicktrack",
+      "url": "https://github.com/neocodexa/glicktrack",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.28,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 9ed8f1e",
+          "line": 1941,
+          "source": "commit",
+          "preview": "AIza************************ltB0"
+        }
+      ]
+    },
+    {
       "repo": "nightworms/ticketing-ecoles",
       "url": "https://github.com/nightworms/ticketing-ecoles",
       "status": "leaked",
@@ -5515,6 +5603,33 @@
           "line": 55,
           "source": "commit",
           "preview": "8563************************I8O4"
+        }
+      ]
+    },
+    {
+      "repo": "odzoitod-collab/Antikino",
+      "url": "https://github.com/odzoitod-collab/Antikino",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 12.05,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 88d41c9",
+          "line": 75,
+          "source": "commit",
+          "preview": "eyJh************************FLDY"
         }
       ]
     },
@@ -8111,6 +8226,33 @@
       ]
     },
     {
+      "repo": "SCHNNATTER/Bitmeyecek-site-projesi",
+      "url": "https://github.com/SCHNNATTER/Bitmeyecek-site-projesi",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.89,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Bitmeyecek-site-projesi-main/script.js",
+          "line": 3,
+          "source": "file",
+          "preview": "AIza************************4k7I"
+        }
+      ]
+    },
+    {
       "repo": "Saikiran-12345/resume_buddy",
       "url": "https://github.com/Saikiran-12345/resume_buddy",
       "status": "leaked",
@@ -9218,6 +9360,33 @@
       ]
     },
     {
+      "repo": "desarrolloti-hub/Lucky-appliances",
+      "url": "https://github.com/desarrolloti-hub/Lucky-appliances",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 19.38,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Lucky-appliances-master/config/firebase-config.js",
+          "line": 10,
+          "source": "file",
+          "preview": "AIza************************XSq0"
+        }
+      ]
+    },
+    {
       "repo": "edrinsons1-droid/sumador",
       "url": "https://github.com/edrinsons1-droid/sumador",
       "status": "leaked",
@@ -9488,6 +9657,33 @@
       ]
     },
     {
+      "repo": "gc5858gcv1-afk/gx",
+      "url": "https://github.com/gc5858gcv1-afk/gx",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 29.83,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "gx-main/src/services/aiService.ts",
+          "line": 59,
+          "source": "file",
+          "preview": "AIza************************bLjI"
+        }
+      ]
+    },
+    {
       "repo": "genarotoo/triangulo",
       "url": "https://github.com/genarotoo/triangulo",
       "status": "leaked",
@@ -9700,6 +9896,33 @@
           "line": 20,
           "source": "file",
           "preview": "sk_t************************6971"
+        }
+      ]
+    },
+    {
+      "repo": "hohuuthe/thidua",
+      "url": "https://github.com/hohuuthe/thidua",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 156.1,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "thidua-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************1guE"
         }
       ]
     },
@@ -10838,6 +11061,33 @@
       ]
     },
     {
+      "repo": "mkiw1464-debug/leak-bot",
+      "url": "https://github.com/mkiw1464-debug/leak-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 64.7,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "leak-bot-main/leak.py",
+          "line": 21,
+          "source": "file",
+          "preview": "8737************************qLgw"
+        }
+      ]
+    },
+    {
       "repo": "mladler821/era-foundation",
       "url": "https://github.com/mladler821/era-foundation",
       "status": "leaked",
@@ -11806,6 +12056,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************MmP8"
+        }
+      ]
+    },
+    {
+      "repo": "robsakura/claude-telegram-bot",
+      "url": "https://github.com/robsakura/claude-telegram-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "claude-telegram-bot-master/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "8759************************kkIw"
         }
       ]
     },
