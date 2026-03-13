@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T15:28:54.619816+00:00",
+  "generatedAt": "2026-03-13T16:13:10.799941+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -125,6 +125,68 @@
           "line": 21,
           "source": "file",
           "preview": "8498************************uFH8"
+        }
+      ]
+    },
+    {
+      "repo": "iflaj/MMT-FINAL",
+      "url": "https://github.com/iflaj/MMT-FINAL",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 50,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.12,
+      "exposureScore": 608,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 50
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "MMT-FINAL-main/BACKEND/sql/smm_panel (5).sql",
+          "line": 2505,
+          "source": "file",
+          "preview": "eyJh************************9hJ8"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "MMT-FINAL-main/BACKEND/sql/smm_panel (5).sql",
+          "line": 2506,
+          "source": "file",
+          "preview": "eyJh************************i75w"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "MMT-FINAL-main/BACKEND/sql/smm_panel (5).sql",
+          "line": 2507,
+          "source": "file",
+          "preview": "eyJh************************_KsI"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "MMT-FINAL-main/BACKEND/sql/smm_panel (5).sql",
+          "line": 2508,
+          "source": "file",
+          "preview": "eyJh************************df5Q"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "MMT-FINAL-main/BACKEND/sql/smm_panel (5).sql",
+          "line": 2509,
+          "source": "file",
+          "preview": "eyJh************************I_9I"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "MMT-FINAL-main/BACKEND/sql/smm_panel (5).sql",
+          "line": 2510,
+          "source": "file",
+          "preview": "eyJh************************yPw0"
         }
       ]
     },
@@ -2510,6 +2572,33 @@
       ]
     },
     {
+      "repo": "FlightReplay/FRP",
+      "url": "https://github.com/FlightReplay/FRP",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 44.77,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 33b4b6a",
+          "line": 2533,
+          "source": "commit",
+          "preview": "eyJh************************KOD4"
+        }
+      ]
+    },
+    {
       "repo": "HOFFMAN-CAMPS/HOFFMAN-CAMPS-ADMIN",
       "url": "https://github.com/HOFFMAN-CAMPS/HOFFMAN-CAMPS-ADMIN",
       "status": "leaked",
@@ -2830,6 +2919,60 @@
           "line": 184823,
           "source": "commit",
           "preview": "AIza************************u6eE"
+        }
+      ]
+    },
+    {
+      "repo": "UWM-Libraries/sanborn",
+      "url": "https://github.com/UWM-Libraries/sanborn",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 18.5,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 186afe0",
+          "line": 63,
+          "source": "commit",
+          "preview": "AIza************************rDV0"
+        }
+      ]
+    },
+    {
+      "repo": "Universe-57/I-Love-You-So-Much",
+      "url": "https://github.com/Universe-57/I-Love-You-So-Much",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.33,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit b198890",
+          "line": 74,
+          "source": "commit",
+          "preview": "AIza************************zdsw"
         }
       ]
     },
@@ -3260,6 +3403,33 @@
           "type": "Google API/GCP Key",
           "file": "Commit ac71d18",
           "line": 750,
+          "source": "commit",
+          "preview": "AIza************************A5V4"
+        }
+      ]
+    },
+    {
+      "repo": "gargamel-coder/info-kajianapp",
+      "url": "https://github.com/gargamel-coder/info-kajianapp",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 28.94,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit c67e87a",
+          "line": 804,
           "source": "commit",
           "preview": "AIza************************A5V4"
         }
@@ -4450,6 +4620,33 @@
           "line": 16,
           "source": "file",
           "preview": "8766************************nsJA"
+        }
+      ]
+    },
+    {
+      "repo": "Aaiz07/Tripkro",
+      "url": "https://github.com/Aaiz07/Tripkro",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 111.83,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Tripkro-main/app/context/Firebasecontext.ts",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************8QW8"
         }
       ]
     },
@@ -6047,6 +6244,33 @@
       ]
     },
     {
+      "repo": "arundevvstack/DP-MEDIA-OS",
+      "url": "https://github.com/arundevvstack/DP-MEDIA-OS",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 22.04,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "DP-MEDIA-OS-main/src/firebase/config.ts",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************lor0"
+        }
+      ]
+    },
+    {
       "repo": "asjad1122z-a11y/Ytapi",
       "url": "https://github.com/asjad1122z-a11y/Ytapi",
       "status": "leaked",
@@ -6070,6 +6294,60 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************g4nA"
+        }
+      ]
+    },
+    {
+      "repo": "atharv2196/learn_64",
+      "url": "https://github.com/atharv2196/learn_64",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.2,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "learn_64-main/frontend/src/firebase.js",
+          "line": 8,
+          "source": "file",
+          "preview": "AIza************************KzRE"
+        }
+      ]
+    },
+    {
+      "repo": "atulpokharel-gp/momobot",
+      "url": "https://github.com/atulpokharel-gp/momobot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.88,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "momobot-main/python-agent-platform/agent/local_agent/app/device_state.json",
+          "line": 3,
+          "source": "file",
+          "preview": "eyJh************************qggU"
         }
       ]
     },
@@ -6259,6 +6537,33 @@
           "line": 10,
           "source": "file",
           "preview": "eyJh************************S6iM"
+        }
+      ]
+    },
+    {
+      "repo": "electrofyber/ElectronicUntis",
+      "url": "https://github.com/electrofyber/ElectronicUntis",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 37.42,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "ElectronicUntis-develop/core/api/spec/untis-intern/untis-mobile.yaml",
+          "line": 92,
+          "source": "file",
+          "preview": "eyJh************************sw5c"
         }
       ]
     },
@@ -6475,6 +6780,60 @@
           "line": 10,
           "source": "file",
           "preview": "AIza************************EYq8"
+        }
+      ]
+    },
+    {
+      "repo": "giacomopesaro-collab/vivace_bambino",
+      "url": "https://github.com/giacomopesaro-collab/vivace_bambino",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 160.94,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "vivace_bambino-master/android/app/google-services.json",
+          "line": 31,
+          "source": "file",
+          "preview": "AIza************************XRBI"
+        }
+      ]
+    },
+    {
+      "repo": "guauimpresion3d/cotizador3D",
+      "url": "https://github.com/guauimpresion3d/cotizador3D",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.79,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "cotizador3D-master/Cotizador3D38 (1).py",
+          "line": 14,
+          "source": "file",
+          "preview": "AIza************************lpGA"
         }
       ]
     },
@@ -6853,6 +7212,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************StN0"
+        }
+      ]
+    },
+    {
+      "repo": "kangkan2/sonik",
+      "url": "https://github.com/kangkan2/sonik",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 32.32,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "sonik-main/src/lib/firebase.ts",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************9N6w"
         }
       ]
     },
@@ -7397,6 +7783,33 @@
       ]
     },
     {
+      "repo": "mukeshmgp/new-chatbot",
+      "url": "https://github.com/mukeshmgp/new-chatbot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 21.9,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "new-chatbot-main/chatbot_new_mukesh/script.js",
+          "line": 23,
+          "source": "file",
+          "preview": "AIza************************5mjI"
+        }
+      ]
+    },
+    {
       "repo": "naresh-FD/listsync",
       "url": "https://github.com/naresh-FD/listsync",
       "status": "leaked",
@@ -7474,6 +7887,33 @@
           "line": 54,
           "source": "file",
           "preview": "eyJh************************sc1o"
+        }
+      ]
+    },
+    {
+      "repo": "nhnchau7144-create/HTQLPearlCinema",
+      "url": "https://github.com/nhnchau7144-create/HTQLPearlCinema",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 111.98,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "HTQLPearlCinema-master/qlPhim/UI/Admin/ChatBoxAI/frmChatAI.cs",
+          "line": 29,
+          "source": "file",
+          "preview": "AIza************************GFR0"
         }
       ]
     },
