@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T10:15:41.062912+00:00",
+  "generatedAt": "2026-03-13T10:43:32.058615+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -53,6 +53,72 @@
           "line": 0,
           "source": "commit",
           "preview": "github_pat_****************C91k"
+        }
+      ]
+    },
+    {
+      "repo": "Sanskriti0805/webapp",
+      "url": "https://github.com/Sanskriti0805/webapp",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 7,
+      "uniqueTypes": 3,
+      "filesAffected": 5,
+      "commitFindings": 4,
+      "scanTimeSeconds": 14.17,
+      "exposureScore": 148,
+      "topTypes": [
+        "AWS Access Key ID",
+        "Stripe Secret Key",
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 4,
+        "Supabase Anon/Service Role JWT": 1,
+        "Stripe Secret Key": 2
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "webapp-main/src/lib/comprehend-medical.ts",
+          "line": 9,
+          "source": "file",
+          "preview": "AKIA************XRZA"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "webapp-main/src/lib/qdrant-client.ts",
+          "line": 8,
+          "source": "file",
+          "preview": "eyJh************************8A_k"
+        },
+        {
+          "type": "AWS Access Key ID",
+          "file": "webapp-main/src/lib/s3-client.ts",
+          "line": 5,
+          "source": "file",
+          "preview": "AKIA************S2WX"
+        },
+        {
+          "type": "AWS Access Key ID",
+          "file": "Commit a4fae5d",
+          "line": 18,
+          "source": "commit",
+          "preview": "AKIA************2T3M"
+        },
+        {
+          "type": "Stripe Secret Key",
+          "file": "Commit 981eac6",
+          "line": 16,
+          "source": "commit",
+          "preview": "sk_t************************o3p1"
+        },
+        {
+          "type": "Stripe Secret Key",
+          "file": "Commit 981eac6",
+          "line": 17,
+          "source": "commit",
+          "preview": "sk_t************************wgnZ"
         }
       ]
     },
@@ -855,6 +921,42 @@
       ]
     },
     {
+      "repo": "Mxen-2026/dailynews",
+      "url": "https://github.com/Mxen-2026/dailynews",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 25.38,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Slack Webhook"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Slack Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "dailynews-master/README-EN.md",
+          "line": 1355,
+          "source": "file",
+          "preview": "1234************************m9T0"
+        },
+        {
+          "type": "Slack Webhook",
+          "file": "dailynews-master/README-EN.md",
+          "line": 1710,
+          "source": "file",
+          "preview": "http************************XXXX"
+        }
+      ]
+    },
+    {
       "repo": "shreyaa-hub/Concept-Gap-Detection-System",
       "url": "https://github.com/shreyaa-hub/Concept-Gap-Detection-System",
       "status": "leaked",
@@ -957,6 +1059,40 @@
           "line": 20,
           "source": "file",
           "preview": "sk_t************************Mwqf"
+        }
+      ]
+    },
+    {
+      "repo": "Narayana-04/BloodDonorFinder",
+      "url": "https://github.com/Narayana-04/BloodDonorFinder",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.73,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "BloodDonorFinder-main/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************rM8s"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "BloodDonorFinder-main/app/src/main/AndroidManifest.xml",
+          "line": 29,
+          "source": "file",
+          "preview": "AIza************************62I8"
         }
       ]
     },
@@ -1113,6 +1249,33 @@
           "line": 18,
           "source": "commit",
           "preview": "AIza************************Uv2Q"
+        }
+      ]
+    },
+    {
+      "repo": "C00000L0/Mini-App",
+      "url": "https://github.com/C00000L0/Mini-App",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.78,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit ee2fdee",
+          "line": 681,
+          "source": "commit",
+          "preview": "AIza************************nkPQ"
         }
       ]
     },
@@ -1279,6 +1442,33 @@
       ]
     },
     {
+      "repo": "Thguboy/Online_shop",
+      "url": "https://github.com/Thguboy/Online_shop",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 56.84,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 3a1bd5d",
+          "line": 184823,
+          "source": "commit",
+          "preview": "AIza************************u6eE"
+        }
+      ]
+    },
+    {
       "repo": "abhiram123467/gsoc2026-renaissance-ocr3",
       "url": "https://github.com/abhiram123467/gsoc2026-renaissance-ocr3",
       "status": "leaked",
@@ -1387,6 +1577,33 @@
       ]
     },
     {
+      "repo": "ankushsaha851-svg/Easy-Earning-Zone",
+      "url": "https://github.com/ankushsaha851-svg/Easy-Earning-Zone",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.56,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 34f597d",
+          "line": 306,
+          "source": "commit",
+          "preview": "8428************************xsnM"
+        }
+      ]
+    },
+    {
       "repo": "bqnq-zqnq/bone-zone-cock-shot-meter",
       "url": "https://github.com/bqnq-zqnq/bone-zone-cock-shot-meter",
       "status": "leaked",
@@ -1441,6 +1658,33 @@
       ]
     },
     {
+      "repo": "dhruv-maker-og/test_code_review",
+      "url": "https://github.com/dhruv-maker-og/test_code_review",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.68,
+      "exposureScore": 30,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "Commit e6911d0",
+          "line": 103,
+          "source": "commit",
+          "preview": "ghp_************************xxxx"
+        }
+      ]
+    },
+    {
       "repo": "eliujahirbautistadelacruz-dotcom/hfyfgfygv",
       "url": "https://github.com/eliujahirbautistadelacruz-dotcom/hfyfgfygv",
       "status": "leaked",
@@ -1464,6 +1708,33 @@
           "line": 202,
           "source": "commit",
           "preview": "AIza************************SoFY"
+        }
+      ]
+    },
+    {
+      "repo": "fbiunitedstateagov-commits/qrcodes",
+      "url": "https://github.com/fbiunitedstateagov-commits/qrcodes",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 80.23,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 4f08cc8",
+          "line": 123,
+          "source": "commit",
+          "preview": "AIza************************WHDk"
         }
       ]
     },
@@ -1545,6 +1816,33 @@
           "line": 86,
           "source": "commit",
           "preview": "AIza************************ZgeY"
+        }
+      ]
+    },
+    {
+      "repo": "manyam0258/voice-agent2",
+      "url": "https://github.com/manyam0258/voice-agent2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.93,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit fa82fc9",
+          "line": 141,
+          "source": "commit",
+          "preview": "1234************************xxxx"
         }
       ]
     },
@@ -2008,6 +2306,33 @@
       ]
     },
     {
+      "repo": "yurukusa/env-vars",
+      "url": "https://github.com/yurukusa/env-vars",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.62,
+      "exposureScore": 30,
+      "topTypes": [
+        "AWS Access Key ID"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "Commit a940e85",
+          "line": 114,
+          "source": "commit",
+          "preview": "AKIA************MPLE"
+        }
+      ]
+    },
+    {
       "repo": "2229niku/bos-mss-realtime-bot",
       "url": "https://github.com/2229niku/bos-mss-realtime-bot",
       "status": "leaked",
@@ -2166,6 +2491,33 @@
           "line": 642,
           "source": "file",
           "preview": "8742************************Z5W0"
+        }
+      ]
+    },
+    {
+      "repo": "FloE2/projet-eps-ydm-2026",
+      "url": "https://github.com/FloE2/projet-eps-ydm-2026",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 93.01,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "projet-eps-ydm-2026-main/firebase-config.js",
+          "line": 5,
+          "source": "file",
+          "preview": "AIza************************z_68"
         }
       ]
     },
@@ -2494,6 +2846,33 @@
       ]
     },
     {
+      "repo": "Portaplix/portaplix-web",
+      "url": "https://github.com/Portaplix/portaplix-web",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.71,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "portaplix-web-main/app.js",
+          "line": 4,
+          "source": "file",
+          "preview": "eyJh************************ddgA"
+        }
+      ]
+    },
+    {
       "repo": "PuvaanRaaj/claude-gitlab-analytics",
       "url": "https://github.com/PuvaanRaaj/claude-gitlab-analytics",
       "status": "leaked",
@@ -2625,6 +3004,33 @@
           "line": 28,
           "source": "file",
           "preview": "eyJh************************sg6I"
+        }
+      ]
+    },
+    {
+      "repo": "Sangu5108/Mindscale-v4",
+      "url": "https://github.com/Sangu5108/Mindscale-v4",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.92,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Mindscale-v4-master/api/routers/chatbot.py",
+          "line": 115,
+          "source": "file",
+          "preview": "AIza************************hiNE"
         }
       ]
     },
@@ -3493,6 +3899,33 @@
       ]
     },
     {
+      "repo": "markvdburg/skills-introduction-to-secret-scanning",
+      "url": "https://github.com/markvdburg/skills-introduction-to-secret-scanning",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.25,
+      "exposureScore": 20,
+      "topTypes": [
+        "AWS Access Key ID"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "skills-introduction-to-secret-scanning-main/.github/steps/1-enable-secret-scanning.md",
+          "line": 57,
+          "source": "file",
+          "preview": "AKIA************Z56B"
+        }
+      ]
+    },
+    {
       "repo": "mateobartra-arch/PORTALPROVEEEDOR",
       "url": "https://github.com/mateobartra-arch/PORTALPROVEEEDOR",
       "status": "leaked",
@@ -3597,6 +4030,33 @@
           "line": 14,
           "source": "file",
           "preview": "AIza************************5ppU"
+        }
+      ]
+    },
+    {
+      "repo": "naresh-FD/listsync",
+      "url": "https://github.com/naresh-FD/listsync",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 169.27,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "listsync-main/app/firebase/firebaseConfig.js",
+          "line": 11,
+          "source": "file",
+          "preview": "AIza************************IqnE"
         }
       ]
     },
@@ -3948,6 +4408,33 @@
           "line": 135,
           "source": "file",
           "preview": "AKIA************MPLE"
+        }
+      ]
+    },
+    {
+      "repo": "ubanand36/CollabMate",
+      "url": "https://github.com/ubanand36/CollabMate",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 100.2,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "CollabMate-main/collabmate/static/firebase/firebase-config.js",
+          "line": 3,
+          "source": "file",
+          "preview": "AIza************************RlXE"
         }
       ]
     },
