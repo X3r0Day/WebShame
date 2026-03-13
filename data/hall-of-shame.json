@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T17:39:49.852278+00:00",
+  "generatedAt": "2026-03-13T18:11:40.338252+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -2390,6 +2390,40 @@
       ]
     },
     {
+      "repo": "ngotskut/Cos",
+      "url": "https://github.com/ngotskut/Cos",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.12,
+      "exposureScore": 32,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 2
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Cos-main/README.md",
+          "line": 11,
+          "source": "file",
+          "preview": "8753************************ALVA"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Cos-main/bot.py",
+          "line": 14,
+          "source": "file",
+          "preview": "8766************************qZKU"
+        }
+      ]
+    },
+    {
       "repo": "sripavantejb/dreamahead-frontend",
       "url": "https://github.com/sripavantejb/dreamahead-frontend",
       "status": "leaked",
@@ -2481,6 +2515,33 @@
           "line": 397,
           "source": "commit",
           "preview": "AIza************************Kx7w"
+        }
+      ]
+    },
+    {
+      "repo": "Agiddior/Sanayiibeta.0.0.1",
+      "url": "https://github.com/Agiddior/Sanayiibeta.0.0.1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.21,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit a4f6335",
+          "line": 36,
+          "source": "commit",
+          "preview": "AIza************************qG4k"
         }
       ]
     },
@@ -3916,6 +3977,33 @@
       ]
     },
     {
+      "repo": "joifzeio/saveur-ramen",
+      "url": "https://github.com/joifzeio/saveur-ramen",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 12.48,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 70cfa7f",
+          "line": 24609,
+          "source": "commit",
+          "preview": "eyJh************************d5R8"
+        }
+      ]
+    },
+    {
       "repo": "karolbujnowski23/ai_dev_projects",
       "url": "https://github.com/karolbujnowski23/ai_dev_projects",
       "status": "leaked",
@@ -3993,6 +4081,33 @@
           "line": 141,
           "source": "commit",
           "preview": "1234************************xxxx"
+        }
+      ]
+    },
+    {
+      "repo": "margzy247/Cookiesmail_",
+      "url": "https://github.com/margzy247/Cookiesmail_",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.83,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit d96ea7c",
+          "line": 138,
+          "source": "commit",
+          "preview": "7598************************9J8E"
         }
       ]
     },
@@ -4155,6 +4270,33 @@
           "line": 49,
           "source": "commit",
           "preview": "AIza************************zoMA"
+        }
+      ]
+    },
+    {
+      "repo": "mycardsrewards/mycardsrewards",
+      "url": "https://github.com/mycardsrewards/mycardsrewards",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 17.27,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 8045ea6",
+          "line": 1078,
+          "source": "commit",
+          "preview": "AIza************************V2i0"
         }
       ]
     },
@@ -5212,6 +5354,33 @@
       ]
     },
     {
+      "repo": "Beanstalk0313/beanstalk313-website",
+      "url": "https://github.com/Beanstalk0313/beanstalk313-website",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 50.58,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "beanstalk313-website-main/assets/index-CJTqjKti.js",
+          "line": 43,
+          "source": "file",
+          "preview": "AIza************************NCIo"
+        }
+      ]
+    },
+    {
       "repo": "Chanthan25/legendfilm",
       "url": "https://github.com/Chanthan25/legendfilm",
       "status": "leaked",
@@ -5262,6 +5431,33 @@
           "line": 46,
           "source": "file",
           "preview": "eyJh************************5Qfc"
+        }
+      ]
+    },
+    {
+      "repo": "Clinic-Stats/clinic-web",
+      "url": "https://github.com/Clinic-Stats/clinic-web",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 0.81,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "clinic-web-main/app.js",
+          "line": 9,
+          "source": "file",
+          "preview": "AIza************************UaLg"
         }
       ]
     },
@@ -5968,6 +6164,33 @@
       ]
     },
     {
+      "repo": "MrFrancis89/Stockflow-V985",
+      "url": "https://github.com/MrFrancis89/Stockflow-V985",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 57.18,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Stockflow-V985-main/firebase.js",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************YQ8I"
+        }
+      ]
+    },
+    {
       "repo": "NAHID-TEST-SERVER/msg1",
       "url": "https://github.com/NAHID-TEST-SERVER/msg1",
       "status": "leaked",
@@ -6261,6 +6484,33 @@
           "line": 28,
           "source": "file",
           "preview": "eyJh************************sg6I"
+        }
+      ]
+    },
+    {
+      "repo": "SAZZY1132/Blueeeaj",
+      "url": "https://github.com/SAZZY1132/Blueeeaj",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 18.69,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Blueeeaj-main/js/index-DkVj2L5k.js",
+          "line": 368,
+          "source": "file",
+          "preview": "eyJh************************sBFU"
         }
       ]
     },
@@ -6751,6 +7001,33 @@
       ]
     },
     {
+      "repo": "abdouni493/coiffeur-x",
+      "url": "https://github.com/abdouni493/coiffeur-x",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.27,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "coiffeur-x-main/SETUP.md",
+          "line": 176,
+          "source": "file",
+          "preview": "eyJh************************3ghc"
+        }
+      ]
+    },
+    {
       "repo": "abdulazeezm-spiderindia/ChennaiLive",
       "url": "https://github.com/abdulazeezm-spiderindia/ChennaiLive",
       "status": "leaked",
@@ -6859,6 +7136,33 @@
       ]
     },
     {
+      "repo": "akupaloheimo/dynamic-survey-app",
+      "url": "https://github.com/akupaloheimo/dynamic-survey-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.09,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "dynamic-survey-app-master/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************tB2o"
+        }
+      ]
+    },
+    {
       "repo": "alai-ali/bsmlh18",
       "url": "https://github.com/alai-ali/bsmlh18",
       "status": "leaked",
@@ -6909,6 +7213,33 @@
           "line": 82,
           "source": "file",
           "preview": "AIza************************7bVM"
+        }
+      ]
+    },
+    {
+      "repo": "andries659/mafia-web-game",
+      "url": "https://github.com/andries659/mafia-web-game",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 170.33,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "mafia-web-game-main/src/App.jsx",
+          "line": 17,
+          "source": "file",
+          "preview": "AIza************************xSlc"
         }
       ]
     },
@@ -7692,6 +8023,33 @@
           "line": 342,
           "source": "file",
           "preview": "8163************************N17k"
+        }
+      ]
+    },
+    {
+      "repo": "janakiramankannan221-dot/fees-management",
+      "url": "https://github.com/janakiramankannan221-dot/fees-management",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 113.04,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "fees-management-main/firebase-config.js",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************5X60"
         }
       ]
     },
@@ -8961,6 +9319,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************J0Eo"
+        }
+      ]
+    },
+    {
+      "repo": "qwertyuiopqaz787898-source/VocabAI",
+      "url": "https://github.com/qwertyuiopqaz787898-source/VocabAI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.65,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "VocabAI-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************IHl0"
         }
       ]
     },
