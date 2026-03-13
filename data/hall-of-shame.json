@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T18:48:47.834906+00:00",
+  "generatedAt": "2026-03-13T19:33:52.233594+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -726,6 +726,72 @@
       ]
     },
     {
+      "repo": "kennethwolters/lite-lm",
+      "url": "https://github.com/kennethwolters/lite-lm",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 7,
+      "uniqueTypes": 3,
+      "filesAffected": 5,
+      "commitFindings": 0,
+      "scanTimeSeconds": 60.7,
+      "exposureScore": 108,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT",
+        "AWS Session Token",
+        "AWS Access Key ID"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 5,
+        "AWS Session Token": 1,
+        "AWS Access Key ID": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "lite-lm-main/tests/ported/llm_translation/test_bedrock_agentcore.py",
+          "line": 268,
+          "source": "file",
+          "preview": "eyJh************************ture"
+        },
+        {
+          "type": "AWS Session Token",
+          "file": "lite-lm-main/tests/ported/local_testing/test_amazing_vertex_completion.py",
+          "line": 3341,
+          "source": "file",
+          "preview": "ASIA************ODV3"
+        },
+        {
+          "type": "AWS Access Key ID",
+          "file": "lite-lm-main/tests/ported/router_unit_tests/test_router_helper_utils.py",
+          "line": 173,
+          "source": "file",
+          "preview": "AKIA************MPLE"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "lite-lm-main/tests/ported/test_litellm/proxy/client/cli/test_auth_commands.py",
+          "line": 200,
+          "source": "file",
+          "preview": "eyJh************************.jwt"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "lite-lm-main/tests/ported/test_litellm/proxy/client/cli/test_auth_commands.py",
+          "line": 476,
+          "source": "file",
+          "preview": "eyJh************************.jwt"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "lite-lm-main/tests/ported/test_litellm/proxy/client/cli/test_auth_commands.py",
+          "line": 533,
+          "source": "file",
+          "preview": "eyJh************************.jwt"
+        }
+      ]
+    },
+    {
       "repo": "nordeim/safe-openclaw-skills",
       "url": "https://github.com/nordeim/safe-openclaw-skills",
       "status": "leaked",
@@ -1329,6 +1395,42 @@
           "line": 3147,
           "source": "commit",
           "preview": "AIza************************k_vk"
+        }
+      ]
+    },
+    {
+      "repo": "alarconjefred/SuperFastApp",
+      "url": "https://github.com/alarconjefred/SuperFastApp",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 2,
+      "scanTimeSeconds": 12.65,
+      "exposureScore": 60,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT",
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1,
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 71574c6",
+          "line": 56,
+          "source": "commit",
+          "preview": "eyJh************************5Ieo"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit f991420",
+          "line": 34,
+          "source": "commit",
+          "preview": "AIza************************dWu8"
         }
       ]
     },
@@ -1947,6 +2049,42 @@
       ]
     },
     {
+      "repo": "Patil-Dhananjay-Traveller/-NeuroLearn",
+      "url": "https://github.com/Patil-Dhananjay-Traveller/-NeuroLearn",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 27.62,
+      "exposureScore": 40,
+      "topTypes": [
+        "Groq API Key",
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1,
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "-NeuroLearn-main/SLD1/js/ai_chat.js",
+          "line": 7,
+          "source": "file",
+          "preview": "gsk_************************Ir0B"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "-NeuroLearn-main/SLD1/js/video-learning.js",
+          "line": 8,
+          "source": "file",
+          "preview": "AIza************************JYZU"
+        }
+      ]
+    },
+    {
       "repo": "angelobordinbrventures/aigateway-interceptor",
       "url": "https://github.com/angelobordinbrventures/aigateway-interceptor",
       "status": "leaked",
@@ -1979,6 +2117,42 @@
           "line": 98,
           "source": "file",
           "preview": "ghp_************************ghij"
+        }
+      ]
+    },
+    {
+      "repo": "mane-yash/Stash-Dashboard",
+      "url": "https://github.com/mane-yash/Stash-Dashboard",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.97,
+      "exposureScore": 40,
+      "topTypes": [
+        "Google API/GCP Key",
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Stash-Dashboard-main/src/App.tsx",
+          "line": 13,
+          "source": "file",
+          "preview": "AIza************************Q02c"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Stash-Dashboard-main/src/supabaseClient.ts",
+          "line": 5,
+          "source": "file",
+          "preview": "eyJh************************Lgvw"
         }
       ]
     },
@@ -2533,6 +2707,33 @@
       ]
     },
     {
+      "repo": "0xgraph-pro/royal-city436-poc",
+      "url": "https://github.com/0xgraph-pro/royal-city436-poc",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 71.5,
+      "exposureScore": 30,
+      "topTypes": [
+        "AWS Access Key ID"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "Commit 5403982",
+          "line": 17522,
+          "source": "commit",
+          "preview": "AKIA************MPLE"
+        }
+      ]
+    },
+    {
       "repo": "88Ahad/Raz-Home-Automation-APP",
       "url": "https://github.com/88Ahad/Raz-Home-Automation-APP",
       "status": "leaked",
@@ -2610,6 +2811,33 @@
           "line": 259,
           "source": "commit",
           "preview": "AIza************************jAMQ"
+        }
+      ]
+    },
+    {
+      "repo": "Antho6262/Site-24-24",
+      "url": "https://github.com/Antho6262/Site-24-24",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 40.34,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit e76a9cd",
+          "line": 30,
+          "source": "commit",
+          "preview": "http************************xIWz"
         }
       ]
     },
@@ -4234,6 +4462,33 @@
       ]
     },
     {
+      "repo": "luisofficialbusiness-afk/nrg-lite",
+      "url": "https://github.com/luisofficialbusiness-afk/nrg-lite",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 135.71,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 6d8a0ed",
+          "line": 3576,
+          "source": "commit",
+          "preview": "AIza************************9xVY"
+        }
+      ]
+    },
+    {
       "repo": "manyam0258/voice-agent2",
       "url": "https://github.com/manyam0258/voice-agent2",
       "status": "leaked",
@@ -4473,6 +4728,33 @@
           "line": 1078,
           "source": "commit",
           "preview": "AIza************************V2i0"
+        }
+      ]
+    },
+    {
+      "repo": "namanofficial9509/Prototype-careerTech-",
+      "url": "https://github.com/namanofficial9509/Prototype-careerTech-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 13.06,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 715fb5e",
+          "line": 64,
+          "source": "commit",
+          "preview": "AIza************************fJ3s"
         }
       ]
     },
@@ -5530,6 +5812,33 @@
       ]
     },
     {
+      "repo": "Amadousn/Vinted-assist",
+      "url": "https://github.com/Amadousn/Vinted-assist",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 25.5,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Vinted-assist-main/server.js",
+          "line": 12,
+          "source": "file",
+          "preview": "AIza************************r1d0"
+        }
+      ]
+    },
+    {
       "repo": "Anirudh-240701039/Project",
       "url": "https://github.com/Anirudh-240701039/Project",
       "status": "leaked",
@@ -5850,6 +6159,33 @@
           "line": 2,
           "source": "file",
           "preview": "AIza************************ZK4Y"
+        }
+      ]
+    },
+    {
+      "repo": "FabioFelixdeSouza/tv-sg-final",
+      "url": "https://github.com/FabioFelixdeSouza/tv-sg-final",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 19.58,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "tv-sg-final-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************BWis"
         }
       ]
     },
@@ -6471,6 +6807,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************86R0"
+        }
+      ]
+    },
+    {
+      "repo": "NAMAN2806/Psychological-works-",
+      "url": "https://github.com/NAMAN2806/Psychological-works-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.74,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Psychological-works--main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************zKl4"
         }
       ]
     },
@@ -8149,6 +8512,33 @@
       ]
     },
     {
+      "repo": "gustavoagpx/aiox-core",
+      "url": "https://github.com/gustavoagpx/aiox-core",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 54.98,
+      "exposureScore": 20,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "aiox-core-main/docs/es/guides/security-hardening.md",
+          "line": 114,
+          "source": "file",
+          "preview": "ghp_************************xxxx"
+        }
+      ]
+    },
+    {
       "repo": "hakondalsbo/kulturvarsling",
       "url": "https://github.com/hakondalsbo/kulturvarsling",
       "status": "leaked",
@@ -8334,6 +8724,33 @@
           "line": 342,
           "source": "file",
           "preview": "8163************************N17k"
+        }
+      ]
+    },
+    {
+      "repo": "ilyakochurov555-spec/KazikBot2.0",
+      "url": "https://github.com/ilyakochurov555-spec/KazikBot2.0",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.77,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "KazikBot2.0-main/Program.cs",
+          "line": 5,
+          "source": "file",
+          "preview": "8462************************P0f4"
         }
       ]
     },
@@ -9171,6 +9588,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************DVDg"
+        }
+      ]
+    },
+    {
+      "repo": "mthielen16/gemini_didaktik",
+      "url": "https://github.com/mthielen16/gemini_didaktik",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.72,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "gemini_didaktik-main/ki_test.py",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************2zC0"
         }
       ]
     },
@@ -10066,6 +10510,33 @@
       ]
     },
     {
+      "repo": "tiagomedic/prevvine-discovery-form",
+      "url": "https://github.com/tiagomedic/prevvine-discovery-form",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 93.68,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "prevvine-discovery-form-main/DiscoveryForm.jsx",
+          "line": 16,
+          "source": "file",
+          "preview": "eyJh************************VlQM"
+        }
+      ]
+    },
+    {
       "repo": "tlogomasjokweb-spec/tlogomas-jok-motor",
       "url": "https://github.com/tlogomasjokweb-spec/tlogomas-jok-motor",
       "status": "leaked",
@@ -10251,6 +10722,33 @@
           "line": 2,
           "source": "file",
           "preview": "AIza************************9m1o"
+        }
+      ]
+    },
+    {
+      "repo": "zohan22/samuel-canchahub",
+      "url": "https://github.com/zohan22/samuel-canchahub",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.45,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "samuel-canchahub-main/docs/testing/api/authentication.md",
+          "line": 130,
+          "source": "file",
+          "preview": "eyJh************************xwRJ"
         }
       ]
     }
