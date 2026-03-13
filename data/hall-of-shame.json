@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T21:06:35.367631+00:00",
+  "generatedAt": "2026-03-13T21:39:36.492459+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -3212,6 +3212,33 @@
       ]
     },
     {
+      "repo": "CyberPhantom007/g2credito-crm",
+      "url": "https://github.com/CyberPhantom007/g2credito-crm",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.44,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 022a67d",
+          "line": 461,
+          "source": "commit",
+          "preview": "AIza************************D8Xw"
+        }
+      ]
+    },
+    {
       "repo": "DOGGYU1X/Unblocked-OS",
       "url": "https://github.com/DOGGYU1X/Unblocked-OS",
       "status": "leaked",
@@ -4589,6 +4616,33 @@
       ]
     },
     {
+      "repo": "ingagim1ingagim1-spec/aa",
+      "url": "https://github.com/ingagim1ingagim1-spec/aa",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.4,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 7eb5be9",
+          "line": 207,
+          "source": "commit",
+          "preview": "AIza************************EV8Q"
+        }
+      ]
+    },
+    {
       "repo": "jedag5860-boop/Allweblinkyann",
       "url": "https://github.com/jedag5860-boop/Allweblinkyann",
       "status": "leaked",
@@ -5939,6 +5993,33 @@
       ]
     },
     {
+      "repo": "willcee127/Eon-Ark",
+      "url": "https://github.com/willcee127/Eon-Ark",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.73,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit a069f96",
+          "line": 2504,
+          "source": "commit",
+          "preview": "eyJh************************J8Ck"
+        }
+      ]
+    },
+    {
       "repo": "wunders-5/Bks-hub",
       "url": "https://github.com/wunders-5/Bks-hub",
       "status": "leaked",
@@ -6880,6 +6961,33 @@
           "line": 5,
           "source": "file",
           "preview": "8778************************ri20"
+        }
+      ]
+    },
+    {
+      "repo": "Ithan25/calendrier",
+      "url": "https://github.com/Ithan25/calendrier",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.21,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "calendrier-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************NRMc"
         }
       ]
     },
@@ -9476,6 +9584,33 @@
       ]
     },
     {
+      "repo": "jonnyxtar41/edulogger",
+      "url": "https://github.com/jonnyxtar41/edulogger",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 69.83,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "edulogger-main/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "eyJh************************YUvY"
+        }
+      ]
+    },
+    {
       "repo": "jpmigny-lab/AppBTP1",
       "url": "https://github.com/jpmigny-lab/AppBTP1",
       "status": "leaked",
@@ -9665,6 +9800,33 @@
       ]
     },
     {
+      "repo": "kolawole5069-creator/latest-",
+      "url": "https://github.com/kolawole5069-creator/latest-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 40.89,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "latest--main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************s3gE"
+        }
+      ]
+    },
+    {
       "repo": "kustus/shelly-3em-bridge-ha",
       "url": "https://github.com/kustus/shelly-3em-bridge-ha",
       "status": "leaked",
@@ -9715,6 +9877,33 @@
           "line": 8,
           "source": "file",
           "preview": "eyJh************************QV30"
+        }
+      ]
+    },
+    {
+      "repo": "lorincznana/animal_shelter_thesis",
+      "url": "https://github.com/lorincznana/animal_shelter_thesis",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 23.1,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "animal_shelter_thesis-master/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "AIza************************8CuQ"
         }
       ]
     },
@@ -10012,6 +10201,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************xufY"
+        }
+      ]
+    },
+    {
+      "repo": "maximdear49-byte/crypto-ai-bot",
+      "url": "https://github.com/maximdear49-byte/crypto-ai-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.55,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "crypto-ai-bot-main/bot.py",
+          "line": 7,
+          "source": "file",
+          "preview": "8724************************FSq4"
         }
       ]
     },
