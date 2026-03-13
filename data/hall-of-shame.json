@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T07:28:48.652574+00:00",
+  "generatedAt": "2026-03-13T08:08:11.959988+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -278,6 +278,54 @@
       ]
     },
     {
+      "repo": "ChizhongWang/veri-glow.com",
+      "url": "https://github.com/ChizhongWang/veri-glow.com",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 2,
+      "scanTimeSeconds": 163.91,
+      "exposureScore": 76,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 4
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "veri-glow.com-main/maps.json",
+          "line": 702,
+          "source": "file",
+          "preview": "http************************son\\"
+        },
+        {
+          "type": "Firebase Database URL",
+          "file": "veri-glow.com-main/maps.json",
+          "line": 721,
+          "source": "file",
+          "preview": "http************************son\\"
+        },
+        {
+          "type": "Firebase Database URL",
+          "file": "Commit d28ad98",
+          "line": 14082,
+          "source": "commit",
+          "preview": "http************************json"
+        },
+        {
+          "type": "Firebase Database URL",
+          "file": "Commit d28ad98",
+          "line": 14134,
+          "source": "commit",
+          "preview": "http************************json"
+        }
+      ]
+    },
+    {
       "repo": "ksjaheerusa-del/mexicon-restro",
       "url": "https://github.com/ksjaheerusa-del/mexicon-restro",
       "status": "leaked",
@@ -442,6 +490,40 @@
           "line": 230,
           "source": "commit",
           "preview": "8639************************DsWs"
+        }
+      ]
+    },
+    {
+      "repo": "Undisputed18/collabcart-stk-push",
+      "url": "https://github.com/Undisputed18/collabcart-stk-push",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 104.42,
+      "exposureScore": 52,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 2
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit aac63f3",
+          "line": 81,
+          "source": "commit",
+          "preview": "eyJh************************i1Uc"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit aac63f3",
+          "line": 82,
+          "source": "commit",
+          "preview": "eyJh************************DWs8"
         }
       ]
     },
@@ -636,6 +718,42 @@
       ]
     },
     {
+      "repo": "yogyoung-code/trendradar",
+      "url": "https://github.com/yogyoung-code/trendradar",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 80.84,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Slack Webhook"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Slack Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "trendradar-master/README-EN.md",
+          "line": 1355,
+          "source": "file",
+          "preview": "1234************************m9T0"
+        },
+        {
+          "type": "Slack Webhook",
+          "file": "trendradar-master/README-EN.md",
+          "line": 1710,
+          "source": "file",
+          "preview": "http************************XXXX"
+        }
+      ]
+    },
+    {
       "repo": "GermaineGLS/IS213-Poskitix",
       "url": "https://github.com/GermaineGLS/IS213-Poskitix",
       "status": "leaked",
@@ -815,6 +933,33 @@
           "line": 1762,
           "source": "commit",
           "preview": "AIza************************dKJU"
+        }
+      ]
+    },
+    {
+      "repo": "Dechawat-Wetprasit/smart-class-app-midterm",
+      "url": "https://github.com/Dechawat-Wetprasit/smart-class-app-midterm",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 16.7,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit efc3b29",
+          "line": 3005,
+          "source": "commit",
+          "preview": "AIza************************RW8g"
         }
       ]
     },
@@ -1251,6 +1396,33 @@
       ]
     },
     {
+      "repo": "ptaopenhour-byte/admin",
+      "url": "https://github.com/ptaopenhour-byte/admin",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 63.71,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 504753b",
+          "line": 460,
+          "source": "commit",
+          "preview": "AIza************************QPV4"
+        }
+      ]
+    },
+    {
       "repo": "qasad242-max/GIFTHUB",
       "url": "https://github.com/qasad242-max/GIFTHUB",
       "status": "leaked",
@@ -1355,6 +1527,33 @@
           "line": 462,
           "source": "commit",
           "preview": "eyJh************************yYW0"
+        }
+      ]
+    },
+    {
+      "repo": "tk56impulse/nexusflow",
+      "url": "https://github.com/tk56impulse/nexusflow",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 19.32,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 566c654",
+          "line": 9504,
+          "source": "commit",
+          "preview": "AIza************************qLrQ"
         }
       ]
     },
@@ -1517,6 +1716,33 @@
           "line": 642,
           "source": "file",
           "preview": "8742************************Z5W0"
+        }
+      ]
+    },
+    {
+      "repo": "IlnurSh/web_appss",
+      "url": "https://github.com/IlnurSh/web_appss",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 22.51,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "web_appss-main/bot.py",
+          "line": 5,
+          "source": "file",
+          "preview": "8778************************ri20"
         }
       ]
     },
@@ -2601,6 +2827,33 @@
       ]
     },
     {
+      "repo": "popipouppip/CreatorFlow",
+      "url": "https://github.com/popipouppip/CreatorFlow",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.23,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "CreatorFlow-master/firebase-config.js",
+          "line": 2,
+          "source": "file",
+          "preview": "AIza************************quZ8"
+        }
+      ]
+    },
+    {
       "repo": "r9594122-debug/primeiro-projeto",
       "url": "https://github.com/r9594122-debug/primeiro-projeto",
       "status": "leaked",
@@ -2705,6 +2958,87 @@
           "line": 51,
           "source": "file",
           "preview": "8350************************-Kug"
+        }
+      ]
+    },
+    {
+      "repo": "sumreen7/llm-critique-loop",
+      "url": "https://github.com/sumreen7/llm-critique-loop",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.76,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "llm-critique-loop-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "sk-o************************69d3"
+        }
+      ]
+    },
+    {
+      "repo": "sumsankar/repo-intel",
+      "url": "https://github.com/sumsankar/repo-intel",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 47.41,
+      "exposureScore": 20,
+      "topTypes": [
+        "AWS Access Key ID"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "repo-intel-main/engineering/coding-standards.md",
+          "line": 135,
+          "source": "file",
+          "preview": "AKIA************MPLE"
+        }
+      ]
+    },
+    {
+      "repo": "wagnistrip/testingProject",
+      "url": "https://github.com/wagnistrip/testingProject",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 26.07,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "testingProject-master/frontend/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************lHyU"
         }
       ]
     }
