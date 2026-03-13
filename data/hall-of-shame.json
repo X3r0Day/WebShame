@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T16:13:10.799941+00:00",
+  "generatedAt": "2026-03-13T16:56:00.698166+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -1544,6 +1544,40 @@
       ]
     },
     {
+      "repo": "pedroscherdi/apppsssssss",
+      "url": "https://github.com/pedroscherdi/apppsssssss",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 11.86,
+      "exposureScore": 52,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 8e0506a",
+          "line": 31,
+          "source": "commit",
+          "preview": "AIza************************bRKk"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 8e0506a",
+          "line": 1696,
+          "source": "commit",
+          "preview": "AIza************************wpG0"
+        }
+      ]
+    },
+    {
       "repo": "bradboucher/mcgrawhill",
       "url": "https://github.com/bradboucher/mcgrawhill",
       "status": "leaked",
@@ -2572,6 +2606,33 @@
       ]
     },
     {
+      "repo": "EdemGaziev/Our-Memories",
+      "url": "https://github.com/EdemGaziev/Our-Memories",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 13.23,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 912b47b",
+          "line": 205,
+          "source": "commit",
+          "preview": "eyJh************************G8vk"
+        }
+      ]
+    },
+    {
       "repo": "FlightReplay/FRP",
       "url": "https://github.com/FlightReplay/FRP",
       "status": "leaked",
@@ -2784,6 +2845,33 @@
           "line": 71,
           "source": "commit",
           "preview": "AIza************************7j88"
+        }
+      ]
+    },
+    {
+      "repo": "PlaneacionDimsa/Mercadolibre",
+      "url": "https://github.com/PlaneacionDimsa/Mercadolibre",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 52.45,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit e5eec1a",
+          "line": 35,
+          "source": "commit",
+          "preview": "AIza************************El7E"
         }
       ]
     },
@@ -3243,6 +3331,33 @@
           "line": 556,
           "source": "commit",
           "preview": "AIza************************dfww"
+        }
+      ]
+    },
+    {
+      "repo": "bubsrwz-a11y/K7-",
+      "url": "https://github.com/bubsrwz-a11y/K7-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 6.72,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit b6330d8",
+          "line": 31,
+          "source": "commit",
+          "preview": "http************************7WCQ"
         }
       ]
     },
@@ -4246,6 +4361,33 @@
       ]
     },
     {
+      "repo": "ronysikder143/rony",
+      "url": "https://github.com/ronysikder143/rony",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 60.71,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit d3d7732",
+          "line": 36,
+          "source": "commit",
+          "preview": "eyJh************************WM2M"
+        }
+      ]
+    },
+    {
       "repo": "sallywalid208-a11y/sallywalid208-a11y.github.io",
       "url": "https://github.com/sallywalid208-a11y/sallywalid208-a11y.github.io",
       "status": "leaked",
@@ -4377,6 +4519,33 @@
           "line": 568,
           "source": "commit",
           "preview": "eyJh************************TbEE"
+        }
+      ]
+    },
+    {
+      "repo": "tamaral-tech/seo-report-launcher",
+      "url": "https://github.com/tamaral-tech/seo-report-launcher",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 91.82,
+      "exposureScore": 30,
+      "topTypes": [
+        "GitHub Fine-Grained PAT"
+      ],
+      "typeCounts": {
+        "GitHub Fine-Grained PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Fine-Grained PAT",
+          "file": "Commit 0921f90",
+          "line": 204,
+          "source": "commit",
+          "preview": "gith************************TzDh"
         }
       ]
     },
@@ -4755,6 +4924,60 @@
           "line": 1,
           "source": "file",
           "preview": "AIza************************qcW8"
+        }
+      ]
+    },
+    {
+      "repo": "Atharvatare/Green-Root",
+      "url": "https://github.com/Atharvatare/Green-Root",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.26,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Green-Root-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************zg7Y"
+        }
+      ]
+    },
+    {
+      "repo": "Chanthan25/legendfilm",
+      "url": "https://github.com/Chanthan25/legendfilm",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.09,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "legendfilm-main/src/lib/supabase.ts",
+          "line": 4,
+          "source": "file",
+          "preview": "eyJh************************X01A"
         }
       ]
     },
@@ -6082,6 +6305,33 @@
       ]
     },
     {
+      "repo": "aadukr5284-ops/Song-bot",
+      "url": "https://github.com/aadukr5284-ops/Song-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 23.38,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Song-bot-main/main.py",
+          "line": 37,
+          "source": "file",
+          "preview": "8772************************WNpc"
+        }
+      ]
+    },
+    {
       "repo": "aaravroy526-hub/toy-sales",
       "url": "https://github.com/aaravroy526-hub/toy-sales",
       "status": "leaked",
@@ -6186,6 +6436,33 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************n7CY"
+        }
+      ]
+    },
+    {
+      "repo": "aka-cell/EWasteHub-Source-Tree",
+      "url": "https://github.com/aka-cell/EWasteHub-Source-Tree",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.33,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "EWasteHub-Source-Tree-main/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************d7CY"
         }
       ]
     },
@@ -7779,6 +8056,33 @@
           "line": 14,
           "source": "file",
           "preview": "AIza************************5ppU"
+        }
+      ]
+    },
+    {
+      "repo": "mukeshmgp/muki",
+      "url": "https://github.com/mukeshmgp/muki",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 41.53,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "muki-main/mukesh_23ucs755/script.js",
+          "line": 23,
+          "source": "file",
+          "preview": "AIza************************-YMo"
         }
       ]
     },
