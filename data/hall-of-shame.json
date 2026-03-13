@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T14:47:46.178314+00:00",
+  "generatedAt": "2026-03-13T15:28:54.619816+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -2022,6 +2022,74 @@
       ]
     },
     {
+      "repo": "Himanshigarg11/microloans",
+      "url": "https://github.com/Himanshigarg11/microloans",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.0,
+      "exposureScore": 32,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 2
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "microloans-main/apps/web/e2e/flows.spec.js",
+          "line": 24,
+          "source": "file",
+          "preview": "eyJh************************ture"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "microloans-main/apps/web/e2e/forms.spec.js",
+          "line": 4,
+          "source": "file",
+          "preview": "eyJh************************ture"
+        }
+      ]
+    },
+    {
+      "repo": "Jatin1254/EduCat",
+      "url": "https://github.com/Jatin1254/EduCat",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.35,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "EduCat-main/Screens/ChatBot.js",
+          "line": 13,
+          "source": "file",
+          "preview": "AIza************************X1tM"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "EduCat-main/Screens/loginScreen.js",
+          "line": 32,
+          "source": "file",
+          "preview": "AIza************************TXSE"
+        }
+      ]
+    },
+    {
       "repo": "Narayana-04/BloodDonorFinder",
       "url": "https://github.com/Narayana-04/BloodDonorFinder",
       "status": "leaked",
@@ -2577,6 +2645,33 @@
       ]
     },
     {
+      "repo": "NourEhab-del/Fazoure.M",
+      "url": "https://github.com/NourEhab-del/Fazoure.M",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 10.93,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 5d366f4",
+          "line": 64,
+          "source": "commit",
+          "preview": "AIza************************dDqA"
+        }
+      ]
+    },
+    {
       "repo": "PahlawanKesiangan-dot/nando-print-web",
       "url": "https://github.com/PahlawanKesiangan-dot/nando-print-web",
       "status": "leaked",
@@ -2870,6 +2965,33 @@
           "line": 306,
           "source": "commit",
           "preview": "8428************************xsnM"
+        }
+      ]
+    },
+    {
+      "repo": "anulekshmird/cora_aiproject",
+      "url": "https://github.com/anulekshmird/cora_aiproject",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 9.73,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit e60580d",
+          "line": 15,
+          "source": "commit",
+          "preview": "AIza************************tZWA"
         }
       ]
     },
@@ -4170,6 +4292,33 @@
       ]
     },
     {
+      "repo": "vaishu109/HTML",
+      "url": "https://github.com/vaishu109/HTML",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 24.71,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 7cd2f2a",
+          "line": 4455,
+          "source": "commit",
+          "preview": "AIza************************1HRE"
+        }
+      ]
+    },
+    {
       "repo": "wunders-5/Bks-hub",
       "url": "https://github.com/wunders-5/Bks-hub",
       "status": "leaked",
@@ -4733,6 +4882,33 @@
           "line": 5,
           "source": "file",
           "preview": "8778************************ri20"
+        }
+      ]
+    },
+    {
+      "repo": "JaniceHernandez/NUE-Laboratory-Usage-Log",
+      "url": "https://github.com/JaniceHernandez/NUE-Laboratory-Usage-Log",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 175.67,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "NUE-Laboratory-Usage-Log-main/src/firebase/config.ts",
+          "line": 2,
+          "source": "file",
+          "preview": "AIza************************UuDU"
         }
       ]
     },
@@ -6303,6 +6479,33 @@
       ]
     },
     {
+      "repo": "hakondalsbo/kulturvarsling",
+      "url": "https://github.com/hakondalsbo/kulturvarsling",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.16,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "kulturvarsling-main/App.tsx",
+          "line": 7,
+          "source": "file",
+          "preview": "eyJh************************GjOI"
+        }
+      ]
+    },
+    {
       "repo": "harjot-cr/BACKEND",
       "url": "https://github.com/harjot-cr/BACKEND",
       "status": "leaked",
@@ -7595,6 +7798,33 @@
           "line": 5,
           "source": "file",
           "preview": "eyJh************************FKow"
+        }
+      ]
+    },
+    {
+      "repo": "ravi755667kumar-del/Spam-email-detection",
+      "url": "https://github.com/ravi755667kumar-del/Spam-email-detection",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.08,
+      "exposureScore": 20,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "Spam-email-detection-main/backend/spam_processor.py",
+          "line": 194,
+          "source": "file",
+          "preview": "gsk_************************37av"
         }
       ]
     },
