@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T08:08:11.959988+00:00",
+  "generatedAt": "2026-03-13T08:51:03.055620+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -458,6 +458,47 @@
       ]
     },
     {
+      "repo": "Snehashish-M/FINAL_gate_app",
+      "url": "https://github.com/Snehashish-M/FINAL_gate_app",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 2,
+      "scanTimeSeconds": 11.38,
+      "exposureScore": 64,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 3
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "FINAL_gate_app-main/android/app/google-services.json",
+          "line": 23,
+          "source": "file",
+          "preview": "AIza************************nzK0"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit f5d8cfe",
+          "line": 3470,
+          "source": "commit",
+          "preview": "AIza************************xNXM"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit f5d8cfe",
+          "line": 3480,
+          "source": "commit",
+          "preview": "AIza************************A5Zk"
+        }
+      ]
+    },
+    {
       "repo": "radioestilo/Venta",
       "url": "https://github.com/radioestilo/Venta",
       "status": "leaked",
@@ -646,6 +687,42 @@
       ]
     },
     {
+      "repo": "KristianVangsnes/automations-test-target",
+      "url": "https://github.com/KristianVangsnes/automations-test-target",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 0.95,
+      "exposureScore": 40,
+      "topTypes": [
+        "GitHub Classic PAT",
+        "AWS Access Key ID"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1,
+        "AWS Access Key ID": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "automations-test-target-main/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "ghp_************************xxxx"
+        },
+        {
+          "type": "AWS Access Key ID",
+          "file": "automations-test-target-main/src/utils.py",
+          "line": 1,
+          "source": "file",
+          "preview": "AKIA************MPLE"
+        }
+      ]
+    },
+    {
       "repo": "LyCaN7z/Pro",
       "url": "https://github.com/LyCaN7z/Pro",
       "status": "leaked",
@@ -818,6 +895,40 @@
           "line": 2,
           "source": "file",
           "preview": "ghp_************************ONKE"
+        }
+      ]
+    },
+    {
+      "repo": "aarishascension/RentMeRoom",
+      "url": "https://github.com/aarishascension/RentMeRoom",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 45.55,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "RentMeRoom-master/app.json",
+          "line": 22,
+          "source": "file",
+          "preview": "AIza************************2x9I"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "RentMeRoom-master/src/config/maps.js",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************Gs4E"
         }
       ]
     },
@@ -1018,6 +1129,33 @@
       ]
     },
     {
+      "repo": "abhiram123467/gsoc2026-renaissance-ocr3",
+      "url": "https://github.com/abhiram123467/gsoc2026-renaissance-ocr3",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.17,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 3b5a52e",
+          "line": 3226,
+          "source": "commit",
+          "preview": "AIza************************K5Fw"
+        }
+      ]
+    },
+    {
       "repo": "ahmadzulham985-commits/sebeleww.io",
       "url": "https://github.com/ahmadzulham985-commits/sebeleww.io",
       "status": "leaked",
@@ -1068,6 +1206,33 @@
           "line": 721,
           "source": "commit",
           "preview": "AIza************************nXVw"
+        }
+      ]
+    },
+    {
+      "repo": "alankwok321/scislice",
+      "url": "https://github.com/alankwok321/scislice",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 47.13,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit a001911",
+          "line": 103,
+          "source": "commit",
+          "preview": "AIza************************y7A4"
         }
       ]
     },
@@ -1612,6 +1777,33 @@
       ]
     },
     {
+      "repo": "2229niku/bos-mss-realtime-bot",
+      "url": "https://github.com/2229niku/bos-mss-realtime-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.94,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "bos-mss-realtime-bot-main/signal_bot.py",
+          "line": 16,
+          "source": "file",
+          "preview": "8766************************nsJA"
+        }
+      ]
+    },
+    {
       "repo": "AhmedsaidAbdy8/Game_Night",
       "url": "https://github.com/AhmedsaidAbdy8/Game_Night",
       "status": "leaked",
@@ -2017,6 +2209,33 @@
       ]
     },
     {
+      "repo": "PuvaanRaaj/claude-gitlab-analytics",
+      "url": "https://github.com/PuvaanRaaj/claude-gitlab-analytics",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 47.82,
+      "exposureScore": 20,
+      "topTypes": [
+        "GitLab PAT"
+      ],
+      "typeCounts": {
+        "GitLab PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitLab PAT",
+          "file": "claude-gitlab-analytics-master/src/components/Onboarding.jsx",
+          "line": 106,
+          "source": "file",
+          "preview": "glpa******************xxxx"
+        }
+      ]
+    },
+    {
       "repo": "QAHaris/desi-health-hub-main",
       "url": "https://github.com/QAHaris/desi-health-hub-main",
       "status": "leaked",
@@ -2395,6 +2614,33 @@
       ]
     },
     {
+      "repo": "epic2026/MobileCRM",
+      "url": "https://github.com/epic2026/MobileCRM",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.62,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "MobileCRM-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************Hg5w"
+        }
+      ]
+    },
+    {
       "repo": "garywstewart-afk/Context-Hub-for-Hullic",
       "url": "https://github.com/garywstewart-afk/Context-Hub-for-Hullic",
       "status": "leaked",
@@ -2418,6 +2664,33 @@
           "line": 171,
           "source": "file",
           "preview": "http************************XXXX"
+        }
+      ]
+    },
+    {
+      "repo": "gaurav7singh246/ezpay",
+      "url": "https://github.com/gaurav7singh246/ezpay",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.92,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "ezpay-main/server.js",
+          "line": 12,
+          "source": "file",
+          "preview": "8432************************gido"
         }
       ]
     },
@@ -2526,6 +2799,33 @@
           "line": 10,
           "source": "file",
           "preview": "AIza************************k7Cc"
+        }
+      ]
+    },
+    {
+      "repo": "kustus/shelly-3em-bridge-ha",
+      "url": "https://github.com/kustus/shelly-3em-bridge-ha",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.21,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "shelly-3em-bridge-ha-main/custom_components/shelly_3em_bridge/.claude/settings.local.json",
+          "line": 159,
+          "source": "file",
+          "preview": "eyJh************************_Ghc"
         }
       ]
     },
@@ -2823,6 +3123,33 @@
           "line": 28,
           "source": "file",
           "preview": "AIza************************QYUU"
+        }
+      ]
+    },
+    {
+      "repo": "pongpasitp/piangfar-dorm-admin",
+      "url": "https://github.com/pongpasitp/piangfar-dorm-admin",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.89,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "piangfar-dorm-admin-main/src/App.jsx",
+          "line": 34,
+          "source": "file",
+          "preview": "AIza************************VV3U"
         }
       ]
     },
