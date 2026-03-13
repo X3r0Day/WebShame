@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T22:07:49.205133+00:00",
+  "generatedAt": "2026-03-13T22:38:12.445808+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -2872,6 +2872,40 @@
           "line": 7,
           "source": "file",
           "preview": "eyJh************************GKRQ"
+        }
+      ]
+    },
+    {
+      "repo": "cabirpoya/ChemMaster-Pro",
+      "url": "https://github.com/cabirpoya/ChemMaster-Pro",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 85.0,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ChemMaster-Pro-main/.env.local.tsx",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************FxTk"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "ChemMaster-Pro-main/services/firebase.ts",
+          "line": 5,
+          "source": "file",
+          "preview": "AIza************************BdVw"
         }
       ]
     },
@@ -5874,6 +5908,33 @@
       ]
     },
     {
+      "repo": "shreesha45/akshatha-hackathon",
+      "url": "https://github.com/shreesha45/akshatha-hackathon",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 129.62,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 5909cf7",
+          "line": 75,
+          "source": "commit",
+          "preview": "AIza************************00e0"
+        }
+      ]
+    },
+    {
       "repo": "shubhgr/auto-attendance",
       "url": "https://github.com/shubhgr/auto-attendance",
       "status": "leaked",
@@ -6005,6 +6066,33 @@
           "line": 712,
           "source": "commit",
           "preview": "eyJh************************iLKY"
+        }
+      ]
+    },
+    {
+      "repo": "tejendrasinghgujjer-a11y/labour-app",
+      "url": "https://github.com/tejendrasinghgujjer-a11y/labour-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 23.51,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit f4b6162",
+          "line": 76,
+          "source": "commit",
+          "preview": "AIza************************TaNI"
         }
       ]
     },
@@ -6356,6 +6444,33 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************8QW8"
+        }
+      ]
+    },
+    {
+      "repo": "Aaronman710/Aard.studio",
+      "url": "https://github.com/Aaronman710/Aard.studio",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 42.37,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Aard.studio-main/firebase config.js",
+          "line": 11,
+          "source": "file",
+          "preview": "AIza************************3eqc"
         }
       ]
     },
@@ -11594,6 +11709,33 @@
           "line": 135,
           "source": "file",
           "preview": "AKIA************MPLE"
+        }
+      ]
+    },
+    {
+      "repo": "suportejair-hue/Chave-pix-",
+      "url": "https://github.com/suportejair-hue/Chave-pix-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.09,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Chave-pix--main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************68lk"
         }
       ]
     },
