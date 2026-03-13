@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T19:33:52.233594+00:00",
+  "generatedAt": "2026-03-13T20:03:54.945840+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -1751,6 +1751,42 @@
           "line": 19,
           "source": "commit",
           "preview": "MTQ4************************9OMg"
+        }
+      ]
+    },
+    {
+      "repo": "jhonjoel/Proyecto-CLT",
+      "url": "https://github.com/jhonjoel/Proyecto-CLT",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 53.15,
+      "exposureScore": 50,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT",
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1,
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Proyecto-CLT-main/frontend-clt/src/app/core/services/auth.service.spec.ts",
+          "line": 11,
+          "source": "file",
+          "preview": "eyJh************************X0.x"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit d6ca34a",
+          "line": 121466,
+          "source": "commit",
+          "preview": "AIza************************jhBE"
         }
       ]
     },
@@ -3517,6 +3553,33 @@
       ]
     },
     {
+      "repo": "SchooIgobye/notsoprivatesite",
+      "url": "https://github.com/SchooIgobye/notsoprivatesite",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 13.28,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 7ae143e",
+          "line": 10148,
+          "source": "commit",
+          "preview": "AIza************************6O9E"
+        }
+      ]
+    },
+    {
       "repo": "Thguboy/Online_shop",
       "url": "https://github.com/Thguboy/Online_shop",
       "status": "leaked",
@@ -4543,6 +4606,33 @@
       ]
     },
     {
+      "repo": "menxbd2025/Saif-Bhai",
+      "url": "https://github.com/menxbd2025/Saif-Bhai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 43.77,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 8f58223",
+          "line": 250,
+          "source": "commit",
+          "preview": "AIza************************toh4"
+        }
+      ]
+    },
+    {
       "repo": "milonhossennahid/IBM-Company-Admin-Panel-",
       "url": "https://github.com/milonhossennahid/IBM-Company-Admin-Panel-",
       "status": "leaked",
@@ -4890,6 +4980,33 @@
           "line": 9410,
           "source": "commit",
           "preview": "eyJh************************6rJk"
+        }
+      ]
+    },
+    {
+      "repo": "nooralhud498-tech/Wep",
+      "url": "https://github.com/nooralhud498-tech/Wep",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 15.25,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit ff024a8",
+          "line": 55,
+          "source": "commit",
+          "preview": "8563************************I8O4"
         }
       ]
     },
@@ -6645,6 +6762,33 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************ywjY"
+        }
+      ]
+    },
+    {
+      "repo": "MTG1523/Smart-Helmet-For-Road-Safety-And-Accident-Prevention-Using-IOT-website-references",
+      "url": "https://github.com/MTG1523/Smart-Helmet-For-Road-Safety-And-Accident-Prevention-Using-IOT-website-references",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.8,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Smart-Helmet-For-Road-Safety-And-Accident-Prevention-Using-IOT-website-references-main/app.js",
+          "line": 8,
+          "source": "file",
+          "preview": "AIza************************kGDM"
         }
       ]
     },
@@ -8566,6 +8710,33 @@
       ]
     },
     {
+      "repo": "haripriya-0/blood-donor-finder",
+      "url": "https://github.com/haripriya-0/blood-donor-finder",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 67.32,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "blood-donor-finder-main/test_api.py",
+          "line": 7,
+          "source": "file",
+          "preview": "eyJh************************RJwE"
+        }
+      ]
+    },
+    {
       "repo": "harjot-cr/BACKEND",
       "url": "https://github.com/harjot-cr/BACKEND",
       "status": "leaked",
@@ -8832,6 +9003,33 @@
           "line": 14,
           "source": "file",
           "preview": "sk-o************************a14a"
+        }
+      ]
+    },
+    {
+      "repo": "jcvr14k-arch/smartpark",
+      "url": "https://github.com/jcvr14k-arch/smartpark",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.14,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "smartpark-main/lib/firebase.ts",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************qSfU"
         }
       ]
     },
