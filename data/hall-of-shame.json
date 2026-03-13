@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T23:02:23.571313+00:00",
+  "generatedAt": "2026-03-13T23:31:55.225831+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -6680,6 +6680,33 @@
       ]
     },
     {
+      "repo": "Arthurpfz/telegram-summary-bot",
+      "url": "https://github.com/Arthurpfz/telegram-summary-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.7,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "telegram-summary-bot-main/workflow/telegram-summarizer.json",
+          "line": 254,
+          "source": "file",
+          "preview": "sk-o************************58ca"
+        }
+      ]
+    },
+    {
       "repo": "Atamol/VDH_Sniffer",
       "url": "https://github.com/Atamol/VDH_Sniffer",
       "status": "leaked",
@@ -10271,6 +10298,33 @@
       ]
     },
     {
+      "repo": "krethick-creator/zenplay",
+      "url": "https://github.com/krethick-creator/zenplay",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.07,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "zenplay-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************5aik"
+        }
+      ]
+    },
+    {
       "repo": "kustus/shelly-3em-bridge-ha",
       "url": "https://github.com/kustus/shelly-3em-bridge-ha",
       "status": "leaked",
@@ -10807,6 +10861,33 @@
           "line": 14,
           "source": "file",
           "preview": "AIza************************5ppU"
+        }
+      ]
+    },
+    {
+      "repo": "modern-e-shop/business-website",
+      "url": "https://github.com/modern-e-shop/business-website",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.9,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "business-website-main/CLAUDE-BRIEF.md",
+          "line": 48,
+          "source": "file",
+          "preview": "eyJh************************9wAY"
         }
       ]
     },
