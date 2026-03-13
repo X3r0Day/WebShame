@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T03:43:09.621290+00:00",
+  "generatedAt": "2026-03-13T04:31:32.209816+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -769,6 +769,33 @@
       ]
     },
     {
+      "repo": "qasad242-max/GIFTHUB",
+      "url": "https://github.com/qasad242-max/GIFTHUB",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.01,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 443edbc",
+          "line": 74,
+          "source": "commit",
+          "preview": "AIza************************hUCg"
+        }
+      ]
+    },
+    {
       "repo": "sg3728/adaw",
       "url": "https://github.com/sg3728/adaw",
       "status": "leaked",
@@ -792,6 +819,33 @@
           "line": 24,
           "source": "commit",
           "preview": "http************************V7SX"
+        }
+      ]
+    },
+    {
+      "repo": "tradertamim007-star/Virtual-Earning-Zone-BD-",
+      "url": "https://github.com/tradertamim007-star/Virtual-Earning-Zone-BD-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 10.97,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit b6aabf4",
+          "line": 275,
+          "source": "commit",
+          "preview": "AIza************************Ngkk"
         }
       ]
     },
@@ -846,6 +900,33 @@
           "line": 78,
           "source": "file",
           "preview": "eyJh************************WwpU"
+        }
+      ]
+    },
+    {
+      "repo": "Atamol/VDH_Sniffer",
+      "url": "https://github.com/Atamol/VDH_Sniffer",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 26.5,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "VDH_Sniffer-main/injected/youtube.js",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************qcW8"
         }
       ]
     },
@@ -954,6 +1035,60 @@
           "line": 4,
           "source": "file",
           "preview": "eyJh************************YZxk"
+        }
+      ]
+    },
+    {
+      "repo": "LuccaDG/3PXAGENCIA-01",
+      "url": "https://github.com/LuccaDG/3PXAGENCIA-01",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.92,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "3PXAGENCIA-01-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************QXOo"
+        }
+      ]
+    },
+    {
+      "repo": "NAHID-TEST-SERVER/msg1",
+      "url": "https://github.com/NAHID-TEST-SERVER/msg1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 28.49,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "msg1-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************86R0"
         }
       ]
     },
@@ -1282,6 +1417,33 @@
       ]
     },
     {
+      "repo": "hubaethel-rgb/Nuke",
+      "url": "https://github.com/hubaethel-rgb/Nuke",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 37.75,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Bot Token"
+      ],
+      "typeCounts": {
+        "Discord Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Bot Token",
+          "file": "Nuke-main/main.py",
+          "line": 17,
+          "source": "file",
+          "preview": "MTQ4************************64jc"
+        }
+      ]
+    },
+    {
       "repo": "idgmedia2025-app/appa-saas-gobras",
       "url": "https://github.com/idgmedia2025-app/appa-saas-gobras",
       "status": "leaked",
@@ -1305,6 +1467,33 @@
           "line": 4,
           "source": "file",
           "preview": "eyJh************************l-zQ"
+        }
+      ]
+    },
+    {
+      "repo": "louisemargaretteursal/Find-Internship",
+      "url": "https://github.com/louisemargaretteursal/Find-Internship",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.66,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Find-Internship-main/supabase-config.js",
+          "line": 6,
+          "source": "file",
+          "preview": "eyJh************************Lejw"
         }
       ]
     },
