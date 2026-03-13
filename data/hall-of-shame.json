@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T12:53:23.432740+00:00",
+  "generatedAt": "2026-03-13T14:02:33.514498+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -534,6 +534,74 @@
       ]
     },
     {
+      "repo": "zhanglimao/Abyss",
+      "url": "https://github.com/zhanglimao/Abyss",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 7,
+      "uniqueTypes": 4,
+      "filesAffected": 5,
+      "commitFindings": 0,
+      "scanTimeSeconds": 128.04,
+      "exposureScore": 116,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT",
+        "AWS Access Key ID",
+        "GitHub Classic PAT",
+        "NPM Access Token"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 4,
+        "AWS Access Key ID": 1,
+        "GitHub Classic PAT": 1,
+        "NPM Access Token": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Abyss-main/skills/authentication-failures/ref/jwt-authentication-testing.md",
+          "line": 105,
+          "source": "file",
+          "preview": "eyJh************************sw5c"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Abyss-main/skills/authentication-failures/ref/jwt-token-forgery-attack.md",
+          "line": 171,
+          "source": "file",
+          "preview": "eyJh************************.xxx"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Abyss-main/skills/authentication-failures/ref/jwt-token-forgery-attack.md",
+          "line": 282,
+          "source": "file",
+          "preview": "eyJh************************.xxx"
+        },
+        {
+          "type": "AWS Access Key ID",
+          "file": "Abyss-main/skills/broken-access-control/ref/cloud-iam-testing.md",
+          "line": 265,
+          "source": "file",
+          "preview": "AKIA************MPLE"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Abyss-main/skills/broken-access-control/ref/frontend-bypass.md",
+          "line": 298,
+          "source": "file",
+          "preview": "eyJh************************.xxx"
+        },
+        {
+          "type": "GitHub Classic PAT",
+          "file": "Abyss-main/skills/software-supply-chain-failures/ref/github-actions-security.md",
+          "line": 357,
+          "source": "file",
+          "preview": "ghp_************************xxxx"
+        }
+      ]
+    },
+    {
       "repo": "nordeim/safe-openclaw-skills",
       "url": "https://github.com/nordeim/safe-openclaw-skills",
       "status": "leaked",
@@ -688,6 +756,49 @@
           "line": 35426,
           "source": "commit",
           "preview": "AIza************************m4wk"
+        }
+      ]
+    },
+    {
+      "repo": "Jagadesh-1811/Ai-resume-bulider",
+      "url": "https://github.com/Jagadesh-1811/Ai-resume-bulider",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 3,
+      "scanTimeSeconds": 13.83,
+      "exposureScore": 82,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT",
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 2,
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 071393a",
+          "line": 18,
+          "source": "commit",
+          "preview": "eyJh************************g7ek"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 071393a",
+          "line": 20,
+          "source": "commit",
+          "preview": "eyJh************************1Z2-"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 071393a",
+          "line": 21,
+          "source": "commit",
+          "preview": "AIza************************vF7E"
         }
       ]
     },
@@ -1387,6 +1498,40 @@
           "line": 10,
           "source": "file",
           "preview": "eyJh************************81IU"
+        }
+      ]
+    },
+    {
+      "repo": "Ohmuu/bankapp",
+      "url": "https://github.com/Ohmuu/bankapp",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 177.52,
+      "exposureScore": 42,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "bankapp-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************v9uc"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 7c12e02",
+          "line": 3692,
+          "source": "commit",
+          "preview": "AIza************************rAQc"
         }
       ]
     },
@@ -4091,6 +4236,33 @@
       ]
     },
     {
+      "repo": "Divyacodes1/AI-News-SummarizerAutomation",
+      "url": "https://github.com/Divyacodes1/AI-News-SummarizerAutomation",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 102.62,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "AI-News-SummarizerAutomation-master/ai.py",
+          "line": 2,
+          "source": "file",
+          "preview": "AIza************************ZK4Y"
+        }
+      ]
+    },
+    {
       "repo": "FloE2/projet-eps-ydm-2026",
       "url": "https://github.com/FloE2/projet-eps-ydm-2026",
       "status": "leaked",
@@ -4195,6 +4367,33 @@
           "line": 7,
           "source": "file",
           "preview": "AIza************************fgaM"
+        }
+      ]
+    },
+    {
+      "repo": "Honops/dasboard",
+      "url": "https://github.com/Honops/dasboard",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 51.95,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "dasboard-main/js/supabaseClient.js",
+          "line": 6,
+          "source": "file",
+          "preview": "eyJh************************L0bg"
         }
       ]
     },
@@ -4766,6 +4965,33 @@
       ]
     },
     {
+      "repo": "Saikiran-12345/resume_buddy",
+      "url": "https://github.com/Saikiran-12345/resume_buddy",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.08,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "resume_buddy-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************ooCU"
+        }
+      ]
+    },
+    {
       "repo": "Samlo18/Mod5_Coursera",
       "url": "https://github.com/Samlo18/Mod5_Coursera",
       "status": "leaked",
@@ -4870,6 +5096,33 @@
           "line": 14,
           "source": "file",
           "preview": "8773************************kyyY"
+        }
+      ]
+    },
+    {
+      "repo": "SidharthBScCS/Student-Management-System-UI",
+      "url": "https://github.com/SidharthBScCS/Student-Management-System-UI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 21.87,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Student-Management-System-UI-main/SignUp.js",
+          "line": 2,
+          "source": "file",
+          "preview": "AIza************************_roI"
         }
       ]
     },
@@ -5302,6 +5555,33 @@
           "line": 82,
           "source": "file",
           "preview": "AIza************************7bVM"
+        }
+      ]
+    },
+    {
+      "repo": "asjad1122z-a11y/Ytapi",
+      "url": "https://github.com/asjad1122z-a11y/Ytapi",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 51.54,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Ytapi-main/api/Main.py",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************g4nA"
         }
       ]
     },
@@ -5873,6 +6153,33 @@
       ]
     },
     {
+      "repo": "jemsefoo05/Souq-dzair",
+      "url": "https://github.com/jemsefoo05/Souq-dzair",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 40.95,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Souq-dzair-main/sw.js",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************E98w"
+        }
+      ]
+    },
+    {
       "repo": "jhansi-32/youtube-clone",
       "url": "https://github.com/jhansi-32/youtube-clone",
       "status": "leaked",
@@ -5927,6 +6234,33 @@
       ]
     },
     {
+      "repo": "jpmigny-lab/AppBTP1",
+      "url": "https://github.com/jpmigny-lab/AppBTP1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.72,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "AppBTP1-main/client/src/lib/supabase.ts",
+          "line": 5,
+          "source": "file",
+          "preview": "eyJh************************rWdU"
+        }
+      ]
+    },
+    {
       "repo": "jsersan/burtsa-frontend",
       "url": "https://github.com/jsersan/burtsa-frontend",
       "status": "leaked",
@@ -5977,6 +6311,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************StN0"
+        }
+      ]
+    },
+    {
+      "repo": "kei2901/aa",
+      "url": "https://github.com/kei2901/aa",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.73,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "aa-main/main.py",
+          "line": 15,
+          "source": "file",
+          "preview": "http************************t-pP"
         }
       ]
     },
@@ -7084,6 +7445,33 @@
           "line": 14,
           "source": "file",
           "preview": "AIza************************ZwbQ"
+        }
+      ]
+    },
+    {
+      "repo": "tlogomasjokweb-spec/tlogomas-jok-motor",
+      "url": "https://github.com/tlogomasjokweb-spec/tlogomas-jok-motor",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 34.44,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "tlogomas-jok-motor-main/.env",
+          "line": 5,
+          "source": "file",
+          "preview": "eyJh************************OxmM"
         }
       ]
     },
