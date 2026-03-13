@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T22:38:12.445808+00:00",
+  "generatedAt": "2026-03-13T23:02:23.571313+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -2072,6 +2072,40 @@
       ]
     },
     {
+      "repo": "Mohamed-Anwar33/CarMaint-Pro",
+      "url": "https://github.com/Mohamed-Anwar33/CarMaint-Pro",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 12.8,
+      "exposureScore": 42,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 2
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "CarMaint-Pro-master/artifacts/carmaint-pro/scripts/check-tables.ts",
+          "line": 5,
+          "source": "file",
+          "preview": "eyJh************************AS-U"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 8e5a78b",
+          "line": 666,
+          "source": "commit",
+          "preview": "eyJh************************mvl0"
+        }
+      ]
+    },
+    {
       "repo": "Ohmuu/bankapp",
       "url": "https://github.com/Ohmuu/bankapp",
       "status": "leaked",
@@ -2208,6 +2242,42 @@
           "line": 68,
           "source": "file",
           "preview": "8733************************SE3w"
+        }
+      ]
+    },
+    {
+      "repo": "Dutkarsh7/our-pharma",
+      "url": "https://github.com/Dutkarsh7/our-pharma",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 71.74,
+      "exposureScore": 40,
+      "topTypes": [
+        "Google API/GCP Key",
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "our-pharma-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "AIza************************9Bu0"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "our-pharma-main/.env",
+          "line": 4,
+          "source": "file",
+          "preview": "eyJh************************2kWg"
         }
       ]
     },
@@ -6097,6 +6167,33 @@
       ]
     },
     {
+      "repo": "testtymony67-cyber/Roblox-Rewards-Center",
+      "url": "https://github.com/testtymony67-cyber/Roblox-Rewards-Center",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.17,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit a9c2c76",
+          "line": 38,
+          "source": "commit",
+          "preview": "http************************tlJI"
+        }
+      ]
+    },
+    {
       "repo": "tk56impulse/nexusflow",
       "url": "https://github.com/tk56impulse/nexusflow",
       "status": "leaked",
@@ -7200,6 +7297,33 @@
           "line": 5,
           "source": "file",
           "preview": "8778************************ri20"
+        }
+      ]
+    },
+    {
+      "repo": "IsraelAbra1/Two-Players-In-Firebase-No-Room",
+      "url": "https://github.com/IsraelAbra1/Two-Players-In-Firebase-No-Room",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.36,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Two-Players-In-Firebase-No-Room-master/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************nQ_s"
         }
       ]
     },
@@ -8932,6 +9056,33 @@
       ]
     },
     {
+      "repo": "blekthsety52-dev/QuotaGuard-Enterprise-Quota-Management",
+      "url": "https://github.com/blekthsety52-dev/QuotaGuard-Enterprise-Quota-Management",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.65,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "QuotaGuard-Enterprise-Quota-Management-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************1f3Y"
+        }
+      ]
+    },
+    {
       "repo": "charlenchen/openclaw_shield",
       "url": "https://github.com/charlenchen/openclaw_shield",
       "status": "leaked",
@@ -10336,6 +10487,33 @@
       ]
     },
     {
+      "repo": "manuzamora01/APP-TipsAcademyFC",
+      "url": "https://github.com/manuzamora01/APP-TipsAcademyFC",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 34.0,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "APP-TipsAcademyFC-main/dist/_expo/static/js/web/entry-3f44bc91c3f21547fa81cb090170268f.js",
+          "line": 895,
+          "source": "file",
+          "preview": "AIza************************RyHI"
+        }
+      ]
+    },
+    {
       "repo": "markswendsen-code/mcp-blueapron",
       "url": "https://github.com/markswendsen-code/mcp-blueapron",
       "status": "leaked",
@@ -11412,6 +11590,33 @@
           "line": 9,
           "source": "file",
           "preview": "ghp_************************aNsM"
+        }
+      ]
+    },
+    {
+      "repo": "recargaszone-code/ebet-api-aviator",
+      "url": "https://github.com/recargaszone-code/ebet-api-aviator",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.13,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "ebet-api-aviator-main/main.py",
+          "line": 22,
+          "source": "file",
+          "preview": "8742************************UZQY"
         }
       ]
     },
