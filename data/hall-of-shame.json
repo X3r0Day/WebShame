@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T18:11:40.338252+00:00",
+  "generatedAt": "2026-03-13T18:48:47.834906+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -1206,6 +1206,47 @@
           "line": 11,
           "source": "file",
           "preview": "PMAK************************6zM2"
+        }
+      ]
+    },
+    {
+      "repo": "Ramrkr/WholesaleApp",
+      "url": "https://github.com/Ramrkr/WholesaleApp",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 2,
+      "scanTimeSeconds": 26.25,
+      "exposureScore": 64,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 3
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "WholesaleApp-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************4r6c"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 406497a",
+          "line": 2790,
+          "source": "commit",
+          "preview": "AIza************************zeW0"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 406497a",
+          "line": 2808,
+          "source": "commit",
+          "preview": "AIza************************NXk8"
         }
       ]
     },
@@ -2816,6 +2857,33 @@
       ]
     },
     {
+      "repo": "FrancoRumisky/ia-chatbot",
+      "url": "https://github.com/FrancoRumisky/ia-chatbot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 89.05,
+      "exposureScore": 30,
+      "topTypes": [
+        "OpenAI API Key (Project)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Project)": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Project)",
+          "file": "Commit fe0586d",
+          "line": 37,
+          "source": "commit",
+          "preview": "sk-p************************ldYA"
+        }
+      ]
+    },
+    {
       "repo": "HOFFMAN-CAMPS/HOFFMAN-CAMPS-ADMIN",
       "url": "https://github.com/HOFFMAN-CAMPS/HOFFMAN-CAMPS-ADMIN",
       "status": "leaked",
@@ -2864,6 +2932,33 @@
           "type": "Google API/GCP Key",
           "file": "Commit 61b396a",
           "line": 472,
+          "source": "commit",
+          "preview": "AIza************************viR8"
+        }
+      ]
+    },
+    {
+      "repo": "Ibbnpvh/ebd-digital-chamada",
+      "url": "https://github.com/Ibbnpvh/ebd-digital-chamada",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 123.37,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 4c00d0f",
+          "line": 312,
           "source": "commit",
           "preview": "AIza************************viR8"
         }
@@ -2974,6 +3069,33 @@
           "line": 30398,
           "source": "commit",
           "preview": "6173************************ICTY"
+        }
+      ]
+    },
+    {
+      "repo": "Nicolas-mosp/CCAR-Tracker",
+      "url": "https://github.com/Nicolas-mosp/CCAR-Tracker",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 25.47,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Bot Token"
+      ],
+      "typeCounts": {
+        "Discord Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit b82d35c",
+          "line": 17,
+          "source": "commit",
+          "preview": "ODg0************************sQ5Y"
         }
       ]
     },
@@ -3352,6 +3474,33 @@
           "line": 103,
           "source": "commit",
           "preview": "AIza************************y7A4"
+        }
+      ]
+    },
+    {
+      "repo": "andreina2030/colombiaelecciones",
+      "url": "https://github.com/andreina2030/colombiaelecciones",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.79,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit a6c5278",
+          "line": 246,
+          "source": "commit",
+          "preview": "AIza************************elVI"
         }
       ]
     },
@@ -4000,6 +4149,33 @@
           "line": 24609,
           "source": "commit",
           "preview": "eyJh************************d5R8"
+        }
+      ]
+    },
+    {
+      "repo": "julieval09062013-hub/escala-azurita",
+      "url": "https://github.com/julieval09062013-hub/escala-azurita",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 81.14,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit af319ce",
+          "line": 45,
+          "source": "commit",
+          "preview": "AIza************************-ZvM"
         }
       ]
     },
@@ -4895,6 +5071,33 @@
       ]
     },
     {
+      "repo": "tahirysmanalievdev-ops/sumbule-admin",
+      "url": "https://github.com/tahirysmanalievdev-ops/sumbule-admin",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 53.01,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit baf0cd9",
+          "line": 554,
+          "source": "commit",
+          "preview": "eyJh************************cT7Y"
+        }
+      ]
+    },
+    {
       "repo": "tamaral-tech/seo-report-launcher",
       "url": "https://github.com/tamaral-tech/seo-report-launcher",
       "status": "leaked",
@@ -5111,6 +5314,33 @@
       ]
     },
     {
+      "repo": "yimkum17-png/lpg-tracker",
+      "url": "https://github.com/yimkum17-png/lpg-tracker",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 12.22,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 170c510",
+          "line": 377,
+          "source": "commit",
+          "preview": "AIza************************bPaE"
+        }
+      ]
+    },
+    {
       "repo": "yourquirey-gif/adminpanelofgamereward",
       "url": "https://github.com/yourquirey-gif/adminpanelofgamereward",
       "status": "leaked",
@@ -5188,6 +5418,33 @@
           "line": 16,
           "source": "file",
           "preview": "8766************************nsJA"
+        }
+      ]
+    },
+    {
+      "repo": "ACID-7/Sameclue",
+      "url": "https://github.com/ACID-7/Sameclue",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 92.08,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Sameclue-main/app.js",
+          "line": 15,
+          "source": "file",
+          "preview": "AIza************************kyVc"
         }
       ]
     },
@@ -7406,6 +7663,33 @@
       ]
     },
     {
+      "repo": "benjiAndroidDev/test",
+      "url": "https://github.com/benjiAndroidDev/test",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 31.54,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "test-master/app/google-services.json",
+          "line": 31,
+          "source": "file",
+          "preview": "AIza************************0e1k"
+        }
+      ]
+    },
+    {
       "repo": "bida23-056Proliferator/Alphapack-Cash-Solutions-vx",
       "url": "https://github.com/bida23-056Proliferator/Alphapack-Cash-Solutions-vx",
       "status": "leaked",
@@ -7510,6 +7794,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************VSsk"
+        }
+      ]
+    },
+    {
+      "repo": "danyachk42/fantasy-rpg-bot",
+      "url": "https://github.com/danyachk42/fantasy-rpg-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 129.64,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "fantasy-rpg-bot-master/bot.py",
+          "line": 660,
+          "source": "file",
+          "preview": "7566************************61xY"
         }
       ]
     },
@@ -8023,6 +8334,33 @@
           "line": 342,
           "source": "file",
           "preview": "8163************************N17k"
+        }
+      ]
+    },
+    {
+      "repo": "istal-wp/envirocabn",
+      "url": "https://github.com/istal-wp/envirocabn",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.72,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "envirocabn-main/envirocab-final/dist/assets/index-DvAv7TnF.js",
+          "line": 33,
+          "source": "file",
+          "preview": "eyJh************************NTnA"
         }
       ]
     },
@@ -9107,6 +9445,33 @@
       ]
     },
     {
+      "repo": "patrickNo10/H-Flow",
+      "url": "https://github.com/patrickNo10/H-Flow",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 47.37,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "H-Flow-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************JjTQ"
+        }
+      ]
+    },
+    {
       "repo": "paulobrainy/agendapro",
       "url": "https://github.com/paulobrainy/agendapro",
       "status": "leaked",
@@ -9481,6 +9846,33 @@
           "line": 567,
           "source": "file",
           "preview": "AKIA************MPLE"
+        }
+      ]
+    },
+    {
+      "repo": "rickbrooks-hill-ui/goals-aligned-ai",
+      "url": "https://github.com/rickbrooks-hill-ui/goals-aligned-ai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 42.35,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "goals-aligned-ai-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************MmP8"
         }
       ]
     },
