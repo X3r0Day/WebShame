@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T04:31:32.209816+00:00",
+  "generatedAt": "2026-03-13T05:43:52.024977+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -164,6 +164,68 @@
           "line": 0,
           "source": "commit",
           "preview": "eyJh************************rrQ"
+        }
+      ]
+    },
+    {
+      "repo": "nordeim/safe-openclaw-skills",
+      "url": "https://github.com/nordeim/safe-openclaw-skills",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 5,
+      "uniqueTypes": 5,
+      "filesAffected": 3,
+      "commitFindings": 0,
+      "scanTimeSeconds": 38.49,
+      "exposureScore": 100,
+      "topTypes": [
+        "OpenAI API Key (Project)",
+        "Google API/GCP Key",
+        "AWS Access Key ID",
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Project)": 1,
+        "Google API/GCP Key": 1,
+        "AWS Access Key ID": 1,
+        "GitHub Classic PAT": 1,
+        "OpenAI API Key (Legacy)": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Project)",
+          "file": "safe-openclaw-skills-main/SECURITY_AUDIT_REPORT.md",
+          "line": 21543,
+          "source": "file",
+          "preview": "sk-p************************q0ET"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "safe-openclaw-skills-main/SECURITY_AUDIT_REPORT.md",
+          "line": 38447,
+          "source": "file",
+          "preview": "AIza************************VA-Q"
+        },
+        {
+          "type": "AWS Access Key ID",
+          "file": "safe-openclaw-skills-main/trustskill/TRUSTSKILL_V3_VALIDATION_REPORT.md",
+          "line": 69,
+          "source": "file",
+          "preview": "AKIA************MPLE"
+        },
+        {
+          "type": "GitHub Classic PAT",
+          "file": "safe-openclaw-skills-main/trustskill/tests/unit/test_secret_detection.py",
+          "line": 184,
+          "source": "file",
+          "preview": "ghp_************************xxxx"
+        },
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "safe-openclaw-skills-main/trustskill/tests/unit/test_secret_detection.py",
+          "line": 195,
+          "source": "file",
+          "preview": "sk-x************************xxxx"
         }
       ]
     },
@@ -418,6 +480,40 @@
       ]
     },
     {
+      "repo": "SAST-UP-STG/SAST-Test-Repo-6090f603-df34-4ac4-9407-39a52a9e9660",
+      "url": "https://github.com/SAST-UP-STG/SAST-Test-Repo-6090f603-df34-4ac4-9407-39a52a9e9660",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.86,
+      "exposureScore": 32,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 2
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "SAST-Test-Repo-6090f603-df34-4ac4-9407-39a52a9e9660-main/secretsForGH/config/something.json",
+          "line": 2,
+          "source": "file",
+          "preview": "ghp_************************ONKE"
+        },
+        {
+          "type": "GitHub Classic PAT",
+          "file": "SAST-Test-Repo-6090f603-df34-4ac4-9407-39a52a9e9660-main/secretsForGH/secrets/something.json",
+          "line": 2,
+          "source": "file",
+          "preview": "ghp_************************ONKE"
+        }
+      ]
+    },
+    {
       "repo": "Amandine0127/sonate",
       "url": "https://github.com/Amandine0127/sonate",
       "status": "leaked",
@@ -468,6 +564,33 @@
           "line": 428,
           "source": "commit",
           "preview": "eyJh************************WRhw"
+        }
+      ]
+    },
+    {
+      "repo": "HOFFMAN-CAMPS/HOFFMAN-CAMPS-ADMIN",
+      "url": "https://github.com/HOFFMAN-CAMPS/HOFFMAN-CAMPS-ADMIN",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 59.66,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 931eb2d",
+          "line": 297,
+          "source": "commit",
+          "preview": "eyJh************************Y6FQ"
         }
       ]
     },
@@ -661,6 +784,33 @@
       ]
     },
     {
+      "repo": "moheeba1944-alt/moheeba1944-alt.github.io",
+      "url": "https://github.com/moheeba1944-alt/moheeba1944-alt.github.io",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 8.68,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit bf6aa45",
+          "line": 306,
+          "source": "commit",
+          "preview": "8771************************7lm8"
+        }
+      ]
+    },
+    {
       "repo": "naveenkumar404/Bharat-Insight-AI-Driven-Data-Platform",
       "url": "https://github.com/naveenkumar404/Bharat-Insight-AI-Driven-Data-Platform",
       "status": "leaked",
@@ -819,6 +969,33 @@
           "line": 24,
           "source": "commit",
           "preview": "http************************V7SX"
+        }
+      ]
+    },
+    {
+      "repo": "shubhgr/auto-attendance",
+      "url": "https://github.com/shubhgr/auto-attendance",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 58.21,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 1138e86",
+          "line": 462,
+          "source": "commit",
+          "preview": "eyJh************************yYW0"
         }
       ]
     },
@@ -1093,6 +1270,33 @@
       ]
     },
     {
+      "repo": "Nik1022-stack/ai-blog",
+      "url": "https://github.com/Nik1022-stack/ai-blog",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.94,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ai-blog-main/BE/appsettings.json",
+          "line": 28,
+          "source": "file",
+          "preview": "AIza************************K-wc"
+        }
+      ]
+    },
+    {
       "repo": "NodeWardenpwd/tts-voice-magic",
       "url": "https://github.com/NodeWardenpwd/tts-voice-magic",
       "status": "leaked",
@@ -1201,6 +1405,33 @@
       ]
     },
     {
+      "repo": "Smarty-Indonesia/smartyindonesia",
+      "url": "https://github.com/Smarty-Indonesia/smartyindonesia",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 64.0,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "smartyindonesia-main/bot.php",
+          "line": 2,
+          "source": "file",
+          "preview": "1807************************HE7Y"
+        }
+      ]
+    },
+    {
       "repo": "Wigwam-js/Personal_Budget_Tracker",
       "url": "https://github.com/Wigwam-js/Personal_Budget_Tracker",
       "status": "leaked",
@@ -1224,6 +1455,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************NraE"
+        }
+      ]
+    },
+    {
+      "repo": "abdulazeezm-spiderindia/ChennaiLive",
+      "url": "https://github.com/abdulazeezm-spiderindia/ChennaiLive",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 34.63,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ChennaiLive-main/android/app/google-services.json",
+          "line": 119,
+          "source": "file",
+          "preview": "AIza************************2Ucc"
         }
       ]
     },
@@ -1278,6 +1536,33 @@
           "line": 25,
           "source": "file",
           "preview": "8641************************jQsc"
+        }
+      ]
+    },
+    {
+      "repo": "damasvasree/My-Learning-AI",
+      "url": "https://github.com/damasvasree/My-Learning-AI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.37,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "My-Learning-AI-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************VSsk"
         }
       ]
     },
