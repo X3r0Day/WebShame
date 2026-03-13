@@ -1,7 +1,69 @@
 {
-  "generatedAt": "2026-03-13T10:43:32.058615+00:00",
+  "generatedAt": "2026-03-13T11:05:09.594167+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
+    {
+      "repo": "channelscanada105-cyber/bot",
+      "url": "https://github.com/channelscanada105-cyber/bot",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 61,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.84,
+      "exposureScore": 740,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 61
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "bot-main/reaction_bot.py",
+          "line": 16,
+          "source": "file",
+          "preview": "8524************************Qcs0"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "bot-main/reaction_bot.py",
+          "line": 17,
+          "source": "file",
+          "preview": "8543************************g2l8"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "bot-main/reaction_bot.py",
+          "line": 18,
+          "source": "file",
+          "preview": "8558************************pgZI"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "bot-main/reaction_bot.py",
+          "line": 19,
+          "source": "file",
+          "preview": "8519************************mTS0"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "bot-main/reaction_bot.py",
+          "line": 20,
+          "source": "file",
+          "preview": "8221************************cl_s"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "bot-main/reaction_bot.py",
+          "line": 21,
+          "source": "file",
+          "preview": "8498************************uFH8"
+        }
+      ]
+    },
     {
       "repo": "acme-labs/payments-portal",
       "url": "https://github.com/acme-labs/payments-portal",
@@ -1388,6 +1450,33 @@
       ]
     },
     {
+      "repo": "JanjuaAssociates/JanjuaInvoices",
+      "url": "https://github.com/JanjuaAssociates/JanjuaInvoices",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.62,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 8905b8f",
+          "line": 235,
+          "source": "commit",
+          "preview": "AIza************************knhg"
+        }
+      ]
+    },
+    {
       "repo": "PahlawanKesiangan-dot/nando-print-web",
       "url": "https://github.com/PahlawanKesiangan-dot/nando-print-web",
       "status": "leaked",
@@ -1438,6 +1527,60 @@
           "line": 726,
           "source": "commit",
           "preview": "AIza************************rEYU"
+        }
+      ]
+    },
+    {
+      "repo": "Rupak-123-kumar/AI-cover-letter-builder",
+      "url": "https://github.com/Rupak-123-kumar/AI-cover-letter-builder",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.61,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit d99a473",
+          "line": 17,
+          "source": "commit",
+          "preview": "AIza************************hXlY"
+        }
+      ]
+    },
+    {
+      "repo": "SadamParvez/dropit",
+      "url": "https://github.com/SadamParvez/dropit",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.82,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit fd09af1",
+          "line": 319,
+          "source": "commit",
+          "preview": "eyJh************************PPTY"
         }
       ]
     },
@@ -2221,6 +2364,33 @@
           "line": 462,
           "source": "commit",
           "preview": "eyJh************************yYW0"
+        }
+      ]
+    },
+    {
+      "repo": "tanushreehajare/Timeless-Pins",
+      "url": "https://github.com/tanushreehajare/Timeless-Pins",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.76,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 97b44b8",
+          "line": 712,
+          "source": "commit",
+          "preview": "eyJh************************iLKY"
         }
       ]
     },
@@ -3143,6 +3313,33 @@
       ]
     },
     {
+      "repo": "Vishal-AFK21/e-commerce",
+      "url": "https://github.com/Vishal-AFK21/e-commerce",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 23.71,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "e-commerce-main/script.js",
+          "line": 4,
+          "source": "file",
+          "preview": "eyJh************************wZkM"
+        }
+      ]
+    },
+    {
       "repo": "Wigwam-js/Personal_Budget_Tracker",
       "url": "https://github.com/Wigwam-js/Personal_Budget_Tracker",
       "status": "leaked",
@@ -3683,6 +3880,33 @@
       ]
     },
     {
+      "repo": "jaykimzem2/Ganji",
+      "url": "https://github.com/jaykimzem2/Ganji",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 29.72,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "Ganji-main/api/ai.php",
+          "line": 14,
+          "source": "file",
+          "preview": "sk-o************************a14a"
+        }
+      ]
+    },
+    {
       "repo": "jsersan/burtsa-frontend",
       "url": "https://github.com/jsersan/burtsa-frontend",
       "status": "leaked",
@@ -3733,6 +3957,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************StN0"
+        }
+      ]
+    },
+    {
+      "repo": "khushalshaarma/server-client-demo",
+      "url": "https://github.com/khushalshaarma/server-client-demo",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 85.85,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "server-client-demo-main/node_modules/zod/src/v4/mini/tests/string.test.ts",
+          "line": 289,
+          "source": "file",
+          "preview": "eyJh************************sw5c"
         }
       ]
     },
@@ -4003,6 +4254,33 @@
           "line": 2,
           "source": "file",
           "preview": "7790************************tNs8"
+        }
+      ]
+    },
+    {
+      "repo": "mizurgmc22-commits/---App",
+      "url": "https://github.com/mizurgmc22-commits/---App",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.15,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "---App-main/src/firebase.js",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************hQh4"
         }
       ]
     },
@@ -4354,6 +4632,33 @@
           "line": 51,
           "source": "file",
           "preview": "8350************************-Kug"
+        }
+      ]
+    },
+    {
+      "repo": "samircahudhary/deploy-banksystem",
+      "url": "https://github.com/samircahudhary/deploy-banksystem",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.39,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "deploy-banksystem-main/bank-backend/src/main/resources/application.properties",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************FxWw"
         }
       ]
     },
