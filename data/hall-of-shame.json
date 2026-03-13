@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T05:43:52.024977+00:00",
+  "generatedAt": "2026-03-13T06:24:34.374201+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -278,6 +278,47 @@
       ]
     },
     {
+      "repo": "ksjaheerusa-del/mexicon-restro",
+      "url": "https://github.com/ksjaheerusa-del/mexicon-restro",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 3,
+      "scanTimeSeconds": 63.01,
+      "exposureScore": 74,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 3
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 12cb708",
+          "line": 145,
+          "source": "commit",
+          "preview": "AIza************************9vw8"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 12cb708",
+          "line": 4253,
+          "source": "commit",
+          "preview": "AIza************************_TGE"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 12cb708",
+          "line": 9375,
+          "source": "commit",
+          "preview": "AIza************************KG_E"
+        }
+      ]
+    },
+    {
       "repo": "Pranit-Jadhav/Getfly_Task",
       "url": "https://github.com/Pranit-Jadhav/Getfly_Task",
       "status": "leaked",
@@ -446,6 +487,78 @@
       ]
     },
     {
+      "repo": "Ashwith30/medical-chatbot",
+      "url": "https://github.com/Ashwith30/medical-chatbot",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 25.79,
+      "exposureScore": 40,
+      "topTypes": [
+        "Google API/GCP Key",
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "medical-chatbot-main/.env",
+          "line": 10,
+          "source": "file",
+          "preview": "AIza************************7-7I"
+        },
+        {
+          "type": "OpenRouter API Key",
+          "file": "medical-chatbot-main/.env",
+          "line": 14,
+          "source": "file",
+          "preview": "sk-o************************f06c"
+        }
+      ]
+    },
+    {
+      "repo": "shreyaa-hub/Concept-Gap-Detection-System",
+      "url": "https://github.com/shreyaa-hub/Concept-Gap-Detection-System",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.31,
+      "exposureScore": 40,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT",
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1,
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Concept-Gap-Detection-System-main/.streamlit/secrets.toml",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************aG4U"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Concept-Gap-Detection-System-main/.streamlit/secrets.toml",
+          "line": 3,
+          "source": "file",
+          "preview": "AIza************************LYkU"
+        }
+      ]
+    },
+    {
       "repo": "GermaineGLS/IS213-Poskitix",
       "url": "https://github.com/GermaineGLS/IS213-Poskitix",
       "status": "leaked",
@@ -564,6 +677,33 @@
           "line": 428,
           "source": "commit",
           "preview": "eyJh************************WRhw"
+        }
+      ]
+    },
+    {
+      "repo": "DOGGYU1X/Unblocked-OS",
+      "url": "https://github.com/DOGGYU1X/Unblocked-OS",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 12.48,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit ed99736",
+          "line": 1762,
+          "source": "commit",
+          "preview": "AIza************************dKJU"
         }
       ]
     },
@@ -838,6 +978,33 @@
       ]
     },
     {
+      "repo": "nirajscorpio1-arch/oxygen-x",
+      "url": "https://github.com/nirajscorpio1-arch/oxygen-x",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 92.32,
+      "exposureScore": 30,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "Commit da5f370",
+          "line": 118,
+          "source": "commit",
+          "preview": "sk-o************************bcbf"
+        }
+      ]
+    },
+    {
       "repo": "palouner/crlvcswrdcnmjiklxs",
       "url": "https://github.com/palouner/crlvcswrdcnmjiklxs",
       "status": "leaked",
@@ -942,6 +1109,33 @@
           "line": 74,
           "source": "commit",
           "preview": "AIza************************hUCg"
+        }
+      ]
+    },
+    {
+      "repo": "sallywalid208-a11y/sallywalid208-a11y.github.io",
+      "url": "https://github.com/sallywalid208-a11y/sallywalid208-a11y.github.io",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 54.53,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 8ece8fa",
+          "line": 2406,
+          "source": "commit",
+          "preview": "AIza************************XxXx"
         }
       ]
     },
@@ -1162,6 +1356,33 @@
       ]
     },
     {
+      "repo": "Krainium/droplet-ip-finder",
+      "url": "https://github.com/Krainium/droplet-ip-finder",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 56.6,
+      "exposureScore": 20,
+      "topTypes": [
+        "DigitalOcean PAT"
+      ],
+      "typeCounts": {
+        "DigitalOcean PAT": 1
+      },
+      "findings": [
+        {
+          "type": "DigitalOcean PAT",
+          "file": "droplet-ip-finder-main/create.py",
+          "line": 15,
+          "source": "file",
+          "preview": "dop_************************035d"
+        }
+      ]
+    },
+    {
       "repo": "Ldrlucas/vacinum-app-dev",
       "url": "https://github.com/Ldrlucas/vacinum-app-dev",
       "status": "leaked",
@@ -1239,6 +1460,60 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************QXOo"
+        }
+      ]
+    },
+    {
+      "repo": "MURARI9912/paddyshield_2",
+      "url": "https://github.com/MURARI9912/paddyshield_2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 34.95,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "paddyshield_2-main/bot.py",
+          "line": 16,
+          "source": "file",
+          "preview": "8334************************7BYo"
+        }
+      ]
+    },
+    {
+      "repo": "Mohamed22hh/ejust-club-hub",
+      "url": "https://github.com/Mohamed22hh/ejust-club-hub",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.32,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "ejust-club-hub-main/src/lib/supabase.ts",
+          "line": 4,
+          "source": "file",
+          "preview": "eyJh************************bPxc"
         }
       ]
     },
@@ -1432,6 +1707,33 @@
       ]
     },
     {
+      "repo": "Varun917-oi/verun-ai",
+      "url": "https://github.com/Varun917-oi/verun-ai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.19,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "verun-ai-main/app.py",
+          "line": 21,
+          "source": "file",
+          "preview": "sk-o************************7aad"
+        }
+      ]
+    },
+    {
       "repo": "Wigwam-js/Personal_Budget_Tracker",
       "url": "https://github.com/Wigwam-js/Personal_Budget_Tracker",
       "status": "leaked",
@@ -1482,6 +1784,33 @@
           "line": 119,
           "source": "file",
           "preview": "AIza************************2Ucc"
+        }
+      ]
+    },
+    {
+      "repo": "alai-ali/bsmlh18",
+      "url": "https://github.com/alai-ali/bsmlh18",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.2,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "bsmlh18-main/js/firebase.js",
+          "line": 71,
+          "source": "file",
+          "preview": "AIza************************htVA"
         }
       ]
     },
@@ -1783,6 +2112,33 @@
       ]
     },
     {
+      "repo": "mateobartra-arch/PORTALPROVEEEDOR",
+      "url": "https://github.com/mateobartra-arch/PORTALPROVEEEDOR",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 20.5,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "PORTALPROVEEEDOR-main/firebase-config.js",
+          "line": 13,
+          "source": "file",
+          "preview": "AIza************************zrz0"
+        }
+      ]
+    },
+    {
       "repo": "matildavasquezdevi/SmartFinance",
       "url": "https://github.com/matildavasquezdevi/SmartFinance",
       "status": "leaked",
@@ -1860,6 +2216,33 @@
           "line": 14,
           "source": "file",
           "preview": "AIza************************5ppU"
+        }
+      ]
+    },
+    {
+      "repo": "omar-abdelatif/ocr_app_",
+      "url": "https://github.com/omar-abdelatif/ocr_app_",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 121.68,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "ocr_app_-master/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************0IEI"
         }
       ]
     },
