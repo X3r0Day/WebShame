@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T14:02:33.514498+00:00",
+  "generatedAt": "2026-03-13T14:47:46.178314+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -125,6 +125,68 @@
           "line": 21,
           "source": "file",
           "preview": "8498************************uFH8"
+        }
+      ]
+    },
+    {
+      "repo": "sudo-apt-install-tap/Taps-Macropad-V3",
+      "url": "https://github.com/sudo-apt-install-tap/Taps-Macropad-V3",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 11,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 11,
+      "scanTimeSeconds": 86.08,
+      "exposureScore": 250,
+      "topTypes": [
+        "Discord Bot Token"
+      ],
+      "typeCounts": {
+        "Discord Bot Token": 11
+      },
+      "findings": [
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit f0b5f96",
+          "line": 111673,
+          "source": "commit",
+          "preview": "Moun************************6960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit f0b5f96",
+          "line": 111680,
+          "source": "commit",
+          "preview": "Moun************************1960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit f0b5f96",
+          "line": 111687,
+          "source": "commit",
+          "preview": "Moun************************6960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit f0b5f96",
+          "line": 111694,
+          "source": "commit",
+          "preview": "Moun************************1960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit f0b5f96",
+          "line": 111701,
+          "source": "commit",
+          "preview": "Moun************************6960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit f0b5f96",
+          "line": 111708,
+          "source": "commit",
+          "preview": "Moun************************1960"
         }
       ]
     },
@@ -1858,6 +1920,40 @@
       ]
     },
     {
+      "repo": "1wasilah1/vue-antd-template",
+      "url": "https://github.com/1wasilah1/vue-antd-template",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.92,
+      "exposureScore": 32,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 2
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "vue-antd-template-main/apps/web-sample/mocks/handlers.js",
+          "line": 16,
+          "source": "file",
+          "preview": "eyJh************************b2Io"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "vue-antd-template-main/apps/web-sample/mocks/handlers.js",
+          "line": 17,
+          "source": "file",
+          "preview": "eyJh************************sojE"
+        }
+      ]
+    },
+    {
       "repo": "DaniilGiz/sao-paulo",
       "url": "https://github.com/DaniilGiz/sao-paulo",
       "status": "leaked",
@@ -2589,6 +2685,33 @@
       ]
     },
     {
+      "repo": "Sarahfk/ha-dashboard",
+      "url": "https://github.com/Sarahfk/ha-dashboard",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.32,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit a59d0bd",
+          "line": 220,
+          "source": "commit",
+          "preview": "eyJh************************QqSA"
+        }
+      ]
+    },
+    {
       "repo": "Thguboy/Online_shop",
       "url": "https://github.com/Thguboy/Online_shop",
       "status": "leaked",
@@ -2747,6 +2870,33 @@
           "line": 306,
           "source": "commit",
           "preview": "8428************************xsnM"
+        }
+      ]
+    },
+    {
+      "repo": "baicaiacabbge/baicaiwzq",
+      "url": "https://github.com/baicaiacabbge/baicaiwzq",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 19.46,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 114e519",
+          "line": 325,
+          "source": "commit",
+          "preview": "eyJh************************ZGJw"
         }
       ]
     },
@@ -2967,6 +3117,33 @@
       ]
     },
     {
+      "repo": "gargamel-coder/info-kajian",
+      "url": "https://github.com/gargamel-coder/info-kajian",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 66.06,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit ac71d18",
+          "line": 750,
+          "source": "commit",
+          "preview": "AIza************************A5V4"
+        }
+      ]
+    },
+    {
       "repo": "goktugsimsek/simsek-arac",
       "url": "https://github.com/goktugsimsek/simsek-arac",
       "status": "leaked",
@@ -3152,6 +3329,33 @@
           "line": 33,
           "source": "commit",
           "preview": "sk-o************************e1dc"
+        }
+      ]
+    },
+    {
+      "repo": "logintomorashahah123/snaqchat",
+      "url": "https://github.com/logintomorashahah123/snaqchat",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 24.71,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit c61b181",
+          "line": 257,
+          "source": "commit",
+          "preview": "8661************************fPmQ"
         }
       ]
     },
@@ -3368,6 +3572,33 @@
           "line": 465,
           "source": "commit",
           "preview": "eyJh************************TS-0"
+        }
+      ]
+    },
+    {
+      "repo": "niksof-afk/Lub-Oil-Inventory",
+      "url": "https://github.com/niksof-afk/Lub-Oil-Inventory",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 135.91,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit af22cc4",
+          "line": 230,
+          "source": "commit",
+          "preview": "AIza************************NWl0"
         }
       ]
     },
@@ -3831,6 +4062,33 @@
       ]
     },
     {
+      "repo": "st3453/s",
+      "url": "https://github.com/st3453/s",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 14.87,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 88cb134",
+          "line": 568,
+          "source": "commit",
+          "preview": "eyJh************************TbEE"
+        }
+      ]
+    },
+    {
       "repo": "tanushreehajare/Timeless-Pins",
       "url": "https://github.com/tanushreehajare/Timeless-Pins",
       "status": "leaked",
@@ -4290,6 +4548,33 @@
       ]
     },
     {
+      "repo": "ForUltraplayer/ff14-discord-hunt-notify",
+      "url": "https://github.com/ForUltraplayer/ff14-discord-hunt-notify",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 26.82,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "ff14-discord-hunt-notify-main/config/example.config.json",
+          "line": 11,
+          "source": "file",
+          "preview": "http************************Gl6y"
+        }
+      ]
+    },
+    {
       "repo": "Gadelreal/Prueba_Ficha_Blog",
       "url": "https://github.com/Gadelreal/Prueba_Ficha_Blog",
       "status": "leaked",
@@ -4637,6 +4922,33 @@
           "line": 62,
           "source": "file",
           "preview": "AIza************************tnVM"
+        }
+      ]
+    },
+    {
+      "repo": "MaraMuresan/Energy-Management-System",
+      "url": "https://github.com/MaraMuresan/Energy-Management-System",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.67,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Energy-Management-System-main/compose.yaml",
+          "line": 216,
+          "source": "file",
+          "preview": "AIza************************ISoQ"
         }
       ]
     },
@@ -5964,6 +6276,33 @@
       ]
     },
     {
+      "repo": "genarotoo/triangulo",
+      "url": "https://github.com/genarotoo/triangulo",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 25.48,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "triangulo-main/js/app.js",
+          "line": 10,
+          "source": "file",
+          "preview": "AIza************************EYq8"
+        }
+      ]
+    },
+    {
       "repo": "harjot-cr/BACKEND",
       "url": "https://github.com/harjot-cr/BACKEND",
       "status": "leaked",
@@ -6909,6 +7248,33 @@
       ]
     },
     {
+      "repo": "neaskol/ticket-scanner-web",
+      "url": "https://github.com/neaskol/ticket-scanner-web",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.3,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "ticket-scanner-web-main/.planning/PLAN.md",
+          "line": 54,
+          "source": "file",
+          "preview": "eyJh************************sc1o"
+        }
+      ]
+    },
+    {
       "repo": "omar-abdelatif/ocr_app_",
       "url": "https://github.com/omar-abdelatif/ocr_app_",
       "status": "leaked",
@@ -7071,6 +7437,33 @@
       ]
     },
     {
+      "repo": "poojithacsef/bus_tracking",
+      "url": "https://github.com/poojithacsef/bus_tracking",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.55,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "bus_tracking-main/firebase-config.js",
+          "line": 10,
+          "source": "file",
+          "preview": "AIza************************Mqno"
+        }
+      ]
+    },
+    {
       "repo": "popipouppip/CreatorFlow",
       "url": "https://github.com/popipouppip/CreatorFlow",
       "status": "leaked",
@@ -7229,6 +7622,33 @@
           "line": 9,
           "source": "file",
           "preview": "ghp_************************aNsM"
+        }
+      ]
+    },
+    {
+      "repo": "reyversebastien/pcshswebsitemartin",
+      "url": "https://github.com/reyversebastien/pcshswebsitemartin",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.98,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "pcshswebsitemartin-main/firebase-config.js",
+          "line": 8,
+          "source": "file",
+          "preview": "AIza************************Dr2w"
         }
       ]
     },
@@ -7503,6 +7923,33 @@
       ]
     },
     {
+      "repo": "ulisao/moggeo-arena",
+      "url": "https://github.com/ulisao/moggeo-arena",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 183.98,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "moggeo-arena-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************Jc3M"
+        }
+      ]
+    },
+    {
       "repo": "wagnistrip/testingProject",
       "url": "https://github.com/wagnistrip/testingProject",
       "status": "leaked",
@@ -7553,6 +8000,33 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************7LUY"
+        }
+      ]
+    },
+    {
+      "repo": "yaswanthnaidu16/ShareLoop",
+      "url": "https://github.com/yaswanthnaidu16/ShareLoop",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.92,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ShareLoop-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************bru4"
         }
       ]
     },
