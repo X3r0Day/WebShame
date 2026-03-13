@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T06:24:34.374201+00:00",
+  "generatedAt": "2026-03-13T07:28:48.652574+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -487,6 +487,47 @@
       ]
     },
     {
+      "repo": "tript099/docflowfrontendstaging",
+      "url": "https://github.com/tript099/docflowfrontendstaging",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 0,
+      "scanTimeSeconds": 142.5,
+      "exposureScore": 44,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 3
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "docflowfrontendstaging-main/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "eyJh************************nO4s"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "docflowfrontendstaging-main/src/integrations/supabase/client.ts",
+          "line": 7,
+          "source": "file",
+          "preview": "eyJh************************Rv04"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "docflowfrontendstaging-main/supabase/functions/.env",
+          "line": 10,
+          "source": "file",
+          "preview": "eyJh************************81IU"
+        }
+      ]
+    },
+    {
       "repo": "Ashwith30/medical-chatbot",
       "url": "https://github.com/Ashwith30/medical-chatbot",
       "status": "leaked",
@@ -519,6 +560,42 @@
           "line": 14,
           "source": "file",
           "preview": "sk-o************************f06c"
+        }
+      ]
+    },
+    {
+      "repo": "LyCaN7z/Pro",
+      "url": "https://github.com/LyCaN7z/Pro",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 59.71,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Pro-main/botp.py",
+          "line": 58,
+          "source": "file",
+          "preview": "8209************************sCIw"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Pro-main/botp.py",
+          "line": 8753,
+          "source": "file",
+          "preview": "eyJh************************xxxx"
         }
       ]
     },
@@ -627,6 +704,40 @@
       ]
     },
     {
+      "repo": "matted-persea986/Botstore",
+      "url": "https://github.com/matted-persea986/Botstore",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 91.55,
+      "exposureScore": 32,
+      "topTypes": [
+        "Discord Bot Token"
+      ],
+      "typeCounts": {
+        "Discord Bot Token": 2
+      },
+      "findings": [
+        {
+          "type": "Discord Bot Token",
+          "file": "Botstore-main/bot.py/bot.py",
+          "line": 4,
+          "source": "file",
+          "preview": "MTQ4************************hSuk"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Botstore-main/bot.py/bot.py",
+          "line": 96,
+          "source": "file",
+          "preview": "MTQ4************************hSuk"
+        }
+      ]
+    },
+    {
       "repo": "Amandine0127/sonate",
       "url": "https://github.com/Amandine0127/sonate",
       "status": "leaked",
@@ -731,6 +842,33 @@
           "line": 297,
           "source": "commit",
           "preview": "eyJh************************Y6FQ"
+        }
+      ]
+    },
+    {
+      "repo": "Prateekc003/hackfest",
+      "url": "https://github.com/Prateekc003/hackfest",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 71.59,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 3609e8f",
+          "line": 726,
+          "source": "commit",
+          "preview": "AIza************************rEYU"
         }
       ]
     },
@@ -947,6 +1085,33 @@
           "line": 306,
           "source": "commit",
           "preview": "8771************************7lm8"
+        }
+      ]
+    },
+    {
+      "repo": "moviesforeverendaction-collab/media-tsting",
+      "url": "https://github.com/moviesforeverendaction-collab/media-tsting",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 59.11,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 547c049",
+          "line": 20,
+          "source": "commit",
+          "preview": "7888************************pD_k"
         }
       ]
     },
@@ -1626,6 +1791,33 @@
       ]
     },
     {
+      "repo": "QAHaris/desi-health-hub-main",
+      "url": "https://github.com/QAHaris/desi-health-hub-main",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 78.73,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "desi-health-hub-main-main/desi-health-hub-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************7rdk"
+        }
+      ]
+    },
+    {
       "repo": "SAST-UP-DP-DEV-env/SAST-Test-Repo-a54262fd-e42a-4925-a6d2-f15dcecb3cfb",
       "url": "https://github.com/SAST-UP-DP-DEV-env/SAST-Test-Repo-a54262fd-e42a-4925-a6d2-f15dcecb3cfb",
       "status": "leaked",
@@ -2085,6 +2277,33 @@
       ]
     },
     {
+      "repo": "jsersan/burtsa-frontend",
+      "url": "https://github.com/jsersan/burtsa-frontend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.29,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "burtsa-frontend-main/fiebase-store.txt",
+          "line": 10,
+          "source": "file",
+          "preview": "AIza************************k7Cc"
+        }
+      ]
+    },
+    {
       "repo": "louisemargaretteursal/Find-Internship",
       "url": "https://github.com/louisemargaretteursal/Find-Internship",
       "status": "leaked",
@@ -2108,6 +2327,87 @@
           "line": 6,
           "source": "file",
           "preview": "eyJh************************Lejw"
+        }
+      ]
+    },
+    {
+      "repo": "markswendsen-code/mcp-blueapron",
+      "url": "https://github.com/markswendsen-code/mcp-blueapron",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 71.45,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "mcp-blueapron-main/node_modules/zod/src/v4/mini/tests/string.test.ts",
+          "line": 289,
+          "source": "file",
+          "preview": "eyJh************************sw5c"
+        }
+      ]
+    },
+    {
+      "repo": "markswendsen-code/mcp-enterprise",
+      "url": "https://github.com/markswendsen-code/mcp-enterprise",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 119.13,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "mcp-enterprise-main/node_modules/zod/src/v4/mini/tests/string.test.ts",
+          "line": 289,
+          "source": "file",
+          "preview": "eyJh************************sw5c"
+        }
+      ]
+    },
+    {
+      "repo": "markswendsen-code/mcp-wingstop",
+      "url": "https://github.com/markswendsen-code/mcp-wingstop",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 64.14,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "mcp-wingstop-main/node_modules/zod/src/v4/mini/tests/string.test.ts",
+          "line": 289,
+          "source": "file",
+          "preview": "eyJh************************sw5c"
         }
       ]
     },
