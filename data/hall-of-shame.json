@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T09:11:34.830838+00:00",
+  "generatedAt": "2026-03-14T09:42:02.351455+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -2244,6 +2244,40 @@
       ]
     },
     {
+      "repo": "websiteid/lol",
+      "url": "https://github.com/websiteid/lol",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 84.94,
+      "exposureScore": 42,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 2
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "lol-main/config.js",
+          "line": 2,
+          "source": "file",
+          "preview": "8134************************UTcM"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 2105321",
+          "line": 16,
+          "source": "commit",
+          "preview": "7524************************d5Q0"
+        }
+      ]
+    },
+    {
       "repo": "Ashwith30/medical-chatbot",
       "url": "https://github.com/Ashwith30/medical-chatbot",
       "status": "leaked",
@@ -2564,6 +2598,42 @@
           "line": 98,
           "source": "file",
           "preview": "ghp_************************ghij"
+        }
+      ]
+    },
+    {
+      "repo": "cfcreator29-stack/-5554845",
+      "url": "https://github.com/cfcreator29-stack/-5554845",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 43.02,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "-5554845-main/main.py",
+          "line": 7,
+          "source": "file",
+          "preview": "8583************************B2xA"
+        },
+        {
+          "type": "Groq API Key",
+          "file": "-5554845-main/main.py",
+          "line": 8,
+          "source": "file",
+          "preview": "gsk_************************4tPI"
         }
       ]
     },
@@ -4228,6 +4298,33 @@
       ]
     },
     {
+      "repo": "RDXTEAM3/newxx",
+      "url": "https://github.com/RDXTEAM3/newxx",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 34.01,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 4280963",
+          "line": 170096,
+          "source": "commit",
+          "preview": "eyJh************************eWiY"
+        }
+      ]
+    },
+    {
       "repo": "RishikKolpekwar/plum",
       "url": "https://github.com/RishikKolpekwar/plum",
       "status": "leaked",
@@ -5038,6 +5135,33 @@
       ]
     },
     {
+      "repo": "efeiswat/Lumora",
+      "url": "https://github.com/efeiswat/Lumora",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.42,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 18f62b5",
+          "line": 998,
+          "source": "commit",
+          "preview": "eyJh************************oMwU"
+        }
+      ]
+    },
+    {
       "repo": "eliujahirbautistadelacruz-dotcom/hfyfgfygv",
       "url": "https://github.com/eliujahirbautistadelacruz-dotcom/hfyfgfygv",
       "status": "leaked",
@@ -5520,6 +5644,33 @@
           "line": 33,
           "source": "commit",
           "preview": "sk-o************************e1dc"
+        }
+      ]
+    },
+    {
+      "repo": "kripalsinhsarvaiya2865-collab/BMW",
+      "url": "https://github.com/kripalsinhsarvaiya2865-collab/BMW",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 10.76,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 13ae5a2",
+          "line": 324,
+          "source": "commit",
+          "preview": "AIza************************xi2w"
         }
       ]
     },
@@ -6600,6 +6751,33 @@
           "line": 3592,
           "source": "commit",
           "preview": "sk-o************************25c6"
+        }
+      ]
+    },
+    {
+      "repo": "sampathshoepalace550-hub/sampath-shoe-place-admin",
+      "url": "https://github.com/sampathshoepalace550-hub/sampath-shoe-place-admin",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 79.48,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit ec33c2c",
+          "line": 254,
+          "source": "commit",
+          "preview": "AIza************************Qt7Y"
         }
       ]
     },
@@ -8359,6 +8537,33 @@
       ]
     },
     {
+      "repo": "Jujendran-R/AI-Resume-Analyzer-",
+      "url": "https://github.com/Jujendran-R/AI-Resume-Analyzer-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 40.79,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "AI-Resume-Analyzer--main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "sk-o************************5f0f"
+        }
+      ]
+    },
+    {
       "repo": "Krainium/droplet-ip-finder",
       "url": "https://github.com/Krainium/droplet-ip-finder",
       "status": "leaked",
@@ -9624,6 +9829,33 @@
           "line": 2,
           "source": "file",
           "preview": "MTM2************************94w4"
+        }
+      ]
+    },
+    {
+      "repo": "Varun-78-git/KISAN7SEVA",
+      "url": "https://github.com/Varun-78-git/KISAN7SEVA",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.56,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "KISAN7SEVA-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************lk3g"
         }
       ]
     },
