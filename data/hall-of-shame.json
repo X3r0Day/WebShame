@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T10:11:04.782976+00:00",
+  "generatedAt": "2026-03-14T10:41:13.683703+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -5549,6 +5549,33 @@
       ]
     },
     {
+      "repo": "jharrower84/frontpage",
+      "url": "https://github.com/jharrower84/frontpage",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 72.5,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 2dff884",
+          "line": 1531,
+          "source": "commit",
+          "preview": "eyJh************************o5gU"
+        }
+      ]
+    },
+    {
       "repo": "jigarsoni825-oss/Calculatorcht",
       "url": "https://github.com/jigarsoni825-oss/Calculatorcht",
       "status": "leaked",
@@ -10112,6 +10139,33 @@
       ]
     },
     {
+      "repo": "Yasirhassan1/i-learn-2",
+      "url": "https://github.com/Yasirhassan1/i-learn-2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 32.34,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "i-learn-2-main/src/config/config.js",
+          "line": 13,
+          "source": "file",
+          "preview": "AIza************************prIo"
+        }
+      ]
+    },
+    {
       "repo": "aadukr5284-ops/Song-bot",
       "url": "https://github.com/aadukr5284-ops/Song-bot",
       "status": "leaked",
@@ -10243,6 +10297,33 @@
           "line": 119,
           "source": "file",
           "preview": "AIza************************2Ucc"
+        }
+      ]
+    },
+    {
+      "repo": "abhinavashokm/React-Ecommerce-Project",
+      "url": "https://github.com/abhinavashokm/React-Ecommerce-Project",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 78.87,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "React-Ecommerce-Project-master/src/firebase/firebase.js",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************ovtU"
         }
       ]
     },
@@ -10540,6 +10621,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************lor0"
+        }
+      ]
+    },
+    {
+      "repo": "ase-dev-pooja/chat-notification",
+      "url": "https://github.com/ase-dev-pooja/chat-notification",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.78,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "chat-notification-main/src/Firebase.js",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************qcrI"
         }
       ]
     },
