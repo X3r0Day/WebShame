@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T18:44:07.713211+00:00",
+  "generatedAt": "2026-03-14T19:13:50.712468+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -1247,6 +1247,47 @@
           "line": 636,
           "source": "commit",
           "preview": "AIza************************QwbU"
+        }
+      ]
+    },
+    {
+      "repo": "Skyin0/MoodMate-App",
+      "url": "https://github.com/Skyin0/MoodMate-App",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 3,
+      "scanTimeSeconds": 15.4,
+      "exposureScore": 74,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 3
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 93e80a9",
+          "line": 189,
+          "source": "commit",
+          "preview": "AIza************************6y9k"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 93e80a9",
+          "line": 199,
+          "source": "commit",
+          "preview": "AIza************************Kni0"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 93e80a9",
+          "line": 207,
+          "source": "commit",
+          "preview": "AIza************************ujVM"
         }
       ]
     },
@@ -6286,6 +6327,33 @@
       ]
     },
     {
+      "repo": "Vineet010104/cuda-ai-optimizer",
+      "url": "https://github.com/Vineet010104/cuda-ai-optimizer",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.9,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit d4f0f4a",
+          "line": 17,
+          "source": "commit",
+          "preview": "AIza************************RlVU"
+        }
+      ]
+    },
+    {
       "repo": "aasama02-05/PostCraftAi",
       "url": "https://github.com/aasama02-05/PostCraftAi",
       "status": "leaked",
@@ -7069,6 +7137,33 @@
       ]
     },
     {
+      "repo": "discordbot5556-glitch/ia-raid2",
+      "url": "https://github.com/discordbot5556-glitch/ia-raid2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 12.48,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 0f90fe0",
+          "line": 99,
+          "source": "commit",
+          "preview": "http************************XDxP"
+        }
+      ]
+    },
+    {
       "repo": "dk1724890/TERABOX-DOWNLOADER",
       "url": "https://github.com/dk1724890/TERABOX-DOWNLOADER",
       "status": "leaked",
@@ -7848,6 +7943,33 @@
           "line": 33,
           "source": "commit",
           "preview": "sk-o************************e1dc"
+        }
+      ]
+    },
+    {
+      "repo": "keszhongjiandong-dotcom/shs",
+      "url": "https://github.com/keszhongjiandong-dotcom/shs",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.83,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 52c9547",
+          "line": 45,
+          "source": "commit",
+          "preview": "AIza************************WwLA"
         }
       ]
     },
@@ -13333,6 +13455,33 @@
       ]
     },
     {
+      "repo": "SultanAiMaster/guru-memory-backup",
+      "url": "https://github.com/SultanAiMaster/guru-memory-backup",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.84,
+      "exposureScore": 20,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "guru-memory-backup-main/memory/2026-03-06.md",
+          "line": 257,
+          "source": "file",
+          "preview": "ghp_************************v57g"
+        }
+      ]
+    },
+    {
       "repo": "TSM-ArpitSG/Katyayani-Organics",
       "url": "https://github.com/TSM-ArpitSG/Katyayani-Organics",
       "status": "leaked",
@@ -16033,6 +16182,33 @@
       ]
     },
     {
+      "repo": "iamrandz92-cloud/crisiswatch",
+      "url": "https://github.com/iamrandz92-cloud/crisiswatch",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.72,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "crisiswatch-main/DEPLOYMENT.md",
+          "line": 51,
+          "source": "file",
+          "preview": "eyJh************************J21k"
+        }
+      ]
+    },
+    {
       "repo": "idgmedia2025-app/appa-saas-gobras",
       "url": "https://github.com/idgmedia2025-app/appa-saas-gobras",
       "status": "leaked",
@@ -17487,6 +17663,33 @@
           "line": 6,
           "source": "file",
           "preview": "8574************************02bw"
+        }
+      ]
+    },
+    {
+      "repo": "manifest114/cognacbot",
+      "url": "https://github.com/manifest114/cognacbot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 28.42,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Bot Token"
+      ],
+      "typeCounts": {
+        "Discord Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Bot Token",
+          "file": "cognacbot-main/# dnezRaider - Custom nuke bot.py",
+          "line": 10,
+          "source": "file",
+          "preview": "MTQ4************************mmsw"
         }
       ]
     },
@@ -19620,6 +19823,33 @@
           "line": 8,
           "source": "file",
           "preview": "AIza************************BuUk"
+        }
+      ]
+    },
+    {
+      "repo": "shyam-n-hub/fertigate",
+      "url": "https://github.com/shyam-n-hub/fertigate",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.74,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "fertigate-main/src/firebase/firebase.js",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************K7jI"
         }
       ]
     },
