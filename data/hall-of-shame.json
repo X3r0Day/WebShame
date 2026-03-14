@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T09:42:02.351455+00:00",
+  "generatedAt": "2026-03-14T10:11:04.782976+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -2638,6 +2638,42 @@
       ]
     },
     {
+      "repo": "chaturvediabhinav692-lgtm/koredex.backend-",
+      "url": "https://github.com/chaturvediabhinav692-lgtm/koredex.backend-",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 19.83,
+      "exposureScore": 40,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT",
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1,
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "koredex.backend--main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************xYVY"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "koredex.backend--main/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "AIza************************0dcE"
+        }
+      ]
+    },
+    {
       "repo": "eaaajay/MyTrendRadar",
       "url": "https://github.com/eaaajay/MyTrendRadar",
       "status": "leaked",
@@ -4078,6 +4114,33 @@
           "line": 1212,
           "source": "commit",
           "preview": "AIza************************puAU"
+        }
+      ]
+    },
+    {
+      "repo": "KeshavNagar18/Insta_Clone_BackEnd",
+      "url": "https://github.com/KeshavNagar18/Insta_Clone_BackEnd",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 46.36,
+      "exposureScore": 30,
+      "topTypes": [
+        "AWS Access Key ID"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "Commit 3e9ac99",
+          "line": 16119,
+          "source": "commit",
+          "preview": "AKIA************MPLE"
         }
       ]
     },
@@ -5783,6 +5846,33 @@
       ]
     },
     {
+      "repo": "markodapap-sketch/kryptoke",
+      "url": "https://github.com/markodapap-sketch/kryptoke",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 74.29,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 1ebdd51",
+          "line": 501,
+          "source": "commit",
+          "preview": "AIza************************g12E"
+        }
+      ]
+    },
+    {
       "repo": "mendalerenda89-droid/aeterna",
       "url": "https://github.com/mendalerenda89-droid/aeterna",
       "status": "leaked",
@@ -6832,6 +6922,33 @@
           "line": 24,
           "source": "commit",
           "preview": "http************************V7SX"
+        }
+      ]
+    },
+    {
+      "repo": "sheruhamdan/Flutter-Money-Tracker-App",
+      "url": "https://github.com/sheruhamdan/Flutter-Money-Tracker-App",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 28.1,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 847b719",
+          "line": 11965,
+          "source": "commit",
+          "preview": "AIza************************Ip-g"
         }
       ]
     },
@@ -10292,6 +10409,60 @@
       ]
     },
     {
+      "repo": "alexander0999/ajtbd",
+      "url": "https://github.com/alexander0999/ajtbd",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 45.51,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ajtbd-main/dist/assets/index-CO7mgUkh.js",
+          "line": 3188,
+          "source": "file",
+          "preview": "AIza************************D5mA"
+        }
+      ]
+    },
+    {
+      "repo": "alfikrirmdhn03/PlayBoxId",
+      "url": "https://github.com/alfikrirmdhn03/PlayBoxId",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.66,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "PlayBoxId-main/pbx-config.js",
+          "line": 2,
+          "source": "file",
+          "preview": "AIza************************MbDY"
+        }
+      ]
+    },
+    {
       "repo": "amgrullon/Capstone_Project4",
       "url": "https://github.com/amgrullon/Capstone_Project4",
       "status": "leaked",
@@ -10666,6 +10837,33 @@
           "line": 75,
           "source": "file",
           "preview": "eyJh************************3QbU"
+        }
+      ]
+    },
+    {
+      "repo": "colee0509-boop/win11",
+      "url": "https://github.com/colee0509-boop/win11",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.94,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "win11-master/src/components/login.js",
+          "line": 5,
+          "source": "file",
+          "preview": "AIza************************8mpI"
         }
       ]
     },
@@ -11314,6 +11512,33 @@
           "line": 7,
           "source": "file",
           "preview": "eyJh************************GjOI"
+        }
+      ]
+    },
+    {
+      "repo": "haox29987-max/1",
+      "url": "https://github.com/haox29987-max/1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.88,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenAI API Key (Legacy)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Legacy)": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "1-main/backed/config.py",
+          "line": 6,
+          "source": "file",
+          "preview": "sk-H************************vNj9"
         }
       ]
     },
@@ -13424,6 +13649,33 @@
       ]
     },
     {
+      "repo": "pavlitas/spartacus-events",
+      "url": "https://github.com/pavlitas/spartacus-events",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.4,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "spartacus-events-main/js/app.js",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************65RE"
+        }
+      ]
+    },
+    {
       "repo": "payalbagade201-codder/ArogyaMantra",
       "url": "https://github.com/payalbagade201-codder/ArogyaMantra",
       "status": "leaked",
@@ -14041,6 +14293,60 @@
           "line": 6,
           "source": "file",
           "preview": "eyJh************************om1M"
+        }
+      ]
+    },
+    {
+      "repo": "rupanand123/Disease-Prediction",
+      "url": "https://github.com/rupanand123/Disease-Prediction",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.44,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Disease-Prediction-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************KxFY"
+        }
+      ]
+    },
+    {
+      "repo": "s9ju/nailgood.github.io",
+      "url": "https://github.com/s9ju/nailgood.github.io",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 51.83,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "nailgood.github.io-main/data.json",
+          "line": 12,
+          "source": "file",
+          "preview": "8692************************Z7CY"
         }
       ]
     },
