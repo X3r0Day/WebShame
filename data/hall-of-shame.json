@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T10:41:13.683703+00:00",
+  "generatedAt": "2026-03-14T11:07:31.566808+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -1326,6 +1326,47 @@
       ]
     },
     {
+      "repo": "Punnes/Vocab-Buddy",
+      "url": "https://github.com/Punnes/Vocab-Buddy",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 2,
+      "scanTimeSeconds": 5.01,
+      "exposureScore": 64,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 3
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Vocab-Buddy-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************Lkfo"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 2217d63",
+          "line": 63206,
+          "source": "commit",
+          "preview": "AIza************************hfbo"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 2217d63",
+          "line": 63224,
+          "source": "commit",
+          "preview": "AIza************************Vz2g"
+        }
+      ]
+    },
+    {
       "repo": "Ramrkr/WholesaleApp",
       "url": "https://github.com/Ramrkr/WholesaleApp",
       "status": "leaked",
@@ -1990,6 +2031,40 @@
       ]
     },
     {
+      "repo": "sheerheart3-sketch/Smart-Scene-Agent",
+      "url": "https://github.com/sheerheart3-sketch/Smart-Scene-Agent",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 2,
+      "scanTimeSeconds": 5.37,
+      "exposureScore": 52,
+      "topTypes": [
+        "OpenAI API Key (Legacy)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Legacy)": 2
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "Commit 621b3aa",
+          "line": 18,
+          "source": "commit",
+          "preview": "sk-i************************tePn"
+        },
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "Commit c79355d",
+          "line": 16,
+          "source": "commit",
+          "preview": "sk-0************************Ow5q"
+        }
+      ]
+    },
+    {
       "repo": "womerx/rodata",
       "url": "https://github.com/womerx/rodata",
       "status": "leaked",
@@ -2056,6 +2131,47 @@
           "line": 121466,
           "source": "commit",
           "preview": "AIza************************jhBE"
+        }
+      ]
+    },
+    {
+      "repo": "EgeCankaya/curiopilot",
+      "url": "https://github.com/EgeCankaya/curiopilot",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 29.08,
+      "exposureScore": 44,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 3
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "curiopilot-master/tests/test_scrapers.py",
+          "line": 47,
+          "source": "file",
+          "preview": "http************************json"
+        },
+        {
+          "type": "Firebase Database URL",
+          "file": "curiopilot-master/tests/test_scrapers.py",
+          "line": 50,
+          "source": "file",
+          "preview": "http************************json"
+        },
+        {
+          "type": "Firebase Database URL",
+          "file": "curiopilot-master/tests/test_scrapers.py",
+          "line": 58,
+          "source": "file",
+          "preview": "http************************json"
         }
       ]
     },
@@ -4442,6 +4558,33 @@
       ]
     },
     {
+      "repo": "Sabari1026/HAND-METRICS-AI",
+      "url": "https://github.com/Sabari1026/HAND-METRICS-AI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 10.98,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 940b6a8",
+          "line": 119,
+          "source": "commit",
+          "preview": "eyJh************************sKkk"
+        }
+      ]
+    },
+    {
       "repo": "SadamParvez/dropit",
       "url": "https://github.com/SadamParvez/dropit",
       "status": "leaked",
@@ -4897,6 +5040,33 @@
           "line": 458,
           "source": "commit",
           "preview": "8645************************iFsg"
+        }
+      ]
+    },
+    {
+      "repo": "ayeLg/AI-dictornary-app",
+      "url": "https://github.com/ayeLg/AI-dictornary-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 82.0,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit e31d681",
+          "line": 847,
+          "source": "commit",
+          "preview": "AIza************************fEZg"
         }
       ]
     },
@@ -5410,6 +5580,33 @@
           "line": 2557,
           "source": "commit",
           "preview": "AIza************************HpWI"
+        }
+      ]
+    },
+    {
+      "repo": "hareemnadeem8897-art/bridigix-",
+      "url": "https://github.com/hareemnadeem8897-art/bridigix-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.28,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit cf1cb55",
+          "line": 270,
+          "source": "commit",
+          "preview": "eyJh************************3hCI"
         }
       ]
     },
@@ -6818,6 +7015,33 @@
       ]
     },
     {
+      "repo": "rtyty587-cpu/Echo-Messenger-Update-13",
+      "url": "https://github.com/rtyty587-cpu/Echo-Messenger-Update-13",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.75,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit fea2068",
+          "line": 75,
+          "source": "commit",
+          "preview": "AIza************************Pr9s"
+        }
+      ]
+    },
+    {
       "repo": "sallywalid208-a11y/sallywalid208-a11y.github.io",
       "url": "https://github.com/sallywalid208-a11y/sallywalid208-a11y.github.io",
       "status": "leaked",
@@ -7678,6 +7902,33 @@
           "line": 4,
           "source": "file",
           "preview": "8787************************qs_s"
+        }
+      ]
+    },
+    {
+      "repo": "AfricanDigitalAssetFramework/africa-stack-skills",
+      "url": "https://github.com/AfricanDigitalAssetFramework/africa-stack-skills",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 36.57,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "africa-stack-skills-main/southern-africa/investec/SKILL.md",
+          "line": 104,
+          "source": "file",
+          "preview": "eyJh************************sw5c"
         }
       ]
     },
@@ -10544,6 +10795,33 @@
       ]
     },
     {
+      "repo": "ameliamunandar/tugas-coding-1",
+      "url": "https://github.com/ameliamunandar/tugas-coding-1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.07,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "tugas-coding-1-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************Orh0"
+        }
+      ]
+    },
+    {
       "repo": "amgrullon/Capstone_Project4",
       "url": "https://github.com/amgrullon/Capstone_Project4",
       "status": "leaked",
@@ -11435,6 +11713,33 @@
       ]
     },
     {
+      "repo": "gayatridhule/CloudVault_App",
+      "url": "https://github.com/gayatridhule/CloudVault_App",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.77,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "CloudVault_App-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************l-Wk"
+        }
+      ]
+    },
+    {
       "repo": "gc5858gcv1-afk/gx",
       "url": "https://github.com/gc5858gcv1-afk/gx",
       "status": "leaked",
@@ -11647,6 +11952,33 @@
           "line": 6,
           "source": "file",
           "preview": "sk-H************************vNj9"
+        }
+      ]
+    },
+    {
+      "repo": "happyhappyoiu01-boop/tbktooooo",
+      "url": "https://github.com/happyhappyoiu01-boop/tbktooooo",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 20.96,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "tbktooooo-main/q1/telegram_notify.php",
+          "line": 7,
+          "source": "file",
+          "preview": "8296************************wXaQ"
         }
       ]
     },
@@ -13649,6 +13981,33 @@
       ]
     },
     {
+      "repo": "orewagarou2/telegram-voucher-sell7",
+      "url": "https://github.com/orewagarou2/telegram-voucher-sell7",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 105.98,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "telegram-voucher-sell7-main/bot.py",
+          "line": 6,
+          "source": "file",
+          "preview": "8022************************pEV8"
+        }
+      ]
+    },
+    {
       "repo": "oybekholmatov01-debug/TDM",
       "url": "https://github.com/oybekholmatov01-debug/TDM",
       "status": "leaked",
@@ -14540,6 +14899,60 @@
       ]
     },
     {
+      "repo": "sharmi2603/elevateai-resume-optimization",
+      "url": "https://github.com/sharmi2603/elevateai-resume-optimization",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 25.94,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "elevateai-resume-optimization-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************KeqM"
+        }
+      ]
+    },
+    {
+      "repo": "sharmi2603/elevateai-resume-optimize",
+      "url": "https://github.com/sharmi2603/elevateai-resume-optimize",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.84,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "elevateai-resume-optimize-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************KeqM"
+        }
+      ]
+    },
+    {
       "repo": "skupiz/bottts",
       "url": "https://github.com/skupiz/bottts",
       "status": "leaked",
@@ -14702,6 +15115,33 @@
       ]
     },
     {
+      "repo": "teamturnersolutions/LabelFlow",
+      "url": "https://github.com/teamturnersolutions/LabelFlow",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.21,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "LabelFlow-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************DK10"
+        }
+      ]
+    },
+    {
       "repo": "tiagomedic/prevvine-discovery-form",
       "url": "https://github.com/tiagomedic/prevvine-discovery-form",
       "status": "leaked",
@@ -14833,6 +15273,33 @@
           "line": 2,
           "source": "file",
           "preview": "AIza************************K2Lg"
+        }
+      ]
+    },
+    {
+      "repo": "vardhinichettepelly-a11y/vardhini",
+      "url": "https://github.com/vardhinichettepelly-a11y/vardhini",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.83,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "vardhini-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************PPEM"
         }
       ]
     },
