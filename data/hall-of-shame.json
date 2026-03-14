@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T13:15:18.029641+00:00",
+  "generatedAt": "2026-03-14T14:05:07.203404+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -1586,6 +1586,51 @@
       ]
     },
     {
+      "repo": "yogeshwarank58-cell/papa",
+      "url": "https://github.com/yogeshwarank58-cell/papa",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 3,
+      "filesAffected": 3,
+      "commitFindings": 0,
+      "scanTimeSeconds": 22.11,
+      "exposureScore": 60,
+      "topTypes": [
+        "Mailgun API Key",
+        "Firebase Database URL",
+        "AWS Access Key ID"
+      ],
+      "typeCounts": {
+        "Mailgun API Key": 1,
+        "Firebase Database URL": 1,
+        "AWS Access Key ID": 1
+      },
+      "findings": [
+        {
+          "type": "Mailgun API Key",
+          "file": "papa-main/tests/server/test_api_key_manager.py",
+          "line": 23,
+          "source": "file",
+          "preview": "key-************************7890"
+        },
+        {
+          "type": "Firebase Database URL",
+          "file": "papa-main/third_party/agfs/agfs-mcp/demos/hackernews_research.py",
+          "line": 37,
+          "source": "file",
+          "preview": "http************************json"
+        },
+        {
+          "type": "AWS Access Key ID",
+          "file": "papa-main/third_party/agfs/agfs-server/pkg/plugins/s3fs/README.md",
+          "line": 15,
+          "source": "file",
+          "preview": "AKIA************MPLE"
+        }
+      ]
+    },
+    {
       "repo": "Piyush5621/PortFolio",
       "url": "https://github.com/Piyush5621/PortFolio",
       "status": "leaked",
@@ -3102,6 +3147,42 @@
       ]
     },
     {
+      "repo": "smrafiu2-max/Photoshop-AI-Agent-Bot",
+      "url": "https://github.com/smrafiu2-max/Photoshop-AI-Agent-Bot",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 68.23,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Photoshop-AI-Agent-Bot-main/main.py",
+          "line": 6,
+          "source": "file",
+          "preview": "8798************************C8WQ"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Photoshop-AI-Agent-Bot-main/main.py",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************jEmA"
+        }
+      ]
+    },
+    {
       "repo": "tommy4691/TrendRadar",
       "url": "https://github.com/tommy4691/TrendRadar",
       "status": "leaked",
@@ -3853,6 +3934,33 @@
       ]
     },
     {
+      "repo": "Ankit-07-chy/ML_HealthOS",
+      "url": "https://github.com/Ankit-07-chy/ML_HealthOS",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 177.32,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit c6feb51",
+          "line": 1223,
+          "source": "commit",
+          "preview": "AIza************************S5NE"
+        }
+      ]
+    },
+    {
       "repo": "Antho6262/Site-24-24",
       "url": "https://github.com/Antho6262/Site-24-24",
       "status": "leaked",
@@ -4227,6 +4335,33 @@
           "line": 37,
           "source": "commit",
           "preview": "sk-p************************ldYA"
+        }
+      ]
+    },
+    {
+      "repo": "Fulgence10/mic",
+      "url": "https://github.com/Fulgence10/mic",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 62.9,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit d0b4ecf",
+          "line": 504,
+          "source": "commit",
+          "preview": "AIza************************GK9g"
         }
       ]
     },
@@ -5500,6 +5635,33 @@
       ]
     },
     {
+      "repo": "carlosescudero81-coder/FamilyCard",
+      "url": "https://github.com/carlosescudero81-coder/FamilyCard",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.62,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit bfa4d72",
+          "line": 1256,
+          "source": "commit",
+          "preview": "eyJh************************gyvM"
+        }
+      ]
+    },
+    {
       "repo": "cheri-bts/Lexo-Alpha",
       "url": "https://github.com/cheri-bts/Lexo-Alpha",
       "status": "leaked",
@@ -5739,6 +5901,33 @@
           "line": 123,
           "source": "commit",
           "preview": "AIza************************WHDk"
+        }
+      ]
+    },
+    {
+      "repo": "finnschanz-svg/rum-nienhilfe_Termin_Kalender",
+      "url": "https://github.com/finnschanz-svg/rum-nienhilfe_Termin_Kalender",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.77,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 0f3e207",
+          "line": 391,
+          "source": "commit",
+          "preview": "AIza************************VqHw"
         }
       ]
     },
@@ -7903,6 +8092,33 @@
       ]
     },
     {
+      "repo": "topealabi2009-bit/clockwise",
+      "url": "https://github.com/topealabi2009-bit/clockwise",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.84,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 2f869f7",
+          "line": 863,
+          "source": "commit",
+          "preview": "eyJh************************R6Ls"
+        }
+      ]
+    },
+    {
       "repo": "tradertamim007-star/Virtual-Earning-Zone-BD-",
       "url": "https://github.com/tradertamim007-star/Virtual-Earning-Zone-BD-",
       "status": "leaked",
@@ -8169,6 +8385,33 @@
           "line": 114,
           "source": "commit",
           "preview": "AKIA************MPLE"
+        }
+      ]
+    },
+    {
+      "repo": "yutoebiharaphotographer-design/test",
+      "url": "https://github.com/yutoebiharaphotographer-design/test",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.47,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 3be45db",
+          "line": 277,
+          "source": "commit",
+          "preview": "eyJh************************N488"
         }
       ]
     },
@@ -8655,6 +8898,33 @@
           "line": 316,
           "source": "file",
           "preview": "pk.e************************xxxx"
+        }
+      ]
+    },
+    {
+      "repo": "Bhavyajain0604/Threat_Hawk_Vulnerability_Scanner",
+      "url": "https://github.com/Bhavyajain0604/Threat_Hawk_Vulnerability_Scanner",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 128.31,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Threat_Hawk_Vulnerability_Scanner-main/frontend/src/app/dashboard/[scanId]/viewreport/aireport/page.tsx",
+          "line": 136,
+          "source": "file",
+          "preview": "AIza************************pLdI"
         }
       ]
     },
@@ -9415,6 +9685,33 @@
       ]
     },
     {
+      "repo": "Jatin0Yadav/Booki",
+      "url": "https://github.com/Jatin0Yadav/Booki",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 75.68,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Booki-main/app/google-services.json",
+          "line": 19,
+          "source": "file",
+          "preview": "AIza************************eakc"
+        }
+      ]
+    },
+    {
       "repo": "JohnMunsch/StoryForge",
       "url": "https://github.com/JohnMunsch/StoryForge",
       "status": "leaked",
@@ -9766,6 +10063,33 @@
       ]
     },
     {
+      "repo": "Mehranchandail/Cashchat",
+      "url": "https://github.com/Mehranchandail/Cashchat",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.42,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Cashchat-main/script.js",
+          "line": 835,
+          "source": "file",
+          "preview": "AIza************************UIqo"
+        }
+      ]
+    },
+    {
       "repo": "Mohamed22hh/ejust-club-hub",
       "url": "https://github.com/Mohamed22hh/ejust-club-hub",
       "status": "leaked",
@@ -9951,6 +10275,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************zKl4"
+        }
+      ]
+    },
+    {
+      "repo": "NamesDain/Username-validator",
+      "url": "https://github.com/NamesDain/Username-validator",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 26.11,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Username-validator-main/Username-validator.cpp",
+          "line": 59,
+          "source": "file",
+          "preview": "http************************haTA"
         }
       ]
     },
@@ -10896,6 +11247,33 @@
           "line": 9,
           "source": "file",
           "preview": "8652************************O-c4"
+        }
+      ]
+    },
+    {
+      "repo": "TearCake/GrievanceGPT",
+      "url": "https://github.com/TearCake/GrievanceGPT",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.22,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "GrievanceGPT-main/backend/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************7DPw"
         }
       ]
     },
@@ -12817,6 +13195,33 @@
       ]
     },
     {
+      "repo": "gxdbox/skin-swap",
+      "url": "https://github.com/gxdbox/skin-swap",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 30.43,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenAI API Key (Legacy)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Legacy)": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "skin-swap-master/cloudfunctions/combinePictures/index.js",
+          "line": 8,
+          "source": "file",
+          "preview": "sk-R************************d0dl"
+        }
+      ]
+    },
+    {
       "repo": "hakondalsbo/kulturvarsling",
       "url": "https://github.com/hakondalsbo/kulturvarsling",
       "status": "leaked",
@@ -13650,6 +14055,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************kAGk"
+        }
+      ]
+    },
+    {
+      "repo": "kamelfcis/admin-web-dashboard",
+      "url": "https://github.com/kamelfcis/admin-web-dashboard",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.86,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "admin-web-dashboard-main/assets/supabase-client.js",
+          "line": 6,
+          "source": "file",
+          "preview": "eyJh************************mHuI"
         }
       ]
     },
@@ -15814,6 +16246,33 @@
       ]
     },
     {
+      "repo": "romansingh5023-hue/AIPIPNEW",
+      "url": "https://github.com/romansingh5023-hue/AIPIPNEW",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 19.74,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "AIPIPNEW-main/utils/supabase/info.tsx",
+          "line": 4,
+          "source": "file",
+          "preview": "eyJh************************qRbU"
+        }
+      ]
+    },
+    {
       "repo": "ronald6666/atlasbotts",
       "url": "https://github.com/ronald6666/atlasbotts",
       "status": "leaked",
@@ -16620,6 +17079,33 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************7LUY"
+        }
+      ]
+    },
+    {
+      "repo": "x3m4llk0/BarcaInformer",
+      "url": "https://github.com/x3m4llk0/BarcaInformer",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.02,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "BarcaInformer-main/cmd/main.go",
+          "line": 9,
+          "source": "file",
+          "preview": "1861************************_-nI"
         }
       ]
     },
