@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T15:56:10.505873+00:00",
+  "generatedAt": "2026-03-14T16:13:48.761750+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -5205,6 +5205,33 @@
       ]
     },
     {
+      "repo": "NikshithaPhysio/abevents",
+      "url": "https://github.com/NikshithaPhysio/abevents",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.32,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 6fd27d6",
+          "line": 612,
+          "source": "commit",
+          "preview": "AIza************************KSF4"
+        }
+      ]
+    },
+    {
       "repo": "NourEhab-del/Fazoure.M",
       "url": "https://github.com/NourEhab-del/Fazoure.M",
       "status": "leaked",
@@ -5633,6 +5660,33 @@
           "line": 74,
           "source": "commit",
           "preview": "AIza************************zdsw"
+        }
+      ]
+    },
+    {
+      "repo": "Unlxii/VisScan",
+      "url": "https://github.com/Unlxii/VisScan",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 21.09,
+      "exposureScore": 30,
+      "topTypes": [
+        "GitLab PAT"
+      ],
+      "typeCounts": {
+        "GitLab PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitLab PAT",
+          "file": "Commit d3ffc7f",
+          "line": 1078,
+          "source": "commit",
+          "preview": "glpa******************xxxx"
         }
       ]
     },
@@ -7118,6 +7172,33 @@
           "line": 33,
           "source": "commit",
           "preview": "sk-o************************e1dc"
+        }
+      ]
+    },
+    {
+      "repo": "konvasru-oss/3im1live",
+      "url": "https://github.com/konvasru-oss/3im1live",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.45,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 55103fa",
+          "line": 326,
+          "source": "commit",
+          "preview": "eyJh************************uGuA"
         }
       ]
     },
@@ -8931,6 +9012,33 @@
       ]
     },
     {
+      "repo": "viswahackerlord214/desert.drnp",
+      "url": "https://github.com/viswahackerlord214/desert.drnp",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.51,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 805ca6a",
+          "line": 39,
+          "source": "commit",
+          "preview": "eyJh************************NM0Y"
+        }
+      ]
+    },
+    {
       "repo": "willcee127/Eon-Ark",
       "url": "https://github.com/willcee127/Eon-Ark",
       "status": "leaked",
@@ -9278,6 +9386,33 @@
           "line": 11,
           "source": "file",
           "preview": "AIza************************3eqc"
+        }
+      ]
+    },
+    {
+      "repo": "Accquit/Jarvis",
+      "url": "https://github.com/Accquit/Jarvis",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 27.54,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Jarvis-main/config/api_keys.json",
+          "line": 2,
+          "source": "file",
+          "preview": "AIza************************Y0Yk"
         }
       ]
     },
@@ -9791,6 +9926,33 @@
           "line": 9,
           "source": "file",
           "preview": "AIza************************UaLg"
+        }
+      ]
+    },
+    {
+      "repo": "Croziris/Acti-minute-pb",
+      "url": "https://github.com/Croziris/Acti-minute-pb",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Acti-minute-pb-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************uMgM"
         }
       ]
     },
@@ -11924,6 +12086,33 @@
           "line": 14,
           "source": "file",
           "preview": "8773************************kyyY"
+        }
+      ]
+    },
+    {
+      "repo": "Shine2965/project",
+      "url": "https://github.com/Shine2965/project",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.04,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "project-Tester/api/send.js",
+          "line": 5,
+          "source": "file",
+          "preview": "http************************Qez6"
         }
       ]
     },
@@ -14682,6 +14871,33 @@
       ]
     },
     {
+      "repo": "isouO0/Stofla-Telecom",
+      "url": "https://github.com/isouO0/Stofla-Telecom",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 68.84,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Stofla-Telecom-main/assets/index-CJ1-xjUx.js",
+          "line": 3424,
+          "source": "file",
+          "preview": "AIza************************PHHE"
+        }
+      ]
+    },
+    {
       "repo": "istal-wp/envirocabn",
       "url": "https://github.com/istal-wp/envirocabn",
       "status": "leaked",
@@ -15002,6 +15218,33 @@
           "line": 3,
           "source": "file",
           "preview": "eyJh************************YUvY"
+        }
+      ]
+    },
+    {
+      "repo": "jpichet1997/cafe-queue",
+      "url": "https://github.com/jpichet1997/cafe-queue",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.98,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "cafe-queue-main/customer.js",
+          "line": 5,
+          "source": "file",
+          "preview": "AIza************************gRdg"
         }
       ]
     },
