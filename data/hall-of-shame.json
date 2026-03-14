@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T05:09:10.174609+00:00",
+  "generatedAt": "2026-03-14T05:55:53.999801+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -9117,6 +9117,33 @@
       ]
     },
     {
+      "repo": "Yagyamodi/Daily-Wisdom-App",
+      "url": "https://github.com/Yagyamodi/Daily-Wisdom-App",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 36.41,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Daily-Wisdom-App-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************5Hyo"
+        }
+      ]
+    },
+    {
       "repo": "aadukr5284-ops/Song-bot",
       "url": "https://github.com/aadukr5284-ops/Song-bot",
       "status": "leaked",
@@ -9734,6 +9761,33 @@
           "line": 25,
           "source": "file",
           "preview": "8641************************jQsc"
+        }
+      ]
+    },
+    {
+      "repo": "claireboshoff/FreedomOS",
+      "url": "https://github.com/claireboshoff/FreedomOS",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 32.23,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "FreedomOS-gh-pages/assets/index-CJpVc27G.js",
+          "line": 75,
+          "source": "file",
+          "preview": "eyJh************************3QbU"
         }
       ]
     },
@@ -13082,6 +13136,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************Jc3M"
+        }
+      ]
+    },
+    {
+      "repo": "vierginn10-debug/salmayya",
+      "url": "https://github.com/vierginn10-debug/salmayya",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.75,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "salmayya-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************Orh0"
         }
       ]
     },
