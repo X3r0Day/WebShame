@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T20:25:53.309987+00:00",
+  "generatedAt": "2026-03-14T21:08:56.354619+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -3706,6 +3706,42 @@
       ]
     },
     {
+      "repo": "arieliten85/liftlyGym-api",
+      "url": "https://github.com/arieliten85/liftlyGym-api",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 66.15,
+      "exposureScore": 40,
+      "topTypes": [
+        "OpenRouter API Key",
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1,
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "liftlyGym-api-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "sk-o************************a7fb"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "liftlyGym-api-main/node_modules/zod/src/v4/mini/tests/string.test.ts",
+          "line": 321,
+          "source": "file",
+          "preview": "eyJh************************sw5c"
+        }
+      ]
+    },
+    {
       "repo": "cfcreator29-stack/-5554845",
       "url": "https://github.com/cfcreator29-stack/-5554845",
       "status": "leaked",
@@ -5188,6 +5224,33 @@
           "line": 29,
           "source": "commit",
           "preview": "AIza************************tbEk"
+        }
+      ]
+    },
+    {
+      "repo": "AtherHub/_Blox_fruits",
+      "url": "https://github.com/AtherHub/_Blox_fruits",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 29.04,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 8c29ce1",
+          "line": 33,
+          "source": "commit",
+          "preview": "http************************b_3B"
         }
       ]
     },
@@ -7861,6 +7924,33 @@
           "line": 6247,
           "source": "commit",
           "preview": "AIza************************2W9I"
+        }
+      ]
+    },
+    {
+      "repo": "hunolatam-dev/colegio",
+      "url": "https://github.com/hunolatam-dev/colegio",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 170.4,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 1289b88",
+          "line": 1496,
+          "source": "commit",
+          "preview": "eyJh************************Z-QY"
         }
       ]
     },
@@ -11510,6 +11600,33 @@
       ]
     },
     {
+      "repo": "EbrahimAlshaibani/dfg",
+      "url": "https://github.com/EbrahimAlshaibani/dfg",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 145.51,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "dfg-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************V54Q"
+        }
+      ]
+    },
+    {
       "repo": "Estrefo/Estrefo.github.io",
       "url": "https://github.com/Estrefo/Estrefo.github.io",
       "status": "leaked",
@@ -12613,6 +12730,33 @@
           "line": 835,
           "source": "file",
           "preview": "AIza************************UIqo"
+        }
+      ]
+    },
+    {
+      "repo": "Mischuu/Meridian",
+      "url": "https://github.com/Mischuu/Meridian",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 20.19,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Meridian-main/api/firebase.js",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************meR0"
         }
       ]
     },
@@ -14453,6 +14597,33 @@
       ]
     },
     {
+      "repo": "aashithcm11/1-bot",
+      "url": "https://github.com/aashithcm11/1-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.18,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "1-bot-main/handlers/command.js",
+          "line": 8,
+          "source": "file",
+          "preview": "http************************CQkH"
+        }
+      ]
+    },
+    {
       "repo": "abdallahzeine/CV-maker",
       "url": "https://github.com/abdallahzeine/CV-maker",
       "status": "leaked",
@@ -14800,6 +14971,60 @@
           "line": 71,
           "source": "file",
           "preview": "AIza************************htVA"
+        }
+      ]
+    },
+    {
+      "repo": "ale1995v/react-yyzkg5ds",
+      "url": "https://github.com/ale1995v/react-yyzkg5ds",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 20.3,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "react-yyzkg5ds-main/src/firebase.js",
+          "line": 5,
+          "source": "file",
+          "preview": "AIza************************K15U"
+        }
+      ]
+    },
+    {
+      "repo": "ale1995v/vitereact-onpq2quh",
+      "url": "https://github.com/ale1995v/vitereact-onpq2quh",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.4,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "vitereact-onpq2quh-main/dist/assets/index-D0HjV7si.js",
+          "line": 1743,
+          "source": "file",
+          "preview": "AIza************************K15U"
         }
       ]
     },
@@ -20902,6 +21127,33 @@
           "line": 16,
           "source": "file",
           "preview": "eyJh************************VlQM"
+        }
+      ]
+    },
+    {
+      "repo": "tllwnlkhlh-wq/711711",
+      "url": "https://github.com/tllwnlkhlh-wq/711711",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.11,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "711711-main/server.js",
+          "line": 3,
+          "source": "file",
+          "preview": "8606************************6dCM"
         }
       ]
     },
