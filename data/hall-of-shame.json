@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T16:13:48.761750+00:00",
+  "generatedAt": "2026-03-14T16:54:56.927956+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -2120,6 +2120,49 @@
       ]
     },
     {
+      "repo": "zizozizo123km/1000104088",
+      "url": "https://github.com/zizozizo123km/1000104088",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.83,
+      "exposureScore": 52,
+      "topTypes": [
+        "Google API/GCP Key",
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2,
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "1000104088-main/1000104088/README.md",
+          "line": 43,
+          "source": "file",
+          "preview": "AIza************************yS5E"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "1000104088-main/1000104088/src/lib/firebase.ts",
+          "line": 15,
+          "source": "file",
+          "preview": "AIza************************kyxE"
+        },
+        {
+          "type": "OpenRouter API Key",
+          "file": "1000104088-main/1000104088/src/lib/openrouter.ts",
+          "line": 4,
+          "source": "file",
+          "preview": "sk-o************************2567"
+        }
+      ]
+    },
+    {
       "repo": "RAKSHANSP/devops-project",
       "url": "https://github.com/RAKSHANSP/devops-project",
       "status": "leaked",
@@ -2150,6 +2193,40 @@
           "line": 195415,
           "source": "commit",
           "preview": "AIza************************_WAc"
+        }
+      ]
+    },
+    {
+      "repo": "Sep-Gob-Mx/SIGED-certificado-preparatoria-autenticacion-SAGE920712MVZNLR06",
+      "url": "https://github.com/Sep-Gob-Mx/SIGED-certificado-preparatoria-autenticacion-SAGE920712MVZNLR06",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 164.33,
+      "exposureScore": 52,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit d8837f1",
+          "line": 203,
+          "source": "commit",
+          "preview": "AIza************************nsaM"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit d8837f1",
+          "line": 47186,
+          "source": "commit",
+          "preview": "AIza************************w-jM"
         }
       ]
     },
@@ -3696,6 +3773,40 @@
       ]
     },
     {
+      "repo": "ArseniiGT/WeatherBot2",
+      "url": "https://github.com/ArseniiGT/WeatherBot2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.68,
+      "exposureScore": 32,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 2
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "WeatherBot2-master/bot.py",
+          "line": 6,
+          "source": "file",
+          "preview": "8658************************hoEk"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "WeatherBot2-master/bot.py",
+          "line": 43,
+          "source": "file",
+          "preview": "8661************************D3e0"
+        }
+      ]
+    },
+    {
       "repo": "DaniilGiz/sao-paulo",
       "url": "https://github.com/DaniilGiz/sao-paulo",
       "status": "leaked",
@@ -4854,6 +4965,33 @@
       ]
     },
     {
+      "repo": "HariAnalyst/dli-dashboard",
+      "url": "https://github.com/HariAnalyst/dli-dashboard",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 144.37,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit abe83a0",
+          "line": 332,
+          "source": "commit",
+          "preview": "AIza************************4VE0"
+        }
+      ]
+    },
+    {
       "repo": "HinojosaMaker/CODEX",
       "url": "https://github.com/HinojosaMaker/CODEX",
       "status": "leaked",
@@ -5579,6 +5717,33 @@
           "line": 314,
           "source": "commit",
           "preview": "eyJh************************m-x8"
+        }
+      ]
+    },
+    {
+      "repo": "Tarikz22/aithenor-landing",
+      "url": "https://github.com/Tarikz22/aithenor-landing",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.59,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 7f0b14f",
+          "line": 1034,
+          "source": "commit",
+          "preview": "eyJh************************z8ns"
         }
       ]
     },
@@ -10740,6 +10905,33 @@
       ]
     },
     {
+      "repo": "Kea335/LocationApp",
+      "url": "https://github.com/Kea335/LocationApp",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 84.46,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "LocationApp-master/app/src/main/AndroidManifest.xml",
+          "line": 31,
+          "source": "file",
+          "preview": "AIza************************T-Sw"
+        }
+      ]
+    },
+    {
       "repo": "Krainium/droplet-ip-finder",
       "url": "https://github.com/Krainium/droplet-ip-finder",
       "status": "leaked",
@@ -11357,6 +11549,33 @@
           "line": 28,
           "source": "file",
           "preview": "AIza************************K-wc"
+        }
+      ]
+    },
+    {
+      "repo": "Nishit013/KhaoJi-Store-1",
+      "url": "https://github.com/Nishit013/KhaoJi-Store-1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 81.43,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "KhaoJi-Store-1-main/services/firebase.ts",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************z0B0"
         }
       ]
     },
@@ -12657,6 +12876,33 @@
       ]
     },
     {
+      "repo": "ZenTxZen/SpaceBot",
+      "url": "https://github.com/ZenTxZen/SpaceBot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.65,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "SpaceBot-main/\u0411\u043e\u0442.py",
+          "line": 3,
+          "source": "file",
+          "preview": "8533************************uyW0"
+        }
+      ]
+    },
+    {
       "repo": "aadukr5284-ops/Song-bot",
       "url": "https://github.com/aadukr5284-ops/Song-bot",
       "status": "leaked",
@@ -13571,6 +13817,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************kh-g"
+        }
+      ]
+    },
+    {
+      "repo": "chaitanya9980/Travel-Mate",
+      "url": "https://github.com/chaitanya9980/Travel-Mate",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.4,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Travel-Mate-main/TravelMate/firebase_config.py",
+          "line": 11,
+          "source": "file",
+          "preview": "AIza************************b7hA"
         }
       ]
     },
@@ -14736,6 +15009,33 @@
       ]
     },
     {
+      "repo": "hrosas-HD/quant-sharp-auditor",
+      "url": "https://github.com/hrosas-HD/quant-sharp-auditor",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 99.8,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "quant-sharp-auditor-main/dashboard_streamlit.py",
+          "line": 79,
+          "source": "file",
+          "preview": "AIza************************CvqU"
+        }
+      ]
+    },
+    {
       "repo": "hubaethel-rgb/Nuke",
       "url": "https://github.com/hubaethel-rgb/Nuke",
       "status": "leaked",
@@ -15654,6 +15954,33 @@
       ]
     },
     {
+      "repo": "kiritoebalo-gif/discord-ticket-bot",
+      "url": "https://github.com/kiritoebalo-gif/discord-ticket-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.09,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Bot Token"
+      ],
+      "typeCounts": {
+        "Discord Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Bot Token",
+          "file": "discord-ticket-bot-main/MyBot/bot.py",
+          "line": 10,
+          "source": "file",
+          "preview": "MTQ4************************Zkbs"
+        }
+      ]
+    },
+    {
       "repo": "kirtifzk-hue/CSR-Volume_I_Part-I",
       "url": "https://github.com/kirtifzk-hue/CSR-Volume_I_Part-I",
       "status": "leaked",
@@ -15758,6 +16085,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************mpnM"
+        }
+      ]
+    },
+    {
+      "repo": "korotkovsememnsk-ux/space-bot",
+      "url": "https://github.com/korotkovsememnsk-ux/space-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 134.03,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "space-bot-main/cosmosfactsbot.py",
+          "line": 7,
+          "source": "file",
+          "preview": "8653************************1Vzk"
         }
       ]
     },
