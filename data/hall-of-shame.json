@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T21:21:50.848361+00:00",
+  "generatedAt": "2026-03-14T21:47:24.797488+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -2123,6 +2123,54 @@
           "line": 258,
           "source": "file",
           "preview": "eyJh************************YYYY"
+        }
+      ]
+    },
+    {
+      "repo": "DrowBlack/AbsoluteClient-0.4",
+      "url": "https://github.com/DrowBlack/AbsoluteClient-0.4",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 156.81,
+      "exposureScore": 56,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 4
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "AbsoluteClient-0.4-main/mappings/lavaplayer-2.2.2.jar.json",
+          "line": 5832,
+          "source": "file",
+          "preview": "AIza************************M39w"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "AbsoluteClient-0.4-main/mappings/lavaplayer-2.2.2.jar.json",
+          "line": 5850,
+          "source": "file",
+          "preview": "AIza************************qcW8"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "AbsoluteClient-0.4-main/mappings/lavaplayer-2.2.2.jar.json",
+          "line": 5868,
+          "source": "file",
+          "preview": "AIza************************vkMc"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "AbsoluteClient-0.4-main/mappings/lavaplayer-2.2.2.jar.json",
+          "line": 5946,
+          "source": "file",
+          "preview": "AIza************************NX30"
         }
       ]
     },
@@ -9193,6 +9241,33 @@
           "line": 126,
           "source": "commit",
           "preview": "http************************AMcw"
+        }
+      ]
+    },
+    {
+      "repo": "pahmijawa88-source/PrivateServer.Byrian",
+      "url": "https://github.com/pahmijawa88-source/PrivateServer.Byrian",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 109.57,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 9fac9e4",
+          "line": 161,
+          "source": "commit",
+          "preview": "http************************QiA4"
         }
       ]
     },
@@ -17675,6 +17750,33 @@
       ]
     },
     {
+      "repo": "john03t4/VIVIPAY",
+      "url": "https://github.com/john03t4/VIVIPAY",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "VIVIPAY-main/bot.py",
+          "line": 11,
+          "source": "file",
+          "preview": "8784************************KeWA"
+        }
+      ]
+    },
+    {
       "repo": "jonnyxtar41/edulogger",
       "url": "https://github.com/jonnyxtar41/edulogger",
       "status": "leaked",
@@ -20695,6 +20797,33 @@
           "line": 12,
           "source": "file",
           "preview": "8692************************Z7CY"
+        }
+      ]
+    },
+    {
+      "repo": "salmansniper56-cloud/beingsalmanbutt.app",
+      "url": "https://github.com/salmansniper56-cloud/beingsalmanbutt.app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.6,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "beingsalmanbutt.app-main/firebase.js",
+          "line": 8,
+          "source": "file",
+          "preview": "AIza************************wT_g"
         }
       ]
     },
