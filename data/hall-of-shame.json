@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T19:50:29.050574+00:00",
+  "generatedAt": "2026-03-14T20:08:19.579095+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -2748,6 +2748,42 @@
       ]
     },
     {
+      "repo": "just4abhiii/project",
+      "url": "https://github.com/just4abhiii/project",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 88.02,
+      "exposureScore": 50,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT",
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1,
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "project-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************SlyA"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 726d863",
+          "line": 30,
+          "source": "commit",
+          "preview": "8679************************paRw"
+        }
+      ]
+    },
+    {
       "repo": "EgeCankaya/curiopilot",
       "url": "https://github.com/EgeCankaya/curiopilot",
       "status": "leaked",
@@ -4662,6 +4698,40 @@
           "line": 14,
           "source": "file",
           "preview": "8766************************qZKU"
+        }
+      ]
+    },
+    {
+      "repo": "sara900312/dist1",
+      "url": "https://github.com/sara900312/dist1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.56,
+      "exposureScore": 32,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 2
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "dist1-main/dist2/js/index-CZNOlnua.js",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************KIps"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "dist1-main/dist3/assets/index-BZttcaMP.js",
+          "line": 75,
+          "source": "file",
+          "preview": "eyJh************************FjZ8"
         }
       ]
     },
@@ -7225,6 +7295,33 @@
       ]
     },
     {
+      "repo": "eanify/earn",
+      "url": "https://github.com/eanify/earn",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.4,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 5f80344",
+          "line": 158,
+          "source": "commit",
+          "preview": "AIza************************oh14"
+        }
+      ]
+    },
+    {
       "repo": "efeiswat/Lumora",
       "url": "https://github.com/efeiswat/Lumora",
       "status": "leaked",
@@ -7302,6 +7399,33 @@
           "line": 1707,
           "source": "commit",
           "preview": "AIza************************mBWY"
+        }
+      ]
+    },
+    {
+      "repo": "faizanazizix/nice-gsm-site",
+      "url": "https://github.com/faizanazizix/nice-gsm-site",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 69.56,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 58ed247",
+          "line": 34,
+          "source": "commit",
+          "preview": "AIza************************5B5s"
         }
       ]
     },
@@ -8598,6 +8722,33 @@
           "line": 94,
           "source": "commit",
           "preview": "AIza************************nDPY"
+        }
+      ]
+    },
+    {
+      "repo": "nds1877/packtrack",
+      "url": "https://github.com/nds1877/packtrack",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 12.06,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit d5de379",
+          "line": 33,
+          "source": "commit",
+          "preview": "AIza************************XYhs"
         }
       ]
     },
@@ -12517,6 +12668,33 @@
       ]
     },
     {
+      "repo": "NAHID-TEST-SERVER/rekrtapp",
+      "url": "https://github.com/NAHID-TEST-SERVER/rekrtapp",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 112.16,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "rekrtapp-main/firebase-applet-config.json",
+          "line": 2,
+          "source": "file",
+          "preview": "AIza************************WErk"
+        }
+      ]
+    },
+    {
       "repo": "NAMAN2806/Psychological-works-",
       "url": "https://github.com/NAMAN2806/Psychological-works-",
       "status": "leaked",
@@ -14214,6 +14392,33 @@
           "line": 119,
           "source": "file",
           "preview": "AIza************************2Ucc"
+        }
+      ]
+    },
+    {
+      "repo": "abhijeeta2007-crypto/AI-research-agent",
+      "url": "https://github.com/abhijeeta2007-crypto/AI-research-agent",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.5,
+      "exposureScore": 20,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "AI-research-agent-main/main.py",
+          "line": 29,
+          "source": "file",
+          "preview": "gsk_************************Uyh6"
         }
       ]
     },
@@ -16293,6 +16498,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************1guE"
+        }
+      ]
+    },
+    {
+      "repo": "honehone943-cloud/fsy_bot",
+      "url": "https://github.com/honehone943-cloud/fsy_bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.96,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "fsy_bot-main/main.py",
+          "line": 8,
+          "source": "file",
+          "preview": "8764************************FoKQ"
         }
       ]
     },
@@ -19429,6 +19661,33 @@
       ]
     },
     {
+      "repo": "rahulbuildsstuff/Youtube-Clone",
+      "url": "https://github.com/rahulbuildsstuff/Youtube-Clone",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 23.7,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Youtube-Clone-main/youtubeis/src/Components/Constant.jsx",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************2SDU"
+        }
+      ]
+    },
+    {
       "repo": "ravi755667kumar-del/Spam-email-detection",
       "url": "https://github.com/ravi755667kumar-del/Spam-email-detection",
       "status": "leaked",
@@ -19614,6 +19873,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************2V0s"
+        }
+      ]
+    },
+    {
+      "repo": "restaurantecardapio/cardapiodigital",
+      "url": "https://github.com/restaurantecardapio/cardapiodigital",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 96.36,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "cardapiodigital-main/firebase-config.js",
+          "line": 25,
+          "source": "file",
+          "preview": "AIza************************cLyM"
         }
       ]
     },
@@ -20937,6 +21223,33 @@
           "line": 2,
           "source": "file",
           "preview": "AIza************************9m1o"
+        }
+      ]
+    },
+    {
+      "repo": "zenalessa9-art/app-build..",
+      "url": "https://github.com/zenalessa9-art/app-build..",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 165.67,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "app-build..-main/main.py",
+          "line": 8,
+          "source": "file",
+          "preview": "8735************************2SCs"
         }
       ]
     },
