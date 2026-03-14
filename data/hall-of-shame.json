@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T12:26:10.601751+00:00",
+  "generatedAt": "2026-03-14T13:15:18.029641+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -1463,6 +1463,47 @@
       ]
     },
     {
+      "repo": "Sacide-Saad/doctor_app",
+      "url": "https://github.com/Sacide-Saad/doctor_app",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 2,
+      "scanTimeSeconds": 11.75,
+      "exposureScore": 64,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 3
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "doctor_app-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************Gd-M"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 64476da",
+          "line": 2753,
+          "source": "commit",
+          "preview": "AIza************************67uc"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 64476da",
+          "line": 2771,
+          "source": "commit",
+          "preview": "AIza************************oLSE"
+        }
+      ]
+    },
+    {
       "repo": "Snehashish-M/FINAL_gate_app",
       "url": "https://github.com/Snehashish-M/FINAL_gate_app",
       "status": "leaked",
@@ -2733,6 +2774,42 @@
           "line": 8,
           "source": "file",
           "preview": "AIza************************JYZU"
+        }
+      ]
+    },
+    {
+      "repo": "Sagarmankar123/Cyber-Raksha-up",
+      "url": "https://github.com/Sagarmankar123/Cyber-Raksha-up",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 153.21,
+      "exposureScore": 40,
+      "topTypes": [
+        "OpenRouter API Key",
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1,
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "Cyber-Raksha-up-main/app/src/main/java/com/avish/sheidhero/ApiKeyManager.java",
+          "line": 30,
+          "source": "file",
+          "preview": "sk-o************************5725"
+        },
+        {
+          "type": "Groq API Key",
+          "file": "Cyber-Raksha-up-main/app/src/main/java/com/avish/sheidhero/ApiKeyManager.java",
+          "line": 35,
+          "source": "file",
+          "preview": "gsk_************************uP6j"
         }
       ]
     },
@@ -4258,6 +4335,33 @@
           "line": 312,
           "source": "commit",
           "preview": "AIza************************viR8"
+        }
+      ]
+    },
+    {
+      "repo": "Intervier002/Whats-Next-",
+      "url": "https://github.com/Intervier002/Whats-Next-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 12.27,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 5b30fe5",
+          "line": 442,
+          "source": "commit",
+          "preview": "AIza************************MwFo"
         }
       ]
     },
@@ -10229,6 +10333,33 @@
       ]
     },
     {
+      "repo": "RenckMelo/MedRevise",
+      "url": "https://github.com/RenckMelo/MedRevise",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 45.41,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "MedRevise-main/MedRevis\u00e3o/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************aoEc"
+        }
+      ]
+    },
+    {
       "repo": "Rohithjadu08/birthdayremainder",
       "url": "https://github.com/Rohithjadu08/birthdayremainder",
       "status": "leaked",
@@ -11525,6 +11656,33 @@
       ]
     },
     {
+      "repo": "artembos635-maker/my_telegram_bot",
+      "url": "https://github.com/artembos635-maker/my_telegram_bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.62,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "my_telegram_bot-main/bot.py",
+          "line": 5,
+          "source": "file",
+          "preview": "8749************************0QRc"
+        }
+      ]
+    },
+    {
       "repo": "arundevvstack/DP-MEDIA-OS",
       "url": "https://github.com/arundevvstack/DP-MEDIA-OS",
       "status": "leaked",
@@ -11899,6 +12057,60 @@
           "line": 75,
           "source": "file",
           "preview": "eyJh************************3QbU"
+        }
+      ]
+    },
+    {
+      "repo": "clauding-lab/policy-pulse",
+      "url": "https://github.com/clauding-lab/policy-pulse",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.2,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "policy-pulse-main/extension/popup.js",
+          "line": 3,
+          "source": "file",
+          "preview": "eyJh************************KgiU"
+        }
+      ]
+    },
+    {
+      "repo": "codeby-rafay/Full-Stack-Web-Applications",
+      "url": "https://github.com/codeby-rafay/Full-Stack-Web-Applications",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 123.25,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Full-Stack-Web-Applications-main/AI-Resume-Builder/server/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "AIza************************5aio"
         }
       ]
     },
@@ -16138,6 +16350,33 @@
           "line": 5,
           "source": "file",
           "preview": "eyJh************************OxmM"
+        }
+      ]
+    },
+    {
+      "repo": "tofan00/Tofan",
+      "url": "https://github.com/tofan00/Tofan",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.52,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Tofan-main/firebase-config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************9seA"
         }
       ]
     },
