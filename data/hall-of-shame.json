@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T17:17:53.290800+00:00",
+  "generatedAt": "2026-03-14T17:48:50.807949+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -1087,6 +1087,68 @@
           "line": 73932,
           "source": "commit",
           "preview": "AAAA************************z-Y0"
+        }
+      ]
+    },
+    {
+      "repo": "hoaithanhmathhnue-sys/trolyvietbienphap",
+      "url": "https://github.com/hoaithanhmathhnue-sys/trolyvietbienphap",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 6,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 26.14,
+      "exposureScore": 80,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 6
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "trolyvietbienphap-main/dist/assets/index-DcvyisLh.js",
+          "line": 973,
+          "source": "file",
+          "preview": "AIza************************xqUM"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "trolyvietbienphap-main/dist/assets/index-DcvyisLh.js",
+          "line": 973,
+          "source": "file",
+          "preview": "AIza************************_sHk"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "trolyvietbienphap-main/dist/assets/index-DcvyisLh.js",
+          "line": 973,
+          "source": "file",
+          "preview": "AIza************************nBlc"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "trolyvietbienphap-main/dist/assets/index-DcvyisLh.js",
+          "line": 973,
+          "source": "file",
+          "preview": "AIza************************QlCQ"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "trolyvietbienphap-main/dist/assets/index-DcvyisLh.js",
+          "line": 973,
+          "source": "file",
+          "preview": "AIza************************2QNY"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "trolyvietbienphap-main/dist/assets/index-DcvyisLh.js",
+          "line": 973,
+          "source": "file",
+          "preview": "AIza************************eaDc"
         }
       ]
     },
@@ -3271,6 +3333,42 @@
       ]
     },
     {
+      "repo": "Shubh0262/test..",
+      "url": "https://github.com/Shubh0262/test..",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 85.11,
+      "exposureScore": 40,
+      "topTypes": [
+        "AWS Access Key ID",
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1,
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "test..-main/test.env",
+          "line": 2,
+          "source": "file",
+          "preview": "AKIA************MPLE"
+        },
+        {
+          "type": "GitHub Classic PAT",
+          "file": "test..-main/test.env",
+          "line": 4,
+          "source": "file",
+          "preview": "ghp_************************r678"
+        }
+      ]
+    },
+    {
       "repo": "angelobordinbrventures/aigateway-interceptor",
       "url": "https://github.com/angelobordinbrventures/aigateway-interceptor",
       "status": "leaked",
@@ -3699,6 +3797,42 @@
           "line": 1710,
           "source": "file",
           "preview": "http************************XXXX"
+        }
+      ]
+    },
+    {
+      "repo": "venkatesh3007/ai-intel",
+      "url": "https://github.com/venkatesh3007/ai-intel",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 29.1,
+      "exposureScore": 40,
+      "topTypes": [
+        "Anthropic API Key",
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Anthropic API Key": 1,
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Anthropic API Key",
+          "file": "ai-intel-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "sk-a************************KQAA"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "ai-intel-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "8525************************6cu4"
         }
       ]
     },
@@ -8775,6 +8909,33 @@
           "line": 24,
           "source": "commit",
           "preview": "http************************V7SX"
+        }
+      ]
+    },
+    {
+      "repo": "shelbyzio/THEONE-UCLS4",
+      "url": "https://github.com/shelbyzio/THEONE-UCLS4",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.07,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 3d8032e",
+          "line": 33,
+          "source": "commit",
+          "preview": "AIza************************Hee4"
         }
       ]
     },
@@ -14179,6 +14340,33 @@
       ]
     },
     {
+      "repo": "drromeetsaha/cr-reminder-bot",
+      "url": "https://github.com/drromeetsaha/cr-reminder-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.15,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "cr-reminder-bot-main/main.py",
+          "line": 19,
+          "source": "file",
+          "preview": "8545************************QbrE"
+        }
+      ]
+    },
+    {
       "repo": "edgarrodrigues881-art/ola-hug-connect-5ba234fd",
       "url": "https://github.com/edgarrodrigues881-art/ola-hug-connect-5ba234fd",
       "status": "leaked",
@@ -15363,6 +15551,33 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************5X60"
+        }
+      ]
+    },
+    {
+      "repo": "jayasankard35-lgtm/ss",
+      "url": "https://github.com/jayasankard35-lgtm/ss",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 150.38,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ss-main/firebase-config.js",
+          "line": 5,
+          "source": "file",
+          "preview": "AIza************************fujY"
         }
       ]
     },
@@ -17959,6 +18174,33 @@
       ]
     },
     {
+      "repo": "razz-rosan/Personal_ExpenseTracker_Assignment_HyScalar",
+      "url": "https://github.com/razz-rosan/Personal_ExpenseTracker_Assignment_HyScalar",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 30.2,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Personal_ExpenseTracker_Assignment_HyScalar-master/backend/.env",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************0H2E"
+        }
+      ]
+    },
+    {
       "repo": "rdzvergara/projeto_Requests",
       "url": "https://github.com/rdzvergara/projeto_Requests",
       "status": "leaked",
@@ -18553,6 +18795,33 @@
       ]
     },
     {
+      "repo": "sherazgoraya142-cmyk/Instagram",
+      "url": "https://github.com/sherazgoraya142-cmyk/Instagram",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.99,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Instagram-main/firebase.js",
+          "line": 8,
+          "source": "file",
+          "preview": "AIza************************BuUk"
+        }
+      ]
+    },
+    {
       "repo": "sknom21-cmd/Operator---studio",
       "url": "https://github.com/sknom21-cmd/Operator---studio",
       "status": "leaked",
@@ -18819,6 +19088,33 @@
           "line": 1,
           "source": "file",
           "preview": "AIza************************DK10"
+        }
+      ]
+    },
+    {
+      "repo": "televotokantadila-cmyk/kantadila",
+      "url": "https://github.com/televotokantadila-cmyk/kantadila",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 22.66,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "kantadila-main/src/App.tsx",
+          "line": 48,
+          "source": "file",
+          "preview": "AIza************************jqp0"
         }
       ]
     },
