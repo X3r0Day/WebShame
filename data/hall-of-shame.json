@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T06:39:35.629380+00:00",
+  "generatedAt": "2026-03-14T07:25:34.792179+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -1593,6 +1593,42 @@
       ]
     },
     {
+      "repo": "yogesh20-02/jeevan-ai",
+      "url": "https://github.com/yogesh20-02/jeevan-ai",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 8.97,
+      "exposureScore": 60,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT",
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1,
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 4c43c82",
+          "line": 153,
+          "source": "commit",
+          "preview": "eyJh************************zl4w"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 4c43c82",
+          "line": 154,
+          "source": "commit",
+          "preview": "AIza************************xIrA"
+        }
+      ]
+    },
+    {
       "repo": "Ayenewtarekegn18/lcms",
       "url": "https://github.com/Ayenewtarekegn18/lcms",
       "status": "leaked",
@@ -1814,6 +1850,40 @@
           "line": 178310,
           "source": "file",
           "preview": "AIza************************i0xM"
+        }
+      ]
+    },
+    {
+      "repo": "RAKSHANSP/devops-project",
+      "url": "https://github.com/RAKSHANSP/devops-project",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 74.48,
+      "exposureScore": 52,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 51ba8b0",
+          "line": 1773,
+          "source": "commit",
+          "preview": "AIza************************ElY8"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 51ba8b0",
+          "line": 195415,
+          "source": "commit",
+          "preview": "AIza************************_WAc"
         }
       ]
     },
@@ -6120,6 +6190,33 @@
       ]
     },
     {
+      "repo": "qitaijingguan-cpu/-fd-y",
+      "url": "https://github.com/qitaijingguan-cpu/-fd-y",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 118.95,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit acd9aa4",
+          "line": 117,
+          "source": "commit",
+          "preview": "8719************************CuWk"
+        }
+      ]
+    },
+    {
       "repo": "qitaijingguan-cpu/b-cjcjchv-gv",
       "url": "https://github.com/qitaijingguan-cpu/b-cjcjchv-gv",
       "status": "leaked",
@@ -8361,6 +8458,33 @@
       ]
     },
     {
+      "repo": "MrFrancis89/stockflow-pro-v994",
+      "url": "https://github.com/MrFrancis89/stockflow-pro-v994",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 62.97,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "stockflow-pro-v994-main/firebase.js",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************YQ8I"
+        }
+      ]
+    },
+    {
       "repo": "NAHID-TEST-SERVER/msg1",
       "url": "https://github.com/NAHID-TEST-SERVER/msg1",
       "status": "leaked",
@@ -10467,6 +10591,33 @@
       ]
     },
     {
+      "repo": "gergerdsdf/adsALL-QG",
+      "url": "https://github.com/gergerdsdf/adsALL-QG",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 84.94,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "adsALL-QG-main/api/send-request.js",
+          "line": 3,
+          "source": "file",
+          "preview": "8745************************d0Ew"
+        }
+      ]
+    },
+    {
       "repo": "giacomopesaro-collab/vivace_bambino",
       "url": "https://github.com/giacomopesaro-collab/vivace_bambino",
       "status": "leaked",
@@ -10926,6 +11077,33 @@
       ]
     },
     {
+      "repo": "jayeshparihar019-blip/disaster-backend",
+      "url": "https://github.com/jayeshparihar019-blip/disaster-backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 89.79,
+      "exposureScore": 20,
+      "topTypes": [
+        "AWS Access Key ID"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "disaster-backend-main/node_modules/twilio/lib/rest/accounts/v1/credential/aws.d.ts",
+          "line": 17,
+          "source": "file",
+          "preview": "AKIA************MPLE"
+        }
+      ]
+    },
+    {
       "repo": "jaykimzem2/Ganji",
       "url": "https://github.com/jaykimzem2/Ganji",
       "status": "leaked",
@@ -11246,6 +11424,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************UkuA"
+        }
+      ]
+    },
+    {
+      "repo": "kay0530/swimlane-flowchart-editor",
+      "url": "https://github.com/kay0530/swimlane-flowchart-editor",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.23,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "swimlane-flowchart-editor-main/src/lib/firebase.ts",
+          "line": 5,
+          "source": "file",
+          "preview": "AIza************************wWPs"
         }
       ]
     },
@@ -13433,6 +13638,33 @@
           "line": 1,
           "source": "file",
           "preview": "AIza************************lHyU"
+        }
+      ]
+    },
+    {
+      "repo": "walefalham-ctrl/Youtube-Downloader-Bot",
+      "url": "https://github.com/walefalham-ctrl/Youtube-Downloader-Bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 75.28,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Youtube-Downloader-Bot-main/main.py",
+          "line": 6,
+          "source": "file",
+          "preview": "8647************************5q94"
         }
       ]
     },
