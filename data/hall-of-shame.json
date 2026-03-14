@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T12:00:49.652529+00:00",
+  "generatedAt": "2026-03-14T12:26:10.601751+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -3911,6 +3911,33 @@
       ]
     },
     {
+      "repo": "ChiragArora31/OptiPay",
+      "url": "https://github.com/ChiragArora31/OptiPay",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 167.58,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 84cf23c",
+          "line": 150,
+          "source": "commit",
+          "preview": "AIza************************KLOI"
+        }
+      ]
+    },
+    {
       "repo": "Classic-ia/classic-ia",
       "url": "https://github.com/Classic-ia/classic-ia",
       "status": "leaked",
@@ -5365,6 +5392,33 @@
           "line": 14875,
           "source": "commit",
           "preview": "AIza************************ntt8"
+        }
+      ]
+    },
+    {
+      "repo": "cheri-bts/Lexo-Alpha",
+      "url": "https://github.com/cheri-bts/Lexo-Alpha",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 13.79,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 57f4d14",
+          "line": 18,
+          "source": "commit",
+          "preview": "AIza************************TuUY"
         }
       ]
     },
@@ -8339,6 +8393,33 @@
       ]
     },
     {
+      "repo": "Aryangaikwadsql/arvyax-new",
+      "url": "https://github.com/Aryangaikwadsql/arvyax-new",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 192.34,
+      "exposureScore": 20,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "arvyax-new-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "gsk_************************ewMm"
+        }
+      ]
+    },
+    {
       "repo": "Atamol/VDH_Sniffer",
       "url": "https://github.com/Atamol/VDH_Sniffer",
       "status": "leaked",
@@ -9608,6 +9689,33 @@
       ]
     },
     {
+      "repo": "Mohammadshadain/Barbera",
+      "url": "https://github.com/Mohammadshadain/Barbera",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 42.32,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Barbera-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************SdBM"
+        }
+      ]
+    },
+    {
       "repo": "MrFrancis89/Stockflow-V985",
       "url": "https://github.com/MrFrancis89/Stockflow-V985",
       "status": "leaked",
@@ -9955,6 +10063,33 @@
           "line": 4,
           "source": "file",
           "preview": "eyJh************************ddgA"
+        }
+      ]
+    },
+    {
+      "repo": "Pratyush-06/CreatorForge",
+      "url": "https://github.com/Pratyush-06/CreatorForge",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 35.77,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "CreatorForge-main/apply_notifications_sql.js",
+          "line": 5,
+          "source": "file",
+          "preview": "eyJh************************h3LI"
         }
       ]
     },
@@ -10661,6 +10796,33 @@
       ]
     },
     {
+      "repo": "VakadaRupa/Career-Counseling-Platform-backend-3",
+      "url": "https://github.com/VakadaRupa/Career-Counseling-Platform-backend-3",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.86,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Career-Counseling-Platform-backend-3-main/src/utils/supabase.js",
+          "line": 5,
+          "source": "file",
+          "preview": "eyJh************************lpZc"
+        }
+      ]
+    },
+    {
       "repo": "Vandacan/vanity-sniper",
       "url": "https://github.com/Vandacan/vanity-sniper",
       "status": "leaked",
@@ -11336,6 +11498,33 @@
       ]
     },
     {
+      "repo": "anthonytech04-art/telegram-price-bot",
+      "url": "https://github.com/anthonytech04-art/telegram-price-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 165.18,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "telegram-price-bot-main/bot.py",
+          "line": 19,
+          "source": "file",
+          "preview": "8653************************j4QI"
+        }
+      ]
+    },
+    {
       "repo": "arundevvstack/DP-MEDIA-OS",
       "url": "https://github.com/arundevvstack/DP-MEDIA-OS",
       "status": "leaked",
@@ -11899,6 +12088,33 @@
           "line": 10,
           "source": "file",
           "preview": "eyJh************************S6iM"
+        }
+      ]
+    },
+    {
+      "repo": "edwca/CNSerioAPP",
+      "url": "https://github.com/edwca/CNSerioAPP",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 158.38,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "CNSerioAPP-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************PC-0"
         }
       ]
     },
@@ -13766,6 +13982,33 @@
       ]
     },
     {
+      "repo": "mahudmahim-png/Jdjfjfjfjfjfjfj",
+      "url": "https://github.com/mahudmahim-png/Jdjfjfjfjfjfjfj",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 88.49,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Jdjfjfjfjfjfjfj-main/bot.py",
+          "line": 6,
+          "source": "file",
+          "preview": "8574************************02bw"
+        }
+      ]
+    },
+    {
       "repo": "manis-75/Official-website-for-xprompt.store",
       "url": "https://github.com/manis-75/Official-website-for-xprompt.store",
       "status": "leaked",
@@ -15386,6 +15629,33 @@
       ]
     },
     {
+      "repo": "roshan0650/SolveLabs",
+      "url": "https://github.com/roshan0650/SolveLabs",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.14,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "SolveLabs-main/firebase-applet-config.json",
+          "line": 2,
+          "source": "file",
+          "preview": "AIza************************v1nM"
+        }
+      ]
+    },
+    {
       "repo": "rudisetyawanid/iujh",
       "url": "https://github.com/rudisetyawanid/iujh",
       "status": "leaked",
@@ -16165,6 +16435,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************bru4"
+        }
+      ]
+    },
+    {
+      "repo": "yetmishboyev/City_fix",
+      "url": "https://github.com/yetmishboyev/City_fix",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.45,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "City_fix-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************Fs4s"
         }
       ]
     },
