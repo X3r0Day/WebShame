@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T11:07:31.566808+00:00",
+  "generatedAt": "2026-03-14T11:41:06.934789+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -4288,6 +4288,33 @@
       ]
     },
     {
+      "repo": "Memet2026/Bahasa",
+      "url": "https://github.com/Memet2026/Bahasa",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 70.42,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 8ad94cc",
+          "line": 254,
+          "source": "commit",
+          "preview": "AIza************************doZQ"
+        }
+      ]
+    },
+    {
       "repo": "NewDon23/lovesgees",
       "url": "https://github.com/NewDon23/lovesgees",
       "status": "leaked",
@@ -5449,6 +5476,33 @@
       ]
     },
     {
+      "repo": "frempah/OKadaRidep4.gh",
+      "url": "https://github.com/frempah/OKadaRidep4.gh",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 17.39,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit dbd3f78",
+          "line": 87,
+          "source": "commit",
+          "preview": "AIza************************NGDk"
+        }
+      ]
+    },
+    {
       "repo": "gargamel-coder/info-kajian",
       "url": "https://github.com/gargamel-coder/info-kajian",
       "status": "leaked",
@@ -6286,6 +6340,33 @@
       ]
     },
     {
+      "repo": "mrangvidbager-art/www.Auto-Exotic-B-de-System.dk",
+      "url": "https://github.com/mrangvidbager-art/www.Auto-Exotic-B-de-System.dk",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 23.93,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 35440da",
+          "line": 93,
+          "source": "commit",
+          "preview": "http************************DYti"
+        }
+      ]
+    },
+    {
       "repo": "mshrokt/Diary",
       "url": "https://github.com/mshrokt/Diary",
       "status": "leaked",
@@ -6957,6 +7038,33 @@
           "line": 9144,
           "source": "commit",
           "preview": "AIza************************PaQk"
+        }
+      ]
+    },
+    {
+      "repo": "resteqs/homeapp",
+      "url": "https://github.com/resteqs/homeapp",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 102.95,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 484e3fc",
+          "line": 1504,
+          "source": "commit",
+          "preview": "eyJh************************mdkc"
         }
       ]
     },
@@ -8716,6 +8824,33 @@
       ]
     },
     {
+      "repo": "HetrajsinhChauhan/Odoo-indusUni-Hackthone-_winarc-team",
+      "url": "https://github.com/HetrajsinhChauhan/Odoo-indusUni-Hackthone-_winarc-team",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.0,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Odoo-indusUni-Hackthone-_winarc-team-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************y-_M"
+        }
+      ]
+    },
+    {
       "repo": "HimaVarshitha7/Plagirism_backend",
       "url": "https://github.com/HimaVarshitha7/Plagirism_backend",
       "status": "leaked",
@@ -8982,6 +9117,33 @@
           "line": 15,
           "source": "file",
           "preview": "dop_************************035d"
+        }
+      ]
+    },
+    {
+      "repo": "LZTD1/prx-check",
+      "url": "https://github.com/LZTD1/prx-check",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.71,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "prx-check-main/check_mtp.py",
+          "line": 25,
+          "source": "file",
+          "preview": "6375************************_TEY"
         }
       ]
     },
@@ -9387,6 +9549,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************zKl4"
+        }
+      ]
+    },
+    {
+      "repo": "Nehilghetia/portfolio-",
+      "url": "https://github.com/Nehilghetia/portfolio-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 18.76,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "portfolio-main/src/components/Chatbot.tsx",
+          "line": 96,
+          "source": "file",
+          "preview": "AIza************************EG0Y"
         }
       ]
     },
@@ -11142,6 +11331,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************1f3Y"
+        }
+      ]
+    },
+    {
+      "repo": "carryitany/studio",
+      "url": "https://github.com/carryitany/studio",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.4,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "studio-main/src/firebase/config.ts",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************kh-g"
         }
       ]
     },
@@ -13437,6 +13653,33 @@
           "line": 7,
           "source": "file",
           "preview": "8724************************FSq4"
+        }
+      ]
+    },
+    {
+      "repo": "mdismail-nub/Cpjounry",
+      "url": "https://github.com/mdismail-nub/Cpjounry",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 53.18,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Cpjounry-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************w6Y4"
         }
       ]
     },
