@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T11:41:06.934789+00:00",
+  "generatedAt": "2026-03-14T12:00:49.652529+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -788,6 +788,61 @@
           "line": 533,
           "source": "file",
           "preview": "eyJh************************.jwt"
+        }
+      ]
+    },
+    {
+      "repo": "ghostblack/kelasasn",
+      "url": "https://github.com/ghostblack/kelasasn",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 5,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 4,
+      "scanTimeSeconds": 6.29,
+      "exposureScore": 108,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 5
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "kelasasn-main/src/lib/firebase.ts",
+          "line": 8,
+          "source": "file",
+          "preview": "AIza************************-iVY"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit be2a80e",
+          "line": 15359,
+          "source": "commit",
+          "preview": "AIza************************uNUs"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit be2a80e",
+          "line": 15690,
+          "source": "commit",
+          "preview": "AIza************************9Zes"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit be2a80e",
+          "line": 16021,
+          "source": "commit",
+          "preview": "AIza************************8UoU"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit be2a80e",
+          "line": 16379,
+          "source": "commit",
+          "preview": "AIza************************YCz8"
         }
       ]
     },
@@ -3640,6 +3695,33 @@
       ]
     },
     {
+      "repo": "89532425259denis-alt/Grhdheh",
+      "url": "https://github.com/89532425259denis-alt/Grhdheh",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.68,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 2d38329",
+          "line": 1406,
+          "source": "commit",
+          "preview": "AIza************************X_ro"
+        }
+      ]
+    },
+    {
       "repo": "Agiddior/Sanayiibeta.0.0.1",
       "url": "https://github.com/Agiddior/Sanayiibeta.0.0.1",
       "status": "leaked",
@@ -4446,6 +4528,33 @@
           "line": 71,
           "source": "commit",
           "preview": "AIza************************7j88"
+        }
+      ]
+    },
+    {
+      "repo": "Pickaboom/Testing-channel",
+      "url": "https://github.com/Pickaboom/Testing-channel",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 35.12,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit f9650be",
+          "line": 1327,
+          "source": "commit",
+          "preview": "AIza************************C2b4"
         }
       ]
     },
@@ -7042,6 +7151,33 @@
       ]
     },
     {
+      "repo": "raymasla/chs",
+      "url": "https://github.com/raymasla/chs",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.91,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit b1d00f5",
+          "line": 281,
+          "source": "commit",
+          "preview": "AIza************************CdDI"
+        }
+      ]
+    },
+    {
       "repo": "resteqs/homeapp",
       "url": "https://github.com/resteqs/homeapp",
       "status": "leaked",
@@ -8473,6 +8609,33 @@
       ]
     },
     {
+      "repo": "Deepak-777/habit-tracker1",
+      "url": "https://github.com/Deepak-777/habit-tracker1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 122.05,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "habit-tracker1-main/src/firebase.js",
+          "line": 36,
+          "source": "file",
+          "preview": "AIza************************1MFA"
+        }
+      ]
+    },
+    {
       "repo": "Dhebenton/hypeify-auth",
       "url": "https://github.com/Dhebenton/hypeify-auth",
       "status": "leaked",
@@ -8550,6 +8713,33 @@
           "line": 2,
           "source": "file",
           "preview": "AIza************************ZK4Y"
+        }
+      ]
+    },
+    {
+      "repo": "Estrefo/Estrefo.github.io",
+      "url": "https://github.com/Estrefo/Estrefo.github.io",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 18.64,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Estrefo.github.io-master/main.dart.js",
+          "line": 91753,
+          "source": "file",
+          "preview": "AIza************************-X4I"
         }
       ]
     },
@@ -9634,6 +9824,33 @@
       ]
     },
     {
+      "repo": "NubiMa/ninobot",
+      "url": "https://github.com/NubiMa/ninobot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.41,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "ninobot-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "8660************************Mroo"
+        }
+      ]
+    },
+    {
       "repo": "Nurbolat02/WildOasis",
       "url": "https://github.com/Nurbolat02/WildOasis",
       "status": "leaked",
@@ -9873,6 +10090,33 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************pDdI"
+        }
+      ]
+    },
+    {
+      "repo": "Rohithjadu08/birthdayremainder",
+      "url": "https://github.com/Rohithjadu08/birthdayremainder",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.9,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "birthdayremainder-main/src/firebase/config.ts",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************tjog"
         }
       ]
     },
@@ -10386,6 +10630,33 @@
           "line": 9,
           "source": "file",
           "preview": "8652************************O-c4"
+        }
+      ]
+    },
+    {
+      "repo": "Thanishka15/TrackMySpend",
+      "url": "https://github.com/Thanishka15/TrackMySpend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.86,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "TrackMySpend-main/src/firebase.js",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************3Dts"
         }
       ]
     },
@@ -12766,6 +13037,33 @@
       ]
     },
     {
+      "repo": "johiruljahid/TradeLog",
+      "url": "https://github.com/johiruljahid/TradeLog",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.35,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "TradeLog-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************X8J8"
+        }
+      ]
+    },
+    {
       "repo": "jonnyxtar41/edulogger",
       "url": "https://github.com/jonnyxtar41/edulogger",
       "status": "leaked",
@@ -12897,6 +13195,33 @@
           "line": 10,
           "source": "file",
           "preview": "AIza************************k7Cc"
+        }
+      ]
+    },
+    {
+      "repo": "juegosdelfuturo/hackathon-nocode-berlin",
+      "url": "https://github.com/juegosdelfuturo/hackathon-nocode-berlin",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 51.16,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "hackathon-nocode-berlin-master/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************kAGk"
         }
       ]
     },
@@ -13167,6 +13492,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************s3gE"
+        }
+      ]
+    },
+    {
+      "repo": "koppurohith2005-spec/ai-tutor",
+      "url": "https://github.com/koppurohith2005-spec/ai-tutor",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 31.66,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ai-tutor-main/lib/aiClient.ts",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************mpnM"
         }
       ]
     },
@@ -13842,6 +14194,33 @@
           "line": 14,
           "source": "file",
           "preview": "AIza************************5ppU"
+        }
+      ]
+    },
+    {
+      "repo": "mmcneal2394/PocketChangeProtocol",
+      "url": "https://github.com/mmcneal2394/PocketChangeProtocol",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.42,
+      "exposureScore": 20,
+      "topTypes": [
+        "Stripe Secret Key"
+      ],
+      "typeCounts": {
+        "Stripe Secret Key": 1
+      },
+      "findings": [
+        {
+          "type": "Stripe Secret Key",
+          "file": "PocketChangeProtocol-main/src/app/api/billing/route.ts",
+          "line": 6,
+          "source": "file",
+          "preview": "sk_t************************SaaS"
         }
       ]
     },
@@ -14791,6 +15170,33 @@
       ]
     },
     {
+      "repo": "red551-art/minecraft-skins",
+      "url": "https://github.com/red551-art/minecraft-skins",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 87.83,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "minecraft-skins-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************HoFY"
+        }
+      ]
+    },
+    {
       "repo": "rednadp/wakeup",
       "url": "https://github.com/rednadp/wakeup",
       "status": "leaked",
@@ -15081,6 +15487,33 @@
         {
           "type": "Google API/GCP Key",
           "file": "deploy-banksystem-main/bank-backend/src/main/resources/application.properties",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************FxWw"
+        }
+      ]
+    },
+    {
+      "repo": "samircahudhary/render-bank-backend",
+      "url": "https://github.com/samircahudhary/render-bank-backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 29.14,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "render-bank-backend-main/src/main/resources/application.properties",
           "line": 4,
           "source": "file",
           "preview": "AIza************************FxWw"
