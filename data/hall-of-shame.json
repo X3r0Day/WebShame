@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T22:59:49.007894+00:00",
+  "generatedAt": "2026-03-14T23:23:25.264880+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -8634,6 +8634,33 @@
           "line": 138,
           "source": "commit",
           "preview": "7598************************9J8E"
+        }
+      ]
+    },
+    {
+      "repo": "mariaampimpyenan/rezume",
+      "url": "https://github.com/mariaampimpyenan/rezume",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 23.47,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 71ef48e",
+          "line": 126421,
+          "source": "commit",
+          "preview": "AIza************************0H2s"
         }
       ]
     },
@@ -21220,6 +21247,33 @@
       ]
     },
     {
+      "repo": "salafhhf-max/ai-server",
+      "url": "https://github.com/salafhhf-max/ai-server",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.24,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ai-server-main/public/js/auth.js",
+          "line": 20,
+          "source": "file",
+          "preview": "AIza************************CLls"
+        }
+      ]
+    },
+    {
       "repo": "salmansniper56-cloud/beingsalmanbutt.app",
       "url": "https://github.com/salmansniper56-cloud/beingsalmanbutt.app",
       "status": "leaked",
@@ -21945,6 +21999,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************9seA"
+        }
+      ]
+    },
+    {
+      "repo": "u0412606436-rgb/polymarket-bot",
+      "url": "https://github.com/u0412606436-rgb/polymarket-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 170.76,
+      "exposureScore": 20,
+      "topTypes": [
+        "Anthropic API Key"
+      ],
+      "typeCounts": {
+        "Anthropic API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Anthropic API Key",
+          "file": "polymarket-bot-main/config.py",
+          "line": 8,
+          "source": "file",
+          "preview": "sk-a************************uAAA"
         }
       ]
     },
