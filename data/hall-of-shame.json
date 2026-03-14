@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T21:47:24.797488+00:00",
+  "generatedAt": "2026-03-14T22:01:18.363811+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -10055,6 +10055,33 @@
       ]
     },
     {
+      "repo": "sourovrana17-afk/Robi-4GB-free-",
+      "url": "https://github.com/sourovrana17-afk/Robi-4GB-free-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.6,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 73d6a8d",
+          "line": 458,
+          "source": "commit",
+          "preview": "8720************************EtZg"
+        }
+      ]
+    },
+    {
       "repo": "st3453/m",
       "url": "https://github.com/st3453/m",
       "status": "leaked",
@@ -12755,6 +12782,33 @@
       ]
     },
     {
+      "repo": "Matheusjuniorz/SmartCreator-IA-para-Criadores",
+      "url": "https://github.com/Matheusjuniorz/SmartCreator-IA-para-Criadores",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.29,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "SmartCreator-IA-para-Criadores-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************xfkw"
+        }
+      ]
+    },
+    {
       "repo": "MegaBryan06/teste01",
       "url": "https://github.com/MegaBryan06/teste01",
       "status": "leaked",
@@ -13399,6 +13453,33 @@
           "line": 5,
           "source": "file",
           "preview": "eyJh************************h3LI"
+        }
+      ]
+    },
+    {
+      "repo": "Prem-Sonawane/curiousai",
+      "url": "https://github.com/Prem-Sonawane/curiousai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.71,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "curiousai-main/public/script.js",
+          "line": 13,
+          "source": "file",
+          "preview": "AIza************************ep7Y"
         }
       ]
     },
@@ -19775,6 +19856,33 @@
       ]
     },
     {
+      "repo": "osmcraft1-prog/bloknode",
+      "url": "https://github.com/osmcraft1-prog/bloknode",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.62,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "bloknode-main/utils/getUser.ts",
+          "line": 8,
+          "source": "file",
+          "preview": "eyJh************************pldA"
+        }
+      ]
+    },
+    {
       "repo": "ottyihf10giyomki-hub/main.py",
       "url": "https://github.com/ottyihf10giyomki-hub/main.py",
       "status": "leaked",
@@ -20311,6 +20419,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************2SDU"
+        }
+      ]
+    },
+    {
+      "repo": "ramanjaglan2006-crypto/Easy-Consulting-react-master",
+      "url": "https://github.com/ramanjaglan2006-crypto/Easy-Consulting-react-master",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.99,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Easy-Consulting-react-master-main/src/firebaseBaseConfig.js",
+          "line": 2,
+          "source": "file",
+          "preview": "AIza************************PxL8"
         }
       ]
     },
