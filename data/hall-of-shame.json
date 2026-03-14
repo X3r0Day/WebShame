@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T22:01:18.363811+00:00",
+  "generatedAt": "2026-03-14T22:31:48.421445+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -1737,6 +1737,47 @@
           "line": 3480,
           "source": "commit",
           "preview": "AIza************************A5Zk"
+        }
+      ]
+    },
+    {
+      "repo": "TerrafinPro/GlobalRanker-5.0",
+      "url": "https://github.com/TerrafinPro/GlobalRanker-5.0",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 2,
+      "scanTimeSeconds": 107.72,
+      "exposureScore": 64,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 3
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "GlobalRanker-5.0-main/MainPage/env.js",
+          "line": 9,
+          "source": "file",
+          "preview": "eyJh************************adDA"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit ebfc2a4",
+          "line": 206,
+          "source": "commit",
+          "preview": "eyJh************************ZGe0"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit ebfc2a4",
+          "line": 248,
+          "source": "commit",
+          "preview": "eyJh************************aQAY"
         }
       ]
     },
@@ -6464,6 +6505,33 @@
       ]
     },
     {
+      "repo": "TGSwify/Swify",
+      "url": "https://github.com/TGSwify/Swify",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 43.88,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit b37e6f2",
+          "line": 115,
+          "source": "commit",
+          "preview": "8685************************ZYzk"
+        }
+      ]
+    },
+    {
       "repo": "Tarikz22/aithenor-landing",
       "url": "https://github.com/Tarikz22/aithenor-landing",
       "status": "leaked",
@@ -6703,6 +6771,33 @@
           "line": 3226,
           "source": "commit",
           "preview": "AIza************************K5Fw"
+        }
+      ]
+    },
+    {
+      "repo": "abunawasabunawas172-star/Smart-Print",
+      "url": "https://github.com/abunawasabunawas172-star/Smart-Print",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 19.4,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit a629f4a",
+          "line": 6793,
+          "source": "commit",
+          "preview": "eyJh************************nZHU"
         }
       ]
     },
@@ -8921,6 +9016,33 @@
       ]
     },
     {
+      "repo": "nathanbouard-rgb/DIGIXPERTE",
+      "url": "https://github.com/nathanbouard-rgb/DIGIXPERTE",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.12,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 8bd5edd",
+          "line": 1096,
+          "source": "commit",
+          "preview": "eyJh************************CZA4"
+        }
+      ]
+    },
+    {
       "repo": "naveenkumar404/Bharat-Insight-AI-Driven-Data-Platform",
       "url": "https://github.com/naveenkumar404/Bharat-Insight-AI-Driven-Data-Platform",
       "status": "leaked",
@@ -9403,6 +9525,33 @@
           "line": 18,
           "source": "commit",
           "preview": "AIza************************S6w8"
+        }
+      ]
+    },
+    {
+      "repo": "pmkisanwork/Admin-Login",
+      "url": "https://github.com/pmkisanwork/Admin-Login",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 134.5,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 231cacf",
+          "line": 374,
+          "source": "commit",
+          "preview": "AIza************************z1JI"
         }
       ]
     },
@@ -13372,6 +13521,33 @@
           "line": 19,
           "source": "file",
           "preview": "eyJh************************81IU"
+        }
+      ]
+    },
+    {
+      "repo": "Onety77/contrarian",
+      "url": "https://github.com/Onety77/contrarian",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.75,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "contrarian-master/src/firebase.js",
+          "line": 5,
+          "source": "file",
+          "preview": "AIza************************JHWg"
         }
       ]
     },
@@ -19609,6 +19785,33 @@
           "line": 9,
           "source": "file",
           "preview": "8652************************Ps_c"
+        }
+      ]
+    },
+    {
+      "repo": "nadineconsunji/ggr472-lab4-main",
+      "url": "https://github.com/nadineconsunji/ggr472-lab4-main",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 21.08,
+      "exposureScore": 20,
+      "topTypes": [
+        "Mapbox API Key"
+      ],
+      "typeCounts": {
+        "Mapbox API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Mapbox API Key",
+          "file": "ggr472-lab4-main-main/script.js",
+          "line": 9,
+          "source": "file",
+          "preview": "pk.e************************ToNQ"
         }
       ]
     },
