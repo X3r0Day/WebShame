@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T22:31:48.421445+00:00",
+  "generatedAt": "2026-03-14T22:59:49.007894+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -11149,6 +11149,33 @@
       ]
     },
     {
+      "repo": "Albgps/albgps-app",
+      "url": "https://github.com/Albgps/albgps-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.94,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "albgps-app-main/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************73og"
+        }
+      ]
+    },
+    {
       "repo": "Alhassan-Hub/ayesha-signature",
       "url": "https://github.com/Alhassan-Hub/ayesha-signature",
       "status": "leaked",
@@ -14362,6 +14389,33 @@
       ]
     },
     {
+      "repo": "Sirtheprogrammer/t-gen",
+      "url": "https://github.com/Sirtheprogrammer/t-gen",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.34,
+      "exposureScore": 20,
+      "topTypes": [
+        "Stripe Secret Key"
+      ],
+      "typeCounts": {
+        "Stripe Secret Key": 1
+      },
+      "findings": [
+        {
+          "type": "Stripe Secret Key",
+          "file": "t-gen-main/database/seeders/PaymentGatewaySeeder.php",
+          "line": 23,
+          "source": "file",
+          "preview": "sk_l************************hfVc"
+        }
+      ]
+    },
+    {
       "repo": "Smarty-Indonesia/smartyindonesia",
       "url": "https://github.com/Smarty-Indonesia/smartyindonesia",
       "status": "leaked",
@@ -16248,6 +16302,33 @@
           "line": 660,
           "source": "file",
           "preview": "7566************************61xY"
+        }
+      ]
+    },
+    {
+      "repo": "databasevortexnew/tokendb",
+      "url": "https://github.com/databasevortexnew/tokendb",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 63.12,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "tokendb-main/tokens.json",
+          "line": 2,
+          "source": "file",
+          "preview": "8550************************CWrw"
         }
       ]
     },
@@ -21513,6 +21594,33 @@
           "line": 42,
           "source": "file",
           "preview": "8472************************490s"
+        }
+      ]
+    },
+    {
+      "repo": "ssola/android-app",
+      "url": "https://github.com/ssola/android-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.85,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "android-app-main/app/src/main/java/com/cognitio/veloton/manager/RouteManager.kt",
+          "line": 33,
+          "source": "file",
+          "preview": "AIza************************q3qo"
         }
       ]
     },
