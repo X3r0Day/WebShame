@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T08:34:30.968454+00:00",
+  "generatedAt": "2026-03-14T09:11:34.830838+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -2604,6 +2604,42 @@
       ]
     },
     {
+      "repo": "lightningop/hackathon",
+      "url": "https://github.com/lightningop/hackathon",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 31.07,
+      "exposureScore": 40,
+      "topTypes": [
+        "Google API/GCP Key",
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "hackathon-main/server/.env",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************ldpg"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "hackathon-main/server/node_modules/zod/src/v4/mini/tests/string.test.ts",
+          "line": 289,
+          "source": "file",
+          "preview": "eyJh************************sw5c"
+        }
+      ]
+    },
+    {
       "repo": "mane-yash/Stash-Dashboard",
       "url": "https://github.com/mane-yash/Stash-Dashboard",
       "status": "leaked",
@@ -4408,6 +4444,33 @@
       ]
     },
     {
+      "repo": "Veera1011/SCH-Bookchain",
+      "url": "https://github.com/Veera1011/SCH-Bookchain",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.37,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 2d40804",
+          "line": 564,
+          "source": "commit",
+          "preview": "eyJh************************dNrI"
+        }
+      ]
+    },
+    {
       "repo": "abhiram123467/gsoc2026-renaissance-ocr3",
       "url": "https://github.com/abhiram123467/gsoc2026-renaissance-ocr3",
       "status": "leaked",
@@ -5295,6 +5358,33 @@
           "line": 86,
           "source": "commit",
           "preview": "AIza************************ZgeY"
+        }
+      ]
+    },
+    {
+      "repo": "jigarsoni825-oss/Calculatorcht",
+      "url": "https://github.com/jigarsoni825-oss/Calculatorcht",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 32.17,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit ab120e4",
+          "line": 83,
+          "source": "commit",
+          "preview": "AIza************************29-M"
         }
       ]
     },
@@ -6568,6 +6658,33 @@
       ]
     },
     {
+      "repo": "shingsuelo925/digitalit886",
+      "url": "https://github.com/shingsuelo925/digitalit886",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 52.92,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 70dbbec",
+          "line": 1155,
+          "source": "commit",
+          "preview": "AIza************************3yTE"
+        }
+      ]
+    },
+    {
       "repo": "shreesha45/akshatha-hackathon",
       "url": "https://github.com/shreesha45/akshatha-hackathon",
       "status": "leaked",
@@ -7293,6 +7410,33 @@
           "line": 10,
           "source": "file",
           "preview": "AIza************************jcFk"
+        }
+      ]
+    },
+    {
+      "repo": "Alishbaa-amjad/user-DecoVision",
+      "url": "https://github.com/Alishbaa-amjad/user-DecoVision",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.63,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "user-DecoVision-master/app/google-services.json",
+          "line": 19,
+          "source": "file",
+          "preview": "AIza************************njqY"
         }
       ]
     },
@@ -8944,6 +9088,33 @@
       ]
     },
     {
+      "repo": "Rut1106/travel-buddy-ai",
+      "url": "https://github.com/Rut1106/travel-buddy-ai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.37,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "travel-buddy-ai-main/.streamlit/secrets.toml",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************CZSk"
+        }
+      ]
+    },
+    {
       "repo": "SAST-UP-DP-DEV-env/SAST-Test-Repo-a54262fd-e42a-4925-a6d2-f15dcecb3cfb",
       "url": "https://github.com/SAST-UP-DP-DEV-env/SAST-Test-Repo-a54262fd-e42a-4925-a6d2-f15dcecb3cfb",
       "status": "leaked",
@@ -9808,6 +9979,33 @@
       ]
     },
     {
+      "repo": "akashdasspl/nagarikAI",
+      "url": "https://github.com/akashdasspl/nagarikAI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 31.99,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "nagarikAI-main/backend/GEMINI_API_SETUP.md",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************mQ8w"
+        }
+      ]
+    },
+    {
       "repo": "akupaloheimo/dynamic-survey-app",
       "url": "https://github.com/akupaloheimo/dynamic-survey-app",
       "status": "leaked",
@@ -10348,6 +10546,33 @@
       ]
     },
     {
+      "repo": "edgarrodrigues881-art/ola-hug-connect-5ba234fd",
+      "url": "https://github.com/edgarrodrigues881-art/ola-hug-connect-5ba234fd",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 111.73,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "ola-hug-connect-5ba234fd-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************5CuY"
+        }
+      ]
+    },
+    {
       "repo": "edrinsons1-droid/sumador",
       "url": "https://github.com/edrinsons1-droid/sumador",
       "status": "leaked",
@@ -10479,6 +10704,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************Hg5w"
+        }
+      ]
+    },
+    {
+      "repo": "exrm68/expert-garbanzo",
+      "url": "https://github.com/exrm68/expert-garbanzo",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 20.22,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "expert-garbanzo-main/firebase.ts",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************3VyU"
         }
       ]
     },
@@ -11158,6 +11410,33 @@
       ]
     },
     {
+      "repo": "itsmeyogi/Patient_Monitoring_System",
+      "url": "https://github.com/itsmeyogi/Patient_Monitoring_System",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 19.13,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Patient_Monitoring_System-main/src/firebase/firebaseConfig.ts",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************1D48"
+        }
+      ]
+    },
+    {
       "repo": "janakiramankannan221-dot/fees-management",
       "url": "https://github.com/janakiramankannan221-dot/fees-management",
       "status": "leaked",
@@ -11455,6 +11734,33 @@
       ]
     },
     {
+      "repo": "jrdncodes/bboy-youtube-analysis-main",
+      "url": "https://github.com/jrdncodes/bboy-youtube-analysis-main",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.03,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "bboy-youtube-analysis-main-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************7k-4"
+        }
+      ]
+    },
+    {
       "repo": "jsersan/burtsa-frontend",
       "url": "https://github.com/jsersan/burtsa-frontend",
       "status": "leaked",
@@ -11532,6 +11838,33 @@
           "line": 7,
           "source": "file",
           "preview": "AIza************************9N6w"
+        }
+      ]
+    },
+    {
+      "repo": "kartikeysingh402-glitch/project2",
+      "url": "https://github.com/kartikeysingh402-glitch/project2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 37.4,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "project2-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************rPrk"
         }
       ]
     },
@@ -13264,6 +13597,33 @@
       ]
     },
     {
+      "repo": "rednadp/wakeup",
+      "url": "https://github.com/rednadp/wakeup",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.58,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "wakeup-main/app.json",
+          "line": 25,
+          "source": "file",
+          "preview": "AIza************************Ne0g"
+        }
+      ]
+    },
+    {
       "repo": "reinaldossantos/projetoinovart",
       "url": "https://github.com/reinaldossantos/projetoinovart",
       "status": "leaked",
@@ -13561,6 +13921,33 @@
       ]
     },
     {
+      "repo": "souravagr8765/DriveScrapper",
+      "url": "https://github.com/souravagr8765/DriveScrapper",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 35.9,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "DriveScrapper-main/drive_watcher.py",
+          "line": 42,
+          "source": "file",
+          "preview": "8472************************490s"
+        }
+      ]
+    },
+    {
       "repo": "sumreen7/llm-critique-loop",
       "url": "https://github.com/sumreen7/llm-critique-loop",
       "status": "leaked",
@@ -13800,6 +14187,33 @@
           "line": 2,
           "source": "file",
           "preview": "AIza************************K2Lg"
+        }
+      ]
+    },
+    {
+      "repo": "vierginn10-debug/salmayaa",
+      "url": "https://github.com/vierginn10-debug/salmayaa",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 37.47,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "salmayaa-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************Orh0"
         }
       ]
     },
