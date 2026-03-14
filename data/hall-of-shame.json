@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T14:25:21.661449+00:00",
+  "generatedAt": "2026-03-14T15:02:18.872661+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -2442,6 +2442,47 @@
       ]
     },
     {
+      "repo": "sweetxhasan/Termux-tool",
+      "url": "https://github.com/sweetxhasan/Termux-tool",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.41,
+      "exposureScore": 44,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 3
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Termux-tool-main/setup.sh",
+          "line": 64,
+          "source": "file",
+          "preview": "8702************************CUEk"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Termux-tool-main/setup.sh",
+          "line": 65,
+          "source": "file",
+          "preview": "8533************************ISaE"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Termux-tool-main/setup.sh",
+          "line": 66,
+          "source": "file",
+          "preview": "7914************************7JLQ"
+        }
+      ]
+    },
+    {
       "repo": "tript099/docflowfrontendstaging",
       "url": "https://github.com/tript099/docflowfrontendstaging",
       "status": "leaked",
@@ -2479,6 +2520,40 @@
           "line": 10,
           "source": "file",
           "preview": "eyJh************************81IU"
+        }
+      ]
+    },
+    {
+      "repo": "Diganth07/hackandcrack-prototype",
+      "url": "https://github.com/Diganth07/hackandcrack-prototype",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 21.18,
+      "exposureScore": 42,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "hackandcrack-prototype-main/app/page.tsx",
+          "line": 25,
+          "source": "file",
+          "preview": "AIza************************BQWE"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 25d35c5",
+          "line": 18,
+          "source": "commit",
+          "preview": "AIza************************efII"
         }
       ]
     },
@@ -2867,6 +2942,42 @@
           "line": 1710,
           "source": "file",
           "preview": "http************************XXXX"
+        }
+      ]
+    },
+    {
+      "repo": "NvlFR/bot_gds",
+      "url": "https://github.com/NvlFR/bot_gds",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.76,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "bot_gds-main/.archive/bot_gds_v1/gds.php",
+          "line": 587,
+          "source": "file",
+          "preview": "7029************************MzeY"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "bot_gds-main/.archive/bot_gds_v1/includer.php",
+          "line": 5,
+          "source": "file",
+          "preview": "AIza************************_5mw"
         }
       ]
     },
@@ -5508,6 +5619,33 @@
           "line": 246,
           "source": "commit",
           "preview": "AIza************************elVI"
+        }
+      ]
+    },
+    {
+      "repo": "andreshabla33/cowork-v3-objetos-para-reparar",
+      "url": "https://github.com/andreshabla33/cowork-v3-objetos-para-reparar",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 104.19,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit da55b96",
+          "line": 5326,
+          "source": "commit",
+          "preview": "eyJh************************6vd4"
         }
       ]
     },
@@ -13477,6 +13615,33 @@
       ]
     },
     {
+      "repo": "gilneyvidal/ojuaobot-elite-engine",
+      "url": "https://github.com/gilneyvidal/ojuaobot-elite-engine",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.39,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "ojuaobot-elite-engine-main/main.py",
+          "line": 11,
+          "source": "file",
+          "preview": "8546************************wduY"
+        }
+      ]
+    },
+    {
       "repo": "guauimpresion3d/cotizador3D",
       "url": "https://github.com/guauimpresion3d/cotizador3D",
       "status": "leaked",
@@ -14611,6 +14776,33 @@
       ]
     },
     {
+      "repo": "killudha/MLFirebase_MathTest",
+      "url": "https://github.com/killudha/MLFirebase_MathTest",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 78.78,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "MLFirebase_MathTest-master/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************XYq8"
+        }
+      ]
+    },
+    {
       "repo": "kimsanggeon/mathiq-pro",
       "url": "https://github.com/kimsanggeon/mathiq-pro",
       "status": "leaked",
@@ -14796,6 +14988,60 @@
           "line": 8,
           "source": "file",
           "preview": "eyJh************************QV30"
+        }
+      ]
+    },
+    {
+      "repo": "lighteudemons-sys/EMPEROR-OFFLINE-PINCODES",
+      "url": "https://github.com/lighteudemons-sys/EMPEROR-OFFLINE-PINCODES",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.31,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "EMPEROR-OFFLINE-PINCODES-main/.env",
+          "line": 5,
+          "source": "file",
+          "preview": "eyJh************************FtFc"
+        }
+      ]
+    },
+    {
+      "repo": "liu-roy/goodluck-claude-server",
+      "url": "https://github.com/liu-roy/goodluck-claude-server",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 178.38,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenAI API Key (Legacy)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Legacy)": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "goodluck-claude-server-main/goodluck-claude-service/src/main/resources/application.yml",
+          "line": 86,
+          "source": "file",
+          "preview": "sk-0************************vOx5"
         }
       ]
     },
@@ -15853,6 +16099,33 @@
       ]
     },
     {
+      "repo": "ottyihf10giyomki-hub/main.py",
+      "url": "https://github.com/ottyihf10giyomki-hub/main.py",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.66,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "main.py-main/main.py",
+          "line": 26,
+          "source": "file",
+          "preview": "8526************************n--0"
+        }
+      ]
+    },
+    {
       "repo": "oybekholmatov01-debug/TDM",
       "url": "https://github.com/oybekholmatov01-debug/TDM",
       "status": "leaked",
@@ -16308,6 +16581,33 @@
           "line": 5,
           "source": "file",
           "preview": "eyJh************************FKow"
+        }
+      ]
+    },
+    {
+      "repo": "rabahamoura15-star/Asgardverse911",
+      "url": "https://github.com/rabahamoura15-star/Asgardverse911",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.07,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Asgardverse911-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************dsKY"
         }
       ]
     },
@@ -17068,6 +17368,33 @@
       ]
     },
     {
+      "repo": "t3raus/solana-arbitrage-bot",
+      "url": "https://github.com/t3raus/solana-arbitrage-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.67,
+      "exposureScore": 20,
+      "topTypes": [
+        "AWS Access Key ID"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "solana-arbitrage-bot-main/onchain-data/token_list.json",
+          "line": 897,
+          "source": "file",
+          "preview": "AKIA************52Y5"
+        }
+      ]
+    },
+    {
       "repo": "taematigas123/caffernaum.com",
       "url": "https://github.com/taematigas123/caffernaum.com",
       "status": "leaked",
@@ -17091,6 +17418,33 @@
           "line": 14,
           "source": "file",
           "preview": "AIza************************ZwbQ"
+        }
+      ]
+    },
+    {
+      "repo": "tantanbagsik/E-LEARNING8",
+      "url": "https://github.com/tantanbagsik/E-LEARNING8",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 0.94,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "E-LEARNING8-main/api/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "eyJh************************0kaY"
         }
       ]
     },
