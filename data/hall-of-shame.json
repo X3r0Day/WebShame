@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-13T23:57:24.948043+00:00",
+  "generatedAt": "2026-03-14T00:58:49.499360+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -8766,6 +8766,33 @@
       ]
     },
     {
+      "repo": "abdallahzeine/CV-maker",
+      "url": "https://github.com/abdallahzeine/CV-maker",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.55,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "CV-maker-main/cv-maker-server/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************r6LU"
+        }
+      ]
+    },
+    {
       "repo": "abdouni493/coiffeur-x",
       "url": "https://github.com/abdouni493/coiffeur-x",
       "status": "leaked",
@@ -9383,6 +9410,33 @@
           "line": 10,
           "source": "file",
           "preview": "AIza************************XSq0"
+        }
+      ]
+    },
+    {
+      "repo": "drahmadkh09-sketch/NIO11",
+      "url": "https://github.com/drahmadkh09-sketch/NIO11",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.23,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "NIO11-main/backend/db.ts",
+          "line": 106,
+          "source": "file",
+          "preview": "AIza************************LNwU"
         }
       ]
     },
@@ -10274,6 +10328,33 @@
           "line": 5,
           "source": "file",
           "preview": "AIza************************2qy4"
+        }
+      ]
+    },
+    {
+      "repo": "jmcolfersc-dev/PuntodeVenta",
+      "url": "https://github.com/jmcolfersc-dev/PuntodeVenta",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 18.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "PuntodeVenta-master/src/firebase.ts",
+          "line": 9,
+          "source": "file",
+          "preview": "AIza************************zU0M"
         }
       ]
     },
