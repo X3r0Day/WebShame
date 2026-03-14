@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T23:23:25.264880+00:00",
+  "generatedAt": "2026-03-14T23:56:30.888015+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -2507,6 +2507,40 @@
           "line": 195415,
           "source": "commit",
           "preview": "AIza************************_WAc"
+        }
+      ]
+    },
+    {
+      "repo": "Sep-Gob-Mx/SIGED-certificado-preparatoria-autenticacion-FABA940913MSRRTN04",
+      "url": "https://github.com/Sep-Gob-Mx/SIGED-certificado-preparatoria-autenticacion-FABA940913MSRRTN04",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 227.02,
+      "exposureScore": 52,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 7561fa3",
+          "line": 203,
+          "source": "commit",
+          "preview": "AIza************************nsaM"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 7561fa3",
+          "line": 47186,
+          "source": "commit",
+          "preview": "AIza************************w-jM"
         }
       ]
     },
@@ -16333,6 +16367,33 @@
       ]
     },
     {
+      "repo": "darkoh-hub/brawl-club-monitoring",
+      "url": "https://github.com/darkoh-hub/brawl-club-monitoring",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 45.36,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "brawl-club-monitoring-main/bot.py",
+          "line": 5,
+          "source": "file",
+          "preview": "8254************************JrzM"
+        }
+      ]
+    },
+    {
       "repo": "databasevortexnew/tokendb",
       "url": "https://github.com/databasevortexnew/tokendb",
       "status": "leaked",
@@ -19033,6 +19094,33 @@
       ]
     },
     {
+      "repo": "lucs-severino/reobotepdv-web",
+      "url": "https://github.com/lucs-severino/reobotepdv-web",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 165.1,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "reobotepdv-web-main/main.dart.js",
+          "line": 121659,
+          "source": "file",
+          "preview": "AIza************************4yNA"
+        }
+      ]
+    },
+    {
       "repo": "lutechstack-bit/Creator-App",
       "url": "https://github.com/lutechstack-bit/Creator-App",
       "status": "leaked",
@@ -20001,6 +20089,33 @@
           "line": 54,
           "source": "file",
           "preview": "eyJh************************sc1o"
+        }
+      ]
+    },
+    {
+      "repo": "nettunodesigns/Judge_Scraper",
+      "url": "https://github.com/nettunodesigns/Judge_Scraper",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 23.92,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Judge_Scraper-main/Desktop/Projects/Ai Project/Scraper_Judge/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************wjj8"
         }
       ]
     },
@@ -22404,6 +22519,33 @@
           "line": 17,
           "source": "file",
           "preview": "sk-o************************358c"
+        }
+      ]
+    },
+    {
+      "repo": "yashdubey2004/ai_coo_backend",
+      "url": "https://github.com/yashdubey2004/ai_coo_backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 100.65,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ai_coo_backend-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************ZfNw"
         }
       ]
     },
