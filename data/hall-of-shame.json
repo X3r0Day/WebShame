@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T17:48:50.807949+00:00",
+  "generatedAt": "2026-03-14T18:08:55.291096+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -1808,6 +1808,42 @@
       ]
     },
     {
+      "repo": "ktrmm/aquafin",
+      "url": "https://github.com/ktrmm/aquafin",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 11.87,
+      "exposureScore": 60,
+      "topTypes": [
+        "Google API/GCP Key",
+        "Anthropic API Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "Anthropic API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 7dbf9ee",
+          "line": 41,
+          "source": "commit",
+          "preview": "AIza************************8lRQ"
+        },
+        {
+          "type": "Anthropic API Key",
+          "file": "Commit 7dbf9ee",
+          "line": 9933,
+          "source": "commit",
+          "preview": "sk-a************************lQAA"
+        }
+      ]
+    },
+    {
       "repo": "mariyarahman127-stack/imperial_vote",
       "url": "https://github.com/mariyarahman127-stack/imperial_vote",
       "status": "leaked",
@@ -2391,6 +2427,40 @@
           "line": 9383,
           "source": "commit",
           "preview": "eyJh************************L0Zg"
+        }
+      ]
+    },
+    {
+      "repo": "idk940/discord",
+      "url": "https://github.com/idk940/discord",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 2,
+      "scanTimeSeconds": 126.51,
+      "exposureScore": 52,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 2
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit a81f6a7",
+          "line": 29,
+          "source": "commit",
+          "preview": "http************************nZNQ"
+        },
+        {
+          "type": "Discord Webhook",
+          "file": "Commit bdb88b5",
+          "line": 18,
+          "source": "commit",
+          "preview": "http************************OVbq"
         }
       ]
     },
@@ -4481,6 +4551,40 @@
           "line": 7,
           "source": "file",
           "preview": "eyJh************************t01I"
+        }
+      ]
+    },
+    {
+      "repo": "xjw2005/RAGProjectHeiMa",
+      "url": "https://github.com/xjw2005/RAGProjectHeiMa",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.13,
+      "exposureScore": 32,
+      "topTypes": [
+        "OpenAI API Key (Legacy)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Legacy)": 2
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "RAGProjectHeiMa-main/config_data.py",
+          "line": 9,
+          "source": "file",
+          "preview": "sk-g************************lHu7"
+        },
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "RAGProjectHeiMa-main/config_data.py",
+          "line": 22,
+          "source": "file",
+          "preview": "sk-q************************xemi"
         }
       ]
     },
@@ -6591,6 +6695,33 @@
       ]
     },
     {
+      "repo": "bubsrwz-a11y/adopt",
+      "url": "https://github.com/bubsrwz-a11y/adopt",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 181.21,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit ebd67dc",
+          "line": 91,
+          "source": "commit",
+          "preview": "http************************Ecyh"
+        }
+      ]
+    },
+    {
       "repo": "caiosagas0017-ui/trabalho",
       "url": "https://github.com/caiosagas0017-ui/trabalho",
       "status": "leaked",
@@ -7721,6 +7852,33 @@
           "line": 501,
           "source": "commit",
           "preview": "AIza************************g12E"
+        }
+      ]
+    },
+    {
+      "repo": "maximilianlepro-dotcom/Script",
+      "url": "https://github.com/maximilianlepro-dotcom/Script",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 12.22,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit b68ee90",
+          "line": 7521,
+          "source": "commit",
+          "preview": "http************************8LrY"
         }
       ]
     },
@@ -9480,6 +9638,33 @@
       ]
     },
     {
+      "repo": "ydonga2377/ratatouille",
+      "url": "https://github.com/ydonga2377/ratatouille",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.88,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 7ed7d38",
+          "line": 17,
+          "source": "commit",
+          "preview": "AIza************************zal4"
+        }
+      ]
+    },
+    {
       "repo": "yeshmehta9006-art/HL",
       "url": "https://github.com/yeshmehta9006-art/HL",
       "status": "leaked",
@@ -10938,6 +11123,33 @@
       ]
     },
     {
+      "repo": "Isaac-Salas/HackathonColque",
+      "url": "https://github.com/Isaac-Salas/HackathonColque",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 0.85,
+      "exposureScore": 20,
+      "topTypes": [
+        "HuggingFace Token"
+      ],
+      "typeCounts": {
+        "HuggingFace Token": 1
+      },
+      "findings": [
+        {
+          "type": "HuggingFace Token",
+          "file": "HackathonColque-main/main.py",
+          "line": 18,
+          "source": "file",
+          "preview": "hf_I************************IfbN"
+        }
+      ]
+    },
+    {
       "repo": "IsraelAbra1/Two-Players-In-Firebase-No-Room",
       "url": "https://github.com/IsraelAbra1/Two-Players-In-Firebase-No-Room",
       "status": "leaked",
@@ -11370,6 +11582,33 @@
       ]
     },
     {
+      "repo": "MaajidCoder/Bus-Ticket-Booking-App",
+      "url": "https://github.com/MaajidCoder/Bus-Ticket-Booking-App",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 33.33,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Bus-Ticket-Booking-App-main/backend/node_modules/passport-jwt/test/testdata.js",
+          "line": 5,
+          "source": "file",
+          "preview": "eyJh************************WuBM"
+        }
+      ]
+    },
+    {
       "repo": "Manikada/smart_AI_",
       "url": "https://github.com/Manikada/smart_AI_",
       "status": "leaked",
@@ -11607,6 +11846,33 @@
           "type": "Google API/GCP Key",
           "file": "stockflow-pro-v9.8.9-rebuild-main/firebase.js",
           "line": 7,
+          "source": "file",
+          "preview": "AIza************************YQ8I"
+        }
+      ]
+    },
+    {
+      "repo": "MrFrancis89/stockflow-pro-v9921-3-",
+      "url": "https://github.com/MrFrancis89/stockflow-pro-v9921-3-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.85,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "stockflow-pro-v9921-3--main/firebase.js",
+          "line": 28,
           "source": "file",
           "preview": "AIza************************YQ8I"
         }
@@ -12311,6 +12577,33 @@
           "line": 3,
           "source": "file",
           "preview": "AIza************************4k7I"
+        }
+      ]
+    },
+    {
+      "repo": "SDGDomenico/CinemaSupremo",
+      "url": "https://github.com/SDGDomenico/CinemaSupremo",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 20.59,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "CinemaSupremo-main/js/firebase.js",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************7Nfs"
         }
       ]
     },
@@ -14444,6 +14737,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************PC-0"
+        }
+      ]
+    },
+    {
+      "repo": "ekede001/Arbitrage-scanner",
+      "url": "https://github.com/ekede001/Arbitrage-scanner",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.84,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Arbitrage-scanner-main/Arbitrage scanner.py",
+          "line": 14,
+          "source": "file",
+          "preview": "7961************************D3Lc"
         }
       ]
     },
@@ -17117,6 +17437,33 @@
           "line": 2,
           "source": "file",
           "preview": "7790************************tNs8"
+        }
+      ]
+    },
+    {
+      "repo": "mirsuffu/cainter",
+      "url": "https://github.com/mirsuffu/cainter",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 73.57,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "cainter-main/firebase.js",
+          "line": 12,
+          "source": "file",
+          "preview": "AIza************************N09A"
         }
       ]
     },
