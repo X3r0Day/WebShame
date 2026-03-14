@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T05:55:53.999801+00:00",
+  "generatedAt": "2026-03-14T06:39:35.629380+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -3636,6 +3636,33 @@
       ]
     },
     {
+      "repo": "ElsyiumSiteX/ElysiumRoom",
+      "url": "https://github.com/ElsyiumSiteX/ElysiumRoom",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 0.9,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 27d660f",
+          "line": 332,
+          "source": "commit",
+          "preview": "eyJh************************6I3A"
+        }
+      ]
+    },
+    {
       "repo": "FlightReplay/FRP",
       "url": "https://github.com/FlightReplay/FRP",
       "status": "leaked",
@@ -3821,6 +3848,33 @@
           "line": 235,
           "source": "commit",
           "preview": "AIza************************knhg"
+        }
+      ]
+    },
+    {
+      "repo": "JayaKumar-2004/Sentinel-Web-Command",
+      "url": "https://github.com/JayaKumar-2004/Sentinel-Web-Command",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 7.04,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 16a61bc",
+          "line": 356,
+          "source": "commit",
+          "preview": "AIza************************YxlI"
         }
       ]
     },
@@ -4473,6 +4527,33 @@
       ]
     },
     {
+      "repo": "aurasociety-code/paga_tu_credito_nequi_v2",
+      "url": "https://github.com/aurasociety-code/paga_tu_credito_nequi_v2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 10.71,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit d2c2fd6",
+          "line": 458,
+          "source": "commit",
+          "preview": "8645************************iFsg"
+        }
+      ]
+    },
+    {
       "repo": "baicaiacabbge/baicaiwzq",
       "url": "https://github.com/baicaiacabbge/baicaiwzq",
       "status": "leaked",
@@ -4631,6 +4712,33 @@
           "line": 14875,
           "source": "commit",
           "preview": "AIza************************ntt8"
+        }
+      ]
+    },
+    {
+      "repo": "chethanmk842-beep/HackProj",
+      "url": "https://github.com/chethanmk842-beep/HackProj",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.53,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 02ff873",
+          "line": 1902,
+          "source": "commit",
+          "preview": "eyJh************************mhLM"
         }
       ]
     },
@@ -6066,6 +6174,33 @@
       ]
     },
     {
+      "repo": "qitaijingguan-cpu/fyf-yfyfy-fy",
+      "url": "https://github.com/qitaijingguan-cpu/fyf-yfyfy-fy",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 46.51,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit da3ddd6",
+          "line": 312,
+          "source": "commit",
+          "preview": "8719************************CuWk"
+        }
+      ]
+    },
+    {
       "repo": "randallmoore397/IPREP-Codekid",
       "url": "https://github.com/randallmoore397/IPREP-Codekid",
       "status": "leaked",
@@ -7173,6 +7308,33 @@
       ]
     },
     {
+      "repo": "BelfadhelSaber/djerba-touriste",
+      "url": "https://github.com/BelfadhelSaber/djerba-touriste",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 39.76,
+      "exposureScore": 20,
+      "topTypes": [
+        "Mapbox API Key"
+      ],
+      "typeCounts": {
+        "Mapbox API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Mapbox API Key",
+          "file": "djerba-touriste-main/src/pages/ProviderProfile.jsx",
+          "line": 316,
+          "source": "file",
+          "preview": "pk.e************************xxxx"
+        }
+      ]
+    },
+    {
       "repo": "Chanthan25/legendfilm",
       "url": "https://github.com/Chanthan25/legendfilm",
       "status": "leaked",
@@ -7628,6 +7790,33 @@
           "line": 7,
           "source": "file",
           "preview": "AIza************************fgaM"
+        }
+      ]
+    },
+    {
+      "repo": "HimaVarshitha7/Plagirism_backend",
+      "url": "https://github.com/HimaVarshitha7/Plagirism_backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 27.4,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Plagirism_backend-main/app.py",
+          "line": 34,
+          "source": "file",
+          "preview": "AIza************************Zj5E"
         }
       ]
     },
@@ -8330,6 +8519,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************ZU_o"
+        }
+      ]
+    },
+    {
+      "repo": "Oumarzeini/trendi-blog",
+      "url": "https://github.com/Oumarzeini/trendi-blog",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.36,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "trendi-blog-main/src/supabase.js",
+          "line": 5,
+          "source": "file",
+          "preview": "eyJh************************NP_k"
         }
       ]
     },
@@ -12812,6 +13028,33 @@
           "line": 51,
           "source": "file",
           "preview": "8350************************-Kug"
+        }
+      ]
+    },
+    {
+      "repo": "rudisetyawanid/iujh",
+      "url": "https://github.com/rudisetyawanid/iujh",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 76.5,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "iujh-main/src/lib/supabase.ts",
+          "line": 6,
+          "source": "file",
+          "preview": "eyJh************************om1M"
         }
       ]
     },
