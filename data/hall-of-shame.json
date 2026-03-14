@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T18:08:55.291096+00:00",
+  "generatedAt": "2026-03-14T18:44:07.713211+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -1808,6 +1808,42 @@
       ]
     },
     {
+      "repo": "dth20006/lichdonnha",
+      "url": "https://github.com/dth20006/lichdonnha",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 142.58,
+      "exposureScore": 60,
+      "topTypes": [
+        "Google API/GCP Key",
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 0e4c0db",
+          "line": 235,
+          "source": "commit",
+          "preview": "AIza************************JgLs"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 0e4c0db",
+          "line": 247,
+          "source": "commit",
+          "preview": "8701************************RE-c"
+        }
+      ]
+    },
+    {
       "repo": "ktrmm/aquafin",
       "url": "https://github.com/ktrmm/aquafin",
       "status": "leaked",
@@ -2291,6 +2327,40 @@
           "line": 195415,
           "source": "commit",
           "preview": "AIza************************_WAc"
+        }
+      ]
+    },
+    {
+      "repo": "Sep-Gob-Mx/SIGED-certificado-preparatoria-autenticacion-RASA771120HGRMLL07",
+      "url": "https://github.com/Sep-Gob-Mx/SIGED-certificado-preparatoria-autenticacion-RASA771120HGRMLL07",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 23.39,
+      "exposureScore": 52,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 38f5c87",
+          "line": 203,
+          "source": "commit",
+          "preview": "AIza************************nsaM"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 38f5c87",
+          "line": 47186,
+          "source": "commit",
+          "preview": "AIza************************w-jM"
         }
       ]
     },
@@ -4385,6 +4455,40 @@
       ]
     },
     {
+      "repo": "diyiritian-ops/horcrux",
+      "url": "https://github.com/diyiritian-ops/horcrux",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 66.72,
+      "exposureScore": 32,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 2
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "horcrux-main/examples/config-examples.md",
+          "line": 8,
+          "source": "file",
+          "preview": "ghp_************************xxxx"
+        },
+        {
+          "type": "GitHub Classic PAT",
+          "file": "horcrux-main/scripts/autosync.sh",
+          "line": 12,
+          "source": "file",
+          "preview": "ghp_************************WXjM"
+        }
+      ]
+    },
+    {
       "repo": "matted-persea986/Botstore",
       "url": "https://github.com/matted-persea986/Botstore",
       "status": "leaked",
@@ -4612,6 +4716,33 @@
           "line": 17522,
           "source": "commit",
           "preview": "AKIA************MPLE"
+        }
+      ]
+    },
+    {
+      "repo": "4jmason-lgtm/Vinyl-League",
+      "url": "https://github.com/4jmason-lgtm/Vinyl-League",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 162.17,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 6ad166b",
+          "line": 575,
+          "source": "commit",
+          "preview": "eyJh************************jGb8"
         }
       ]
     },
@@ -6479,6 +6610,33 @@
       ]
     },
     {
+      "repo": "arjunmangu555-maker/Hammer",
+      "url": "https://github.com/arjunmangu555-maker/Hammer",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 32.23,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit d3bc608",
+          "line": 169,
+          "source": "commit",
+          "preview": "AIza************************low4"
+        }
+      ]
+    },
+    {
       "repo": "aurasociety-code/paga_tu_credito_nequi_v2",
       "url": "https://github.com/aurasociety-code/paga_tu_credito_nequi_v2",
       "status": "leaked",
@@ -7177,6 +7335,33 @@
           "line": 804,
           "source": "commit",
           "preview": "AIza************************A5V4"
+        }
+      ]
+    },
+    {
+      "repo": "gloriatorres26/tetris-english-challenge",
+      "url": "https://github.com/gloriatorres26/tetris-english-challenge",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 65.59,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit f60b892",
+          "line": 7864,
+          "source": "commit",
+          "preview": "AIza************************_9VI"
         }
       ]
     },
@@ -9044,6 +9229,33 @@
       ]
     },
     {
+      "repo": "sandeluca0-cell/life-quest",
+      "url": "https://github.com/sandeluca0-cell/life-quest",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 24.72,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit f570a8f",
+          "line": 360,
+          "source": "commit",
+          "preview": "eyJh************************21bI"
+        }
+      ]
+    },
+    {
       "repo": "sg3728/adaw",
       "url": "https://github.com/sg3728/adaw",
       "status": "leaked",
@@ -9827,6 +10039,33 @@
       ]
     },
     {
+      "repo": "2026proton23000/nexxos",
+      "url": "https://github.com/2026proton23000/nexxos",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 21.83,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "nexxos-main/js/telegram.js",
+          "line": 2,
+          "source": "file",
+          "preview": "8629************************jJRQ"
+        }
+      ]
+    },
+    {
       "repo": "2229niku/bos-mss-realtime-bot",
       "url": "https://github.com/2229niku/bos-mss-realtime-bot",
       "status": "leaked",
@@ -10205,6 +10444,33 @@
       ]
     },
     {
+      "repo": "AravindBapurapu/Discipline_App",
+      "url": "https://github.com/AravindBapurapu/Discipline_App",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.95,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Discipline_App-main/src/firebase/config.js",
+          "line": 8,
+          "source": "file",
+          "preview": "AIza************************hLPA"
+        }
+      ]
+    },
+    {
       "repo": "Arthurpfz/telegram-summary-bot",
       "url": "https://github.com/Arthurpfz/telegram-summary-bot",
       "status": "leaked",
@@ -10336,6 +10602,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************zg7Y"
+        }
+      ]
+    },
+    {
+      "repo": "AyyJayyC/casa-mx-backend",
+      "url": "https://github.com/AyyJayyC/casa-mx-backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.7,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "casa-mx-backend-main/tests/checkpoint3.test.ts",
+          "line": 201,
+          "source": "file",
+          "preview": "eyJh************************ture"
         }
       ]
     },
@@ -10714,6 +11007,33 @@
           "line": 91753,
           "source": "file",
           "preview": "AIza************************-X4I"
+        }
+      ]
+    },
+    {
+      "repo": "Fabiano-Antero/motospot",
+      "url": "https://github.com/Fabiano-Antero/motospot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 130.04,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "motospot-main/js/app.js",
+          "line": 9,
+          "source": "file",
+          "preview": "AIza************************X0fY"
         }
       ]
     },
@@ -12442,6 +12762,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************tjog"
+        }
+      ]
+    },
+    {
+      "repo": "RoyMeng-debug/korundi-platform",
+      "url": "https://github.com/RoyMeng-debug/korundi-platform",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 19.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "AWS Access Key ID"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "korundi-platform-master/docs/deployment-checklist.md",
+          "line": 201,
+          "source": "file",
+          "preview": "AKIA************MPLE"
         }
       ]
     },
@@ -15497,6 +15844,33 @@
       ]
     },
     {
+      "repo": "helgobert8-sketch/buttcoin-website",
+      "url": "https://github.com/helgobert8-sketch/buttcoin-website",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 62.21,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "buttcoin-website-master/js/firebase.js",
+          "line": 11,
+          "source": "file",
+          "preview": "AIza************************rt9k"
+        }
+      ]
+    },
+    {
       "repo": "hidytech-a11y/Ecommerce",
       "url": "https://github.com/hidytech-a11y/Ecommerce",
       "status": "leaked",
@@ -15520,6 +15894,33 @@
           "line": 20,
           "source": "file",
           "preview": "sk_t************************6971"
+        }
+      ]
+    },
+    {
+      "repo": "hiroaoyama777/crypto-trading-bot",
+      "url": "https://github.com/hiroaoyama777/crypto-trading-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 44.82,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "crypto-trading-bot-main/files/bot.py",
+          "line": 21,
+          "source": "file",
+          "preview": "eyJh************************bCtg"
         }
       ]
     },
@@ -15952,6 +16353,33 @@
           "line": 14,
           "source": "file",
           "preview": "sk-o************************a14a"
+        }
+      ]
+    },
+    {
+      "repo": "jaythejustice/agram",
+      "url": "https://github.com/jaythejustice/agram",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.59,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "agram-main/app.js",
+          "line": 13,
+          "source": "file",
+          "preview": "AIza************************rjv4"
         }
       ]
     },
@@ -17113,6 +17541,33 @@
           "line": 895,
           "source": "file",
           "preview": "AIza************************RyHI"
+        }
+      ]
+    },
+    {
+      "repo": "marcioguimaraes-bitphi/FocusPocus",
+      "url": "https://github.com/marcioguimaraes-bitphi/FocusPocus",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 80.56,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "FocusPocus-dev-damaris/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************MIxo"
         }
       ]
     },
