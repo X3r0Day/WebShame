@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T16:54:56.927956+00:00",
+  "generatedAt": "2026-03-14T17:17:53.290800+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -2733,6 +2733,40 @@
           "line": 3692,
           "source": "commit",
           "preview": "AIza************************rAQc"
+        }
+      ]
+    },
+    {
+      "repo": "dayaneleal/CarCollectionXML",
+      "url": "https://github.com/dayaneleal/CarCollectionXML",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.32,
+      "exposureScore": 42,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "CarCollectionXML-main/app/src/main/AndroidManifest.xml",
+          "line": 48,
+          "source": "file",
+          "preview": "AIza************************IG88"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit e66c127",
+          "line": 34,
+          "source": "commit",
+          "preview": "AIza************************aPd8"
         }
       ]
     },
@@ -5879,6 +5913,33 @@
           "line": 564,
           "source": "commit",
           "preview": "eyJh************************dNrI"
+        }
+      ]
+    },
+    {
+      "repo": "aasama02-05/PostCraftAi",
+      "url": "https://github.com/aasama02-05/PostCraftAi",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 15.07,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 09fc7c0",
+          "line": 18,
+          "source": "commit",
+          "preview": "AIza************************AHqI"
         }
       ]
     },
@@ -15252,6 +15313,33 @@
       ]
     },
     {
+      "repo": "jagadeeswar-N-G/agentos",
+      "url": "https://github.com/jagadeeswar-N-G/agentos",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenAI API Key (Project)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Project)": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Project)",
+          "file": "agentos-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "sk-p************************Ty4A"
+        }
+      ]
+    },
+    {
       "repo": "janakiramankannan221-dot/fees-management",
       "url": "https://github.com/janakiramankannan221-dot/fees-management",
       "status": "leaked",
@@ -18465,6 +18553,33 @@
       ]
     },
     {
+      "repo": "sknom21-cmd/Operator---studio",
+      "url": "https://github.com/sknom21-cmd/Operator---studio",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.55,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Operator---studio-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************k3qY"
+        }
+      ]
+    },
+    {
       "repo": "skupiz/bottts",
       "url": "https://github.com/skupiz/bottts",
       "status": "leaked",
@@ -19217,6 +19332,33 @@
           "line": 2,
           "source": "file",
           "preview": "AIza************************9m1o"
+        }
+      ]
+    },
+    {
+      "repo": "zmts-cs/telegram-bot",
+      "url": "https://github.com/zmts-cs/telegram-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 109.51,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "telegram-bot-main/DEPLOYMENT_CHECKLIST.md",
+          "line": 47,
+          "source": "file",
+          "preview": "8728************************x5r8"
         }
       ]
     },
