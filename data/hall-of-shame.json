@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T03:32:36.316106+00:00",
+  "generatedAt": "2026-03-14T05:09:10.174609+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -2282,6 +2282,42 @@
       ]
     },
     {
+      "repo": "Keerthipriya27/grievance-genius",
+      "url": "https://github.com/Keerthipriya27/grievance-genius",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.77,
+      "exposureScore": 40,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT",
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1,
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "grievance-genius-main/TEST_GUIDE.md",
+          "line": 178,
+          "source": "file",
+          "preview": "eyJh************************c123"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "grievance-genius-main/backend/.env",
+          "line": 13,
+          "source": "file",
+          "preview": "AIza************************V3DI"
+        }
+      ]
+    },
+    {
       "repo": "KristianVangsnes/automations-test-target",
       "url": "https://github.com/KristianVangsnes/automations-test-target",
       "status": "leaked",
@@ -2458,6 +2494,42 @@
           "line": 98,
           "source": "file",
           "preview": "ghp_************************ghij"
+        }
+      ]
+    },
+    {
+      "repo": "eaaajay/MyTrendRadar",
+      "url": "https://github.com/eaaajay/MyTrendRadar",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.37,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Slack Webhook"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Slack Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "MyTrendRadar-master/README-EN.md",
+          "line": 1355,
+          "source": "file",
+          "preview": "1234************************m9T0"
+        },
+        {
+          "type": "Slack Webhook",
+          "file": "MyTrendRadar-master/README-EN.md",
+          "line": 1710,
+          "source": "file",
+          "preview": "http************************XXXX"
         }
       ]
     },
@@ -5076,6 +5148,33 @@
       ]
     },
     {
+      "repo": "kaitoriokokudxteam-alt/gachi-coupon-counter",
+      "url": "https://github.com/kaitoriokokudxteam-alt/gachi-coupon-counter",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 13.01,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit c9fdb5e",
+          "line": 699,
+          "source": "commit",
+          "preview": "eyJh************************8sos"
+        }
+      ]
+    },
+    {
       "repo": "karolbujnowski23/ai_dev_projects",
       "url": "https://github.com/karolbujnowski23/ai_dev_projects",
       "status": "leaked",
@@ -6233,6 +6332,33 @@
           "line": 462,
           "source": "commit",
           "preview": "eyJh************************yYW0"
+        }
+      ]
+    },
+    {
+      "repo": "st3453/m",
+      "url": "https://github.com/st3453/m",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.45,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit a621299",
+          "line": 572,
+          "source": "commit",
+          "preview": "eyJh************************TbEE"
         }
       ]
     },
@@ -8019,6 +8145,33 @@
       ]
     },
     {
+      "repo": "MrFrancis89/stockflow-pro-v9.8.9-rebuild",
+      "url": "https://github.com/MrFrancis89/stockflow-pro-v9.8.9-rebuild",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.0,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "stockflow-pro-v9.8.9-rebuild-main/firebase.js",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************YQ8I"
+        }
+      ]
+    },
+    {
       "repo": "NAHID-TEST-SERVER/msg1",
       "url": "https://github.com/NAHID-TEST-SERVER/msg1",
       "status": "leaked",
@@ -8451,6 +8604,33 @@
       ]
     },
     {
+      "repo": "SMMS9/sdbot.php",
+      "url": "https://github.com/SMMS9/sdbot.php",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.15,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "sdbot.php-main/README.md",
+          "line": 4,
+          "source": "file",
+          "preview": "8713************************nUyw"
+        }
+      ]
+    },
+    {
       "repo": "Saikiran-12345/resume_buddy",
       "url": "https://github.com/Saikiran-12345/resume_buddy",
       "status": "leaked",
@@ -8555,6 +8735,33 @@
           "line": 115,
           "source": "file",
           "preview": "AIza************************hiNE"
+        }
+      ]
+    },
+    {
+      "repo": "Sanskar-Dhakal/RDS-project",
+      "url": "https://github.com/Sanskar-Dhakal/RDS-project",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.62,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "RDS-project-main/example.env",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************SbfE"
         }
       ]
     },
@@ -10148,6 +10355,33 @@
           "line": 106,
           "source": "file",
           "preview": "eyJh************************ture"
+        }
+      ]
+    },
+    {
+      "repo": "haydensfolk-jpg/track-my-scholarships",
+      "url": "https://github.com/haydensfolk-jpg/track-my-scholarships",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 99.66,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "track-my-scholarships-main/app.js",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************1-ns"
         }
       ]
     },
