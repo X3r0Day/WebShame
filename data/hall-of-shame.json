@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T12:34:15.070031+00:00",
+  "generatedAt": "2026-03-15T13:36:47.873151+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -6249,6 +6249,33 @@
       ]
     },
     {
+      "repo": "Godlikeprogrammer1037/PLC-PLAYERS-STATICS",
+      "url": "https://github.com/Godlikeprogrammer1037/PLC-PLAYERS-STATICS",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.68,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 467ab6f",
+          "line": 764,
+          "source": "commit",
+          "preview": "AIza************************udlQ"
+        }
+      ]
+    },
+    {
       "repo": "HOFFMAN-CAMPS/HOFFMAN-CAMPS-ADMIN",
       "url": "https://github.com/HOFFMAN-CAMPS/HOFFMAN-CAMPS-ADMIN",
       "status": "leaked",
@@ -6407,6 +6434,33 @@
           "line": 442,
           "source": "commit",
           "preview": "AIza************************MwFo"
+        }
+      ]
+    },
+    {
+      "repo": "JSK8887/Build-Your-Own-Intelligent-Image-Search-Engine",
+      "url": "https://github.com/JSK8887/Build-Your-Own-Intelligent-Image-Search-Engine",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.46,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 2993a42",
+          "line": 687,
+          "source": "commit",
+          "preview": "AIza************************0IHs"
         }
       ]
     },
@@ -10596,6 +10650,33 @@
       ]
     },
     {
+      "repo": "pablolandamacarronai-bit/pablolandamacarron",
+      "url": "https://github.com/pablolandamacarronai-bit/pablolandamacarron",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 15.62,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit a989bd8",
+          "line": 1076,
+          "source": "commit",
+          "preview": "AIza************************HPoc"
+        }
+      ]
+    },
+    {
       "repo": "pahmijawa88-source/PrivateServer.Byrian",
       "url": "https://github.com/pahmijawa88-source/PrivateServer.Byrian",
       "status": "leaked",
@@ -11865,6 +11946,33 @@
       ]
     },
     {
+      "repo": "thawatchai-stack/cardparty",
+      "url": "https://github.com/thawatchai-stack/cardparty",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.02,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 255c55d",
+          "line": 118,
+          "source": "commit",
+          "preview": "AIza************************qaBc"
+        }
+      ]
+    },
+    {
       "repo": "tk56impulse/nexusflow",
       "url": "https://github.com/tk56impulse/nexusflow",
       "status": "leaked",
@@ -12270,6 +12378,33 @@
       ]
     },
     {
+      "repo": "yousseftamer68/chatmaster99",
+      "url": "https://github.com/yousseftamer68/chatmaster99",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.04,
+      "exposureScore": 30,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "Commit 902e9c1",
+          "line": 330,
+          "source": "commit",
+          "preview": "sk-o************************eaad"
+        }
+      ]
+    },
+    {
       "repo": "yurukusa/env-vars",
       "url": "https://github.com/yurukusa/env-vars",
       "status": "leaked",
@@ -12482,6 +12617,33 @@
           "line": 11,
           "source": "file",
           "preview": "AIza************************3eqc"
+        }
+      ]
+    },
+    {
+      "repo": "Abhin611/Interior-AI",
+      "url": "https://github.com/Abhin611/Interior-AI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.84,
+      "exposureScore": 20,
+      "topTypes": [
+        "HuggingFace Token"
+      ],
+      "typeCounts": {
+        "HuggingFace Token": 1
+      },
+      "findings": [
+        {
+          "type": "HuggingFace Token",
+          "file": "Interior-AI-main/indar_app_backend/main.py",
+          "line": 16,
+          "source": "file",
+          "preview": "hf_p************************yXTS"
         }
       ]
     },
@@ -15213,6 +15375,33 @@
       ]
     },
     {
+      "repo": "Nidalzom/sakan",
+      "url": "https://github.com/Nidalzom/sakan",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.62,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "sakan-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************LZEs"
+        }
+      ]
+    },
+    {
       "repo": "Nik1022-stack/ai-blog",
       "url": "https://github.com/Nik1022-stack/ai-blog",
       "status": "leaked",
@@ -15317,6 +15506,33 @@
           "line": 1,
           "source": "file",
           "preview": "8660************************Mroo"
+        }
+      ]
+    },
+    {
+      "repo": "NumbWhileY/OpenRouter",
+      "url": "https://github.com/NumbWhileY/OpenRouter",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.92,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "OpenRouter-main/.env",
+          "line": 7,
+          "source": "file",
+          "preview": "sk-o************************0106"
         }
       ]
     },
@@ -16914,6 +17130,33 @@
       ]
     },
     {
+      "repo": "Yuori81/tgbee-bot",
+      "url": "https://github.com/Yuori81/tgbee-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.61,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "tgbee-bot-main/bot.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8617************************TWaA"
+        }
+      ]
+    },
+    {
       "repo": "ZenTxZen/SpaceBot",
       "url": "https://github.com/ZenTxZen/SpaceBot",
       "status": "leaked",
@@ -17643,6 +17886,33 @@
       ]
     },
     {
+      "repo": "androidpt7/gaiadatabase",
+      "url": "https://github.com/androidpt7/gaiadatabase",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.37,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "gaiadatabase-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************CENI"
+        }
+      ]
+    },
+    {
       "repo": "anthonytech04-art/telegram-price-bot",
       "url": "https://github.com/anthonytech04-art/telegram-price-bot",
       "status": "leaked",
@@ -18071,6 +18341,33 @@
           "line": 84,
           "source": "file",
           "preview": "8535************************M9zo"
+        }
+      ]
+    },
+    {
+      "repo": "bitreel123/colla-your-real-time-code-companion",
+      "url": "https://github.com/bitreel123/colla-your-real-time-code-companion",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.34,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "colla-your-real-time-code-companion-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************-424"
         }
       ]
     },
@@ -19668,6 +19965,33 @@
       ]
     },
     {
+      "repo": "harsham1998/rummy-scorecard",
+      "url": "https://github.com/harsham1998/rummy-scorecard",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.12,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "rummy-scorecard-main/src/lib/supabase.js",
+          "line": 5,
+          "source": "file",
+          "preview": "eyJh************************8XMA"
+        }
+      ]
+    },
+    {
       "repo": "haydan-ops/MyChat-IA",
       "url": "https://github.com/haydan-ops/MyChat-IA",
       "status": "leaked",
@@ -20636,6 +20960,33 @@
           "line": 3,
           "source": "file",
           "preview": "eyJh************************YUvY"
+        }
+      ]
+    },
+    {
+      "repo": "jpcasapao/NEU-Lab-Log",
+      "url": "https://github.com/jpcasapao/NEU-Lab-Log",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 19.85,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "NEU-Lab-Log-master/public/js/firebase-init.js",
+          "line": 5,
+          "source": "file",
+          "preview": "AIza************************S5YI"
         }
       ]
     },
@@ -22125,6 +22476,33 @@
       ]
     },
     {
+      "repo": "mavandat2025-ai/Ryuu",
+      "url": "https://github.com/mavandat2025-ai/Ryuu",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.26,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Ryuu-main/BananaHub.lua (1).txt",
+          "line": 37,
+          "source": "file",
+          "preview": "http************************H1sZ"
+        }
+      ]
+    },
+    {
       "repo": "maximdear49-byte/crypto-ai-bot",
       "url": "https://github.com/maximdear49-byte/crypto-ai-bot",
       "status": "leaked",
@@ -22526,6 +22904,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************DVDg"
+        }
+      ]
+    },
+    {
+      "repo": "msdevhub/agent-portal",
+      "url": "https://github.com/msdevhub/agent-portal",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 40.72,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "agent-portal-main/v2-pixel/CODEX_INSTRUCTIONS.md",
+          "line": 18,
+          "source": "file",
+          "preview": "eyJh************************Vt4Q"
         }
       ]
     },
