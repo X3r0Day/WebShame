@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T20:06:05.203845+00:00",
+  "generatedAt": "2026-03-15T20:44:49.612559+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -784,6 +784,68 @@
           "line": 357,
           "source": "file",
           "preview": "ghp_************************xxxx"
+        }
+      ]
+    },
+    {
+      "repo": "StevenBalagueraP/InnexiaBackend",
+      "url": "https://github.com/StevenBalagueraP/InnexiaBackend",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 7,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 2,
+      "scanTimeSeconds": 73.56,
+      "exposureScore": 112,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 7
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "InnexiaBackend-main/InnexiaBackend.postman_collection.json",
+          "line": 291,
+          "source": "file",
+          "preview": "eyJh************************gqBk"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "InnexiaBackend-main/InnexiaBackend.postman_collection.json",
+          "line": 454,
+          "source": "file",
+          "preview": "eyJh************************AFpI"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "InnexiaBackend-main/InnexiaBackend.postman_collection.json",
+          "line": 488,
+          "source": "file",
+          "preview": "eyJh************************IXiM"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "InnexiaBackend-main/InnexiaBackend.postman_collection.json",
+          "line": 523,
+          "source": "file",
+          "preview": "eyJh************************3tPk"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "InnexiaBackend-main/InnexiaBackend.postman_collection.json",
+          "line": 548,
+          "source": "file",
+          "preview": "eyJh************************JIpc"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit edd2f68",
+          "line": 77,
+          "source": "commit",
+          "preview": "eyJh************************CN-Q"
         }
       ]
     },
@@ -9427,6 +9489,33 @@
       ]
     },
     {
+      "repo": "fadxto111/rayan-goated-tsb",
+      "url": "https://github.com/fadxto111/rayan-goated-tsb",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.27,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 5a02302",
+          "line": 281,
+          "source": "commit",
+          "preview": "http************************JtJX"
+        }
+      ]
+    },
+    {
       "repo": "faizanazizix/nice-gsm-site",
       "url": "https://github.com/faizanazizix/nice-gsm-site",
       "status": "leaked",
@@ -9882,6 +9971,33 @@
           "line": 198,
           "source": "commit",
           "preview": "AIza************************OAPs"
+        }
+      ]
+    },
+    {
+      "repo": "hectorh202-source/Help-for-joke-slapper",
+      "url": "https://github.com/hectorh202-source/Help-for-joke-slapper",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.22,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit a197c92",
+          "line": 48,
+          "source": "commit",
+          "preview": "eyJh************************IEHE"
         }
       ]
     },
@@ -17770,6 +17886,33 @@
       ]
     },
     {
+      "repo": "Reinvik/romacenterspa",
+      "url": "https://github.com/Reinvik/romacenterspa",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 55.75,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "romacenterspa-main/scan_staging_jwt.ts",
+          "line": 5,
+          "source": "file",
+          "preview": "eyJh************************ajXA"
+        }
+      ]
+    },
+    {
       "repo": "RenckMelo/MedRevise",
       "url": "https://github.com/RenckMelo/MedRevise",
       "status": "leaked",
@@ -18819,6 +18962,33 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************3Dts"
+        }
+      ]
+    },
+    {
+      "repo": "Thinhlxpham/test-stripe-payment",
+      "url": "https://github.com/Thinhlxpham/test-stripe-payment",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.32,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "test-stripe-payment-main/firebase/firebase.js",
+          "line": 10,
+          "source": "file",
+          "preview": "AIza************************Fm7M"
         }
       ]
     },
@@ -20250,6 +20420,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************qcrI"
+        }
+      ]
+    },
+    {
+      "repo": "ash007-web/kerala-smart-pos_001",
+      "url": "https://github.com/ash007-web/kerala-smart-pos_001",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.01,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "kerala-smart-pos_001-main/firebase.js",
+          "line": 23,
+          "source": "file",
+          "preview": "AIza************************4Jhs"
         }
       ]
     },
@@ -22572,6 +22769,33 @@
           "line": 11,
           "source": "file",
           "preview": "AIza************************rt9k"
+        }
+      ]
+    },
+    {
+      "repo": "henriquejuniorsc-ui/viva-beiramar",
+      "url": "https://github.com/henriquejuniorsc-ui/viva-beiramar",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.05,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "viva-beiramar-main/src/App.jsx",
+          "line": 20,
+          "source": "file",
+          "preview": "eyJh************************MDnw"
         }
       ]
     },
@@ -27517,6 +27741,33 @@
       ]
     },
     {
+      "repo": "sagar-kashyap/site_supervisor",
+      "url": "https://github.com/sagar-kashyap/site_supervisor",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 77.86,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "site_supervisor-main/backend/.env",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************eAys"
+        }
+      ]
+    },
+    {
       "repo": "sairolotech-source/SAI-ROLOTECH-CRM",
       "url": "https://github.com/sairolotech-source/SAI-ROLOTECH-CRM",
       "status": "leaked",
@@ -28944,6 +29195,33 @@
           "line": 17,
           "source": "file",
           "preview": "sk-o************************358c"
+        }
+      ]
+    },
+    {
+      "repo": "yanhs/yacht-gorgeous",
+      "url": "https://github.com/yanhs/yacht-gorgeous",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.98,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "yacht-gorgeous-master/api.py",
+          "line": 11,
+          "source": "file",
+          "preview": "8619************************9h8w"
         }
       ]
     },
