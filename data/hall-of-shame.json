@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-14T23:56:30.888015+00:00",
+  "generatedAt": "2026-03-15T00:11:04.475810+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -6319,6 +6319,33 @@
           "line": 726,
           "source": "commit",
           "preview": "AIza************************rEYU"
+        }
+      ]
+    },
+    {
+      "repo": "R2Rprogpower/craftChronicles",
+      "url": "https://github.com/R2Rprogpower/craftChronicles",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 82.62,
+      "exposureScore": 30,
+      "topTypes": [
+        "Slack Webhook"
+      ],
+      "typeCounts": {
+        "Slack Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Slack Webhook",
+          "file": "Commit dcd2dd0",
+          "line": 22,
+          "source": "commit",
+          "preview": "http************************XXXX"
         }
       ]
     },
@@ -12938,6 +12965,33 @@
       ]
     },
     {
+      "repo": "Mahmoud-Fawzi-Fayed/PentrAi",
+      "url": "https://github.com/Mahmoud-Fawzi-Fayed/PentrAi",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 22.75,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "PentrAi-main/draft4/LLMPentest/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************u0e4"
+        }
+      ]
+    },
+    {
       "repo": "Manikada/smart_AI_",
       "url": "https://github.com/Manikada/smart_AI_",
       "status": "leaked",
@@ -17771,6 +17825,33 @@
       ]
     },
     {
+      "repo": "ismailBEY/Language_Learning_Platform",
+      "url": "https://github.com/ismailBEY/Language_Learning_Platform",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 162.23,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Language_Learning_Platform-main/server/direct_test.js",
+          "line": 2,
+          "source": "file",
+          "preview": "AIza************************ViU0"
+        }
+      ]
+    },
+    {
       "repo": "isouO0/Stofla-Telecom",
       "url": "https://github.com/isouO0/Stofla-Telecom",
       "status": "leaked",
@@ -21358,6 +21439,33 @@
           "line": 12,
           "source": "file",
           "preview": "8692************************Z7CY"
+        }
+      ]
+    },
+    {
+      "repo": "sairolotech-source/SAI-ROLOTECH-CRM",
+      "url": "https://github.com/sairolotech-source/SAI-ROLOTECH-CRM",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 18.94,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "SAI-ROLOTECH-CRM-main/artifacts/mobile/lib/firebase.ts",
+          "line": 5,
+          "source": "file",
+          "preview": "AIza************************Vbkc"
         }
       ]
     },
