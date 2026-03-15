@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T06:16:44.030160+00:00",
+  "generatedAt": "2026-03-15T07:18:06.003388+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -7768,6 +7768,33 @@
       ]
     },
     {
+      "repo": "dassubrother-max/Fff",
+      "url": "https://github.com/dassubrother-max/Fff",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.75,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 21ea1ed",
+          "line": 160,
+          "source": "commit",
+          "preview": "AIza************************O6qc"
+        }
+      ]
+    },
+    {
       "repo": "deepakkatal/DeekTalks-AI",
       "url": "https://github.com/deepakkatal/DeekTalks-AI",
       "status": "leaked",
@@ -9330,6 +9357,33 @@
           "line": 20,
           "source": "commit",
           "preview": "7888************************pD_k"
+        }
+      ]
+    },
+    {
+      "repo": "mqj637482-hash/plane",
+      "url": "https://github.com/mqj637482-hash/plane",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.69,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 6f9b3c1",
+          "line": 32,
+          "source": "commit",
+          "preview": "AIza************************MYx0"
         }
       ]
     },
@@ -11706,6 +11760,33 @@
           "line": 19,
           "source": "file",
           "preview": "AIza************************njqY"
+        }
+      ]
+    },
+    {
+      "repo": "AmaanCD/poc-dremio-mcp-client",
+      "url": "https://github.com/AmaanCD/poc-dremio-mcp-client",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.24,
+      "exposureScore": 20,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "poc-dremio-mcp-client-master/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "gsk_************************Ljy8"
         }
       ]
     },
@@ -18996,6 +19077,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************kAGk"
+        }
+      ]
+    },
+    {
+      "repo": "kage-art/PawMedsApp",
+      "url": "https://github.com/kage-art/PawMedsApp",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.06,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "PawMedsApp-master/src/lib/insforge.ts",
+          "line": 4,
+          "source": "file",
+          "preview": "eyJh************************9Lxc"
         }
       ]
     },
