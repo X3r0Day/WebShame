@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T10:48:32.210999+00:00",
+  "generatedAt": "2026-03-15T11:07:22.643569+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -4603,6 +4603,40 @@
           "line": 14,
           "source": "file",
           "preview": "eyJh************************9DOo"
+        }
+      ]
+    },
+    {
+      "repo": "AA-098/everything-ai",
+      "url": "https://github.com/AA-098/everything-ai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.89,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "everything-ai-main/every-ai.py",
+          "line": 25,
+          "source": "file",
+          "preview": "AIza************************jXfA"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "everything-ai-main/every-ai.py",
+          "line": 26,
+          "source": "file",
+          "preview": "AIza************************aQys"
         }
       ]
     },
@@ -11214,6 +11248,33 @@
       ]
     },
     {
+      "repo": "sidneyfears/pegelclub",
+      "url": "https://github.com/sidneyfears/pegelclub",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 15.17,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 322eb76",
+          "line": 1145,
+          "source": "commit",
+          "preview": "eyJh************************8fuU"
+        }
+      ]
+    },
+    {
       "repo": "sourovrana17-afk/Robi-4GB-free-",
       "url": "https://github.com/sourovrana17-afk/Robi-4GB-free-",
       "status": "leaked",
@@ -12263,6 +12324,33 @@
           "line": 18,
           "source": "file",
           "preview": "AIza************************73og"
+        }
+      ]
+    },
+    {
+      "repo": "AlexMari0/project-ecommerce",
+      "url": "https://github.com/AlexMari0/project-ecommerce",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 18.07,
+      "exposureScore": 20,
+      "topTypes": [
+        "Stripe Secret Key"
+      ],
+      "typeCounts": {
+        "Stripe Secret Key": 1
+      },
+      "findings": [
+        {
+          "type": "Stripe Secret Key",
+          "file": "project-ecommerce-main/.env",
+          "line": 6,
+          "source": "file",
+          "preview": "sk_t************************f4Ry"
         }
       ]
     },
@@ -17235,6 +17323,33 @@
       ]
     },
     {
+      "repo": "asif9686708092-cpu/radar3",
+      "url": "https://github.com/asif9686708092-cpu/radar3",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.59,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "radar3-main/scanner.py",
+          "line": 22,
+          "source": "file",
+          "preview": "8492************************--4I"
+        }
+      ]
+    },
+    {
       "repo": "asjad1122z-a11y/Ytapi",
       "url": "https://github.com/asjad1122z-a11y/Ytapi",
       "status": "leaked",
@@ -17501,6 +17616,60 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************1f3Y"
+        }
+      ]
+    },
+    {
+      "repo": "bossjas47/Rent",
+      "url": "https://github.com/bossjas47/Rent",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.12,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Rent-main/js/backend/modules/core.js",
+          "line": 30,
+          "source": "file",
+          "preview": "AIza************************0qzU"
+        }
+      ]
+    },
+    {
+      "repo": "bytecodepandit/express-e-commerce",
+      "url": "https://github.com/bytecodepandit/express-e-commerce",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.63,
+      "exposureScore": 20,
+      "topTypes": [
+        "Stripe Secret Key"
+      ],
+      "typeCounts": {
+        "Stripe Secret Key": 1
+      },
+      "findings": [
+        {
+          "type": "Stripe Secret Key",
+          "file": "express-e-commerce-master/backend/config/config.env",
+          "line": 23,
+          "source": "file",
+          "preview": "sk_t************************osqj"
         }
       ]
     },
@@ -18335,6 +18504,33 @@
         {
           "type": "Google API/GCP Key",
           "file": "glowing-parakeet-main/firebase.ts",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************3VyU"
+        }
+      ]
+    },
+    {
+      "repo": "exrm68/stunning-winner",
+      "url": "https://github.com/exrm68/stunning-winner",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.64,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "stunning-winner-main/firebase.ts",
           "line": 6,
           "source": "file",
           "preview": "AIza************************3VyU"
@@ -21470,6 +21666,33 @@
           "line": 4,
           "source": "file",
           "preview": "http************************MjOa"
+        }
+      ]
+    },
+    {
+      "repo": "minasar326-rgb/M3M",
+      "url": "https://github.com/minasar326-rgb/M3M",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.95,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "M3M-main/firebase.js",
+          "line": 12,
+          "source": "file",
+          "preview": "AIza************************Lp8k"
         }
       ]
     },
