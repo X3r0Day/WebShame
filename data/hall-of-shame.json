@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T14:09:10.491641+00:00",
+  "generatedAt": "2026-03-15T14:51:38.754348+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -2142,6 +2142,42 @@
           "line": 230,
           "source": "commit",
           "preview": "8639************************DsWs"
+        }
+      ]
+    },
+    {
+      "repo": "tedi180213-star/NzTiers2",
+      "url": "https://github.com/tedi180213-star/NzTiers2",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 2.06,
+      "exposureScore": 60,
+      "topTypes": [
+        "Google API/GCP Key",
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 3da5639",
+          "line": 159,
+          "source": "commit",
+          "preview": "AIza************************tS3k"
+        },
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 3da5639",
+          "line": 188,
+          "source": "commit",
+          "preview": "http************************bNwR"
         }
       ]
     },
@@ -5058,6 +5094,40 @@
       ]
     },
     {
+      "repo": "Siidodirnfb/BdevBOT",
+      "url": "https://github.com/Siidodirnfb/BdevBOT",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.13,
+      "exposureScore": 32,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 2
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "BdevBOT-main/README (1).md",
+          "line": 23,
+          "source": "file",
+          "preview": "8527************************vS5w"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "BdevBOT-main/telegram_bot.py",
+          "line": 14,
+          "source": "file",
+          "preview": "8527************************S-A8"
+        }
+      ]
+    },
+    {
       "repo": "aarishascension/RentMeRoom",
       "url": "https://github.com/aarishascension/RentMeRoom",
       "status": "leaked",
@@ -7798,6 +7868,33 @@
           "line": 103,
           "source": "commit",
           "preview": "AIza************************y7A4"
+        }
+      ]
+    },
+    {
+      "repo": "amyholl91/milk-stash",
+      "url": "https://github.com/amyholl91/milk-stash",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.06,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit cf9fd61",
+          "line": 210,
+          "source": "commit",
+          "preview": "AIza************************526c"
         }
       ]
     },
@@ -13040,6 +13137,33 @@
       ]
     },
     {
+      "repo": "Altaee2/howraa",
+      "url": "https://github.com/Altaee2/howraa",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.18,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "howraa-main/script.js",
+          "line": 14,
+          "source": "file",
+          "preview": "AIza************************G9R0"
+        }
+      ]
+    },
+    {
       "repo": "AmaanCD/poc-dremio-mcp-client",
       "url": "https://github.com/AmaanCD/poc-dremio-mcp-client",
       "status": "leaked",
@@ -14309,6 +14433,33 @@
       ]
     },
     {
+      "repo": "I4CE41/Artisan-Ai-",
+      "url": "https://github.com/I4CE41/Artisan-Ai-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.63,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Artisan-Ai--main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************qpok"
+        }
+      ]
+    },
+    {
       "repo": "ISNALS/bcxdbk",
       "url": "https://github.com/ISNALS/bcxdbk",
       "status": "leaked",
@@ -14710,6 +14861,33 @@
           "line": 15,
           "source": "file",
           "preview": "dop_************************035d"
+        }
+      ]
+    },
+    {
+      "repo": "KukaGoi/Satbayev_HELPERR",
+      "url": "https://github.com/KukaGoi/Satbayev_HELPERR",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.24,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Satbayev_HELPERR-main/config.py",
+          "line": 6,
+          "source": "file",
+          "preview": "8312************************5GFI"
         }
       ]
     },
@@ -18841,6 +19019,33 @@
           "line": 5,
           "source": "file",
           "preview": "AIza************************8mpI"
+        }
+      ]
+    },
+    {
+      "repo": "contaparadinheiro123456-lgtm/teste",
+      "url": "https://github.com/contaparadinheiro123456-lgtm/teste",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.58,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "teste-main/src/firebase/firebase.ts",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************DroE"
         }
       ]
     },
@@ -23705,6 +23910,33 @@
       ]
     },
     {
+      "repo": "pavanitatiparti7/AI-Tutor",
+      "url": "https://github.com/pavanitatiparti7/AI-Tutor",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.53,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "AI-Tutor-main/src/lib/firebase.ts",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************JJGE"
+        }
+      ]
+    },
+    {
       "repo": "pavlitas/spartacus-events",
       "url": "https://github.com/pavlitas/spartacus-events",
       "status": "leaked",
@@ -25834,6 +26066,33 @@
           "line": 16,
           "source": "file",
           "preview": "http************************dQRq"
+        }
+      ]
+    },
+    {
+      "repo": "viswa025/AI-AGENTS",
+      "url": "https://github.com/viswa025/AI-AGENTS",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.15,
+      "exposureScore": 20,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "AI-AGENTS-main/finance_ai_agent.py",
+          "line": 19,
+          "source": "file",
+          "preview": "gsk_************************2kD4"
         }
       ]
     },
