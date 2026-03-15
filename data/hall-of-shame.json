@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T16:05:46.860552+00:00",
+  "generatedAt": "2026-03-15T16:44:28.140452+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -3464,6 +3464,40 @@
           "line": 34,
           "source": "commit",
           "preview": "AIza************************aPd8"
+        }
+      ]
+    },
+    {
+      "repo": "planmoni/VixTraderAI",
+      "url": "https://github.com/planmoni/VixTraderAI",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 14.62,
+      "exposureScore": 42,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 2
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "VixTraderAI-main/supabase/migrations/20260314141938_setup_5min_cron_job.sql",
+          "line": 42,
+          "source": "file",
+          "preview": "eyJh************************6Z6A"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 2064095",
+          "line": 16892,
+          "source": "commit",
+          "preview": "eyJh************************qpQI"
         }
       ]
     },
@@ -8496,6 +8530,33 @@
           "line": 1256,
           "source": "commit",
           "preview": "eyJh************************gyvM"
+        }
+      ]
+    },
+    {
+      "repo": "carolsmithceo/lj-garden-manager",
+      "url": "https://github.com/carolsmithceo/lj-garden-manager",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 6.77,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 191524a",
+          "line": 1536,
+          "source": "commit",
+          "preview": "AIza************************hudY"
         }
       ]
     },
@@ -14085,6 +14146,33 @@
           "line": 36,
           "source": "file",
           "preview": "AIza************************1MFA"
+        }
+      ]
+    },
+    {
+      "repo": "Denisas23/D.-Bogdan",
+      "url": "https://github.com/Denisas23/D.-Bogdan",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.6,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "D.-Bogdan-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************YvWM"
         }
       ]
     },
@@ -19921,6 +20009,33 @@
       ]
     },
     {
+      "repo": "doraemi-65/Agro-Vision",
+      "url": "https://github.com/doraemi-65/Agro-Vision",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.51,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Agro-Vision-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************dxNQ"
+        }
+      ]
+    },
+    {
       "repo": "drahmadkh09-sketch/NIO11",
       "url": "https://github.com/drahmadkh09-sketch/NIO11",
       "status": "leaked",
@@ -20025,6 +20140,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************5CuY"
+        }
+      ]
+    },
+    {
+      "repo": "edisonhcp/link-analysis-buddy",
+      "url": "https://github.com/edisonhcp/link-analysis-buddy",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.48,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "link-analysis-buddy-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************R0ic"
         }
       ]
     },
