@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T19:50:00.086993+00:00",
+  "generatedAt": "2026-03-15T20:06:05.203845+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -10075,6 +10075,33 @@
       ]
     },
     {
+      "repo": "idealtechget-web/idealtech-erp",
+      "url": "https://github.com/idealtechget-web/idealtech-erp",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 7.83,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 8a070d8",
+          "line": 28,
+          "source": "commit",
+          "preview": "eyJh************************TEy8"
+        }
+      ]
+    },
+    {
       "repo": "imasssssaaa-eng/flowe",
       "url": "https://github.com/imasssssaaa-eng/flowe",
       "status": "leaked",
@@ -11070,6 +11097,33 @@
           "line": 5357,
           "source": "commit",
           "preview": "eyJh************************cG3Y"
+        }
+      ]
+    },
+    {
+      "repo": "mostafy2026/a-race",
+      "url": "https://github.com/mostafy2026/a-race",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.59,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit bcee64a",
+          "line": 299,
+          "source": "commit",
+          "preview": "8179************************AZkw"
         }
       ]
     },
@@ -13045,6 +13099,33 @@
       ]
     },
     {
+      "repo": "talhag3105-jpg/ekrankart-g-c-",
+      "url": "https://github.com/talhag3105-jpg/ekrankart-g-c-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.3,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 379bb7e",
+          "line": 68,
+          "source": "commit",
+          "preview": "AIza************************QP6Q"
+        }
+      ]
+    },
+    {
       "repo": "talhag3105-jpg/hacktesti",
       "url": "https://github.com/talhag3105-jpg/hacktesti",
       "status": "leaked",
@@ -13257,6 +13338,33 @@
           "line": 118,
           "source": "commit",
           "preview": "AIza************************qaBc"
+        }
+      ]
+    },
+    {
+      "repo": "thecugatorFireLordMode/crk-kingdom",
+      "url": "https://github.com/thecugatorFireLordMode/crk-kingdom",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 6.75,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit bdb2948",
+          "line": 7101,
+          "source": "commit",
+          "preview": "AIza************************0lsQ"
         }
       ]
     },
@@ -14526,6 +14634,33 @@
           "line": 2,
           "source": "file",
           "preview": "gsk_************************ewMm"
+        }
+      ]
+    },
+    {
+      "repo": "Aryant142/Decentral-Vote",
+      "url": "https://github.com/Aryant142/Decentral-Vote",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.2,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Decentral-Vote-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************rjZM"
         }
       ]
     },
@@ -25924,6 +26059,33 @@
       ]
     },
     {
+      "repo": "nogiszd/ApiMonitor",
+      "url": "https://github.com/nogiszd/ApiMonitor",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.4,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "ApiMonitor-main/src/main/resources/config.json",
+          "line": 9,
+          "source": "file",
+          "preview": "http************************WSzd"
+        }
+      ]
+    },
+    {
       "repo": "nurajalahsoalnya123-collab/AI-VERTUX",
       "url": "https://github.com/nurajalahsoalnya123-collab/AI-VERTUX",
       "status": "leaked",
@@ -27162,6 +27324,33 @@
           "line": 2,
           "source": "file",
           "preview": "8759************************kkIw"
+        }
+      ]
+    },
+    {
+      "repo": "rogervitorcode/orangedeploy",
+      "url": "https://github.com/rogervitorcode/orangedeploy",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "orangedeploy-main/firebase-init.js",
+          "line": 3,
+          "source": "file",
+          "preview": "AIza************************1SNg"
         }
       ]
     },
