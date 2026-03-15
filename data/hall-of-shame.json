@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T10:07:17.009650+00:00",
+  "generatedAt": "2026-03-15T10:48:32.210999+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -7002,6 +7002,33 @@
       ]
     },
     {
+      "repo": "Suyash276/AI",
+      "url": "https://github.com/Suyash276/AI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 6.23,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit a119329",
+          "line": 937,
+          "source": "commit",
+          "preview": "AIza************************xatI"
+        }
+      ]
+    },
+    {
       "repo": "TGSwify/Swify",
       "url": "https://github.com/TGSwify/Swify",
       "status": "leaked",
@@ -12186,6 +12213,33 @@
       ]
     },
     {
+      "repo": "Ajay10714343/fraud-detection",
+      "url": "https://github.com/Ajay10714343/fraud-detection",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.44,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "fraud-detection-master/src/main/resources/application.properties",
+          "line": 15,
+          "source": "file",
+          "preview": "AIza************************7p1Y"
+        }
+      ]
+    },
+    {
       "repo": "Albgps/albgps-app",
       "url": "https://github.com/Albgps/albgps-app",
       "status": "leaked",
@@ -13397,6 +13451,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************y-_M"
+        }
+      ]
+    },
+    {
+      "repo": "HiMyNameIsBob36/discord",
+      "url": "https://github.com/HiMyNameIsBob36/discord",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.06,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "discord-main/firebase.js",
+          "line": 8,
+          "source": "file",
+          "preview": "AIza************************zM68"
         }
       ]
     },
@@ -17019,6 +17100,33 @@
       ]
     },
     {
+      "repo": "anushka-thota7/chatbot-",
+      "url": "https://github.com/anushka-thota7/chatbot-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "chatbot--main/app.py",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************FVGo"
+        }
+      ]
+    },
+    {
       "repo": "architabiswal73-commits/Data-Analytics-ML-app",
       "url": "https://github.com/architabiswal73-commits/Data-Analytics-ML-app",
       "status": "leaked",
@@ -17883,6 +17991,33 @@
       ]
     },
     {
+      "repo": "drory2008/TimeLens",
+      "url": "https://github.com/drory2008/TimeLens",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.15,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "TimeLens-master/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************VPNE"
+        }
+      ]
+    },
+    {
       "repo": "drromeetsaha/cr-reminder-bot",
       "url": "https://github.com/drromeetsaha/cr-reminder-bot",
       "status": "leaked",
@@ -18173,6 +18308,33 @@
         {
           "type": "Google API/GCP Key",
           "file": "expert-garbanzo-main/firebase.ts",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************3VyU"
+        }
+      ]
+    },
+    {
+      "repo": "exrm68/glowing-parakeet",
+      "url": "https://github.com/exrm68/glowing-parakeet",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.45,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "glowing-parakeet-main/firebase.ts",
           "line": 6,
           "source": "file",
           "preview": "AIza************************3VyU"
@@ -22469,6 +22631,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************IHl0"
+        }
+      ]
+    },
+    {
+      "repo": "r02355348-boop/chess-bot",
+      "url": "https://github.com/r02355348-boop/chess-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.83,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "chess-bot-master/.windsurf/workflows/railway-deploy.md",
+          "line": 37,
+          "source": "file",
+          "preview": "8317************************9qPw"
         }
       ]
     },
