@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T22:56:39.402809+00:00",
+  "generatedAt": "2026-03-15T23:21:19.017899+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -1716,6 +1716,61 @@
           "line": 15,
           "source": "file",
           "preview": "eyJh************************n0.b"
+        }
+      ]
+    },
+    {
+      "repo": "rexxars/ha-smartyplants",
+      "url": "https://github.com/rexxars/ha-smartyplants",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 5,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.08,
+      "exposureScore": 68,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 5
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "ha-smartyplants-main/tests/const.py",
+          "line": 6,
+          "source": "file",
+          "preview": "eyJh************************lder"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "ha-smartyplants-main/tests/const.py",
+          "line": 7,
+          "source": "file",
+          "preview": "eyJh************************resh"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "ha-smartyplants-main/tests/const.py",
+          "line": 8,
+          "source": "file",
+          "preview": "eyJh************************ired"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "ha-smartyplants-main/tests/test_api.py",
+          "line": 225,
+          "source": "file",
+          "preview": "eyJh************************.new"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "ha-smartyplants-main/tests/test_api.py",
+          "line": 232,
+          "source": "file",
+          "preview": "eyJh************************fQ.x"
         }
       ]
     },
@@ -9383,6 +9438,33 @@
       ]
     },
     {
+      "repo": "cristianobatista33/sortimento",
+      "url": "https://github.com/cristianobatista33/sortimento",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.35,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit a9c60e1",
+          "line": 539,
+          "source": "commit",
+          "preview": "AIza************************j5mk"
+        }
+      ]
+    },
+    {
       "repo": "dassubrother-max/Fff",
       "url": "https://github.com/dassubrother-max/Fff",
       "status": "leaked",
@@ -9568,6 +9650,33 @@
           "line": 11738,
           "source": "commit",
           "preview": "8134************************qU6o"
+        }
+      ]
+    },
+    {
+      "repo": "droid-svg/droid-manual.github.oi",
+      "url": "https://github.com/droid-svg/droid-manual.github.oi",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 34.32,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit f019a7c",
+          "line": 67967,
+          "source": "commit",
+          "preview": "AIza************************rX-g"
         }
       ]
     },
@@ -9838,6 +9947,33 @@
           "line": 28,
           "source": "commit",
           "preview": "eyJh************************knFM"
+        }
+      ]
+    },
+    {
+      "repo": "fencyzingamer-prog/lefa",
+      "url": "https://github.com/fencyzingamer-prog/lefa",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.8,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit e0f70a9",
+          "line": 8033,
+          "source": "commit",
+          "preview": "http************************8LrY"
         }
       ]
     },
@@ -15481,6 +15617,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************uMgM"
+        }
+      ]
+    },
+    {
+      "repo": "DOFEMIN/Bot_dofemin",
+      "url": "https://github.com/DOFEMIN/Bot_dofemin",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.53,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Bot_dofemin-main/DOFEMIN/dofemin.py",
+          "line": 15,
+          "source": "file",
+          "preview": "8764************************MJoU"
         }
       ]
     },
