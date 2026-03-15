@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T15:46:46.355564+00:00",
+  "generatedAt": "2026-03-15T16:05:46.860552+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -9256,6 +9256,33 @@
       ]
     },
     {
+      "repo": "hamidurjmr/ff-tournament-app",
+      "url": "https://github.com/hamidurjmr/ff-tournament-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.9,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit b6c9ac5",
+          "line": 302,
+          "source": "commit",
+          "preview": "AIza************************Mgbo"
+        }
+      ]
+    },
+    {
       "repo": "hanafiappymurzuki-bit/approvalchiD",
       "url": "https://github.com/hanafiappymurzuki-bit/approvalchiD",
       "status": "leaked",
@@ -9333,6 +9360,33 @@
           "line": 198,
           "source": "commit",
           "preview": "AIza************************OAPs"
+        }
+      ]
+    },
+    {
+      "repo": "heldpython-prog/NexoGPT",
+      "url": "https://github.com/heldpython-prog/NexoGPT",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 14.45,
+      "exposureScore": 30,
+      "topTypes": [
+        "OpenAI API Key (Project)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Project)": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Project)",
+          "file": "Commit 38ea176",
+          "line": 800,
+          "source": "commit",
+          "preview": "sk-p************************F0gD"
         }
       ]
     },
@@ -9846,6 +9900,33 @@
           "line": 33,
           "source": "commit",
           "preview": "sk-o************************e1dc"
+        }
+      ]
+    },
+    {
+      "repo": "katyahauzer/kitchen-os-reset",
+      "url": "https://github.com/katyahauzer/kitchen-os-reset",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 14.18,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit a074de3",
+          "line": 139,
+          "source": "commit",
+          "preview": "eyJh************************9cq0"
         }
       ]
     },
@@ -11223,6 +11304,33 @@
           "line": 1015,
           "source": "commit",
           "preview": "AIza************************QaQk"
+        }
+      ]
+    },
+    {
+      "repo": "pschinnerl/schlusselapp",
+      "url": "https://github.com/pschinnerl/schlusselapp",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.73,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit e6b3fe5",
+          "line": 391,
+          "source": "commit",
+          "preview": "AIza************************Y2N0"
         }
       ]
     },
@@ -15412,6 +15520,33 @@
       ]
     },
     {
+      "repo": "Martinmichelaz/Quiz",
+      "url": "https://github.com/Martinmichelaz/Quiz",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.9,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Quiz-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************nGvY"
+        }
+      ]
+    },
+    {
       "repo": "Mastiboi/stroke-system",
       "url": "https://github.com/Mastiboi/stroke-system",
       "status": "leaked",
@@ -18355,6 +18490,33 @@
       ]
     },
     {
+      "repo": "amankumar8084-web/creator-website",
+      "url": "https://github.com/amankumar8084-web/creator-website",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 53.6,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "creator-website-main/creator-website/backend/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "AIza************************NMcg"
+        }
+      ]
+    },
+    {
       "repo": "ameenmo/reforge",
       "url": "https://github.com/ameenmo/reforge",
       "status": "leaked",
@@ -18837,6 +18999,33 @@
           "line": 27,
           "source": "file",
           "preview": "8206************************KMw8"
+        }
+      ]
+    },
+    {
+      "repo": "azmolwasimhussain-ops/Ai-Generated-Code-Detection",
+      "url": "https://github.com/azmolwasimhussain-ops/Ai-Generated-Code-Detection",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.38,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Ai-Generated-Code-Detection-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************xGis"
         }
       ]
     },
@@ -22162,6 +22351,33 @@
       ]
     },
     {
+      "repo": "kasruth1/discord-bot111",
+      "url": "https://github.com/kasruth1/discord-bot111",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.27,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Bot Token"
+      ],
+      "typeCounts": {
+        "Discord Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Bot Token",
+          "file": "discord-bot111-main/member-counter.js",
+          "line": 3,
+          "source": "file",
+          "preview": "MTQ4************************6zkQ"
+        }
+      ]
+    },
+    {
       "repo": "katsu-finds/yas-nails-scheduler",
       "url": "https://github.com/katsu-finds/yas-nails-scheduler",
       "status": "leaked",
@@ -22401,6 +22617,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************GhTQ"
+        }
+      ]
+    },
+    {
+      "repo": "kishoremk05/bioform-builder",
+      "url": "https://github.com/kishoremk05/bioform-builder",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.33,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "bioform-builder-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************xhyk"
         }
       ]
     },
