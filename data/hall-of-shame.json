@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T09:49:49.773118+00:00",
+  "generatedAt": "2026-03-15T10:07:17.009650+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -5679,6 +5679,33 @@
       ]
     },
     {
+      "repo": "Buja2244/IA_Prompts_Final",
+      "url": "https://github.com/Buja2244/IA_Prompts_Final",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 8.38,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 4a0ba3c",
+          "line": 138,
+          "source": "commit",
+          "preview": "AIza************************AiJA"
+        }
+      ]
+    },
+    {
       "repo": "C00000L0/Mini-App",
       "url": "https://github.com/C00000L0/Mini-App",
       "status": "leaked",
@@ -6323,6 +6350,33 @@
           "line": 1406,
           "source": "commit",
           "preview": "eyJh************************RWHs"
+        }
+      ]
+    },
+    {
+      "repo": "MaxtrrSuper/MonkeyGraph12",
+      "url": "https://github.com/MaxtrrSuper/MonkeyGraph12",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.71,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 83e4ebc",
+          "line": 868,
+          "source": "commit",
+          "preview": "AIza************************3Csg"
         }
       ]
     },
@@ -7835,6 +7889,33 @@
           "line": 14875,
           "source": "commit",
           "preview": "AIza************************ntt8"
+        }
+      ]
+    },
+    {
+      "repo": "cargift/Tor",
+      "url": "https://github.com/cargift/Tor",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 6.69,
+      "exposureScore": 30,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "Commit d05435d",
+          "line": 2999,
+          "source": "commit",
+          "preview": "ghp_************************pe3Y"
         }
       ]
     },
@@ -10373,6 +10454,33 @@
           "line": 374,
           "source": "commit",
           "preview": "AIza************************z1JI"
+        }
+      ]
+    },
+    {
+      "repo": "pprojectcentreee/homeauto",
+      "url": "https://github.com/pprojectcentreee/homeauto",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.22,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 85054de",
+          "line": 1015,
+          "source": "commit",
+          "preview": "AIza************************QaQk"
         }
       ]
     },
@@ -15507,6 +15615,33 @@
       ]
     },
     {
+      "repo": "Shrey-211/opencode_configs",
+      "url": "https://github.com/Shrey-211/opencode_configs",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.92,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "opencode_configs-main/AGENTS.md",
+          "line": 44,
+          "source": "file",
+          "preview": "8783************************aEdc"
+        }
+      ]
+    },
+    {
       "repo": "SidharthBScCS/Student-Management-System-UI",
       "url": "https://github.com/SidharthBScCS/Student-Management-System-UI",
       "status": "leaked",
@@ -17640,6 +17775,33 @@
       ]
     },
     {
+      "repo": "deanofisb/easysale",
+      "url": "https://github.com/deanofisb/easysale",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.86,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "easysale-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************vwVo"
+        }
+      ]
+    },
+    {
       "repo": "desarrolloti-hub/Lucky-appliances",
       "url": "https://github.com/desarrolloti-hub/Lucky-appliances",
       "status": "leaked",
@@ -17663,6 +17825,33 @@
           "line": 10,
           "source": "file",
           "preview": "AIza************************XSq0"
+        }
+      ]
+    },
+    {
+      "repo": "deviswetha/adaptive_botnet_attack-detection-project",
+      "url": "https://github.com/deviswetha/adaptive_botnet_attack-detection-project",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.37,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "adaptive_botnet_attack-detection-project-main/app.py",
+          "line": 16,
+          "source": "file",
+          "preview": "7872************************Pia8"
         }
       ]
     },
@@ -20309,6 +20498,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************5aik"
+        }
+      ]
+    },
+    {
+      "repo": "krishna-build/coachkit",
+      "url": "https://github.com/krishna-build/coachkit",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 50.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "coachkit-main/scripts/utm-tracking.js",
+          "line": 6,
+          "source": "file",
+          "preview": "eyJh************************JVAQ"
         }
       ]
     },
