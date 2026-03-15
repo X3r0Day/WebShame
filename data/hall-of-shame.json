@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T07:18:06.003388+00:00",
+  "generatedAt": "2026-03-15T07:59:00.215983+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -9442,6 +9442,33 @@
       ]
     },
     {
+      "repo": "muzaddidusama-hue/lams-database",
+      "url": "https://github.com/muzaddidusama-hue/lams-database",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 6.35,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 03a8941",
+          "line": 355,
+          "source": "commit",
+          "preview": "eyJh************************qEms"
+        }
+      ]
+    },
+    {
       "repo": "mycardsrewards/mycardsrewards",
       "url": "https://github.com/mycardsrewards/mycardsrewards",
       "status": "leaked",
@@ -10977,6 +11004,33 @@
           "line": 9504,
           "source": "commit",
           "preview": "AIza************************qLrQ"
+        }
+      ]
+    },
+    {
+      "repo": "tomy1976/libreta",
+      "url": "https://github.com/tomy1976/libreta",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.19,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 3410bbe",
+          "line": 298,
+          "source": "commit",
+          "preview": "AIza************************96OU"
         }
       ]
     },
@@ -19216,6 +19270,33 @@
       ]
     },
     {
+      "repo": "karanak1513-debug/ffesport",
+      "url": "https://github.com/karanak1513-debug/ffesport",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.55,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ffesport-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************ZQJg"
+        }
+      ]
+    },
+    {
       "repo": "kartikeysingh402-glitch/project2",
       "url": "https://github.com/kartikeysingh402-glitch/project2",
       "status": "leaked",
@@ -19617,6 +19698,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************5aik"
+        }
+      ]
+    },
+    {
+      "repo": "kunchalaphanendra/DATA-SCIENCE-DEPARTMENT",
+      "url": "https://github.com/kunchalaphanendra/DATA-SCIENCE-DEPARTMENT",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 45.41,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "DATA-SCIENCE-DEPARTMENT-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************bPMk"
         }
       ]
     },
