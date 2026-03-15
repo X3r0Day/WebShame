@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T07:59:00.215983+00:00",
+  "generatedAt": "2026-03-15T08:31:50.124385+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -63,6 +63,68 @@
           "line": 134,
           "source": "commit",
           "preview": "AIza************************D090"
+        }
+      ]
+    },
+    {
+      "repo": "SimexCrash1-web/Token",
+      "url": "https://github.com/SimexCrash1-web/Token",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 69,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.3,
+      "exposureScore": 836,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 69
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Token-main/Token.json",
+          "line": 3,
+          "source": "file",
+          "preview": "8497************************WJJY"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Token-main/Token.json",
+          "line": 4,
+          "source": "file",
+          "preview": "8292************************_8DU"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Token-main/Token.json",
+          "line": 5,
+          "source": "file",
+          "preview": "8068************************SczE"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Token-main/Token.json",
+          "line": 6,
+          "source": "file",
+          "preview": "8185************************ulKA"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Token-main/Token.json",
+          "line": 7,
+          "source": "file",
+          "preview": "8217************************xggY"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Token-main/Token.json",
+          "line": 8,
+          "source": "file",
+          "preview": "8352************************tg-U"
         }
       ]
     },
@@ -2989,6 +3051,42 @@
           "line": 30,
           "source": "commit",
           "preview": "8679************************paRw"
+        }
+      ]
+    },
+    {
+      "repo": "vjsjgkjsg/Rjjffjjr",
+      "url": "https://github.com/vjsjgkjsg/Rjjffjjr",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 31.11,
+      "exposureScore": 50,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT",
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1,
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Rjjffjjr-main/games.js",
+          "line": 158,
+          "source": "file",
+          "preview": "eyJh************************lgfc"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 032b94d",
+          "line": 550,
+          "source": "commit",
+          "preview": "8222************************c1Lk"
         }
       ]
     },
@@ -8686,6 +8784,33 @@
       ]
     },
     {
+      "repo": "jlichbot/JlichBotOG",
+      "url": "https://github.com/jlichbot/JlichBotOG",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.45,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 7cdf8f3",
+          "line": 223,
+          "source": "commit",
+          "preview": "8425************************eqxc"
+        }
+      ]
+    },
+    {
       "repo": "johnalynn/storydroplicence2",
       "url": "https://github.com/johnalynn/storydroplicence2",
       "status": "leaked",
@@ -9438,6 +9563,33 @@
           "line": 49,
           "source": "commit",
           "preview": "AIza************************zoMA"
+        }
+      ]
+    },
+    {
+      "repo": "muster101/Facebook-veido-",
+      "url": "https://github.com/muster101/Facebook-veido-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 0.67,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 2337255",
+          "line": 132,
+          "source": "commit",
+          "preview": "8642************************smY0"
         }
       ]
     },
@@ -10950,6 +11102,33 @@
           "line": 76,
           "source": "commit",
           "preview": "AIza************************TaNI"
+        }
+      ]
+    },
+    {
+      "repo": "teoxboe-lab/crime-zonee",
+      "url": "https://github.com/teoxboe-lab/crime-zonee",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.0,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit ab1933b",
+          "line": 405,
+          "source": "commit",
+          "preview": "AIza************************9Vv0"
         }
       ]
     },
@@ -13060,6 +13239,33 @@
       ]
     },
     {
+      "repo": "Ishika-Bhagwani/ai-code-reviewer",
+      "url": "https://github.com/Ishika-Bhagwani/ai-code-reviewer",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.39,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ai-code-reviewer-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************otnM"
+        }
+      ]
+    },
+    {
       "repo": "IsraelAbra1/Two-Players-In-Firebase-No-Room",
       "url": "https://github.com/IsraelAbra1/Two-Players-In-Firebase-No-Room",
       "status": "leaked",
@@ -13839,6 +14045,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************SdBM"
+        }
+      ]
+    },
+    {
+      "repo": "Momoeka/Agent-Lens",
+      "url": "https://github.com/Momoeka/Agent-Lens",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.33,
+      "exposureScore": 20,
+      "topTypes": [
+        "Stripe Secret Key"
+      ],
+      "typeCounts": {
+        "Stripe Secret Key": 1
+      },
+      "findings": [
+        {
+          "type": "Stripe Secret Key",
+          "file": "Agent-Lens-main/.claude/settings.local.json",
+          "line": 19,
+          "source": "file",
+          "preview": "sk_t************************ftpF"
         }
       ]
     },
@@ -15108,6 +15341,33 @@
           "line": 52,
           "source": "file",
           "preview": "8660************************Z76E"
+        }
+      ]
+    },
+    {
+      "repo": "SiriGuttula/ai-resume-analyzer",
+      "url": "https://github.com/SiriGuttula/ai-resume-analyzer",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.77,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "ai-resume-analyzer-main/AIResumeScanner/AIResumeScanner/Services/ResumeAIService.cs",
+          "line": 58,
+          "source": "file",
+          "preview": "sk-o************************8898"
         }
       ]
     },
@@ -16728,6 +16988,33 @@
           "line": 7,
           "source": "file",
           "preview": "eyJh************************7oz4"
+        }
+      ]
+    },
+    {
+      "repo": "bingaditya/Job-Scraper-Agent",
+      "url": "https://github.com/bingaditya/Job-Scraper-Agent",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Job-Scraper-Agent-main/config/profile.json",
+          "line": 84,
+          "source": "file",
+          "preview": "8535************************M9zo"
         }
       ]
     },
@@ -20350,6 +20637,33 @@
       ]
     },
     {
+      "repo": "matsumoto0819/Parameter-Sensitivity",
+      "url": "https://github.com/matsumoto0819/Parameter-Sensitivity",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 20.18,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Parameter-Sensitivity-main/Lasso/lasso.py",
+          "line": 13,
+          "source": "file",
+          "preview": "http************************vTew"
+        }
+      ]
+    },
+    {
       "repo": "maximdear49-byte/crypto-ai-bot",
       "url": "https://github.com/maximdear49-byte/crypto-ai-bot",
       "status": "leaked",
@@ -22479,6 +22793,33 @@
           "line": 19,
           "source": "file",
           "preview": "http************************BLw8"
+        }
+      ]
+    },
+    {
+      "repo": "seth1026/Terminus-IDE",
+      "url": "https://github.com/seth1026/Terminus-IDE",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 20.02,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Terminus-IDE-main/Backend_IDE/dockerBackend/tesing/util/smartAgent.js",
+          "line": 9,
+          "source": "file",
+          "preview": "AIza************************lB48"
         }
       ]
     },
