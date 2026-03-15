@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T11:07:22.643569+00:00",
+  "generatedAt": "2026-03-15T11:41:48.426735+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -5524,6 +5524,33 @@
       ]
     },
     {
+      "repo": "Alex-ali0/Tg_bot-Gen_projects",
+      "url": "https://github.com/Alex-ali0/Tg_bot-Gen_projects",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.55,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit b1d1f5f",
+          "line": 18,
+          "source": "commit",
+          "preview": "7649************************u1Kw"
+        }
+      ]
+    },
+    {
       "repo": "Amandine0127/sonate",
       "url": "https://github.com/Amandine0127/sonate",
       "status": "leaked",
@@ -6928,6 +6955,33 @@
       ]
     },
     {
+      "repo": "SahilShourya/Find-IT",
+      "url": "https://github.com/SahilShourya/Find-IT",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.61,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit dabfbac",
+          "line": 1155,
+          "source": "commit",
+          "preview": "AIza************************yQfM"
+        }
+      ]
+    },
+    {
       "repo": "Sarahfk/ha-dashboard",
       "url": "https://github.com/Sarahfk/ha-dashboard",
       "status": "leaked",
@@ -7032,6 +7086,33 @@
           "line": 314,
           "source": "commit",
           "preview": "eyJh************************m-x8"
+        }
+      ]
+    },
+    {
+      "repo": "Susandhungana1/Resume_CV_Builder",
+      "url": "https://github.com/Susandhungana1/Resume_CV_Builder",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 10.77,
+      "exposureScore": 30,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "Commit bc5dcda",
+          "line": 29,
+          "source": "commit",
+          "preview": "sk-o************************bfa4"
         }
       ]
     },
@@ -8706,6 +8787,33 @@
           "line": 198,
           "source": "commit",
           "preview": "AIza************************OAPs"
+        }
+      ]
+    },
+    {
+      "repo": "hello564-bot/Kayden-Store",
+      "url": "https://github.com/hello564-bot/Kayden-Store",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.6,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 782b375",
+          "line": 153,
+          "source": "commit",
+          "preview": "AIza************************6GoE"
         }
       ]
     },
@@ -11086,6 +11194,33 @@
       ]
     },
     {
+      "repo": "segurity-google/download",
+      "url": "https://github.com/segurity-google/download",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 13.45,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 9716aed",
+          "line": 51286,
+          "source": "commit",
+          "preview": "http************************SC6x"
+        }
+      ]
+    },
+    {
       "repo": "sg3728/adaw",
       "url": "https://github.com/sg3728/adaw",
       "status": "leaked",
@@ -13381,6 +13516,33 @@
       ]
     },
     {
+      "repo": "Gilangnocounter/customer142",
+      "url": "https://github.com/Gilangnocounter/customer142",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 20.97,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "customer142-main/jscp/auth.obf.js",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************vTH8"
+        }
+      ]
+    },
+    {
       "repo": "GoluKumar-1/Sadiwallah",
       "url": "https://github.com/GoluKumar-1/Sadiwallah",
       "status": "leaked",
@@ -15321,6 +15483,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************tjog"
+        }
+      ]
+    },
+    {
+      "repo": "RotorStorm/tg-bot",
+      "url": "https://github.com/RotorStorm/tg-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.28,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "tg-bot-main/config.py",
+          "line": 5,
+          "source": "file",
+          "preview": "8772************************7Kos"
         }
       ]
     },
@@ -20968,6 +21157,33 @@
       ]
     },
     {
+      "repo": "libardoj617-creator/gimnasio-gym-android",
+      "url": "https://github.com/libardoj617-creator/gimnasio-gym-android",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.85,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "gimnasio-gym-android-master/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************R5l8"
+        }
+      ]
+    },
+    {
       "repo": "lighteudemons-sys/EMPEROR-OFFLINE-PINCODES",
       "url": "https://github.com/lighteudemons-sys/EMPEROR-OFFLINE-PINCODES",
       "status": "leaked",
@@ -23209,6 +23425,33 @@
       ]
     },
     {
+      "repo": "remqwq1125/remqwq1125--remqwq1125--",
+      "url": "https://github.com/remqwq1125/remqwq1125--remqwq1125--",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.18,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "remqwq1125--remqwq1125---main/api_gemini.php",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************nMeE"
+        }
+      ]
+    },
+    {
       "repo": "restaurantecardapio/cardapiodigital",
       "url": "https://github.com/restaurantecardapio/cardapiodigital",
       "status": "leaked",
@@ -23664,6 +23907,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************FxWw"
+        }
+      ]
+    },
+    {
+      "repo": "sbaday/Trend",
+      "url": "https://github.com/sbaday/Trend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.11,
+      "exposureScore": 20,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 1
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "Trend-main/collectors/hackernews.py",
+          "line": 19,
+          "source": "file",
+          "preview": "http************************json"
         }
       ]
     },
