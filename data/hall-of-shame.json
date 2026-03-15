@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T17:46:03.143965+00:00",
+  "generatedAt": "2026-03-15T18:05:52.655457+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -5821,6 +5821,33 @@
       ]
     },
     {
+      "repo": "AZOZTM/My-Gallery",
+      "url": "https://github.com/AZOZTM/My-Gallery",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.55,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit c863d53",
+          "line": 50,
+          "source": "commit",
+          "preview": "8699************************pV18"
+        }
+      ]
+    },
+    {
       "repo": "Agiddior/Sanayiibeta.0.0.1",
       "url": "https://github.com/Agiddior/Sanayiibeta.0.0.1",
       "status": "leaked",
@@ -6141,6 +6168,33 @@
           "line": 138,
           "source": "commit",
           "preview": "AIza************************AiJA"
+        }
+      ]
+    },
+    {
+      "repo": "Bwcc-89/travel-app",
+      "url": "https://github.com/Bwcc-89/travel-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.96,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 8958be9",
+          "line": 717,
+          "source": "commit",
+          "preview": "AIza************************N-qw"
         }
       ]
     },
@@ -6870,6 +6924,33 @@
           "line": 1406,
           "source": "commit",
           "preview": "eyJh************************RWHs"
+        }
+      ]
+    },
+    {
+      "repo": "Marc26859/test-forms",
+      "url": "https://github.com/Marc26859/test-forms",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.31,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 8e8a2df",
+          "line": 920,
+          "source": "commit",
+          "preview": "eyJh************************QXbU"
         }
       ]
     },
@@ -9682,6 +9763,33 @@
       ]
     },
     {
+      "repo": "hlacerdas/estudos_otimizacao",
+      "url": "https://github.com/hlacerdas/estudos_otimizacao",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.33,
+      "exposureScore": 30,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "Commit cc2d727",
+          "line": 2,
+          "source": "commit",
+          "preview": "ghp_************************lwt8"
+        }
+      ]
+    },
+    {
       "repo": "hunolatam-dev/colegio",
       "url": "https://github.com/hunolatam-dev/colegio",
       "status": "leaked",
@@ -11028,6 +11136,33 @@
           "line": 33,
           "source": "commit",
           "preview": "AIza************************XYhs"
+        }
+      ]
+    },
+    {
+      "repo": "neepasinghproduction-ops/papersolve",
+      "url": "https://github.com/neepasinghproduction-ops/papersolve",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.99,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 1a4e474",
+          "line": 19,
+          "source": "commit",
+          "preview": "AIza************************yUBc"
         }
       ]
     },
@@ -14218,6 +14353,33 @@
       ]
     },
     {
+      "repo": "Cespial/demo-diamante",
+      "url": "https://github.com/Cespial/demo-diamante",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.93,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "demo-diamante-main/src/components/map/DiamanteMap.tsx",
+          "line": 12,
+          "source": "file",
+          "preview": "AIza************************Qy10"
+        }
+      ]
+    },
+    {
       "repo": "Chanthan25/legendfilm",
       "url": "https://github.com/Chanthan25/legendfilm",
       "status": "leaked",
@@ -14592,6 +14754,33 @@
           "line": 2,
           "source": "file",
           "preview": "AIza************************ZK4Y"
+        }
+      ]
+    },
+    {
+      "repo": "DoctaTrades/tradepulse-platform",
+      "url": "https://github.com/DoctaTrades/tradepulse-platform",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.07,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "tradepulse-platform-main/src/App.jsx",
+          "line": 9,
+          "source": "file",
+          "preview": "eyJh************************Zz_A"
         }
       ]
     },
@@ -17107,6 +17296,33 @@
       ]
     },
     {
+      "repo": "Roc-Jia7/nanoclaw-platform",
+      "url": "https://github.com/Roc-Jia7/nanoclaw-platform",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.24,
+      "exposureScore": 20,
+      "topTypes": [
+        "AWS Access Key ID"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "nanoclaw-platform-main/docs/CUSTOM_CONFIG_README.md",
+          "line": 104,
+          "source": "file",
+          "preview": "AKIA************MPLE"
+        }
+      ]
+    },
+    {
       "repo": "Rohithjadu08/birthdayremainder",
       "url": "https://github.com/Rohithjadu08/birthdayremainder",
       "status": "leaked",
@@ -18079,6 +18295,33 @@
       ]
     },
     {
+      "repo": "UBX-CODE/adgenius-ai",
+      "url": "https://github.com/UBX-CODE/adgenius-ai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.98,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "adgenius-ai-master/adgenius-ai/src/App.tsx",
+          "line": 40,
+          "source": "file",
+          "preview": "AIza************************4qIk"
+        }
+      ]
+    },
+    {
       "repo": "VakadaRupa/Career-Counseling-Platform-backend-3",
       "url": "https://github.com/VakadaRupa/Career-Counseling-Platform-backend-3",
       "status": "leaked",
@@ -18777,6 +19020,33 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************LVBw"
+        }
+      ]
+    },
+    {
+      "repo": "ajbekbakytuly-commits/barbershop_bot",
+      "url": "https://github.com/ajbekbakytuly-commits/barbershop_bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.78,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "barbershop_bot-main/barbershop_bot/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "8682************************XkBE"
         }
       ]
     },
@@ -20559,6 +20829,33 @@
           "line": 19,
           "source": "file",
           "preview": "8545************************QbrE"
+        }
+      ]
+    },
+    {
+      "repo": "ecsatsy0xxx0/manicure_bot",
+      "url": "https://github.com/ecsatsy0xxx0/manicure_bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.23,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "manicure_bot-main/config.py",
+          "line": 26,
+          "source": "file",
+          "preview": "8744************************nu7E"
         }
       ]
     },
@@ -23718,6 +24015,33 @@
           "line": 220,
           "source": "file",
           "preview": "8183************************9qlc"
+        }
+      ]
+    },
+    {
+      "repo": "lucasmakan52-code/Cecil",
+      "url": "https://github.com/lucasmakan52-code/Cecil",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.66,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Cecil-main/token.json",
+          "line": 3,
+          "source": "file",
+          "preview": "8781************************ehiE"
         }
       ]
     },
@@ -27282,6 +27606,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************9seA"
+        }
+      ]
+    },
+    {
+      "repo": "tvrubira-cloud/gest-o-de-terreiro",
+      "url": "https://github.com/tvrubira-cloud/gest-o-de-terreiro",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.62,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "gest-o-de-terreiro-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************Haik"
         }
       ]
     },
