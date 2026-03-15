@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T21:05:08.057955+00:00",
+  "generatedAt": "2026-03-15T21:41:14.279720+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -249,6 +249,68 @@
           "line": 2510,
           "source": "file",
           "preview": "eyJh************************yPw0"
+        }
+      ]
+    },
+    {
+      "repo": "alberto-grl/veryhighssb",
+      "url": "https://github.com/alberto-grl/veryhighssb",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 11,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 11,
+      "scanTimeSeconds": 37.16,
+      "exposureScore": 250,
+      "topTypes": [
+        "Discord Bot Token"
+      ],
+      "typeCounts": {
+        "Discord Bot Token": 11
+      },
+      "findings": [
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 393b98e",
+          "line": 136398,
+          "source": "commit",
+          "preview": "Moun************************6960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 393b98e",
+          "line": 136405,
+          "source": "commit",
+          "preview": "Moun************************1960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 393b98e",
+          "line": 136412,
+          "source": "commit",
+          "preview": "Moun************************6960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 393b98e",
+          "line": 136419,
+          "source": "commit",
+          "preview": "Moun************************1960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 393b98e",
+          "line": 136426,
+          "source": "commit",
+          "preview": "Moun************************6960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 393b98e",
+          "line": 136433,
+          "source": "commit",
+          "preview": "Moun************************1960"
         }
       ]
     },
@@ -18831,6 +18893,33 @@
       ]
     },
     {
+      "repo": "SumanCH8514/SumanMusic",
+      "url": "https://github.com/SumanCH8514/SumanMusic",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 25.93,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "SumanMusic-main/src/lib/firebase.js",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************R5Tc"
+        }
+      ]
+    },
+    {
       "repo": "TSM-ArpitSG/Katyayani-Organics",
       "url": "https://github.com/TSM-ArpitSG/Katyayani-Organics",
       "status": "leaked",
@@ -20640,6 +20729,33 @@
       ]
     },
     {
+      "repo": "b2t2fxgknt-ui/Swiple",
+      "url": "https://github.com/b2t2fxgknt-ui/Swiple",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.0,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Swiple-main/src/lib/supabase.js",
+          "line": 7,
+          "source": "file",
+          "preview": "eyJh************************XYVY"
+        }
+      ]
+    },
+    {
       "repo": "backstract-apps/merry-rajat-8b0f76eed7",
       "url": "https://github.com/backstract-apps/merry-rajat-8b0f76eed7",
       "status": "leaked",
@@ -21311,6 +21427,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************VSsk"
+        }
+      ]
+    },
+    {
+      "repo": "daniellinharis123-ship-it/Kitsunemangas",
+      "url": "https://github.com/daniellinharis123-ship-it/Kitsunemangas",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.95,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Kitsunemangas-main/firebase.js",
+          "line": 2,
+          "source": "file",
+          "preview": "AIza************************kYuc"
         }
       ]
     },
