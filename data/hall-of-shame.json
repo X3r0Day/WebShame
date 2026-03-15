@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T21:41:14.279720+00:00",
+  "generatedAt": "2026-03-15T21:59:35.907240+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -15113,6 +15113,33 @@
       ]
     },
     {
+      "repo": "Chemacv10/AppPadelV1-4",
+      "url": "https://github.com/Chemacv10/AppPadelV1-4",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 43.59,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "AppPadelV1-4-main/js/config.js",
+          "line": 6,
+          "source": "file",
+          "preview": "eyJh************************78Rw"
+        }
+      ]
+    },
+    {
       "repo": "ChristianDemetrio/granja-control",
       "url": "https://github.com/ChristianDemetrio/granja-control",
       "status": "leaked",
@@ -21350,6 +21377,33 @@
       ]
     },
     {
+      "repo": "corporationgoorac/Quan-Ai",
+      "url": "https://github.com/corporationgoorac/Quan-Ai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.35,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Quan-Ai-main/config.js",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************6Hq0"
+        }
+      ]
+    },
+    {
       "repo": "cvillamarp-lgtm/claudecode",
       "url": "https://github.com/cvillamarp-lgtm/claudecode",
       "status": "leaked",
@@ -23209,6 +23263,33 @@
           "line": 4,
           "source": "file",
           "preview": "eyJh************************l-zQ"
+        }
+      ]
+    },
+    {
+      "repo": "ilhukjung-cloud/ai-daily-clipping",
+      "url": "https://github.com/ilhukjung-cloud/ai-daily-clipping",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.62,
+      "exposureScore": 20,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 1
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "ai-daily-clipping-main/src/crawlers/hackernews.py",
+          "line": 15,
+          "source": "file",
+          "preview": "http************************json"
         }
       ]
     },
@@ -29261,6 +29342,33 @@
       ]
     },
     {
+      "repo": "waelhe/my-app-new",
+      "url": "https://github.com/waelhe/my-app-new",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.03,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "my-app-new-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************gT5c"
+        }
+      ]
+    },
+    {
       "repo": "wagnistrip/testingProject",
       "url": "https://github.com/wagnistrip/testingProject",
       "status": "leaked",
@@ -29527,6 +29635,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************Fs4s"
+        }
+      ]
+    },
+    {
+      "repo": "yousef99999101/tty",
+      "url": "https://github.com/yousef99999101/tty",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.71,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "tty-main/.env",
+          "line": 24,
+          "source": "file",
+          "preview": "AIza************************ZsRU"
         }
       ]
     },
