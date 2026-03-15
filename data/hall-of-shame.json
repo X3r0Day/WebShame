@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T21:59:35.907240+00:00",
+  "generatedAt": "2026-03-15T22:30:13.360134+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -3415,6 +3415,47 @@
       ]
     },
     {
+      "repo": "amnehaldakak/my-medicine",
+      "url": "https://github.com/amnehaldakak/my-medicine",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.36,
+      "exposureScore": 44,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 3
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "my-medicine-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************U3hE"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "my-medicine-main/lib/firebase_options.dart",
+          "line": 50,
+          "source": "file",
+          "preview": "AIza************************3T58"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "my-medicine-main/lib/firebase_options.dart",
+          "line": 68,
+          "source": "file",
+          "preview": "AIza************************5KnY"
+        }
+      ]
+    },
+    {
       "repo": "bradboucher/mcgrawhill",
       "url": "https://github.com/bradboucher/mcgrawhill",
       "status": "leaked",
@@ -6658,6 +6699,33 @@
           "line": 3005,
           "source": "commit",
           "preview": "AIza************************RW8g"
+        }
+      ]
+    },
+    {
+      "repo": "Dolcera1992/Dolcera",
+      "url": "https://github.com/Dolcera1992/Dolcera",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.72,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 6887f98",
+          "line": 664,
+          "source": "commit",
+          "preview": "eyJh************************egO4"
         }
       ]
     },
@@ -10276,6 +10344,33 @@
           "line": 28,
           "source": "commit",
           "preview": "eyJh************************TEy8"
+        }
+      ]
+    },
+    {
+      "repo": "ikeez-dev/Telesap",
+      "url": "https://github.com/ikeez-dev/Telesap",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.97,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit d4ba8d2",
+          "line": 1372,
+          "source": "commit",
+          "preview": "AIza************************5gMQ"
         }
       ]
     },
@@ -19568,6 +19663,33 @@
       ]
     },
     {
+      "repo": "ZMZMjpg/Editopia",
+      "url": "https://github.com/ZMZMjpg/Editopia",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.02,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Editopia-main/script.js",
+          "line": 5,
+          "source": "file",
+          "preview": "AIza************************GALw"
+        }
+      ]
+    },
+    {
       "repo": "ZenTxZen/SpaceBot",
       "url": "https://github.com/ZenTxZen/SpaceBot",
       "status": "leaked",
@@ -19753,6 +19875,33 @@
           "line": 119,
           "source": "file",
           "preview": "AIza************************2Ucc"
+        }
+      ]
+    },
+    {
+      "repo": "abeljose09-beep/chaza-sisma",
+      "url": "https://github.com/abeljose09-beep/chaza-sisma",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.26,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "chaza-sisma-main/src/firebase/config.ts",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************yqzk"
         }
       ]
     },
@@ -22619,6 +22768,33 @@
       ]
     },
     {
+      "repo": "giovaneogr7-hub/an-lise-de-cr-dito-drag-o-wwbq1oo83",
+      "url": "https://github.com/giovaneogr7-hub/an-lise-de-cr-dito-drag-o-wwbq1oo83",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 78.15,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "an-lise-de-cr-dito-drag-o-wwbq1oo83-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************lg-o"
+        }
+      ]
+    },
+    {
       "repo": "gizemaksoy257/webb",
       "url": "https://github.com/gizemaksoy257/webb",
       "status": "leaked",
@@ -25045,6 +25221,33 @@
           "line": 18,
           "source": "file",
           "preview": "AIza************************R5l8"
+        }
+      ]
+    },
+    {
+      "repo": "libbylobster93-design/voice-chat",
+      "url": "https://github.com/libbylobster93-design/voice-chat",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.19,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "voice-chat-main/main.py",
+          "line": 14,
+          "source": "file",
+          "preview": "AIza************************62M4"
         }
       ]
     },
