@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T11:41:48.426735+00:00",
+  "generatedAt": "2026-03-15T11:58:28.840804+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -3173,6 +3173,47 @@
       ]
     },
     {
+      "repo": "mohanad-2003/E-commerce-App",
+      "url": "https://github.com/mohanad-2003/E-commerce-App",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 20.94,
+      "exposureScore": 44,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 3
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "E-commerce-App-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************E4hE"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "E-commerce-App-main/lib/firebase_options.dart",
+          "line": 44,
+          "source": "file",
+          "preview": "AIza************************X51Q"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "E-commerce-App-main/lib/firebase_options.dart",
+          "line": 61,
+          "source": "file",
+          "preview": "AIza************************DKuU"
+        }
+      ]
+    },
+    {
       "repo": "sweetxhasan/Termux-tool",
       "url": "https://github.com/sweetxhasan/Termux-tool",
       "status": "leaked",
@@ -3527,6 +3568,42 @@
           "line": 68,
           "source": "file",
           "preview": "8733************************SE3w"
+        }
+      ]
+    },
+    {
+      "repo": "Cherzing/TrendRadar",
+      "url": "https://github.com/Cherzing/TrendRadar",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 24.16,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Slack Webhook"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Slack Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "TrendRadar-master/README-EN.md",
+          "line": 1355,
+          "source": "file",
+          "preview": "1234************************m9T0"
+        },
+        {
+          "type": "Slack Webhook",
+          "file": "TrendRadar-master/README-EN.md",
+          "line": 1710,
+          "source": "file",
+          "preview": "http************************XXXX"
         }
       ]
     },
@@ -5551,6 +5628,33 @@
       ]
     },
     {
+      "repo": "AliIsmoilov/real_holat_front",
+      "url": "https://github.com/AliIsmoilov/real_holat_front",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 33.2,
+      "exposureScore": 30,
+      "topTypes": [
+        "Mapbox API Key"
+      ],
+      "typeCounts": {
+        "Mapbox API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Mapbox API Key",
+          "file": "Commit 9b8adeb",
+          "line": 178,
+          "source": "commit",
+          "preview": "pk.e************************p2cw"
+        }
+      ]
+    },
+    {
       "repo": "Amandine0127/sonate",
       "url": "https://github.com/Amandine0127/sonate",
       "status": "leaked",
@@ -6006,6 +6110,33 @@
           "line": 332,
           "source": "commit",
           "preview": "eyJh************************6I3A"
+        }
+      ]
+    },
+    {
+      "repo": "EttyFreund/DecisionMakingBot",
+      "url": "https://github.com/EttyFreund/DecisionMakingBot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.92,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 4407436",
+          "line": 398,
+          "source": "commit",
+          "preview": "AIza************************QZvY"
         }
       ]
     },
@@ -13057,6 +13188,33 @@
       ]
     },
     {
+      "repo": "Cradel-co/clawmint",
+      "url": "https://github.com/Cradel-co/clawmint",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.41,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "clawmint-main/server/bots.json",
+          "line": 4,
+          "source": "file",
+          "preview": "8285************************Hcgs"
+        }
+      ]
+    },
+    {
       "repo": "Croziris/Acti-minute-pb",
       "url": "https://github.com/Croziris/Acti-minute-pb",
       "status": "leaked",
@@ -14538,6 +14696,33 @@
           "line": 1,
           "source": "file",
           "preview": "AIza************************xfkw"
+        }
+      ]
+    },
+    {
+      "repo": "Maxzeno/revelo_transcript_pr",
+      "url": "https://github.com/Maxzeno/revelo_transcript_pr",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.88,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "revelo_transcript_pr-main/review_a.md",
+          "line": 491,
+          "source": "file",
+          "preview": "AIza************************B3eI"
         }
       ]
     },
@@ -17296,6 +17481,33 @@
       ]
     },
     {
+      "repo": "anames2323/anonik",
+      "url": "https://github.com/anames2323/anonik",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.84,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "anonik-main/main.py",
+          "line": 25,
+          "source": "file",
+          "preview": "8709************************Rbm0"
+        }
+      ]
+    },
+    {
       "repo": "ananasik1105/CHOCH_Scanner",
       "url": "https://github.com/ananasik1105/CHOCH_Scanner",
       "status": "leaked",
@@ -18129,6 +18341,33 @@
           "line": 11,
           "source": "file",
           "preview": "8706************************GFwc"
+        }
+      ]
+    },
+    {
+      "repo": "dadoobato1-dev/tz",
+      "url": "https://github.com/dadoobato1-dev/tz",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.94,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "tz-main/grabbers/token_grabber.py",
+          "line": 14,
+          "source": "file",
+          "preview": "http************************iIOs"
         }
       ]
     },
