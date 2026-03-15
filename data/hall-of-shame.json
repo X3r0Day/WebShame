@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T08:31:50.124385+00:00",
+  "generatedAt": "2026-03-15T09:07:15.290688+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -6759,6 +6759,33 @@
       ]
     },
     {
+      "repo": "SSab51/Trade-Freezer",
+      "url": "https://github.com/SSab51/Trade-Freezer",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.9,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 58f061d",
+          "line": 21,
+          "source": "commit",
+          "preview": "http************************rMn1"
+        }
+      ]
+    },
+    {
       "repo": "Sabari1026/HAND-METRICS-AI",
       "url": "https://github.com/Sabari1026/HAND-METRICS-AI",
       "status": "leaked",
@@ -6863,6 +6890,33 @@
           "line": 10148,
           "source": "commit",
           "preview": "AIza************************6O9E"
+        }
+      ]
+    },
+    {
+      "repo": "Sirkil/haleon_testing",
+      "url": "https://github.com/Sirkil/haleon_testing",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 25.34,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 747a28b",
+          "line": 154653,
+          "source": "commit",
+          "preview": "AIza************************WxsU"
         }
       ]
     },
@@ -9648,6 +9702,33 @@
       ]
     },
     {
+      "repo": "najib-appdevs/nest-intro",
+      "url": "https://github.com/najib-appdevs/nest-intro",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.81,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit e3f5e4a",
+          "line": 94,
+          "source": "commit",
+          "preview": "eyJh************************7u9A"
+        }
+      ]
+    },
+    {
       "repo": "namanofficial9509/Prototype-careerTech-",
       "url": "https://github.com/namanofficial9509/Prototype-careerTech-",
       "status": "leaked",
@@ -12425,6 +12506,33 @@
           "line": 46,
           "source": "file",
           "preview": "eyJh************************5Qfc"
+        }
+      ]
+    },
+    {
+      "repo": "Claritys11/ElaangPortofolio",
+      "url": "https://github.com/Claritys11/ElaangPortofolio",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.63,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ElaangPortofolio-main/src/firebase/config.ts",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************xzoA"
         }
       ]
     },
@@ -17883,6 +17991,33 @@
       ]
     },
     {
+      "repo": "formencec-ux/LineStockBot",
+      "url": "https://github.com/formencec-ux/LineStockBot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.75,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "LineStockBot-main/Test_AI.py",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************cQxI"
+        }
+      ]
+    },
+    {
       "repo": "garywstewart-afk/Context-Hub-for-Hullic",
       "url": "https://github.com/garywstewart-afk/Context-Hub-for-Hullic",
       "status": "leaked",
@@ -19044,6 +19179,33 @@
       ]
     },
     {
+      "repo": "jaythejustice/bgram",
+      "url": "https://github.com/jaythejustice/bgram",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.34,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "bgram-main/app.js",
+          "line": 48,
+          "source": "file",
+          "preview": "AIza************************rjv4"
+        }
+      ]
+    },
+    {
       "repo": "jcvr14k-arch/smartpark",
       "url": "https://github.com/jcvr14k-arch/smartpark",
       "status": "leaked",
@@ -19850,6 +20012,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************GhTQ"
+        }
+      ]
+    },
+    {
+      "repo": "kodingcaif/emma-app",
+      "url": "https://github.com/kodingcaif/emma-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.78,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "emma-app-main/.env",
+          "line": 5,
+          "source": "file",
+          "preview": "eyJh************************64mk"
         }
       ]
     },
@@ -23954,6 +24143,33 @@
           "line": 8,
           "source": "file",
           "preview": "8735************************2SCs"
+        }
+      ]
+    },
+    {
+      "repo": "zeromgblue/Conner-online0.1",
+      "url": "https://github.com/zeromgblue/Conner-online0.1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.44,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Conner-online0.1-main/firebase-config.js",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************C2d4"
         }
       ]
     },
