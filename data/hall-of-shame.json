@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T03:36:03.931864+00:00",
+  "generatedAt": "2026-03-15T05:19:55.286239+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -2885,6 +2885,42 @@
       ]
     },
     {
+      "repo": "Mostafa-Ashraf-a/TenderingPlatform",
+      "url": "https://github.com/Mostafa-Ashraf-a/TenderingPlatform",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 9.52,
+      "exposureScore": 50,
+      "topTypes": [
+        "Google API/GCP Key",
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "Firebase Database URL": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "TenderingPlatform-main/js/firebase-config.js",
+          "line": 10,
+          "source": "file",
+          "preview": "AIza************************7qqM"
+        },
+        {
+          "type": "Firebase Database URL",
+          "file": "Commit 8b04420",
+          "line": 1415,
+          "source": "commit",
+          "preview": "http************************json"
+        }
+      ]
+    },
+    {
       "repo": "jhonjoel/Proyecto-CLT",
       "url": "https://github.com/jhonjoel/Proyecto-CLT",
       "status": "leaked",
@@ -4077,6 +4113,42 @@
           "line": 289,
           "source": "file",
           "preview": "eyJh************************sw5c"
+        }
+      ]
+    },
+    {
+      "repo": "maa-nirmala-dj/12",
+      "url": "https://github.com/maa-nirmala-dj/12",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.56,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "12-main/README.md",
+          "line": 1143,
+          "source": "file",
+          "preview": "8671************************FVqQ"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "12-main/README.md",
+          "line": 1664,
+          "source": "file",
+          "preview": "AIza************************YHoQ"
         }
       ]
     },
@@ -6076,6 +6148,33 @@
           "line": 254,
           "source": "commit",
           "preview": "AIza************************doZQ"
+        }
+      ]
+    },
+    {
+      "repo": "Min-Konny/Team-auto-split-tool-ahri-class",
+      "url": "https://github.com/Min-Konny/Team-auto-split-tool-ahri-class",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.95,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 762b429",
+          "line": 25,
+          "source": "commit",
+          "preview": "AIza************************tSyY"
         }
       ]
     },
@@ -8294,6 +8393,33 @@
       ]
     },
     {
+      "repo": "jamie6017/gender",
+      "url": "https://github.com/jamie6017/gender",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.67,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit bdbad11",
+          "line": 253,
+          "source": "commit",
+          "preview": "AIza************************7p6A"
+        }
+      ]
+    },
+    {
       "repo": "jedag5860-boop/Allweblinkyann",
       "url": "https://github.com/jedag5860-boop/Allweblinkyann",
       "status": "leaked",
@@ -9937,6 +10063,33 @@
           "line": 281,
           "source": "commit",
           "preview": "AIza************************CdDI"
+        }
+      ]
+    },
+    {
+      "repo": "realkawaii/SF6",
+      "url": "https://github.com/realkawaii/SF6",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.28,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit e3da668",
+          "line": 87,
+          "source": "commit",
+          "preview": "AIza************************3LLA"
         }
       ]
     },
@@ -12853,6 +13006,33 @@
           "line": 31,
           "source": "file",
           "preview": "AIza************************T-Sw"
+        }
+      ]
+    },
+    {
+      "repo": "KeeperDe8/NUPost-app",
+      "url": "https://github.com/KeeperDe8/NUPost-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 24.03,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "NUPost-app-main/ref/nupost-main/api/generate_caption.php",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************6shQ"
         }
       ]
     },
@@ -16390,6 +16570,33 @@
           "line": 25,
           "source": "file",
           "preview": "8641************************jQsc"
+        }
+      ]
+    },
+    {
+      "repo": "chiase9112026/ghg",
+      "url": "https://github.com/chiase9112026/ghg",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.3,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ghg-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************5BAM"
         }
       ]
     },
