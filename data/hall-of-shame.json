@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T20:44:49.612559+00:00",
+  "generatedAt": "2026-03-15T21:05:08.057955+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -24474,6 +24474,33 @@
       ]
     },
     {
+      "repo": "kitpos3/Agile-Scrum-Board",
+      "url": "https://github.com/kitpos3/Agile-Scrum-Board",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Agile-Scrum-Board-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************QXac"
+        }
+      ]
+    },
+    {
       "repo": "kodingcaif/emma-app",
       "url": "https://github.com/kodingcaif/emma-app",
       "status": "leaked",
@@ -26391,6 +26418,33 @@
       ]
     },
     {
+      "repo": "omuhammadrizo12-code/telegram-bot",
+      "url": "https://github.com/omuhammadrizo12-code/telegram-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.86,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "telegram-bot-main/admin.env",
+          "line": 1,
+          "source": "file",
+          "preview": "8746************************2-PA"
+        }
+      ]
+    },
+    {
       "repo": "onesmo-lekoringo/seed-pictures",
       "url": "https://github.com/onesmo-lekoringo/seed-pictures",
       "status": "leaked",
@@ -26900,6 +26954,33 @@
           "line": 2,
           "source": "file",
           "preview": "AIza************************quZ8"
+        }
+      ]
+    },
+    {
+      "repo": "portalmifel/validar",
+      "url": "https://github.com/portalmifel/validar",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.19,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "validar-main/is.js",
+          "line": 3,
+          "source": "file",
+          "preview": "http************************SNI2"
         }
       ]
     },
