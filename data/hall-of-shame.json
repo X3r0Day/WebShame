@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T09:07:15.290688+00:00",
+  "generatedAt": "2026-03-15T09:49:49.773118+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -7920,6 +7920,33 @@
       ]
     },
     {
+      "repo": "chitz-droid/kotasprofit",
+      "url": "https://github.com/chitz-droid/kotasprofit",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.71,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 5713f09",
+          "line": 3220,
+          "source": "commit",
+          "preview": "eyJh************************q328"
+        }
+      ]
+    },
+    {
       "repo": "dassubrother-max/Fff",
       "url": "https://github.com/dassubrother-max/Fff",
       "status": "leaked",
@@ -9027,6 +9054,33 @@
       ]
     },
     {
+      "repo": "keeonho/Editor-",
+      "url": "https://github.com/keeonho/Editor-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.48,
+      "exposureScore": 30,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "Commit b425d62",
+          "line": 2723,
+          "source": "commit",
+          "preview": "ghp_************************QWD8"
+        }
+      ]
+    },
+    {
       "repo": "keszhongjiandong-dotcom/shs",
       "url": "https://github.com/keszhongjiandong-dotcom/shs",
       "status": "leaked",
@@ -9698,6 +9752,33 @@
           "line": 1078,
           "source": "commit",
           "preview": "AIza************************V2i0"
+        }
+      ]
+    },
+    {
+      "repo": "mygithub05253/Emoji-Diary-Final",
+      "url": "https://github.com/mygithub05253/Emoji-Diary-Final",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 30.41,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit edc544a",
+          "line": 23,
+          "source": "commit",
+          "preview": "AIza************************nnP0"
         }
       ]
     },
@@ -14670,6 +14751,33 @@
       ]
     },
     {
+      "repo": "Pintu64/Crypto",
+      "url": "https://github.com/Pintu64/Crypto",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.54,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Crypto-main/Both.py (9).txt",
+          "line": 15,
+          "source": "file",
+          "preview": "8628************************toWA"
+        }
+      ]
+    },
+    {
       "repo": "Portaplix/portaplix-web",
       "url": "https://github.com/Portaplix/portaplix-web",
       "status": "leaked",
@@ -18797,6 +18905,33 @@
           "line": 51,
           "source": "file",
           "preview": "eyJh************************J21k"
+        }
+      ]
+    },
+    {
+      "repo": "iaprofissional2026-rgb/Mk-Studio2029",
+      "url": "https://github.com/iaprofissional2026-rgb/Mk-Studio2029",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.34,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "Mk-Studio2029-main/src/App.tsx",
+          "line": 95,
+          "source": "file",
+          "preview": "sk-o************************0f4e"
         }
       ]
     },
