@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T18:05:52.655457+00:00",
+  "generatedAt": "2026-03-15T18:53:59.384455+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -5029,6 +5029,40 @@
           "line": 32,
           "source": "file",
           "preview": "AIza************************TXSE"
+        }
+      ]
+    },
+    {
+      "repo": "Manish363-dot/Major-Project",
+      "url": "https://github.com/Manish363-dot/Major-Project",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 29.45,
+      "exposureScore": 32,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 2
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Major-Project-main/e-taxpay/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************7rXE"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Major-Project-main/e-taxpay/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "eyJh************************h6dY"
         }
       ]
     },
@@ -12814,6 +12848,33 @@
       ]
     },
     {
+      "repo": "teoxboe-lab/crime-zoneeee",
+      "url": "https://github.com/teoxboe-lab/crime-zoneeee",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.78,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit f06a2b9",
+          "line": 405,
+          "source": "commit",
+          "preview": "AIza************************9Vv0"
+        }
+      ]
+    },
+    {
       "repo": "testtymony67-cyber/Roblox-Rewards-Center",
       "url": "https://github.com/testtymony67-cyber/Roblox-Rewards-Center",
       "status": "leaked",
@@ -17890,6 +17951,33 @@
       ]
     },
     {
+      "repo": "Shivaprasad-88/Room-Manager",
+      "url": "https://github.com/Shivaprasad-88/Room-Manager",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.38,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Room-Manager-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************N1ns"
+        }
+      ]
+    },
+    {
       "repo": "Shrey-211/opencode_configs",
       "url": "https://github.com/Shrey-211/opencode_configs",
       "status": "leaked",
@@ -18426,6 +18514,33 @@
           "line": 21,
           "source": "file",
           "preview": "sk-o************************7aad"
+        }
+      ]
+    },
+    {
+      "repo": "VictorM0nteiro/CHATAPP_PROJECT",
+      "url": "https://github.com/VictorM0nteiro/CHATAPP_PROJECT",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.52,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "CHATAPP_PROJECT-main/app/google-services.json",
+          "line": 31,
+          "source": "file",
+          "preview": "AIza************************8-wY"
         }
       ]
     },
@@ -19722,6 +19837,33 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************g4nA"
+        }
+      ]
+    },
+    {
+      "repo": "astralfasos/BinarVpnBot",
+      "url": "https://github.com/astralfasos/BinarVpnBot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.24,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "BinarVpnBot-main/bot.py",
+          "line": 22,
+          "source": "file",
+          "preview": "8135************************9VIg"
         }
       ]
     },
@@ -23016,6 +23158,33 @@
           "line": 10,
           "source": "file",
           "preview": "AIza************************k7Cc"
+        }
+      ]
+    },
+    {
+      "repo": "jsjjddddyd-glitch/botshd",
+      "url": "https://github.com/jsjjddddyd-glitch/botshd",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.18,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "botshd-main/lolshdbot.py",
+          "line": 25,
+          "source": "file",
+          "preview": "8225************************1Y6w"
         }
       ]
     },
