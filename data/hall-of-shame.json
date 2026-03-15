@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T14:51:38.754348+00:00",
+  "generatedAt": "2026-03-15T15:10:16.326405+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -7521,6 +7521,33 @@
       ]
     },
     {
+      "repo": "TheRhyno/Brainrot-TCG",
+      "url": "https://github.com/TheRhyno/Brainrot-TCG",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.99,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit c51a8cb",
+          "line": 879,
+          "source": "commit",
+          "preview": "AIza************************nvik"
+        }
+      ]
+    },
+    {
       "repo": "Thguboy/Online_shop",
       "url": "https://github.com/Thguboy/Online_shop",
       "status": "leaked",
@@ -8516,6 +8543,33 @@
           "line": 3220,
           "source": "commit",
           "preview": "eyJh************************q328"
+        }
+      ]
+    },
+    {
+      "repo": "codex-pokhara/ledgerly",
+      "url": "https://github.com/codex-pokhara/ledgerly",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 10.15,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit d02a842",
+          "line": 220,
+          "source": "commit",
+          "preview": "eyJh************************hpxg"
         }
       ]
     },
@@ -11270,6 +11324,33 @@
           "line": 312,
           "source": "commit",
           "preview": "8719************************CuWk"
+        }
+      ]
+    },
+    {
+      "repo": "rajeshmscbed2012-bit/MDM.-6.7",
+      "url": "https://github.com/rajeshmscbed2012-bit/MDM.-6.7",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.75,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit bd46db7",
+          "line": 648,
+          "source": "commit",
+          "preview": "AIza************************bbuE"
         }
       ]
     },
@@ -17349,6 +17430,33 @@
       ]
     },
     {
+      "repo": "Xantaclaus/Database",
+      "url": "https://github.com/Xantaclaus/Database",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.41,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Database-main/tokens.json",
+          "line": 3,
+          "source": "file",
+          "preview": "8596************************KJrs"
+        }
+      ]
+    },
+    {
       "repo": "Yagyamodi/Daily-Wisdom-App",
       "url": "https://github.com/Yagyamodi/Daily-Wisdom-App",
       "status": "leaked",
@@ -19077,6 +19185,33 @@
       ]
     },
     {
+      "repo": "cvillamarp-lgtm/claudecode",
+      "url": "https://github.com/cvillamarp-lgtm/claudecode",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.59,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "claudecode-main/skills/broken-authentication/SKILL.md",
+          "line": 432,
+          "source": "file",
+          "preview": "eyJh************************ture"
+        }
+      ]
+    },
+    {
       "repo": "dadoobato1-dev/tz",
       "url": "https://github.com/dadoobato1-dev/tz",
       "status": "leaked",
@@ -19235,6 +19370,33 @@
           "line": 2,
           "source": "file",
           "preview": "8550************************CWrw"
+        }
+      ]
+    },
+    {
+      "repo": "dbacepa/AIES-Reclutamiento-CEPA",
+      "url": "https://github.com/dbacepa/AIES-Reclutamiento-CEPA",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "AIES-Reclutamiento-CEPA-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************U7Yk"
         }
       ]
     },
@@ -22776,6 +22938,33 @@
       ]
     },
     {
+      "repo": "marwan-554/Manja-Bot",
+      "url": "https://github.com/marwan-554/Manja-Bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.25,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Bot Token"
+      ],
+      "typeCounts": {
+        "Discord Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Bot Token",
+          "file": "Manja-Bot-main/index.js",
+          "line": 10,
+          "source": "file",
+          "preview": "MTQ4************************TE_s"
+        }
+      ]
+    },
+    {
       "repo": "marykanje01-a11y/alet",
       "url": "https://github.com/marykanje01-a11y/alet",
       "status": "leaked",
@@ -25688,6 +25877,33 @@
           "line": 4,
           "source": "file",
           "preview": "eyJh************************0kaY"
+        }
+      ]
+    },
+    {
+      "repo": "tanyaagraharicoder/MindCare-ai",
+      "url": "https://github.com/tanyaagraharicoder/MindCare-ai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.76,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "MindCare-ai-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************L154"
         }
       ]
     },
