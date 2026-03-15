@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T17:07:46.696477+00:00",
+  "generatedAt": "2026-03-15T17:46:03.143965+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -5929,6 +5929,33 @@
       ]
     },
     {
+      "repo": "Andiswa18Alicia/security-plus-",
+      "url": "https://github.com/Andiswa18Alicia/security-plus-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 8.38,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 1647fb9",
+          "line": 569,
+          "source": "commit",
+          "preview": "AIza************************S7yg"
+        }
+      ]
+    },
+    {
       "repo": "Ankit-07-chy/ML_HealthOS",
       "url": "https://github.com/Ankit-07-chy/ML_HealthOS",
       "status": "leaked",
@@ -8679,6 +8706,33 @@
           "line": 1536,
           "source": "commit",
           "preview": "AIza************************hudY"
+        }
+      ]
+    },
+    {
+      "repo": "caterinasalvatoriaa/autentico_v10",
+      "url": "https://github.com/caterinasalvatoriaa/autentico_v10",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.78,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 3b9b785",
+          "line": 488,
+          "source": "commit",
+          "preview": "AIza************************RDU8"
         }
       ]
     },
@@ -11923,6 +11977,33 @@
       ]
     },
     {
+      "repo": "sakadziartem7-wq/https-lass-hat-",
+      "url": "https://github.com/sakadziartem7-wq/https-lass-hat-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 8.15,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 1437469",
+          "line": 1326,
+          "source": "commit",
+          "preview": "AIza************************ZoN8"
+        }
+      ]
+    },
+    {
       "repo": "sallywalid208-a11y/sallywalid208-a11y.github.io",
       "url": "https://github.com/sallywalid208-a11y/sallywalid208-a11y.github.io",
       "status": "leaked",
@@ -12133,6 +12214,33 @@
           "type": "Google API/GCP Key",
           "file": "Commit 66948b2",
           "line": 153,
+          "source": "commit",
+          "preview": "AIza************************hBJ0"
+        }
+      ]
+    },
+    {
+      "repo": "serenity-sys/Sa-de",
+      "url": "https://github.com/serenity-sys/Sa-de",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 6.08,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 3a9b638",
+          "line": 168,
           "source": "commit",
           "preview": "AIza************************hBJ0"
         }
@@ -12729,6 +12837,33 @@
           "line": 275,
           "source": "commit",
           "preview": "AIza************************Ngkk"
+        }
+      ]
+    },
+    {
+      "repo": "triguel24/BILLNOVA",
+      "url": "https://github.com/triguel24/BILLNOVA",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.6,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit feddaf7",
+          "line": 275,
+          "source": "commit",
+          "preview": "AIza************************W6hQ"
         }
       ]
     },
@@ -17427,6 +17562,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************SbfE"
+        }
+      ]
+    },
+    {
+      "repo": "Saurabh667/ProtectorBot.py",
+      "url": "https://github.com/Saurabh667/ProtectorBot.py",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.87,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "ProtectorBot.py-master/10klimt.py",
+          "line": 16,
+          "source": "file",
+          "preview": "8785************************NeBA"
         }
       ]
     },
@@ -25257,6 +25419,33 @@
           "line": 2436,
           "source": "file",
           "preview": "gsk_************************Rkoe"
+        }
+      ]
+    },
+    {
+      "repo": "pleme-io/pangea-akeyless",
+      "url": "https://github.com/pleme-io/pangea-akeyless",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 43.11,
+      "exposureScore": 20,
+      "topTypes": [
+        "AWS Access Key ID"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "pangea-akeyless-main/spec/resources/akeyless_aws_target/synthesis_spec.rb",
+          "line": 16,
+          "source": "file",
+          "preview": "AKIA************MPLE"
         }
       ]
     },
