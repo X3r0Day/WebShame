@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T15:10:16.326405+00:00",
+  "generatedAt": "2026-03-15T15:46:46.355564+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -5094,6 +5094,40 @@
       ]
     },
     {
+      "repo": "SazzadBytes/Muslim-Habits",
+      "url": "https://github.com/SazzadBytes/Muslim-Habits",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 45.56,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Muslim-Habits-main/android/app/GoogleService-Info.plist",
+          "line": 12,
+          "source": "file",
+          "preview": "AIza************************nt-8"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Muslim-Habits-main/android/app/google-services.json",
+          "line": 31,
+          "source": "file",
+          "preview": "AIza************************CRcU"
+        }
+      ]
+    },
+    {
       "repo": "Siidodirnfb/BdevBOT",
       "url": "https://github.com/Siidodirnfb/BdevBOT",
       "status": "leaked",
@@ -9056,6 +9090,33 @@
           "line": 355,
           "source": "commit",
           "preview": "AIza************************ymYA"
+        }
+      ]
+    },
+    {
+      "repo": "gaochen219/heartjar",
+      "url": "https://github.com/gaochen219/heartjar",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 60.58,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit ebbdd7a",
+          "line": 541,
+          "source": "commit",
+          "preview": "AIza************************RlQk"
         }
       ]
     },
@@ -13353,6 +13414,33 @@
       ]
     },
     {
+      "repo": "ArdellAghna/-portofolio-backend",
+      "url": "https://github.com/ArdellAghna/-portofolio-backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.14,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "portofolio-backend-main/backend/config.py",
+          "line": 23,
+          "source": "file",
+          "preview": "eyJh************************mWas"
+        }
+      ]
+    },
+    {
       "repo": "Arthurpfz/telegram-summary-bot",
       "url": "https://github.com/Arthurpfz/telegram-summary-bot",
       "status": "leaked",
@@ -14811,6 +14899,33 @@
       ]
     },
     {
+      "repo": "Jonathanrt71/swift-flow-tracker",
+      "url": "https://github.com/Jonathanrt71/swift-flow-tracker",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.44,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "swift-flow-tracker-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************LBSE"
+        }
+      ]
+    },
+    {
       "repo": "Jujendran-R/AI-Resume-Analyzer-",
       "url": "https://github.com/Jujendran-R/AI-Resume-Analyzer-",
       "status": "leaked",
@@ -15297,6 +15412,33 @@
       ]
     },
     {
+      "repo": "Mastiboi/stroke-system",
+      "url": "https://github.com/Mastiboi/stroke-system",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.24,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "stroke-system-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************pqgc"
+        }
+      ]
+    },
+    {
       "repo": "Matheusjuniorz/SmartCreator-IA-para-Criadores",
       "url": "https://github.com/Matheusjuniorz/SmartCreator-IA-para-Criadores",
       "status": "leaked",
@@ -15617,6 +15759,33 @@
           "line": 7,
           "source": "file",
           "preview": "AIza************************YQ8I"
+        }
+      ]
+    },
+    {
+      "repo": "Mugasir/portifolio-calvin",
+      "url": "https://github.com/Mugasir/portifolio-calvin",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.8,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "portifolio-calvin-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************rWpg"
         }
       ]
     },
@@ -15999,6 +16168,33 @@
       ]
     },
     {
+      "repo": "OgbeniAyomide/eduspark",
+      "url": "https://github.com/OgbeniAyomide/eduspark",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.04,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "eduspark-main/app.py",
+          "line": 14,
+          "source": "file",
+          "preview": "AIza************************IHLc"
+        }
+      ]
+    },
+    {
       "repo": "Onety77/contrarian",
       "url": "https://github.com/Onety77/contrarian",
       "status": "leaked",
@@ -16373,6 +16569,33 @@
           "line": 5,
           "source": "file",
           "preview": "8772************************7Kos"
+        }
+      ]
+    },
+    {
+      "repo": "Rowdraraz100/My-Vision-Web",
+      "url": "https://github.com/Rowdraraz100/My-Vision-Web",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.68,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "My-Vision-Web-main/app.js",
+          "line": 9,
+          "source": "file",
+          "preview": "eyJh************************ip1I"
         }
       ]
     },
@@ -18884,6 +19107,33 @@
           "line": 23,
           "source": "file",
           "preview": "sk_t************************osqj"
+        }
+      ]
+    },
+    {
+      "repo": "caglar-ops/caglar-business",
+      "url": "https://github.com/caglar-ops/caglar-business",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.81,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "caglar-business-master/projects/shoe-tracker/tracker.py",
+          "line": 17,
+          "source": "file",
+          "preview": "8681************************D23I"
         }
       ]
     },
@@ -22583,6 +22833,33 @@
           "line": 6,
           "source": "file",
           "preview": "eyJh************************Lejw"
+        }
+      ]
+    },
+    {
+      "repo": "lourdyndong/Pastil",
+      "url": "https://github.com/lourdyndong/Pastil",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.8,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Pastil-main/ppasttill/script.js",
+          "line": 220,
+          "source": "file",
+          "preview": "8183************************9qlc"
         }
       ]
     },
