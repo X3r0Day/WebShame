@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T23:21:19.017899+00:00",
+  "generatedAt": "2026-03-15T23:51:09.721194+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -1606,6 +1606,58 @@
           "line": 9375,
           "source": "commit",
           "preview": "AIza************************KG_E"
+        }
+      ]
+    },
+    {
+      "repo": "actions-marketplace-validations/msaad00_agent-bom",
+      "url": "https://github.com/actions-marketplace-validations/msaad00_agent-bom",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 3,
+      "filesAffected": 3,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.06,
+      "exposureScore": 72,
+      "topTypes": [
+        "GitHub Classic PAT",
+        "AWS Access Key ID",
+        "OpenAI API Key (Project)"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1,
+        "GitHub Classic PAT": 2,
+        "OpenAI API Key (Project)": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "msaad00_agent-bom-main/sdks/shared/test-fixtures.json",
+          "line": 132,
+          "source": "file",
+          "preview": "AKIA************MPLE"
+        },
+        {
+          "type": "GitHub Classic PAT",
+          "file": "msaad00_agent-bom-main/sdks/shared/test-fixtures.json",
+          "line": 140,
+          "source": "file",
+          "preview": "ghp_************************ghij"
+        },
+        {
+          "type": "GitHub Classic PAT",
+          "file": "msaad00_agent-bom-main/tests/test_prompt_scanner.py",
+          "line": 124,
+          "source": "file",
+          "preview": "ghp_************************gHiJ"
+        },
+        {
+          "type": "OpenAI API Key (Project)",
+          "file": "msaad00_agent-bom-main/tests/test_protection_engine.py",
+          "line": 130,
+          "source": "file",
+          "preview": "sk-p************************34yz"
         }
       ]
     },
@@ -6954,6 +7006,33 @@
       ]
     },
     {
+      "repo": "Fnzlucas/Alma-admin-app1",
+      "url": "https://github.com/Fnzlucas/Alma-admin-app1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 8.75,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit b1bdb75",
+          "line": 811,
+          "source": "commit",
+          "preview": "eyJh************************QeQ0"
+        }
+      ]
+    },
+    {
       "repo": "FrancoRumisky/ia-chatbot",
       "url": "https://github.com/FrancoRumisky/ia-chatbot",
       "status": "leaked",
@@ -8435,6 +8514,33 @@
           "line": 18,
           "source": "commit",
           "preview": "AIza************************AHqI"
+        }
+      ]
+    },
+    {
+      "repo": "abdulhadishah54-bit/hse-inspector",
+      "url": "https://github.com/abdulhadishah54-bit/hse-inspector",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 8.77,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 4df8fd6",
+          "line": 476,
+          "source": "commit",
+          "preview": "AIza************************O8jI"
         }
       ]
     },
@@ -14001,6 +14107,33 @@
       ]
     },
     {
+      "repo": "unsp0507-lang/moneygame",
+      "url": "https://github.com/unsp0507-lang/moneygame",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 28.73,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit b47f664",
+          "line": 30,
+          "source": "commit",
+          "preview": "AIza************************Apvg"
+        }
+      ]
+    },
+    {
       "repo": "vaishu109/HTML",
       "url": "https://github.com/vaishu109/HTML",
       "status": "leaked",
@@ -17021,6 +17154,33 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************ywjY"
+        }
+      ]
+    },
+    {
+      "repo": "MOUHAMED222/-1-4",
+      "url": "https://github.com/MOUHAMED222/-1-4",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 18.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "-1-4-main/qurann.php",
+          "line": 26,
+          "source": "file",
+          "preview": "7606************************fMNQ"
         }
       ]
     },
@@ -21260,6 +21420,33 @@
           "line": 31,
           "source": "file",
           "preview": "AIza************************0e1k"
+        }
+      ]
+    },
+    {
+      "repo": "bgm6000/google-routes-mcp",
+      "url": "https://github.com/bgm6000/google-routes-mcp",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.18,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "google-routes-mcp-main/deploy.sh",
+          "line": 30,
+          "source": "file",
+          "preview": "AIza************************TC0w"
         }
       ]
     },
@@ -27312,6 +27499,33 @@
       ]
     },
     {
+      "repo": "pansatj11-cell/veterinaria",
+      "url": "https://github.com/pansatj11-cell/veterinaria",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.5,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "veterinaria-main/config.php",
+          "line": 6,
+          "source": "file",
+          "preview": "8541************************NYiE"
+        }
+      ]
+    },
+    {
       "repo": "patrickNo10/H-Flow",
       "url": "https://github.com/patrickNo10/H-Flow",
       "status": "leaked",
@@ -29414,6 +29628,33 @@
           "line": 48,
           "source": "file",
           "preview": "AIza************************jqp0"
+        }
+      ]
+    },
+    {
+      "repo": "tesadoalfredjoshcalizon-pixel/talc-talc",
+      "url": "https://github.com/tesadoalfredjoshcalizon-pixel/talc-talc",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.29,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "talc-talc-main/talc-bitik-elementary-school fb/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************w3IY"
         }
       ]
     },
