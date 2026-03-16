@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T18:43:41.922368+00:00",
+  "generatedAt": "2026-03-16T19:48:09.407995+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -5033,6 +5033,40 @@
       ]
     },
     {
+      "repo": "mitchsmii/test",
+      "url": "https://github.com/mitchsmii/test",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 46.09,
+      "exposureScore": 42,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "test-main/SCRUM-3-1-7/README.md",
+          "line": 59,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 2e5cd84",
+          "line": 260,
+          "source": "commit",
+          "preview": "post************************6543"
+        }
+      ]
+    },
+    {
       "repo": "planmoni/VixTraderAI",
       "url": "https://github.com/planmoni/VixTraderAI",
       "status": "leaked",
@@ -7173,6 +7207,40 @@
           "line": 146,
           "source": "file",
           "preview": "eyJh************************qDog"
+        }
+      ]
+    },
+    {
+      "repo": "abhinamilakonda/Airpulse",
+      "url": "https://github.com/abhinamilakonda/Airpulse",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.08,
+      "exposureScore": 32,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Airpulse-main/Airpulse/airquality/README.md",
+          "line": 45,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Airpulse-main/Airpulse/airquality/app.py",
+          "line": 33,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -11104,6 +11172,33 @@
       ]
     },
     {
+      "repo": "balbuenarecaldew-arch/casas",
+      "url": "https://github.com/balbuenarecaldew-arch/casas",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.11,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit ac8f63f",
+          "line": 200,
+          "source": "commit",
+          "preview": "AIza************************H6Bk"
+        }
+      ]
+    },
+    {
       "repo": "berkingcreator/bot3",
       "url": "https://github.com/berkingcreator/bot3",
       "status": "leaked",
@@ -14722,6 +14817,33 @@
       ]
     },
     {
+      "repo": "pingvis/svline-tars",
+      "url": "https://github.com/pingvis/svline-tars",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 6.19,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 7ff452c",
+          "line": 5956,
+          "source": "commit",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "pizza222222/ai-study-notes",
       "url": "https://github.com/pizza222222/ai-study-notes",
       "status": "leaked",
@@ -15451,6 +15573,33 @@
       ]
     },
     {
+      "repo": "salamiicai/eid-salami-quiz-26",
+      "url": "https://github.com/salamiicai/eid-salami-quiz-26",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 9.96,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 688e03a",
+          "line": 6327,
+          "source": "commit",
+          "preview": "AIza************************aens"
+        }
+      ]
+    },
+    {
       "repo": "sallywalid208-a11y/sallywalid208-a11y.github.io",
       "url": "https://github.com/sallywalid208-a11y/sallywalid208-a11y.github.io",
       "status": "leaked",
@@ -15609,6 +15758,33 @@
           "line": 40,
           "source": "commit",
           "preview": "http************************X3Mk"
+        }
+      ]
+    },
+    {
+      "repo": "scot00671234/saas-boiler-plate",
+      "url": "https://github.com/scot00671234/saas-boiler-plate",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 9.26,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 80a5f12",
+          "line": 96,
+          "source": "commit",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -15960,6 +16136,33 @@
           "line": 1145,
           "source": "commit",
           "preview": "eyJh************************8fuU"
+        }
+      ]
+    },
+    {
+      "repo": "simbassp/Metoda",
+      "url": "https://github.com/simbassp/Metoda",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.66,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 7eb7af6",
+          "line": 1114,
+          "source": "commit",
+          "preview": "8633************************_pfA"
         }
       ]
     },
@@ -19312,6 +19515,33 @@
       ]
     },
     {
+      "repo": "IT-Knight-Company/AI-Server",
+      "url": "https://github.com/IT-Knight-Company/AI-Server",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.18,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "AI-Server-main/contact.js",
+          "line": 24,
+          "source": "file",
+          "preview": "7779************************1Q2U"
+        }
+      ]
+    },
+    {
       "repo": "Idaragold/Leadsflow-AI",
       "url": "https://github.com/Idaragold/Leadsflow-AI",
       "status": "leaked",
@@ -21414,6 +21644,33 @@
           "line": 5,
           "source": "file",
           "preview": "AKIA************K4ZA"
+        }
+      ]
+    },
+    {
+      "repo": "RajSunny2011/ContainerAssignment",
+      "url": "https://github.com/RajSunny2011/ContainerAssignment",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.27,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "ContainerAssignment-main/Backend/main.py",
+          "line": 7,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -26602,6 +26859,33 @@
       ]
     },
     {
+      "repo": "fourstarsagency/marketshop",
+      "url": "https://github.com/fourstarsagency/marketshop",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.16,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "marketshop-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************HaTw"
+        }
+      ]
+    },
+    {
       "repo": "garchi505/Hackaton",
       "url": "https://github.com/garchi505/Hackaton",
       "status": "leaked",
@@ -27840,6 +28124,33 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************1D48"
+        }
+      ]
+    },
+    {
+      "repo": "jOrdenesC/sistema-mfpagos",
+      "url": "https://github.com/jOrdenesC/sistema-mfpagos",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.13,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "sistema-mfpagos-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************9CKY"
         }
       ]
     },
@@ -34590,6 +34901,33 @@
           "line": 1,
           "source": "file",
           "preview": "post************************5433"
+        }
+      ]
+    },
+    {
+      "repo": "wleha1/devops-task",
+      "url": "https://github.com/wleha1/devops-task",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "AWS Access Key ID"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "devops-task-main/terraform-aws/README.md",
+          "line": 22,
+          "source": "file",
+          "preview": "AKIA************XXXX"
         }
       ]
     },
