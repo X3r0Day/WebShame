@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T17:55:04.575065+00:00",
+  "generatedAt": "2026-03-16T18:43:41.922368+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -15235,6 +15235,33 @@
       ]
     },
     {
+      "repo": "rentzen18-web/Dental-demo",
+      "url": "https://github.com/rentzen18-web/Dental-demo",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.96,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit e55c194",
+          "line": 152,
+          "source": "commit",
+          "preview": "AIza************************3cgg"
+        }
+      ]
+    },
+    {
       "repo": "resteqs/homeapp",
       "url": "https://github.com/resteqs/homeapp",
       "status": "leaked",
@@ -15960,6 +15987,33 @@
           "line": 157,
           "source": "commit",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "soazly/igreja",
+      "url": "https://github.com/soazly/igreja",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 17.88,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit a38882d",
+          "line": 176,
+          "source": "commit",
+          "preview": "AIza************************1V9A"
         }
       ]
     },
@@ -17715,6 +17769,33 @@
           "line": 1,
           "source": "file",
           "preview": "AIza************************__94"
+        }
+      ]
+    },
+    {
+      "repo": "Arsalan-W84/Second-Brain-App",
+      "url": "https://github.com/Arsalan-W84/Second-Brain-App",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.64,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Second-Brain-App-main/src/server.ts",
+          "line": 135,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -28168,6 +28249,33 @@
       ]
     },
     {
+      "repo": "jojos-codedump/task-manager-frontend",
+      "url": "https://github.com/jojos-codedump/task-manager-frontend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.16,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "task-manager-frontend-main/js/firebase.js",
+          "line": 14,
+          "source": "file",
+          "preview": "AIza************************7OBA"
+        }
+      ]
+    },
+    {
       "repo": "jonnyxtar41/edulogger",
       "url": "https://github.com/jonnyxtar41/edulogger",
       "status": "leaked",
@@ -31377,6 +31485,33 @@
           "line": 8,
           "source": "file",
           "preview": "eyJh************************pldA"
+        }
+      ]
+    },
+    {
+      "repo": "oswgg/koala-rewards",
+      "url": "https://github.com/oswgg/koala-rewards",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.66,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "koala-rewards-main/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "eyJh************************_qeE"
         }
       ]
     },
