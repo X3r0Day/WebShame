@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T15:51:07.212488+00:00",
+  "generatedAt": "2026-03-16T16:55:02.544622+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -627,6 +627,68 @@
           "line": 17,
           "source": "commit",
           "preview": "sk_t************************wgnZ"
+        }
+      ]
+    },
+    {
+      "repo": "Janhavi1214/hachathon_website",
+      "url": "https://github.com/Janhavi1214/hachathon_website",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 6,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 6,
+      "scanTimeSeconds": 124.94,
+      "exposureScore": 140,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 6
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 27362c0",
+          "line": 1631,
+          "source": "commit",
+          "preview": "AIza************************qcW8"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 27362c0",
+          "line": 1631,
+          "source": "commit",
+          "preview": "AIza************************ZOeo"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 27362c0",
+          "line": 1631,
+          "source": "commit",
+          "preview": "AIza************************swD0"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 27362c0",
+          "line": 1631,
+          "source": "commit",
+          "preview": "AIza************************nM-I"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 27362c0",
+          "line": 15266,
+          "source": "commit",
+          "preview": "AIza************************oAnw"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 27362c0",
+          "line": 20848,
+          "source": "commit",
+          "preview": "AIza************************bUhE"
         }
       ]
     },
@@ -4173,6 +4235,47 @@
       ]
     },
     {
+      "repo": "KOROCHE19/presence_app",
+      "url": "https://github.com/KOROCHE19/presence_app",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.89,
+      "exposureScore": 44,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 3
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "presence_app-main/docker-compose.yml",
+          "line": 39,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "presence_app-main/docker-compose.yml",
+          "line": 50,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "presence_app-main/docker-compose.yml",
+          "line": 61,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "KalePraveenRaj/Employee_Task_tracker",
       "url": "https://github.com/KalePraveenRaj/Employee_Task_tracker",
       "status": "leaked",
@@ -7026,6 +7129,40 @@
       ]
     },
     {
+      "repo": "cardenastw/sql-gateway-platform",
+      "url": "https://github.com/cardenastw/sql-gateway-platform",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.01,
+      "exposureScore": 32,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "sql-gateway-platform-main/docker/docker-compose.yaml",
+          "line": 197,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "sql-gateway-platform-main/monitor/backend/src/db.ts",
+          "line": 5,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "diyiritian-ops/horcrux",
       "url": "https://github.com/diyiritian-ops/horcrux",
       "status": "leaked",
@@ -7192,6 +7329,40 @@
           "line": 7,
           "source": "file",
           "preview": "AIza************************wxTU"
+        }
+      ]
+    },
+    {
+      "repo": "karthikkota32/smart-retail-self-billing-system",
+      "url": "https://github.com/karthikkota32/smart-retail-self-billing-system",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 21.5,
+      "exposureScore": 32,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "smart-retail-self-billing-system-main/DEPLOY_ANYWHERE.md",
+          "line": 20,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "smart-retail-self-billing-system-main/backend/MONGODB_SETUP.md",
+          "line": 25,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -9946,6 +10117,33 @@
       ]
     },
     {
+      "repo": "Unblook/n0v4",
+      "url": "https://github.com/Unblook/n0v4",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.39,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 433bd37",
+          "line": 1013,
+          "source": "commit",
+          "preview": "AIza************************Rw9U"
+        }
+      ]
+    },
+    {
       "repo": "Universe-57/I-Love-You-So-Much",
       "url": "https://github.com/Universe-57/I-Love-You-So-Much",
       "status": "leaked",
@@ -11485,6 +11683,33 @@
       ]
     },
     {
+      "repo": "esref1071/content-marketing-skills-claude-code",
+      "url": "https://github.com/esref1071/content-marketing-skills-claude-code",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 14.34,
+      "exposureScore": 30,
+      "topTypes": [
+        "Anthropic API Key"
+      ],
+      "typeCounts": {
+        "Anthropic API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Anthropic API Key",
+          "file": "Commit 5b25279",
+          "line": 4043,
+          "source": "commit",
+          "preview": "sk-a************************8AAA"
+        }
+      ]
+    },
+    {
       "repo": "estellehuy/east_coast_roadtrip",
       "url": "https://github.com/estellehuy/east_coast_roadtrip",
       "status": "leaked",
@@ -11913,6 +12138,33 @@
           "line": 678,
           "source": "commit",
           "preview": "sk-a************************qQAA"
+        }
+      ]
+    },
+    {
+      "repo": "grupoescutiasl/Grupoescutiasl-gmail.com",
+      "url": "https://github.com/grupoescutiasl/Grupoescutiasl-gmail.com",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.77,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "Commit dfcc7eb",
+          "line": 58,
+          "source": "commit",
+          "preview": "eyJh************************A_e4"
         }
       ]
     },
@@ -12804,6 +13056,33 @@
           "line": 45,
           "source": "commit",
           "preview": "AIza************************WwLA"
+        }
+      ]
+    },
+    {
+      "repo": "kingaustine1337/ai-video",
+      "url": "https://github.com/kingaustine1337/ai-video",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 6.31,
+      "exposureScore": 30,
+      "topTypes": [
+        "HuggingFace Token"
+      ],
+      "typeCounts": {
+        "HuggingFace Token": 1
+      },
+      "findings": [
+        {
+          "type": "HuggingFace Token",
+          "file": "Commit d5e3634",
+          "line": 347,
+          "source": "commit",
+          "preview": "hf_M************************eTWz"
         }
       ]
     },
@@ -18748,6 +19027,33 @@
       ]
     },
     {
+      "repo": "IronFeniks/Info-bot",
+      "url": "https://github.com/IronFeniks/Info-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.23,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Info-bot-main/config.py",
+          "line": 14,
+          "source": "file",
+          "preview": "8338************************Djrg"
+        }
+      ]
+    },
+    {
       "repo": "Isaac-Salas/HackathonColque",
       "url": "https://github.com/Isaac-Salas/HackathonColque",
       "status": "leaked",
@@ -20503,6 +20809,33 @@
       ]
     },
     {
+      "repo": "PhilShoosmith/UK-Monarchs",
+      "url": "https://github.com/PhilShoosmith/UK-Monarchs",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.02,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "UK-Monarchs-main/lib/supabase.ts",
+          "line": 4,
+          "source": "file",
+          "preview": "eyJh************************VxJ4"
+        }
+      ]
+    },
+    {
       "repo": "Pintu64/Crypto",
       "url": "https://github.com/Pintu64/Crypto",
       "status": "leaked",
@@ -21286,6 +21619,33 @@
       ]
     },
     {
+      "repo": "SRIRAM-PSG/anime-bot",
+      "url": "https://github.com/SRIRAM-PSG/anime-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.21,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "anime-bot-main/anime_bot.py",
+          "line": 16,
+          "source": "file",
+          "preview": "8282************************fEwY"
+        }
+      ]
+    },
+    {
       "repo": "Saad2791/jalandhar-pipe-store",
       "url": "https://github.com/Saad2791/jalandhar-pipe-store",
       "status": "leaked",
@@ -21826,6 +22186,33 @@
       ]
     },
     {
+      "repo": "StockGame-Create/unvul-pov-s1",
+      "url": "https://github.com/StockGame-Create/unvul-pov-s1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.79,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "unvul-pov-s1-main/src/firebase.js",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************oaj0"
+        }
+      ]
+    },
+    {
       "repo": "Suhani-Gupta-ji/YouTube-Video-Sentiment-Monitoring-System",
       "url": "https://github.com/Suhani-Gupta-ji/YouTube-Video-Sentiment-Monitoring-System",
       "status": "leaked",
@@ -21957,6 +22344,33 @@
           "line": 9,
           "source": "file",
           "preview": "8652************************O-c4"
+        }
+      ]
+    },
+    {
+      "repo": "Tanoosree2006/jwt-auth-service",
+      "url": "https://github.com/Tanoosree2006/jwt-auth-service",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.55,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "jwt-auth-service-main/README.md",
+          "line": 94,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -22987,6 +23401,33 @@
       ]
     },
     {
+      "repo": "aizen-sch/ESPADA-SHOP",
+      "url": "https://github.com/aizen-sch/ESPADA-SHOP",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.93,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "ESPADA-SHOP-main/static/JS/script.js",
+          "line": 2,
+          "source": "file",
+          "preview": "8620************************gFr4"
+        }
+      ]
+    },
+    {
       "repo": "ajbekbakytuly-commits/barbershop_bot",
       "url": "https://github.com/ajbekbakytuly-commits/barbershop_bot",
       "status": "leaked",
@@ -23253,6 +23694,33 @@
           "line": 2,
           "source": "file",
           "preview": "AIza************************MbDY"
+        }
+      ]
+    },
+    {
+      "repo": "allenbnvtra/feedback_widget",
+      "url": "https://github.com/allenbnvtra/feedback_widget",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.49,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "feedback_widget-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************PDWQ"
         }
       ]
     },
@@ -29868,6 +30336,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************DVDg"
+        }
+      ]
+    },
+    {
+      "repo": "moulz04/wolofGen",
+      "url": "https://github.com/moulz04/wolofGen",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.16,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "wolofGen-main/backend/app.py",
+          "line": 20,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
