@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T05:35:43.004332+00:00",
+  "generatedAt": "2026-03-16T07:00:35.799054+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -4315,6 +4315,42 @@
           "line": 1,
           "source": "file",
           "preview": "AKIA************MPLE"
+        }
+      ]
+    },
+    {
+      "repo": "Krulu/RecallGen",
+      "url": "https://github.com/Krulu/RecallGen",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.81,
+      "exposureScore": 40,
+      "topTypes": [
+        "Google API/GCP Key",
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "RecallGen-main/dashboard.js",
+          "line": 9,
+          "source": "file",
+          "preview": "AIza************************bmwU"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "RecallGen-main/dashboard.js",
+          "line": 19,
+          "source": "file",
+          "preview": "eyJh************************8ti4"
         }
       ]
     },
@@ -14839,6 +14875,33 @@
       ]
     },
     {
+      "repo": "yyyy12351/AltHubPlus",
+      "url": "https://github.com/yyyy12351/AltHubPlus",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.16,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 0111aeb",
+          "line": 17,
+          "source": "commit",
+          "preview": "8786************************SSJQ"
+        }
+      ]
+    },
+    {
       "repo": "2026proton23000/nexxos",
       "url": "https://github.com/2026proton23000/nexxos",
       "status": "leaked",
@@ -17269,6 +17332,33 @@
       ]
     },
     {
+      "repo": "Kamoliddin15052005/mahalla_v3",
+      "url": "https://github.com/Kamoliddin15052005/mahalla_v3",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.53,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "mahalla_v3-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "8128************************J3CQ"
+        }
+      ]
+    },
+    {
       "repo": "Kea335/LocationApp",
       "url": "https://github.com/Kea335/LocationApp",
       "status": "leaked",
@@ -18885,6 +18975,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************aoEc"
+        }
+      ]
+    },
+    {
+      "repo": "Renefffes/QLTZ-Users",
+      "url": "https://github.com/Renefffes/QLTZ-Users",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.62,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "QLTZ-Users-main/src/App.tsx",
+          "line": 23,
+          "source": "file",
+          "preview": "http************************hVTw"
         }
       ]
     },
@@ -26530,6 +26647,33 @@
       ]
     },
     {
+      "repo": "magiscrazy20-droid/moviebot",
+      "url": "https://github.com/magiscrazy20-droid/moviebot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.74,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "moviebot-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "8327************************pAcM"
+        }
+      ]
+    },
+    {
       "repo": "mahudmahim-png/Jdjfjfjfjfjfjfj",
       "url": "https://github.com/mahudmahim-png/Jdjfjfjfjfjfjfj",
       "status": "leaked",
@@ -29581,6 +29725,33 @@
       ]
     },
     {
+      "repo": "seoh0711/matchbot",
+      "url": "https://github.com/seoh0711/matchbot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.32,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "matchbot-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************SJJI"
+        }
+      ]
+    },
+    {
       "repo": "seth1026/Terminus-IDE",
       "url": "https://github.com/seth1026/Terminus-IDE",
       "status": "leaked",
@@ -29847,6 +30018,33 @@
           "line": 8,
           "source": "file",
           "preview": "8278************************4AKA"
+        }
+      ]
+    },
+    {
+      "repo": "snarek10-dev/Narek",
+      "url": "https://github.com/snarek10-dev/Narek",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.61,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Narek-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************FX9Y"
         }
       ]
     },
