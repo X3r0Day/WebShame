@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-15T23:51:09.721194+00:00",
+  "generatedAt": "2026-03-16T00:07:24.334540+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -12622,6 +12622,33 @@
       ]
     },
     {
+      "repo": "private232/sasa",
+      "url": "https://github.com/private232/sasa",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.01,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 5a02850",
+          "line": 314,
+          "source": "commit",
+          "preview": "AIza************************u-7M"
+        }
+      ]
+    },
+    {
       "repo": "pschinnerl/schlusselapp",
       "url": "https://github.com/pschinnerl/schlusselapp",
       "status": "leaked",
@@ -13563,6 +13590,33 @@
           "line": 1145,
           "source": "commit",
           "preview": "eyJh************************8fuU"
+        }
+      ]
+    },
+    {
+      "repo": "soportefacturacioncr-eng/apppuravidaspa",
+      "url": "https://github.com/soportefacturacioncr-eng/apppuravidaspa",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.82,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 8316d8a",
+          "line": 475,
+          "source": "commit",
+          "preview": "AIza************************8elc"
         }
       ]
     },
@@ -16537,6 +16591,33 @@
       ]
     },
     {
+      "repo": "HuseynovNemet/MillionaireGameBot",
+      "url": "https://github.com/HuseynovNemet/MillionaireGameBot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.67,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "MillionaireGameBot-main/src/main/resources/application.properties",
+          "line": 23,
+          "source": "file",
+          "preview": "8648************************fLV4"
+        }
+      ]
+    },
+    {
       "repo": "I4CE41/Artisan-Ai-",
       "url": "https://github.com/I4CE41/Artisan-Ai-",
       "status": "leaked",
@@ -19233,6 +19314,33 @@
           "line": 2,
           "source": "file",
           "preview": "AIza************************_roI"
+        }
+      ]
+    },
+    {
+      "repo": "Simanto1010/S-",
+      "url": "https://github.com/Simanto1010/S-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.36,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "S--main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************b-ug"
         }
       ]
     },
@@ -25663,6 +25771,33 @@
       ]
     },
     {
+      "repo": "lhian-dark/misteri-e-leggende",
+      "url": "https://github.com/lhian-dark/misteri-e-leggende",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.47,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "misteri-e-leggende-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************nLfQ"
+        }
+      ]
+    },
+    {
       "repo": "libardoj617-creator/gimnasio-gym-android",
       "url": "https://github.com/libardoj617-creator/gimnasio-gym-android",
       "status": "leaked",
@@ -28930,6 +29065,33 @@
       ]
     },
     {
+      "repo": "sara900312/cosmetic-3-16-2026",
+      "url": "https://github.com/sara900312/cosmetic-3-16-2026",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.99,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "cosmetic-3-16-2026-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************KIps"
+        }
+      ]
+    },
+    {
       "repo": "sbaday/Trend",
       "url": "https://github.com/sbaday/Trend",
       "status": "leaked",
@@ -29358,6 +29520,33 @@
           "line": 33,
           "source": "file",
           "preview": "AIza************************q3qo"
+        }
+      ]
+    },
+    {
+      "repo": "stalbansds/dynamic",
+      "url": "https://github.com/stalbansds/dynamic",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.97,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "dynamic-main/supabase-config.js",
+          "line": 8,
+          "source": "file",
+          "preview": "eyJh************************0tYY"
         }
       ]
     },
