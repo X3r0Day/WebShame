@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T21:05:09.188186+00:00",
+  "generatedAt": "2026-03-16T21:55:42.706333+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -5386,6 +5386,40 @@
       ]
     },
     {
+      "repo": "aakashchatake/gfis-platform",
+      "url": "https://github.com/aakashchatake/gfis-platform",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.75,
+      "exposureScore": 42,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "gfis-platform-main/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 25da436",
+          "line": 111,
+          "source": "commit",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "azamfahd/qurankarim25",
       "url": "https://github.com/azamfahd/qurankarim25",
       "status": "leaked",
@@ -9097,6 +9131,33 @@
           "line": 33,
           "source": "commit",
           "preview": "http************************b_3B"
+        }
+      ]
+    },
+    {
+      "repo": "AyushMiharia/fieldtrip",
+      "url": "https://github.com/AyushMiharia/fieldtrip",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 8.21,
+      "exposureScore": 30,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit b549bd5",
+          "line": 1832,
+          "source": "commit",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -16040,6 +16101,33 @@
       ]
     },
     {
+      "repo": "qusayalrajabi3-art/Ahmad",
+      "url": "https://github.com/qusayalrajabi3-art/Ahmad",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.45,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit f205b5c",
+          "line": 25,
+          "source": "commit",
+          "preview": "8785************************st_c"
+        }
+      ]
+    },
+    {
       "repo": "r6844509-hue/varal",
       "url": "https://github.com/r6844509-hue/varal",
       "status": "leaked",
@@ -18794,6 +18882,33 @@
       ]
     },
     {
+      "repo": "AmitS1009/Startup-Co-Founder-AI-Agent",
+      "url": "https://github.com/AmitS1009/Startup-Co-Founder-AI-Agent",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.93,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Startup-Co-Founder-AI-Agent-main/README.md",
+          "line": 68,
+          "source": "file",
+          "preview": "post************************host"
+        }
+      ]
+    },
+    {
       "repo": "Anirudh-240701039/Project",
       "url": "https://github.com/Anirudh-240701039/Project",
       "status": "leaked",
@@ -19411,6 +19526,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************cxws"
+        }
+      ]
+    },
+    {
+      "repo": "ComplicitHen/rsgbg-station",
+      "url": "https://github.com/ComplicitHen/rsgbg-station",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.84,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "rsgbg-station-main/scripts/run-migrations-direct.ts",
+          "line": 32,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -26597,6 +26739,33 @@
       ]
     },
     {
+      "repo": "caio0922/velosocialapp",
+      "url": "https://github.com/caio0922/velosocialapp",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.15,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "velosocialapp-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************ehh8"
+        }
+      ]
+    },
+    {
       "repo": "carryitany/studio",
       "url": "https://github.com/carryitany/studio",
       "status": "leaked",
@@ -27025,6 +27194,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************VSsk"
+        }
+      ]
+    },
+    {
+      "repo": "danielledjofang29-oss/MorphOs",
+      "url": "https://github.com/danielledjofang29-oss/MorphOs",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.75,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "MorphOs-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************OzMc"
         }
       ]
     },
@@ -29104,6 +29300,33 @@
           "line": 342,
           "source": "file",
           "preview": "8163************************N17k"
+        }
+      ]
+    },
+    {
+      "repo": "ilucky666/icity",
+      "url": "https://github.com/ilucky666/icity",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 37.52,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "icity-main/db_poi.py",
+          "line": 9,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -32479,6 +32702,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************cA1A"
+        }
+      ]
+    },
+    {
+      "repo": "msawdon-glitch/macroBot",
+      "url": "https://github.com/msawdon-glitch/macroBot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.15,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "macroBot-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************Xgr4"
         }
       ]
     },
