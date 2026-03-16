@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T03:34:15.911687+00:00",
+  "generatedAt": "2026-03-16T05:35:43.004332+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -3863,6 +3863,40 @@
       ]
     },
     {
+      "repo": "azamfahd/qurankarim25",
+      "url": "https://github.com/azamfahd/qurankarim25",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.49,
+      "exposureScore": 42,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "qurankarim25-master/services/geminiService.ts",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************H8RQ"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit d114ac3",
+          "line": 75,
+          "source": "commit",
+          "preview": "AIza************************pPdk"
+        }
+      ]
+    },
+    {
       "repo": "dayaneleal/CarCollectionXML",
       "url": "https://github.com/dayaneleal/CarCollectionXML",
       "status": "leaked",
@@ -4821,6 +4855,42 @@
           "line": 289,
           "source": "file",
           "preview": "eyJh************************sw5c"
+        }
+      ]
+    },
+    {
+      "repo": "lvhaojie456/recipe1",
+      "url": "https://github.com/lvhaojie456/recipe1",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 42.4,
+      "exposureScore": 40,
+      "topTypes": [
+        "Google API/GCP Key",
+        "OpenAI API Key (Legacy)"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "OpenAI API Key (Legacy)": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "recipe1-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************ONtA"
+        },
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "recipe1-main/services/geminiService.ts",
+          "line": 8,
+          "source": "file",
+          "preview": "sk-r************************hjrk"
         }
       ]
     },
@@ -5961,6 +6031,40 @@
           "line": 96,
           "source": "file",
           "preview": "MTQ4************************hSuk"
+        }
+      ]
+    },
+    {
+      "repo": "mj664/scheduling",
+      "url": "https://github.com/mj664/scheduling",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.15,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "scheduling-main/scheduling_system/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************m6vw"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "scheduling-main/scheduling_system/lib/firebase_options.dart",
+          "line": 53,
+          "source": "file",
+          "preview": "AIza************************ch90"
         }
       ]
     },
@@ -9142,6 +9246,33 @@
           "line": 847,
           "source": "commit",
           "preview": "AIza************************fEZg"
+        }
+      ]
+    },
+    {
+      "repo": "az9713/autoresearch-runner-game",
+      "url": "https://github.com/az9713/autoresearch-runner-game",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 83.94,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 336bb7f",
+          "line": 24,
+          "source": "commit",
+          "preview": "AIza************************q2ws"
         }
       ]
     },
@@ -12922,6 +13053,33 @@
           "line": 312,
           "source": "commit",
           "preview": "8719************************CuWk"
+        }
+      ]
+    },
+    {
+      "repo": "r6844509-hue/varal",
+      "url": "https://github.com/r6844509-hue/varal",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.77,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 77dd8fd",
+          "line": 71,
+          "source": "commit",
+          "preview": "AIza************************zpjQ"
         }
       ]
     },
@@ -17057,6 +17215,33 @@
       ]
     },
     {
+      "repo": "KARNAL-PROJECTS/Bot1",
+      "url": "https://github.com/KARNAL-PROJECTS/Bot1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.62,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Bot1-main/bot.py",
+          "line": 17,
+          "source": "file",
+          "preview": "8625************************kCQk"
+        }
+      ]
+    },
+    {
       "repo": "Kagzso-Dev/kagzso-kot-appwrite",
       "url": "https://github.com/Kagzso-Dev/kagzso-kot-appwrite",
       "status": "leaked",
@@ -18727,6 +18912,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************6CpA"
+        }
+      ]
+    },
+    {
+      "repo": "Rithish1827/FIGHT-CLUB-DASHBOARD",
+      "url": "https://github.com/Rithish1827/FIGHT-CLUB-DASHBOARD",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.62,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "FIGHT-CLUB-DASHBOARD-main/test-upload.js",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************t3UA"
         }
       ]
     },
@@ -24289,6 +24501,33 @@
           "line": 5,
           "source": "file",
           "preview": "AIza************************AchY"
+        }
+      ]
+    },
+    {
+      "repo": "irgiadetia/LOKTV",
+      "url": "https://github.com/irgiadetia/LOKTV",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.34,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "LOKTV-main/main.py",
+          "line": 5,
+          "source": "file",
+          "preview": "6864************************7Y1A"
         }
       ]
     },
