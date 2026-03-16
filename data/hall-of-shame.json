@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T07:00:35.799054+00:00",
+  "generatedAt": "2026-03-16T08:09:58.837314+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -4207,6 +4207,42 @@
           "line": 4,
           "source": "file",
           "preview": "eyJh************************2kWg"
+        }
+      ]
+    },
+    {
+      "repo": "Ethan-1001/my-trend-radar",
+      "url": "https://github.com/Ethan-1001/my-trend-radar",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 77.28,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Slack Webhook"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Slack Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "my-trend-radar-master/README-EN.md",
+          "line": 1355,
+          "source": "file",
+          "preview": "1234************************m9T0"
+        },
+        {
+          "type": "Slack Webhook",
+          "file": "my-trend-radar-master/README-EN.md",
+          "line": 1710,
+          "source": "file",
+          "preview": "http************************XXXX"
         }
       ]
     },
@@ -13579,6 +13615,33 @@
       ]
     },
     {
+      "repo": "sellcard/Pages",
+      "url": "https://github.com/sellcard/Pages",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.9,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit f8e58b0",
+          "line": 195,
+          "source": "commit",
+          "preview": "AIza************************fd6I"
+        }
+      ]
+    },
+    {
       "repo": "serenity-sys/Conectatodos",
       "url": "https://github.com/serenity-sys/Conectatodos",
       "status": "leaked",
@@ -18925,6 +18988,33 @@
       ]
     },
     {
+      "repo": "RavinduUdana2001/McApps-web",
+      "url": "https://github.com/RavinduUdana2001/McApps-web",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.92,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "McApps-web-main/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "AIza************************07uU"
+        }
+      ]
+    },
+    {
       "repo": "Reinvik/romacenterspa",
       "url": "https://github.com/Reinvik/romacenterspa",
       "status": "leaked",
@@ -19407,6 +19497,33 @@
           "line": 4,
           "source": "file",
           "preview": "8713************************nUyw"
+        }
+      ]
+    },
+    {
+      "repo": "Saad2791/jalandhar-pipe-store",
+      "url": "https://github.com/Saad2791/jalandhar-pipe-store",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 37.81,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "jalandhar-pipe-store-master/portal/assets/index-DgONl5-y.js",
+          "line": 276,
+          "source": "file",
+          "preview": "eyJh************************X_9E"
         }
       ]
     },
@@ -20761,6 +20878,33 @@
       ]
     },
     {
+      "repo": "abdelmoumen-djediat/my.privet_chat-",
+      "url": "https://github.com/abdelmoumen-djediat/my.privet_chat-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.29,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "my.privet_chat--main/config.js",
+          "line": 11,
+          "source": "file",
+          "preview": "AIza************************QsKA"
+        }
+      ]
+    },
+    {
       "repo": "abdouni493/coiffeur-x",
       "url": "https://github.com/abdouni493/coiffeur-x",
       "status": "leaked",
@@ -21918,6 +22062,33 @@
           "line": 5,
           "source": "file",
           "preview": "eyJh************************fey0"
+        }
+      ]
+    },
+    {
+      "repo": "backstract-apps/strategic-kavya-db5cca87ac",
+      "url": "https://github.com/backstract-apps/strategic-kavya-db5cca87ac",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 39.52,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "strategic-kavya-db5cca87ac-master/.env",
+          "line": 5,
+          "source": "file",
+          "preview": "eyJh************************FrpY"
         }
       ]
     },
@@ -29964,6 +30135,33 @@
           "line": 7,
           "source": "file",
           "preview": "AIza************************K7jI"
+        }
+      ]
+    },
+    {
+      "repo": "silent-coder-ass/cricket-score",
+      "url": "https://github.com/silent-coder-ass/cricket-score",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.93,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "cricket-score-main/js/firebase.js",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************GyNo"
         }
       ]
     },
