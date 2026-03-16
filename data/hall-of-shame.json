@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T22:25:26.154644+00:00",
+  "generatedAt": "2026-03-16T22:57:52.491816+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -3525,6 +3525,54 @@
       ]
     },
     {
+      "repo": "4GeeksAcademy/k-means_Project-Kumar",
+      "url": "https://github.com/4GeeksAcademy/k-means_Project-Kumar",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.54,
+      "exposureScore": 56,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 4
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "k-means_Project-Kumar-main/README.es.md",
+          "line": 69,
+          "source": "file",
+          "preview": "post************************RTO>"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "k-means_Project-Kumar-main/README.es.md",
+          "line": 72,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "k-means_Project-Kumar-main/README.md",
+          "line": 69,
+          "source": "file",
+          "preview": "post************************ORT>"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "k-means_Project-Kumar-main/README.md",
+          "line": 72,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Ayenewtarekegn18/lcms",
       "url": "https://github.com/Ayenewtarekegn18/lcms",
       "status": "leaked",
@@ -3665,6 +3713,54 @@
           "line": 16999,
           "source": "file",
           "preview": "AIza************************Nmmg"
+        }
+      ]
+    },
+    {
+      "repo": "ddroid/stxworx",
+      "url": "https://github.com/ddroid/stxworx",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 66.03,
+      "exposureScore": 56,
+      "topTypes": [
+        "MySQL/MariaDB Connection URI"
+      ],
+      "typeCounts": {
+        "MySQL/MariaDB Connection URI": 4
+      },
+      "findings": [
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "stxworx-main/KnowledgeDirectory/QUICK_START.md",
+          "line": 53,
+          "source": "file",
+          "preview": "mysq************************3306"
+        },
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "stxworx-main/README.md",
+          "line": 135,
+          "source": "file",
+          "preview": "mysq************************3306"
+        },
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "stxworx-main/README.md",
+          "line": 145,
+          "source": "file",
+          "preview": "mysq*******************3306"
+        },
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "stxworx-main/README.md",
+          "line": 473,
+          "source": "file",
+          "preview": "mysq***********************3306"
         }
       ]
     },
@@ -9785,6 +9881,33 @@
           "line": 332,
           "source": "commit",
           "preview": "eyJh************************6I3A"
+        }
+      ]
+    },
+    {
+      "repo": "Eslamcoo66/Wifii",
+      "url": "https://github.com/Eslamcoo66/Wifii",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.01,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit b0d66eb",
+          "line": 64,
+          "source": "commit",
+          "preview": "AIza************************0AWc"
         }
       ]
     },
@@ -17619,6 +17742,33 @@
       ]
     },
     {
+      "repo": "sublime247/mobile-money",
+      "url": "https://github.com/sublime247/mobile-money",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.9,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit fc1906e",
+          "line": 63,
+          "source": "commit",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "sukyoungyoun/Candid-AI",
       "url": "https://github.com/sukyoungyoun/Candid-AI",
       "status": "leaked",
@@ -20234,6 +20384,33 @@
           "line": 16,
           "source": "file",
           "preview": "eyJh************************K6yI"
+        }
+      ]
+    },
+    {
+      "repo": "Dragoneto/Cv-React-",
+      "url": "https://github.com/Dragoneto/Cv-React-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 23.02,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Cv-React--main/firebaseConfig.js",
+          "line": 5,
+          "source": "file",
+          "preview": "AIza************************1LoI"
         }
       ]
     },
@@ -23559,6 +23736,33 @@
       ]
     },
     {
+      "repo": "RossiYuri/CSSCraft-AI",
+      "url": "https://github.com/RossiYuri/CSSCraft-AI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.05,
+      "exposureScore": 20,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "CSSCraft-AI-main/scripts.js",
+          "line": 47,
+          "source": "file",
+          "preview": "gsk_************************L00Q"
+        }
+      ]
+    },
+    {
       "repo": "RotorStorm/tg-bot",
       "url": "https://github.com/RotorStorm/tg-bot",
       "status": "leaked",
@@ -25418,6 +25622,33 @@
           "line": 11,
           "source": "file",
           "preview": "AIza************************QsKA"
+        }
+      ]
+    },
+    {
+      "repo": "abderrahimghazali/elephorm_rag",
+      "url": "https://github.com/abderrahimghazali/elephorm_rag",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.22,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "elephorm_rag-master/README.md",
+          "line": 33,
+          "source": "file",
+          "preview": "post************************2318"
         }
       ]
     },
@@ -31173,6 +31404,33 @@
       ]
     },
     {
+      "repo": "kholterhoff/visual_haggard",
+      "url": "https://github.com/kholterhoff/visual_haggard",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.85,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "visual_haggard-main/config/database.yml",
+          "line": 67,
+          "source": "file",
+          "preview": "post************************host"
+        }
+      ]
+    },
+    {
       "repo": "khushalshaarma/server-client-demo",
       "url": "https://github.com/khushalshaarma/server-client-demo",
       "status": "leaked",
@@ -35165,6 +35423,33 @@
           "line": 12,
           "source": "file",
           "preview": "8692************************Z7CY"
+        }
+      ]
+    },
+    {
+      "repo": "saedha/rawi-ai-gemeni",
+      "url": "https://github.com/saedha/rawi-ai-gemeni",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 73.74,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "rawi-ai-gemeni-main/Dockerfile",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************jOMg"
         }
       ]
     },
