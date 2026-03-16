@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T12:06:08.710365+00:00",
+  "generatedAt": "2026-03-16T13:29:04.457019+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -491,6 +491,76 @@
           "line": 0,
           "source": "commit",
           "preview": "github_pat_****************C91k"
+        }
+      ]
+    },
+    {
+      "repo": "webstoreizmir/site-papidesignstudio",
+      "url": "https://github.com/webstoreizmir/site-papidesignstudio",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 11,
+      "uniqueTypes": 6,
+      "filesAffected": 3,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.03,
+      "exposureScore": 180,
+      "topTypes": [
+        "Google OAuth Client Secret",
+        "Google OAuth Access Token",
+        "Google API/GCP Key",
+        "OpenAI API Key (Project)"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2,
+        "OpenAI API Key (Project)": 1,
+        "Google OAuth Client Secret": 3,
+        "Google OAuth Access Token": 3,
+        "Groq API Key": 1,
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "site-papidesignstudio-main/workflow/Custom Domain WaaS v16 (Final Sequence).json",
+          "line": 64,
+          "source": "file",
+          "preview": "AIza************************Em-k"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "site-papidesignstudio-main/workflow/Custom Domain WaaS v33 (Bulletproof Shopier).json",
+          "line": 50,
+          "source": "file",
+          "preview": "AIza************************D4Y0"
+        },
+        {
+          "type": "OpenAI API Key (Project)",
+          "file": "site-papidesignstudio-main/yedek-credentials.json",
+          "line": 1,
+          "source": "file",
+          "preview": "sk-p************************pPwA"
+        },
+        {
+          "type": "Google OAuth Client Secret",
+          "file": "site-papidesignstudio-main/yedek-credentials.json",
+          "line": 1,
+          "source": "file",
+          "preview": "GOCS************************m2By"
+        },
+        {
+          "type": "Google OAuth Client Secret",
+          "file": "site-papidesignstudio-main/yedek-credentials.json",
+          "line": 1,
+          "source": "file",
+          "preview": "GOCS************************SLZh"
+        },
+        {
+          "type": "Google OAuth Access Token",
+          "file": "site-papidesignstudio-main/yedek-credentials.json",
+          "line": 1,
+          "source": "file",
+          "preview": "ya29************************0207"
         }
       ]
     },
@@ -2890,6 +2960,49 @@
       ]
     },
     {
+      "repo": "3zt/create-t3-app",
+      "url": "https://github.com/3zt/create-t3-app",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 31.01,
+      "exposureScore": 52,
+      "topTypes": [
+        "MySQL/MariaDB Connection URI",
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "MySQL/MariaDB Connection URI": 2,
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "create-t3-app-main/.github/workflows/e2e.yml",
+          "line": 152,
+          "source": "file",
+          "preview": "mysq************************3306"
+        },
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "create-t3-app-main/cli/src/installers/envVars.ts",
+          "line": 138,
+          "source": "file",
+          "preview": "mysq************************3306"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "create-t3-app-main/cli/src/installers/envVars.ts",
+          "line": 140,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "AntifragileTech/antifragile-claude-code",
       "url": "https://github.com/AntifragileTech/antifragile-claude-code",
       "status": "leaked",
@@ -3972,6 +4085,47 @@
           "line": 10,
           "source": "file",
           "preview": "eyJh************************81IU"
+        }
+      ]
+    },
+    {
+      "repo": "vishnureji/project-rm-webhook",
+      "url": "https://github.com/vishnureji/project-rm-webhook",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.44,
+      "exposureScore": 44,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 3
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "project-rm-webhook-main/DASHBOARD_SETUP.md",
+          "line": 15,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "project-rm-webhook-main/RAILWAY_DEPLOY.md",
+          "line": 59,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "project-rm-webhook-main/RAILWAY_DEPLOY.md",
+          "line": 177,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -5218,6 +5372,42 @@
       ]
     },
     {
+      "repo": "maacaro/saige-ai-mentor-ui",
+      "url": "https://github.com/maacaro/saige-ai-mentor-ui",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 83.58,
+      "exposureScore": 40,
+      "topTypes": [
+        "Supabase Anon Key (JWT)",
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1,
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "saige-ai-mentor-ui-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************t8Q8"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "saige-ai-mentor-ui-main/supabase/functions/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************1gqA"
+        }
+      ]
+    },
+    {
       "repo": "mane-yash/Stash-Dashboard",
       "url": "https://github.com/mane-yash/Stash-Dashboard",
       "status": "leaked",
@@ -5710,6 +5900,40 @@
       ]
     },
     {
+      "repo": "DuyThong2/PRM392_FE",
+      "url": "https://github.com/DuyThong2/PRM392_FE",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.56,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "PRM392_FE-main/app/src/main/res/values/strings.xml",
+          "line": 16,
+          "source": "file",
+          "preview": "AIza************************zALE"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "PRM392_FE-main/app/src/main/res/values/strings.xml",
+          "line": 27,
+          "source": "file",
+          "preview": "AIza************************MmLs"
+        }
+      ]
+    },
+    {
       "repo": "GermaineGLS/IS213-Poskitix",
       "url": "https://github.com/GermaineGLS/IS213-Poskitix",
       "status": "leaked",
@@ -6046,6 +6270,40 @@
           "line": 14,
           "source": "file",
           "preview": "8527************************S-A8"
+        }
+      ]
+    },
+    {
+      "repo": "Snupdrack/tramitly",
+      "url": "https://github.com/Snupdrack/tramitly",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 65.06,
+      "exposureScore": 32,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "tramitly-main/DEPLOY.md",
+          "line": 24,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "tramitly-main/deploy.sh",
+          "line": 93,
+          "source": "file",
+          "preview": "mong************************net\""
         }
       ]
     },
@@ -6804,6 +7062,33 @@
       ]
     },
     {
+      "repo": "77tor/Reg-lokale-kart",
+      "url": "https://github.com/77tor/Reg-lokale-kart",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.54,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit c50e71e",
+          "line": 102,
+          "source": "commit",
+          "preview": "AIza************************ck3U"
+        }
+      ]
+    },
+    {
       "repo": "88Ahad/Raz-Home-Automation-APP",
       "url": "https://github.com/88Ahad/Raz-Home-Automation-APP",
       "status": "leaked",
@@ -7097,6 +7382,33 @@
           "line": 18,
           "source": "commit",
           "preview": "AIza************************Uv2Q"
+        }
+      ]
+    },
+    {
+      "repo": "Aquarvin/git_technical",
+      "url": "https://github.com/Aquarvin/git_technical",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 6.87,
+      "exposureScore": 30,
+      "topTypes": [
+        "Stripe Secret Key"
+      ],
+      "typeCounts": {
+        "Stripe Secret Key": 1
+      },
+      "findings": [
+        {
+          "type": "Stripe Secret Key",
+          "file": "Commit c2cece7",
+          "line": 18,
+          "source": "commit",
+          "preview": "sk_l************************wxyz"
         }
       ]
     },
@@ -18090,6 +18402,33 @@
       ]
     },
     {
+      "repo": "Kuladeepthi/MannMitra",
+      "url": "https://github.com/Kuladeepthi/MannMitra",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.46,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "MannMitra-main/src/firebase/config.ts",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************Nuao"
+        }
+      ]
+    },
+    {
       "repo": "LZTD1/prx-check",
       "url": "https://github.com/LZTD1/prx-check",
       "status": "leaked",
@@ -23139,6 +23478,33 @@
       ]
     },
     {
+      "repo": "chatgptnotes/sterling-tender-gen",
+      "url": "https://github.com/chatgptnotes/sterling-tender-gen",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.36,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "sterling-tender-gen-master/src/app/api/parse-tender/route.ts",
+          "line": 3,
+          "source": "file",
+          "preview": "AIza************************Wh7E"
+        }
+      ]
+    },
+    {
       "repo": "chessy328/betting-bot",
       "url": "https://github.com/chessy328/betting-bot",
       "status": "leaked",
@@ -24107,6 +24473,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************Hg5w"
+        }
+      ]
+    },
+    {
+      "repo": "esemez/glitch",
+      "url": "https://github.com/esemez/glitch",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.45,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "glitch-main/js/config.js",
+          "line": 8,
+          "source": "file",
+          "preview": "AIza************************qnv8"
         }
       ]
     },
@@ -26618,6 +27011,33 @@
           "line": 15,
           "source": "file",
           "preview": "http************************t-pP"
+        }
+      ]
+    },
+    {
+      "repo": "kgycoder/wpqkfdywpqkfdywpqkfdy",
+      "url": "https://github.com/kgycoder/wpqkfdywpqkfdywpqkfdy",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.32,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "wpqkfdywpqkfdywpqkfdy-main/app/src/main/java/com/xware/ApiService.kt",
+          "line": 35,
+          "source": "file",
+          "preview": "AIza************************qcW8"
         }
       ]
     },
