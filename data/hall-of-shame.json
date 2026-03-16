@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T00:07:24.334540+00:00",
+  "generatedAt": "2026-03-16T03:34:15.911687+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -5251,6 +5251,40 @@
       ]
     },
     {
+      "repo": "Ariuko0507/lims",
+      "url": "https://github.com/Ariuko0507/lims",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.37,
+      "exposureScore": 32,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 2
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "lims-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************6-BM"
+        },
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "lims-main/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "eyJh************************tz58"
+        }
+      ]
+    },
+    {
       "repo": "ArseniiGT/WeatherBot2",
       "url": "https://github.com/ArseniiGT/WeatherBot2",
       "status": "leaked",
@@ -6192,6 +6226,33 @@
           "line": 17522,
           "source": "commit",
           "preview": "AKIA************MPLE"
+        }
+      ]
+    },
+    {
+      "repo": "1nOut/Minpro-2-PAB",
+      "url": "https://github.com/1nOut/Minpro-2-PAB",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 21.3,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon/Service Role JWT"
+      ],
+      "typeCounts": {
+        "Supabase Anon/Service Role JWT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon/Service Role JWT",
+          "file": "Commit 84e91b9",
+          "line": 314,
+          "source": "commit",
+          "preview": "eyJh************************ouwI"
         }
       ]
     },
@@ -12348,6 +12409,33 @@
           "line": 75,
           "source": "commit",
           "preview": "eyJh************************FLDY"
+        }
+      ]
+    },
+    {
+      "repo": "omarfarukbro/omar-faruk-portfolio",
+      "url": "https://github.com/omarfarukbro/omar-faruk-portfolio",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 14.29,
+      "exposureScore": 30,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "Commit 3625786",
+          "line": 654,
+          "source": "commit",
+          "preview": "gsk_************************2flD"
         }
       ]
     },
@@ -20479,6 +20567,33 @@
       ]
     },
     {
+      "repo": "abhineeth96/etherscan_ai",
+      "url": "https://github.com/abhineeth96/etherscan_ai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.46,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "etherscan_ai-master/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************XcBM"
+        }
+      ]
+    },
+    {
       "repo": "abinash-max/SRT-roman",
       "url": "https://github.com/abinash-max/SRT-roman",
       "status": "leaked",
@@ -21717,6 +21832,33 @@
           "line": 30,
           "source": "file",
           "preview": "AIza************************0qzU"
+        }
+      ]
+    },
+    {
+      "repo": "bstungnguyen/Gemini-CLI",
+      "url": "https://github.com/bstungnguyen/Gemini-CLI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.45,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Gemini-CLI-main/report.py",
+          "line": 12,
+          "source": "file",
+          "preview": "8666************************iuMw"
         }
       ]
     },
