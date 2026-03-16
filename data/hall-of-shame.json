@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T20:27:46.484709+00:00",
+  "generatedAt": "2026-03-16T21:05:09.188186+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -1168,6 +1168,58 @@
           "line": 77,
           "source": "commit",
           "preview": "eyJh************************CN-Q"
+        }
+      ]
+    },
+    {
+      "repo": "dhruvshah1102/DineDesk",
+      "url": "https://github.com/dhruvshah1102/DineDesk",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 4,
+      "uniqueTypes": 3,
+      "filesAffected": 1,
+      "commitFindings": 4,
+      "scanTimeSeconds": 15.0,
+      "exposureScore": 112,
+      "topTypes": [
+        "PostgreSQL Connection URI",
+        "Supabase Anon Key (JWT)",
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2,
+        "Supabase Anon Key (JWT)": 1,
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit c33605e",
+          "line": 18,
+          "source": "commit",
+          "preview": "post************************6543"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit c33605e",
+          "line": 19,
+          "source": "commit",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "Commit c33605e",
+          "line": 23,
+          "source": "commit",
+          "preview": "eyJh************************sj8c"
+        },
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "Commit c33605e",
+          "line": 24,
+          "source": "commit",
+          "preview": "eyJh************************3PTo"
         }
       ]
     },
@@ -3555,6 +3607,54 @@
       ]
     },
     {
+      "repo": "devRanaUsman/Saffron-Smoke",
+      "url": "https://github.com/devRanaUsman/Saffron-Smoke",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 4,
+      "commitFindings": 0,
+      "scanTimeSeconds": 36.59,
+      "exposureScore": 56,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 4
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Saffron-Smoke-main/recipe-backend/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Saffron-Smoke-main/recipe-backend/app.js",
+          "line": 37,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Saffron-Smoke-main/recipe-backend/utils/additionalBlogsSeed.js",
+          "line": 9,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Saffron-Smoke-main/recipe-backend/utils/seed.js",
+          "line": 6,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "KrishnaPeaks/MVp",
       "url": "https://github.com/KrishnaPeaks/MVp",
       "status": "leaked",
@@ -3678,6 +3778,49 @@
           "line": 742,
           "source": "file",
           "preview": "AIza************************5P6Q"
+        }
+      ]
+    },
+    {
+      "repo": "aprem01/aspire-emr",
+      "url": "https://github.com/aprem01/aspire-emr",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.07,
+      "exposureScore": 52,
+      "topTypes": [
+        "PostgreSQL Connection URI",
+        "Anthropic API Key"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2,
+        "Anthropic API Key": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "aspire-emr-main/backend/models/__init__.py",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "aspire-emr-main/docker-compose.yml",
+          "line": 25,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "Anthropic API Key",
+          "file": "aspire-emr-main/docker-compose.yml",
+          "line": 27,
+          "source": "file",
+          "preview": "sk-a************************KgAA"
         }
       ]
     },
@@ -3841,6 +3984,40 @@
           "line": 569,
           "source": "commit",
           "preview": "eyJh************************V4JQ"
+        }
+      ]
+    },
+    {
+      "repo": "Namitkumarkrrish/The-Gallery",
+      "url": "https://github.com/Namitkumarkrrish/The-Gallery",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 17.31,
+      "exposureScore": 52,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit ebdfe94",
+          "line": 180,
+          "source": "commit",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit ebdfe94",
+          "line": 183,
+          "source": "commit",
+          "preview": "mong************************7017"
         }
       ]
     },
@@ -4625,6 +4802,47 @@
           "line": 62,
           "source": "file",
           "preview": "AIza************************9wrk"
+        }
+      ]
+    },
+    {
+      "repo": "NikahPath/NikahPath",
+      "url": "https://github.com/NikahPath/NikahPath",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.39,
+      "exposureScore": 44,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 3
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "NikahPath-main/ios/GoogleService-Info.plist",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************GLxU"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "NikahPath-main/lib/firebase_options.dart",
+          "line": 45,
+          "source": "file",
+          "preview": "AIza************************AnvA"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "NikahPath-main/lib/firebase_options.dart",
+          "line": 57,
+          "source": "file",
+          "preview": "AIza************************nD6A"
         }
       ]
     },
@@ -7724,6 +7942,40 @@
       ]
     },
     {
+      "repo": "fyamash/minidrive",
+      "url": "https://github.com/fyamash/minidrive",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.37,
+      "exposureScore": 32,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "minidrive-main/README.md",
+          "line": 65,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "minidrive-main/k8s/api.yaml",
+          "line": 25,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "gurpartapxen/Cinebot",
       "url": "https://github.com/gurpartapxen/Cinebot",
       "status": "leaked",
@@ -8094,6 +8346,40 @@
           "line": 14,
           "source": "file",
           "preview": "8766************************qZKU"
+        }
+      ]
+    },
+    {
+      "repo": "pedroocastilho/url-shortener",
+      "url": "https://github.com/pedroocastilho/url-shortener",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.86,
+      "exposureScore": 32,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "url-shortener-main/.github/workflows/ci.yml",
+          "line": 58,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "url-shortener-main/docker-compose.yml",
+          "line": 37,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -9139,6 +9425,33 @@
       ]
     },
     {
+      "repo": "Dluxecarwash/sistema-de-autorizaci-n",
+      "url": "https://github.com/Dluxecarwash/sistema-de-autorizaci-n",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.84,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 2fa3335",
+          "line": 1367,
+          "source": "commit",
+          "preview": "AIza************************thYI"
+        }
+      ]
+    },
+    {
       "repo": "Dolcera1992/Dolcera",
       "url": "https://github.com/Dolcera1992/Dolcera",
       "status": "leaked",
@@ -9270,6 +9583,33 @@
           "line": 398,
           "source": "commit",
           "preview": "AIza************************QZvY"
+        }
+      ]
+    },
+    {
+      "repo": "Evin-Memoires1/evin-memoires",
+      "url": "https://github.com/Evin-Memoires1/evin-memoires",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.63,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 6035739",
+          "line": 404,
+          "source": "commit",
+          "preview": "AIza************************lb6E"
         }
       ]
     },
@@ -11623,6 +11963,33 @@
       ]
     },
     {
+      "repo": "bingxnoticenoreply-coder/vityazKLG",
+      "url": "https://github.com/bingxnoticenoreply-coder/vityazKLG",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.88,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "Commit 5714754",
+          "line": 64,
+          "source": "commit",
+          "preview": "eyJh************************mLKQ"
+        }
+      ]
+    },
+    {
       "repo": "bqnq-zqnq/bone-zone-cock-shot-meter",
       "url": "https://github.com/bqnq-zqnq/bone-zone-cock-shot-meter",
       "status": "leaked",
@@ -12082,6 +12449,33 @@
       ]
     },
     {
+      "repo": "daviyoneshige/sitepro",
+      "url": "https://github.com/daviyoneshige/sitepro",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.75,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 11088c0",
+          "line": 711,
+          "source": "commit",
+          "preview": "AIza************************hBcE"
+        }
+      ]
+    },
+    {
       "repo": "deepakkatal/DeekTalks-AI",
       "url": "https://github.com/deepakkatal/DeekTalks-AI",
       "status": "leaked",
@@ -12105,6 +12499,33 @@
           "line": 128,
           "source": "commit",
           "preview": "gsk_************************wB7U"
+        }
+      ]
+    },
+    {
+      "repo": "deepx18/resume-builder",
+      "url": "https://github.com/deepx18/resume-builder",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 6.18,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 1b585c7",
+          "line": 4402,
+          "source": "commit",
+          "preview": "AIza************************ixXA"
         }
       ]
     },
@@ -16807,6 +17228,60 @@
       ]
     },
     {
+      "repo": "sukyoungyoun/Candid-AI",
+      "url": "https://github.com/sukyoungyoun/Candid-AI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.48,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit e256ae8",
+          "line": 381,
+          "source": "commit",
+          "preview": "AIza************************V0-U"
+        }
+      ]
+    },
+    {
+      "repo": "suryesama-sketch/son-zeng-2",
+      "url": "https://github.com/suryesama-sketch/son-zeng-2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.72,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit d765c24",
+          "line": 465,
+          "source": "commit",
+          "preview": "AIza************************tf5A"
+        }
+      ]
+    },
+    {
       "repo": "tahirysmanalievdev-ops/sumbule-admin",
       "url": "https://github.com/tahirysmanalievdev-ops/sumbule-admin",
       "status": "leaked",
@@ -20367,6 +20842,33 @@
           "line": 3,
           "source": "file",
           "preview": "eyJh************************5ipo"
+        }
+      ]
+    },
+    {
+      "repo": "Johan-kabo/Etudiant-Inscrip",
+      "url": "https://github.com/Johan-kabo/Etudiant-Inscrip",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.76,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Etudiant-Inscrip-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************_abo"
         }
       ]
     },
@@ -25285,6 +25787,33 @@
       ]
     },
     {
+      "repo": "apoorvjain2911/AI-Internship-Automation-System",
+      "url": "https://github.com/apoorvjain2911/AI-Internship-Automation-System",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.46,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "AI-Internship-Automation-System-main/internship-frontend/src/test_gemini.py",
+          "line": 3,
+          "source": "file",
+          "preview": "AIza************************bwqg"
+        }
+      ]
+    },
+    {
       "repo": "architabiswal73-commits/Data-Analytics-ML-app",
       "url": "https://github.com/architabiswal73-commits/Data-Analytics-ML-app",
       "status": "leaked",
@@ -27090,6 +27619,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************PC-0"
+        }
+      ]
+    },
+    {
+      "repo": "einsteinxd18/BahrainOna",
+      "url": "https://github.com/einsteinxd18/BahrainOna",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.57,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "BahrainOna-main/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************A1G0"
         }
       ]
     },
