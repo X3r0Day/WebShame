@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-16T21:55:42.706333+00:00",
+  "generatedAt": "2026-03-16T22:25:26.154644+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -249,6 +249,68 @@
           "line": 2510,
           "source": "file",
           "preview": "eyJh************************yPw0"
+        }
+      ]
+    },
+    {
+      "repo": "BastaMasta/ShellDeck",
+      "url": "https://github.com/BastaMasta/ShellDeck",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 11,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 11,
+      "scanTimeSeconds": 102.52,
+      "exposureScore": 250,
+      "topTypes": [
+        "Discord Bot Token"
+      ],
+      "typeCounts": {
+        "Discord Bot Token": 11
+      },
+      "findings": [
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 5f1fc64",
+          "line": 374131,
+          "source": "commit",
+          "preview": "Moun************************6960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 5f1fc64",
+          "line": 374138,
+          "source": "commit",
+          "preview": "Moun************************1960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 5f1fc64",
+          "line": 374145,
+          "source": "commit",
+          "preview": "Moun************************6960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 5f1fc64",
+          "line": 374152,
+          "source": "commit",
+          "preview": "Moun************************1960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 5f1fc64",
+          "line": 374159,
+          "source": "commit",
+          "preview": "Moun************************6960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 5f1fc64",
+          "line": 374166,
+          "source": "commit",
+          "preview": "Moun************************1960"
         }
       ]
     },
@@ -4534,6 +4596,42 @@
       ]
     },
     {
+      "repo": "gangothri169/carrermainmirror",
+      "url": "https://github.com/gangothri169/carrermainmirror",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.12,
+      "exposureScore": 50,
+      "topTypes": [
+        "Google API/GCP Key",
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "carrermainmirror-main/firebase.js",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************kC70"
+        },
+        {
+          "type": "Groq API Key",
+          "file": "Commit 3cb3efe",
+          "line": 667,
+          "source": "commit",
+          "preview": "gsk_************************5rKM"
+        }
+      ]
+    },
+    {
       "repo": "jhonjoel/Proyecto-CLT",
       "url": "https://github.com/jhonjoel/Proyecto-CLT",
       "status": "leaked",
@@ -6520,6 +6618,42 @@
       ]
     },
     {
+      "repo": "imedaveo16/chekchek",
+      "url": "https://github.com/imedaveo16/chekchek",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.31,
+      "exposureScore": 40,
+      "topTypes": [
+        "Mapbox API Key",
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Mapbox API Key": 1,
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Mapbox API Key",
+          "file": "chekchek-main/constants.ts",
+          "line": 5,
+          "source": "file",
+          "preview": "pk.e************************P6Qw"
+        },
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "chekchek-main/supabaseClient.ts",
+          "line": 6,
+          "source": "file",
+          "preview": "eyJh************************jDO0"
+        }
+      ]
+    },
+    {
       "repo": "kangarooking/kg-api",
       "url": "https://github.com/kangarooking/kg-api",
       "status": "leaked",
@@ -7666,6 +7800,40 @@
           "line": 93,
           "source": "file",
           "preview": "mong************************net\""
+        }
+      ]
+    },
+    {
+      "repo": "StudioSoftware/ecoshop",
+      "url": "https://github.com/StudioSoftware/ecoshop",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.25,
+      "exposureScore": 32,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "ecoshop-main/config/database.yml",
+          "line": 73,
+          "source": "file",
+          "preview": "post************************host"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "ecoshop-main/config/database.yml",
+          "line": 91,
+          "source": "file",
+          "preview": "post************************6543"
         }
       ]
     },
@@ -10134,6 +10302,33 @@
       ]
     },
     {
+      "repo": "Keletsomalepe/Finance-Hub",
+      "url": "https://github.com/Keletsomalepe/Finance-Hub",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.8,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "Commit 1f479ed",
+          "line": 468,
+          "source": "commit",
+          "preview": "eyJh************************FAQ4"
+        }
+      ]
+    },
+    {
       "repo": "Kenzie-Informatika/tempmailV3.1",
       "url": "https://github.com/Kenzie-Informatika/tempmailV3.1",
       "status": "leaked",
@@ -10373,6 +10568,33 @@
           "line": 25,
           "source": "commit",
           "preview": "AIza************************tSyY"
+        }
+      ]
+    },
+    {
+      "repo": "NatalieParker/human-motion-simulator",
+      "url": "https://github.com/NatalieParker/human-motion-simulator",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.52,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit dfa5f5c",
+          "line": 318,
+          "source": "commit",
+          "preview": "AIza************************glsw"
         }
       ]
     },
@@ -13617,6 +13839,33 @@
       ]
     },
     {
+      "repo": "hugodubio/mystic-fyah-dash",
+      "url": "https://github.com/hugodubio/mystic-fyah-dash",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.64,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "Commit 9fc7ef2",
+          "line": 1520,
+          "source": "commit",
+          "preview": "eyJh************************xs0E"
+        }
+      ]
+    },
+    {
       "repo": "hunolatam-dev/colegio",
       "url": "https://github.com/hunolatam-dev/colegio",
       "status": "leaked",
@@ -14751,6 +15000,33 @@
       ]
     },
     {
+      "repo": "modalpixely/linkbio",
+      "url": "https://github.com/modalpixely/linkbio",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.95,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 6bc29aa",
+          "line": 357,
+          "source": "commit",
+          "preview": "AIza************************-Z68"
+        }
+      ]
+    },
+    {
       "repo": "moheeba1944-alt/moheeba1944-alt.github.io",
       "url": "https://github.com/moheeba1944-alt/moheeba1944-alt.github.io",
       "status": "leaked",
@@ -15233,6 +15509,33 @@
           "line": 94,
           "source": "commit",
           "preview": "AIza************************nDPY"
+        }
+      ]
+    },
+    {
+      "repo": "ncogxit-prog/FOXRANKRG",
+      "url": "https://github.com/ncogxit-prog/FOXRANKRG",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.07,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 01dffe4",
+          "line": 193,
+          "source": "commit",
+          "preview": "AIza************************uSkU"
         }
       ]
     },
@@ -18423,6 +18726,33 @@
       ]
     },
     {
+      "repo": "ASKANNN/student-service-mongo",
+      "url": "https://github.com/ASKANNN/student-service-mongo",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.25,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "student-service-mongo-mongo-storage/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************7017"
+        }
+      ]
+    },
+    {
       "repo": "Aaiz07/Tripkro",
       "url": "https://github.com/Aaiz07/Tripkro",
       "status": "leaked",
@@ -20606,6 +20936,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************qpok"
+        }
+      ]
+    },
+    {
+      "repo": "IDGS-803-23001508/examePizzas",
+      "url": "https://github.com/IDGS-803-23001508/examePizzas",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.87,
+      "exposureScore": 20,
+      "topTypes": [
+        "MySQL/MariaDB Connection URI"
+      ],
+      "typeCounts": {
+        "MySQL/MariaDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "examePizzas-main/config.py",
+          "line": 7,
+          "source": "file",
+          "preview": "mysq************************3306"
         }
       ]
     },
@@ -24332,6 +24689,33 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************3Dts"
+        }
+      ]
+    },
+    {
+      "repo": "TheWizazrdg1/SistemadeNotas",
+      "url": "https://github.com/TheWizazrdg1/SistemadeNotas",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 85.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "MySQL/MariaDB Connection URI"
+      ],
+      "typeCounts": {
+        "MySQL/MariaDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "SistemadeNotas-main/node_modules/mysql/Readme.md",
+          "line": 256,
+          "source": "file",
+          "preview": "mysq**************host"
         }
       ]
     },
@@ -33084,6 +33468,33 @@
       ]
     },
     {
+      "repo": "nikkomanffdd-jpg/mint-navigation13",
+      "url": "https://github.com/nikkomanffdd-jpg/mint-navigation13",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.48,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "mint-navigation13-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "nmas-safeus/NMAS-IDS-SYSTEM",
       "url": "https://github.com/nmas-safeus/NMAS-IDS-SYSTEM",
       "status": "leaked",
@@ -33188,6 +33599,33 @@
           "line": 31,
           "source": "file",
           "preview": "AIza************************JdKU"
+        }
+      ]
+    },
+    {
+      "repo": "okanyenigun/l3",
+      "url": "https://github.com/okanyenigun/l3",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 20.47,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "l3-master/mobile/app.json",
+          "line": 17,
+          "source": "file",
+          "preview": "AIza************************IDJA"
         }
       ]
     },
@@ -36158,6 +36596,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************PPEM"
+        }
+      ]
+    },
+    {
+      "repo": "vchakravarthula/Auto-Job-Finder-Application",
+      "url": "https://github.com/vchakravarthula/Auto-Job-Finder-Application",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.5,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Auto-Job-Finder-Application-master/JobAgent.Api/Services/appsettings.json",
+          "line": 3,
+          "source": "file",
+          "preview": "AIza************************wVDU"
         }
       ]
     },
