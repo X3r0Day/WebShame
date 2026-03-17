@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-17T11:12:03.214033+00:00",
+  "generatedAt": "2026-03-17T11:54:23.569342+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -2408,6 +2408,56 @@
           "line": 35426,
           "source": "commit",
           "preview": "AIza************************m4wk"
+        }
+      ]
+    },
+    {
+      "repo": "narangoo9/school-platform--backend-claude-",
+      "url": "https://github.com/narangoo9/school-platform--backend-claude-",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 2,
+      "scanTimeSeconds": 5.91,
+      "exposureScore": 84,
+      "topTypes": [
+        "Redis Connection URI (Password)",
+        "RabbitMQ/AMQP URI"
+      ],
+      "typeCounts": {
+        "Redis Connection URI (Password)": 2,
+        "RabbitMQ/AMQP URI": 2
+      },
+      "findings": [
+        {
+          "type": "Redis Connection URI (Password)",
+          "file": "school-platform--backend-claude--main/school-platform/docker-compose.yml",
+          "line": 118,
+          "source": "file",
+          "preview": "redi**********************6379"
+        },
+        {
+          "type": "RabbitMQ/AMQP URI",
+          "file": "school-platform--backend-claude--main/school-platform/docker-compose.yml",
+          "line": 123,
+          "source": "file",
+          "preview": "amqp************************5672"
+        },
+        {
+          "type": "Redis Connection URI (Password)",
+          "file": "Commit 0626fe2",
+          "line": 725,
+          "source": "commit",
+          "preview": "redi************************6379"
+        },
+        {
+          "type": "RabbitMQ/AMQP URI",
+          "file": "Commit 0626fe2",
+          "line": 1418,
+          "source": "commit",
+          "preview": "amqp************************5672"
         }
       ]
     },
@@ -14727,6 +14777,33 @@
           "line": 488,
           "source": "commit",
           "preview": "AIza************************RDU8"
+        }
+      ]
+    },
+    {
+      "repo": "cctonelli/participai",
+      "url": "https://github.com/cctonelli/participai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 7.87,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "Commit 3ff84a3",
+          "line": 99,
+          "source": "commit",
+          "preview": "eyJh************************Tn-Q"
         }
       ]
     },
