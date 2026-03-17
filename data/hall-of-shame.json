@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-17T07:27:21.252070+00:00",
+  "generatedAt": "2026-03-17T08:12:22.679064+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -5891,6 +5891,47 @@
       ]
     },
     {
+      "repo": "flykimjiwon/ModolRAG",
+      "url": "https://github.com/flykimjiwon/ModolRAG",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 19.46,
+      "exposureScore": 44,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 3
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "ModolRAG-main/README.md",
+          "line": 400,
+          "source": "file",
+          "preview": "post************************5439"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "ModolRAG-main/docs/MODOLAI_INTEGRATION.md",
+          "line": 44,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "ModolRAG-main/docs/MODOLAI_INTEGRATION.md",
+          "line": 115,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "hamdanm10/restaurant-menu-management-api",
       "url": "https://github.com/hamdanm10/restaurant-menu-management-api",
       "status": "leaked",
@@ -8697,6 +8738,40 @@
       ]
     },
     {
+      "repo": "Rachit15/pravi-hackathon",
+      "url": "https://github.com/Rachit15/pravi-hackathon",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 18.23,
+      "exposureScore": 32,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "pravi-hackathon-main/backend/src/scripts/seed.js",
+          "line": 5,
+          "source": "file",
+          "preview": "mong************************7017"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "pravi-hackathon-main/docker-compose.yml",
+          "line": 49,
+          "source": "file",
+          "preview": "mong************************7017"
+        }
+      ]
+    },
+    {
       "repo": "RudreshRajvansh/SponsorKiya-Complete",
       "url": "https://github.com/RudreshRajvansh/SponsorKiya-Complete",
       "status": "leaked",
@@ -8931,6 +9006,40 @@
           "line": 91,
           "source": "file",
           "preview": "post************************6543"
+        }
+      ]
+    },
+    {
+      "repo": "Tristan-DW/devkit",
+      "url": "https://github.com/Tristan-DW/devkit",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.26,
+      "exposureScore": 32,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "devkit-main/.github/workflows/ci.yml",
+          "line": 51,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "devkit-main/docker/compose.dev.yml",
+          "line": 12,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -18271,6 +18380,33 @@
       ]
     },
     {
+      "repo": "ro21proder/User-story",
+      "url": "https://github.com/ro21proder/User-story",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.66,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 6daa216",
+          "line": 105,
+          "source": "commit",
+          "preview": "AIza************************h-9w"
+        }
+      ]
+    },
+    {
       "repo": "ronysikder143/rony",
       "url": "https://github.com/ronysikder143/rony",
       "status": "leaked",
@@ -26884,6 +27020,60 @@
       ]
     },
     {
+      "repo": "Tristan-DW/nexus-api",
+      "url": "https://github.com/Tristan-DW/nexus-api",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.74,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "nexus-api-main/README.md",
+          "line": 103,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "Tristan-DW/schema-vault",
+      "url": "https://github.com/Tristan-DW/schema-vault",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.5,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "schema-vault-main/README.md",
+          "line": 105,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "UBX-CODE/adgenius-ai",
       "url": "https://github.com/UBX-CODE/adgenius-ai",
       "status": "leaked",
@@ -27069,6 +27259,33 @@
           "line": 31,
           "source": "file",
           "preview": "AIza************************8-wY"
+        }
+      ]
+    },
+    {
+      "repo": "VinCENTs11/studio",
+      "url": "https://github.com/VinCENTs11/studio",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.6,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "studio-main/src/firebase/config.ts",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************U-00"
         }
       ]
     },
@@ -31231,6 +31448,33 @@
       ]
     },
     {
+      "repo": "ghanygan/cuan-bot-expense",
+      "url": "https://github.com/ghanygan/cuan-bot-expense",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.76,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "cuan-bot-expense-main/README.md",
+          "line": 177,
+          "source": "file",
+          "preview": "post************************6543"
+        }
+      ]
+    },
+    {
       "repo": "giacomopesaro-collab/vivace_bambino",
       "url": "https://github.com/giacomopesaro-collab/vivace_bambino",
       "status": "leaked",
@@ -34305,6 +34549,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************bPMk"
+        }
+      ]
+    },
+    {
+      "repo": "kush-manish/AI-AGENT",
+      "url": "https://github.com/kush-manish/AI-AGENT",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.13,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "AI-AGENT-dev/services/scheduler/src/config.py",
+          "line": 8,
+          "source": "file",
+          "preview": "mong************************3270"
         }
       ]
     },
@@ -38922,6 +39193,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************68lk"
+        }
+      ]
+    },
+    {
+      "repo": "syahmisam/syahmi",
+      "url": "https://github.com/syahmisam/syahmi",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.24,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "syahmi-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************pWOg"
         }
       ]
     },
