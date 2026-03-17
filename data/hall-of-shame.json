@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-17T08:12:22.679064+00:00",
+  "generatedAt": "2026-03-17T09:14:34.909862+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -2129,6 +2129,63 @@
       ]
     },
     {
+      "repo": "Amrenderkumar/Backend_series",
+      "url": "https://github.com/Amrenderkumar/Backend_series",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 5,
+      "uniqueTypes": 2,
+      "filesAffected": 4,
+      "commitFindings": 1,
+      "scanTimeSeconds": 89.99,
+      "exposureScore": 86,
+      "topTypes": [
+        "MongoDB Connection URI",
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2,
+        "MongoDB Connection URI": 3
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Backend_series-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Backend_series-main/node_modules/mongoose/lib/connection.js",
+          "line": 341,
+          "source": "file",
+          "preview": "mong************************7017"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Backend_series-main/node_modules/mongoose/lib/mongoose.js",
+          "line": 371,
+          "source": "file",
+          "preview": "mong************************port"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Backend_series-main/node_modules/mongoose/lib/mongoose.js",
+          "line": 378,
+          "source": "file",
+          "preview": "mong************************port"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit cb19a2c",
+          "line": 57628,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "m-n-kagit/E-learning-Platform",
       "url": "https://github.com/m-n-kagit/E-learning-Platform",
       "status": "leaked",
@@ -2180,6 +2237,63 @@
           "type": "Private Key (RSA)",
           "file": "Commit 14a94ec",
           "line": 123990,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "malviyarohitttt/Code-17-02",
+      "url": "https://github.com/malviyarohitttt/Code-17-02",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 5,
+      "uniqueTypes": 2,
+      "filesAffected": 4,
+      "commitFindings": 1,
+      "scanTimeSeconds": 121.92,
+      "exposureScore": 86,
+      "topTypes": [
+        "MongoDB Connection URI",
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2,
+        "MongoDB Connection URI": 3
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Code-17-02-master/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Code-17-02-master/backend/node_modules/mongoose/lib/connection.js",
+          "line": 341,
+          "source": "file",
+          "preview": "mong************************7017"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Code-17-02-master/backend/node_modules/mongoose/lib/mongoose.js",
+          "line": 371,
+          "source": "file",
+          "preview": "mong************************port"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Code-17-02-master/backend/node_modules/mongoose/lib/mongoose.js",
+          "line": 378,
+          "source": "file",
+          "preview": "mong************************port"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 224e5c9",
+          "line": 64646,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -7502,6 +7616,42 @@
           "line": 4,
           "source": "file",
           "preview": "ghp_************************r678"
+        }
+      ]
+    },
+    {
+      "repo": "ThanhHiepNguyen/SWE",
+      "url": "https://github.com/ThanhHiepNguyen/SWE",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.76,
+      "exposureScore": 40,
+      "topTypes": [
+        "PostgreSQL Connection URI",
+        "Redis Connection URI (Password)"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1,
+        "Redis Connection URI (Password)": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "SWE-main/.env",
+          "line": 9,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "Redis Connection URI (Password)",
+          "file": "SWE-main/.env",
+          "line": 10,
+          "source": "file",
+          "preview": "redi***********************379\""
         }
       ]
     },
@@ -15005,6 +15155,33 @@
       ]
     },
     {
+      "repo": "ganges07/carbonwise-ai",
+      "url": "https://github.com/ganges07/carbonwise-ai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 12.45,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 5e1635c",
+          "line": 292,
+          "source": "commit",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "gaochen219/heartjar",
       "url": "https://github.com/gaochen219/heartjar",
       "status": "leaked",
@@ -21485,6 +21662,33 @@
       ]
     },
     {
+      "repo": "BNastarin2003/Main",
+      "url": "https://github.com/BNastarin2003/Main",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.25,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Main-main/mainn.py",
+          "line": 14,
+          "source": "file",
+          "preview": "8425************************7SkM"
+        }
+      ]
+    },
+    {
       "repo": "BODYKHALED2005/LECTUREMATEPR",
       "url": "https://github.com/BODYKHALED2005/LECTUREMATEPR",
       "status": "leaked",
@@ -21562,6 +21766,33 @@
           "line": 316,
           "source": "file",
           "preview": "pk.e************************xxxx"
+        }
+      ]
+    },
+    {
+      "repo": "Bernard-AI4PH/backend_render",
+      "url": "https://github.com/Bernard-AI4PH/backend_render",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.32,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "backend_render-main/README.md",
+          "line": 46,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -28910,6 +29141,33 @@
       ]
     },
     {
+      "repo": "ashutosh2500/softnexus-store",
+      "url": "https://github.com/ashutosh2500/softnexus-store",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.13,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "softnexus-store-main/js/firebase.js",
+          "line": 8,
+          "source": "file",
+          "preview": "AIza************************sVRU"
+        }
+      ]
+    },
+    {
       "repo": "asif9686708092-cpu/radar3",
       "url": "https://github.com/asif9686708092-cpu/radar3",
       "status": "leaked",
@@ -29203,6 +29461,33 @@
           "line": 2,
           "source": "file",
           "preview": "GOCS************************8ogo"
+        }
+      ]
+    },
+    {
+      "repo": "bdallhalqyadh58-ai/ffffffffffffffffffff",
+      "url": "https://github.com/bdallhalqyadh58-ai/ffffffffffffffffffff",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "ffffffffffffffffffff-main/main.py",
+          "line": 11,
+          "source": "file",
+          "preview": "8632************************p41I"
         }
       ]
     },
@@ -30989,6 +31274,33 @@
       ]
     },
     {
+      "repo": "exploitbit/imagemaker",
+      "url": "https://github.com/exploitbit/imagemaker",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.24,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "imagemaker-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "8716************************-RSk"
+        }
+      ]
+    },
+    {
       "repo": "exrm68/expert-garbanzo",
       "url": "https://github.com/exrm68/expert-garbanzo",
       "status": "leaked",
@@ -31606,6 +31918,33 @@
           "line": 17,
           "source": "file",
           "preview": "AIza************************_hVM"
+        }
+      ]
+    },
+    {
+      "repo": "gokulk18/Banking",
+      "url": "https://github.com/gokulk18/Banking",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 182.74,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Banking-main/docker-compose.yml",
+          "line": 361,
+          "source": "file",
+          "preview": "mong************************7017"
         }
       ]
     },
