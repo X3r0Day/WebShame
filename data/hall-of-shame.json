@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-17T17:41:45.170303+00:00",
+  "generatedAt": "2026-03-17T18:39:42.055753+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -5110,6 +5110,47 @@
       ]
     },
     {
+      "repo": "PedroFiu1712/gastos-personales",
+      "url": "https://github.com/PedroFiu1712/gastos-personales",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.93,
+      "exposureScore": 54,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 3
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "gastos-personales-main/README.md",
+          "line": 98,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "gastos-personales-main/README.md",
+          "line": 208,
+          "source": "file",
+          "preview": "post**********************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 235f52c",
+          "line": 89,
+          "source": "commit",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "infanteronald/plazbot-ai",
       "url": "https://github.com/infanteronald/plazbot-ai",
       "status": "leaked",
@@ -5903,6 +5944,40 @@
       ]
     },
     {
+      "repo": "parth-org/publicrepo222222",
+      "url": "https://github.com/parth-org/publicrepo222222",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 3.93,
+      "exposureScore": 52,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 687a5a5",
+          "line": 18,
+          "source": "commit",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 687a5a5",
+          "line": 19,
+          "source": "commit",
+          "preview": "mong************************7017"
+        }
+      ]
+    },
+    {
       "repo": "pedroscherdi/apppsssssss",
       "url": "https://github.com/pedroscherdi/apppsssssss",
       "status": "leaked",
@@ -6285,6 +6360,47 @@
           "line": 550,
           "source": "commit",
           "preview": "8222************************c1Lk"
+        }
+      ]
+    },
+    {
+      "repo": "Adhithya-Kanaksabai/attendance-tracker",
+      "url": "https://github.com/Adhithya-Kanaksabai/attendance-tracker",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.44,
+      "exposureScore": 44,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 3
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "attendance-tracker-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************DBvU"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "attendance-tracker-main/lib/firebase_options.dart",
+          "line": 44,
+          "source": "file",
+          "preview": "AIza************************ny5A"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "attendance-tracker-main/lib/firebase_options.dart",
+          "line": 61,
+          "source": "file",
+          "preview": "AIza************************-JTI"
         }
       ]
     },
@@ -8584,6 +8700,42 @@
           "line": 10,
           "source": "file",
           "preview": "redi***********************379\""
+        }
+      ]
+    },
+    {
+      "repo": "WildCODER-1/woop-client",
+      "url": "https://github.com/WildCODER-1/woop-client",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.62,
+      "exposureScore": 40,
+      "topTypes": [
+        "Supabase Anon Key (JWT)",
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1,
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "woop-client-main/.env",
+          "line": 6,
+          "source": "file",
+          "preview": "eyJh************************yaDM"
+        },
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "woop-client-main/.env",
+          "line": 7,
+          "source": "file",
+          "preview": "eyJh************************C1g0"
         }
       ]
     },
@@ -11604,6 +11756,33 @@
       ]
     },
     {
+      "repo": "Aaks-hatH/vulnbed",
+      "url": "https://github.com/Aaks-hatH/vulnbed",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 6.04,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 149330f",
+          "line": 635,
+          "source": "commit",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Agiddior/Sanayiibeta.0.0.1",
       "url": "https://github.com/Agiddior/Sanayiibeta.0.0.1",
       "status": "leaked",
@@ -13170,6 +13349,33 @@
       ]
     },
     {
+      "repo": "Jaykim2324/Humax-CRM",
+      "url": "https://github.com/Jaykim2324/Humax-CRM",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 9.71,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "Commit 1ccddc5",
+          "line": 776,
+          "source": "commit",
+          "preview": "eyJh************************ADkI"
+        }
+      ]
+    },
+    {
       "repo": "KINGXMAKER/bbo-content-drop",
       "url": "https://github.com/KINGXMAKER/bbo-content-drop",
       "status": "leaked",
@@ -13355,6 +13561,33 @@
           "line": 920,
           "source": "commit",
           "preview": "eyJh************************QXbU"
+        }
+      ]
+    },
+    {
+      "repo": "MatthewWC/task-tracker",
+      "url": "https://github.com/MatthewWC/task-tracker",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.12,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "Commit 3f011bb",
+          "line": 215,
+          "source": "commit",
+          "preview": "eyJh************************tZ-0"
         }
       ]
     },
@@ -14651,6 +14884,33 @@
           "line": 6793,
           "source": "commit",
           "preview": "eyJh************************nZHU"
+        }
+      ]
+    },
+    {
+      "repo": "achmadzaim81-collab/jadwal",
+      "url": "https://github.com/achmadzaim81-collab/jadwal",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.37,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "Commit 9c93385",
+          "line": 1306,
+          "source": "commit",
+          "preview": "eyJh************************sfvg"
         }
       ]
     },
@@ -16842,6 +17102,33 @@
       ]
     },
     {
+      "repo": "grupogsdev/grupogs-web",
+      "url": "https://github.com/grupogsdev/grupogs-web",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 12.52,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 663bdf7",
+          "line": 138,
+          "source": "commit",
+          "preview": "post*******************host"
+        }
+      ]
+    },
+    {
       "repo": "gxtexturas-cpu/ANIMES-B",
       "url": "https://github.com/gxtexturas-cpu/ANIMES-B",
       "status": "leaked",
@@ -18057,6 +18344,33 @@
       ]
     },
     {
+      "repo": "lalshinhzala1234/tradovaai",
+      "url": "https://github.com/lalshinhzala1234/tradovaai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.92,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 2a17492",
+          "line": 226,
+          "source": "commit",
+          "preview": "AIza************************OjYQ"
+        }
+      ]
+    },
+    {
       "repo": "logintomorashahah123/snaqchat",
       "url": "https://github.com/logintomorashahah123/snaqchat",
       "status": "leaked",
@@ -18269,6 +18583,33 @@
           "line": 501,
           "source": "commit",
           "preview": "AIza************************g12E"
+        }
+      ]
+    },
+    {
+      "repo": "mathis-site/testeeee",
+      "url": "https://github.com/mathis-site/testeeee",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 7.5,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit f879469",
+          "line": 3320,
+          "source": "commit",
+          "preview": "AIza************************iZmM"
         }
       ]
     },
@@ -20321,6 +20662,33 @@
           "line": 105,
           "source": "commit",
           "preview": "AIza************************h-9w"
+        }
+      ]
+    },
+    {
+      "repo": "rodrigoemardea-pixel/gestao_contratos",
+      "url": "https://github.com/rodrigoemardea-pixel/gestao_contratos",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.48,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit e6b242d",
+          "line": 878,
+          "source": "commit",
+          "preview": "AIza************************9uH8"
         }
       ]
     },
@@ -23970,6 +24338,33 @@
       ]
     },
     {
+      "repo": "CaptainPhantasy/A-TEAM",
+      "url": "https://github.com/CaptainPhantasy/A-TEAM",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.7,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "A-TEAM-feature-skills-enhancement/.claude/agents/03-scaffolding-expert.md",
+          "line": 57,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Cespial/demo-diamante",
       "url": "https://github.com/Cespial/demo-diamante",
       "status": "leaked",
@@ -26261,6 +26656,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************Nuao"
+        }
+      ]
+    },
+    {
+      "repo": "Kush1309/Devops-Project",
+      "url": "https://github.com/Kush1309/Devops-Project",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.9,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Devops-Project-main/Cloud-Native-DevOps-Pipeline-main/infrastructure/kubernetes/README.md",
+          "line": 49,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -30099,6 +30521,33 @@
       ]
     },
     {
+      "repo": "ViniciusMarcolongo/devroast",
+      "url": "https://github.com/ViniciusMarcolongo/devroast",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.88,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "devroast-master/specs/drizzle-orm-postgres-spec.md",
+          "line": 279,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Vishal-AFK21/e-commerce",
       "url": "https://github.com/Vishal-AFK21/e-commerce",
       "status": "leaked",
@@ -30851,6 +31300,33 @@
           "line": 44,
           "source": "file",
           "preview": "eyJh************************Wkuw"
+        }
+      ]
+    },
+    {
+      "repo": "aiforpeople/ProteusCore",
+      "url": "https://github.com/aiforpeople/ProteusCore",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.78,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "ProteusCore-main/.env",
+          "line": 5,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -33362,6 +33838,33 @@
           "line": 16,
           "source": "file",
           "preview": "7872************************Pia8"
+        }
+      ]
+    },
+    {
+      "repo": "dhanush-panneerselvam/Nandha-smart-canteen",
+      "url": "https://github.com/dhanush-panneerselvam/Nandha-smart-canteen",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 33.63,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "Nandha-smart-canteen-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************dX-E"
         }
       ]
     },
@@ -36660,6 +37163,33 @@
       ]
     },
     {
+      "repo": "jordansy1/calseta",
+      "url": "https://github.com/jordansy1/calseta",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 57.51,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "calseta-main/app/queue/backends/postgres.py",
+          "line": 45,
+          "source": "file",
+          "preview": "post*******************host"
+        }
+      ]
+    },
+    {
       "repo": "josielEJR/MiniBlog",
       "url": "https://github.com/josielEJR/MiniBlog",
       "status": "leaked",
@@ -37223,6 +37753,33 @@
           "line": 38,
           "source": "file",
           "preview": "AIza************************rAzQ"
+        }
+      ]
+    },
+    {
+      "repo": "kavisha2035/divya",
+      "url": "https://github.com/kavisha2035/divya",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 62.67,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "divya-main/magicaleye/test_supabase.py",
+          "line": 7,
+          "source": "file",
+          "preview": "eyJh************************ohd4"
         }
       ]
     },
@@ -38870,6 +39427,33 @@
           "line": 13,
           "source": "file",
           "preview": "AIza************************zrz0"
+        }
+      ]
+    },
+    {
+      "repo": "mathcerq/LeanAI",
+      "url": "https://github.com/mathcerq/LeanAI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.11,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "LeanAI-main/README.md",
+          "line": 69,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
