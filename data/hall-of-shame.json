@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-17T18:39:42.055753+00:00",
+  "generatedAt": "2026-03-17T19:42:11.813475+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -5110,6 +5110,47 @@
       ]
     },
     {
+      "repo": "Mahmod-mourad/nexus-api",
+      "url": "https://github.com/Mahmod-mourad/nexus-api",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.24,
+      "exposureScore": 54,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 3
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "nexus-api-main/.github/workflows/tests.yml",
+          "line": 55,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "nexus-api-main/docker-compose.yml",
+          "line": 27,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit b3b49c1",
+          "line": 99,
+          "source": "commit",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "PedroFiu1712/gastos-personales",
       "url": "https://github.com/PedroFiu1712/gastos-personales",
       "status": "leaked",
@@ -10108,6 +10149,40 @@
           "line": 49,
           "source": "file",
           "preview": "mong************************7017"
+        }
+      ]
+    },
+    {
+      "repo": "ReneMS/app_ToDo",
+      "url": "https://github.com/ReneMS/app_ToDo",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.56,
+      "exposureScore": 32,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "app_ToDo-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "app_ToDo-main/docker-compose.yml",
+          "line": 30,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -15644,6 +15719,33 @@
       ]
     },
     {
+      "repo": "bhatariv841-eng/Sol_Ai1",
+      "url": "https://github.com/bhatariv841-eng/Sol_Ai1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.88,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 939fcea",
+          "line": 41,
+          "source": "commit",
+          "preview": "AIza************************R9a8"
+        }
+      ]
+    },
+    {
       "repo": "bingxnoticenoreply-coder/vityazKLG",
       "url": "https://github.com/bingxnoticenoreply-coder/vityazKLG",
       "status": "leaked",
@@ -17719,6 +17821,33 @@
           "line": 86,
           "source": "commit",
           "preview": "AIza************************ZgeY"
+        }
+      ]
+    },
+    {
+      "repo": "jeffersonfbb1997/busu-crowd",
+      "url": "https://github.com/jeffersonfbb1997/busu-crowd",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.95,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit cb422c4",
+          "line": 84,
+          "source": "commit",
+          "preview": "AIza************************GPck"
         }
       ]
     },
@@ -20500,6 +20629,33 @@
           "line": 281,
           "source": "commit",
           "preview": "AIza************************CdDI"
+        }
+      ]
+    },
+    {
+      "repo": "razzomarina/diario-leituras",
+      "url": "https://github.com/razzomarina/diario-leituras",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 7.78,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 21893af",
+          "line": 781,
+          "source": "commit",
+          "preview": "AIza************************yvw0"
         }
       ]
     },
@@ -23443,6 +23599,33 @@
           "line": 104,
           "source": "file",
           "preview": "eyJh************************sw5c"
+        }
+      ]
+    },
+    {
+      "repo": "AhmedMohammedSaad/food-app",
+      "url": "https://github.com/AhmedMohammedSaad/food-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 23.66,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "food-app-main/lib/main.dart",
+          "line": 15,
+          "source": "file",
+          "preview": "eyJh************************xYzE"
         }
       ]
     },
@@ -27898,6 +28081,33 @@
           "line": 96,
           "source": "file",
           "preview": "AIza************************EG0Y"
+        }
+      ]
+    },
+    {
+      "repo": "Ngoctrum/windows-rdp-1773776171263",
+      "url": "https://github.com/Ngoctrum/windows-rdp-1773776171263",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.63,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "windows-rdp-1773776171263-main/.github/workflows/windows-rdp.yml",
+          "line": 301,
+          "source": "file",
+          "preview": "eyJh************************Wfh8"
         }
       ]
     },
@@ -32488,6 +32698,33 @@
           "line": 27,
           "source": "file",
           "preview": "8206************************KMw8"
+        }
+      ]
+    },
+    {
+      "repo": "axyenko/myprojektzxc",
+      "url": "https://github.com/axyenko/myprojektzxc",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.81,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "myprojektzxc-main/main \u2014 \u043a\u043e\u043f\u0438\u044f (2).py",
+          "line": 22,
+          "source": "file",
+          "preview": "8021************************dpWg"
         }
       ]
     },
@@ -38534,6 +38771,33 @@
           "type": "PostgreSQL Connection URI",
           "file": "Async-AI-Pipeline-master/.env",
           "line": 1,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "lcdeprojects/ab_sistema",
+      "url": "https://github.com/lcdeprojects/ab_sistema",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.22,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "ab_sistema-main/.env",
+          "line": 3,
           "source": "file",
           "preview": "post************************5432"
         }
