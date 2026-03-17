@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-17T03:36:06.904398+00:00",
+  "generatedAt": "2026-03-17T05:15:23.471208+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -6356,6 +6356,40 @@
           "line": 97,
           "source": "commit",
           "preview": "eyJh************************eeS4"
+        }
+      ]
+    },
+    {
+      "repo": "vamsisanni/taskmanger",
+      "url": "https://github.com/vamsisanni/taskmanger",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 65.43,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "taskmanger-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 57a08f5",
+          "line": 19738,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -19911,6 +19945,33 @@
       ]
     },
     {
+      "repo": "Abhilashchary/resume-screener",
+      "url": "https://github.com/Abhilashchary/resume-screener",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.18,
+      "exposureScore": 20,
+      "topTypes": [
+        "Anthropic API Key"
+      ],
+      "typeCounts": {
+        "Anthropic API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Anthropic API Key",
+          "file": "resume-screener-main/deploy.sh",
+          "line": 16,
+          "source": "file",
+          "preview": "sk-a************************EQAA"
+        }
+      ]
+    },
+    {
       "repo": "Abhin611/Interior-AI",
       "url": "https://github.com/Abhin611/Interior-AI",
       "status": "leaked",
@@ -20312,6 +20373,33 @@
           "line": 68,
           "source": "file",
           "preview": "post************************host"
+        }
+      ]
+    },
+    {
+      "repo": "Anir6800/CipherNet",
+      "url": "https://github.com/Anir6800/CipherNet",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.02,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "CipherNet-main/app.js",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************XObA"
         }
       ]
     },
@@ -28092,6 +28180,33 @@
       ]
     },
     {
+      "repo": "bakshi-harsh/ACRIS",
+      "url": "https://github.com/bakshi-harsh/ACRIS",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.16,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google OAuth Client Secret"
+      ],
+      "typeCounts": {
+        "Google OAuth Client Secret": 1
+      },
+      "findings": [
+        {
+          "type": "Google OAuth Client Secret",
+          "file": "ACRIS-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "GOCS************************8ogo"
+        }
+      ]
+    },
+    {
       "repo": "belieng/bananovcas",
       "url": "https://github.com/belieng/bananovcas",
       "status": "leaked",
@@ -29735,6 +29850,33 @@
           "line": 7,
           "source": "file",
           "preview": "6978*******************Qx8"
+        }
+      ]
+    },
+    {
+      "repo": "enuzeas/screen-solver",
+      "url": "https://github.com/enuzeas/screen-solver",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.49,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "screen-solver-master/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "AIza************************p7xU"
         }
       ]
     },
