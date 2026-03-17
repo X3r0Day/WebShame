@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-17T01:00:03.797974+00:00",
+  "generatedAt": "2026-03-17T03:36:06.904398+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -1880,6 +1880,70 @@
       ]
     },
     {
+      "repo": "sukanya-dwaraka/ResumeBuilder",
+      "url": "https://github.com/sukanya-dwaraka/ResumeBuilder",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 6,
+      "uniqueTypes": 2,
+      "filesAffected": 5,
+      "commitFindings": 0,
+      "scanTimeSeconds": 75.9,
+      "exposureScore": 88,
+      "topTypes": [
+        "MongoDB Connection URI",
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 4,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "ResumeBuilder-main/ResumeXpert/backend/config/db.js",
+          "line": 44,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "ResumeBuilder-main/ResumeXpert/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "ResumeBuilder-main/ResumeXpert/backend/node_modules/dotenv/README.md",
+          "line": 109,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "ResumeBuilder-main/ResumeXpert/backend/node_modules/mongoose/lib/connection.js",
+          "line": 337,
+          "source": "file",
+          "preview": "mong************************7017"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "ResumeBuilder-main/ResumeXpert/backend/node_modules/mongoose/lib/mongoose.js",
+          "line": 350,
+          "source": "file",
+          "preview": "mong************************port"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "ResumeBuilder-main/ResumeXpert/backend/node_modules/mongoose/lib/mongoose.js",
+          "line": 357,
+          "source": "file",
+          "preview": "mong************************port"
+        }
+      ]
+    },
+    {
       "repo": "Adam-S17/gymApp",
       "url": "https://github.com/Adam-S17/gymApp",
       "status": "leaked",
@@ -2698,6 +2762,61 @@
       ]
     },
     {
+      "repo": "Derrick-xn/AIClipperTemplate",
+      "url": "https://github.com/Derrick-xn/AIClipperTemplate",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 5,
+      "uniqueTypes": 1,
+      "filesAffected": 5,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.98,
+      "exposureScore": 68,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 5
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "AIClipperTemplate-main/.claude/agents/test-engineer.md",
+          "line": 822,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "AIClipperTemplate-main/.claude/commands/update-docs.md",
+          "line": 39,
+          "source": "file",
+          "preview": "post**********************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "AIClipperTemplate-main/.claude/skills/django-security/SKILL.md",
+          "line": 539,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "AIClipperTemplate-main/.claude/skills/django-verification/SKILL.md",
+          "line": 445,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "AIClipperTemplate-main/.claude/skills/docker-patterns/SKILL.md",
+          "line": 36,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Pranit-Jadhav/Getfly_Task",
       "url": "https://github.com/Pranit-Jadhav/Getfly_Task",
       "status": "leaked",
@@ -3456,6 +3575,42 @@
           "line": 10366,
           "source": "commit",
           "preview": "eyJh************************rmRw"
+        }
+      ]
+    },
+    {
+      "repo": "ahmadyanto79/decjsaja",
+      "url": "https://github.com/ahmadyanto79/decjsaja",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 4.04,
+      "exposureScore": 60,
+      "topTypes": [
+        "Telegram Bot Token",
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 05ecacd",
+          "line": 1193,
+          "source": "commit",
+          "preview": "7285************************qmhI"
+        },
+        {
+          "type": "GitHub Classic PAT",
+          "file": "Commit 05ecacd",
+          "line": 1392,
+          "source": "commit",
+          "preview": "ghp_************************EQVu"
         }
       ]
     },
@@ -11143,6 +11298,33 @@
       ]
     },
     {
+      "repo": "MendezDeLaCruzDavidEsneider/taller-supabase_d",
+      "url": "https://github.com/MendezDeLaCruzDavidEsneider/taller-supabase_d",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.52,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "Commit c79b9ab",
+          "line": 112,
+          "source": "commit",
+          "preview": "eyJh************************PMiQ"
+        }
+      ]
+    },
+    {
       "repo": "Min-Konny/Team-auto-split-tool-ahri-class",
       "url": "https://github.com/Min-Konny/Team-auto-split-tool-ahri-class",
       "status": "leaked",
@@ -12115,6 +12297,33 @@
       ]
     },
     {
+      "repo": "WHODABLA/THRONE-MARKETPLACE-",
+      "url": "https://github.com/WHODABLA/THRONE-MARKETPLACE-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.87,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 3af558b",
+          "line": 243,
+          "source": "commit",
+          "preview": "AIza************************z3iA"
+        }
+      ]
+    },
+    {
       "repo": "aasama02-05/PostCraftAi",
       "url": "https://github.com/aasama02-05/PostCraftAi",
       "status": "leaked",
@@ -12840,6 +13049,33 @@
           "line": 200,
           "source": "commit",
           "preview": "AIza************************H6Bk"
+        }
+      ]
+    },
+    {
+      "repo": "bcolhouer93-sudo/certops-academy",
+      "url": "https://github.com/bcolhouer93-sudo/certops-academy",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 8.86,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "Commit a8a03e1",
+          "line": 1495,
+          "source": "commit",
+          "preview": "eyJh************************N32g"
         }
       ]
     },
@@ -19162,6 +19398,33 @@
       ]
     },
     {
+      "repo": "y514756/SexyAI",
+      "url": "https://github.com/y514756/SexyAI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.49,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit f4eb2fe",
+          "line": 5959,
+          "source": "commit",
+          "preview": "AIza************************S6ZY"
+        }
+      ]
+    },
+    {
       "repo": "ydonga2377/ratatouille",
       "url": "https://github.com/ydonga2377/ratatouille",
       "status": "leaked",
@@ -21075,6 +21338,33 @@
           "line": 5,
           "source": "file",
           "preview": "AIza************************1LoI"
+        }
+      ]
+    },
+    {
+      "repo": "Earthiscool/BraxtonV1Chatbot",
+      "url": "https://github.com/Earthiscool/BraxtonV1Chatbot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.29,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "BraxtonV1Chatbot-main/ingest.py",
+          "line": 17,
+          "source": "file",
+          "preview": "AIza************************0BaU"
         }
       ]
     },
@@ -23127,6 +23417,33 @@
           "line": 835,
           "source": "file",
           "preview": "AIza************************UIqo"
+        }
+      ]
+    },
+    {
+      "repo": "MicaheDev/lingo-hands",
+      "url": "https://github.com/MicaheDev/lingo-hands",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 30.88,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "lingo-hands-master/app.py",
+          "line": 21,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
