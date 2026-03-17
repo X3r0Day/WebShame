@@ -25,25 +25,114 @@
         </nav>
       </header>
 
-      <main class="content">
-        <section class="page-header">
-          <h1>Leaderboards</h1>
-          <div class="meta-line" id="leaderboard-meta">Loading...</div>
+      <main class="content leaderboard">
+        <section class="page-header leaderboard-head">
+          <div>
+            <h1>Leaderboards</h1>
+            <div class="meta-line" id="leaderboard-meta">Loading...</div>
+          </div>
+          <p class="leaderboard-note">Where exposure concentrates and which repos need attention first.</p>
         </section>
 
-        <section class="rank-grid" aria-label="Leaderboards">
-          <div>
-            <h2>Most Exposed Keys</h2>
+        <section class="lb-top" aria-label="Leaderboard stats">
+          <div class="stat-grid">
+            <article class="stat-card">
+              <div class="stat-top">
+                <span>Leaks Found</span>
+              </div>
+              <div class="stat-value" id="stat-secrets">—</div>
+              <div class="stat-meta">Total exposed secrets</div>
+            </article>
+            <article class="stat-card">
+              <div class="stat-top">
+                <span>Repos With Leaks</span>
+              </div>
+              <div class="stat-value" id="stat-leaked-repos">—</div>
+              <div class="stat-meta">Repositories affected</div>
+            </article>
+            <article class="stat-card">
+              <div class="stat-top">
+                <span>Providers Detected</span>
+              </div>
+              <div class="stat-value" id="stat-providers">—</div>
+              <div class="stat-meta">Unique secret types</div>
+            </article>
+            <article class="stat-card">
+              <div class="stat-top">
+                <span>Repos Scanned</span>
+              </div>
+              <div class="stat-value" id="stat-scanned">—</div>
+              <div class="stat-meta">Latest crawl size</div>
+            </article>
+          </div>
+
+          <article class="activity-card">
+            <div class="card-head">
+              <div>
+                <h2>Leak Mix</h2>
+                <p class="card-meta">Severity share in the latest scan</p>
+              </div>
+              <span class="chip" id="mix-total">0 secrets</span>
+            </div>
+            <div class="mix-bar" aria-hidden="true">
+              <span class="mix-seg severity-critical" id="mix-critical"></span>
+              <span class="mix-seg severity-high" id="mix-high"></span>
+              <span class="mix-seg severity-medium" id="mix-medium"></span>
+              <span class="mix-seg severity-low" id="mix-low"></span>
+            </div>
+            <div class="mix-legend">
+              <div class="legend-item">
+                <span class="legend-dot severity-critical"></span>
+                <span>Critical</span>
+                <strong id="mix-count-critical">0</strong>
+              </div>
+              <div class="legend-item">
+                <span class="legend-dot severity-high"></span>
+                <span>High</span>
+                <strong id="mix-count-high">0</strong>
+              </div>
+              <div class="legend-item">
+                <span class="legend-dot severity-medium"></span>
+                <span>Medium</span>
+                <strong id="mix-count-medium">0</strong>
+              </div>
+              <div class="legend-item">
+                <span class="legend-dot severity-low"></span>
+                <span>Low</span>
+                <strong id="mix-count-low">0</strong>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="lb-main" aria-label="Leaderboards">
+          <article class="lb-card">
+            <div class="card-head">
+              <div>
+                <h2>Most Exposed Providers</h2>
+                <p class="card-meta">Top secret types by count</p>
+              </div>
+            </div>
             <ol class="rank-list" id="leaderboard-providers"></ol>
-          </div>
-          <div>
-            <h2>Top Repos</h2>
+          </article>
+          <article class="lb-card">
+            <div class="card-head">
+              <div>
+                <h2>Top Repos</h2>
+                <p class="card-meta">Highest number of secrets found</p>
+              </div>
+            </div>
             <ol class="rank-list" id="leaderboard-repos"></ol>
-          </div>
-          <div>
-            <h2>Top Users</h2>
+          </article>
+          <article class="lb-card">
+            <div class="card-head">
+              <div>
+                <h2>Top Users</h2>
+                <p class="card-meta">Owners with the most leaked repos</p>
+              </div>
+            </div>
             <ol class="rank-list" id="leaderboard-owners"></ol>
-          </div>
+          </article>
         </section>
       </main>
     </div>

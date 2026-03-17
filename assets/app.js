@@ -7,6 +7,11 @@ const state = {
   providerOptions: [],
 };
 
+const pagination = {
+  page: 1,
+  pageSize: 8,
+};
+
 const elements = {
   search: document.querySelector("#search-input"),
   severity: document.querySelector("#severity-filter"),
@@ -15,6 +20,10 @@ const elements = {
   sort: document.querySelector("#sort-select"),
   grid: document.querySelector("#repo-grid"),
   empty: document.querySelector("#empty-state"),
+  pager: document.querySelector("#repo-pager"),
+  pagerMeta: document.querySelector("#repo-pager-meta"),
+  pagerPrev: document.querySelector("#repo-prev"),
+  pagerNext: document.querySelector("#repo-next"),
   providerList: document.querySelector("#provider-list"),
   datasetMeta: document.querySelector("#dataset-meta"),
   statusBanner: document.querySelector("#status-banner"),
@@ -329,6 +338,24 @@ function matchesFilters(repo, filters) {
   return haystack.includes(filters.query);
 }
 
+function updatePager(total, startIndex, endIndex) {
+  if (!elements.pager || !elements.pagerMeta || !elements.pagerPrev || !elements.pagerNext) {
+    return;
+  }
+
+  if (!total) {
+    elements.pager.hidden = true;
+    return;
+  }
+
+  elements.pager.hidden = false;
+  const totalPages = Math.max(1, Math.ceil(total / pagination.pageSize));
+  const safeEnd = Math.min(endIndex, total);
+  elements.pagerMeta.textContent = `Showing ${startIndex + 1}-${safeEnd} of ${total} | Page ${pagination.page} of ${totalPages}`;
+  elements.pagerPrev.disabled = pagination.page <= 1;
+  elements.pagerNext.disabled = pagination.page >= totalPages;
+}
+
 function renderBoard() {
   const filters = getFilters();
   const filtered = sortRepos(
@@ -339,14 +366,26 @@ function renderBoard() {
   renderStats(filtered);
   renderProviderList(filtered);
 
-  if (!filtered.length) {
+  const total = filtered.length;
+  const totalPages = Math.max(1, Math.ceil(total / pagination.pageSize));
+  if (pagination.page > totalPages) {
+    pagination.page = totalPages;
+  }
+
+  if (!total) {
     elements.grid.innerHTML = "";
     elements.empty.hidden = false;
+    updatePager(0, 0, 0);
     return;
   }
 
   elements.empty.hidden = true;
-  elements.grid.innerHTML = filtered.map(renderRepoCard).join("");
+  const startIndex = (pagination.page - 1) * pagination.pageSize;
+  const endIndex = startIndex + pagination.pageSize;
+  const pageItems = filtered.slice(startIndex, endIndex);
+  elements.grid.innerHTML = pageItems.map(renderRepoCard).join("");
+
+  updatePager(total, startIndex, endIndex);
 }
 
 function populateProviderFilter(repos) {
@@ -398,12 +437,31 @@ async function loadDataset() {
   }
 }
 
+function handleFilterChange() {
+  pagination.page = 1;
+  renderBoard();
+}
+
 ["input", "change"].forEach((eventName) => {
-  elements.search.addEventListener(eventName, renderBoard);
-  elements.severity.addEventListener(eventName, renderBoard);
-  elements.provider.addEventListener(eventName, renderBoard);
-  elements.source.addEventListener(eventName, renderBoard);
-  elements.sort.addEventListener(eventName, renderBoard);
+  elements.search.addEventListener(eventName, handleFilterChange);
+  elements.severity.addEventListener(eventName, handleFilterChange);
+  elements.provider.addEventListener(eventName, handleFilterChange);
+  elements.source.addEventListener(eventName, handleFilterChange);
+  elements.sort.addEventListener(eventName, handleFilterChange);
 });
+
+if (elements.pagerPrev && elements.pagerNext) {
+  elements.pagerPrev.addEventListener("click", () => {
+    if (pagination.page > 1) {
+      pagination.page -= 1;
+      renderBoard();
+    }
+  });
+
+  elements.pagerNext.addEventListener("click", () => {
+    pagination.page += 1;
+    renderBoard();
+  });
+}
 
 loadDataset();

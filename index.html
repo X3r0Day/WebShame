@@ -36,6 +36,67 @@
       </header>
 
       <main class="content">
+        <section class="landing" aria-label="APISniffer overview">
+          <div class="landing-shell">
+            <div class="mission-panel">
+              <p class="eyebrow">The APISniffer Mission</p>
+              <h2>Visibility that helps teams defend fast.</h2>
+              <p class="mission-lede">
+                We surface public metadata so defenders can respond quickly without retaining code.
+              </p>
+              <ul class="mission-list">
+                <li>Secrets leak to public repos daily.</li>
+                <li>Attackers exploit instantly. Visibility enables defense.</li>
+                <li>No code retention. Public metadata only. Keys are always masked.</li>
+              </ul>
+            </div>
+
+            <div class="landing-column">
+              <h3>Things you can do here</h3>
+              <div class="tile-stack">
+                <article class="tile-card">
+                  <div class="tile-title">Explore real API key leaks</div>
+                  <p>Redacted previews with source links for investigation.</p>
+                </article>
+                <article class="tile-card">
+                  <div class="tile-title">Understand leak patterns</div>
+                  <p>Filter and sort to see where exposure happens most.</p>
+                </article>
+                <article class="tile-card">
+                  <div class="tile-title">Spread awareness</div>
+                  <p>Use real-world examples to improve security hygiene.</p>
+                </article>
+              </div>
+            </div>
+
+            <div class="landing-column">
+              <h3>Leak Anatomy</h3>
+              <div class="tile-stack">
+                <div class="anatomy-card">
+                  <span class="anatomy-label">Provider</span>
+                  <span class="anatomy-meta">Service or API type detected.</span>
+                </div>
+                <div class="anatomy-card">
+                  <span class="anatomy-label">Redacted Key</span>
+                  <span class="anatomy-meta">Masked preview only.</span>
+                </div>
+                <div class="anatomy-card">
+                  <span class="anatomy-label">Repository</span>
+                  <span class="anatomy-meta">Repo and owner details when public.</span>
+                </div>
+                <div class="anatomy-card">
+                  <span class="anatomy-label">Timestamp</span>
+                  <span class="anatomy-meta">Most recent scan time for context.</span>
+                </div>
+                <div class="anatomy-card">
+                  <span class="anatomy-label">Source Link</span>
+                  <span class="anatomy-meta">Public link for responsible follow-up.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section class="controls-panel" id="board" aria-label="Filters">
           <label class="control">
             <span>Search</span>
@@ -105,6 +166,13 @@
             <div class="repo-grid" id="repo-grid" aria-live="polite"></div>
             <div class="empty-state" id="empty-state" hidden>
               <h3>No matches.</h3>
+            </div>
+            <div class="pager" id="repo-pager" aria-label="Pagination" hidden>
+              <div class="pager-meta" id="repo-pager-meta">Page 1 of 1</div>
+              <div class="pager-controls">
+                <button class="pager-button" id="repo-prev" type="button">Prev</button>
+                <button class="pager-button" id="repo-next" type="button">Next</button>
+              </div>
             </div>
           </div>
         </section>
