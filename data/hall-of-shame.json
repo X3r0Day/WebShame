@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T22:03:00.501272+00:00",
+  "generatedAt": "2026-03-18T22:39:39.561497+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -9711,6 +9711,40 @@
       ]
     },
     {
+      "repo": "Art2857/test-work-journal",
+      "url": "https://github.com/Art2857/test-work-journal",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 10.76,
+      "exposureScore": 42,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "test-work-journal-main/docker-compose.yml",
+          "line": 19,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 99af9d3",
+          "line": 235,
+          "source": "commit",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Diganth07/hackandcrack-prototype",
       "url": "https://github.com/Diganth07/hackandcrack-prototype",
       "status": "leaked",
@@ -14307,6 +14341,40 @@
       ]
     },
     {
+      "repo": "Zirvego2/y-netici",
+      "url": "https://github.com/Zirvego2/y-netici",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 37.17,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "y-netici-main/android/app/src/main/AndroidManifest.xml",
+          "line": 29,
+          "source": "file",
+          "preview": "AIza************************TvCM"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "y-netici-main/ios/Runner/GoogleService-Info.plist",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************bIsk"
+        }
+      ]
+    },
+    {
       "repo": "aarishascension/RentMeRoom",
       "url": "https://github.com/aarishascension/RentMeRoom",
       "status": "leaked",
@@ -16845,6 +16913,33 @@
           "line": 1762,
           "source": "commit",
           "preview": "AIza************************dKJU"
+        }
+      ]
+    },
+    {
+      "repo": "Dadaman369/dadaman369.github.io",
+      "url": "https://github.com/Dadaman369/dadaman369.github.io",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.66,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 8d3b1a6",
+          "line": 305,
+          "source": "commit",
+          "preview": "8471************************d4ig"
         }
       ]
     },
@@ -22681,6 +22776,33 @@
       ]
     },
     {
+      "repo": "halilgoren20/neonglow",
+      "url": "https://github.com/halilgoren20/neonglow",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.37,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit ad48326",
+          "line": 4755,
+          "source": "commit",
+          "preview": "AIza************************jv0E"
+        }
+      ]
+    },
+    {
       "repo": "hamidurjmr/ff-tournament-app",
       "url": "https://github.com/hamidurjmr/ff-tournament-app",
       "status": "leaked",
@@ -23838,6 +23960,33 @@
           "line": 45,
           "source": "commit",
           "preview": "AIza************************WwLA"
+        }
+      ]
+    },
+    {
+      "repo": "kgruzdova/LLM-BOTS",
+      "url": "https://github.com/kgruzdova/LLM-BOTS",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 31.8,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 44943d3",
+          "line": 46,
+          "source": "commit",
+          "preview": "1234************************xxxx"
         }
       ]
     },
@@ -31452,6 +31601,33 @@
           "line": 240,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "BlackDzDev/AnimesWikiBlackDz",
+      "url": "https://github.com/BlackDzDev/AnimesWikiBlackDz",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.48,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "AnimesWikiBlackDz-main/firebase-config.js",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************f7OQ"
         }
       ]
     },
@@ -42364,6 +42540,33 @@
       ]
     },
     {
+      "repo": "cybertronic/redcache",
+      "url": "https://github.com/cybertronic/redcache",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 28.22,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "redcache-main/ENVIRONMENT-VARIABLES.md",
+          "line": 407,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "dadoobato1-dev/tz",
       "url": "https://github.com/dadoobato1-dev/tz",
       "status": "leaked",
@@ -43143,6 +43346,33 @@
           "line": 106,
           "source": "file",
           "preview": "AIza************************LNwU"
+        }
+      ]
+    },
+    {
+      "repo": "drk1233/ace-tech-insight",
+      "url": "https://github.com/drk1233/ace-tech-insight",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.31,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "ace-tech-insight-main/js/config.js",
+          "line": 7,
+          "source": "file",
+          "preview": "eyJh************************6f1c"
         }
       ]
     },
@@ -51351,6 +51581,33 @@
           "line": 5,
           "source": "file",
           "preview": "8666************************2uCE"
+        }
+      ]
+    },
+    {
+      "repo": "paxton-warin/Presidential-AI-Project",
+      "url": "https://github.com/paxton-warin/Presidential-AI-Project",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 29.25,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Presidential-AI-Project-main/utils/doctor_htmls.txt",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************TTMc"
         }
       ]
     },
