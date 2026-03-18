@@ -38,6 +38,37 @@ body {
   min-height: 100vh;
 }
 
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(226, 85, 69, 0.75) rgba(15, 18, 26, 0.6);
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgba(15, 18, 26, 0.6);
+  border-radius: 999px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgba(226, 85, 69, 0.95), rgba(210, 162, 75, 0.8));
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, rgba(226, 85, 69, 1), rgba(210, 162, 75, 0.95));
+  background-clip: content-box;
+}
+
+*::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
 body::before {
   content: "";
   position: fixed;
@@ -617,6 +648,7 @@ h2 {
   background: rgba(12, 14, 20, 0.7);
   display: grid;
   gap: 1rem;
+  min-width: 0;
 }
 
 .rank-list {
@@ -628,14 +660,16 @@ h2 {
 }
 
 .rank-row {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-rows: auto auto;
   align-items: center;
-  gap: 1rem;
+  gap: 0.35rem 1rem;
   padding: 0.7rem 0.9rem;
   border-radius: var(--radius-sm);
   border: 1px solid rgba(255, 255, 255, 0.08);
   background: rgba(9, 11, 16, 0.8);
+  overflow: hidden;
 }
 
 .rank-left {
@@ -665,6 +699,8 @@ h2 {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  min-width: 0;
+  flex: 1 1 auto;
 }
 
 .rank-name a {
@@ -676,23 +712,21 @@ h2 {
   text-decoration: underline;
 }
 
-.rank-right {
-  display: grid;
-  justify-items: end;
-  gap: 0.35rem;
-}
-
 .rank-count {
   color: var(--muted);
   font-variant-numeric: tabular-nums;
+  justify-self: end;
 }
 
 .rank-bar {
+  grid-column: 1 / -1;
   width: 120px;
+  max-width: 100%;
   height: 6px;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.08);
   overflow: hidden;
+  justify-self: end;
 }
 
 .rank-bar span {
@@ -1117,16 +1151,15 @@ h2 {
   }
 
   .rank-row {
-    flex-direction: column;
-    align-items: flex-start;
+    grid-template-columns: 1fr;
   }
 
-  .rank-right {
-    width: 100%;
-    justify-items: start;
+  .rank-count {
+    justify-self: start;
   }
 
   .rank-bar {
     width: 100%;
+    justify-self: stretch;
   }
 }

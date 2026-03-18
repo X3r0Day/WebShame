@@ -168,11 +168,9 @@ function renderRankList(items, element, formatter) {
             <span class="rank-badge">${index + 1}</span>
             <span class="rank-name">${label}</span>
           </div>
-          <div class="rank-right">
-            <span class="rank-count">${formatCount(count)}</span>
-            <div class="rank-bar" aria-hidden="true">
-              <span style="width: ${width}%"></span>
-            </div>
+          <span class="rank-count">${formatCount(count)}</span>
+          <div class="rank-bar" aria-hidden="true">
+            <span style="width: ${width}%"></span>
           </div>
         </li>
       `;
