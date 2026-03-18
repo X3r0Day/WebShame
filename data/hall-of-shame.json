@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T23:06:44.517718+00:00",
+  "generatedAt": "2026-03-18T23:43:09.057786+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -18048,6 +18048,33 @@
       ]
     },
     {
+      "repo": "JonaEmmOfCruzCerda/barberapp-api",
+      "url": "https://github.com/JonaEmmOfCruzCerda/barberapp-api",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 55.77,
+      "exposureScore": 30,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit daa799b",
+          "line": 2317,
+          "source": "commit",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "Josefinaruiz/jotzai",
       "url": "https://github.com/Josefinaruiz/jotzai",
       "status": "leaked",
@@ -18804,6 +18831,33 @@
       ]
     },
     {
+      "repo": "OSEOJ/Jeju_WindTurbine_Location_Selection",
+      "url": "https://github.com/OSEOJ/Jeju_WindTurbine_Location_Selection",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 70.56,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 609628e",
+          "line": 187,
+          "source": "commit",
+          "preview": "AIza************************qPo4"
+        }
+      ]
+    },
+    {
       "repo": "PATRICIORVH/modulo-07-08",
       "url": "https://github.com/PATRICIORVH/modulo-07-08",
       "status": "leaked",
@@ -18933,6 +18987,33 @@
           "type": "PostgreSQL Connection URI",
           "file": "Commit 83bd5bd",
           "line": 148,
+          "source": "commit",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "Prasannavattikoda-AI-ML/auto-messenger",
+      "url": "https://github.com/Prasannavattikoda-AI-ML/auto-messenger",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 18.12,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 3af8795",
+          "line": 694,
           "source": "commit",
           "preview": "post************************5432"
         }
