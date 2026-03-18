@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T22:39:39.561497+00:00",
+  "generatedAt": "2026-03-18T23:06:44.517718+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -754,6 +754,70 @@
           "line": 157,
           "source": "file",
           "preview": "post************************host"
+        }
+      ]
+    },
+    {
+      "repo": "paulanunes85/super-agentic-devops-world",
+      "url": "https://github.com/paulanunes85/super-agentic-devops-world",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 13,
+      "uniqueTypes": 2,
+      "filesAffected": 10,
+      "commitFindings": 0,
+      "scanTimeSeconds": 60.59,
+      "exposureScore": 172,
+      "topTypes": [
+        "PostgreSQL Connection URI",
+        "Google OAuth Access Token"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 12,
+        "Google OAuth Access Token": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "super-agentic-devops-world-main/en/world-2-underground/2-1-ambientes.md",
+          "line": 446,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "super-agentic-devops-world-main/en/world-2-underground/2-3-seguranca.md",
+          "line": 438,
+          "source": "file",
+          "preview": "post*******************host"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "super-agentic-devops-world-main/en/world-2-underground/2-BOSS-exercicios.md",
+          "line": 403,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "super-agentic-devops-world-main/en/world-3-sky/3-2-terminal.md",
+          "line": 805,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "super-agentic-devops-world-main/en/world-3-sky/3-3-docker.md",
+          "line": 680,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "super-agentic-devops-world-main/en/world-3-sky/3-4-testes.md",
+          "line": 646,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -7547,6 +7611,40 @@
           "line": 569,
           "source": "commit",
           "preview": "eyJh************************V4JQ"
+        }
+      ]
+    },
+    {
+      "repo": "Building-Blocks-GTC-Demo/jcullen-test-vuphh",
+      "url": "https://github.com/Building-Blocks-GTC-Demo/jcullen-test-vuphh",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 7.57,
+      "exposureScore": 52,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit dc37f56",
+          "line": 582,
+          "source": "commit",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit dc37f56",
+          "line": 598,
+          "source": "commit",
+          "preview": "post************************tech"
         }
       ]
     },
@@ -15769,6 +15867,40 @@
       ]
     },
     {
+      "repo": "vooitenkoo/Task-Tracker",
+      "url": "https://github.com/vooitenkoo/Task-Tracker",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.38,
+      "exposureScore": 32,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Task-Tracker-main/README.md",
+          "line": 25,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Task-Tracker-main/configs/docker.env",
+          "line": 4,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "xjw2005/RAGProjectHeiMa",
       "url": "https://github.com/xjw2005/RAGProjectHeiMa",
       "status": "leaked",
@@ -20261,6 +20393,33 @@
           "line": 100,
           "source": "commit",
           "preview": "AIza************************bmjw"
+        }
+      ]
+    },
+    {
+      "repo": "americanones22-cell/Location-your-love-",
+      "url": "https://github.com/americanones22-cell/Location-your-love-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.94,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 2e2b058",
+          "line": 413,
+          "source": "commit",
+          "preview": "8493************************we1s"
         }
       ]
     },
@@ -42918,6 +43077,33 @@
       ]
     },
     {
+      "repo": "deex01/penn-tools-team-8",
+      "url": "https://github.com/deex01/penn-tools-team-8",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.53,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "penn-tools-team-8-main/README.md",
+          "line": 33,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "denandy83/ToDoozy",
       "url": "https://github.com/denandy83/ToDoozy",
       "status": "leaked",
@@ -56144,6 +56330,33 @@
           "line": 1,
           "source": "file",
           "preview": "post************************5433"
+        }
+      ]
+    },
+    {
+      "repo": "wismerohnstad929-creator/DSF",
+      "url": "https://github.com/wismerohnstad929-creator/DSF",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.05,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "DSF-main/inicio/assets/index-CwqIvZ6s.js",
+          "line": 144,
+          "source": "file",
+          "preview": "eyJh************************GLZo"
         }
       ]
     },
