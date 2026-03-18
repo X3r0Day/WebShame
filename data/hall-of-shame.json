@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T20:58:44.524181+00:00",
+  "generatedAt": "2026-03-18T21:30:43.189444+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -17638,6 +17638,33 @@
       ]
     },
     {
+      "repo": "JK-SWE-Smith/django__channels_redis.48f0e0f1",
+      "url": "https://github.com/JK-SWE-Smith/django__channels_redis.48f0e0f1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 6.55,
+      "exposureScore": 30,
+      "topTypes": [
+        "Redis Connection URI (Password)"
+      ],
+      "typeCounts": {
+        "Redis Connection URI (Password)": 1
+      },
+      "findings": [
+        {
+          "type": "Redis Connection URI (Password)",
+          "file": "Commit cad75d2",
+          "line": 774,
+          "source": "commit",
+          "preview": "redi************************6379"
+        }
+      ]
+    },
+    {
       "repo": "JSK8887/Build-Your-Own-Intelligent-Image-Search-Engine",
       "url": "https://github.com/JSK8887/Build-Your-Own-Intelligent-Image-Search-Engine",
       "status": "leaked",
@@ -27651,6 +27678,33 @@
           "line": 168,
           "source": "commit",
           "preview": "AIza************************hBJ0"
+        }
+      ]
+    },
+    {
+      "repo": "sergemio/sezam-prep-manager",
+      "url": "https://github.com/sergemio/sezam-prep-manager",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 19.78,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 38dface",
+          "line": 98,
+          "source": "commit",
+          "preview": "AIza************************u3Hs"
         }
       ]
     },
@@ -41074,6 +41128,33 @@
       ]
     },
     {
+      "repo": "ber1kchik34/Server",
+      "url": "https://github.com/ber1kchik34/Server",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Server-main/bot(2).py",
+          "line": 27,
+          "source": "file",
+          "preview": "8618************************JRp4"
+        }
+      ]
+    },
+    {
       "repo": "bgm6000/google-routes-mcp",
       "url": "https://github.com/bgm6000/google-routes-mcp",
       "status": "leaked",
@@ -41772,6 +41853,60 @@
           "line": 291,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "chowfrancis/dealbridge",
+      "url": "https://github.com/chowfrancis/dealbridge",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.05,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "dealbridge-main/backend/alembic.ini",
+          "line": 6,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "chud-lori/finan-app",
+      "url": "https://github.com/chud-lori/finan-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.96,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "finan-app-main/DEVELOPER.md",
+          "line": 231,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -44719,6 +44854,33 @@
       ]
     },
     {
+      "repo": "heyab-gebremariam/stark-mcp-agent",
+      "url": "https://github.com/heyab-gebremariam/stark-mcp-agent",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 32.94,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "stark-mcp-agent-master/client/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************V9_U"
+        }
+      ]
+    },
+    {
       "repo": "hidytech-a11y/Ecommerce",
       "url": "https://github.com/hidytech-a11y/Ecommerce",
       "status": "leaked",
@@ -46686,6 +46848,33 @@
           "line": 4,
           "source": "file",
           "preview": "eyJh************************9Lxc"
+        }
+      ]
+    },
+    {
+      "repo": "kalfunakk-cmd/-",
+      "url": "https://github.com/kalfunakk-cmd/-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.09,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "--main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************z9KU"
         }
       ]
     },
@@ -51438,6 +51627,33 @@
           "line": 7,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "prince083/taskflow-api",
+      "url": "https://github.com/prince083/taskflow-api",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.8,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "taskflow-api-main/docker-compose.yml",
+          "line": 28,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
