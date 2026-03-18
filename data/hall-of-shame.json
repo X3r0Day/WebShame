@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T21:30:43.189444+00:00",
+  "generatedAt": "2026-03-18T22:03:00.501272+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -6364,6 +6364,54 @@
           "line": 258,
           "source": "file",
           "preview": "eyJh************************YYYY"
+        }
+      ]
+    },
+    {
+      "repo": "CodingGuyasdf098765/Logistic_Regression_Project",
+      "url": "https://github.com/CodingGuyasdf098765/Logistic_Regression_Project",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.47,
+      "exposureScore": 56,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 4
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Logistic_Regression_Project-main/README.es.md",
+          "line": 69,
+          "source": "file",
+          "preview": "post************************RTO>"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Logistic_Regression_Project-main/README.es.md",
+          "line": 72,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Logistic_Regression_Project-main/README.md",
+          "line": 69,
+          "source": "file",
+          "preview": "post************************ORT>"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Logistic_Regression_Project-main/README.md",
+          "line": 72,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -18340,6 +18388,33 @@
       ]
     },
     {
+      "repo": "NeurumAI/Urna-Escolar-Digital",
+      "url": "https://github.com/NeurumAI/Urna-Escolar-Digital",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 24.6,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "Commit b323ca7",
+          "line": 40,
+          "source": "commit",
+          "preview": "eyJh************************WF2w"
+        }
+      ]
+    },
+    {
       "repo": "NewDon23/lovesgees",
       "url": "https://github.com/NewDon23/lovesgees",
       "status": "leaked",
@@ -20010,6 +20085,33 @@
           "line": 4285,
           "source": "commit",
           "preview": "http************************0Y87"
+        }
+      ]
+    },
+    {
+      "repo": "alexaptrampin/FINALEXAPP",
+      "url": "https://github.com/alexaptrampin/FINALEXAPP",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 8.83,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "Commit dab6b43",
+          "line": 569,
+          "source": "commit",
+          "preview": "eyJh************************KczI"
         }
       ]
     },
@@ -26328,6 +26430,33 @@
           "line": 229,
           "source": "commit",
           "preview": "AIza************************4mB8"
+        }
+      ]
+    },
+    {
+      "repo": "premiumytgemini/final_cors",
+      "url": "https://github.com/premiumytgemini/final_cors",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.07,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 0d8aeeb",
+          "line": 85,
+          "source": "commit",
+          "preview": "http************************HFvx"
         }
       ]
     },
@@ -36214,6 +36343,33 @@
       ]
     },
     {
+      "repo": "Quizheadsboardgame/studio3",
+      "url": "https://github.com/Quizheadsboardgame/studio3",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.77,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "studio3-main/src/firebase/config.ts",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************EaiY"
+        }
+      ]
+    },
+    {
       "repo": "RadlyFrost/Weather-Telegram-bot",
       "url": "https://github.com/RadlyFrost/Weather-Telegram-bot",
       "status": "leaked",
@@ -38667,6 +38823,33 @@
           "line": 3,
           "source": "file",
           "preview": "8596************************KJrs"
+        }
+      ]
+    },
+    {
+      "repo": "Xeyaldi/qurulumtr",
+      "url": "https://github.com/Xeyaldi/qurulumtr",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.3,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "qurulumtr-main/main.py",
+          "line": 17,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
