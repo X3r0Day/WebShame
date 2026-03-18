@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T16:03:23.977195+00:00",
+  "generatedAt": "2026-03-18T16:54:15.634003+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -4039,6 +4039,54 @@
           "type": "Private Key (RSA)",
           "file": "Commit 00899c0",
           "line": 87267,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "roderick1996/repositorioesfmjdb",
+      "url": "https://github.com/roderick1996/repositorioesfmjdb",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 100.4,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "repositorioesfmjdb-main/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "repositorioesfmjdb-main/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 2a5edb3",
+          "line": 337761,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 2a5edb3",
+          "line": 338196,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -9864,6 +9912,40 @@
       ]
     },
     {
+      "repo": "chiragbidx/canvas-kit-atj",
+      "url": "https://github.com/chiragbidx/canvas-kit-atj",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 26.15,
+      "exposureScore": 42,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "canvas-kit-atj-main/README.md",
+          "line": 142,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit b88d1d6",
+          "line": 12526,
+          "source": "commit",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "chiragbidx/quickstack-bzo",
       "url": "https://github.com/chiragbidx/quickstack-bzo",
       "status": "leaked",
@@ -10508,6 +10590,42 @@
           "line": 1710,
           "source": "file",
           "preview": "http************************XXXX"
+        }
+      ]
+    },
+    {
+      "repo": "Alex14427/zypflow",
+      "url": "https://github.com/Alex14427/zypflow",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.74,
+      "exposureScore": 40,
+      "topTypes": [
+        "Supabase Anon Key (JWT)",
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1,
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "zypflow-main/AGENCY-BLUEPRINT.md",
+          "line": 77,
+          "source": "file",
+          "preview": "eyJh************************UYKE"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "zypflow-main/AGENCY-BLUEPRINT.md",
+          "line": 107,
+          "source": "file",
+          "preview": "AIza************************uHj0"
         }
       ]
     },
@@ -12648,6 +12766,40 @@
           "line": 27,
           "source": "file",
           "preview": "AIza************************MmLs"
+        }
+      ]
+    },
+    {
+      "repo": "Garcia-G-G/FeedBackMind",
+      "url": "https://github.com/Garcia-G-G/FeedBackMind",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.68,
+      "exposureScore": 32,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "FeedBackMind-main/feedbackmind/config/database.yml",
+          "line": 68,
+          "source": "file",
+          "preview": "post************************host"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "FeedBackMind-main/feedbackmind/config/database.yml",
+          "line": 82,
+          "source": "file",
+          "preview": "post************************host"
         }
       ]
     },
@@ -22110,6 +22262,33 @@
       ]
     },
     {
+      "repo": "julianalvarez369369-star/After-update-",
+      "url": "https://github.com/julianalvarez369369-star/After-update-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.95,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 06c4877",
+          "line": 2815,
+          "source": "commit",
+          "preview": "AIza************************GrCc"
+        }
+      ]
+    },
+    {
       "repo": "julieval09062013-hub/escala-azurita",
       "url": "https://github.com/julieval09062013-hub/escala-azurita",
       "status": "leaked",
@@ -24104,6 +24283,33 @@
           "line": 465,
           "source": "commit",
           "preview": "eyJh************************TS-0"
+        }
+      ]
+    },
+    {
+      "repo": "nik089/react-ai-chat",
+      "url": "https://github.com/nik089/react-ai-chat",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 6.89,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 91333c5",
+          "line": 15,
+          "source": "commit",
+          "preview": "AIza************************E2jQ"
         }
       ]
     },
@@ -26700,6 +26906,33 @@
       ]
     },
     {
+      "repo": "suryakun/fit-playground",
+      "url": "https://github.com/suryakun/fit-playground",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 15.41,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 83d57f8",
+          "line": 361,
+          "source": "commit",
+          "preview": "post************************4322"
+        }
+      ]
+    },
+    {
       "repo": "suryesama-sketch/son-zeng-2",
       "url": "https://github.com/suryesama-sketch/son-zeng-2",
       "status": "leaked",
@@ -27965,6 +28198,33 @@
           "line": 17,
           "source": "commit",
           "preview": "8786************************SSJQ"
+        }
+      ]
+    },
+    {
+      "repo": "zahrobhai5-code/Pehchan-",
+      "url": "https://github.com/zahrobhai5-code/Pehchan-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.18,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit d16ea3d",
+          "line": 330,
+          "source": "commit",
+          "preview": "AIza************************AXEo"
         }
       ]
     },
@@ -30692,6 +30952,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************FrhE"
+        }
+      ]
+    },
+    {
+      "repo": "G0rz/e-commerce-practice",
+      "url": "https://github.com/G0rz/e-commerce-practice",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.21,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "e-commerce-practice-main/README.md",
+          "line": 37,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -35282,6 +35569,33 @@
           "line": 5,
           "source": "file",
           "preview": "http************************Qez6"
+        }
+      ]
+    },
+    {
+      "repo": "Shivamahajan045/zerodha",
+      "url": "https://github.com/Shivamahajan045/zerodha",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 24.25,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "zerodha-main/backend/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -40601,6 +40915,33 @@
           "line": 40,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "dvanjev-lang/jeveren-f1a9c4a3",
+      "url": "https://github.com/dvanjev-lang/jeveren-f1a9c4a3",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.48,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "jeveren-f1a9c4a3-main/README.md",
+          "line": 128,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -48867,6 +49208,33 @@
       ]
     },
     {
+      "repo": "pselvam06/Learning_backend",
+      "url": "https://github.com/pselvam06/Learning_backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.79,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Learning_backend-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "putrakapanlagimxr3/pict-hncute",
       "url": "https://github.com/putrakapanlagimxr3/pict-hncute",
       "status": "leaked",
@@ -50537,6 +50905,33 @@
           "line": 4,
           "source": "file",
           "preview": "eyJh************************Nbq8"
+        }
+      ]
+    },
+    {
+      "repo": "sharada-l/ATS-Integration-Microservice-",
+      "url": "https://github.com/sharada-l/ATS-Integration-Microservice-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.02,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "ATS-Integration-Microservice--main/README (2).md",
+          "line": 81,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -52670,6 +53065,33 @@
           "line": 9,
           "source": "file",
           "preview": "8334************************qfB8"
+        }
+      ]
+    },
+    {
+      "repo": "wilmelinares/xperience-api",
+      "url": "https://github.com/wilmelinares/xperience-api",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.52,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "xperience-api-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "post************************5433"
         }
       ]
     },
