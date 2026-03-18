@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T20:11:26.574798+00:00",
+  "generatedAt": "2026-03-18T20:58:44.524181+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -6789,6 +6789,47 @@
           "line": 48,
           "source": "commit",
           "preview": "AIza************************E8wQ"
+        }
+      ]
+    },
+    {
+      "repo": "MKarthikeyanAI/agent-project",
+      "url": "https://github.com/MKarthikeyanAI/agent-project",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 21.91,
+      "exposureScore": 54,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 3
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "agent-project-main/CLAUDE.md",
+          "line": 89,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "agent-project-main/README.md",
+          "line": 100,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 2926ee2",
+          "line": 5771,
+          "source": "commit",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -14694,6 +14735,40 @@
       ]
     },
     {
+      "repo": "gabrielarepique/desarrollo_movil",
+      "url": "https://github.com/gabrielarepique/desarrollo_movil",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 22.15,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "desarrollo_movil-main/mobileApp/mobileApp/firebaseConfig.js",
+          "line": 10,
+          "source": "file",
+          "preview": "AIza************************33CE"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "desarrollo_movil-main/mobileApp/mobileApp/miApp/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************JVxA"
+        }
+      ]
+    },
+    {
       "repo": "giladco1234-commits/diranow",
       "url": "https://github.com/giladco1234-commits/diranow",
       "status": "leaked",
@@ -18585,6 +18660,33 @@
           "line": 130,
           "source": "commit",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "PubNubDevelopers/aisdr",
+      "url": "https://github.com/PubNubDevelopers/aisdr",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 16.51,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 663ba24",
+          "line": 244,
+          "source": "commit",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -23098,6 +23200,33 @@
       ]
     },
     {
+      "repo": "jekrejci-sys/prayer-client4",
+      "url": "https://github.com/jekrejci-sys/prayer-client4",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 16.23,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit bd517b2",
+          "line": 907,
+          "source": "commit",
+          "preview": "AIza************************dopU"
+        }
+      ]
+    },
+    {
       "repo": "jessicajoyandersen/denso-jp-s6",
       "url": "https://github.com/jessicajoyandersen/denso-jp-s6",
       "status": "leaked",
@@ -23580,6 +23709,33 @@
           "line": 45,
           "source": "commit",
           "preview": "AIza************************WwLA"
+        }
+      ]
+    },
+    {
+      "repo": "kimchi-terminal/midpoint-01",
+      "url": "https://github.com/kimchi-terminal/midpoint-01",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.23,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "Commit d91a9bc",
+          "line": 905,
+          "source": "commit",
+          "preview": "eyJh************************TdUc"
         }
       ]
     },
@@ -42322,6 +42478,33 @@
       ]
     },
     {
+      "repo": "devjassbns/Gmail-monitor",
+      "url": "https://github.com/devjassbns/Gmail-monitor",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.43,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google OAuth Client Secret"
+      ],
+      "typeCounts": {
+        "Google OAuth Client Secret": 1
+      },
+      "findings": [
+        {
+          "type": "Google OAuth Client Secret",
+          "file": "Gmail-monitor-main/app.py",
+          "line": 41,
+          "source": "file",
+          "preview": "GOCS************************XzRz"
+        }
+      ]
+    },
+    {
       "repo": "dhanush-panneerselvam/Nandha-smart-canteen",
       "url": "https://github.com/dhanush-panneerselvam/Nandha-smart-canteen",
       "status": "leaked",
@@ -44505,6 +44688,33 @@
           "line": 20,
           "source": "file",
           "preview": "eyJh************************MDnw"
+        }
+      ]
+    },
+    {
+      "repo": "henriquesilvaprimme/pagamento-seguro-primme-corretora",
+      "url": "https://github.com/henriquesilvaprimme/pagamento-seguro-primme-corretora",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.45,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "pagamento-seguro-primme-corretora-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************m5ls"
         }
       ]
     },
@@ -50260,6 +50470,33 @@
       ]
     },
     {
+      "repo": "onurbzkn/Capsul",
+      "url": "https://github.com/onurbzkn/Capsul",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.74,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Capsul-main/README.md",
+          "line": 1622,
+          "source": "file",
+          "preview": "AIza************************nIKY"
+        }
+      ]
+    },
+    {
       "repo": "orewagarou2/telegram-voucher-sell7",
       "url": "https://github.com/orewagarou2/telegram-voucher-sell7",
       "status": "leaked",
@@ -50499,6 +50736,33 @@
           "line": 6,
           "source": "file",
           "preview": "8541************************NYiE"
+        }
+      ]
+    },
+    {
+      "repo": "papai2023/nicm",
+      "url": "https://github.com/papai2023/nicm",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 19.69,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "nicm-main/config.js",
+          "line": 32,
+          "source": "file",
+          "preview": "AIza************************g7Gk"
         }
       ]
     },
@@ -55332,6 +55596,33 @@
           "line": 5,
           "source": "file",
           "preview": "eyJh************************C9Zs"
+        }
+      ]
+    },
+    {
+      "repo": "xdeleon04/ShopStack",
+      "url": "https://github.com/xdeleon04/ShopStack",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.33,
+      "exposureScore": 20,
+      "topTypes": [
+        "RabbitMQ/AMQP URI"
+      ],
+      "typeCounts": {
+        "RabbitMQ/AMQP URI": 1
+      },
+      "findings": [
+        {
+          "type": "RabbitMQ/AMQP URI",
+          "file": "ShopStack-main/.github/skills/aspire/references/architecture.md",
+          "line": 124,
+          "source": "file",
+          "preview": "amqp************************5672"
         }
       ]
     },
