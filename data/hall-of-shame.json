@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T13:21:22.047009+00:00",
+  "generatedAt": "2026-03-18T14:39:37.401462+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -8679,6 +8679,40 @@
       ]
     },
     {
+      "repo": "Anderson-Ad/Transacoes",
+      "url": "https://github.com/Anderson-Ad/Transacoes",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 29.95,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Transacoes-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 9e4757f",
+          "line": 11447,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "Diganth07/hackandcrack-prototype",
       "url": "https://github.com/Diganth07/hackandcrack-prototype",
       "status": "leaked",
@@ -8777,6 +8811,40 @@
           "line": 18717,
           "source": "commit",
           "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "Giddymax/PrimeMedia_Finance",
+      "url": "https://github.com/Giddymax/PrimeMedia_Finance",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 7.68,
+      "exposureScore": 42,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "PrimeMedia_Finance-main/DEPLOY.md",
+          "line": 48,
+          "source": "file",
+          "preview": "post************************tech"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit ffd04bc",
+          "line": 57,
+          "source": "commit",
+          "preview": "post************************tech"
         }
       ]
     },
@@ -17210,6 +17278,33 @@
       ]
     },
     {
+      "repo": "Tokita03/aurum-V2-",
+      "url": "https://github.com/Tokita03/aurum-V2-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.15,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "Commit ff61cb9",
+          "line": 397,
+          "source": "commit",
+          "preview": "eyJh************************D-zM"
+        }
+      ]
+    },
+    {
       "repo": "Two-Weeks-Team/build-web-app-810913",
       "url": "https://github.com/Two-Weeks-Team/build-web-app-810913",
       "status": "leaked",
@@ -17530,6 +17625,33 @@
           "line": 90,
           "source": "commit",
           "preview": "AIza************************n28Y"
+        }
+      ]
+    },
+    {
+      "repo": "a14a-org/omnirun-examples",
+      "url": "https://github.com/a14a-org/omnirun-examples",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.45,
+      "exposureScore": 30,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 1
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "Commit 9719c12",
+          "line": 803,
+          "source": "commit",
+          "preview": "http************************y%22"
         }
       ]
     },
@@ -19694,6 +19816,33 @@
       ]
     },
     {
+      "repo": "etitecnologies-sketch/sistema-eti",
+      "url": "https://github.com/etitecnologies-sketch/sistema-eti",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.49,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit b094b7f",
+          "line": 282,
+          "source": "commit",
+          "preview": "AIza************************-_wc"
+        }
+      ]
+    },
+    {
       "repo": "evanliaomusic/hongdousg",
       "url": "https://github.com/evanliaomusic/hongdousg",
       "status": "leaked",
@@ -21148,6 +21297,33 @@
           "line": 45,
           "source": "commit",
           "preview": "AIza************************-ZvM"
+        }
+      ]
+    },
+    {
+      "repo": "jvytrbl/ai-policy-helper",
+      "url": "https://github.com/jvytrbl/ai-policy-helper",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.86,
+      "exposureScore": 30,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "Commit 4bf6379",
+          "line": 103,
+          "source": "commit",
+          "preview": "sk-o************************4b27"
         }
       ]
     },
@@ -25364,6 +25540,33 @@
       ]
     },
     {
+      "repo": "srinivasan0077/RentEasy",
+      "url": "https://github.com/srinivasan0077/RentEasy",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 8.1,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "Commit 9bb3748",
+          "line": 122,
+          "source": "commit",
+          "preview": "eyJh************************JfI4"
+        }
+      ]
+    },
+    {
       "repo": "st3453/m",
       "url": "https://github.com/st3453/m",
       "status": "leaked",
@@ -25603,6 +25806,33 @@
           "line": 554,
           "source": "commit",
           "preview": "eyJh************************cT7Y"
+        }
+      ]
+    },
+    {
+      "repo": "takia24/ApexcifyTechnologys_AIStudentAssistantChatbot",
+      "url": "https://github.com/takia24/ApexcifyTechnologys_AIStudentAssistantChatbot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.87,
+      "exposureScore": 30,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "Commit ee069d5",
+          "line": 19,
+          "source": "commit",
+          "preview": "sk-o************************f5c7"
         }
       ]
     },
@@ -30764,6 +30994,33 @@
       ]
     },
     {
+      "repo": "KeirKhant/AFMS",
+      "url": "https://github.com/KeirKhant/AFMS",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.41,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "AFMS-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************Or0E"
+        }
+      ]
+    },
+    {
       "repo": "Keremcankrd/icinde-maskotu-olan-ve-bir-4323d504",
       "url": "https://github.com/Keremcankrd/icinde-maskotu-olan-ve-bir-4323d504",
       "status": "leaked",
@@ -35192,6 +35449,33 @@
       ]
     },
     {
+      "repo": "Yashpsct010/TwentiFi",
+      "url": "https://github.com/Yashpsct010/TwentiFi",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.21,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "TwentiFi-master/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************rSQM"
+        }
+      ]
+    },
+    {
       "repo": "Yashveer-dev/Adaptive-Quiz-Engine",
       "url": "https://github.com/Yashveer-dev/Adaptive-Quiz-Engine",
       "status": "leaked",
@@ -35728,6 +36012,33 @@
           "line": 94,
           "source": "file",
           "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "adekunleowoseni/nigeria-aml-compliance-platform",
+      "url": "https://github.com/adekunleowoseni/nigeria-aml-compliance-platform",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.1,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "nigeria-aml-compliance-platform-main/backend/app/config.py",
+          "line": 22,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -36457,6 +36768,33 @@
           "line": 82,
           "source": "file",
           "preview": "AIza************************7bVM"
+        }
+      ]
+    },
+    {
+      "repo": "amiiiirsaman/dll-advanced-pricing-engine",
+      "url": "https://github.com/amiiiirsaman/dll-advanced-pricing-engine",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.67,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "dll-advanced-pricing-engine-main/backend/app/core/config.py",
+          "line": 10,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -44777,6 +45115,33 @@
       ]
     },
     {
+      "repo": "mavuwam/transgo-transport-booking",
+      "url": "https://github.com/mavuwam/transgo-transport-booking",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 21.67,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "transgo-transport-booking-main/alembic.ini",
+          "line": 7,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "maxgonzalez08-crypto/finalactu",
       "url": "https://github.com/maxgonzalez08-crypto/finalactu",
       "status": "leaked",
@@ -47936,6 +48301,33 @@
       ]
     },
     {
+      "repo": "ri5pekt/ob-live-chat",
+      "url": "https://github.com/ri5pekt/ob-live-chat",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "ob-live-chat-main/docs/deploy.md",
+          "line": 131,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "rickbrooks-hill-ui/goals-aligned-ai",
       "url": "https://github.com/rickbrooks-hill-ui/goals-aligned-ai",
       "status": "leaked",
@@ -49984,6 +50376,33 @@
           "line": 65,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "titok25/ret",
+      "url": "https://github.com/titok25/ret",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 21.98,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "ret-main/assets/index-Coctv46U.js",
+          "line": 416,
+          "source": "file",
+          "preview": "eyJh************************AXV8"
         }
       ]
     },
