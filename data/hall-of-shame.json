@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T02:35:54.435512+00:00",
+  "generatedAt": "2026-03-19T04:41:24.340730+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -19493,6 +19493,33 @@
       ]
     },
     {
+      "repo": "ShivVerse16/User-admin",
+      "url": "https://github.com/ShivVerse16/User-admin",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.79,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "Commit f137276",
+          "line": 303,
+          "source": "commit",
+          "preview": "eyJh************************KHkw"
+        }
+      ]
+    },
+    {
       "repo": "Sirkil/haleon_testing",
       "url": "https://github.com/Sirkil/haleon_testing",
       "status": "leaked",
@@ -22135,6 +22162,33 @@
           "line": 4402,
           "source": "commit",
           "preview": "AIza************************ixXA"
+        }
+      ]
+    },
+    {
+      "repo": "demidenkomalsim886-svg/final",
+      "url": "https://github.com/demidenkomalsim886-svg/final",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.97,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit bcdee17",
+          "line": 31,
+          "source": "commit",
+          "preview": "AIza************************8kns"
         }
       ]
     },
@@ -27782,6 +27836,33 @@
       ]
     },
     {
+      "repo": "rockykitamura/cms-home-health-fetcher",
+      "url": "https://github.com/rockykitamura/cms-home-health-fetcher",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.43,
+      "exposureScore": 30,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit fa09507",
+          "line": 38,
+          "source": "commit",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "rodrigoemardea-pixel/gestao_contratos",
       "url": "https://github.com/rodrigoemardea-pixel/gestao_contratos",
       "status": "leaked",
@@ -30644,6 +30725,33 @@
       ]
     },
     {
+      "repo": "ABHAS-RGB/Web_dev_Assignment_1",
+      "url": "https://github.com/ABHAS-RGB/Web_dev_Assignment_1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.24,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Web_dev_Assignment_1-main/Backend/backend.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "ABISHEKM2295/consult",
       "url": "https://github.com/ABISHEKM2295/consult",
       "status": "leaked",
@@ -30914,6 +31022,33 @@
       ]
     },
     {
+      "repo": "Abhinaykalal/portfolio",
+      "url": "https://github.com/Abhinaykalal/portfolio",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.25,
+      "exposureScore": 20,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "portfolio-main/GROQ_SETUP.md",
+          "line": 17,
+          "source": "file",
+          "preview": "gsk_************************h6Jd"
+        }
+      ]
+    },
+    {
       "repo": "Accquit/Jarvis",
       "url": "https://github.com/Accquit/Jarvis",
       "status": "leaked",
@@ -31126,6 +31261,33 @@
           "line": 78,
           "source": "file",
           "preview": "eyJh************************WwpU"
+        }
+      ]
+    },
+    {
+      "repo": "Aiman-Momin/Collaborative-Whiteboard",
+      "url": "https://github.com/Aiman-Momin/Collaborative-Whiteboard",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.79,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Collaborative-Whiteboard-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************9UAQ"
         }
       ]
     },
@@ -44090,6 +44252,33 @@
       ]
     },
     {
+      "repo": "eastar2442-walter/ean-home",
+      "url": "https://github.com/eastar2442-walter/ean-home",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.32,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ean-home-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************jBmE"
+        }
+      ]
+    },
+    {
       "repo": "ebenoist42/wttj-bot",
       "url": "https://github.com/ebenoist42/wttj-bot",
       "status": "leaked",
@@ -49918,6 +50107,33 @@
           "line": 57,
           "source": "file",
           "preview": "AKIA************Z56B"
+        }
+      ]
+    },
+    {
+      "repo": "martahortencia676-blip/BarbeariaDoCesar",
+      "url": "https://github.com/martahortencia676-blip/BarbeariaDoCesar",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.5,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "BarbeariaDoCesar-main/src/firebase.js",
+          "line": 5,
+          "source": "file",
+          "preview": "AIza************************mEzU"
         }
       ]
     },
