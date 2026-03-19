@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T00:03:31.049931+00:00",
+  "generatedAt": "2026-03-19T02:35:54.435512+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -19763,6 +19763,33 @@
       ]
     },
     {
+      "repo": "Trace9095/gorge-guide",
+      "url": "https://github.com/Trace9095/gorge-guide",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 6.92,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 063f46a",
+          "line": 96,
+          "source": "commit",
+          "preview": "post*******************host"
+        }
+      ]
+    },
+    {
       "repo": "Two-Weeks-Team/build-web-app-810913",
       "url": "https://github.com/Two-Weeks-Team/build-web-app-810913",
       "status": "leaked",
@@ -21352,6 +21379,33 @@
           "line": 601,
           "source": "commit",
           "preview": "eyJh************************7O0Y"
+        }
+      ]
+    },
+    {
+      "repo": "boatkulrat184-sudo/my-trading-journal-backend",
+      "url": "https://github.com/boatkulrat184-sudo/my-trading-journal-backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 7.48,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 835af0d",
+          "line": 73,
+          "source": "commit",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -24862,6 +24916,33 @@
           "line": 2149,
           "source": "commit",
           "preview": "eyJh************************9mSU"
+        }
+      ]
+    },
+    {
+      "repo": "lucaslucena-la/Biblioteca-api",
+      "url": "https://github.com/lucaslucena-la/Biblioteca-api",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 8.55,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 82811fd",
+          "line": 179,
+          "source": "commit",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -56128,6 +56209,33 @@
           "line": 7,
           "source": "file",
           "preview": "AIza************************Kpos"
+        }
+      ]
+    },
+    {
+      "repo": "viduthminsara106-netizen/Amor",
+      "url": "https://github.com/viduthminsara106-netizen/Amor",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.35,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Amor-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************Si80"
         }
       ]
     },
