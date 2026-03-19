@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T10:44:56.178319+00:00",
+  "generatedAt": "2026-03-19T11:28:14.669689+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -13779,6 +13779,42 @@
       ]
     },
     {
+      "repo": "sanir321/dhangadi",
+      "url": "https://github.com/sanir321/dhangadi",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 24.61,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "dhangadi-main/README.md",
+          "line": 32,
+          "source": "file",
+          "preview": "8608************************DWPQ"
+        },
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "dhangadi-main/frontend/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************4ZBA"
+        }
+      ]
+    },
+    {
       "repo": "shreyaa-hub/Concept-Gap-Detection-System",
       "url": "https://github.com/shreyaa-hub/Concept-Gap-Detection-System",
       "status": "leaked",
@@ -14339,6 +14375,40 @@
           "line": 37,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "CommonCapital/Parking-Slots-System-powered-by-CV",
+      "url": "https://github.com/CommonCapital/Parking-Slots-System-powered-by-CV",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.54,
+      "exposureScore": 32,
+      "topTypes": [
+        "MySQL/MariaDB Connection URI"
+      ],
+      "typeCounts": {
+        "MySQL/MariaDB Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "Parking-Slots-System-powered-by-CV-main/vision-iq/SETUP.md",
+          "line": 74,
+          "source": "file",
+          "preview": "mysq************************3306"
+        },
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "Parking-Slots-System-powered-by-CV-main/vision-iq/SETUP.md",
+          "line": 381,
+          "source": "file",
+          "preview": "mysq************************3306"
         }
       ]
     },
@@ -16787,6 +16857,40 @@
           "line": 7,
           "source": "file",
           "preview": "eyJh************************t01I"
+        }
+      ]
+    },
+    {
+      "repo": "thanhluan88/bmad-blog",
+      "url": "https://github.com/thanhluan88/bmad-blog",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.36,
+      "exposureScore": 32,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "bmad-blog-master/scripts/migrate-deploy.sh",
+          "line": 7,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "bmad-blog-master/scripts/start-postgres.ps1",
+          "line": 17,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -25574,6 +25678,33 @@
       ]
     },
     {
+      "repo": "keremkero319-del/byrmtest",
+      "url": "https://github.com/keremkero319-del/byrmtest",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.46,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 4fe8550",
+          "line": 66,
+          "source": "commit",
+          "preview": "8643************************yKnQ"
+        }
+      ]
+    },
+    {
       "repo": "keszhongjiandong-dotcom/shs",
       "url": "https://github.com/keszhongjiandong-dotcom/shs",
       "status": "leaked",
@@ -26110,6 +26241,33 @@
           "line": 2274,
           "source": "commit",
           "preview": "eyJh************************grJ8"
+        }
+      ]
+    },
+    {
+      "repo": "lion391/sidequests",
+      "url": "https://github.com/lion391/sidequests",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.44,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit be4615a",
+          "line": 36,
+          "source": "commit",
+          "preview": "AIza************************V1hU"
         }
       ]
     },
@@ -31325,6 +31483,33 @@
       ]
     },
     {
+      "repo": "vinayjais81/spiritualcalifornia_devcode_2026",
+      "url": "https://github.com/vinayjais81/spiritualcalifornia_devcode_2026",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 34.02,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 417a3f4",
+          "line": 768,
+          "source": "commit",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "vinyaspoojary318-cloud/fabricane",
       "url": "https://github.com/vinyaspoojary318-cloud/fabricane",
       "status": "leaked",
@@ -33805,6 +33990,33 @@
           "line": 4,
           "source": "file",
           "preview": "eyJh************************X01A"
+        }
+      ]
+    },
+    {
+      "repo": "Charitha077/FaceSure_",
+      "url": "https://github.com/Charitha077/FaceSure_",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.6,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "FaceSure_-main/server/SECURITY_ANALYSIS.md",
+          "line": 50,
+          "source": "file",
+          "preview": "mong************************...\""
         }
       ]
     },
@@ -38642,6 +38854,33 @@
       ]
     },
     {
+      "repo": "Priyadharshini-006/Scribble",
+      "url": "https://github.com/Priyadharshini-006/Scribble",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.0,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Scribble-main/Scribble/app.py",
+          "line": 17,
+          "source": "file",
+          "preview": "AIza************************fDYg"
+        }
+      ]
+    },
+    {
       "repo": "Profulent/notes-backend",
       "url": "https://github.com/Profulent/notes-backend",
       "status": "leaked",
@@ -40046,6 +40285,33 @@
       ]
     },
     {
+      "repo": "Shrin-Fathima24/HomeAssist",
+      "url": "https://github.com/Shrin-Fathima24/HomeAssist",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.99,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "HomeAssist-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************5FF4"
+        }
+      ]
+    },
+    {
       "repo": "SidharthBScCS/Student-Management-System-UI",
       "url": "https://github.com/SidharthBScCS/Student-Management-System-UI",
       "status": "leaked",
@@ -40825,6 +41091,33 @@
           "line": 105,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "TuanTran-1212/HomeCook",
+      "url": "https://github.com/TuanTran-1212/HomeCook",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 29.01,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "HomeCook-main/api/index.js",
+          "line": 29,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -46333,6 +46626,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************PC-0"
+        }
+      ]
+    },
+    {
+      "repo": "efsilva0804/urnaEletronica",
+      "url": "https://github.com/efsilva0804/urnaEletronica",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.9,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "urnaEletronica-main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************gZ2A"
         }
       ]
     },
@@ -53006,6 +53326,33 @@
       ]
     },
     {
+      "repo": "mrdee04/tech-hub-ai",
+      "url": "https://github.com/mrdee04/tech-hub-ai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.96,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "tech-hub-ai-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************HEqk"
+        }
+      ]
+    },
+    {
       "repo": "mrstranger9/QuantAxis",
       "url": "https://github.com/mrstranger9/QuantAxis",
       "status": "leaked",
@@ -54869,6 +55216,33 @@
       ]
     },
     {
+      "repo": "prakar009/Inventory-Management",
+      "url": "https://github.com/prakar009/Inventory-Management",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Inventory-Management-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************Hpi4"
+        }
+      ]
+    },
+    {
       "repo": "prasant89/LoginWithFirebaseAndLocal",
       "url": "https://github.com/prasant89/LoginWithFirebaseAndLocal",
       "status": "leaked",
@@ -56728,6 +57102,33 @@
           "line": 1,
           "source": "file",
           "preview": "8085************************X9Ro"
+        }
+      ]
+    },
+    {
+      "repo": "sebaheymann/heyseo-mcp-google-search-console",
+      "url": "https://github.com/sebaheymann/heyseo-mcp-google-search-console",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.56,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google OAuth Client Secret"
+      ],
+      "typeCounts": {
+        "Google OAuth Client Secret": 1
+      },
+      "findings": [
+        {
+          "type": "Google OAuth Client Secret",
+          "file": "heyseo-mcp-google-search-console-main/gsc-project.md",
+          "line": 140,
+          "source": "file",
+          "preview": "GOCS************************wXyZ"
         }
       ]
     },
