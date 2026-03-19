@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-18T23:43:09.057786+00:00",
+  "generatedAt": "2026-03-19T00:03:31.049931+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -8091,6 +8091,40 @@
       ]
     },
     {
+      "repo": "joaoli13/constitutional-map-ai",
+      "url": "https://github.com/joaoli13/constitutional-map-ai",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 107.55,
+      "exposureScore": 52,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit dc80500",
+          "line": 622,
+          "source": "commit",
+          "preview": "post************************tech"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit dc80500",
+          "line": 623,
+          "source": "commit",
+          "preview": "post************************tech"
+        }
+      ]
+    },
+    {
       "repo": "nicholas577/Information-Sphere",
       "url": "https://github.com/nicholas577/Information-Sphere",
       "status": "leaked",
@@ -14911,6 +14945,40 @@
           "line": 12,
           "source": "file",
           "preview": "ghp_************************WXjM"
+        }
+      ]
+    },
+    {
+      "repo": "eanzhao/claude-code-notes",
+      "url": "https://github.com/eanzhao/claude-code-notes",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 20.34,
+      "exposureScore": 32,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "claude-code-notes-master/public/samples/mcp-server-example.md",
+          "line": 163,
+          "source": "file",
+          "preview": "post************************host"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "claude-code-notes-master/src/content/docs/mcp.md",
+          "line": 1329,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -22611,6 +22679,33 @@
       ]
     },
     {
+      "repo": "flaviopereira63/whaticketsaas661",
+      "url": "https://github.com/flaviopereira63/whaticketsaas661",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 60.49,
+      "exposureScore": 30,
+      "topTypes": [
+        "Redis Connection URI (Password)"
+      ],
+      "typeCounts": {
+        "Redis Connection URI (Password)": 1
+      },
+      "findings": [
+        {
+          "type": "Redis Connection URI (Password)",
+          "file": "Commit ffbeeb5",
+          "line": 2607,
+          "source": "commit",
+          "preview": "redi**********************6379"
+        }
+      ]
+    },
+    {
       "repo": "frempah/OKadaRidep4.gh",
       "url": "https://github.com/frempah/OKadaRidep4.gh",
       "status": "leaked",
@@ -29415,6 +29510,33 @@
       ]
     },
     {
+      "repo": "thecaKo/docs-pharmachatbot",
+      "url": "https://github.com/thecaKo/docs-pharmachatbot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 7.81,
+      "exposureScore": 30,
+      "topTypes": [
+        "RabbitMQ/AMQP URI"
+      ],
+      "typeCounts": {
+        "RabbitMQ/AMQP URI": 1
+      },
+      "findings": [
+        {
+          "type": "RabbitMQ/AMQP URI",
+          "file": "Commit b8f395a",
+          "line": 657,
+          "source": "commit",
+          "preview": "amqp************************5672"
+        }
+      ]
+    },
+    {
       "repo": "thecugatorFireLordMode/crk-kingdom",
       "url": "https://github.com/thecugatorFireLordMode/crk-kingdom",
       "status": "leaked",
@@ -31193,6 +31315,33 @@
           "line": 12,
           "source": "file",
           "preview": "AIza************************r1d0"
+        }
+      ]
+    },
+    {
+      "repo": "Amareswari-Potu24/mcp_server",
+      "url": "https://github.com/Amareswari-Potu24/mcp_server",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.75,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "mcp_server-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************HpJ8"
         }
       ]
     },
@@ -40566,6 +40715,33 @@
       ]
     },
     {
+      "repo": "alton15/recsys-pipeline",
+      "url": "https://github.com/alton15/recsys-pipeline",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 30.53,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "recsys-pipeline-main/docs/superpowers/plans/2026-03-18-recsys-pipeline.md",
+          "line": 299,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "altxz/expense-genius",
       "url": "https://github.com/altxz/expense-genius",
       "status": "leaked",
@@ -41615,6 +41791,33 @@
           "line": 5,
           "source": "file",
           "preview": "eyJh************************FrpY"
+        }
+      ]
+    },
+    {
+      "repo": "bahouadonald/vitejs-vite-pbtq3w3d",
+      "url": "https://github.com/bahouadonald/vitejs-vite-pbtq3w3d",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "vitejs-vite-pbtq3w3d-main/src/firebase.ts",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************t3SE"
         }
       ]
     },
