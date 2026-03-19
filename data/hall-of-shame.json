@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T04:41:24.340730+00:00",
+  "generatedAt": "2026-03-19T05:52:17.586586+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -1923,6 +1923,68 @@
           "line": 349,
           "source": "commit",
           "preview": "AIza************************N3So"
+        }
+      ]
+    },
+    {
+      "repo": "izzahnin/jb-backend",
+      "url": "https://github.com/izzahnin/jb-backend",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 9,
+      "uniqueTypes": 1,
+      "filesAffected": 5,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.1,
+      "exposureScore": 116,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 9
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "jb-backend-main/.env",
+          "line": 5,
+          "source": "file",
+          "preview": "post************************port"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "jb-backend-main/.env",
+          "line": 6,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "jb-backend-main/ENV_SETUP.md",
+          "line": 28,
+          "source": "file",
+          "preview": "post************************port"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "jb-backend-main/ENV_SETUP.md",
+          "line": 29,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "jb-backend-main/ENV_SETUP.md",
+          "line": 92,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "jb-backend-main/SETUP.md",
+          "line": 103,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -7679,6 +7741,40 @@
           "line": 94,
           "source": "commit",
           "preview": "mong**********************7017"
+        }
+      ]
+    },
+    {
+      "repo": "FernandoZnga/blockchain",
+      "url": "https://github.com/FernandoZnga/blockchain",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 26.9,
+      "exposureScore": 52,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit f04c138",
+          "line": 222,
+          "source": "commit",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit f04c138",
+          "line": 582,
+          "source": "commit",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -21140,6 +21236,33 @@
       ]
     },
     {
+      "repo": "baglity/game-hub",
+      "url": "https://github.com/baglity/game-hub",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.81,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit df1c61c",
+          "line": 1922,
+          "source": "commit",
+          "preview": "AIza************************_4do"
+        }
+      ]
+    },
+    {
       "repo": "baicaiacabbge/baicaiwzq",
       "url": "https://github.com/baicaiacabbge/baicaiwzq",
       "status": "leaked",
@@ -21892,6 +22015,33 @@
           "line": 3220,
           "source": "commit",
           "preview": "eyJh************************q328"
+        }
+      ]
+    },
+    {
+      "repo": "cmwalsher/mootracker",
+      "url": "https://github.com/cmwalsher/mootracker",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 6.02,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "Commit f12fbbe",
+          "line": 17,
+          "source": "commit",
+          "preview": "eyJh************************QlNQ"
         }
       ]
     },
@@ -26995,6 +27145,33 @@
           "line": 1015,
           "source": "commit",
           "preview": "AIza************************QaQk"
+        }
+      ]
+    },
+    {
+      "repo": "pradnyashil012/tarzanbd",
+      "url": "https://github.com/pradnyashil012/tarzanbd",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.2,
+      "exposureScore": 30,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 05bd96e",
+          "line": 1125,
+          "source": "commit",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -32858,6 +33035,33 @@
       ]
     },
     {
+      "repo": "DennisLZW/CRM_AI_demo_deployment",
+      "url": "https://github.com/DennisLZW/CRM_AI_demo_deployment",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.77,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "CRM_AI_demo_deployment-main/README.md",
+          "line": 31,
+          "source": "file",
+          "preview": "post************************5434"
+        }
+      ]
+    },
+    {
       "repo": "Desenvolvedor-Sas/Gerenciador-estoque",
       "url": "https://github.com/Desenvolvedor-Sas/Gerenciador-estoque",
       "status": "leaked",
@@ -37039,6 +37243,33 @@
           "line": 13,
           "source": "file",
           "preview": "AIza************************ep7Y"
+        }
+      ]
+    },
+    {
+      "repo": "Profulent/notes-backend",
+      "url": "https://github.com/Profulent/notes-backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 31.63,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "notes-backend-master/src/db/db.js",
+          "line": 5,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -44846,6 +45077,33 @@
       ]
     },
     {
+      "repo": "exrm68/fluffy-telegram",
+      "url": "https://github.com/exrm68/fluffy-telegram",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.71,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "fluffy-telegram-main/src/firebase.ts",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************3VyU"
+        }
+      ]
+    },
+    {
       "repo": "exrm68/glowing-parakeet",
       "url": "https://github.com/exrm68/glowing-parakeet",
       "status": "leaked",
@@ -46084,6 +46342,33 @@
           "line": 21,
           "source": "file",
           "preview": "eyJh************************bCtg"
+        }
+      ]
+    },
+    {
+      "repo": "hishammon2026/Movie-uploading-app",
+      "url": "https://github.com/hishammon2026/Movie-uploading-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.71,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Movie-uploading-app-main/index.js",
+          "line": 10,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -48811,6 +49096,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************s3gE"
+        }
+      ]
+    },
+    {
+      "repo": "kompot12345/COOKEDANDFRIED",
+      "url": "https://github.com/kompot12345/COOKEDANDFRIED",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.85,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "COOKEDANDFRIED-main/prisma.config.ts",
+          "line": 12,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -54782,6 +55094,33 @@
       ]
     },
     {
+      "repo": "sherozbek841-max/STEP-ACADEMY",
+      "url": "https://github.com/sherozbek841-max/STEP-ACADEMY",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.73,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "STEP-ACADEMY-main/main.py",
+          "line": 7,
+          "source": "file",
+          "preview": "8296************************oSJ8"
+        }
+      ]
+    },
+    {
       "repo": "shibili07/POS_HYSOMER",
       "url": "https://github.com/shibili07/POS_HYSOMER",
       "status": "leaked",
@@ -56425,6 +56764,33 @@
           "line": 7,
           "source": "file",
           "preview": "AIza************************Kpos"
+        }
+      ]
+    },
+    {
+      "repo": "vidisha2946/task-cloud",
+      "url": "https://github.com/vidisha2946/task-cloud",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.05,
+      "exposureScore": 20,
+      "topTypes": [
+        "MySQL/MariaDB Connection URI"
+      ],
+      "typeCounts": {
+        "MySQL/MariaDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "task-cloud-main/README.md",
+          "line": 50,
+          "source": "file",
+          "preview": "mysq************************3306"
         }
       ]
     },
