@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T06:48:06.242175+00:00",
+  "generatedAt": "2026-03-19T07:42:58.596087+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -15943,6 +15943,40 @@
       ]
     },
     {
+      "repo": "pablo-clueless/arc-lms",
+      "url": "https://github.com/pablo-clueless/arc-lms",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.78,
+      "exposureScore": 32,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "arc-lms-main/Makefile",
+          "line": 19,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "arc-lms-main/docker-compose.yml",
+          "line": 10,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "pedroocastilho/url-shortener",
       "url": "https://github.com/pedroocastilho/url-shortener",
       "status": "leaked",
@@ -17522,6 +17556,33 @@
           "line": 1762,
           "source": "commit",
           "preview": "AIza************************dKJU"
+        }
+      ]
+    },
+    {
+      "repo": "DSW-robinsonruiz/Asovid-Del-ruiz",
+      "url": "https://github.com/DSW-robinsonruiz/Asovid-Del-ruiz",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.62,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 36664de",
+          "line": 639,
+          "source": "commit",
+          "preview": "AIza************************2G6Y"
         }
       ]
     },
@@ -21167,6 +21228,33 @@
           "line": 5326,
           "source": "commit",
           "preview": "eyJh************************6vd4"
+        }
+      ]
+    },
+    {
+      "repo": "angelamaesy/deckdaddy",
+      "url": "https://github.com/angelamaesy/deckdaddy",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 7.45,
+      "exposureScore": 30,
+      "topTypes": [
+        "Anthropic API Key"
+      ],
+      "typeCounts": {
+        "Anthropic API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Anthropic API Key",
+          "file": "Commit 617d44d",
+          "line": 24,
+          "source": "commit",
+          "preview": "sk-a************************CAAA"
         }
       ]
     },
@@ -34671,6 +34759,33 @@
       ]
     },
     {
+      "repo": "HunterXIII/GoTasksmgr",
+      "url": "https://github.com/HunterXIII/GoTasksmgr",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.59,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "GoTasksmgr-main/main.go",
+          "line": 34,
+          "source": "file",
+          "preview": "post************************5433"
+        }
+      ]
+    },
+    {
       "repo": "HuseynovNemet/MillionaireGameBot",
       "url": "https://github.com/HuseynovNemet/MillionaireGameBot",
       "status": "leaked",
@@ -35072,6 +35187,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************otnM"
+        }
+      ]
+    },
+    {
+      "repo": "Ishipto-app/firebase-auth-angular-app",
+      "url": "https://github.com/Ishipto-app/firebase-auth-angular-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.95,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "firebase-auth-angular-app-main/angular.json",
+          "line": 25,
+          "source": "file",
+          "preview": "AIza************************FhUY"
         }
       ]
     },
@@ -35562,6 +35704,33 @@
       ]
     },
     {
+      "repo": "Keiko-ryuko/Hireflow-",
+      "url": "https://github.com/Keiko-ryuko/Hireflow-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.67,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Hireflow--main/firebase-applet-config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************Epbc"
+        }
+      ]
+    },
+    {
       "repo": "KeirKhant/AFMS",
       "url": "https://github.com/KeirKhant/AFMS",
       "status": "leaked",
@@ -35909,6 +36078,33 @@
           "line": 9,
           "source": "file",
           "preview": "gsk_************************3myu"
+        }
+      ]
+    },
+    {
+      "repo": "LowLow-35/flutter_lab_practical_1_d240097b",
+      "url": "https://github.com/LowLow-35/flutter_lab_practical_1_d240097b",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.21,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "flutter_lab_practical_1_d240097b-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************bVe8"
         }
       ]
     },
@@ -37610,6 +37806,33 @@
           "line": 4,
           "source": "file",
           "preview": "eyJh************************ddgA"
+        }
+      ]
+    },
+    {
+      "repo": "Pragyaladha/resume-analyzer",
+      "url": "https://github.com/Pragyaladha/resume-analyzer",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 54.36,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "resume-analyzer-main/resume/resume/settings.py",
+          "line": 131,
+          "source": "file",
+          "preview": "AIza************************Pv8M"
         }
       ]
     },
@@ -41583,6 +41806,33 @@
       ]
     },
     {
+      "repo": "alpha17-beast/Russianpanel",
+      "url": "https://github.com/alpha17-beast/Russianpanel",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.8,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Russianpanel-main/data.json",
+          "line": 2,
+          "source": "file",
+          "preview": "8612************************EO-s"
+        }
+      ]
+    },
+    {
       "repo": "alsamy23/Community-Census-Pro",
       "url": "https://github.com/alsamy23/Community-Census-Pro",
       "status": "leaked",
@@ -42605,6 +42855,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************xGis"
+        }
+      ]
+    },
+    {
+      "repo": "b-aser/ashTelegramBot",
+      "url": "https://github.com/b-aser/ashTelegramBot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.37,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "ashTelegramBot-main/README.md",
+          "line": 83,
+          "source": "file",
+          "preview": "8613************************BG0M"
         }
       ]
     },
@@ -47087,6 +47364,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************en6o"
+        }
+      ]
+    },
+    {
+      "repo": "hrishikheshpoondla-hub/med-app",
+      "url": "https://github.com/hrishikheshpoondla-hub/med-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.38,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "med-app-main/js/firebase-config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************Qoh0"
         }
       ]
     },
@@ -52514,6 +52818,33 @@
           "line": 29,
           "source": "file",
           "preview": "AIza************************T2Do"
+        }
+      ]
+    },
+    {
+      "repo": "olya457/ReagentExplorerCanada",
+      "url": "https://github.com/olya457/ReagentExplorerCanada",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 87.79,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ReagentExplorerCanada-main/android/app/src/main/AndroidManifest.xml",
+          "line": 15,
+          "source": "file",
+          "preview": "AIza************************FGfo"
         }
       ]
     },
