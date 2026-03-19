@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T16:49:28.240678+00:00",
+  "generatedAt": "2026-03-19T17:49:56.153052+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -125,6 +125,72 @@
           "line": 8,
           "source": "file",
           "preview": "8352************************tg-U"
+        }
+      ]
+    },
+    {
+      "repo": "elvergalargamzing-cpu/prisma",
+      "url": "https://github.com/elvergalargamzing-cpu/prisma",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 62,
+      "uniqueTypes": 3,
+      "filesAffected": 30,
+      "commitFindings": 0,
+      "scanTimeSeconds": 114.92,
+      "exposureScore": 768,
+      "topTypes": [
+        "PostgreSQL Connection URI",
+        "MySQL/MariaDB Connection URI",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 35,
+        "MySQL/MariaDB Connection URI": 24,
+        "MongoDB Connection URI": 3
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "prisma-main/.db.env",
+          "line": 4,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "prisma-main/.db.env",
+          "line": 8,
+          "source": "file",
+          "preview": "post************************5435"
+        },
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "prisma-main/.db.env",
+          "line": 11,
+          "source": "file",
+          "preview": "mysq************************3306"
+        },
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "prisma-main/.db.env",
+          "line": 15,
+          "source": "file",
+          "preview": "mysq************************3307"
+        },
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "prisma-main/.db.env",
+          "line": 18,
+          "source": "file",
+          "preview": "mysq************************4306"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "prisma-main/.db.env",
+          "line": 38,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -8693,6 +8759,40 @@
       ]
     },
     {
+      "repo": "ViegasD/ensaio",
+      "url": "https://github.com/ViegasD/ensaio",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 9.61,
+      "exposureScore": 52,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 207454f",
+          "line": 216,
+          "source": "commit",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 207454f",
+          "line": 1741,
+          "source": "commit",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "dport96/lms-autopilot",
       "url": "https://github.com/dport96/lms-autopilot",
       "status": "leaked",
@@ -12600,6 +12700,40 @@
           "line": 17,
           "source": "commit",
           "preview": "AIza************************P3Ug"
+        }
+      ]
+    },
+    {
+      "repo": "wastedpadre/studio",
+      "url": "https://github.com/wastedpadre/studio",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 18.87,
+      "exposureScore": 42,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "studio-main/src/firebase/config.ts",
+          "line": 5,
+          "source": "file",
+          "preview": "AIza************************2gt0"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit b035279",
+          "line": 125,
+          "source": "commit",
+          "preview": "AIza************************znIg"
         }
       ]
     },
@@ -22374,6 +22508,33 @@
       ]
     },
     {
+      "repo": "aakash0606/take-the-winner-card",
+      "url": "https://github.com/aakash0606/take-the-winner-card",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.66,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 274df7f",
+          "line": 277,
+          "source": "commit",
+          "preview": "AIza************************bjiw"
+        }
+      ]
+    },
+    {
       "repo": "aasama02-05/PostCraftAi",
       "url": "https://github.com/aasama02-05/PostCraftAi",
       "status": "leaked",
@@ -22775,6 +22936,33 @@
           "line": 159,
           "source": "commit",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "alirainnovationllp-netizen/alira",
+      "url": "https://github.com/alirainnovationllp-netizen/alira",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 33.5,
+      "exposureScore": 30,
+      "topTypes": [
+        "MySQL/MariaDB Connection URI"
+      ],
+      "typeCounts": {
+        "MySQL/MariaDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "Commit b107acb",
+          "line": 44,
+          "source": "commit",
+          "preview": "mysq************************3306"
         }
       ]
     },
@@ -26609,6 +26797,33 @@
           "line": 582,
           "source": "commit",
           "preview": "eyJh************************iR5U"
+        }
+      ]
+    },
+    {
+      "repo": "johnkuhl2012-arch/swwsswsw",
+      "url": "https://github.com/johnkuhl2012-arch/swwsswsw",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.87,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 6776ce3",
+          "line": 642,
+          "source": "commit",
+          "preview": "http************************ff5p"
         }
       ]
     },
@@ -30879,6 +31094,33 @@
       ]
     },
     {
+      "repo": "samettkarakus/cs2-skin-api",
+      "url": "https://github.com/samettkarakus/cs2-skin-api",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 8.04,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 87403da",
+          "line": 61,
+          "source": "commit",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "sampathshoepalace550-hub/sampath-shoe-place-admin",
       "url": "https://github.com/sampathshoepalace550-hub/sampath-shoe-place-admin",
       "status": "leaked",
@@ -33174,6 +33416,33 @@
       ]
     },
     {
+      "repo": "wolviesfitness/FX_Journal",
+      "url": "https://github.com/wolviesfitness/FX_Journal",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.29,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "Commit 71eda50",
+          "line": 4034,
+          "source": "commit",
+          "preview": "eyJh************************6JgQ"
+        }
+      ]
+    },
+    {
       "repo": "wunders-5/Bks-hub",
       "url": "https://github.com/wunders-5/Bks-hub",
       "status": "leaked",
@@ -33575,6 +33844,60 @@
           "line": 601,
           "source": "commit",
           "preview": "AIza************************KiQw"
+        }
+      ]
+    },
+    {
+      "repo": "0001153545-jpg/jjj",
+      "url": "https://github.com/0001153545-jpg/jjj",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.8,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "jjj-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************ID8o"
+        }
+      ]
+    },
+    {
+      "repo": "0nde/petrole3",
+      "url": "https://github.com/0nde/petrole3",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.55,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "petrole3-main/apps/api/alembic.ini",
+          "line": 3,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -36788,6 +37111,33 @@
           "line": 37,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "GabrielGabuu/Painel-Celcoin",
+      "url": "https://github.com/GabrielGabuu/Painel-Celcoin",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 27.26,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "Painel-Celcoin-main/.claude/settings.local.json",
+          "line": 21,
+          "source": "file",
+          "preview": "eyJh************************ZLzA"
         }
       ]
     },
@@ -42570,6 +42920,33 @@
       ]
     },
     {
+      "repo": "SyedKamilRaza/wgtech-backend",
+      "url": "https://github.com/SyedKamilRaza/wgtech-backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.6,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "wgtech-backend-master/config.dev.env",
+          "line": 8,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "Synaptixora/synaptixora-ai",
       "url": "https://github.com/Synaptixora/synaptixora-ai",
       "status": "leaked",
@@ -46427,6 +46804,33 @@
           "line": 10,
           "source": "file",
           "preview": "AIza************************PLdI"
+        }
+      ]
+    },
+    {
+      "repo": "bogatirevmaks2-del/tg_bot.py",
+      "url": "https://github.com/bogatirevmaks2-del/tg_bot.py",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.85,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "tg_bot.py-main/tg_bot.py",
+          "line": 24,
+          "source": "file",
+          "preview": "8678************************MPcE"
         }
       ]
     },
@@ -61466,6 +61870,33 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************oVuQ"
+        }
+      ]
+    },
+    {
+      "repo": "therealkratika/CarRental",
+      "url": "https://github.com/therealkratika/CarRental",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 25.66,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "CarRental-main/frontend/src/firebase.js",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************kbdQ"
         }
       ]
     },
