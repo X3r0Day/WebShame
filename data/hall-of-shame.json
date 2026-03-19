@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T07:42:58.596087+00:00",
+  "generatedAt": "2026-03-19T08:08:23.546645+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -40263,6 +40263,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************U-00"
+        }
+      ]
+    },
+    {
+      "repo": "VinayMarabe/CareerAI",
+      "url": "https://github.com/VinayMarabe/CareerAI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.36,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "CareerAI-main/backend/app/database.py",
+          "line": 7,
+          "source": "file",
+          "preview": "post************************5433"
         }
       ]
     },
