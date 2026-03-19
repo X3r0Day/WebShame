@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T08:08:23.546645+00:00",
+  "generatedAt": "2026-03-19T09:04:55.287378+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -1772,6 +1772,70 @@
       ]
     },
     {
+      "repo": "programmermanan2904/mightbee-backend-clean",
+      "url": "https://github.com/programmermanan2904/mightbee-backend-clean",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 7,
+      "uniqueTypes": 2,
+      "filesAffected": 5,
+      "commitFindings": 2,
+      "scanTimeSeconds": 163.67,
+      "exposureScore": 120,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4,
+        "MongoDB Connection URI": 3
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "mightbee-backend-clean-main/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "mightbee-backend-clean-main/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "mightbee-backend-clean-main/node_modules/mongoose/lib/connection.js",
+          "line": 341,
+          "source": "file",
+          "preview": "mong************************7017"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "mightbee-backend-clean-main/node_modules/mongoose/lib/mongoose.js",
+          "line": 371,
+          "source": "file",
+          "preview": "mong************************port"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "mightbee-backend-clean-main/node_modules/mongoose/lib/mongoose.js",
+          "line": 378,
+          "source": "file",
+          "preview": "mong************************port"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit a9c47c4",
+          "line": 71245,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "northstar-ai/agent-playground",
       "url": "https://github.com/northstar-ai/agent-playground",
       "status": "leaked",
@@ -3054,6 +3118,70 @@
           "type": "Private Key (RSA)",
           "file": "Commit 9a4d26e",
           "line": 68286,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "rishim-tech/Chat-App",
+      "url": "https://github.com/rishim-tech/Chat-App",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 6,
+      "uniqueTypes": 2,
+      "filesAffected": 5,
+      "commitFindings": 1,
+      "scanTimeSeconds": 172.42,
+      "exposureScore": 98,
+      "topTypes": [
+        "MongoDB Connection URI",
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2,
+        "MongoDB Connection URI": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Chat-App-master/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Chat-App-master/node_modules/mongoose/lib/connection.js",
+          "line": 341,
+          "source": "file",
+          "preview": "mong************************7017"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Chat-App-master/node_modules/mongoose/lib/mongoose.js",
+          "line": 371,
+          "source": "file",
+          "preview": "mong************************port"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Chat-App-master/node_modules/mongoose/lib/mongoose.js",
+          "line": 378,
+          "source": "file",
+          "preview": "mong************************port"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Chat-App-master/server/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit f26e393",
+          "line": 116477,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -10081,6 +10209,47 @@
           "type": "PostgreSQL Connection URI",
           "file": "project-rm-webhook-main/RAILWAY_DEPLOY.md",
           "line": 177,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "xemorph64/AI_b2",
+      "url": "https://github.com/xemorph64/AI_b2",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.28,
+      "exposureScore": 44,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 3
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "AI_b2-main/Untitled document.md",
+          "line": 250,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "AI_b2-main/prd.md",
+          "line": 257,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "AI_b2-main/prd.md",
+          "line": 258,
           "source": "file",
           "preview": "post************************5432"
         }
@@ -20256,6 +20425,33 @@
           "line": 50,
           "source": "commit",
           "preview": "AIza************************MSro"
+        }
+      ]
+    },
+    {
+      "repo": "TornGuard/opbet-keeper",
+      "url": "https://github.com/TornGuard/opbet-keeper",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.87,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit c1dbe2b",
+          "line": 59,
+          "source": "commit",
+          "preview": "post***********************host"
         }
       ]
     },
@@ -37675,6 +37871,33 @@
       ]
     },
     {
+      "repo": "Oumabrian/skylift-home-tuition",
+      "url": "https://github.com/Oumabrian/skylift-home-tuition",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.76,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "skylift-home-tuition-main/firebase-db.js",
+          "line": 28,
+          "source": "file",
+          "preview": "AIza************************6Wx4"
+        }
+      ]
+    },
+    {
       "repo": "Oumarzeini/trendi-blog",
       "url": "https://github.com/Oumarzeini/trendi-blog",
       "status": "leaked",
@@ -40749,6 +40972,33 @@
           "line": 4,
           "source": "file",
           "preview": "8617************************TWaA"
+        }
+      ]
+    },
+    {
+      "repo": "YuvaKrishnaS/Rust-resolution",
+      "url": "https://github.com/YuvaKrishnaS/Rust-resolution",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.62,
+      "exposureScore": 20,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 1
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "Rust-resolution-main/src/main.rs",
+          "line": 19,
+          "source": "file",
+          "preview": "http************************json"
         }
       ]
     },
@@ -47422,6 +47672,33 @@
       ]
     },
     {
+      "repo": "hritz23/WhatsappClone",
+      "url": "https://github.com/hritz23/WhatsappClone",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.89,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "WhatsappClone-main/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************M2Fs"
+        }
+      ]
+    },
+    {
       "repo": "hrosas-HD/quant-sharp-auditor",
       "url": "https://github.com/hrosas-HD/quant-sharp-auditor",
       "status": "leaked",
@@ -52791,6 +53068,33 @@
           "line": 31,
           "source": "file",
           "preview": "AIza************************JdKU"
+        }
+      ]
+    },
+    {
+      "repo": "ogsalmon/Kasse",
+      "url": "https://github.com/ogsalmon/Kasse",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.35,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Anon Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Anon Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Anon Key (JWT)",
+          "file": "Kasse-main/script.js",
+          "line": 4,
+          "source": "file",
+          "preview": "eyJh************************ZOPI"
         }
       ]
     },
