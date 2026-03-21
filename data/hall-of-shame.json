@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-21T21:49:51.781962+00:00",
+  "generatedAt": "2026-03-21T22:03:40.705648+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -12348,6 +12348,40 @@
           "line": 71725,
           "source": "commit",
           "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "SupratikPanuganti/fincrypt-wallet",
+      "url": "https://github.com/SupratikPanuganti/fincrypt-wallet",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 64.0,
+      "exposureScore": 42,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "fincrypt-wallet-main/backend/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 8717df4",
+          "line": 149,
+          "source": "commit",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -39947,6 +39981,33 @@
       ]
     },
     {
+      "repo": "Kariemo74/freebot",
+      "url": "https://github.com/Kariemo74/freebot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.7,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "freebot-main/bot.py",
+          "line": 6,
+          "source": "file",
+          "preview": "7981************************bTio"
+        }
+      ]
+    },
+    {
       "repo": "Kea335/LocationApp",
       "url": "https://github.com/Kea335/LocationApp",
       "status": "leaked",
@@ -44263,6 +44324,33 @@
           "line": 6,
           "source": "file",
           "preview": "eyJh************************jxgY"
+        }
+      ]
+    },
+    {
+      "repo": "SparkleButt747/ONI",
+      "url": "https://github.com/SparkleButt747/ONI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 39.24,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "ONI-master/evals/fixtures/critic_flags_hardcoded_credentials.yaml",
+          "line": 8,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -48637,6 +48725,33 @@
           "line": 189,
           "source": "file",
           "preview": "8630************************71hc"
+        }
+      ]
+    },
+    {
+      "repo": "bphansg/NewsDigest",
+      "url": "https://github.com/bphansg/NewsDigest",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.25,
+      "exposureScore": 20,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 1
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "NewsDigest-main/NewsDigest/Services/HackerNewsService.swift",
+          "line": 5,
+          "source": "file",
+          "preview": "http************************json"
         }
       ]
     },
@@ -61435,6 +61550,33 @@
           "line": 131,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "ricardobeat/tts",
+      "url": "https://github.com/ricardobeat/tts",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 150.39,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "tts-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "sk-o************************cab7"
         }
       ]
     },
