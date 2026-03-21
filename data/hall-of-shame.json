@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-21T20:06:04.653836+00:00",
+  "generatedAt": "2026-03-21T20:44:11.868759+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -10757,6 +10757,47 @@
           "line": 61,
           "source": "file",
           "preview": "AIza************************_l4A"
+        }
+      ]
+    },
+    {
+      "repo": "advfromua/demprojectsetup",
+      "url": "https://github.com/advfromua/demprojectsetup",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 96.73,
+      "exposureScore": 44,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 3
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "demprojectsetup-main/Code/08 Custom Actions/03 Finished Project/.github/actions/deploy-s3-javascript/node_modules/@octokit/auth-token/README.md",
+          "line": 61,
+          "source": "file",
+          "preview": "ghp_************************0000"
+        },
+        {
+          "type": "GitHub Classic PAT",
+          "file": "demprojectsetup-main/Code/08 Custom Actions/03 Finished Project/.github/actions/deploy-s3-javascript/node_modules/@octokit/auth-token/README.md",
+          "line": 92,
+          "source": "file",
+          "preview": "ghs_************************0000"
+        },
+        {
+          "type": "GitHub Classic PAT",
+          "file": "demprojectsetup-main/Code/08 Custom Actions/03 Finished Project/.github/actions/deploy-s3-javascript/node_modules/@octokit/auth-token/README.md",
+          "line": 100,
+          "source": "file",
+          "preview": "ghu_************************0000"
         }
       ]
     },
@@ -40503,6 +40544,33 @@
       ]
     },
     {
+      "repo": "ManriqueRecinos/learning_sv",
+      "url": "https://github.com/ManriqueRecinos/learning_sv",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.86,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "learning_sv-master/server/.env",
+          "line": 7,
+          "source": "file",
+          "preview": "post************************tech"
+        }
+      ]
+    },
+    {
       "repo": "Manuja1007/SkillSwap",
       "url": "https://github.com/Manuja1007/SkillSwap",
       "status": "leaked",
@@ -64182,6 +64250,33 @@
       ]
     },
     {
+      "repo": "vendaslifesolar-hue/sistemadeirrigacao",
+      "url": "https://github.com/vendaslifesolar-hue/sistemadeirrigacao",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.51,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "sistemadeirrigacao-main/server.js",
+          "line": 7,
+          "source": "file",
+          "preview": "8644************************Mx8Q"
+        }
+      ]
+    },
+    {
       "repo": "vidisha2946/task-cloud",
       "url": "https://github.com/vidisha2946/task-cloud",
       "status": "leaked",
@@ -64340,6 +64435,33 @@
           "line": 6,
           "source": "file",
           "preview": "8654************************cSRU"
+        }
+      ]
+    },
+    {
+      "repo": "viniciusroyalegt-maker/correios",
+      "url": "https://github.com/viniciusroyalegt-maker/correios",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 35.09,
+      "exposureScore": 20,
+      "topTypes": [
+        "Stripe Secret Key"
+      ],
+      "typeCounts": {
+        "Stripe Secret Key": 1
+      },
+      "findings": [
+        {
+          "type": "Stripe Secret Key",
+          "file": "correios-main/4/js/pix_service.js",
+          "line": 7,
+          "source": "file",
+          "preview": "sk_l************************4H6A"
         }
       ]
     },
