@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-21T19:12:58.327006+00:00",
+  "generatedAt": "2026-03-21T19:40:53.633769+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -1142,6 +1142,68 @@
           "line": 20848,
           "source": "commit",
           "preview": "AIza************************bUhE"
+        }
+      ]
+    },
+    {
+      "repo": "fade/dsmr-ucspi-ssl",
+      "url": "https://github.com/fade/dsmr-ucspi-ssl",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 6,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 6,
+      "scanTimeSeconds": 6.39,
+      "exposureScore": 140,
+      "topTypes": [
+        "Private Key (EC)"
+      ],
+      "typeCounts": {
+        "Private Key (EC)": 6
+      },
+      "findings": [
+        {
+          "type": "Private Key (EC)",
+          "file": "Commit 5dd2900",
+          "line": 1625,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (EC)",
+          "file": "Commit 5dd2900",
+          "line": 1639,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (EC)",
+          "file": "Commit 5dd2900",
+          "line": 1686,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (EC)",
+          "file": "Commit 5dd2900",
+          "line": 1700,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (EC)",
+          "file": "Commit 5dd2900",
+          "line": 2158,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (EC)",
+          "file": "Commit 5dd2900",
+          "line": 2172,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -28392,6 +28454,33 @@
       ]
     },
     {
+      "repo": "lisa567567/StudyFlow",
+      "url": "https://github.com/lisa567567/StudyFlow",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 121.68,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit f12efc1",
+          "line": 25521,
+          "source": "commit",
+          "preview": "AIza************************Elo4"
+        }
+      ]
+    },
+    {
       "repo": "logintomorashahah123/snaqchat",
       "url": "https://github.com/logintomorashahah123/snaqchat",
       "status": "leaked",
@@ -36816,6 +36905,33 @@
       ]
     },
     {
+      "repo": "CholakDev/MySneakerShop",
+      "url": "https://github.com/CholakDev/MySneakerShop",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.78,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "MySneakerShop-main/bot_sneaker_shop.py",
+          "line": 6,
+          "source": "file",
+          "preview": "8643************************N1aM"
+        }
+      ]
+    },
+    {
       "repo": "ChristianDemetrio/granja-control",
       "url": "https://github.com/ChristianDemetrio/granja-control",
       "status": "leaked",
@@ -41568,6 +41684,33 @@
       ]
     },
     {
+      "repo": "ParthivsingPardeshi/SmartBudgetBackend",
+      "url": "https://github.com/ParthivsingPardeshi/SmartBudgetBackend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 44.38,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "SmartBudgetBackend-main/Finance/Backend/FinanceManagerAPI/appsettings.Development.json",
+          "line": 3,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Pavithra1912006/GuideWire-Hack",
       "url": "https://github.com/Pavithra1912006/GuideWire-Hack",
       "status": "leaked",
@@ -42752,6 +42895,33 @@
           "line": 28,
           "source": "file",
           "preview": "eyJh************************sg6I"
+        }
+      ]
+    },
+    {
+      "repo": "SATVIK202004/KLUALLINONEPORTAL",
+      "url": "https://github.com/SATVIK202004/KLUALLINONEPORTAL",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.64,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "KLUALLINONEPORTAL-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -44295,6 +44465,33 @@
       ]
     },
     {
+      "repo": "UDaygupta12512/AI-Resume-Screening-System",
+      "url": "https://github.com/UDaygupta12512/AI-Resume-Screening-System",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.24,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "AI-Resume-Screening-System-master/app.py",
+          "line": 78,
+          "source": "file",
+          "preview": "AIza************************r-pM"
+        }
+      ]
+    },
+    {
       "repo": "Umidreels/telegrambot",
       "url": "https://github.com/Umidreels/telegrambot",
       "status": "leaked",
@@ -44831,6 +45028,33 @@
           "line": 17,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "Xlobot/Fake_News_Detector_N8N",
+      "url": "https://github.com/Xlobot/Fake_News_Detector_N8N",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.44,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Fake_News_Detector_N8N-main/n8n-factcheck/.env",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************dgAA"
         }
       ]
     },
@@ -51311,6 +51535,33 @@
           "line": 11,
           "source": "file",
           "preview": "8546************************wduY"
+        }
+      ]
+    },
+    {
+      "repo": "gingerbreadrblx1-ctrl/fragment-hunter",
+      "url": "https://github.com/gingerbreadrblx1-ctrl/fragment-hunter",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.23,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "fragment-hunter-main/bot.py",
+          "line": 11,
+          "source": "file",
+          "preview": "8772************************ZpPg"
         }
       ]
     },
