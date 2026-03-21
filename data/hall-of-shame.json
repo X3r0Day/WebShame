@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-19T18:41:11.287603+00:00",
+  "generatedAt": "2026-03-21T18:58:19.791792+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -6518,6 +6518,47 @@
           "line": 3147,
           "source": "commit",
           "preview": "AIza************************k_vk"
+        }
+      ]
+    },
+    {
+      "repo": "ravidmas/Rdstrings-final",
+      "url": "https://github.com/ravidmas/Rdstrings-final",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 25.56,
+      "exposureScore": 64,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 3
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Rdstrings-final-main/MauiApp8/MauiApp8/Services/AppConfig.cs",
+          "line": 27,
+          "source": "file",
+          "preview": "AIza************************R2pQ"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 29e479c",
+          "line": 19,
+          "source": "commit",
+          "preview": "AIza************************9p_o"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit e1013fc",
+          "line": 19,
+          "source": "commit",
+          "preview": "AIza************************vaIQ"
         }
       ]
     },
@@ -34588,6 +34629,33 @@
           "line": 7,
           "source": "file",
           "preview": "AIza************************4Fdg"
+        }
+      ]
+    },
+    {
+      "repo": "727ptr9pcw-sketch/STALKER.PRIVADO.OFICIAL",
+      "url": "https://github.com/727ptr9pcw-sketch/STALKER.PRIVADO.OFICIAL",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 90.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "STALKER.PRIVADO.OFICIAL-main/scripts/config/config.obf.js",
+          "line": 3,
+          "source": "file",
+          "preview": "AIza************************fQaE"
         }
       ]
     },
