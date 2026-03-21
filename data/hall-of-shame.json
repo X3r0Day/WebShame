@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-21T21:29:35.477272+00:00",
+  "generatedAt": "2026-03-21T21:49:51.781962+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -12756,6 +12756,40 @@
           "line": 34,
           "source": "commit",
           "preview": "AIza************************aPd8"
+        }
+      ]
+    },
+    {
+      "repo": "dfbakin/quizMD",
+      "url": "https://github.com/dfbakin/quizMD",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.45,
+      "exposureScore": 42,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "quizMD-master/docker-compose.yml",
+          "line": 27,
+          "source": "file",
+          "preview": "post**********************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 86a7ee4",
+          "line": 573,
+          "source": "commit",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -41803,6 +41837,33 @@
       ]
     },
     {
+      "repo": "Nosreme07/gestao_escolar",
+      "url": "https://github.com/Nosreme07/gestao_escolar",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.78,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "gestao_escolar-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************ZUNI"
+        }
+      ]
+    },
+    {
       "repo": "NubiMa/ninobot",
       "url": "https://github.com/NubiMa/ninobot",
       "status": "leaked",
@@ -47955,6 +48016,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************xGis"
+        }
+      ]
+    },
+    {
+      "repo": "azraayuksel13-code/ai-fridge-chef",
+      "url": "https://github.com/azraayuksel13-code/ai-fridge-chef",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.25,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ai-fridge-chef-main/app.py",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************4lfM"
         }
       ]
     },
@@ -55515,6 +55603,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************dVQM"
+        }
+      ]
+    },
+    {
+      "repo": "kicsikoko/KlimaTicket_tracker",
+      "url": "https://github.com/kicsikoko/KlimaTicket_tracker",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.19,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "KlimaTicket_tracker-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "8758************************RAKg"
         }
       ]
     },
