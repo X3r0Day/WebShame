@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-21T20:44:11.868759+00:00",
+  "generatedAt": "2026-03-21T21:02:37.869324+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -3632,6 +3632,63 @@
           "type": "Private Key (RSA)",
           "file": "Commit f26e393",
           "line": 116477,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "moysush/bloglist",
+      "url": "https://github.com/moysush/bloglist",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 5,
+      "uniqueTypes": 2,
+      "filesAffected": 4,
+      "commitFindings": 2,
+      "scanTimeSeconds": 114.58,
+      "exposureScore": 96,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "bloglist-main/bloglist-backend/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "bloglist-main/bloglist-backend/node_modules/dotenv/README-es.md",
+          "line": 65,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "bloglist-main/bloglist-backend/node_modules/dotenv/README.md",
+          "line": 97,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 540f149",
+          "line": 92420,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 540f149",
+          "line": 92850,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -10795,6 +10852,47 @@
         {
           "type": "GitHub Classic PAT",
           "file": "demprojectsetup-main/Code/08 Custom Actions/03 Finished Project/.github/actions/deploy-s3-javascript/node_modules/@octokit/auth-token/README.md",
+          "line": 100,
+          "source": "file",
+          "preview": "ghu_************************0000"
+        }
+      ]
+    },
+    {
+      "repo": "advfromua/fsolotest",
+      "url": "https://github.com/advfromua/fsolotest",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 65.0,
+      "exposureScore": 44,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 3
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "fsolotest-main/Code/08 Custom Actions/03 Finished Project/.github/actions/deploy-s3-javascript/node_modules/@octokit/auth-token/README.md",
+          "line": 61,
+          "source": "file",
+          "preview": "ghp_************************0000"
+        },
+        {
+          "type": "GitHub Classic PAT",
+          "file": "fsolotest-main/Code/08 Custom Actions/03 Finished Project/.github/actions/deploy-s3-javascript/node_modules/@octokit/auth-token/README.md",
+          "line": 92,
+          "source": "file",
+          "preview": "ghs_************************0000"
+        },
+        {
+          "type": "GitHub Classic PAT",
+          "file": "fsolotest-main/Code/08 Custom Actions/03 Finished Project/.github/actions/deploy-s3-javascript/node_modules/@octokit/auth-token/README.md",
           "line": 100,
           "source": "file",
           "preview": "ghu_************************0000"
@@ -31819,6 +31917,33 @@
           "line": 36,
           "source": "commit",
           "preview": "eyJh************************WM2M"
+        }
+      ]
+    },
+    {
+      "repo": "roseveerered/speccoollyed",
+      "url": "https://github.com/roseveerered/speccoollyed",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.83,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit b5925ed",
+          "line": 222,
+          "source": "commit",
+          "preview": "8413************************dLgA"
         }
       ]
     },
