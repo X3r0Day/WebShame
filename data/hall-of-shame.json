@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-21T21:02:37.869324+00:00",
+  "generatedAt": "2026-03-21T21:29:35.477272+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -35917,6 +35917,33 @@
       ]
     },
     {
+      "repo": "Alpha04-ash/care-companion",
+      "url": "https://github.com/Alpha04-ash/care-companion",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.53,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "care-companion-main/app/api/analyze/route.ts",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************TH8I"
+        }
+      ]
+    },
+    {
       "repo": "Altaee2/howraa",
       "url": "https://github.com/Altaee2/howraa",
       "status": "leaked",
@@ -49417,6 +49444,33 @@
       ]
     },
     {
+      "repo": "cristiand395/keyboard_game",
+      "url": "https://github.com/cristiand395/keyboard_game",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 24.68,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "keyboard_game-master/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "cuadradoarletta669-afk/saudaodomesdemarco2026",
       "url": "https://github.com/cuadradoarletta669-afk/saudaodomesdemarco2026",
       "status": "leaked",
@@ -51735,6 +51789,33 @@
           "line": 16,
           "source": "file",
           "preview": "AIza************************UmqQ"
+        }
+      ]
+    },
+    {
+      "repo": "gamerentov-byte/afdfsdfsfsd",
+      "url": "https://github.com/gamerentov-byte/afdfsdfsfsd",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.54,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "afdfsdfsfsd-main/bot.py",
+          "line": 28,
+          "source": "file",
+          "preview": "8562************************47r4"
         }
       ]
     },
