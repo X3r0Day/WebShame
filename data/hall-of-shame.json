@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-21T19:57:28.093738+00:00",
+  "generatedAt": "2026-03-21T20:06:04.653836+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -38397,6 +38397,33 @@
       ]
     },
     {
+      "repo": "HIMARS223/TestSolverAI",
+      "url": "https://github.com/HIMARS223/TestSolverAI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.36,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "TestSolverAI-main/Bot.py",
+          "line": 12,
+          "source": "file",
+          "preview": "8701************************oGbE"
+        }
+      ]
+    },
+    {
       "repo": "HSIbrahim/ElKoll",
       "url": "https://github.com/HSIbrahim/ElKoll",
       "status": "leaked",
@@ -38987,6 +39014,33 @@
           "line": 2,
           "source": "file",
           "preview": "AIza************************d278"
+        }
+      ]
+    },
+    {
+      "repo": "Igrwmp/Crocodile-Bot",
+      "url": "https://github.com/Igrwmp/Crocodile-Bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.52,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Bot Token"
+      ],
+      "typeCounts": {
+        "Discord Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Bot Token",
+          "file": "Crocodile-Bot-main/Cucecoins_sem/main.py",
+          "line": 3333,
+          "source": "file",
+          "preview": "MTQ4************************tSxU"
         }
       ]
     },
@@ -44229,6 +44283,33 @@
       ]
     },
     {
+      "repo": "TanmayWarthe/secret-chat",
+      "url": "https://github.com/TanmayWarthe/secret-chat",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.76,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "secret-chat-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************vpfA"
+        }
+      ]
+    },
+    {
       "repo": "Tanoosree2006/jwt-auth-service",
       "url": "https://github.com/Tanoosree2006/jwt-auth-service",
       "status": "leaked",
@@ -44603,6 +44684,33 @@
           "line": 78,
           "source": "file",
           "preview": "AIza************************r-pM"
+        }
+      ]
+    },
+    {
+      "repo": "UUCRACKER/gh",
+      "url": "https://github.com/UUCRACKER/gh",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.29,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "gh-main/thing.ps1",
+          "line": 4,
+          "source": "file",
+          "preview": "http************************AmW2"
         }
       ]
     },
@@ -46844,6 +46952,33 @@
           "line": 8,
           "source": "file",
           "preview": "8504************************7j9U"
+        }
+      ]
+    },
+    {
+      "repo": "and018henri-ctrl/meu-backend-ia",
+      "url": "https://github.com/and018henri-ctrl/meu-backend-ia",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.1,
+      "exposureScore": 20,
+      "topTypes": [
+        "HuggingFace Token"
+      ],
+      "typeCounts": {
+        "HuggingFace Token": 1
+      },
+      "findings": [
+        {
+          "type": "HuggingFace Token",
+          "file": "meu-backend-ia-main/server.js",
+          "line": 17,
+          "source": "file",
+          "preview": "hf_G************************itHg"
         }
       ]
     },
@@ -50628,6 +50763,33 @@
       ]
     },
     {
+      "repo": "elproamrkhaled-cpu/accounting-academy",
+      "url": "https://github.com/elproamrkhaled-cpu/accounting-academy",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 112.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "accounting-academy-main/server.js",
+          "line": 15,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "ember-stack/demo-portal",
       "url": "https://github.com/ember-stack/demo-portal",
       "status": "leaked",
@@ -51137,6 +51299,33 @@
           "line": 4,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "fedorai1403-eng/market",
+      "url": "https://github.com/fedorai1403-eng/market",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 65.95,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "market-main/morning_report.py",
+          "line": 13,
+          "source": "file",
+          "preview": "8629************************k3U8"
         }
       ]
     },
@@ -61829,6 +62018,33 @@
           "line": 4,
           "source": "file",
           "preview": "eyJh************************Nbq8"
+        }
+      ]
+    },
+    {
+      "repo": "shankarbanerjee63/remote-dev",
+      "url": "https://github.com/shankarbanerjee63/remote-dev",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.87,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "remote-dev-feature-production-readiness/src/agent-wrapper.py",
+          "line": 11,
+          "source": "file",
+          "preview": "8792************************Dd1Q"
         }
       ]
     },
