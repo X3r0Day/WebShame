@@ -108,6 +108,8 @@ jobs:
 
       - name: Run discovery
         working-directory: ${{ env.APISNIFFER_DIR }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python src/APISniffer.py \
             --lookback-mins "$LOOKBACK_MINS" \
@@ -117,6 +119,8 @@ jobs:
 
       - name: Run scanner
         working-directory: ${{ env.APISNIFFER_DIR }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python src/APIScanner.py \
             --max-threads "$MAX_THREADS" \
