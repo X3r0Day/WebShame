@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-21T18:58:19.791792+00:00",
+  "generatedAt": "2026-03-21T19:12:58.327006+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -4636,6 +4636,49 @@
           "line": 21,
           "source": "commit",
           "preview": "AIza************************vF7E"
+        }
+      ]
+    },
+    {
+      "repo": "Pushpender45/zenith-server",
+      "url": "https://github.com/Pushpender45/zenith-server",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 3,
+      "scanTimeSeconds": 123.46,
+      "exposureScore": 82,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2,
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 179c77e",
+          "line": 62306,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 179c77e",
+          "line": 4046,
+          "source": "commit",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 6437307",
+          "line": 63037,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -12884,6 +12927,40 @@
           "type": "Private Key (EC)",
           "file": "Commit ead147d",
           "line": 558,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "rohitkumarsingh0111/Lapay",
+      "url": "https://github.com/rohitkumarsingh0111/Lapay",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 142.29,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Lapay-main/indepay-backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit b4f7d8d",
+          "line": 61037,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -22348,6 +22425,33 @@
       ]
     },
     {
+      "repo": "Sevak-Grigoryan/Armenian-Banking-Voice-Assistant-ABVA-",
+      "url": "https://github.com/Sevak-Grigoryan/Armenian-Banking-Voice-Assistant-ABVA-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 41.12,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 851fac2",
+          "line": 6110,
+          "source": "commit",
+          "preview": "AIza************************VxGc"
+        }
+      ]
+    },
+    {
       "repo": "ShivVerse16/User-admin",
       "url": "https://github.com/ShivVerse16/User-admin",
       "status": "leaked",
@@ -28612,6 +28716,33 @@
       ]
     },
     {
+      "repo": "matazer84-sketch/dashboard-AI2",
+      "url": "https://github.com/matazer84-sketch/dashboard-AI2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.88,
+      "exposureScore": 30,
+      "topTypes": [
+        "Airtable PAT"
+      ],
+      "typeCounts": {
+        "Airtable PAT": 1
+      },
+      "findings": [
+        {
+          "type": "Airtable PAT",
+          "file": "Commit db0d35c",
+          "line": 497,
+          "source": "commit",
+          "preview": "pat8************************18a5"
+        }
+      ]
+    },
+    {
       "repo": "mathis-site/testeeee",
       "url": "https://github.com/mathis-site/testeeee",
       "status": "leaked",
@@ -30718,6 +30849,33 @@
       ]
     },
     {
+      "repo": "pulkitpareek18/sentinel-api-shield",
+      "url": "https://github.com/pulkitpareek18/sentinel-api-shield",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 10.85,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 6044199",
+          "line": 251,
+          "source": "commit",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "qasad242-max/GIFTHUB",
       "url": "https://github.com/qasad242-max/GIFTHUB",
       "status": "leaked",
@@ -31335,6 +31493,33 @@
           "line": 746,
           "source": "commit",
           "preview": "AIza************************jaC8"
+        }
+      ]
+    },
+    {
+      "repo": "rjrbio/lore-master",
+      "url": "https://github.com/rjrbio/lore-master",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 10.07,
+      "exposureScore": 30,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 9ac7dc4",
+          "line": 292,
+          "source": "commit",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -41923,6 +42108,33 @@
       ]
     },
     {
+      "repo": "Rana-devanand/Youtube-journey",
+      "url": "https://github.com/Rana-devanand/Youtube-journey",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 31.03,
+      "exposureScore": 20,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 1
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "Youtube-journey-master/Whatspp-agent/Backend/dist/index.js",
+          "line": 41,
+          "source": "file",
+          "preview": "http************************json"
+        }
+      ]
+    },
+    {
       "repo": "RankerBotTBA/aegis-security",
       "url": "https://github.com/RankerBotTBA/aegis-security",
       "status": "leaked",
@@ -44457,6 +44669,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************cAWU"
+        }
+      ]
+    },
+    {
+      "repo": "Weulon/bot_news",
+      "url": "https://github.com/Weulon/bot_news",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.16,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "bot_news-main/\u0437\u0430\u043f\u0443\u0441\u0442\u0438\u0442\u044c\u0442.txt",
+          "line": 3,
+          "source": "file",
+          "preview": "8171************************gsSs"
         }
       ]
     },
@@ -47940,6 +48179,60 @@
           "line": 11,
           "source": "file",
           "preview": "AIza************************b7hA"
+        }
+      ]
+    },
+    {
+      "repo": "chalimouinan/repo7zmq4i",
+      "url": "https://github.com/chalimouinan/repo7zmq4i",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.3,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo7zmq4i-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8649************************4OKY"
+        }
+      ]
+    },
+    {
+      "repo": "chalimouinan/repotq5hm4",
+      "url": "https://github.com/chalimouinan/repotq5hm4",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 32.67,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repotq5hm4-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8649************************4OKY"
         }
       ]
     },
@@ -55504,6 +55797,33 @@
       ]
     },
     {
+      "repo": "lucivaantarez/farm",
+      "url": "https://github.com/lucivaantarez/farm",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.08,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "farm-main/sailor-piece.lua",
+          "line": 33,
+          "source": "file",
+          "preview": "http************************jiMy"
+        }
+      ]
+    },
+    {
       "repo": "luckyjaiswal14/GEUEvents",
       "url": "https://github.com/luckyjaiswal14/GEUEvents",
       "status": "leaked",
@@ -55581,6 +55901,33 @@
           "line": 11,
           "source": "file",
           "preview": "AIza************************M2hw"
+        }
+      ]
+    },
+    {
+      "repo": "lumachrisparr-eng/files--2-",
+      "url": "https://github.com/lumachrisparr-eng/files--2-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.43,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "files--2--main/app.js",
+          "line": 172,
+          "source": "file",
+          "preview": "AIza************************W0yo"
         }
       ]
     },
@@ -63006,6 +63353,33 @@
           "line": 12,
           "source": "file",
           "preview": "8785************************uWOU"
+        }
+      ]
+    },
+    {
+      "repo": "v1nxdev/hub-stream-den",
+      "url": "https://github.com/v1nxdev/hub-stream-den",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 23.28,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "hub-stream-den-main/js/app.js",
+          "line": 108,
+          "source": "file",
+          "preview": "AIza************************TOkU"
         }
       ]
     },
