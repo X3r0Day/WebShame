@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-21T22:57:52.984661+00:00",
+  "generatedAt": "2026-03-21T23:21:12.898140+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -22216,6 +22216,33 @@
       ]
     },
     {
+      "repo": "NovaLukaz/Traum2-Bewerbungen",
+      "url": "https://github.com/NovaLukaz/Traum2-Bewerbungen",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.15,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 0444f3a",
+          "line": 1348,
+          "source": "commit",
+          "preview": "http************************TnXa"
+        }
+      ]
+    },
+    {
       "repo": "OSEOJ/Jeju_WindTurbine_Location_Selection",
       "url": "https://github.com/OSEOJ/Jeju_WindTurbine_Location_Selection",
       "status": "leaked",
@@ -36931,6 +36958,33 @@
       ]
     },
     {
+      "repo": "Benja1512/PeruAllure_2026",
+      "url": "https://github.com/Benja1512/PeruAllure_2026",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 36.43,
+      "exposureScore": 20,
+      "topTypes": [
+        "Stripe Secret Key"
+      ],
+      "typeCounts": {
+        "Stripe Secret Key": 1
+      },
+      "findings": [
+        {
+          "type": "Stripe Secret Key",
+          "file": "PeruAllure_2026-main/src/main/resources/application.properties",
+          "line": 55,
+          "source": "file",
+          "preview": "sk_t************************xxxx"
+        }
+      ]
+    },
+    {
       "repo": "Bernard-AI4PH/backend_render",
       "url": "https://github.com/Bernard-AI4PH/backend_render",
       "status": "leaked",
@@ -37170,6 +37224,33 @@
           "line": 45,
           "source": "file",
           "preview": "AIza************************7Tf8"
+        }
+      ]
+    },
+    {
+      "repo": "CamAre0611/micro2-flask",
+      "url": "https://github.com/CamAre0611/micro2-flask",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.1,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "micro2-flask-main/app.py",
+          "line": 11,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -42165,6 +42246,33 @@
           "line": 14,
           "source": "file",
           "preview": "AIza************************IHLc"
+        }
+      ]
+    },
+    {
+      "repo": "OjasKhandelwal/BachatAI",
+      "url": "https://github.com/OjasKhandelwal/BachatAI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 24.46,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "BachatAI-main/list_models.js",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************Rkag"
         }
       ]
     },
