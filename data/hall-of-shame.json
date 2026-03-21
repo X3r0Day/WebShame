@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-21T22:03:40.705648+00:00",
+  "generatedAt": "2026-03-21T22:36:23.060854+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -5084,6 +5084,54 @@
           "line": 42,
           "source": "file",
           "preview": "eyJh************************BObQ"
+        }
+      ]
+    },
+    {
+      "repo": "Bezawityfru2/server",
+      "url": "https://github.com/Bezawityfru2/server",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 90.85,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "server-main/node_modules/dotenv/README-es.md",
+          "line": 78,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "server-main/node_modules/dotenv/README.md",
+          "line": 110,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 0cf0418",
+          "line": 39006,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 0cf0418",
+          "line": 39449,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -16284,6 +16332,40 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************EwpE"
+        }
+      ]
+    },
+    {
+      "repo": "DarylNoupik/DIHUD-SHOP",
+      "url": "https://github.com/DarylNoupik/DIHUD-SHOP",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.03,
+      "exposureScore": 32,
+      "topTypes": [
+        "MySQL/MariaDB Connection URI"
+      ],
+      "typeCounts": {
+        "MySQL/MariaDB Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "DIHUD-SHOP-main/DEPLOIEMENT.md",
+          "line": 53,
+          "source": "file",
+          "preview": "mysq************************2345"
+        },
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "DIHUD-SHOP-main/DEPLOIEMENT.md",
+          "line": 81,
+          "source": "file",
+          "preview": "mysq************************6543"
         }
       ]
     },
@@ -46029,6 +46111,33 @@
       ]
     },
     {
+      "repo": "ab8889157-ui/My-store-",
+      "url": "https://github.com/ab8889157-ui/My-store-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.95,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "My-store--main/.github/workflows/main.yml",
+          "line": 89,
+          "source": "file",
+          "preview": "8514************************qhTU"
+        }
+      ]
+    },
+    {
       "repo": "abdallahzeine/CV-maker",
       "url": "https://github.com/abdallahzeine/CV-maker",
       "status": "leaked",
@@ -48968,6 +49077,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************ehh8"
+        }
+      ]
+    },
+    {
+      "repo": "carlinhosadn-ctrl/midas-kernel",
+      "url": "https://github.com/carlinhosadn-ctrl/midas-kernel",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.0,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "midas-kernel-master/kernel/phi-telegram.sh",
+          "line": 21,
+          "source": "file",
+          "preview": "8774************************Z8FM"
         }
       ]
     },
@@ -52181,6 +52317,33 @@
           "line": 10,
           "source": "file",
           "preview": "AIza************************EYq8"
+        }
+      ]
+    },
+    {
+      "repo": "geratren2009-wq/tg-bot",
+      "url": "https://github.com/geratren2009-wq/tg-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.09,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "tg-bot-main/bot.py",
+          "line": 21,
+          "source": "file",
+          "preview": "8435************************CULo"
         }
       ]
     },
