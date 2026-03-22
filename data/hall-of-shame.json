@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T08:34:14.153408+00:00",
+  "generatedAt": "2026-03-22T09:06:18.775551+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -28257,6 +28257,33 @@
       ]
     },
     {
+      "repo": "jlwhdl/hug",
+      "url": "https://github.com/jlwhdl/hug",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 7.23,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 8cf3668",
+          "line": 828,
+          "source": "commit",
+          "preview": "AIza************************mAYU"
+        }
+      ]
+    },
+    {
       "repo": "jnoo2/jnoo",
       "url": "https://github.com/jnoo2/jnoo",
       "status": "leaked",
@@ -31277,6 +31304,33 @@
           "line": 1758,
           "source": "commit",
           "preview": "8735************************qe9c"
+        }
+      ]
+    },
+    {
+      "repo": "pankompot/volcast-docker-supabase",
+      "url": "https://github.com/pankompot/volcast-docker-supabase",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 34.99,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "Commit 6d509b3",
+          "line": 3392,
+          "source": "commit",
+          "preview": "eyJh************************Vt4Q"
         }
       ]
     },
@@ -40488,6 +40542,33 @@
       ]
     },
     {
+      "repo": "JuliaRusinova87/uvedomlenia",
+      "url": "https://github.com/JuliaRusinova87/uvedomlenia",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.88,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "uvedomlenia-main/production_monitor.py",
+          "line": 37,
+          "source": "file",
+          "preview": "8595************************mEUI"
+        }
+      ]
+    },
+    {
       "repo": "KARNAL-PROJECTS/Bot1",
       "url": "https://github.com/KARNAL-PROJECTS/Bot1",
       "status": "leaked",
@@ -43107,6 +43188,33 @@
       ]
     },
     {
+      "repo": "Pratibha647/portfolio",
+      "url": "https://github.com/Pratibha647/portfolio",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 141.76,
+      "exposureScore": 20,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "portfolio-main/server/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "Pratyush-06/CreatorForge",
       "url": "https://github.com/Pratyush-06/CreatorForge",
       "status": "leaked",
@@ -44588,6 +44696,33 @@
           "line": 23,
           "source": "file",
           "preview": "sk-p************************pSEA"
+        }
+      ]
+    },
+    {
+      "repo": "Seannotkin/fitness-app",
+      "url": "https://github.com/Seannotkin/fitness-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 34.62,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "fitness-app-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************8iBs"
         }
       ]
     },
@@ -49938,6 +50073,33 @@
       ]
     },
     {
+      "repo": "carabila/openclaw-config",
+      "url": "https://github.com/carabila/openclaw-config",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.49,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "openclaw-config-main/skills/rag-db-access/SKILL.md",
+          "line": 91,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "carlinhosadn-ctrl/midas-kernel",
       "url": "https://github.com/carlinhosadn-ctrl/midas-kernel",
       "status": "leaked",
@@ -50447,6 +50609,33 @@
           "line": 3,
           "source": "file",
           "preview": "eyJh************************KgiU"
+        }
+      ]
+    },
+    {
+      "repo": "cloudkit111/api-server",
+      "url": "https://github.com/cloudkit111/api-server",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.1,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "api-server-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************7017"
         }
       ]
     },
@@ -65430,6 +65619,33 @@
           "type": "PostgreSQL Connection URI",
           "file": "paravio_mvp_1-main/README.md",
           "line": 65,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "tina4stack/tina4-book",
+      "url": "https://github.com/tina4stack/tina4-book",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.28,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "tina4-book-main/book-0-understanding/chapters/04-environment-variables.md",
+          "line": 402,
           "source": "file",
           "preview": "post************************5432"
         }
