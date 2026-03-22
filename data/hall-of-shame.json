@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T07:30:56.720025+00:00",
+  "generatedAt": "2026-03-22T08:01:12.013610+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -5728,6 +5728,47 @@
           "type": "Google API/GCP Key",
           "file": "Commit 12cb708",
           "line": 9375,
+          "source": "commit",
+          "preview": "AIza************************KG_E"
+        }
+      ]
+    },
+    {
+      "repo": "subedishreeya64-ai/demo",
+      "url": "https://github.com/subedishreeya64-ai/demo",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 3,
+      "scanTimeSeconds": 64.93,
+      "exposureScore": 74,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 3
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 54bf074",
+          "line": 50164,
+          "source": "commit",
+          "preview": "AIza************************9vw8"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 54bf074",
+          "line": 56909,
+          "source": "commit",
+          "preview": "AIza************************_TGE"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 54bf074",
+          "line": 63531,
           "source": "commit",
           "preview": "AIza************************KG_E"
         }
@@ -14591,6 +14632,42 @@
           "line": 4,
           "source": "file",
           "preview": "ghp_************************r678"
+        }
+      ]
+    },
+    {
+      "repo": "Singhak/Kid_Coloring",
+      "url": "https://github.com/Singhak/Kid_Coloring",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.36,
+      "exposureScore": 40,
+      "topTypes": [
+        "Google API/GCP Key",
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Kid_Coloring-main/generate-paths-gemini.php",
+          "line": 85,
+          "source": "file",
+          "preview": "AIza************************A3Yo"
+        },
+        {
+          "type": "OpenRouter API Key",
+          "file": "Kid_Coloring-main/generate-paths.php",
+          "line": 85,
+          "source": "file",
+          "preview": "sk-o************************b009"
         }
       ]
     },
@@ -29660,6 +29737,33 @@
       ]
     },
     {
+      "repo": "milanayusufova05/wbwb",
+      "url": "https://github.com/milanayusufova05/wbwb",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 6.83,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 0ef89f1",
+          "line": 826,
+          "source": "commit",
+          "preview": "8253************************SZ0Q"
+        }
+      ]
+    },
+    {
       "repo": "milonhossennahid/IBM-Company-Admin-Panel-",
       "url": "https://github.com/milonhossennahid/IBM-Company-Admin-Panel-",
       "status": "leaked",
@@ -42346,6 +42450,33 @@
           "line": 18,
           "source": "file",
           "preview": "AIza************************ZUNI"
+        }
+      ]
+    },
+    {
+      "repo": "NotViskaaa/Audio-Tool",
+      "url": "https://github.com/NotViskaaa/Audio-Tool",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.31,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Audio-Tool-main/config.js",
+          "line": 2,
+          "source": "file",
+          "preview": "http************************uiwj"
         }
       ]
     },
@@ -58816,6 +58947,33 @@
           "line": 10,
           "source": "file",
           "preview": "AIza************************2i0g"
+        }
+      ]
+    },
+    {
+      "repo": "mentos172/WorkSpaceBot",
+      "url": "https://github.com/mentos172/WorkSpaceBot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.88,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "WorkSpaceBot-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "8656************************84EA"
         }
       ]
     },
