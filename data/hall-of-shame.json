@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T15:24:07.909896+00:00",
+  "generatedAt": "2026-03-22T15:53:48.075150+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -42192,6 +42192,33 @@
       ]
     },
     {
+      "repo": "KuGorr/lab-inventory",
+      "url": "https://github.com/KuGorr/lab-inventory",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 144.93,
+      "exposureScore": 20,
+      "topTypes": [
+        "MySQL/MariaDB Connection URI"
+      ],
+      "typeCounts": {
+        "MySQL/MariaDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "lab-inventory-main/.venv/Lib/site-packages/sqlalchemy/dialects/mysql/pymysql.py",
+          "line": 35,
+          "source": "file",
+          "preview": "mysq************************.134"
+        }
+      ]
+    },
+    {
       "repo": "KukaGoi/Satbayev_HELPERR",
       "url": "https://github.com/KukaGoi/Satbayev_HELPERR",
       "status": "leaked",
@@ -42296,6 +42323,33 @@
           "line": 49,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "LNS94z/Best-Script-Roblox",
+      "url": "https://github.com/LNS94z/Best-Script-Roblox",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.79,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Best-Script-Roblox-main/Script.lua",
+          "line": 7,
+          "source": "file",
+          "preview": "http************************IhsZ"
         }
       ]
     },
@@ -47970,6 +48024,33 @@
       ]
     },
     {
+      "repo": "WitcherAhmed/google-all-in-one",
+      "url": "https://github.com/WitcherAhmed/google-all-in-one",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.05,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "google-all-in-one-main/config.json",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************hBEw"
+        }
+      ]
+    },
+    {
       "repo": "XTRSaBa02/Chodsound.github.io",
       "url": "https://github.com/XTRSaBa02/Chodsound.github.io",
       "status": "leaked",
@@ -52529,6 +52610,33 @@
           "line": 11,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "crow1n/BFG-Auto-Bot",
+      "url": "https://github.com/crow1n/BFG-Auto-Bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.95,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "BFG-Auto-Bot-main/app.py",
+          "line": 23,
+          "source": "file",
+          "preview": "8639************************8wuw"
         }
       ]
     },
@@ -59603,6 +59711,33 @@
           "line": 107,
           "source": "file",
           "preview": "post************************5440"
+        }
+      ]
+    },
+    {
+      "repo": "kylebutler540-cell/clocked",
+      "url": "https://github.com/kylebutler540-cell/clocked",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.83,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "clocked-main/frontend/src/components/LocationModal.jsx",
+          "line": 3,
+          "source": "file",
+          "preview": "AIza************************cc2s"
         }
       ]
     },
@@ -68351,6 +68486,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************9seA"
+        }
+      ]
+    },
+    {
+      "repo": "trebuerr/TelegramBot-VirusTotal",
+      "url": "https://github.com/trebuerr/TelegramBot-VirusTotal",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 152.85,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "TelegramBot-VirusTotal-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "7951************************-9xY"
         }
       ]
     },
