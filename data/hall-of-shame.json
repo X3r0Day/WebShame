@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T11:34:36.256347+00:00",
+  "generatedAt": "2026-03-22T11:54:26.499841+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -19895,6 +19895,33 @@
       ]
     },
     {
+      "repo": "1356slava007-gif/oziniks-space",
+      "url": "https://github.com/1356slava007-gif/oziniks-space",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.62,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit cb62ba3",
+          "line": 109,
+          "source": "commit",
+          "preview": "8721************************P5cs"
+        }
+      ]
+    },
+    {
       "repo": "1nOut/Minpro-2-PAB",
       "url": "https://github.com/1nOut/Minpro-2-PAB",
       "status": "leaked",
@@ -22190,6 +22217,33 @@
       ]
     },
     {
+      "repo": "KhushiRana18/DocBot-QA",
+      "url": "https://github.com/KhushiRana18/DocBot-QA",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.12,
+      "exposureScore": 30,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 49b1713",
+          "line": 19,
+          "source": "commit",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "Kosay/cv-maker",
       "url": "https://github.com/Kosay/cv-maker",
       "status": "leaked",
@@ -24292,6 +24346,33 @@
           "line": 38,
           "source": "commit",
           "preview": "sk-o************************85ad"
+        }
+      ]
+    },
+    {
+      "repo": "ZacksterUG/certificates_ocr",
+      "url": "https://github.com/ZacksterUG/certificates_ocr",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 38.41,
+      "exposureScore": 30,
+      "topTypes": [
+        "RabbitMQ/AMQP URI"
+      ],
+      "typeCounts": {
+        "RabbitMQ/AMQP URI": 1
+      },
+      "findings": [
+        {
+          "type": "RabbitMQ/AMQP URI",
+          "file": "Commit c0eb4cf",
+          "line": 2377,
+          "source": "commit",
+          "preview": "amqp*******************itmq"
         }
       ]
     },
@@ -31906,6 +31987,33 @@
           "line": 1954,
           "source": "commit",
           "preview": "sk-o************************593c"
+        }
+      ]
+    },
+    {
+      "repo": "pingpong-hcs/secondhand-map",
+      "url": "https://github.com/pingpong-hcs/secondhand-map",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 89.26,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit bc45dd3",
+          "line": 232892,
+          "source": "commit",
+          "preview": "AIza************************h-B0"
         }
       ]
     },
@@ -46733,6 +46841,33 @@
       ]
     },
     {
+      "repo": "VinRuan99/ayl01",
+      "url": "https://github.com/VinRuan99/ayl01",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.09,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ayl01-main/FIREBASE_SETUP.md",
+          "line": 42,
+          "source": "file",
+          "preview": "AIza************************RPyA"
+        }
+      ]
+    },
+    {
       "repo": "VinayMarabe/CareerAI",
       "url": "https://github.com/VinayMarabe/CareerAI",
       "status": "leaked",
@@ -61097,6 +61232,60 @@
       ]
     },
     {
+      "repo": "nguyetvo26febu4139/repo5jhto6",
+      "url": "https://github.com/nguyetvo26febu4139/repo5jhto6",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.78,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo5jhto6-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "nguyetvo26febu4139/repop3ywt4",
+      "url": "https://github.com/nguyetvo26febu4139/repop3ywt4",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.36,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repop3ywt4-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
       "repo": "nhnchau7144-create/HTQLPearlCinema",
       "url": "https://github.com/nhnchau7144-create/HTQLPearlCinema",
       "status": "leaked",
@@ -61255,6 +61444,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************I9gE"
+        }
+      ]
+    },
+    {
+      "repo": "novusxd/test",
+      "url": "https://github.com/novusxd/test",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.88,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "test-main/api.py",
+          "line": 18,
+          "source": "file",
+          "preview": "8405************************g5rg"
         }
       ]
     },
@@ -66115,6 +66331,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************L154"
+        }
+      ]
+    },
+    {
+      "repo": "tcrainer/TripPlanner",
+      "url": "https://github.com/tcrainer/TripPlanner",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 22.69,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "TripPlanner-main/xlsx-D_0l8YDs.js",
+          "line": 53,
+          "source": "file",
+          "preview": "AIza************************17R8"
         }
       ]
     },
