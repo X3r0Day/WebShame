@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T09:47:51.814380+00:00",
+  "generatedAt": "2026-03-22T10:07:07.826593+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -12600,6 +12600,40 @@
           "line": 149,
           "source": "commit",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "VirajKumar3/Yasharyan-Folio",
+      "url": "https://github.com/VirajKumar3/Yasharyan-Folio",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 103.91,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Yasharyan-Folio-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 16554ea",
+          "line": 12183,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -44601,6 +44635,33 @@
       ]
     },
     {
+      "repo": "Samandarchik/mone_bot",
+      "url": "https://github.com/Samandarchik/mone_bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.8,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "mone_bot-main/server.go",
+          "line": 15,
+          "source": "file",
+          "preview": "8550************************LgzQ"
+        }
+      ]
+    },
+    {
       "repo": "Samlo18/Mod5_Coursera",
       "url": "https://github.com/Samlo18/Mod5_Coursera",
       "status": "leaked",
@@ -46865,6 +46926,33 @@
           "line": 3,
           "source": "file",
           "preview": "8533************************uyW0"
+        }
+      ]
+    },
+    {
+      "repo": "ZveroStik/tg-bot",
+      "url": "https://github.com/ZveroStik/tg-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 30.85,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "tg-bot-main/python/bots.py",
+          "line": 6,
+          "source": "file",
+          "preview": "8540************************Fgzw"
         }
       ]
     },
@@ -59478,6 +59566,33 @@
       ]
     },
     {
+      "repo": "micenoisy/Hello",
+      "url": "https://github.com/micenoisy/Hello",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.95,
+      "exposureScore": 20,
+      "topTypes": [
+        "HuggingFace Token"
+      ],
+      "typeCounts": {
+        "HuggingFace Token": 1
+      },
+      "findings": [
+        {
+          "type": "HuggingFace Token",
+          "file": "Hello-main/agent.py",
+          "line": 4,
+          "source": "file",
+          "preview": "hf_s************************pFCB"
+        }
+      ]
+    },
+    {
       "repo": "michalmaik/tesla-tracker",
       "url": "https://github.com/michalmaik/tesla-tracker",
       "status": "leaked",
@@ -64739,6 +64854,33 @@
           "line": 126,
           "source": "file",
           "preview": "AIza************************uZ1M"
+        }
+      ]
+    },
+    {
+      "repo": "solarmarinetech-boop/ticket",
+      "url": "https://github.com/solarmarinetech-boop/ticket",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.36,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ticket-main/server.js",
+          "line": 13,
+          "source": "file",
+          "preview": "AIza************************9KvA"
         }
       ]
     },
