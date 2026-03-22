@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T21:04:46.247332+00:00",
+  "generatedAt": "2026-03-22T21:37:51.016634+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -758,6 +758,76 @@
       ]
     },
     {
+      "repo": "webstoreizmir/site-gozluk-com",
+      "url": "https://github.com/webstoreizmir/site-gozluk-com",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 11,
+      "uniqueTypes": 6,
+      "filesAffected": 3,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.6,
+      "exposureScore": 180,
+      "topTypes": [
+        "Google OAuth Client Secret",
+        "Google OAuth Access Token",
+        "Google API/GCP Key",
+        "OpenAI API Key (Project)"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2,
+        "OpenAI API Key (Project)": 1,
+        "Google OAuth Client Secret": 3,
+        "Google OAuth Access Token": 3,
+        "Groq API Key": 1,
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "site-gozluk-com-main/workflow/Custom Domain WaaS v16 (Final Sequence).json",
+          "line": 64,
+          "source": "file",
+          "preview": "AIza************************Em-k"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "site-gozluk-com-main/workflow/Custom Domain WaaS v33 (Bulletproof Shopier).json",
+          "line": 50,
+          "source": "file",
+          "preview": "AIza************************D4Y0"
+        },
+        {
+          "type": "OpenAI API Key (Project)",
+          "file": "site-gozluk-com-main/yedek-credentials.json",
+          "line": 1,
+          "source": "file",
+          "preview": "sk-p************************pPwA"
+        },
+        {
+          "type": "Google OAuth Client Secret",
+          "file": "site-gozluk-com-main/yedek-credentials.json",
+          "line": 1,
+          "source": "file",
+          "preview": "GOCS************************m2By"
+        },
+        {
+          "type": "Google OAuth Client Secret",
+          "file": "site-gozluk-com-main/yedek-credentials.json",
+          "line": 1,
+          "source": "file",
+          "preview": "GOCS************************SLZh"
+        },
+        {
+          "type": "Google OAuth Access Token",
+          "file": "site-gozluk-com-main/yedek-credentials.json",
+          "line": 1,
+          "source": "file",
+          "preview": "ya29************************0207"
+        }
+      ]
+    },
+    {
       "repo": "webstoreizmir/site-papidesignstudio",
       "url": "https://github.com/webstoreizmir/site-papidesignstudio",
       "status": "leaked",
@@ -1332,6 +1402,68 @@
           "line": 18,
           "source": "commit",
           "preview": "8018************************N9nc"
+        }
+      ]
+    },
+    {
+      "repo": "webappsoft-alt/ticketkn_backend",
+      "url": "https://github.com/webappsoft-alt/ticketkn_backend",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 6,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 5,
+      "scanTimeSeconds": 30.03,
+      "exposureScore": 130,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 6
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "ticketkn_backend-main/startup/db.js",
+          "line": 5,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit da43b0a",
+          "line": 4938,
+          "source": "commit",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit da43b0a",
+          "line": 5173,
+          "source": "commit",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit da43b0a",
+          "line": 7264,
+          "source": "commit",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit da43b0a",
+          "line": 7988,
+          "source": "commit",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit da43b0a",
+          "line": 8758,
+          "source": "commit",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -56785,6 +56917,33 @@
           "line": 1,
           "source": "file",
           "preview": "AIza************************_-rU"
+        }
+      ]
+    },
+    {
+      "repo": "fenixdeveloperoficial-hash/neuraldash-launch",
+      "url": "https://github.com/fenixdeveloperoficial-hash/neuraldash-launch",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 18.1,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "neuraldash-launch-main/docker-compose.yml",
+          "line": 36,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
