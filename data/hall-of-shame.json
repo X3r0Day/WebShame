@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T20:45:02.384644+00:00",
+  "generatedAt": "2026-03-22T21:04:46.247332+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -44612,6 +44612,33 @@
       ]
     },
     {
+      "repo": "Merlin672098/pruebatecnica",
+      "url": "https://github.com/Merlin672098/pruebatecnica",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 51.15,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "pruebatecnica-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************PFQ8"
+        }
+      ]
+    },
+    {
       "repo": "MicaheDev/lingo-hands",
       "url": "https://github.com/MicaheDev/lingo-hands",
       "status": "leaked",
@@ -56785,6 +56812,33 @@
           "line": 15,
           "source": "file",
           "preview": "AIza************************hdc8"
+        }
+      ]
+    },
+    {
+      "repo": "fikrul412/ShopKeeper-Slopppin-",
+      "url": "https://github.com/fikrul412/ShopKeeper-Slopppin-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.8,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ShopKeeper-Slopppin--main/server/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************OMAU"
         }
       ]
     },
@@ -71099,6 +71153,87 @@
       ]
     },
     {
+      "repo": "tuyentang26febu4177/repo5tq2wt",
+      "url": "https://github.com/tuyentang26febu4177/repo5tq2wt",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 34.7,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo5tq2wt-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "tuyentang26febu4177/repo9ico2z",
+      "url": "https://github.com/tuyentang26febu4177/repo9ico2z",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 20.31,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo9ico2z-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "tuyentang26febu4177/repof1yr8w",
+      "url": "https://github.com/tuyentang26febu4177/repof1yr8w",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 19.93,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repof1yr8w-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
       "repo": "tuyentang26febu4177/repoh09zrt",
       "url": "https://github.com/tuyentang26febu4177/repoh09zrt",
       "status": "leaked",
@@ -71200,6 +71335,33 @@
         {
           "type": "Telegram Bot Token",
           "file": "reporqjj5l-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "tuyentang26febu4177/reposy1fub",
+      "url": "https://github.com/tuyentang26febu4177/reposy1fub",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 26.1,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "reposy1fub-main/public/js/config.js",
           "line": 4,
           "source": "file",
           "preview": "8394************************b-VU"
