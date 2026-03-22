@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T13:13:23.142962+00:00",
+  "generatedAt": "2026-03-22T13:59:15.285598+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -47300,6 +47300,33 @@
       ]
     },
     {
+      "repo": "Weeravaradhana/Elite-event-service-api-1",
+      "url": "https://github.com/Weeravaradhana/Elite-event-service-api-1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 110.35,
+      "exposureScore": 20,
+      "topTypes": [
+        "Redis Connection URI (Password)"
+      ],
+      "typeCounts": {
+        "Redis Connection URI (Password)": 1
+      },
+      "findings": [
+        {
+          "type": "Redis Connection URI (Password)",
+          "file": "Elite-event-service-api-1-master/node_modules/redis/README.md",
+          "line": 80,
+          "source": "file",
+          "preview": "redi************************380'"
+        }
+      ]
+    },
+    {
       "repo": "WeplyStudio/wed2",
       "url": "https://github.com/WeplyStudio/wed2",
       "status": "leaked",
@@ -52615,6 +52642,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************dX-E"
+        }
+      ]
+    },
+    {
+      "repo": "dibyapusparoy-byte/wikibot2.0",
+      "url": "https://github.com/dibyapusparoy-byte/wikibot2.0",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.97,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "wikibot2.0-main/bot2.py",
+          "line": 5,
+          "source": "file",
+          "preview": "8784************************ZYqs"
         }
       ]
     },
@@ -63986,6 +64040,33 @@
       ]
     },
     {
+      "repo": "ravisharma1062/janm_kundali_app",
+      "url": "https://github.com/ravisharma1062/janm_kundali_app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.73,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "janm_kundali_app-master/app.py",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************-FRU"
+        }
+      ]
+    },
+    {
       "repo": "ravitejasq/Dynamic-Ad-Copy-Multi-Tester",
       "url": "https://github.com/ravitejasq/Dynamic-Ad-Copy-Multi-Tester",
       "status": "leaked",
@@ -68437,6 +68518,33 @@
           "line": 1,
           "source": "file",
           "preview": "post************************5433"
+        }
+      ]
+    },
+    {
+      "repo": "willblackmon72-pixel/Centuryanalytics",
+      "url": "https://github.com/willblackmon72-pixel/Centuryanalytics",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.7,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Centuryanalytics-main/assets/index-CDtNPXGZ.js",
+          "line": 9,
+          "source": "file",
+          "preview": "8334************************qfB8"
         }
       ]
     },
