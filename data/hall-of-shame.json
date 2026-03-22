@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-21T23:45:32.571696+00:00",
+  "generatedAt": "2026-03-22T00:02:02.919087+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -50080,6 +50080,33 @@
       ]
     },
     {
+      "repo": "danabindra/postgres-deadlock-agent",
+      "url": "https://github.com/danabindra/postgres-deadlock-agent",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.56,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "postgres-deadlock-agent-main/docker-compose.yml",
+          "line": 57,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "danielledjofang29-oss/MorphOs",
       "url": "https://github.com/danielledjofang29-oss/MorphOs",
       "status": "leaked",
@@ -52155,6 +52182,33 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************cQxI"
+        }
+      ]
+    },
+    {
+      "repo": "forrestblade/secret-tripwire",
+      "url": "https://github.com/forrestblade/secret-tripwire",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 45.52,
+      "exposureScore": 20,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "secret-tripwire-master/src/__tests__/redactor.test.ts",
+          "line": 13,
+          "source": "file",
+          "preview": "ghp_************************ghij"
         }
       ]
     },
