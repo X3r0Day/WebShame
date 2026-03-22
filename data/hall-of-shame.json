@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T14:25:09.740926+00:00",
+  "generatedAt": "2026-03-22T14:57:46.310441+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -21909,6 +21909,33 @@
       ]
     },
     {
+      "repo": "HackSage/US-eCom-Beauty-Insider-MyoGlow-Athena",
+      "url": "https://github.com/HackSage/US-eCom-Beauty-Insider-MyoGlow-Athena",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 27.49,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 0566a3f",
+          "line": 21125,
+          "source": "commit",
+          "preview": "AIza************************nsaM"
+        }
+      ]
+    },
+    {
       "repo": "HariAnalyst/dli-dashboard",
       "url": "https://github.com/HariAnalyst/dli-dashboard",
       "status": "leaked",
@@ -38217,6 +38244,33 @@
       ]
     },
     {
+      "repo": "AyushPandav/CyberComplain",
+      "url": "https://github.com/AyushPandav/CyberComplain",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.13,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "CyberComplain-main/DEPLOYMENT_GUIDE.md",
+          "line": 67,
+          "source": "file",
+          "preview": "AIza************************Rm2c"
+        }
+      ]
+    },
+    {
       "repo": "AyyJayyC/casa-mx-backend",
       "url": "https://github.com/AyyJayyC/casa-mx-backend",
       "status": "leaked",
@@ -39239,6 +39293,33 @@
           "line": 642,
           "source": "file",
           "preview": "8742************************Z5W0"
+        }
+      ]
+    },
+    {
+      "repo": "DavidCasasolaVilchez/dAcord",
+      "url": "https://github.com/DavidCasasolaVilchez/dAcord",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.13,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "dAcord-master/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************kCuI"
         }
       ]
     },
@@ -45750,6 +45831,33 @@
       ]
     },
     {
+      "repo": "Sawom/level2-b5-ph-health-care-frontend",
+      "url": "https://github.com/Sawom/level2-b5-ph-health-care-frontend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 30.23,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "level2-b5-ph-health-care-frontend-master/Tasks/10. TASK_08_DOCKER.md",
+          "line": 595,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Sayed22y/Mini-Rag",
       "url": "https://github.com/Sayed22y/Mini-Rag",
       "status": "leaked",
@@ -49094,6 +49202,33 @@
           "line": 14,
           "source": "file",
           "preview": "hf_T************************aYZh"
+        }
+      ]
+    },
+    {
+      "repo": "alisamsam/Solidworks-MCP",
+      "url": "https://github.com/alisamsam/Solidworks-MCP",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.69,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "Solidworks-MCP-main/.env",
+          "line": 13,
+          "source": "file",
+          "preview": "sk-o************************7dda"
         }
       ]
     },
@@ -55196,6 +55331,168 @@
           "line": 8,
           "source": "file",
           "preview": "sk-R************************d0dl"
+        }
+      ]
+    },
+    {
+      "repo": "haicap26febu4166/repo262ykp",
+      "url": "https://github.com/haicap26febu4166/repo262ykp",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 50.98,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo262ykp-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "haicap26febu4166/repoj1u2fz",
+      "url": "https://github.com/haicap26febu4166/repoj1u2fz",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 38.78,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repoj1u2fz-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "haicap26febu4166/repomm8bcr",
+      "url": "https://github.com/haicap26febu4166/repomm8bcr",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 36.02,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repomm8bcr-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "haicap26febu4166/repone5w3j",
+      "url": "https://github.com/haicap26febu4166/repone5w3j",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.92,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repone5w3j-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "haicap26febu4166/reporvhai8",
+      "url": "https://github.com/haicap26febu4166/reporvhai8",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 43.74,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "reporvhai8-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "haicap26febu4166/repoyhqj9m",
+      "url": "https://github.com/haicap26febu4166/repoyhqj9m",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 34.27,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repoyhqj9m-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
         }
       ]
     },
@@ -69263,6 +69560,33 @@
           "line": 24,
           "source": "file",
           "preview": "AIza************************ZsRU"
+        }
+      ]
+    },
+    {
+      "repo": "youxin168/HTML-PH54-New",
+      "url": "https://github.com/youxin168/HTML-PH54-New",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.9,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "HTML-PH54-New-main/Facebook_Ads_Bot_V1_1.py",
+          "line": 7,
+          "source": "file",
+          "preview": "8725************************GQcA"
         }
       ]
     },
