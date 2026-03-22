@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T21:56:58.161722+00:00",
+  "generatedAt": "2026-03-22T22:17:40.058406+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -65800,6 +65800,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************0IEI"
+        }
+      ]
+    },
+    {
+      "repo": "omharigupta/vscode-gradril",
+      "url": "https://github.com/omharigupta/vscode-gradril",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.2,
+      "exposureScore": 20,
+      "topTypes": [
+        "AWS Access Key ID"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "vscode-gradril-main/PLAN.md",
+          "line": 239,
+          "source": "file",
+          "preview": "AKIA************CDEF"
         }
       ]
     },
