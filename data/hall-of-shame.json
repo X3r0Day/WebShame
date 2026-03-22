@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T17:40:27.264363+00:00",
+  "generatedAt": "2026-03-22T18:00:21.329904+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -20183,6 +20183,40 @@
       ]
     },
     {
+      "repo": "tarunkulkarni4/oldResume",
+      "url": "https://github.com/tarunkulkarni4/oldResume",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.91,
+      "exposureScore": 32,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "oldResume-main/server.js",
+          "line": 20,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "oldResume-main/server.js",
+          "line": 22,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "thanhluan88/bmad-blog",
       "url": "https://github.com/thanhluan88/bmad-blog",
       "status": "leaked",
@@ -26236,6 +26270,33 @@
           "line": 169,
           "source": "commit",
           "preview": "AIza************************low4"
+        }
+      ]
+    },
+    {
+      "repo": "artwandri/freezetrade",
+      "url": "https://github.com/artwandri/freezetrade",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.45,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 93b4c36",
+          "line": 22,
+          "source": "commit",
+          "preview": "http************************o-hr"
         }
       ]
     },
@@ -38498,6 +38559,33 @@
       ]
     },
     {
+      "repo": "AmruthaPeketi-13/bug-hygiene-engine",
+      "url": "https://github.com/AmruthaPeketi-13/bug-hygiene-engine",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.38,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "bug-hygiene-engine-main/backend/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************NZ8k"
+        }
+      ]
+    },
+    {
       "repo": "AndriGoTop/semka_news",
       "url": "https://github.com/AndriGoTop/semka_news",
       "status": "leaked",
@@ -41086,6 +41174,33 @@
           "line": 4,
           "source": "file",
           "preview": "mysq*******************host"
+        }
+      ]
+    },
+    {
+      "repo": "Gauresh3008/AirBnb-Backend",
+      "url": "https://github.com/Gauresh3008/AirBnb-Backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.92,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "AirBnb-Backend-main/app.js",
+          "line": 8,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -45244,6 +45359,33 @@
           "line": 131,
           "source": "file",
           "preview": "AIza************************Pv8M"
+        }
+      ]
+    },
+    {
+      "repo": "Prasadkandekar/gras-backend-new",
+      "url": "https://github.com/Prasadkandekar/gras-backend-new",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "gras-backend-new-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -58208,6 +58350,33 @@
       ]
     },
     {
+      "repo": "insightfulbriyan/adctf",
+      "url": "https://github.com/insightfulbriyan/adctf",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.5,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "adctf-main/house_market/app.py",
+          "line": 32,
+          "source": "file",
+          "preview": "mong*************}:{}"
+        }
+      ]
+    },
+    {
       "repo": "intracomsceo-dev/SKTmobile_App",
       "url": "https://github.com/intracomsceo-dev/SKTmobile_App",
       "status": "leaked",
@@ -66956,6 +67125,33 @@
       ]
     },
     {
+      "repo": "romuloicloud/sonhodobicho-lp-2026",
+      "url": "https://github.com/romuloicloud/sonhodobicho-lp-2026",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.28,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase JWT (Unknown Role)"
+      ],
+      "typeCounts": {
+        "Supabase JWT (Unknown Role)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase JWT (Unknown Role)",
+          "file": "sonhodobicho-lp-2026-main/bulk_populate_pets.js",
+          "line": 12,
+          "source": "file",
+          "preview": "eyJh************************ZhHA"
+        }
+      ]
+    },
+    {
       "repo": "ronald6666/atlasbotts",
       "url": "https://github.com/ronald6666/atlasbotts",
       "status": "leaked",
@@ -71785,6 +71981,33 @@
           "line": 10,
           "source": "file",
           "preview": "AIza************************x7gU"
+        }
+      ]
+    },
+    {
+      "repo": "zachnoble/hono-react-router-ssr",
+      "url": "https://github.com/zachnoble/hono-react-router-ssr",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.34,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "hono-react-router-ssr-main/docker-compose.dev.yml",
+          "line": 50,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
