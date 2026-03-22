@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T09:06:18.775551+00:00",
+  "generatedAt": "2026-03-22T09:47:51.814380+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -15183,6 +15183,42 @@
         {
           "type": "AWS Secret Access Key (Env Var)",
           "file": "onboarding-github-cloud-9991921621194-3-19-2026-12-36-05-PM-aZp-main/broken/iac/frameworks/cloudformation/cfngoat.yaml",
+          "line": 70,
+          "source": "file",
+          "preview": "AWS_************************AKEY"
+        }
+      ]
+    },
+    {
+      "repo": "cortex-e2e-automation-2/onboarding-github-cloud-9994602203097-3-22-2026-11-37-18-AM-pNt",
+      "url": "https://github.com/cortex-e2e-automation-2/onboarding-github-cloud-9994602203097-3-22-2026-11-37-18-AM-pNt",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.36,
+      "exposureScore": 40,
+      "topTypes": [
+        "AWS Access Key ID",
+        "AWS Secret Access Key (Env Var)"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1,
+        "AWS Secret Access Key (Env Var)": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "onboarding-github-cloud-9994602203097-3-22-2026-11-37-18-AM-pNt-main/broken/iac/frameworks/cloudformation/cfngoat.yaml",
+          "line": 69,
+          "source": "file",
+          "preview": "AKIA************MAAA"
+        },
+        {
+          "type": "AWS Secret Access Key (Env Var)",
+          "file": "onboarding-github-cloud-9994602203097-3-22-2026-11-37-18-AM-pNt-main/broken/iac/frameworks/cloudformation/cfngoat.yaml",
           "line": 70,
           "source": "file",
           "preview": "AWS_************************AKEY"
@@ -37545,6 +37581,33 @@
       ]
     },
     {
+      "repo": "BhavayGoyal/STTAI",
+      "url": "https://github.com/BhavayGoyal/STTAI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.74,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "STTAI-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "sk-o************************c2cf"
+        }
+      ]
+    },
+    {
       "repo": "Bhavyajain0604/Threat_Hawk_Vulnerability_Scanner",
       "url": "https://github.com/Bhavyajain0604/Threat_Hawk_Vulnerability_Scanner",
       "status": "leaked",
@@ -46806,6 +46869,33 @@
       ]
     },
     {
+      "repo": "a1ex21ru/flowers",
+      "url": "https://github.com/a1ex21ru/flowers",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 29.11,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "flowers-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************kO3o"
+        }
+      ]
+    },
+    {
       "repo": "aadukr5284-ops/Song-bot",
       "url": "https://github.com/aadukr5284-ops/Song-bot",
       "status": "leaked",
@@ -50366,6 +50456,33 @@
           "line": 3,
           "source": "file",
           "preview": "AIza************************Wh7E"
+        }
+      ]
+    },
+    {
+      "repo": "chepick1/-",
+      "url": "https://github.com/chepick1/-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.35,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "--main/rtr.py",
+          "line": 3,
+          "source": "file",
+          "preview": "8677************************cYvk"
         }
       ]
     },
@@ -63407,6 +63524,33 @@
           "line": 7,
           "source": "file",
           "preview": "AIza************************fKa4"
+        }
+      ]
+    },
+    {
+      "repo": "sakshitiwariii/legal_ai",
+      "url": "https://github.com/sakshitiwariii/legal_ai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 29.13,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "legal_ai-main/CHEATSHEET.md",
+          "line": 67,
+          "source": "file",
+          "preview": "mong************************7017"
         }
       ]
     },
