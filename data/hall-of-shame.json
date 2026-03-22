@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T16:45:35.929429+00:00",
+  "generatedAt": "2026-03-22T17:10:49.521513+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -7169,6 +7169,49 @@
           "type": "Private Key (RSA)",
           "file": "Commit 4656416",
           "line": 50062,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "Rvjais/Invoice",
+      "url": "https://github.com/Rvjais/Invoice",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 169.24,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Invoice-main/backend/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Invoice-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit d23b520",
+          "line": 50970,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -21031,6 +21074,33 @@
       ]
     },
     {
+      "repo": "Aschtward/testeelotech",
+      "url": "https://github.com/Aschtward/testeelotech",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 8.12,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit b9a0728",
+          "line": 17,
+          "source": "commit",
+          "preview": "AIza************************7jbs"
+        }
+      ]
+    },
+    {
       "repo": "AtherHub/_Blox_fruits",
       "url": "https://github.com/AtherHub/_Blox_fruits",
       "status": "leaked",
@@ -24103,6 +24173,33 @@
           "type": "Google API/GCP Key",
           "file": "Commit 42db525",
           "line": 1794,
+          "source": "commit",
+          "preview": "AIza************************sqe4"
+        }
+      ]
+    },
+    {
+      "repo": "Rvv1290/seacoast-rvip-COMPLETE-FINAL_firmsummit-",
+      "url": "https://github.com/Rvv1290/seacoast-rvip-COMPLETE-FINAL_firmsummit-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.64,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 2b1baa9",
+          "line": 1796,
           "source": "commit",
           "preview": "AIza************************sqe4"
         }
@@ -32421,6 +32518,33 @@
           "line": 158,
           "source": "commit",
           "preview": "eyJh************************-nPU"
+        }
+      ]
+    },
+    {
+      "repo": "nxnndndbxb/Fortune",
+      "url": "https://github.com/nxnndndbxb/Fortune",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.17,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 779475b",
+          "line": 302,
+          "source": "commit",
+          "preview": "AIza************************BN1w"
         }
       ]
     },
@@ -44683,6 +44807,33 @@
       ]
     },
     {
+      "repo": "Ops-developerRBLX/mon-bot-discord",
+      "url": "https://github.com/Ops-developerRBLX/mon-bot-discord",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.04,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "mon-bot-discord-main/bienvenue.js",
+          "line": 9,
+          "source": "file",
+          "preview": "http************************t-v2"
+        }
+      ]
+    },
+    {
       "repo": "Oumabrian/skylift-home-tuition",
       "url": "https://github.com/Oumabrian/skylift-home-tuition",
       "status": "leaked",
@@ -54376,6 +54527,33 @@
       ]
     },
     {
+      "repo": "dzinn22/Backend",
+      "url": "https://github.com/dzinn22/Backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.27,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenAI API Key (Project)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Project)": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Project)",
+          "file": "Backend-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "sk-p************************jFOL"
+        }
+      ]
+    },
+    {
       "repo": "eastar2442-walter/ean-home",
       "url": "https://github.com/eastar2442-walter/ean-home",
       "status": "leaked",
@@ -58908,6 +59086,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************kAGk"
+        }
+      ]
+    },
+    {
+      "repo": "kadirou12333/ai-agent-security-scanner",
+      "url": "https://github.com/kadirou12333/ai-agent-security-scanner",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.83,
+      "exposureScore": 20,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "ai-agent-security-scanner-master/examples/sample_vulnerable_agent.py",
+          "line": 16,
+          "source": "file",
+          "preview": "ghp_************************wxyz"
         }
       ]
     },
@@ -65716,6 +65921,33 @@
       ]
     },
     {
+      "repo": "ravikngk-source/BASIC_AI_AGENTS",
+      "url": "https://github.com/ravikngk-source/BASIC_AI_AGENTS",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.79,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "BASIC_AI_AGENTS-main/first_agent/basic_agent_code.py",
+          "line": 13,
+          "source": "file",
+          "preview": "AIza************************9CDo"
+        }
+      ]
+    },
+    {
       "repo": "ravisharma1062/janm_kundali_app",
       "url": "https://github.com/ravisharma1062/janm_kundali_app",
       "status": "leaked",
@@ -70333,6 +70565,33 @@
       ]
     },
     {
+      "repo": "whahnize/openclaw-config",
+      "url": "https://github.com/whahnize/openclaw-config",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.11,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "openclaw-config-main/openclaw.json",
+          "line": 260,
+          "source": "file",
+          "preview": "8221************************cJkI"
+        }
+      ]
+    },
+    {
       "repo": "willblackmon72-pixel/Centuryanalytics",
       "url": "https://github.com/willblackmon72-pixel/Centuryanalytics",
       "status": "leaked",
@@ -70788,6 +71047,195 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************bru4"
+        }
+      ]
+    },
+    {
+      "repo": "yenan26febu4180/repobg39hk",
+      "url": "https://github.com/yenan26febu4180/repobg39hk",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 46.38,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repobg39hk-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "yenan26febu4180/repodhyemr",
+      "url": "https://github.com/yenan26febu4180/repodhyemr",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 56.35,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repodhyemr-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "yenan26febu4180/repoktpdbm",
+      "url": "https://github.com/yenan26febu4180/repoktpdbm",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 28.62,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repoktpdbm-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "yenan26febu4180/repolih5bs",
+      "url": "https://github.com/yenan26febu4180/repolih5bs",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 46.39,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repolih5bs-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "yenan26febu4180/repolnsdoq",
+      "url": "https://github.com/yenan26febu4180/repolnsdoq",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 45.99,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repolnsdoq-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "yenan26febu4180/repolok46v",
+      "url": "https://github.com/yenan26febu4180/repolok46v",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.39,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repolok46v-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "yenan26febu4180/repotlmbm3",
+      "url": "https://github.com/yenan26febu4180/repotlmbm3",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 32.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repotlmbm3-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
         }
       ]
     },
