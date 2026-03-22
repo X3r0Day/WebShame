@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T13:59:15.285598+00:00",
+  "generatedAt": "2026-03-22T14:25:09.740926+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -16048,6 +16048,42 @@
       ]
     },
     {
+      "repo": "nludd25/TrendRadar",
+      "url": "https://github.com/nludd25/TrendRadar",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 62.88,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Slack Webhook"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Slack Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "TrendRadar-main/README-EN.md",
+          "line": 1355,
+          "source": "file",
+          "preview": "1234************************m9T0"
+        },
+        {
+          "type": "Slack Webhook",
+          "file": "TrendRadar-main/README-EN.md",
+          "line": 1710,
+          "source": "file",
+          "preview": "http************************XXXX"
+        }
+      ]
+    },
+    {
       "repo": "nxsdevv/walletroast",
       "url": "https://github.com/nxsdevv/walletroast",
       "status": "leaked",
@@ -18800,6 +18836,40 @@
       ]
     },
     {
+      "repo": "irfan219-cloud/agroSmart",
+      "url": "https://github.com/irfan219-cloud/agroSmart",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 33.92,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "agroSmart-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************sTMY"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "agroSmart-main/lib/screens/ai_insights_screen.dart",
+          "line": 162,
+          "source": "file",
+          "preview": "AIza************************5jx4"
+        }
+      ]
+    },
+    {
       "repo": "jaigouk/altoiddd",
       "url": "https://github.com/jaigouk/altoiddd",
       "status": "leaked",
@@ -20863,6 +20933,33 @@
           "line": 681,
           "source": "commit",
           "preview": "AIza************************nkPQ"
+        }
+      ]
+    },
+    {
+      "repo": "CCCw2/login",
+      "url": "https://github.com/CCCw2/login",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 15.26,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit e44a893",
+          "line": 6103,
+          "source": "commit",
+          "preview": "8665************************vxJk"
         }
       ]
     },
@@ -24103,6 +24200,33 @@
           "line": 73,
           "source": "commit",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "USWAPP-pay/E-zoo",
+      "url": "https://github.com/USWAPP-pay/E-zoo",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.82,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 68c1313",
+          "line": 376,
+          "source": "commit",
+          "preview": "8627************************5eb4"
         }
       ]
     },
@@ -47003,6 +47127,33 @@
       ]
     },
     {
+      "repo": "Vantisgo/dev-container-template",
+      "url": "https://github.com/Vantisgo/dev-container-template",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.42,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "dev-container-template-master/.devcontainer/docker-compose.yml",
+          "line": 26,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Varun-78-git/KISAN7SEVA",
       "url": "https://github.com/Varun-78-git/KISAN7SEVA",
       "status": "leaked",
@@ -47269,6 +47420,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************AECU"
+        }
+      ]
+    },
+    {
+      "repo": "Vishvesh-48/devops-practice",
+      "url": "https://github.com/Vishvesh-48/devops-practice",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.89,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "devops-practice-main/result/server.js",
+          "line": 21,
+          "source": "file",
+          "preview": "post***********************s@db"
         }
       ]
     },
@@ -52397,6 +52575,33 @@
           "type": "PostgreSQL Connection URI",
           "file": "administerio-saas-production/src/database/tenant-prisma.service.ts",
           "line": 113,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "davidgbrils/easyworship",
+      "url": "https://github.com/davidgbrils/easyworship",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.34,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "easyworship-main/note.txt",
+          "line": 2,
           "source": "file",
           "preview": "post************************5432"
         }
