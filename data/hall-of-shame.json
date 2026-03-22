@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T18:30:47.182896+00:00",
+  "generatedAt": "2026-03-22T19:07:31.958749+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -5555,6 +5555,54 @@
       ]
     },
     {
+      "repo": "abdulamee/clearflow-backend",
+      "url": "https://github.com/abdulamee/clearflow-backend",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 171.93,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "clearflow-backend-main/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "clearflow-backend-main/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 8630ca2",
+          "line": 68523,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 8630ca2",
+          "line": 68958,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "dcf666/health-system",
       "url": "https://github.com/dcf666/health-system",
       "status": "leaked",
@@ -7429,6 +7477,96 @@
           "line": 57716,
           "source": "commit",
           "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "CodePeriod/skills-introduction-to-secret-scanning",
+      "url": "https://github.com/CodePeriod/skills-introduction-to-secret-scanning",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 3,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.04,
+      "exposureScore": 60,
+      "topTypes": [
+        "AWS Access Key ID",
+        "AWS Secret Access Key (Env Var)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1,
+        "AWS Secret Access Key (Env Var)": 1,
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "skills-introduction-to-secret-scanning-main/.github/steps/1-enable-secret-scanning.md",
+          "line": 57,
+          "source": "file",
+          "preview": "AKIA************Z56B"
+        },
+        {
+          "type": "AWS Secret Access Key (Env Var)",
+          "file": "skills-introduction-to-secret-scanning-main/.github/steps/1-enable-secret-scanning.md",
+          "line": 58,
+          "source": "file",
+          "preview": "aws_************************bdca"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "skills-introduction-to-secret-scanning-main/.github/steps/1-enable-secret-scanning.md",
+          "line": 59,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "USADistributions/TFL-Order-Automation",
+      "url": "https://github.com/USADistributions/TFL-Order-Automation",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 3,
+      "filesAffected": 3,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.4,
+      "exposureScore": 60,
+      "topTypes": [
+        "Slack Webhook",
+        "Google OAuth Client Secret",
+        "Google OAuth Access Token"
+      ],
+      "typeCounts": {
+        "Slack Webhook": 1,
+        "Google OAuth Client Secret": 1,
+        "Google OAuth Access Token": 1
+      },
+      "findings": [
+        {
+          "type": "Slack Webhook",
+          "file": "TFL-Order-Automation-main/config.json",
+          "line": 5,
+          "source": "file",
+          "preview": "http************************Vrti"
+        },
+        {
+          "type": "Google OAuth Client Secret",
+          "file": "TFL-Order-Automation-main/credentials.json",
+          "line": 1,
+          "source": "file",
+          "preview": "GOCS************************BvJH"
+        },
+        {
+          "type": "Google OAuth Access Token",
+          "file": "TFL-Order-Automation-main/token.json",
+          "line": 1,
+          "source": "file",
+          "preview": "ya29************************0209"
         }
       ]
     },
@@ -24184,6 +24322,33 @@
       ]
     },
     {
+      "repo": "Ratul8478/New-Gayetri-Jewellery-Jewellery-of-Jewelles",
+      "url": "https://github.com/Ratul8478/New-Gayetri-Jewellery-Jewellery-of-Jewelles",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 49.56,
+      "exposureScore": 30,
+      "topTypes": [
+        "AWS Access Key ID"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "Commit 611b8a7",
+          "line": 15037,
+          "source": "commit",
+          "preview": "AKIA************UJ26"
+        }
+      ]
+    },
+    {
       "repo": "Registro-Nacional-SIGED-Sep/OSCAR-CAMPOS-LARA",
       "url": "https://github.com/Registro-Nacional-SIGED-Sep/OSCAR-CAMPOS-LARA",
       "status": "leaked",
@@ -28531,6 +28696,33 @@
       ]
     },
     {
+      "repo": "gagik9118-lgtm/Majorka-",
+      "url": "https://github.com/gagik9118-lgtm/Majorka-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.77,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 4ea9a9a",
+          "line": 167,
+          "source": "commit",
+          "preview": "8796************************WdKk"
+        }
+      ]
+    },
+    {
       "repo": "galahbose2-ship-it/daize",
       "url": "https://github.com/galahbose2-ship-it/daize",
       "status": "leaked",
@@ -29931,6 +30123,33 @@
           "line": 599,
           "source": "commit",
           "preview": "http************************o5Aj"
+        }
+      ]
+    },
+    {
+      "repo": "joadjisessalol-a11y/cvz2.790",
+      "url": "https://github.com/joadjisessalol-a11y/cvz2.790",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.98,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 4abfc23",
+          "line": 82,
+          "source": "commit",
+          "preview": "http************************gUWt"
         }
       ]
     },
@@ -41109,6 +41328,33 @@
           "line": 11,
           "source": "file",
           "preview": "http************************Gl6y"
+        }
+      ]
+    },
+    {
+      "repo": "FranciscoAlvarezConstellia/INVESTIGACION-DE-MERCADOS-CONSTELLia---CONFIDENCCIAL",
+      "url": "https://github.com/FranciscoAlvarezConstellia/INVESTIGACION-DE-MERCADOS-CONSTELLia---CONFIDENCCIAL",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.23,
+      "exposureScore": 20,
+      "topTypes": [
+        "AWS Session Token"
+      ],
+      "typeCounts": {
+        "AWS Session Token": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Session Token",
+          "file": "INVESTIGACION-DE-MERCADOS-CONSTELLia---CONFIDENCCIAL-main/Plan de Negocios 3.0 \u2014 CONSTELLia SL.md",
+          "line": 622,
+          "source": "file",
+          "preview": "ASIA************SYT2"
         }
       ]
     },
@@ -63816,6 +64062,33 @@
           "line": 1,
           "source": "file",
           "preview": "AIza************************wjj8"
+        }
+      ]
+    },
+    {
+      "repo": "netvbox380-hue/notifiqueme-estavel-final-3",
+      "url": "https://github.com/netvbox380-hue/notifiqueme-estavel-final-3",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 28.69,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "notifiqueme-estavel-final-3-main/docker-compose.yml",
+          "line": 38,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
