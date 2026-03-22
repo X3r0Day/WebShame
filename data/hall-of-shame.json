@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T06:38:38.663117+00:00",
+  "generatedAt": "2026-03-22T07:30:56.720025+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -14663,6 +14663,42 @@
           "line": 7,
           "source": "file",
           "preview": "eyJh************************C1g0"
+        }
+      ]
+    },
+    {
+      "repo": "a735561656/TrendRadarTest",
+      "url": "https://github.com/a735561656/TrendRadarTest",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 97.2,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Slack Webhook"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Slack Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "TrendRadarTest-master/README-EN.md",
+          "line": 1355,
+          "source": "file",
+          "preview": "1234************************m9T0"
+        },
+        {
+          "type": "Slack Webhook",
+          "file": "TrendRadarTest-master/README-EN.md",
+          "line": 1710,
+          "source": "file",
+          "preview": "http************************XXXX"
         }
       ]
     },
@@ -34673,6 +34709,33 @@
       ]
     },
     {
+      "repo": "vinhduy-https/APT",
+      "url": "https://github.com/vinhduy-https/APT",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 67.14,
+      "exposureScore": 30,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit abe1540",
+          "line": 320,
+          "source": "commit",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "vinyaspoojary318-cloud/fabricane",
       "url": "https://github.com/vinyaspoojary318-cloud/fabricane",
       "status": "leaked",
@@ -50950,6 +51013,33 @@
           "line": 41,
           "source": "file",
           "preview": "GOCS************************XzRz"
+        }
+      ]
+    },
+    {
+      "repo": "dhana29CSE/Node-MovieWishlistApp",
+      "url": "https://github.com/dhana29CSE/Node-MovieWishlistApp",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 162.86,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Node-MovieWishlistApp-main/server.js",
+          "line": 10,
+          "source": "file",
+          "preview": "mong************************7017"
         }
       ]
     },
