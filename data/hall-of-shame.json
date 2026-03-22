@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T14:57:46.310441+00:00",
+  "generatedAt": "2026-03-22T15:24:07.909896+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -3632,6 +3632,63 @@
           "type": "Private Key (RSA)",
           "file": "Commit f26e393",
           "line": 116477,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "amhimel/notes_backend",
+      "url": "https://github.com/amhimel/notes_backend",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 5,
+      "uniqueTypes": 2,
+      "filesAffected": 4,
+      "commitFindings": 2,
+      "scanTimeSeconds": 154.23,
+      "exposureScore": 96,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "notes_backend-main/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "notes_backend-main/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "notes_backend-main/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 3cb130a",
+          "line": 67744,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 3cb130a",
+          "line": 68179,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -8197,6 +8254,54 @@
           "type": "PostgreSQL Connection URI",
           "file": "tour-crm-main/DEPLOY_CHEATSHEET.md",
           "line": 68,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "JoaoORSimoes/booklink",
+      "url": "https://github.com/JoaoORSimoes/booklink",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 27.76,
+      "exposureScore": 56,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 4
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "booklink-main/docker-compose.yml",
+          "line": 61,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "booklink-main/docker-compose.yml",
+          "line": 83,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "booklink-main/docker-compose.yml",
+          "line": 105,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "booklink-main/docker-compose.yml",
+          "line": 130,
           "source": "file",
           "preview": "post************************5432"
         }
@@ -16552,6 +16657,42 @@
       ]
     },
     {
+      "repo": "wangman1226-arch/feishu-news",
+      "url": "https://github.com/wangman1226-arch/feishu-news",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 84.33,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Slack Webhook"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Slack Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "feishu-news-master/README-EN.md",
+          "line": 1355,
+          "source": "file",
+          "preview": "1234************************m9T0"
+        },
+        {
+          "type": "Slack Webhook",
+          "file": "feishu-news-master/README-EN.md",
+          "line": 1710,
+          "source": "file",
+          "preview": "http************************XXXX"
+        }
+      ]
+    },
+    {
       "repo": "xiaobaiba999/TrendRadar",
       "url": "https://github.com/xiaobaiba999/TrendRadar",
       "status": "leaked",
@@ -23226,6 +23367,33 @@
           "type": "Discord Webhook",
           "file": "Commit 0444f3a",
           "line": 1348,
+          "source": "commit",
+          "preview": "http************************TnXa"
+        }
+      ]
+    },
+    {
+      "repo": "NovaLukaz/Traum2.ModBewerbungen",
+      "url": "https://github.com/NovaLukaz/Traum2.ModBewerbungen",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 10.25,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit aeab1ec",
+          "line": 1433,
           "source": "commit",
           "preview": "http************************TnXa"
         }
@@ -35544,6 +35712,33 @@
       ]
     },
     {
+      "repo": "themofan/CardPath",
+      "url": "https://github.com/themofan/CardPath",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 18.53,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 6e038e1",
+          "line": 22,
+          "source": "commit",
+          "preview": "AIza************************aA_c"
+        }
+      ]
+    },
+    {
       "repo": "thriftthread/passingprobability",
       "url": "https://github.com/thriftthread/passingprobability",
       "status": "leaked",
@@ -42051,6 +42246,33 @@
       ]
     },
     {
+      "repo": "KunalChoudhary03/Expancify_ai",
+      "url": "https://github.com/KunalChoudhary03/Expancify_ai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 175.75,
+      "exposureScore": 20,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Expancify_ai-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "Kush1309/Devops-Project",
       "url": "https://github.com/Kush1309/Devops-Project",
       "status": "leaked",
@@ -46124,6 +46346,33 @@
           "line": 18,
           "source": "file",
           "preview": "AIza************************5FF4"
+        }
+      ]
+    },
+    {
+      "repo": "Shripatil9082/medibook",
+      "url": "https://github.com/Shripatil9082/medibook",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 20.12,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "medibook-main/src/lib/ai.ts",
+          "line": 3,
+          "source": "file",
+          "preview": "AIza************************pSgM"
         }
       ]
     },
@@ -61136,6 +61385,114 @@
           "line": 12,
           "source": "file",
           "preview": "AIza************************Lp8k"
+        }
+      ]
+    },
+    {
+      "repo": "minhdeo26febu4165/repo5jwc1y",
+      "url": "https://github.com/minhdeo26febu4165/repo5jwc1y",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.89,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo5jwc1y-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "minhdeo26febu4165/repodro3c9",
+      "url": "https://github.com/minhdeo26febu4165/repodro3c9",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 21.77,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repodro3c9-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "minhdeo26febu4165/repoe4f1oa",
+      "url": "https://github.com/minhdeo26febu4165/repoe4f1oa",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 54.77,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repoe4f1oa-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "minhdeo26febu4165/repou6ji0m",
+      "url": "https://github.com/minhdeo26febu4165/repou6ji0m",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 43.86,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repou6ji0m-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
         }
       ]
     },
