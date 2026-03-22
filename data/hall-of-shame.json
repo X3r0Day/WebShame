@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T05:46:48.359050+00:00",
+  "generatedAt": "2026-03-22T06:38:38.663117+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -13531,6 +13531,40 @@
       ]
     },
     {
+      "repo": "sujay-0-dev/ComplyNow_Frontend",
+      "url": "https://github.com/sujay-0-dev/ComplyNow_Frontend",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 97.79,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "ComplyNow_Frontend-main/node_modules/.pnpm/dotenv@17.3.1/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 4195d66",
+          "line": 55689,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "ujjwalgupta983/bounty-hunter-agent",
       "url": "https://github.com/ujjwalgupta983/bounty-hunter-agent",
       "status": "leaked",
@@ -18721,6 +18755,40 @@
           "line": 33,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "princekathrotiya5/bloom-market-delight-main",
+      "url": "https://github.com/princekathrotiya5/bloom-market-delight-main",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 73.99,
+      "exposureScore": 32,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "bloom-market-delight-main-main/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "bloom-market-delight-main-main/server_env_log_utf8.txt",
+          "line": 7,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
