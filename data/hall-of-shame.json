@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T19:38:00.985899+00:00",
+  "generatedAt": "2026-03-22T19:56:00.504233+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -5971,6 +5971,47 @@
           "line": 970,
           "source": "commit",
           "preview": "AIza************************dTds"
+        }
+      ]
+    },
+    {
+      "repo": "ipd8yndm4d/GitHub-Notification-Test",
+      "url": "https://github.com/ipd8yndm4d/GitHub-Notification-Test",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 3,
+      "scanTimeSeconds": 3.82,
+      "exposureScore": 74,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 3
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "Commit 012ca3f",
+          "line": 17,
+          "source": "commit",
+          "preview": "gho_************************nfL4"
+        },
+        {
+          "type": "GitHub Classic PAT",
+          "file": "Commit 012ca3f",
+          "line": 18,
+          "source": "commit",
+          "preview": "gho_************************9czG"
+        },
+        {
+          "type": "GitHub Classic PAT",
+          "file": "Commit 012ca3f",
+          "line": 19,
+          "source": "commit",
+          "preview": "gho_************************21E8"
         }
       ]
     },
@@ -13042,6 +13083,40 @@
           "line": 409,
           "source": "commit",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "MirelSIG/MongoDB_Taller",
+      "url": "https://github.com/MirelSIG/MongoDB_Taller",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 7.38,
+      "exposureScore": 42,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "MongoDB_Taller-main/Atlas.txt",
+          "line": 32,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 0f87d4a",
+          "line": 41,
+          "source": "commit",
+          "preview": "mong************************.net"
         }
       ]
     },
