@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T17:10:49.521513+00:00",
+  "generatedAt": "2026-03-22T17:40:27.264363+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -15901,6 +15901,42 @@
       ]
     },
     {
+      "repo": "denisDolotov95/TelebotServiceGateIo",
+      "url": "https://github.com/denisDolotov95/TelebotServiceGateIo",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 33.04,
+      "exposureScore": 40,
+      "topTypes": [
+        "RabbitMQ/AMQP URI",
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "RabbitMQ/AMQP URI": 1,
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "RabbitMQ/AMQP URI",
+          "file": "TelebotServiceGateIo-main/gate_rest_api/config.py",
+          "line": 16,
+          "source": "file",
+          "preview": "amqp************************00\"}"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "TelebotServiceGateIo-main/my_account/app/config.py",
+          "line": 39,
+          "source": "file",
+          "preview": "7228************************p-I4"
+        }
+      ]
+    },
+    {
       "repo": "dhiraj1155/Vehicle-Surveillance",
       "url": "https://github.com/dhiraj1155/Vehicle-Surveillance",
       "status": "leaked",
@@ -25151,6 +25187,33 @@
       ]
     },
     {
+      "repo": "Yahya-Fawzey/new-portfolio",
+      "url": "https://github.com/Yahya-Fawzey/new-portfolio",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.79,
+      "exposureScore": 30,
+      "topTypes": [
+        "AWS Access Key ID"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "Commit 8e97966",
+          "line": 108,
+          "source": "commit",
+          "preview": "AKIA************K4ZA"
+        }
+      ]
+    },
+    {
       "repo": "Yazeed-85/Mzad",
       "url": "https://github.com/Yazeed-85/Mzad",
       "status": "leaked",
@@ -33224,6 +33287,33 @@
       ]
     },
     {
+      "repo": "protasovi007-lgtm/VeloraAgency_bot",
+      "url": "https://github.com/protasovi007-lgtm/VeloraAgency_bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.68,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 15ff8ed",
+          "line": 37,
+          "source": "commit",
+          "preview": "8771************************0AY8"
+        }
+      ]
+    },
+    {
       "repo": "prototype-rylia/dashboard-roue",
       "url": "https://github.com/prototype-rylia/dashboard-roue",
       "status": "leaked",
@@ -34111,6 +34201,33 @@
           "line": 36,
           "source": "commit",
           "preview": "eyJh************************WM2M"
+        }
+      ]
+    },
+    {
+      "repo": "roro112020-maker/csstealer",
+      "url": "https://github.com/roro112020-maker/csstealer",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.27,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit bd61092",
+          "line": 56,
+          "source": "commit",
+          "preview": "http************************YgOd"
         }
       ]
     },
@@ -43835,6 +43952,33 @@
       ]
     },
     {
+      "repo": "Mo9L1/Aedas-RAG",
+      "url": "https://github.com/Mo9L1/Aedas-RAG",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.21,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenAI API Key (Legacy)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Legacy)": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "Aedas-RAG-master/answer.py",
+          "line": 6,
+          "source": "file",
+          "preview": "sk-k************************tvxw"
+        }
+      ]
+    },
+    {
       "repo": "Mohamed22hh/ejust-club-hub",
       "url": "https://github.com/Mohamed22hh/ejust-club-hub",
       "status": "leaked",
@@ -45476,6 +45620,33 @@
           "type": "PostgreSQL Connection URI",
           "file": "ContainerAssignment-main/Backend/main.py",
           "line": 7,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "Rakeshneelam/Project-R",
+      "url": "https://github.com/Rakeshneelam/Project-R",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 51.56,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Project-R-main/docker-compose.yml",
+          "line": 69,
           "source": "file",
           "preview": "post************************5432"
         }
@@ -52390,6 +52561,168 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************ehh8"
+        }
+      ]
+    },
+    {
+      "repo": "canhhua26febu4179/repo0978s3",
+      "url": "https://github.com/canhhua26febu4179/repo0978s3",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 20.97,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo0978s3-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "canhhua26febu4179/repo3lo2hy",
+      "url": "https://github.com/canhhua26febu4179/repo3lo2hy",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 34.95,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo3lo2hy-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "canhhua26febu4179/repo3pal0u",
+      "url": "https://github.com/canhhua26febu4179/repo3pal0u",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 29.28,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo3pal0u-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "canhhua26febu4179/repootid2u",
+      "url": "https://github.com/canhhua26febu4179/repootid2u",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 20.75,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repootid2u-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "canhhua26febu4179/repormoy2e",
+      "url": "https://github.com/canhhua26febu4179/repormoy2e",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 30.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repormoy2e-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "canhhua26febu4179/repowuz69r",
+      "url": "https://github.com/canhhua26febu4179/repowuz69r",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 48.24,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repowuz69r-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
         }
       ]
     },
@@ -62384,6 +62717,33 @@
       ]
     },
     {
+      "repo": "mirzobek1204/my_test_bot",
+      "url": "https://github.com/mirzobek1204/my_test_bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.81,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "my_test_bot-main/mynewbot.py",
+          "line": 15,
+          "source": "file",
+          "preview": "8670************************-CrY"
+        }
+      ]
+    },
+    {
       "repo": "mizurgmc22-commits/---App",
       "url": "https://github.com/mizurgmc22-commits/---App",
       "status": "leaked",
@@ -70129,6 +70489,33 @@
           "line": 7,
           "source": "file",
           "preview": "sk_l************************4H6A"
+        }
+      ]
+    },
+    {
+      "repo": "vishal007-cool/movies-imbd",
+      "url": "https://github.com/vishal007-cool/movies-imbd",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "movies-imbd-main/src/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
