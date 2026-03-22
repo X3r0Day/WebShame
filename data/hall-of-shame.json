@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T20:06:53.981496+00:00",
+  "generatedAt": "2026-03-22T20:45:02.384644+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -5302,6 +5302,63 @@
           "line": 77,
           "source": "file",
           "preview": "post************************6543"
+        }
+      ]
+    },
+    {
+      "repo": "Ellisamovies/Auto5",
+      "url": "https://github.com/Ellisamovies/Auto5",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 5,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.5,
+      "exposureScore": 76,
+      "topTypes": [
+        "MongoDB Connection URI",
+        "OpenAI API Key (Legacy)"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 4,
+        "OpenAI API Key (Legacy)": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Auto5-Tech_VJ/info.py",
+          "line": 69,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Auto5-Tech_VJ/info.py",
+          "line": 70,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Auto5-Tech_VJ/info.py",
+          "line": 71,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Auto5-Tech_VJ/info.py",
+          "line": 86,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "Auto5-Tech_VJ/plugins/Extra/engine.py",
+          "line": 8,
+          "source": "file",
+          "preview": "sk-8************************KtyZ"
         }
       ]
     },
@@ -27518,6 +27575,33 @@
       ]
     },
     {
+      "repo": "carmyprodject/google-login-demo",
+      "url": "https://github.com/carmyprodject/google-login-demo",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.73,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit a3b47ed",
+          "line": 138,
+          "source": "commit",
+          "preview": "http************************rlLk"
+        }
+      ]
+    },
+    {
       "repo": "carolsmithceo/lj-garden-manager",
       "url": "https://github.com/carolsmithceo/lj-garden-manager",
       "status": "leaked",
@@ -35483,6 +35567,33 @@
       ]
     },
     {
+      "repo": "shayancodi/BooksGlance",
+      "url": "https://github.com/shayancodi/BooksGlance",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 12.2,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit d73c490",
+          "line": 219,
+          "source": "commit",
+          "preview": "AIza************************M2gY"
+        }
+      ]
+    },
+    {
       "repo": "shelbyzio/THEONE-UCLS4",
       "url": "https://github.com/shelbyzio/THEONE-UCLS4",
       "status": "leaked",
@@ -37261,6 +37372,33 @@
           "line": 374,
           "source": "commit",
           "preview": "AIza************************8Ztw"
+        }
+      ]
+    },
+    {
+      "repo": "voardwalker-code/MA-Memory-Architect",
+      "url": "https://github.com/voardwalker-code/MA-Memory-Architect",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 26.73,
+      "exposureScore": 30,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "Commit 39ef5f6",
+          "line": 5608,
+          "source": "commit",
+          "preview": "sk-o************************6518"
         }
       ]
     },
@@ -70961,6 +71099,168 @@
       ]
     },
     {
+      "repo": "tuyentang26febu4177/repoh09zrt",
+      "url": "https://github.com/tuyentang26febu4177/repoh09zrt",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 19.44,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repoh09zrt-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "tuyentang26febu4177/repoizzdw2",
+      "url": "https://github.com/tuyentang26febu4177/repoizzdw2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 43.97,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repoizzdw2-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "tuyentang26febu4177/reporau2fq",
+      "url": "https://github.com/tuyentang26febu4177/reporau2fq",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 32.02,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "reporau2fq-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "tuyentang26febu4177/reporqjj5l",
+      "url": "https://github.com/tuyentang26febu4177/reporqjj5l",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 22.0,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "reporqjj5l-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "tuyentang26febu4177/repou22mlj",
+      "url": "https://github.com/tuyentang26febu4177/repou22mlj",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.32,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repou22mlj-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "tuyentang26febu4177/repowdibdg",
+      "url": "https://github.com/tuyentang26febu4177/repowdibdg",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 21.15,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repowdibdg-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
       "repo": "tvrubira-cloud/gest-o-de-terreiro",
       "url": "https://github.com/tvrubira-cloud/gest-o-de-terreiro",
       "status": "leaked",
@@ -70984,6 +71284,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************Haik"
+        }
+      ]
+    },
+    {
+      "repo": "tylergibbs1/vaulthound",
+      "url": "https://github.com/tylergibbs1/vaulthound",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.52,
+      "exposureScore": 20,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "vaulthound-main/VaulthoundKit/Tests/VaulthoundCoreTests/SecretDetectorTests.swift",
+          "line": 35,
+          "source": "file",
+          "preview": "ghp_************************7890"
         }
       ]
     },
