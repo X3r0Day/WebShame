@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T08:01:12.013610+00:00",
+  "generatedAt": "2026-03-22T08:34:14.153408+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -6810,6 +6810,92 @@
           "line": 19,
           "source": "commit",
           "preview": "AIza************************vaIQ"
+        }
+      ]
+    },
+    {
+      "repo": "CodeOnCloud9455/fullstack",
+      "url": "https://github.com/CodeOnCloud9455/fullstack",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 117.79,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "fullstack-main/Backend/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "fullstack-main/Backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit e055497",
+          "line": 50916,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "Krishnarajkrish/mean-backend",
+      "url": "https://github.com/Krishnarajkrish/mean-backend",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 71.62,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Krishnarajkrish-mean-backend-4656416/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Krishnarajkrish-mean-backend-4656416/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 4656416",
+          "line": 50062,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -25093,6 +25179,33 @@
       ]
     },
     {
+      "repo": "bamy94216-jpg/-ldkdl",
+      "url": "https://github.com/bamy94216-jpg/-ldkdl",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.98,
+      "exposureScore": 30,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "Commit 47751c6",
+          "line": 202,
+          "source": "commit",
+          "preview": "ghp_************************XXXX"
+        }
+      ]
+    },
+    {
       "repo": "bcolhouer93-sudo/certops-academy",
       "url": "https://github.com/bcolhouer93-sudo/certops-academy",
       "status": "leaked",
@@ -29274,6 +29387,33 @@
           "line": 366,
           "source": "commit",
           "preview": "AIza************************mdbE"
+        }
+      ]
+    },
+    {
+      "repo": "mahmoudahmad01094-svg/Mahmod-Ahmed-AI",
+      "url": "https://github.com/mahmoudahmad01094-svg/Mahmod-Ahmed-AI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 7.37,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit af372d2",
+          "line": 206,
+          "source": "commit",
+          "preview": "AIza************************pd5A"
         }
       ]
     },
