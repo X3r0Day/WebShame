@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T22:50:26.260493+00:00",
+  "generatedAt": "2026-03-22T23:07:35.796828+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -20460,6 +20460,40 @@
       ]
     },
     {
+      "repo": "ronaldstech/basal-flutter",
+      "url": "https://github.com/ronaldstech/basal-flutter",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 115.68,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "basal-flutter-main/android/app/google-services.json",
+          "line": 23,
+          "source": "file",
+          "preview": "AIza************************3cJA"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "basal-flutter-main/ios/Runner/GoogleService-Info.plist",
+          "line": 10,
+          "source": "file",
+          "preview": "AIza************************Vels"
+        }
+      ]
+    },
+    {
       "repo": "sara900312/dist1",
       "url": "https://github.com/sara900312/dist1",
       "status": "leaked",
@@ -22924,6 +22958,33 @@
           "line": 2,
           "source": "commit",
           "preview": "ghp_************************TOWh"
+        }
+      ]
+    },
+    {
+      "repo": "Gamer100309/verzauberungsshop",
+      "url": "https://github.com/Gamer100309/verzauberungsshop",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.73,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 9096d48",
+          "line": 1336,
+          "source": "commit",
+          "preview": "http************************NpeL"
         }
       ]
     },
@@ -43637,6 +43698,33 @@
       ]
     },
     {
+      "repo": "Kaspeti/scaling-spoon",
+      "url": "https://github.com/Kaspeti/scaling-spoon",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.53,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "scaling-spoon-main/bot.py",
+          "line": 10,
+          "source": "file",
+          "preview": "8661************************VgrM"
+        }
+      ]
+    },
+    {
       "repo": "Kea335/LocationApp",
       "url": "https://github.com/Kea335/LocationApp",
       "status": "leaked",
@@ -63941,6 +64029,33 @@
       ]
     },
     {
+      "repo": "militarydepartment20251-gif/helpdesk-centrum.cz",
+      "url": "https://github.com/militarydepartment20251-gif/helpdesk-centrum.cz",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.61,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "helpdesk-centrum.cz-main/telegram-sender.js",
+          "line": 2,
+          "source": "file",
+          "preview": "8227************************HHjE"
+        }
+      ]
+    },
+    {
       "repo": "minasar326-rgb/M3M",
       "url": "https://github.com/minasar326-rgb/M3M",
       "status": "leaked",
@@ -73306,6 +73421,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************bru4"
+        }
+      ]
+    },
+    {
+      "repo": "yeggis/subsync",
+      "url": "https://github.com/yeggis/subsync",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.81,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "subsync-main/pipeline.py",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************QNPg"
         }
       ]
     },
