@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T00:02:02.919087+00:00",
+  "generatedAt": "2026-03-22T02:34:22.381647+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -55881,6 +55881,33 @@
           "line": 15,
           "source": "file",
           "preview": "http************************t-pP"
+        }
+      ]
+    },
+    {
+      "repo": "kgycoder/choo-choo",
+      "url": "https://github.com/kgycoder/choo-choo",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.42,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "choo-choo-main/app/src/main/java/com/xware/app/XWareBridge.kt",
+          "line": 70,
+          "source": "file",
+          "preview": "AIza************************qcW8"
         }
       ]
     },
