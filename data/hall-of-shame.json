@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T18:00:21.329904+00:00",
+  "generatedAt": "2026-03-22T18:30:47.182896+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -7085,6 +7085,49 @@
           "line": 19,
           "source": "commit",
           "preview": "AIza************************vaIQ"
+        }
+      ]
+    },
+    {
+      "repo": "Akashsharma211/Blogs",
+      "url": "https://github.com/Akashsharma211/Blogs",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 130.67,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Blogs-main/backend/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Blogs-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 9dd4879",
+          "line": 62258,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -39018,6 +39061,33 @@
       ]
     },
     {
+      "repo": "AsherDuthie-karunya/ailegislativeanalyzer1",
+      "url": "https://github.com/AsherDuthie-karunya/ailegislativeanalyzer1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.77,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ailegislativeanalyzer1-main/src/services/ai.ts",
+          "line": 3,
+          "source": "file",
+          "preview": "AIza************************gET8"
+        }
+      ]
+    },
+    {
       "repo": "Atamol/VDH_Sniffer",
       "url": "https://github.com/Atamol/VDH_Sniffer",
       "status": "leaked",
@@ -39527,6 +39597,33 @@
           "line": 7,
           "source": "file",
           "preview": "AIza************************f7OQ"
+        }
+      ]
+    },
+    {
+      "repo": "BlakeSan42/RGDGC",
+      "url": "https://github.com/BlakeSan42/RGDGC",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 26.52,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "RGDGC-main/docs/RGDGC_Imlementation-v2-22mar26-1248pm/PLATFORM_ARCHITECTURE.md",
+          "line": 202,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -65582,6 +65679,33 @@
           "line": 3,
           "source": "file",
           "preview": "http************************SNI2"
+        }
+      ]
+    },
+    {
+      "repo": "prabhanshupandey/ai-flow-app",
+      "url": "https://github.com/prabhanshupandey/ai-flow-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.55,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "ai-flow-app-main/backend/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "sk-o************************4445"
         }
       ]
     },
