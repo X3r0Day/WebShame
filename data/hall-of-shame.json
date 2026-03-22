@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T23:07:35.796828+00:00",
+  "generatedAt": "2026-03-22T23:42:53.966987+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -15842,6 +15842,42 @@
       ]
     },
     {
+      "repo": "SuperNovaRobot/openclaw-brain",
+      "url": "https://github.com/SuperNovaRobot/openclaw-brain",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 65.99,
+      "exposureScore": 40,
+      "topTypes": [
+        "PostgreSQL Connection URI",
+        "Redis Connection URI (Password)"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1,
+        "Redis Connection URI (Password)": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "openclaw-brain-2.0-lossless-memory/skills/claude-skills/common_antipatterns.md",
+          "line": 364,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "Redis Connection URI (Password)",
+          "file": "openclaw-brain-2.0-lossless-memory/skills/claude-skills/validation-detection-rotation.md",
+          "line": 163,
+          "source": "file",
+          "preview": "redi****************iss:"
+        }
+      ]
+    },
+    {
       "repo": "ThanhHiepNguyen/SWE",
       "url": "https://github.com/ThanhHiepNguyen/SWE",
       "status": "leaked",
@@ -17668,6 +17704,40 @@
           "line": 26,
           "source": "file",
           "preview": "AIza************************aQys"
+        }
+      ]
+    },
+    {
+      "repo": "AlanHazard/playaapp",
+      "url": "https://github.com/AlanHazard/playaapp",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.9,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "playaapp-master/CONVERSATION_LOG.md",
+          "line": 151,
+          "source": "file",
+          "preview": "AIza************************oOik"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "playaapp-master/CONVERSATION_LOG.md",
+          "line": 173,
+          "source": "file",
+          "preview": "AIza************************z3bI"
         }
       ]
     },
@@ -23660,6 +23730,33 @@
           "line": 19,
           "source": "commit",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "Kishore-BXB/Images",
+      "url": "https://github.com/Kishore-BXB/Images",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.45,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit f907ab5",
+          "line": 39,
+          "source": "commit",
+          "preview": "http************************MU3r"
         }
       ]
     },
@@ -44697,6 +44794,33 @@
       ]
     },
     {
+      "repo": "Maqsood32595/Fractal-Deterministic-Agent-Tunnel",
+      "url": "https://github.com/Maqsood32595/Fractal-Deterministic-Agent-Tunnel",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 105.43,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Fractal-Deterministic-Agent-Tunnel-main/features/db-migration/scripts/backup.js",
+          "line": 4,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "MaraMuresan/Energy-Management-System",
       "url": "https://github.com/MaraMuresan/Energy-Management-System",
       "status": "leaked",
@@ -49071,6 +49195,33 @@
       ]
     },
     {
+      "repo": "Temas10/t-bank_travel",
+      "url": "https://github.com/Temas10/t-bank_travel",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.33,
+      "exposureScore": 20,
+      "topTypes": [
+        "RabbitMQ/AMQP URI"
+      ],
+      "typeCounts": {
+        "RabbitMQ/AMQP URI": 1
+      },
+      "findings": [
+        {
+          "type": "RabbitMQ/AMQP URI",
+          "file": "t-bank_travel-main/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "amqp************************5672"
+        }
+      ]
+    },
+    {
       "repo": "Thanishka15/TrackMySpend",
       "url": "https://github.com/Thanishka15/TrackMySpend",
       "status": "leaked",
@@ -51443,6 +51594,33 @@
           "line": 3188,
           "source": "file",
           "preview": "AIza************************D5mA"
+        }
+      ]
+    },
+    {
+      "repo": "alexshxyz/fixi-bot",
+      "url": "https://github.com/alexshxyz/fixi-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.27,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "fixi-bot-prod/core/config.py",
+          "line": 19,
+          "source": "file",
+          "preview": "8616************************5kms"
         }
       ]
     },
