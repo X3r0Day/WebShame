@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T10:43:34.539478+00:00",
+  "generatedAt": "2026-03-22T11:04:30.813442+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -4712,6 +4712,58 @@
           "line": 35576,
           "source": "commit",
           "preview": "AIza************************58gY"
+        }
+      ]
+    },
+    {
+      "repo": "yatneshpuranik/InterviewBud",
+      "url": "https://github.com/yatneshpuranik/InterviewBud",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 3,
+      "filesAffected": 4,
+      "commitFindings": 1,
+      "scanTimeSeconds": 145.75,
+      "exposureScore": 82,
+      "topTypes": [
+        "Private Key (RSA)",
+        "Google API/GCP Key",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "InterviewBud-main/client/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************6GfQ"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "InterviewBud-main/server/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "InterviewBud-main/server/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 541d069",
+          "line": 64381,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -14403,6 +14455,42 @@
       ]
     },
     {
+      "repo": "ItsCojac/secretsweep",
+      "url": "https://github.com/ItsCojac/secretsweep",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.21,
+      "exposureScore": 40,
+      "topTypes": [
+        "GitHub Classic PAT",
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1,
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "secretsweep-master/test_secretsweep.py",
+          "line": 59,
+          "source": "file",
+          "preview": "ghp_************************ghij"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "secretsweep-master/test_secretsweep.py",
+          "line": 84,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Keerthipriya27/grievance-genius",
       "url": "https://github.com/Keerthipriya27/grievance-genius",
       "status": "leaked",
@@ -24050,6 +24138,33 @@
       ]
     },
     {
+      "repo": "YugayV/deepseekai_v2",
+      "url": "https://github.com/YugayV/deepseekai_v2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.9,
+      "exposureScore": 30,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "Commit ddf4aa5",
+          "line": 38,
+          "source": "commit",
+          "preview": "sk-o************************85ad"
+        }
+      ]
+    },
+    {
       "repo": "a14a-org/omnirun-examples",
       "url": "https://github.com/a14a-org/omnirun-examples",
       "status": "leaked",
@@ -24586,6 +24701,33 @@
           "line": 413,
           "source": "commit",
           "preview": "8493************************we1s"
+        }
+      ]
+    },
+    {
+      "repo": "amritgupta78490/amritone",
+      "url": "https://github.com/amritgupta78490/amritone",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.48,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 2c10ba3",
+          "line": 420,
+          "source": "commit",
+          "preview": "AIza************************bXzQ"
         }
       ]
     },
@@ -26048,6 +26190,33 @@
       ]
     },
     {
+      "repo": "christinloehner/FediSuite",
+      "url": "https://github.com/christinloehner/FediSuite",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.6,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit c7fcd78",
+          "line": 30,
+          "source": "commit",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "cmwalsher/mootracker",
       "url": "https://github.com/cmwalsher/mootracker",
       "status": "leaked",
@@ -26152,6 +26321,33 @@
           "line": 539,
           "source": "commit",
           "preview": "AIza************************j5mk"
+        }
+      ]
+    },
+    {
+      "repo": "cukyn12/yap-bot",
+      "url": "https://github.com/cukyn12/yap-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.22,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit f43bfb4",
+          "line": 626,
+          "source": "commit",
+          "preview": "AIza************************Rrb8"
         }
       ]
     },
@@ -27448,6 +27644,33 @@
           "line": 4755,
           "source": "commit",
           "preview": "AIza************************jv0E"
+        }
+      ]
+    },
+    {
+      "repo": "hamertwoberik-boop/aorn379",
+      "url": "https://github.com/hamertwoberik-boop/aorn379",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.02,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 605aebc",
+          "line": 59,
+          "source": "commit",
+          "preview": "AIza************************2uZs"
         }
       ]
     },
@@ -51887,6 +52110,33 @@
       ]
     },
     {
+      "repo": "dildo4722-stack/Stars",
+      "url": "https://github.com/dildo4722-stack/Stars",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.21,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Stars-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "8435************************3X4E"
+        }
+      ]
+    },
+    {
       "repo": "dina2507/Fitty",
       "url": "https://github.com/dina2507/Fitty",
       "status": "leaked",
@@ -60523,6 +60773,33 @@
           "line": 95,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "neonnumbersofficial-glitch/hosting",
+      "url": "https://github.com/neonnumbersofficial-glitch/hosting",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.22,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "hosting-main/main.py",
+          "line": 58,
+          "source": "file",
+          "preview": "8055************************8-0c"
         }
       ]
     },
