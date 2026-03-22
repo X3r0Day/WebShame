@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T11:04:30.813442+00:00",
+  "generatedAt": "2026-03-22T11:34:36.256347+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -14779,6 +14779,42 @@
       ]
     },
     {
+      "repo": "Q1207Y/-ai",
+      "url": "https://github.com/Q1207Y/-ai",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 102.55,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Slack Webhook"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Slack Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "-ai-master/README-EN.md",
+          "line": 1355,
+          "source": "file",
+          "preview": "1234************************m9T0"
+        },
+        {
+          "type": "Slack Webhook",
+          "file": "-ai-master/README-EN.md",
+          "line": 1710,
+          "source": "file",
+          "preview": "http************************XXXX"
+        }
+      ]
+    },
+    {
       "repo": "Ritikznwixww/xyz",
       "url": "https://github.com/Ritikznwixww/xyz",
       "status": "leaked",
@@ -17289,6 +17325,40 @@
       ]
     },
     {
+      "repo": "MikhailNess/ip-monitoring",
+      "url": "https://github.com/MikhailNess/ip-monitoring",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.19,
+      "exposureScore": 32,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "ip-monitoring-main/docker-compose.test.yml",
+          "line": 25,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "ip-monitoring-main/docker-compose.yml",
+          "line": 27,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Narayana-04/BloodDonorFinder",
       "url": "https://github.com/Narayana-04/BloodDonorFinder",
       "status": "leaked",
@@ -18849,6 +18919,40 @@
           "line": 36,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "lourdu11/new_CodeRise_Backend",
+      "url": "https://github.com/lourdu11/new_CodeRise_Backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.87,
+      "exposureScore": 32,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "new_CodeRise_Backend-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "new_CodeRise_Backend-main/migrate-db.js",
+          "line": 5,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -22217,6 +22321,33 @@
           "line": 1406,
           "source": "commit",
           "preview": "eyJh************************RWHs"
+        }
+      ]
+    },
+    {
+      "repo": "M1N-W/mathquest",
+      "url": "https://github.com/M1N-W/mathquest",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 14.91,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 2cece96",
+          "line": 54,
+          "source": "commit",
+          "preview": "AIza************************fgRA"
         }
       ]
     },
@@ -34398,6 +34529,33 @@
       ]
     },
     {
+      "repo": "supercode01/Event-Management-system-",
+      "url": "https://github.com/supercode01/Event-Management-system-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 112.35,
+      "exposureScore": 30,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit b54accf",
+          "line": 65,
+          "source": "commit",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "superoutletcolima-design/tago-chatbot1",
       "url": "https://github.com/superoutletcolima-design/tago-chatbot1",
       "status": "leaked",
@@ -38930,6 +39088,33 @@
           "line": 2,
           "source": "file",
           "preview": "AIza************************ZK4Y"
+        }
+      ]
+    },
+    {
+      "repo": "DivyanshJindal26/WedTech",
+      "url": "https://github.com/DivyanshJindal26/WedTech",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.71,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "WedTech-master/docker-compose.yml",
+          "line": 26,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -61533,6 +61718,33 @@
       ]
     },
     {
+      "repo": "p6h6di/tri-level-farming",
+      "url": "https://github.com/p6h6di/tri-level-farming",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.41,
+      "exposureScore": 20,
+      "topTypes": [
+        "Stripe Secret Key"
+      ],
+      "typeCounts": {
+        "Stripe Secret Key": 1
+      },
+      "findings": [
+        {
+          "type": "Stripe Secret Key",
+          "file": "tri-level-farming-main/README.md",
+          "line": 286,
+          "source": "file",
+          "preview": "sk_t************************xxxx"
+        }
+      ]
+    },
+    {
       "repo": "pabillovanny-stack/itecc6-hello",
       "url": "https://github.com/pabillovanny-stack/itecc6-hello",
       "status": "leaked",
@@ -64904,6 +65116,33 @@
           "line": 7,
           "source": "file",
           "preview": "AIza************************K7jI"
+        }
+      ]
+    },
+    {
+      "repo": "sijanpaudel14/Nepse",
+      "url": "https://github.com/sijanpaudel14/Nepse",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 24.2,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Nepse-main/nepse_ai_trading/data/sharehub_api.py",
+          "line": 347,
+          "source": "file",
+          "preview": "AIza************************LIUI"
         }
       ]
     },
