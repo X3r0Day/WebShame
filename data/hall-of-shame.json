@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T02:34:22.381647+00:00",
+  "generatedAt": "2026-03-22T04:38:48.766262+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -19124,6 +19124,40 @@
       ]
     },
     {
+      "repo": "willdbga-code/wdb-site",
+      "url": "https://github.com/willdbga-code/wdb-site",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.25,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "wdb-site-main/list.js",
+          "line": 2,
+          "source": "file",
+          "preview": "AIza************************Qu_s"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "wdb-site-main/list_models.js",
+          "line": 5,
+          "source": "file",
+          "preview": "AIza************************oqFE"
+        }
+      ]
+    },
+    {
       "repo": "xjw2005/RAGProjectHeiMa",
       "url": "https://github.com/xjw2005/RAGProjectHeiMa",
       "status": "leaked",
@@ -31338,6 +31372,33 @@
           "line": 251,
           "source": "commit",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "puranjai-dev/battleplan",
+      "url": "https://github.com/puranjai-dev/battleplan",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.86,
+      "exposureScore": 30,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 1
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "Commit 1148680",
+          "line": 53,
+          "source": "commit",
+          "preview": "http************************json"
         }
       ]
     },
@@ -62874,6 +62935,33 @@
           "line": 5,
           "source": "file",
           "preview": "AIza************************ELjA"
+        }
+      ]
+    },
+    {
+      "repo": "shadowmonarchop123-coder/ID-SELLING-BOT",
+      "url": "https://github.com/shadowmonarchop123-coder/ID-SELLING-BOT",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.87,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "ID-SELLING-BOT-main/bot.py",
+          "line": 24,
+          "source": "file",
+          "preview": "8768************************k7WU"
         }
       ]
     },
