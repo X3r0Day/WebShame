@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T22:17:40.058406+00:00",
+  "generatedAt": "2026-03-22T22:50:26.260493+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -24062,6 +24062,33 @@
       ]
     },
     {
+      "repo": "Mousa-2020/Knowing",
+      "url": "https://github.com/Mousa-2020/Knowing",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.88,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 90e0b91",
+          "line": 122,
+          "source": "commit",
+          "preview": "8605************************HWUE"
+        }
+      ]
+    },
+    {
       "repo": "Muyunshui/taobao_ad_analysis",
       "url": "https://github.com/Muyunshui/taobao_ad_analysis",
       "status": "leaked",
@@ -38831,6 +38858,33 @@
       ]
     },
     {
+      "repo": "Ahmad030687/WingoPanel",
+      "url": "https://github.com/Ahmad030687/WingoPanel",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.47,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "WingoPanel-main/main.py",
+          "line": 8,
+          "source": "file",
+          "preview": "8794************************1Nmo"
+        }
+      ]
+    },
+    {
       "repo": "AhmedMohammedSaad/food-app",
       "url": "https://github.com/AhmedMohammedSaad/food-app",
       "status": "leaked",
@@ -42094,6 +42148,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************4fIE"
+        }
+      ]
+    },
+    {
+      "repo": "Gui0494/CLI-complete",
+      "url": "https://github.com/Gui0494/CLI-complete",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.28,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "CLI-complete-main/.gemini/antigravity/scratch/CLI-agent-claude-cli-agent-planning-Z804h/gemma_scratch.py",
+          "line": 6,
+          "source": "file",
+          "preview": "sk-o************************8235"
         }
       ]
     },
@@ -50275,6 +50356,33 @@
           "line": 18,
           "source": "file",
           "preview": "AIza************************kO3o"
+        }
+      ]
+    },
+    {
+      "repo": "aaayushm23/context-engine",
+      "url": "https://github.com/aaayushm23/context-engine",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.51,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "context-engine-context-engine/docker-compose.yml",
+          "line": 45,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
