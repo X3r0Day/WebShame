@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T12:06:54.666820+00:00",
+  "generatedAt": "2026-03-22T13:13:23.142962+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -7851,6 +7851,42 @@
           "line": 266,
           "source": "commit",
           "preview": "8642************************7uDQ"
+        }
+      ]
+    },
+    {
+      "repo": "smaranbhupathi/notification-service",
+      "url": "https://github.com/smaranbhupathi/notification-service",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 2.06,
+      "exposureScore": 60,
+      "topTypes": [
+        "PostgreSQL Connection URI",
+        "RabbitMQ/AMQP URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1,
+        "RabbitMQ/AMQP URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 14ca433",
+          "line": 19,
+          "source": "commit",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "RabbitMQ/AMQP URI",
+          "file": "Commit 14ca433",
+          "line": 21,
+          "source": "commit",
+          "preview": "amqp************************5672"
         }
       ]
     },
@@ -20831,6 +20867,33 @@
       ]
     },
     {
+      "repo": "Check-64/V5",
+      "url": "https://github.com/Check-64/V5",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.06,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit b6940fe",
+          "line": 319,
+          "source": "commit",
+          "preview": "8371************************w3qo"
+        }
+      ]
+    },
+    {
       "repo": "ChiragArora31/OptiPay",
       "url": "https://github.com/ChiragArora31/OptiPay",
       "status": "leaked",
@@ -25768,6 +25831,33 @@
           "line": 1495,
           "source": "commit",
           "preview": "eyJh************************N32g"
+        }
+      ]
+    },
+    {
+      "repo": "bennett-ctrl/small-group-parking-map",
+      "url": "https://github.com/bennett-ctrl/small-group-parking-map",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.07,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit c87acb1",
+          "line": 821,
+          "source": "commit",
+          "preview": "AIza************************G2L0"
         }
       ]
     },
@@ -41378,6 +41468,33 @@
       ]
     },
     {
+      "repo": "KSN2005/Backend_CMA",
+      "url": "https://github.com/KSN2005/Backend_CMA",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.73,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Backend_CMA-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "KTEnt2020/cueup-backend",
       "url": "https://github.com/KTEnt2020/cueup-backend",
       "status": "leaked",
@@ -45455,6 +45572,33 @@
       ]
     },
     {
+      "repo": "Saranggole9106/ideathon_project",
+      "url": "https://github.com/Saranggole9106/ideathon_project",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 44.37,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ideathon_project-main/ai-service/nlp_processing.py",
+          "line": 9,
+          "source": "file",
+          "preview": "AIza************************BqGY"
+        }
+      ]
+    },
+    {
       "repo": "Saurabh667/ProtectorBot.py",
       "url": "https://github.com/Saurabh667/ProtectorBot.py",
       "status": "leaked",
@@ -46153,6 +46297,33 @@
           "line": 7,
           "source": "file",
           "preview": "AIza************************R5Tc"
+        }
+      ]
+    },
+    {
+      "repo": "Sushil845/Expensetracker",
+      "url": "https://github.com/Sushil845/Expensetracker",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 146.62,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Expensetracker-main/backend/server.js",
+          "line": 12,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -65674,6 +65845,33 @@
           "line": 7,
           "source": "file",
           "preview": "AIza************************K7jI"
+        }
+      ]
+    },
+    {
+      "repo": "siddiquesk/Spotify-backend-project",
+      "url": "https://github.com/siddiquesk/Spotify-backend-project",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.54,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Spotify-backend-project-main/backend/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
