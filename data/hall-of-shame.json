@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T19:56:00.504233+00:00",
+  "generatedAt": "2026-03-22T20:06:53.981496+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -19349,6 +19349,40 @@
           "line": 1329,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "edyysk8/narotta",
+      "url": "https://github.com/edyysk8/narotta",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.17,
+      "exposureScore": 32,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "narotta-main/README.md",
+          "line": 25,
+          "source": "file",
+          "preview": "post************************.com"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "narotta-main/README.md",
+          "line": 32,
+          "source": "file",
+          "preview": "post************************3g-a"
         }
       ]
     },
@@ -43711,6 +43745,33 @@
       ]
     },
     {
+      "repo": "LizHxro/affanyx-nginx",
+      "url": "https://github.com/LizHxro/affanyx-nginx",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.36,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "affanyx-nginx-main/app.js",
+          "line": 7,
+          "source": "file",
+          "preview": "mong************************23';"
+        }
+      ]
+    },
+    {
       "repo": "Louis123-qwe/Sentinel-",
       "url": "https://github.com/Louis123-qwe/Sentinel-",
       "status": "leaked",
@@ -47001,6 +47062,33 @@
           "line": 368,
           "source": "file",
           "preview": "eyJh************************sBFU"
+        }
+      ]
+    },
+    {
+      "repo": "SAturnX10/alpha-screener",
+      "url": "https://github.com/SAturnX10/alpha-screener",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.03,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "alpha-screener-main/scanner.py",
+          "line": 5,
+          "source": "file",
+          "preview": "8621************************OAD0"
         }
       ]
     },
@@ -52860,6 +52948,33 @@
           "line": 24,
           "source": "file",
           "preview": "8678************************MPcE"
+        }
+      ]
+    },
+    {
+      "repo": "borya28942-gif/botth",
+      "url": "https://github.com/borya28942-gif/botth",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.27,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "botth-main/config.py",
+          "line": 4,
+          "source": "file",
+          "preview": "8712************************_7HU"
         }
       ]
     },
@@ -65739,6 +65854,33 @@
           "line": 250,
           "source": "file",
           "preview": "post************************host"
+        }
+      ]
+    },
+    {
+      "repo": "pastawaffle/Alocation-Expres",
+      "url": "https://github.com/pastawaffle/Alocation-Expres",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 24.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Alocation-Expres-main/android/app/google-services.json",
+          "line": 24,
+          "source": "file",
+          "preview": "AIza************************CZ24"
         }
       ]
     },
