@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T21:37:51.016634+00:00",
+  "generatedAt": "2026-03-22T21:56:58.161722+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -21817,6 +21817,33 @@
           "line": 1617,
           "source": "commit",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "Beilian13/.lol-coding-language",
+      "url": "https://github.com/Beilian13/.lol-coding-language",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 13.35,
+      "exposureScore": 30,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "Commit 3f9c06a",
+          "line": 10290,
+          "source": "commit",
+          "preview": "ghp_************************50fy"
         }
       ]
     },
