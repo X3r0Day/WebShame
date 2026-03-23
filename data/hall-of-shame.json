@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T17:45:50.719158+00:00",
+  "generatedAt": "2026-03-23T18:38:38.583970+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -21017,6 +21017,40 @@
       ]
     },
     {
+      "repo": "lachlan-sear/Thesis-Agent",
+      "url": "https://github.com/lachlan-sear/Thesis-Agent",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.2,
+      "exposureScore": 32,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 2
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "Thesis-Agent-main/config/thesis.yaml",
+          "line": 118,
+          "source": "file",
+          "preview": "http************************json"
+        },
+        {
+          "type": "Firebase Database URL",
+          "file": "Thesis-Agent-main/config/thesis.yaml",
+          "line": 119,
+          "source": "file",
+          "preview": "http************************json"
+        }
+      ]
+    },
+    {
       "repo": "lourdu11/new_CodeRise_Backend",
       "url": "https://github.com/lourdu11/new_CodeRise_Backend",
       "status": "leaked",
@@ -30012,6 +30046,33 @@
           "line": 11738,
           "source": "commit",
           "preview": "8134************************qU6o"
+        }
+      ]
+    },
+    {
+      "repo": "dodshai-del/kaplan_test",
+      "url": "https://github.com/dodshai-del/kaplan_test",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.79,
+      "exposureScore": 30,
+      "topTypes": [
+        "Anthropic API Key"
+      ],
+      "typeCounts": {
+        "Anthropic API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Anthropic API Key",
+          "file": "Commit d4bc9e4",
+          "line": 486,
+          "source": "commit",
+          "preview": "sk-a************************KgAA"
         }
       ]
     },
@@ -50320,6 +50381,33 @@
       ]
     },
     {
+      "repo": "Shareiar-shams/hnrender",
+      "url": "https://github.com/Shareiar-shams/hnrender",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 18.59,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "hnrender-master/docker-compose.yml",
+          "line": 25,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "ShaunSHamilton/task-tracker",
       "url": "https://github.com/ShaunSHamilton/task-tracker",
       "status": "leaked",
@@ -52858,6 +52946,33 @@
       ]
     },
     {
+      "repo": "aalhadramteke/movieticketbooking",
+      "url": "https://github.com/aalhadramteke/movieticketbooking",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 32.12,
+      "exposureScore": 20,
+      "topTypes": [
+        "Stripe Secret Key"
+      ],
+      "typeCounts": {
+        "Stripe Secret Key": 1
+      },
+      "findings": [
+        {
+          "type": "Stripe Secret Key",
+          "file": "movieticketbooking-blackboxai-movieticketbooking-upload/movieWebsite/settings.py",
+          "line": 135,
+          "source": "file",
+          "preview": "sk_t************************f1c5"
+        }
+      ]
+    },
+    {
       "repo": "aaravroy526-hub/toy-sales",
       "url": "https://github.com/aaravroy526-hub/toy-sales",
       "status": "leaked",
@@ -53205,6 +53320,33 @@
           "line": 3,
           "source": "file",
           "preview": "eyJh************************sDO8"
+        }
+      ]
+    },
+    {
+      "repo": "abisheak-sivakumar/hackastorm_checkin",
+      "url": "https://github.com/abisheak-sivakumar/hackastorm_checkin",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.45,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "hackastorm_checkin-main/upload_teams.py",
+          "line": 8,
+          "source": "file",
+          "preview": "eyJh************************Dslw"
         }
       ]
     },
@@ -55797,6 +55939,33 @@
           "line": 356,
           "source": "file",
           "preview": "AIza************************17R8"
+        }
+      ]
+    },
+    {
+      "repo": "bk-oss/product-name-extraction",
+      "url": "https://github.com/bk-oss/product-name-extraction",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.68,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "product-name-extraction-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************Ym04"
         }
       ]
     },
