@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T06:15:41.543924+00:00",
+  "generatedAt": "2026-03-23T07:48:33.057482+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -7578,6 +7578,92 @@
           "line": 58545,
           "source": "commit",
           "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "Zeddy-88/consul-test",
+      "url": "https://github.com/Zeddy-88/consul-test",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 133.42,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "consul-test-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "AIza************************nRtU"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "consul-test-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit bf5ec43",
+          "line": 38958,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "aj3464/maternal-wellness",
+      "url": "https://github.com/aj3464/maternal-wellness",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 21.7,
+      "exposureScore": 62,
+      "topTypes": [
+        "MongoDB Connection URI",
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 2,
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "maternal-wellness-main/server/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "mong************************7017"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "maternal-wellness-main/server/.env",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************zfzc"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit fb2bbe9",
+          "line": 8119,
+          "source": "commit",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -21215,6 +21301,40 @@
           "line": 10,
           "source": "file",
           "preview": "AIza************************a-nQ"
+        }
+      ]
+    },
+    {
+      "repo": "yatendra3192/PC2",
+      "url": "https://github.com/yatendra3192/PC2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 18.09,
+      "exposureScore": 32,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "PC2-main/ARCHITECTURE.md",
+          "line": 789,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "PC2-main/docker-compose.yml",
+          "line": 39,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -60450,6 +60570,33 @@
       ]
     },
     {
+      "repo": "jainsakku/Fitcity",
+      "url": "https://github.com/jainsakku/Fitcity",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.7,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Fitcity-master/flutter_app/android/app/google-services.json",
+          "line": 31,
+          "source": "file",
+          "preview": "AIza************************FNoY"
+        }
+      ]
+    },
+    {
       "repo": "janakiramankannan221-dot/fees-management",
       "url": "https://github.com/janakiramankannan221-dot/fees-management",
       "status": "leaked",
@@ -67416,6 +67563,33 @@
       ]
     },
     {
+      "repo": "peterchap/celery_app_revised",
+      "url": "https://github.com/peterchap/celery_app_revised",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.52,
+      "exposureScore": 20,
+      "topTypes": [
+        "RabbitMQ/AMQP URI"
+      ],
+      "typeCounts": {
+        "RabbitMQ/AMQP URI": 1
+      },
+      "findings": [
+        {
+          "type": "RabbitMQ/AMQP URI",
+          "file": "celery_app_revised-master/celery_app.py",
+          "line": 14,
+          "source": "file",
+          "preview": "amqp************************5672"
+        }
+      ]
+    },
+    {
       "repo": "phamquanghung20122012-spec/lol",
       "url": "https://github.com/phamquanghung20122012-spec/lol",
       "status": "leaked",
@@ -71408,6 +71582,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************68lk"
+        }
+      ]
+    },
+    {
+      "repo": "susaracreations/gamexlk-backend",
+      "url": "https://github.com/susaracreations/gamexlk-backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "gamexlk-backend-main/seed.js",
+          "line": 7,
+          "source": "file",
+          "preview": "eyJh************************_Pcg"
         }
       ]
     },
