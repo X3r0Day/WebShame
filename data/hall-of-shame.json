@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T22:29:03.252959+00:00",
+  "generatedAt": "2026-03-23T23:01:50.307944+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -15268,6 +15268,40 @@
           "type": "Private Key (EC)",
           "file": "Commit afaeb61",
           "line": 521,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "meet-shah820/PORTFOLIO",
+      "url": "https://github.com/meet-shah820/PORTFOLIO",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 111.81,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "PORTFOLIO-main/portfolio-server/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 8a15565",
+          "line": 73236,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -33541,6 +33575,33 @@
           "line": 257,
           "source": "commit",
           "preview": "8661************************fPmQ"
+        }
+      ]
+    },
+    {
+      "repo": "logmeftransportes/mapa-fretes",
+      "url": "https://github.com/logmeftransportes/mapa-fretes",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.45,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 7eff44b",
+          "line": 31,
+          "source": "commit",
+          "preview": "AIza************************v9BY"
         }
       ]
     },
@@ -60815,6 +60876,33 @@
       ]
     },
     {
+      "repo": "etourinhocruz/NANODESIGNBET",
+      "url": "https://github.com/etourinhocruz/NANODESIGNBET",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.68,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "NANODESIGNBET-main/app.py.txt",
+          "line": 11,
+          "source": "file",
+          "preview": "AIza************************tcRQ"
+        }
+      ]
+    },
+    {
       "repo": "euryuvlr/app-monitoramento",
       "url": "https://github.com/euryuvlr/app-monitoramento",
       "status": "leaked",
@@ -61459,6 +61547,33 @@
           "line": 28,
           "source": "file",
           "preview": "8562************************47r4"
+        }
+      ]
+    },
+    {
+      "repo": "ganeshhgupta/tomorokoshi",
+      "url": "https://github.com/ganeshhgupta/tomorokoshi",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.53,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "tomorokoshi-master/scripts/init-db.js",
+          "line": 8,
+          "source": "file",
+          "preview": "post************************tech"
         }
       ]
     },
