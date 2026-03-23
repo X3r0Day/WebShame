@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T22:00:33.219728+00:00",
+  "generatedAt": "2026-03-23T22:29:03.252959+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -19204,6 +19204,40 @@
       ]
     },
     {
+      "repo": "FranciscoEFC/efc-financial-model",
+      "url": "https://github.com/FranciscoEFC/efc-financial-model",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.85,
+      "exposureScore": 32,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "efc-financial-model-main/deploy.sh",
+          "line": 47,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "efc-financial-model-main/docker-compose.yml",
+          "line": 24,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Garcia-G-G/FeedBackMind",
       "url": "https://github.com/Garcia-G-G/FeedBackMind",
       "status": "leaked",
@@ -28080,6 +28114,33 @@
           "line": 44,
           "source": "commit",
           "preview": "mysq************************3306"
+        }
+      ]
+    },
+    {
+      "repo": "aljbwrakrm6-del/3badi-test4",
+      "url": "https://github.com/aljbwrakrm6-del/3badi-test4",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.51,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit e1b7457",
+          "line": 611,
+          "source": "commit",
+          "preview": "http************************vwQ7"
         }
       ]
     },
@@ -64075,6 +64136,33 @@
       ]
     },
     {
+      "repo": "jawg-zz/test-stack-backend",
+      "url": "https://github.com/jawg-zz/test-stack-backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.04,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "test-stack-backend-main/docker-compose.yml",
+          "line": 8,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "jayaprakashSs/node.js-microservices",
       "url": "https://github.com/jayaprakashSs/node.js-microservices",
       "status": "leaked",
@@ -69012,6 +69100,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************Xgr4"
+        }
+      ]
+    },
+    {
+      "repo": "msayyescurro-code/Lector-PCS",
+      "url": "https://github.com/msayyescurro-code/Lector-PCS",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.62,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "Lector-PCS-main/bot_llegadas.py",
+          "line": 11,
+          "source": "file",
+          "preview": "eyJh************************FcRU"
         }
       ]
     },
@@ -78084,6 +78199,33 @@
           "line": 144,
           "source": "file",
           "preview": "eyJh************************GLZo"
+        }
+      ]
+    },
+    {
+      "repo": "wixyezs-netizen/Miniapp",
+      "url": "https://github.com/wixyezs-netizen/Miniapp",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.12,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Miniapp-main/app.py",
+          "line": 21,
+          "source": "file",
+          "preview": "8638************************WWGs"
         }
       ]
     },
