@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T16:00:44.960377+00:00",
+  "generatedAt": "2026-03-23T16:49:23.079130+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -2633,6 +2633,74 @@
           "line": 357,
           "source": "file",
           "preview": "ghp_************************xxxx"
+        }
+      ]
+    },
+    {
+      "repo": "Sooryahaha/asdip",
+      "url": "https://github.com/Sooryahaha/asdip",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 6,
+      "uniqueTypes": 4,
+      "filesAffected": 4,
+      "commitFindings": 1,
+      "scanTimeSeconds": 8.32,
+      "exposureScore": 114,
+      "topTypes": [
+        "AWS Access Key ID",
+        "MySQL/MariaDB Connection URI",
+        "MongoDB Connection URI",
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 2,
+        "MongoDB Connection URI": 1,
+        "PostgreSQL Connection URI": 1,
+        "MySQL/MariaDB Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "asdip-main/README.md",
+          "line": 179,
+          "source": "file",
+          "preview": "AKIA************EFGH"
+        },
+        {
+          "type": "AWS Access Key ID",
+          "file": "asdip-main/backend/app/tests/test_analyze.py",
+          "line": 101,
+          "source": "file",
+          "preview": "AKIA************CDEF"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "asdip-main/backend/app/utils/patterns.py",
+          "line": 63,
+          "source": "file",
+          "preview": "mong************+@|\""
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "asdip-main/backend/app/utils/patterns.py",
+          "line": 63,
+          "source": "file",
+          "preview": "post********************odb:"
+        },
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "asdip-main/backend/app/utils/patterns.py",
+          "line": 63,
+          "source": "file",
+          "preview": "mysq******************res:"
+        },
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "Commit 100f128",
+          "line": 2346,
+          "source": "commit",
+          "preview": "mysq************************3306"
         }
       ]
     },
@@ -17143,6 +17211,42 @@
       ]
     },
     {
+      "repo": "easyml-code/pet-patient_management_system",
+      "url": "https://github.com/easyml-code/pet-patient_management_system",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 28.96,
+      "exposureScore": 40,
+      "topTypes": [
+        "Google API/GCP Key",
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "pet-patient_management_system-main/.mcp.json",
+          "line": 8,
+          "source": "file",
+          "preview": "AIza************************JENs"
+        },
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "pet-patient_management_system-main/backend_test.py",
+          "line": 10,
+          "source": "file",
+          "preview": "eyJh************************q7pc"
+        }
+      ]
+    },
+    {
       "repo": "filipwronski/k8-training",
       "url": "https://github.com/filipwronski/k8-training",
       "status": "leaked",
@@ -25903,6 +26007,33 @@
           "line": 17941,
           "source": "commit",
           "preview": "eyJh************************C30Q"
+        }
+      ]
+    },
+    {
+      "repo": "RtxCungpret/payment-web",
+      "url": "https://github.com/RtxCungpret/payment-web",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 9.01,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit ca3b197",
+          "line": 757,
+          "source": "commit",
+          "preview": "8466************************hOxs"
         }
       ]
     },
@@ -34925,6 +35056,33 @@
       ]
     },
     {
+      "repo": "papa0009/Admin-",
+      "url": "https://github.com/papa0009/Admin-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.59,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 93934a3",
+          "line": 361,
+          "source": "commit",
+          "preview": "AIza************************BN1w"
+        }
+      ]
+    },
+    {
       "repo": "pasupulateteja-prog/AirQuality2",
       "url": "https://github.com/pasupulateteja-prog/AirQuality2",
       "status": "leaked",
@@ -40888,6 +41046,33 @@
           "line": 7,
           "source": "file",
           "preview": "AIza************************f-W4"
+        }
+      ]
+    },
+    {
+      "repo": "Anitha1406/streaming_geospatial_analytics_system_for_wildfire_spread_prediction",
+      "url": "https://github.com/Anitha1406/streaming_geospatial_analytics_system_for_wildfire_spread_prediction",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.45,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "streaming_geospatial_analytics_system_for_wildfire_spread_prediction-main/app.py",
+          "line": 10,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -52120,6 +52305,33 @@
           "line": 122,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "Yashg567/Yashgl",
+      "url": "https://github.com/Yashg567/Yashgl",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.03,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Yashgl-main/config.py",
+          "line": 1,
+          "source": "file",
+          "preview": "7542************************AYkU"
         }
       ]
     },
@@ -76285,6 +76497,33 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************7LUY"
+        }
+      ]
+    },
+    {
+      "repo": "werawitwiopee-creator/ahhh",
+      "url": "https://github.com/werawitwiopee-creator/ahhh",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.53,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "ahhh-main/README.md",
+          "line": 1177,
+          "source": "file",
+          "preview": "http************************y1Gm"
         }
       ]
     },
