@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T12:13:58.957974+00:00",
+  "generatedAt": "2026-03-23T13:54:04.063743+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -5949,6 +5949,54 @@
       ]
     },
     {
+      "repo": "mohanrao49/school_management_api",
+      "url": "https://github.com/mohanrao49/school_management_api",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 62.98,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "school_management_api-main/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "school_management_api-main/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 57288b5",
+          "line": 79765,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 57288b5",
+          "line": 80200,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "nithinnstech-cyber/LMS-PORTAL",
       "url": "https://github.com/nithinnstech-cyber/LMS-PORTAL",
       "status": "leaked",
@@ -7508,6 +7556,49 @@
           "type": "Private Key (RSA)",
           "file": "Commit e055497",
           "line": 50916,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "Kolayagnesh/FoodConnect",
+      "url": "https://github.com/Kolayagnesh/FoodConnect",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 154.6,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "FoodConnect-main/server/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "FoodConnect-main/server/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 381995e",
+          "line": 78478,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -19263,6 +19354,40 @@
           "line": 91,
           "source": "file",
           "preview": "post************************6543"
+        }
+      ]
+    },
+    {
+      "repo": "SumitDS23/Bluff",
+      "url": "https://github.com/SumitDS23/Bluff",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.41,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Bluff-main/.env",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************ZI5I"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Bluff-main/.env",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************eRJI"
         }
       ]
     },
@@ -47978,6 +48103,33 @@
       ]
     },
     {
+      "repo": "RealHamzaAnjum/medibot",
+      "url": "https://github.com/RealHamzaAnjum/medibot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 32.1,
+      "exposureScore": 20,
+      "topTypes": [
+        "Stripe Secret Key"
+      ],
+      "typeCounts": {
+        "Stripe Secret Key": 1
+      },
+      "findings": [
+        {
+          "type": "Stripe Secret Key",
+          "file": "medibot-main/.clerk/.tmp/keyless.json",
+          "line": 1,
+          "source": "file",
+          "preview": "sk_t************************ugDO"
+        }
+      ]
+    },
+    {
       "repo": "Reinvik/romacenterspa",
       "url": "https://github.com/Reinvik/romacenterspa",
       "status": "leaked",
@@ -62018,6 +62170,33 @@
       ]
     },
     {
+      "repo": "jith070/Lottery",
+      "url": "https://github.com/jith070/Lottery",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.41,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Security-Score-main/cvss-insurance-db/docker-compose.yml",
+          "line": 25,
+          "source": "file",
+          "preview": "post************************d@db"
+        }
+      ]
+    },
+    {
       "repo": "jmcolfersc-dev/PuntodeVenta",
       "url": "https://github.com/jmcolfersc-dev/PuntodeVenta",
       "status": "leaked",
@@ -74245,6 +74424,33 @@
           "line": 2,
           "source": "file",
           "preview": "AIza************************5Rgw"
+        }
+      ]
+    },
+    {
+      "repo": "vanhngb/repo",
+      "url": "https://github.com/vanhngb/repo",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.86,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Bot Token"
+      ],
+      "typeCounts": {
+        "Discord Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Bot Token",
+          "file": "repo-main/index.js",
+          "line": 13,
+          "source": "file",
+          "preview": "MTQ4************************wA-I"
         }
       ]
     },
