@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-22T23:42:53.966987+00:00",
+  "generatedAt": "2026-03-23T00:03:59.501808+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -38634,6 +38634,33 @@
           "line": 192,
           "source": "file",
           "preview": "post*********************st`,"
+        }
+      ]
+    },
+    {
+      "repo": "AQuintilianoF/Trading_browser",
+      "url": "https://github.com/AQuintilianoF/Trading_browser",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.16,
+      "exposureScore": 20,
+      "topTypes": [
+        "RabbitMQ/AMQP URI"
+      ],
+      "typeCounts": {
+        "RabbitMQ/AMQP URI": 1
+      },
+      "findings": [
+        {
+          "type": "RabbitMQ/AMQP URI",
+          "file": "Trading_browser-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "amqp************************.com"
         }
       ]
     },
