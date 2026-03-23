@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T07:48:33.057482+00:00",
+  "generatedAt": "2026-03-23T08:42:42.837980+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -23256,6 +23256,33 @@
       ]
     },
     {
+      "repo": "GibranSatrio/dana-security.com",
+      "url": "https://github.com/GibranSatrio/dana-security.com",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.6,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 157b8a0",
+          "line": 67,
+          "source": "commit",
+          "preview": "8701************************83D0"
+        }
+      ]
+    },
+    {
       "repo": "Godlikeprogrammer1037/PLC-PLAYERS-STATICS",
       "url": "https://github.com/Godlikeprogrammer1037/PLC-PLAYERS-STATICS",
       "status": "leaked",
@@ -36243,6 +36270,33 @@
       ]
     },
     {
+      "repo": "shivchandramahato505-tech/hi-kishan",
+      "url": "https://github.com/shivchandramahato505-tech/hi-kishan",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 20.27,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 50c58d1",
+          "line": 738,
+          "source": "commit",
+          "preview": "AIza************************3MSI"
+        }
+      ]
+    },
+    {
       "repo": "shokhbee0824/BookVerse-main",
       "url": "https://github.com/shokhbee0824/BookVerse-main",
       "status": "leaked",
@@ -41693,6 +41747,33 @@
           "line": 416,
           "source": "file",
           "preview": "redi************************6379"
+        }
+      ]
+    },
+    {
+      "repo": "Divya-Basana/AI_ASSISTANT_APP",
+      "url": "https://github.com/Divya-Basana/AI_ASSISTANT_APP",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 22.02,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "AI_ASSISTANT_APP-main/android/app/google-services.json",
+          "line": 31,
+          "source": "file",
+          "preview": "AIza************************Njdg"
         }
       ]
     },
@@ -50580,6 +50661,33 @@
       ]
     },
     {
+      "repo": "YANKA003/ZCHAT_STABLE",
+      "url": "https://github.com/YANKA003/ZCHAT_STABLE",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.9,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ZCHAT_STABLE-main/app/google-services.json",
+          "line": 19,
+          "source": "file",
+          "preview": "AIza************************MeO8"
+        }
+      ]
+    },
+    {
       "repo": "Yagyamodi/Daily-Wisdom-App",
       "url": "https://github.com/Yagyamodi/Daily-Wisdom-App",
       "status": "leaked",
@@ -58572,6 +58680,33 @@
       ]
     },
     {
+      "repo": "glennwkr-wq/ai-tarot-mvp",
+      "url": "https://github.com/glennwkr-wq/ai-tarot-mvp",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.36,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "ai-tarot-mvp-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "8669************************9Y24"
+        }
+      ]
+    },
+    {
       "repo": "gokulk18/Banking",
       "url": "https://github.com/gokulk18/Banking",
       "status": "leaked",
@@ -66452,6 +66587,33 @@
           "line": 2,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "ninhht-cmp/rag-platform",
+      "url": "https://github.com/ninhht-cmp/rag-platform",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.03,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "rag-platform-main/docker-compose.yml",
+          "line": 120,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
