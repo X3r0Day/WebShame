@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T20:10:53.938605+00:00",
+  "generatedAt": "2026-03-23T20:57:40.430940+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -29931,6 +29931,33 @@
       ]
     },
     {
+      "repo": "dahanavi/karen-cookbook",
+      "url": "https://github.com/dahanavi/karen-cookbook",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.06,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 449db1a",
+          "line": 274,
+          "source": "commit",
+          "preview": "AIza************************f_OU"
+        }
+      ]
+    },
+    {
       "repo": "dalv-oio/parser_req_BS",
       "url": "https://github.com/dalv-oio/parser_req_BS",
       "status": "leaked",
@@ -44781,6 +44808,33 @@
       ]
     },
     {
+      "repo": "Hasaranakandala/Python-NLP-App",
+      "url": "https://github.com/Hasaranakandala/Python-NLP-App",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.6,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Python-NLP-App-main/main.py",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************tjLU"
+        }
+      ]
+    },
+    {
       "repo": "HetrajsinhChauhan/Odoo-indusUni-Hackthone-_winarc-team",
       "url": "https://github.com/HetrajsinhChauhan/Odoo-indusUni-Hackthone-_winarc-team",
       "status": "leaked",
@@ -58065,6 +58119,33 @@
       ]
     },
     {
+      "repo": "cs-yoon-ai/web-market-chat",
+      "url": "https://github.com/cs-yoon-ai/web-market-chat",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.5,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "web-market-chat-main/infomation/local-deploy-after-clone-github.txt",
+          "line": 25,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "cuadradoarletta669-afk/saudaodomesdemarco2026",
       "url": "https://github.com/cuadradoarletta669-afk/saudaodomesdemarco2026",
       "status": "leaked",
@@ -66836,6 +66917,33 @@
           "line": 220,
           "source": "file",
           "preview": "8183************************9qlc"
+        }
+      ]
+    },
+    {
+      "repo": "lucasantosdias/dentist-agent",
+      "url": "https://github.com/lucasantosdias/dentist-agent",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 94.65,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "dentist-agent-main/docker-compose.yml",
+          "line": 15,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
