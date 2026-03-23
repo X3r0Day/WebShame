@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T13:54:04.063743+00:00",
+  "generatedAt": "2026-03-23T14:54:54.357865+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -7642,6 +7642,49 @@
           "type": "Private Key (RSA)",
           "file": "Commit 4656416",
           "line": 50062,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "MotazAl-Masri/node.js",
+      "url": "https://github.com/MotazAl-Masri/node.js",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 39.64,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2,
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "node.js-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "node.js-main/node_modules/pg-pool/README.md",
+          "line": 74,
+          "source": "file",
+          "preview": "post************************####"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit f869c64",
+          "line": 19205,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -31039,6 +31082,33 @@
       ]
     },
     {
+      "repo": "jaydev137/auscura",
+      "url": "https://github.com/jaydev137/auscura",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.02,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 2b24c0e",
+          "line": 4586,
+          "source": "commit",
+          "preview": "AIza************************YSw0"
+        }
+      ]
+    },
+    {
       "repo": "jedag5860-boop/Allweblinkyann",
       "url": "https://github.com/jedag5860-boop/Allweblinkyann",
       "status": "leaked",
@@ -46807,6 +46877,33 @@
       ]
     },
     {
+      "repo": "NguyenThoDatItPtit/bookstore-microservice",
+      "url": "https://github.com/NguyenThoDatItPtit/bookstore-microservice",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.07,
+      "exposureScore": 20,
+      "topTypes": [
+        "RabbitMQ/AMQP URI"
+      ],
+      "typeCounts": {
+        "RabbitMQ/AMQP URI": 1
+      },
+      "findings": [
+        {
+          "type": "RabbitMQ/AMQP URI",
+          "file": "bookstore-microservice-main/docker-compose.yml",
+          "line": 77,
+          "source": "file",
+          "preview": "amqp************************5672"
+        }
+      ]
+    },
+    {
       "repo": "Nidalzom/sakan",
       "url": "https://github.com/Nidalzom/sakan",
       "status": "leaked",
@@ -54664,6 +54761,33 @@
       ]
     },
     {
+      "repo": "bharath281985/Go-Experts-FrontendSource",
+      "url": "https://github.com/bharath281985/Go-Experts-FrontendSource",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 26.7,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Go-Experts-FrontendSource-master/src/app/components/onboarding/RegistrationWizard.tsx",
+          "line": 199,
+          "source": "file",
+          "preview": "AIza************************NlPk"
+        }
+      ]
+    },
+    {
       "repo": "bida23-056Proliferator/Alphapack-Cash-Solutions-vx",
       "url": "https://github.com/bida23-056Proliferator/Alphapack-Cash-Solutions-vx",
       "status": "leaked",
@@ -56253,6 +56377,33 @@
           "line": 11,
           "source": "file",
           "preview": "8706************************GFwc"
+        }
+      ]
+    },
+    {
+      "repo": "core-euler/codecore",
+      "url": "https://github.com/core-euler/codecore",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 20.15,
+      "exposureScore": 20,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "codecore-main/tests/test_security.py",
+          "line": 27,
+          "source": "file",
+          "preview": "ghp_************************3456"
         }
       ]
     },
@@ -57981,6 +58132,33 @@
           "line": 1,
           "source": "file",
           "preview": "sk-p************************jFOL"
+        }
+      ]
+    },
+    {
+      "repo": "e49359633-cyber/whatsappp",
+      "url": "https://github.com/e49359633-cyber/whatsappp",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.58,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "whatsappp-main/main.py",
+          "line": 7,
+          "source": "file",
+          "preview": "8640************************zQ6Q"
         }
       ]
     },
@@ -60820,6 +60998,33 @@
       ]
     },
     {
+      "repo": "hojiakbarbaratboyev555-cyber/bot.php",
+      "url": "https://github.com/hojiakbarbaratboyev555-cyber/bot.php",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.2,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "bot.php-main/index.php",
+          "line": 3,
+          "source": "file",
+          "preview": "8604************************uvrw"
+        }
+      ]
+    },
+    {
       "repo": "honehone943-cloud/fsy_bot",
       "url": "https://github.com/honehone943-cloud/fsy_bot",
       "status": "leaked",
@@ -61410,6 +61615,33 @@
           "line": 32,
           "source": "file",
           "preview": "mong*************}:{}"
+        }
+      ]
+    },
+    {
+      "repo": "interplanetarysatellites/teddy-agent-core",
+      "url": "https://github.com/interplanetarysatellites/teddy-agent-core",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.21,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "teddy-agent-core-main/agentmail_monitor.py",
+          "line": 22,
+          "source": "file",
+          "preview": "8578************************dwHo"
         }
       ]
     },
@@ -66814,6 +67046,33 @@
       ]
     },
     {
+      "repo": "munghiiii/Agent666",
+      "url": "https://github.com/munghiiii/Agent666",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.48,
+      "exposureScore": 20,
+      "topTypes": [
+        "Stripe Secret Key"
+      ],
+      "typeCounts": {
+        "Stripe Secret Key": 1
+      },
+      "findings": [
+        {
+          "type": "Stripe Secret Key",
+          "file": "Agent666-main/default-agent (75).json",
+          "line": 1946,
+          "source": "file",
+          "preview": "sk_t************************rb2V"
+        }
+      ]
+    },
+    {
       "repo": "mustafagermavi/1Prime_Vortex",
       "url": "https://github.com/mustafagermavi/1Prime_Vortex",
       "status": "leaked",
@@ -70590,6 +70849,33 @@
           "line": 9,
           "source": "file",
           "preview": "eyJh************************lQWA"
+        }
+      ]
+    },
+    {
+      "repo": "robloxtbv-cloud/ditcunhamay",
+      "url": "https://github.com/robloxtbv-cloud/ditcunhamay",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.12,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "ditcunhamay-main/test.txt",
+          "line": 10968,
+          "source": "file",
+          "preview": "http************************Q9ff"
         }
       ]
     },
