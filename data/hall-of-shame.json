@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T20:57:40.430940+00:00",
+  "generatedAt": "2026-03-23T21:29:55.420700+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -16570,6 +16570,42 @@
       ]
     },
     {
+      "repo": "NoTy-shyAM/Premium-Payment-Bot",
+      "url": "https://github.com/NoTy-shyAM/Premium-Payment-Bot",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.95,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Premium-Payment-Bot-main/Premium Bot/config.py",
+          "line": 10,
+          "source": "file",
+          "preview": "8752************************0cQM"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Premium-Payment-Bot-main/Premium Bot/db.py",
+          "line": 7,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "NvlFR/bot_gds",
       "url": "https://github.com/NvlFR/bot_gds",
       "status": "leaked",
@@ -19572,6 +19608,40 @@
           "line": 29,
           "source": "file",
           "preview": "AIza************************62I8"
+        }
+      ]
+    },
+    {
+      "repo": "NataliaMacias02/URBAN_ALERT",
+      "url": "https://github.com/NataliaMacias02/URBAN_ALERT",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 105.82,
+      "exposureScore": 32,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "URBAN_ALERT-main/node_modules/dotenv/README-es.md",
+          "line": 78,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "URBAN_ALERT-main/node_modules/dotenv/README.md",
+          "line": 110,
+          "source": "file",
+          "preview": "----************************----"
         }
       ]
     },
@@ -29117,6 +29187,33 @@
           "line": 204,
           "source": "commit",
           "preview": "AIza************************0yk4"
+        }
+      ]
+    },
+    {
+      "repo": "bmtx-it/bankmobile.",
+      "url": "https://github.com/bmtx-it/bankmobile.",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.38,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 6abd618",
+          "line": 175,
+          "source": "commit",
+          "preview": "8738************************UOU8"
         }
       ]
     },
@@ -57926,6 +58023,33 @@
           "line": 60,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "commerce-operations-foundation/juniper-commerce",
+      "url": "https://github.com/commerce-operations-foundation/juniper-commerce",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 18.25,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "juniper-commerce-develop/README.md",
+          "line": 75,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
