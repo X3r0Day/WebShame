@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T23:01:50.307944+00:00",
+  "generatedAt": "2026-03-23T23:36:07.871871+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -26100,6 +26100,33 @@
       ]
     },
     {
+      "repo": "PabloCoder1/DescontoMEN-Bot",
+      "url": "https://github.com/PabloCoder1/DescontoMEN-Bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.53,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 682c9c1",
+          "line": 379,
+          "source": "commit",
+          "preview": "8610************************qx6w"
+        }
+      ]
+    },
+    {
       "repo": "PahlawanKesiangan-dot/nando-print-web",
       "url": "https://github.com/PahlawanKesiangan-dot/nando-print-web",
       "status": "leaked",
@@ -27932,6 +27959,33 @@
           "line": 694,
           "source": "commit",
           "preview": "AIza************************_vJk"
+        }
+      ]
+    },
+    {
+      "repo": "akohhamza-creator/biddanteeeey",
+      "url": "https://github.com/akohhamza-creator/biddanteeeey",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.32,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 5531d0b",
+          "line": 21,
+          "source": "commit",
+          "preview": "7569************************bxcE"
         }
       ]
     },
@@ -32009,6 +32063,33 @@
           "line": 28,
           "source": "commit",
           "preview": "eyJh************************TEy8"
+        }
+      ]
+    },
+    {
+      "repo": "ihatenodejs/website",
+      "url": "https://github.com/ihatenodejs/website",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 86.82,
+      "exposureScore": 30,
+      "topTypes": [
+        "Cerebras Token"
+      ],
+      "typeCounts": {
+        "Cerebras Token": 1
+      },
+      "findings": [
+        {
+          "type": "Cerebras Token",
+          "file": "Commit 4f0c918",
+          "line": 108812,
+          "source": "commit",
+          "preview": "cs-m************************JQfx"
         }
       ]
     },
