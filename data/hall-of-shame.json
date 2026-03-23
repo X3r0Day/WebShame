@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T08:42:42.837980+00:00",
+  "generatedAt": "2026-03-23T09:51:21.505174+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -40995,6 +40995,33 @@
       ]
     },
     {
+      "repo": "CeleHub/Telegram-Reminder-bot",
+      "url": "https://github.com/CeleHub/Telegram-Reminder-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 158.75,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Telegram-Reminder-bot-master/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "7217************************EkW4"
+        }
+      ]
+    },
+    {
       "repo": "Cespial/demo-diamante",
       "url": "https://github.com/Cespial/demo-diamante",
       "status": "leaked",
@@ -44175,6 +44202,33 @@
           "type": "Telegram Bot Token",
           "file": "scaling-spoon-main/bot.py",
           "line": 10,
+          "source": "file",
+          "preview": "8661************************VgrM"
+        }
+      ]
+    },
+    {
+      "repo": "Kaspeti/telegram_bot",
+      "url": "https://github.com/Kaspeti/telegram_bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.68,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "telegram_bot-main/bot.py",
+          "line": 8,
           "source": "file",
           "preview": "8661************************VgrM"
         }
@@ -66267,6 +66321,33 @@
       ]
     },
     {
+      "repo": "nguyenhoangkha03/5000-words-english",
+      "url": "https://github.com/nguyenhoangkha03/5000-words-english",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.59,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "5000-words-english-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************z-C4"
+        }
+      ]
+    },
+    {
       "repo": "nguyetvo26febu4139/repo3vogps",
       "url": "https://github.com/nguyetvo26febu4139/repo3vogps",
       "status": "leaked",
@@ -73202,6 +73283,33 @@
           "line": 3,
           "source": "file",
           "preview": "AIza************************wVDU"
+        }
+      ]
+    },
+    {
+      "repo": "vectoren/e-desk",
+      "url": "https://github.com/vectoren/e-desk",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.42,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "e-desk-master/docker-compose.yml",
+          "line": 32,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
