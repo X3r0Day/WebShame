@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T05:03:03.215908+00:00",
+  "generatedAt": "2026-03-23T06:15:41.543924+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -40929,6 +40929,33 @@
       ]
     },
     {
+      "repo": "Chiragm12/rcb",
+      "url": "https://github.com/Chiragm12/rcb",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.94,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "rcb-main/rcb_2.py",
+          "line": 85,
+          "source": "file",
+          "preview": "8090************************Eaw0"
+        }
+      ]
+    },
+    {
       "repo": "CholakDev/MySneakerShop",
       "url": "https://github.com/CholakDev/MySneakerShop",
       "status": "leaked",
@@ -44084,6 +44111,33 @@
           "line": 230,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "Koushikf79/scriptoria",
+      "url": "https://github.com/Koushikf79/scriptoria",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.27,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "scriptoria-main/scriptoria-backend/scriptoria-backend/src/main/resources/application.yml",
+          "line": 29,
+          "source": "file",
+          "preview": "sk-o************************2b14"
         }
       ]
     },
