@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T19:38:02.828393+00:00",
+  "generatedAt": "2026-03-23T20:10:53.938605+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -6544,6 +6544,47 @@
       ]
     },
     {
+      "repo": "huskarl-rs/huskarl",
+      "url": "https://github.com/huskarl-rs/huskarl",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 3,
+      "scanTimeSeconds": 18.96,
+      "exposureScore": 74,
+      "topTypes": [
+        "Private Key (PKCS8)"
+      ],
+      "typeCounts": {
+        "Private Key (PKCS8)": 3
+      },
+      "findings": [
+        {
+          "type": "Private Key (PKCS8)",
+          "file": "Commit 27a7304",
+          "line": 24005,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (PKCS8)",
+          "file": "Commit 27a7304",
+          "line": 24044,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (PKCS8)",
+          "file": "Commit 27a7304",
+          "line": 24083,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "ipd8yndm4d/GitHub-Notification-Test",
       "url": "https://github.com/ipd8yndm4d/GitHub-Notification-Test",
       "status": "leaked",
@@ -7870,6 +7911,49 @@
           "type": "Private Key (RSA)",
           "file": "Commit e055497",
           "line": 50916,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "Gaurav078-ind/StudyTracker",
+      "url": "https://github.com/Gaurav078-ind/StudyTracker",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 111.71,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "StudyTracker-main/backend/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "StudyTracker-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 7aaf69f",
+          "line": 58354,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -48909,6 +48993,33 @@
       ]
     },
     {
+      "repo": "Presentations-with-ai/macro16",
+      "url": "https://github.com/Presentations-with-ai/macro16",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.86,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "macro16-main/macro_script.js",
+          "line": 18,
+          "source": "file",
+          "preview": "7811************************WbRw"
+        }
+      ]
+    },
+    {
       "repo": "Priyadharshini-006/Scribble",
       "url": "https://github.com/Priyadharshini-006/Scribble",
       "status": "leaked",
@@ -64164,6 +64275,33 @@
       ]
     },
     {
+      "repo": "jmello04/resume-analyzer-api",
+      "url": "https://github.com/jmello04/resume-analyzer-api",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 26.19,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "resume-analyzer-api-main/docker-compose.yml",
+          "line": 9,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "jnaneshshetty51/brndmonk",
       "url": "https://github.com/jnaneshshetty51/brndmonk",
       "status": "leaked",
@@ -66536,6 +66674,33 @@
           "line": 5,
           "source": "file",
           "preview": "AIza************************s2BU"
+        }
+      ]
+    },
+    {
+      "repo": "logeshkannan19/PERSONAX",
+      "url": "https://github.com/logeshkannan19/PERSONAX",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.18,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "PERSONAX-main/docker/docker-compose.yml",
+          "line": 40,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
