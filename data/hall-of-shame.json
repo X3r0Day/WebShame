@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T19:51:17.769650+00:00",
+  "generatedAt": "2026-03-24T20:15:30.882330+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -16373,6 +16373,40 @@
           "line": 459,
           "source": "commit",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "rahma-ben-slimen/inteli_event",
+      "url": "https://github.com/rahma-ben-slimen/inteli_event",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 83.69,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "inteli_event-main/back/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 8ed8e76",
+          "line": 54886,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -46192,6 +46226,33 @@
           "line": 15,
           "source": "file",
           "preview": "AIza************************TOvU"
+        }
+      ]
+    },
+    {
+      "repo": "Devesh-star/Ai-debugger",
+      "url": "https://github.com/Devesh-star/Ai-debugger",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.05,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "Ai-debugger-main/.env",
+          "line": 12,
+          "source": "file",
+          "preview": "sk-o************************c683"
         }
       ]
     },
@@ -80833,6 +80894,33 @@
           "line": 1,
           "source": "file",
           "preview": "AIza************************DK10"
+        }
+      ]
+    },
+    {
+      "repo": "tecnicorikardo/inglespersistente",
+      "url": "https://github.com/tecnicorikardo/inglespersistente",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.12,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "inglespersistente-main/android/app/google-services.json",
+          "line": 23,
+          "source": "file",
+          "preview": "AIza************************MJo8"
         }
       ]
     },
