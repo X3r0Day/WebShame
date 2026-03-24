@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T07:51:15.711746+00:00",
+  "generatedAt": "2026-03-24T08:42:24.035442+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -8369,6 +8369,49 @@
           "line": 8119,
           "source": "commit",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "grv-dev/worksapce3",
+      "url": "https://github.com/grv-dev/worksapce3",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 139.79,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "worksapce3-main/MongoDB/retailbackend/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "worksapce3-main/MongoDB/retailbackend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit ca40b83",
+          "line": 50899,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -27750,6 +27793,33 @@
       ]
     },
     {
+      "repo": "Vardaan-Data-Sciences-Pvt-Ltd/SET",
+      "url": "https://github.com/Vardaan-Data-Sciences-Pvt-Ltd/SET",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 35.36,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 5acef44",
+          "line": 4732,
+          "source": "commit",
+          "preview": "AIza************************XSiE"
+        }
+      ]
+    },
+    {
       "repo": "Varshithagogineni/inmarket-AI-copilot",
       "url": "https://github.com/Varshithagogineni/inmarket-AI-copilot",
       "status": "leaked",
@@ -34685,6 +34755,33 @@
           "line": 101,
           "source": "commit",
           "preview": "8661************************xLAQ"
+        }
+      ]
+    },
+    {
+      "repo": "melmakadmi19897-commits/UD2.-P",
+      "url": "https://github.com/melmakadmi19897-commits/UD2.-P",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.24,
+      "exposureScore": 30,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "Commit 74295b0",
+          "line": 2,
+          "source": "commit",
+          "preview": "ghp_************************XvtB"
         }
       ]
     },
@@ -43298,6 +43395,33 @@
           "line": 240,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "BlackBeard1720/youtube-simple",
+      "url": "https://github.com/BlackBeard1720/youtube-simple",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.49,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "youtube-simple-main/src/components/mainContent/MainContent.jsx",
+          "line": 16,
+          "source": "file",
+          "preview": "AIza************************MrlM"
         }
       ]
     },
@@ -53238,6 +53362,33 @@
       ]
     },
     {
+      "repo": "ULHT-CM-2025-26-students/cm-project",
+      "url": "https://github.com/ULHT-CM-2025-26-students/cm-project",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.18,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "cm-project-main/android/app/src/main/AndroidManifest.xml",
+          "line": 36,
+          "source": "file",
+          "preview": "AIza************************1z-g"
+        }
+      ]
+    },
+    {
       "repo": "UUCRACKER/gh",
       "url": "https://github.com/UUCRACKER/gh",
       "status": "leaked",
@@ -58418,6 +58569,33 @@
           "line": 4,
           "source": "file",
           "preview": "8649************************4OKY"
+        }
+      ]
+    },
+    {
+      "repo": "chandramani-chaudhary/Gemini_LLM",
+      "url": "https://github.com/chandramani-chaudhary/Gemini_LLM",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.46,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Gemini_LLM-main/models.py",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************F79g"
         }
       ]
     },
@@ -64389,6 +64567,114 @@
       ]
     },
     {
+      "repo": "hoskinsgirven/repo0a6c6r",
+      "url": "https://github.com/hoskinsgirven/repo0a6c6r",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 25.35,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo0a6c6r-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8649************************4OKY"
+        }
+      ]
+    },
+    {
+      "repo": "hoskinsgirven/repo2p7qhn",
+      "url": "https://github.com/hoskinsgirven/repo2p7qhn",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 19.71,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo2p7qhn-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8649************************4OKY"
+        }
+      ]
+    },
+    {
+      "repo": "hoskinsgirven/repoimr24w",
+      "url": "https://github.com/hoskinsgirven/repoimr24w",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 23.51,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repoimr24w-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8649************************4OKY"
+        }
+      ]
+    },
+    {
+      "repo": "hoskinsgirven/repooyuzr0",
+      "url": "https://github.com/hoskinsgirven/repooyuzr0",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 22.34,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repooyuzr0-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8649************************4OKY"
+        }
+      ]
+    },
+    {
       "repo": "hrishikheshpoondla-hub/med-app",
       "url": "https://github.com/hrishikheshpoondla-hub/med-app",
       "status": "leaked",
@@ -65870,6 +66156,33 @@
           "line": 12,
           "source": "file",
           "preview": "post*********************d@db"
+        }
+      ]
+    },
+    {
+      "repo": "jofra-shiva/Registraction_form",
+      "url": "https://github.com/jofra-shiva/Registraction_form",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 77.9,
+      "exposureScore": 20,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Registraction_form-main/api/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
         }
       ]
     },
@@ -75293,6 +75606,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************vanA"
+        }
+      ]
+    },
+    {
+      "repo": "sandolpin/SantopiSpeedmeter",
+      "url": "https://github.com/sandolpin/SantopiSpeedmeter",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 137.52,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "SantopiSpeedmeter-main/app/src/main/AndroidManifest.xml",
+          "line": 20,
+          "source": "file",
+          "preview": "AIza************************KJMc"
         }
       ]
     },
