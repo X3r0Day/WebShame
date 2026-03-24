@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T05:52:23.802534+00:00",
+  "generatedAt": "2026-03-24T06:54:05.232007+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -44104,6 +44104,33 @@
       ]
     },
     {
+      "repo": "Dev-Null-X/TELEGRAM-VC-BOT",
+      "url": "https://github.com/Dev-Null-X/TELEGRAM-VC-BOT",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.86,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "TELEGRAM-VC-BOT-main/config.js",
+          "line": 14,
+          "source": "file",
+          "preview": "8790************************ff1E"
+        }
+      ]
+    },
+    {
       "repo": "Devansh-567/Prayatna-3.0_DMS",
       "url": "https://github.com/Devansh-567/Prayatna-3.0_DMS",
       "status": "leaked",
@@ -44509,6 +44536,33 @@
       ]
     },
     {
+      "repo": "Egzai04/Lawyer",
+      "url": "https://github.com/Egzai04/Lawyer",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 26.27,
+      "exposureScore": 20,
+      "topTypes": [
+        "HuggingFace Token"
+      ],
+      "typeCounts": {
+        "HuggingFace Token": 1
+      },
+      "findings": [
+        {
+          "type": "HuggingFace Token",
+          "file": "Lawyer-main/app.py",
+          "line": 58,
+          "source": "file",
+          "preview": "hf_z************************Saof"
+        }
+      ]
+    },
+    {
       "repo": "ElPadreBatman/Builder-ai",
       "url": "https://github.com/ElPadreBatman/Builder-ai",
       "status": "leaked",
@@ -44775,6 +44829,33 @@
           "line": 20,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "Filoo-code/inspirewisdom",
+      "url": "https://github.com/Filoo-code/inspirewisdom",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.89,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "inspirewisdom-main/app.py",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************sJrU"
         }
       ]
     },
@@ -49794,6 +49875,33 @@
         {
           "type": "Telegram Bot Token",
           "file": "macro16-main/macro_script.js",
+          "line": 18,
+          "source": "file",
+          "preview": "7811************************WbRw"
+        }
+      ]
+    },
+    {
+      "repo": "Presentations-with-ai/policy-with-history2",
+      "url": "https://github.com/Presentations-with-ai/policy-with-history2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "policy-with-history2-main/macro_script.js",
           "line": 18,
           "source": "file",
           "preview": "7811************************WbRw"
@@ -60358,6 +60466,33 @@
       ]
     },
     {
+      "repo": "dickoifenta27-afk/Kimi_Agent_Supabase-Data-Migrasi",
+      "url": "https://github.com/dickoifenta27-afk/Kimi_Agent_Supabase-Data-Migrasi",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 27.48,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "Kimi_Agent_Supabase-Data-Migrasi-main/base44-to-supabase-sdk-main/src/lib/custom-sdk.js",
+          "line": 16,
+          "source": "file",
+          "preview": "eyJh************************81IU"
+        }
+      ]
+    },
+    {
       "repo": "diegolivad-cell/inventario-restaurante",
       "url": "https://github.com/diegolivad-cell/inventario-restaurante",
       "status": "leaked",
@@ -61839,6 +61974,33 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************RsDY"
+        }
+      ]
+    },
+    {
+      "repo": "faiz-jihad/MataCeria",
+      "url": "https://github.com/faiz-jihad/MataCeria",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.02,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "MataCeria-main/.env",
+          "line": 20,
+          "source": "file",
+          "preview": "AIza************************2qAE"
         }
       ]
     },
@@ -71910,6 +72072,33 @@
           "line": 26,
           "source": "file",
           "preview": "8526************************n--0"
+        }
+      ]
+    },
+    {
+      "repo": "oussamabelakab1-spec/telegram-bot",
+      "url": "https://github.com/oussamabelakab1-spec/telegram-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 33.5,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "telegram-bot-main/ouss.py",
+          "line": 9,
+          "source": "file",
+          "preview": "8778************************UOow"
         }
       ]
     },
