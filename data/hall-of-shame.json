@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T00:03:12.935692+00:00",
+  "generatedAt": "2026-03-24T02:28:38.042904+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -2943,6 +2943,70 @@
           "type": "Private Key (RSA)",
           "file": "Commit 0f39ef7",
           "line": 26348,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "ks-account/auth-server-2.1",
+      "url": "https://github.com/ks-account/auth-server-2.1",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 6,
+      "uniqueTypes": 2,
+      "filesAffected": 5,
+      "commitFindings": 2,
+      "scanTimeSeconds": 50.88,
+      "exposureScore": 108,
+      "topTypes": [
+        "Private Key (RSA)",
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4,
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "auth-server-2.1-main/node_modules/dotenv/README-es.md",
+          "line": 112,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "auth-server-2.1-main/node_modules/dotenv/README.md",
+          "line": 112,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "auth-server-2.1-main/node_modules/pg-pool/README.md",
+          "line": 72,
+          "source": "file",
+          "preview": "post************************####"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "auth-server-2.1-main/node_modules/pg-pool/test/connection-strings.js",
+          "line": 8,
+          "source": "file",
+          "preview": "post*******************1234"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit a55189f",
+          "line": 68126,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit a55189f",
+          "line": 68580,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -15438,6 +15502,40 @@
           "type": "Private Key (EC)",
           "file": "Commit ead147d",
           "line": 558,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "roghavan/Ai-powered-recruitment",
+      "url": "https://github.com/roghavan/Ai-powered-recruitment",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 37.27,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Ai-powered-recruitment-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 3183a35",
+          "line": 45876,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -69327,6 +69425,33 @@
       ]
     },
     {
+      "repo": "mohmwja44/999",
+      "url": "https://github.com/mohmwja44/999",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.64,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "999-main/index.html.txt",
+          "line": 24,
+          "source": "file",
+          "preview": "7937************************bmHQ"
+        }
+      ]
+    },
+    {
       "repo": "moulz04/wolofGen",
       "url": "https://github.com/moulz04/wolofGen",
       "status": "leaked",
@@ -75155,6 +75280,33 @@
           "line": 8,
           "source": "file",
           "preview": "8278************************4AKA"
+        }
+      ]
+    },
+    {
+      "repo": "skyvanguard/jaguarete",
+      "url": "https://github.com/skyvanguard/jaguarete",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 72.51,
+      "exposureScore": 20,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "jaguarete-jaguarete/packages/jaguarete-tools/tests/test_reporting_tools.py",
+          "line": 70,
+          "source": "file",
+          "preview": "ghp_************************1234"
         }
       ]
     },
