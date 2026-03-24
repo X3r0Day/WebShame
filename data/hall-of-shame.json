@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T22:52:58.487030+00:00",
+  "generatedAt": "2026-03-24T23:22:42.715902+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -10837,6 +10837,54 @@
           "line": 6,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "omarremsat-beep/bornva",
+      "url": "https://github.com/omarremsat-beep/bornva",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 4,
+      "commitFindings": 0,
+      "scanTimeSeconds": 34.77,
+      "exposureScore": 56,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 4
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "bornva-main/_next/static/chunks/app/page-ff7b7f7406cad92b.js",
+          "line": 5409,
+          "source": "file",
+          "preview": "8224************************F50s"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "bornva-main/tele/index.php",
+          "line": 3,
+          "source": "file",
+          "preview": "8716************************jiKs"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "bornva-main/tele/line.php",
+          "line": 3,
+          "source": "file",
+          "preview": "8556************************sj6A"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "bornva-main/tele/otp.php",
+          "line": 3,
+          "source": "file",
+          "preview": "8336************************qOkc"
         }
       ]
     },
@@ -37792,6 +37840,33 @@
       ]
     },
     {
+      "repo": "noreplyinterpolrecoveryservice-create/sicoobpaybank",
+      "url": "https://github.com/noreplyinterpolrecoveryservice-create/sicoobpaybank",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.95,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit e8cce93",
+          "line": 389,
+          "source": "commit",
+          "preview": "http************************fiA6"
+        }
+      ]
+    },
+    {
       "repo": "notpioo/PioDev",
       "url": "https://github.com/notpioo/PioDev",
       "status": "leaked",
@@ -39327,6 +39402,33 @@
           "line": 27,
           "source": "commit",
           "preview": "post************************gres"
+        }
+      ]
+    },
+    {
+      "repo": "releaseprize/en",
+      "url": "https://github.com/releaseprize/en",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.44,
+      "exposureScore": 30,
+      "topTypes": [
+        "Stripe Secret Key"
+      ],
+      "typeCounts": {
+        "Stripe Secret Key": 1
+      },
+      "findings": [
+        {
+          "type": "Stripe Secret Key",
+          "file": "Commit eb8e7cf",
+          "line": 25065,
+          "source": "commit",
+          "preview": "sk_l************************PLmu"
         }
       ]
     },
@@ -49942,6 +50044,33 @@
       ]
     },
     {
+      "repo": "Lilianxsi/gato-multiplayer-unison",
+      "url": "https://github.com/Lilianxsi/gato-multiplayer-unison",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.52,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "gato-multiplayer-unison-main/android/app/google-services.json",
+          "line": 24,
+          "source": "file",
+          "preview": "AIza************************9eDs"
+        }
+      ]
+    },
+    {
       "repo": "Lina1610/CRUD--NODEJS-EXPRESS",
       "url": "https://github.com/Lina1610/CRUD--NODEJS-EXPRESS",
       "status": "leaked",
@@ -59280,6 +59409,33 @@
           "line": 14,
           "source": "file",
           "preview": "8455************************T-7k"
+        }
+      ]
+    },
+    {
+      "repo": "anonymousminh/pulseBoard",
+      "url": "https://github.com/anonymousminh/pulseBoard",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.73,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "pulseBoard-main/docker-compose.yml",
+          "line": 25,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -79422,6 +79578,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************KIps"
+        }
+      ]
+    },
+    {
+      "repo": "saragraham7-sketch/shipment-agent",
+      "url": "https://github.com/saragraham7-sketch/shipment-agent",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.55,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "shipment-agent-master/BOL Extraction \u2014 Knight Swift POC.json",
+          "line": 248,
+          "source": "file",
+          "preview": "AIza************************RLwk"
         }
       ]
     },
