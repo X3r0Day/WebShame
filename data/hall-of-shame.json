@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T11:36:31.583734+00:00",
+  "generatedAt": "2026-03-24T12:12:15.724123+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -36527,6 +36527,33 @@
       ]
     },
     {
+      "repo": "nvFede/aplitop",
+      "url": "https://github.com/nvFede/aplitop",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 18.32,
+      "exposureScore": 30,
+      "topTypes": [
+        "Sentry Token"
+      ],
+      "typeCounts": {
+        "Sentry Token": 1
+      },
+      "findings": [
+        {
+          "type": "Sentry Token",
+          "file": "Commit e6d8788",
+          "line": 746,
+          "source": "commit",
+          "preview": "sntr************************xxxx"
+        }
+      ]
+    },
+    {
       "repo": "nxnndndbxb/Fortune",
       "url": "https://github.com/nxnndndbxb/Fortune",
       "status": "leaked",
@@ -46139,6 +46166,33 @@
       ]
     },
     {
+      "repo": "Gouri-nanda-Gouri/UV-Aura",
+      "url": "https://github.com/Gouri-nanda-Gouri/UV-Aura",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 27.2,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "UV-Aura-main/user_app/lib/gemini_service.dart",
+          "line": 5,
+          "source": "file",
+          "preview": "AIza************************SIJw"
+        }
+      ]
+    },
+    {
       "repo": "Gui0494/CLI-complete",
       "url": "https://github.com/Gui0494/CLI-complete",
       "status": "leaked",
@@ -47323,6 +47377,33 @@
           "line": 66,
           "source": "file",
           "preview": "post************************port"
+        }
+      ]
+    },
+    {
+      "repo": "Jagdishdas-HST/hello_canvas",
+      "url": "https://github.com/Jagdishdas-HST/hello_canvas",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.41,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "hello_canvas-master/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "post************************tech"
         }
       ]
     },
@@ -57506,6 +57587,33 @@
       ]
     },
     {
+      "repo": "asd400-arch/tcg-express-id",
+      "url": "https://github.com/asd400-arch/tcg-express-id",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 19.71,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase PAT"
+      ],
+      "typeCounts": {
+        "Supabase PAT": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase PAT",
+          "file": "tcg-express-id-master/scripts/dump-schema.js",
+          "line": 4,
+          "source": "file",
+          "preview": "sbp_************************a28a"
+        }
+      ]
+    },
+    {
       "repo": "ase-dev-pooja/chat-notification",
       "url": "https://github.com/ase-dev-pooja/chat-notification",
       "status": "leaked",
@@ -58127,6 +58235,33 @@
       ]
     },
     {
+      "repo": "benhamouislam4-cell/my-bot-tool",
+      "url": "https://github.com/benhamouislam4-cell/my-bot-tool",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.52,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "my-bot-tool-main/main.py",
+          "line": 9,
+          "source": "file",
+          "preview": "8609************************b1m8"
+        }
+      ]
+    },
+    {
       "repo": "benjiAndroidDev/test",
       "url": "https://github.com/benjiAndroidDev/test",
       "status": "leaked",
@@ -58501,6 +58636,33 @@
           "line": 10,
           "source": "file",
           "preview": "AIza************************PLdI"
+        }
+      ]
+    },
+    {
+      "repo": "bluesapphiiire777-ctrl/The-Public-Assembly",
+      "url": "https://github.com/bluesapphiiire777-ctrl/The-Public-Assembly",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.74,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "The-Public-Assembly-main/.env",
+          "line": 11,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
