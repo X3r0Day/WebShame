@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T04:37:59.282475+00:00",
+  "generatedAt": "2026-03-24T05:52:23.802534+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -16205,6 +16205,42 @@
       ]
     },
     {
+      "repo": "AscalonX/final_project_frontend",
+      "url": "https://github.com/AscalonX/final_project_frontend",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.07,
+      "exposureScore": 40,
+      "topTypes": [
+        "MongoDB Connection URI",
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "final_project_frontend-main/config/config.env",
+          "line": 4,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "OpenRouter API Key",
+          "file": "final_project_frontend-main/config/config.env",
+          "line": 10,
+          "source": "file",
+          "preview": "sk-o************************2a04"
+        }
+      ]
+    },
+    {
       "repo": "Ashwith30/medical-chatbot",
       "url": "https://github.com/Ashwith30/medical-chatbot",
       "status": "leaked",
@@ -21823,6 +21859,40 @@
           "line": 14,
           "source": "file",
           "preview": "8766************************qZKU"
+        }
+      ]
+    },
+    {
+      "repo": "nivitek/park-your-bike",
+      "url": "https://github.com/nivitek/park-your-bike",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 52.67,
+      "exposureScore": 32,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "park-your-bike-main/nodeserver-backend/node_modules/dotenv/README-es.md",
+          "line": 112,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "park-your-bike-main/nodeserver-backend/node_modules/dotenv/README.md",
+          "line": 112,
+          "source": "file",
+          "preview": "----************************----"
         }
       ]
     },
@@ -44084,6 +44154,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************Kn5I"
+        }
+      ]
+    },
+    {
+      "repo": "Dialogue-Tech-AI/Joao_gueireiro",
+      "url": "https://github.com/Dialogue-Tech-AI/Joao_gueireiro",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 20.73,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Joao_gueireiro-master/V1/config/server/credentials/env/ai-worker.prod.env",
+          "line": 15,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -77510,6 +77607,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************9seA"
+        }
+      ]
+    },
+    {
+      "repo": "tomiyuta/gmo_fx_auto_trading",
+      "url": "https://github.com/tomiyuta/gmo_fx_auto_trading",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.94,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "gmo_fx_auto_trading-main/docker/ml_training/README.md",
+          "line": 33,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
