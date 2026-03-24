@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T15:01:01.107619+00:00",
+  "generatedAt": "2026-03-24T15:59:52.919144+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -39460,6 +39460,33 @@
       ]
     },
     {
+      "repo": "shivamchaurasiya8866-crypto/BINDING-REMOVE",
+      "url": "https://github.com/shivamchaurasiya8866-crypto/BINDING-REMOVE",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.4,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit d39dced",
+          "line": 112,
+          "source": "commit",
+          "preview": "7759************************_y38"
+        }
+      ]
+    },
+    {
       "repo": "shivchandramahato505-tech/hi-kishan",
       "url": "https://github.com/shivchandramahato505-tech/hi-kishan",
       "status": "leaked",
@@ -63004,6 +63031,33 @@
       ]
     },
     {
+      "repo": "ektauniyal123/job-portal",
+      "url": "https://github.com/ektauniyal123/job-portal",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 70.49,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "job-portal-main/backend/.env",
+          "line": 6,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "elawyersbdd/E-Lawyers-Portal",
       "url": "https://github.com/elawyersbdd/E-Lawyers-Portal",
       "status": "leaked",
@@ -70128,6 +70182,33 @@
           "line": 220,
           "source": "file",
           "preview": "8183************************9qlc"
+        }
+      ]
+    },
+    {
+      "repo": "love-wedding/bao_son_dang_ly",
+      "url": "https://github.com/love-wedding/bao_son_dang_ly",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 48.66,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "bao_son_dang_ly-master/js/main.js",
+          "line": 2,
+          "source": "file",
+          "preview": "AIza************************CUTU"
         }
       ]
     },
