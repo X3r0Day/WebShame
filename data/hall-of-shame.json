@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T13:57:17.236302+00:00",
+  "generatedAt": "2026-03-24T15:01:01.107619+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -8114,6 +8114,49 @@
           "type": "Private Key (RSA)",
           "file": "Commit 7aaf69f",
           "line": 58354,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "GopikaArakkan/Jobtracker-Application",
+      "url": "https://github.com/GopikaArakkan/Jobtracker-Application",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 314.09,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Jobtracker-Application-main/server/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Jobtracker-Application-main/server/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit b1f4e1f",
+          "line": 78200,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -26511,6 +26554,33 @@
       ]
     },
     {
+      "repo": "Mohamed-Chaari/UniEcoSync_AI",
+      "url": "https://github.com/Mohamed-Chaari/UniEcoSync_AI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 18.65,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit d303341",
+          "line": 2764,
+          "source": "commit",
+          "preview": "AIza************************Hjro"
+        }
+      ]
+    },
+    {
       "repo": "Mousa-2020/Knowing",
       "url": "https://github.com/Mousa-2020/Knowing",
       "status": "leaked",
@@ -30665,6 +30735,33 @@
           "line": 488,
           "source": "commit",
           "preview": "AIza************************RDU8"
+        }
+      ]
+    },
+    {
+      "repo": "ccctrovisco-eng/R-Unstructured_data",
+      "url": "https://github.com/ccctrovisco-eng/R-Unstructured_data",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 22.5,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google OAuth Client Secret"
+      ],
+      "typeCounts": {
+        "Google OAuth Client Secret": 1
+      },
+      "findings": [
+        {
+          "type": "Google OAuth Client Secret",
+          "file": "Commit 56aaced",
+          "line": 158,
+          "source": "commit",
+          "preview": "GOCS************************nn8b"
         }
       ]
     },
@@ -41307,6 +41404,33 @@
       ]
     },
     {
+      "repo": "wkoring/profesoria",
+      "url": "https://github.com/wkoring/profesoria",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.46,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit afc71fb",
+          "line": 1375,
+          "source": "commit",
+          "preview": "AIza************************XaUo"
+        }
+      ]
+    },
+    {
       "repo": "wolviesfitness/FX_Journal",
       "url": "https://github.com/wolviesfitness/FX_Journal",
       "status": "leaked",
@@ -49997,6 +50121,33 @@
           "line": 41,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "Nat688/Aternos-AFK-Bot",
+      "url": "https://github.com/Nat688/Aternos-AFK-Bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.39,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Aternos-AFK-Bot-main/settings.json",
+          "line": 77,
+          "source": "file",
+          "preview": "http************************3DhE"
         }
       ]
     },
@@ -61719,6 +61870,33 @@
       ]
     },
     {
+      "repo": "devaa-ops/Climapx",
+      "url": "https://github.com/devaa-ops/Climapx",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 27.36,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Climapx-main/android/app/src/main/AndroidManifest.xml",
+          "line": 20,
+          "source": "file",
+          "preview": "AIza************************JMB8"
+        }
+      ]
+    },
+    {
       "repo": "deviswetha/adaptive_botnet_attack-detection-project",
       "url": "https://github.com/deviswetha/adaptive_botnet_attack-detection-project",
       "status": "leaked",
@@ -67628,6 +67806,33 @@
           "line": 1,
           "source": "file",
           "preview": "AIza************************7k-4"
+        }
+      ]
+    },
+    {
+      "repo": "jrmckins/pi_docker",
+      "url": "https://github.com/jrmckins/pi_docker",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 72.79,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "pi_docker-main/kaunta/docker-compose.yml",
+          "line": 32,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -78590,6 +78795,33 @@
           "line": 4,
           "source": "file",
           "preview": "eyJh************************WOTA"
+        }
+      ]
+    },
+    {
+      "repo": "subedisulav850-a11y/SULAVXMRCLIKE",
+      "url": "https://github.com/subedisulav850-a11y/SULAVXMRCLIKE",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.49,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "SULAVXMRCLIKE-main/bot.py",
+          "line": 37,
+          "source": "file",
+          "preview": "8352************************mvCc"
         }
       ]
     },
