@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T12:12:15.724123+00:00",
+  "generatedAt": "2026-03-24T13:57:17.236302+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -10070,6 +10070,54 @@
       ]
     },
     {
+      "repo": "JoelKuate237/Dockerpourd-butant",
+      "url": "https://github.com/JoelKuate237/Dockerpourd-butant",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 19.96,
+      "exposureScore": 56,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 4
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Dockerpourd-butant-main/07-reseaux-docker/02-types-de-reseaux.md",
+          "line": 114,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Dockerpourd-butant-main/08-docker-compose/03-definir-des-services-multiples.md",
+          "line": 127,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Dockerpourd-butant-main/08-docker-compose/03-definir-des-services-multiples.md",
+          "line": 221,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Dockerpourd-butant-main/08-docker-compose/03-definir-des-services-multiples.md",
+          "line": 398,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "ROHANKANTH/Reveal",
       "url": "https://github.com/ROHANKANTH/Reveal",
       "status": "leaked",
@@ -19418,6 +19466,40 @@
           "line": 3,
           "source": "file",
           "preview": "eyJh************************tz58"
+        }
+      ]
+    },
+    {
+      "repo": "ArjunKH2004/streamsift-rework",
+      "url": "https://github.com/ArjunKH2004/streamsift-rework",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 101.26,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "streamsift-rework-main/backend/app.py",
+          "line": 192,
+          "source": "file",
+          "preview": "AIza************************mMPc"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "streamsift-rework-main/backend/app.py",
+          "line": 195,
+          "source": "file",
+          "preview": "AIza************************62ec"
         }
       ]
     },
@@ -32770,6 +32852,33 @@
           "line": 2,
           "source": "commit",
           "preview": "ghp_************************lwt8"
+        }
+      ]
+    },
+    {
+      "repo": "htviet2004/Vietnamese_Text_Normalization",
+      "url": "https://github.com/htviet2004/Vietnamese_Text_Normalization",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 47.16,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 659b42c",
+          "line": 13750,
+          "source": "commit",
+          "preview": "AIza************************tDwo"
         }
       ]
     },
@@ -51107,6 +51216,33 @@
       ]
     },
     {
+      "repo": "RAHAT11790/URL-UPLOAD-BOT",
+      "url": "https://github.com/RAHAT11790/URL-UPLOAD-BOT",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.54,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "URL-UPLOAD-BOT-main/bot.py",
+          "line": 13,
+          "source": "file",
+          "preview": "8519************************vOcw"
+        }
+      ]
+    },
+    {
       "repo": "RadlyFrost/Weather-Telegram-bot",
       "url": "https://github.com/RadlyFrost/Weather-Telegram-bot",
       "status": "leaked",
@@ -58231,6 +58367,33 @@
           "line": 12,
           "source": "file",
           "preview": "8380************************ezak"
+        }
+      ]
+    },
+    {
+      "repo": "benhamouislam4-cell/my-bot-spotify",
+      "url": "https://github.com/benhamouislam4-cell/my-bot-spotify",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.84,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "my-bot-spotify-main/main.py",
+          "line": 9,
+          "source": "file",
+          "preview": "8609************************b1m8"
         }
       ]
     },
@@ -65741,6 +65904,33 @@
       ]
     },
     {
+      "repo": "huydg123/omnilogix",
+      "url": "https://github.com/huydg123/omnilogix",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 23.61,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "omnilogix-master/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "AIza************************72Ls"
+        }
+      ]
+    },
+    {
       "repo": "iamrandz92-cloud/crisiswatch",
       "url": "https://github.com/iamrandz92-cloud/crisiswatch",
       "status": "leaked",
@@ -70952,6 +71142,33 @@
       ]
     },
     {
+      "repo": "megh85/dermscan-ai",
+      "url": "https://github.com/megh85/dermscan-ai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.81,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "dermscan-ai-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************4eJQ"
+        }
+      ]
+    },
+    {
       "repo": "mentos172/WorkSpaceBot",
       "url": "https://github.com/mentos172/WorkSpaceBot",
       "status": "leaked",
@@ -73756,6 +73973,33 @@
           "line": 9,
           "source": "file",
           "preview": "8778************************UOow"
+        }
+      ]
+    },
+    {
+      "repo": "oxign85-cpu/etitsbuga",
+      "url": "https://github.com/oxign85-cpu/etitsbuga",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.82,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "etitsbuga-main/a.py",
+          "line": 13,
+          "source": "file",
+          "preview": "8348************************5SyU"
         }
       ]
     },
