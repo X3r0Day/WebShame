@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T21:04:39.570233+00:00",
+  "generatedAt": "2026-03-24T21:43:13.867679+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -5293,6 +5293,54 @@
       ]
     },
     {
+      "repo": "git-mugassn/sfg",
+      "url": "https://github.com/git-mugassn/sfg",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 3,
+      "scanTimeSeconds": 5.6,
+      "exposureScore": 86,
+      "topTypes": [
+        "Private Key (OPENSSH)"
+      ],
+      "typeCounts": {
+        "Private Key (OPENSSH)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (OPENSSH)",
+          "file": "sfg-main/key.txt",
+          "line": 1,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (OPENSSH)",
+          "file": "Commit cfea11f",
+          "line": 46,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (OPENSSH)",
+          "file": "Commit cfea11f",
+          "line": 68,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (OPENSSH)",
+          "file": "Commit 04c02c6",
+          "line": 26,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "git-mugassn/tg3fr",
       "url": "https://github.com/git-mugassn/tg3fr",
       "status": "leaked",
@@ -5773,6 +5821,49 @@
           "line": 63037,
           "source": "commit",
           "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "elfuan007/comprobar-agricola2026sv",
+      "url": "https://github.com/elfuan007/comprobar-agricola2026sv",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 3,
+      "scanTimeSeconds": 42.3,
+      "exposureScore": 82,
+      "topTypes": [
+        "Discord Webhook",
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 2,
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 4194980",
+          "line": 551,
+          "source": "commit",
+          "preview": "http************************iviq"
+        },
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 4194980",
+          "line": 623,
+          "source": "commit",
+          "preview": "http************************nY9P"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 4194980",
+          "line": 770,
+          "source": "commit",
+          "preview": "AIza************************nsaM"
         }
       ]
     },
@@ -18432,6 +18523,42 @@
           "line": 3,
           "source": "file",
           "preview": "AIza************************0dcE"
+        }
+      ]
+    },
+    {
+      "repo": "christabellejacques/eleve-monorepo",
+      "url": "https://github.com/christabellejacques/eleve-monorepo",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.26,
+      "exposureScore": 40,
+      "topTypes": [
+        "Google API/GCP Key",
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "eleve-monorepo-main/eleve-backend/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************i18c"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "eleve-monorepo-main/eleve-backend/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "post************************6543"
         }
       ]
     },
@@ -55582,6 +55709,33 @@
           "line": 13,
           "source": "file",
           "preview": "7968************************16c8"
+        }
+      ]
+    },
+    {
+      "repo": "UniversityAccount2024/FirebaseFCMDemo",
+      "url": "https://github.com/UniversityAccount2024/FirebaseFCMDemo",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.86,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "FirebaseFCMDemo-main/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************G1Fs"
         }
       ]
     },
