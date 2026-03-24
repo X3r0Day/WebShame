@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T15:59:52.919144+00:00",
+  "generatedAt": "2026-03-24T16:56:46.110861+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -8163,6 +8163,49 @@
       ]
     },
     {
+      "repo": "Gunjan7440/portfolio",
+      "url": "https://github.com/Gunjan7440/portfolio",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 99.29,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "portfolio-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "portfolio-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit b4dcebd",
+          "line": 51016,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "Kolayagnesh/FoodConnect",
       "url": "https://github.com/Kolayagnesh/FoodConnect",
       "status": "leaked",
@@ -8587,6 +8630,49 @@
           "type": "Private Key (RSA)",
           "file": "Commit 37a5514",
           "line": 58591,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "itubayounas/MedVise",
+      "url": "https://github.com/itubayounas/MedVise",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 78.15,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "MedVise-main/healthCare_Backened/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "MedVise-main/healthCare_Backened/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 06a5e20",
+          "line": 62600,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -23422,6 +23508,33 @@
       ]
     },
     {
+      "repo": "20241ac0080048/meu_agente_secreto",
+      "url": "https://github.com/20241ac0080048/meu_agente_secreto",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.78,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 0ac078a",
+          "line": 15,
+          "source": "commit",
+          "preview": "AIza************************ZrAA"
+        }
+      ]
+    },
+    {
       "repo": "4jmason-lgtm/Vinyl-League",
       "url": "https://github.com/4jmason-lgtm/Vinyl-League",
       "status": "leaked",
@@ -25416,6 +25529,33 @@
           "line": 332,
           "source": "commit",
           "preview": "AIza************************4VE0"
+        }
+      ]
+    },
+    {
+      "repo": "HarshitaR2/Blood-locator",
+      "url": "https://github.com/HarshitaR2/Blood-locator",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 39.08,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 031513a",
+          "line": 33412,
+          "source": "commit",
+          "preview": "AIza************************iAhc"
         }
       ]
     },
@@ -60466,6 +60606,33 @@
       ]
     },
     {
+      "repo": "coolestmonkey1996-pixel/Telegram-parser-bot",
+      "url": "https://github.com/coolestmonkey1996-pixel/Telegram-parser-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.45,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Telegram-parser-bot-main/bot.py",
+          "line": 22,
+          "source": "file",
+          "preview": "8777************************n4GU"
+        }
+      ]
+    },
+    {
       "repo": "copebar/Ha",
       "url": "https://github.com/copebar/Ha",
       "status": "leaked",
@@ -76423,6 +76590,33 @@
       ]
     },
     {
+      "repo": "renat2504/ElectronicsStore",
+      "url": "https://github.com/renat2504/ElectronicsStore",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.01,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "ElectronicsStore-main/bot.py",
+          "line": 5,
+          "source": "file",
+          "preview": "8761************************kN58"
+        }
+      ]
+    },
+    {
       "repo": "restaurantecardapio/cardapiodigital",
       "url": "https://github.com/restaurantecardapio/cardapiodigital",
       "status": "leaked",
@@ -79042,6 +79236,33 @@
       ]
     },
     {
+      "repo": "superseed34376/Kianush-AI3",
+      "url": "https://github.com/superseed34376/Kianush-AI3",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.98,
+      "exposureScore": 20,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "Kianush-AI3-main/app.py",
+          "line": 7,
+          "source": "file",
+          "preview": "gsk_************************vcNb"
+        }
+      ]
+    },
+    {
       "repo": "suportejair-hue/Chave-pix-",
       "url": "https://github.com/suportejair-hue/Chave-pix-",
       "status": "leaked",
@@ -79227,6 +79448,33 @@
           "line": 14,
           "source": "file",
           "preview": "AIza************************ZwbQ"
+        }
+      ]
+    },
+    {
+      "repo": "tangkwok0104/Clawdash2",
+      "url": "https://github.com/tangkwok0104/Clawdash2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 19.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Clawdash2-main/antigravity_nuke.sh",
+          "line": 28,
+          "source": "file",
+          "preview": "7773************************YXZ4"
         }
       ]
     },
@@ -82629,6 +82877,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************i0Cw"
+        }
+      ]
+    },
+    {
+      "repo": "zakanir2/Project-nine",
+      "url": "https://github.com/zakanir2/Project-nine",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.45,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Project-nine-main/nine hub lua.lua",
+          "line": 5,
+          "source": "file",
+          "preview": "http************************36SY"
         }
       ]
     },
