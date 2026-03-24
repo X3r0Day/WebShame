@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T06:54:05.232007+00:00",
+  "generatedAt": "2026-03-24T07:51:15.711746+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -6422,6 +6422,54 @@
           "type": "Private Key (RSA)",
           "file": "Commit 2a5edb3",
           "line": 338196,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "santijuan24/WebVuln",
+      "url": "https://github.com/santijuan24/WebVuln",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 94.43,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "WebVuln-main/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "WebVuln-main/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit d8cdf3a",
+          "line": 104629,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit d8cdf3a",
+          "line": 105064,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -13130,6 +13178,47 @@
           "line": 12,
           "source": "file",
           "preview": "AKIA************Y123"
+        }
+      ]
+    },
+    {
+      "repo": "dhshvdsh3-art/Video-To-Audio",
+      "url": "https://github.com/dhshvdsh3-art/Video-To-Audio",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 32.93,
+      "exposureScore": 44,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 3
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Video-To-Audio-master/artifacts/api-server/1774188531682-player-script.js",
+          "line": 4320,
+          "source": "file",
+          "preview": "AIza************************bUhE"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Video-To-Audio-master/artifacts/api-server/1774188531682-player-script.js",
+          "line": 4752,
+          "source": "file",
+          "preview": "AIza************************oAnw"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Video-To-Audio-master/artifacts/yt-mp3/src/hooks/use-converter.ts",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************S7L4"
         }
       ]
     },
@@ -28579,6 +28668,33 @@
       ]
     },
     {
+      "repo": "amptechnology-dev/attendance_backend",
+      "url": "https://github.com/amptechnology-dev/attendance_backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.29,
+      "exposureScore": 30,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit e2232e9",
+          "line": 256,
+          "source": "commit",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "amritgupta78490/amritone",
       "url": "https://github.com/amritgupta78490/amritone",
       "status": "leaked",
@@ -32710,6 +32826,33 @@
       ]
     },
     {
+      "repo": "jensensui-hash/YAA-Chatbot",
+      "url": "https://github.com/jensensui-hash/YAA-Chatbot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.45,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit e18103b",
+          "line": 152,
+          "source": "commit",
+          "preview": "AIza************************PJGk"
+        }
+      ]
+    },
+    {
       "repo": "jerusalenromero2026-ui/AMINIASDIMOR_CONTROL-LOCAL",
       "url": "https://github.com/jerusalenromero2026-ui/AMINIASDIMOR_CONTROL-LOCAL",
       "status": "leaked",
@@ -33277,6 +33420,33 @@
       ]
     },
     {
+      "repo": "kaypaid666-alt/cryptovault",
+      "url": "https://github.com/kaypaid666-alt/cryptovault",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.34,
+      "exposureScore": 30,
+      "topTypes": [
+        "Anthropic API Key"
+      ],
+      "typeCounts": {
+        "Anthropic API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Anthropic API Key",
+          "file": "Commit 64e0545",
+          "line": 1290,
+          "source": "commit",
+          "preview": "sk-a************************3QAA"
+        }
+      ]
+    },
+    {
       "repo": "keeonho/Editor-",
       "url": "https://github.com/keeonho/Editor-",
       "status": "leaked",
@@ -33354,6 +33524,33 @@
           "line": 45,
           "source": "commit",
           "preview": "AIza************************WwLA"
+        }
+      ]
+    },
+    {
+      "repo": "keyhoney/gaseo_checker",
+      "url": "https://github.com/keyhoney/gaseo_checker",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.21,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit d10ffb9",
+          "line": 116,
+          "source": "commit",
+          "preview": "AIza************************i8Vw"
         }
       ]
     },
@@ -57384,6 +57581,33 @@
           "line": 4,
           "source": "file",
           "preview": "eyJh************************n5Pk"
+        }
+      ]
+    },
+    {
+      "repo": "blaxkmiradev/Discord-Token-Grabber",
+      "url": "https://github.com/blaxkmiradev/Discord-Token-Grabber",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.37,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Discord-Token-Grabber-main/grabber.py",
+          "line": 11,
+          "source": "file",
+          "preview": "http************************s82s"
         }
       ]
     },
