@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T16:56:46.110861+00:00",
+  "generatedAt": "2026-03-24T17:52:38.828983+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -8501,6 +8501,49 @@
           "type": "Private Key (RSA)",
           "file": "Commit bf5ec43",
           "line": 38958,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "agraharamkavya/livetraq-crm",
+      "url": "https://github.com/agraharamkavya/livetraq-crm",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 103.1,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2,
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "livetraq-crm-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "livetraq-crm-main/backend/server.js",
+          "line": 13,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 5b18080",
+          "line": 64623,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -20313,6 +20356,40 @@
       ]
     },
     {
+      "repo": "ManishRawat0617/chatting_app_With_nodejs_backend",
+      "url": "https://github.com/ManishRawat0617/chatting_app_With_nodejs_backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 292.0,
+      "exposureScore": 32,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "chatting_app_With_nodejs_backend-main/backend/Chatting_app_server/node_modules/pg-pool/README.md",
+          "line": 72,
+          "source": "file",
+          "preview": "post************************####"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "chatting_app_With_nodejs_backend-main/backend/Chatting_app_server/node_modules/pg-pool/test/connection-strings.js",
+          "line": 8,
+          "source": "file",
+          "preview": "post*******************1234"
+        }
+      ]
+    },
+    {
       "repo": "MikhailNess/ip-monitoring",
       "url": "https://github.com/MikhailNess/ip-monitoring",
       "status": "leaked",
@@ -24449,6 +24526,33 @@
           "line": 169,
           "source": "commit",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "CarbonCarADM/BRUTOSVIX",
+      "url": "https://github.com/CarbonCarADM/BRUTOSVIX",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 25.59,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "Commit db27bf3",
+          "line": 112,
+          "source": "commit",
+          "preview": "eyJh************************7ga0"
         }
       ]
     },
@@ -33498,6 +33602,33 @@
       ]
     },
     {
+      "repo": "jcupler/Lab10.1",
+      "url": "https://github.com/jcupler/Lab10.1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 99.09,
+      "exposureScore": 30,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 40d0255",
+          "line": 18,
+          "source": "commit",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "jedag5860-boop/Allweblinkyann",
       "url": "https://github.com/jedag5860-boop/Allweblinkyann",
       "status": "leaked",
@@ -35060,6 +35191,33 @@
           "line": 179,
           "source": "commit",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "lucasriazzi-wq/exercicio10",
+      "url": "https://github.com/lucasriazzi-wq/exercicio10",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.67,
+      "exposureScore": 30,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "Commit 78e796c",
+          "line": 2,
+          "source": "commit",
+          "preview": "ghp_************************UHWT"
         }
       ]
     },
@@ -47885,6 +48043,33 @@
           "line": 19,
           "source": "file",
           "preview": "AIza************************eakc"
+        }
+      ]
+    },
+    {
+      "repo": "Jay-l-Break-Repos/s-P02-repo1-t",
+      "url": "https://github.com/Jay-l-Break-Repos/s-P02-repo1-t",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.71,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "docker-compose.yml",
+          "line": 23,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -68135,6 +68320,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************kAGk"
+        }
+      ]
+    },
+    {
+      "repo": "kaaaykeusrt-pixel/Medical-Bot",
+      "url": "https://github.com/kaaaykeusrt-pixel/Medical-Bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.41,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Medical-Bot-main/Bot.py",
+          "line": 20,
+          "source": "file",
+          "preview": "8739************************FZfU"
         }
       ]
     },
