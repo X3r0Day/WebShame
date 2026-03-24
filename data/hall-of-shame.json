@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-23T23:36:07.871871+00:00",
+  "generatedAt": "2026-03-24T00:03:12.935692+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -25722,6 +25722,33 @@
       ]
     },
     {
+      "repo": "Misha67-dogy/date",
+      "url": "https://github.com/Misha67-dogy/date",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.77,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 51f4049",
+          "line": 184,
+          "source": "commit",
+          "preview": "8726************************3Hak"
+        }
+      ]
+    },
+    {
       "repo": "Mousa-2020/Knowing",
       "url": "https://github.com/Mousa-2020/Knowing",
       "status": "leaked",
@@ -40680,6 +40707,33 @@
       ]
     },
     {
+      "repo": "421648-1W3-Sanchez-German-Manuel/habit-tracker-backend",
+      "url": "https://github.com/421648-1W3-Sanchez-German-Manuel/habit-tracker-backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.33,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "habit-tracker-backend-main/README.md",
+          "line": 208,
+          "source": "file",
+          "preview": "mong************************7017"
+        }
+      ]
+    },
+    {
       "repo": "6711507282-cell/library",
       "url": "https://github.com/6711507282-cell/library",
       "status": "leaked",
@@ -45671,6 +45725,33 @@
           "line": 31,
           "source": "file",
           "preview": "amqp************************5672"
+        }
+      ]
+    },
+    {
+      "repo": "Imperator-imper1/telegram-bots",
+      "url": "https://github.com/Imperator-imper1/telegram-bots",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.72,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "telegram-bots-main/bot.py",
+          "line": 30,
+          "source": "file",
+          "preview": "8797************************Vtcs"
         }
       ]
     },
@@ -54990,6 +55071,33 @@
       ]
     },
     {
+      "repo": "alsirius/siriux",
+      "url": "https://github.com/alsirius/siriux",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.52,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "siriux-main/docker-compose.yml",
+          "line": 30,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "alton15/recsys-pipeline",
       "url": "https://github.com/alton15/recsys-pipeline",
       "status": "leaked",
@@ -57956,6 +58064,33 @@
           "line": 291,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "chizmodiy/flutter-marketplace",
+      "url": "https://github.com/chizmodiy/flutter-marketplace",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 95.56,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "flutter-marketplace-main/lib/config/supabase_config.dart",
+          "line": 6,
+          "source": "file",
+          "preview": "eyJh************************qNtQ"
         }
       ]
     },
