@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T17:52:38.828983+00:00",
+  "generatedAt": "2026-03-24T18:49:31.117148+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -3130,6 +3130,68 @@
           "line": 70237,
           "source": "commit",
           "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "Eliyas3/MFH",
+      "url": "https://github.com/Eliyas3/MFH",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 8,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 69.58,
+      "exposureScore": 104,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 8
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "MFH-main/tail.txt",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************nXxs"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "MFH-main/tail.txt",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************l6-s"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "MFH-main/tail.txt",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************c-ak"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "MFH-main/tail.txt",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************MJo0"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "MFH-main/tail.txt",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************Z29s"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "MFH-main/tail.txt",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************a70s"
         }
       ]
     },
@@ -14030,6 +14092,47 @@
           "line": 62,
           "source": "file",
           "preview": "AIza************************sddU"
+        }
+      ]
+    },
+    {
+      "repo": "omiwone/playWright-demo",
+      "url": "https://github.com/omiwone/playWright-demo",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 34.44,
+      "exposureScore": 44,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 3
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "playWright-demo-main/docs/testing/database/connection-db.md",
+          "line": 215,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "playWright-demo-main/docs/testing/database/connection-db.md",
+          "line": 235,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "playWright-demo-main/docs/testing/database/connection-db.md",
+          "line": 238,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -28877,6 +28980,33 @@
       ]
     },
     {
+      "repo": "aahayeswgu/Groundwork",
+      "url": "https://github.com/aahayeswgu/Groundwork",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.32,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit a4fbb69",
+          "line": 4942,
+          "source": "commit",
+          "preview": "AIza************************Cgcg"
+        }
+      ]
+    },
+    {
       "repo": "aakash0606/take-the-winner-card",
       "url": "https://github.com/aakash0606/take-the-winner-card",
       "status": "leaked",
@@ -29089,6 +29219,33 @@
           "line": 1354,
           "source": "commit",
           "preview": "AIza************************ab10"
+        }
+      ]
+    },
+    {
+      "repo": "adityadhimaann/golf",
+      "url": "https://github.com/adityadhimaann/golf",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 25.39,
+      "exposureScore": 30,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 22154e1",
+          "line": 19,
+          "source": "commit",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -36896,6 +37053,33 @@
       ]
     },
     {
+      "repo": "nilo-bit/grupo-dashboards",
+      "url": "https://github.com/nilo-bit/grupo-dashboards",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.6,
+      "exposureScore": 30,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 1
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "Commit 396af15",
+          "line": 733,
+          "source": "commit",
+          "preview": "http************************true"
+        }
+      ]
+    },
+    {
       "repo": "nirajscorpio1-arch/oxygen-x",
       "url": "https://github.com/nirajscorpio1-arch/oxygen-x",
       "status": "leaked",
@@ -44537,6 +44721,33 @@
       ]
     },
     {
+      "repo": "Brkcan/Eventra-podman",
+      "url": "https://github.com/Brkcan/Eventra-podman",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.06,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Eventra-podman-main/docker-compose.podman.yml",
+          "line": 12,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Bryan-Meza/Lab1-CRUD-Spring",
       "url": "https://github.com/Bryan-Meza/Lab1-CRUD-Spring",
       "status": "leaked",
@@ -47692,6 +47903,33 @@
           "line": 14,
           "source": "file",
           "preview": "8338************************Djrg"
+        }
+      ]
+    },
+    {
+      "repo": "Irynai-org/irynai",
+      "url": "https://github.com/Irynai-org/irynai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.74,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "irynai-main/DEPLOYMENT.md",
+          "line": 41,
+          "source": "file",
+          "preview": "8769************************n2AY"
         }
       ]
     },
@@ -52367,6 +52605,33 @@
       ]
     },
     {
+      "repo": "Ronak206/aaronyx-chat",
+      "url": "https://github.com/Ronak206/aaronyx-chat",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 51.87,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "aaronyx-chat-master/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "RossiYuri/CSSCraft-AI",
       "url": "https://github.com/RossiYuri/CSSCraft-AI",
       "status": "leaked",
@@ -53929,6 +54194,33 @@
           "line": 7,
           "source": "file",
           "preview": "AIza************************R5Tc"
+        }
+      ]
+    },
+    {
+      "repo": "Suprakas/MERN-E-COMMERCE",
+      "url": "https://github.com/Suprakas/MERN-E-COMMERCE",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.97,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "MERN-E-COMMERCE-main/server/server.js",
+          "line": 8,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -73072,6 +73364,33 @@
           "line": 19,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "nachikethshetty-art/-ai-research-assistant",
+      "url": "https://github.com/nachikethshetty-art/-ai-research-assistant",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.6,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "-ai-research-assistant-main/API_KEY_INFO.txt",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************yQsI"
         }
       ]
     },
