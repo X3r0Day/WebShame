@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-24T22:11:05.496283+00:00",
+  "generatedAt": "2026-03-24T22:52:58.487030+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -15829,6 +15829,40 @@
       ]
     },
     {
+      "repo": "buchananricardo9jptun84654/felta199950001",
+      "url": "https://github.com/buchananricardo9jptun84654/felta199950001",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 25.39,
+      "exposureScore": 42,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 2
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "felta199950001-main/static/js/main.cbdcb642.js",
+          "line": 1,
+          "source": "file",
+          "preview": "5971************************ftLo"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit f30cc18",
+          "line": 432,
+          "source": "commit",
+          "preview": "8597************************ftLo"
+        }
+      ]
+    },
+    {
       "repo": "charmithaa60-glitch/unloxcampusclub",
       "url": "https://github.com/charmithaa60-glitch/unloxcampusclub",
       "status": "leaked",
@@ -26742,6 +26776,33 @@
       ]
     },
     {
+      "repo": "Kenshiro-Ida/AI-File-Organizer",
+      "url": "https://github.com/Kenshiro-Ida/AI-File-Organizer",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.54,
+      "exposureScore": 30,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "Commit 0aa8c15",
+          "line": 27,
+          "source": "commit",
+          "preview": "gsk_************************bx1Y"
+        }
+      ]
+    },
+    {
       "repo": "Kenzie-Informatika/tempmailV3.1",
       "url": "https://github.com/Kenzie-Informatika/tempmailV3.1",
       "status": "leaked",
@@ -28898,6 +28959,33 @@
           "line": 96,
           "source": "commit",
           "preview": "post*******************host"
+        }
+      ]
+    },
+    {
+      "repo": "Trajanoferreira/openclaw-daily-brief",
+      "url": "https://github.com/Trajanoferreira/openclaw-daily-brief",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.69,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 7cfb268",
+          "line": 71,
+          "source": "commit",
+          "preview": "7123************************xxxx"
         }
       ]
     },
