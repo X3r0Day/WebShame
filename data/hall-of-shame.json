@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T10:18:13.382341+00:00",
+  "generatedAt": "2026-03-25T11:14:40.284475+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -42003,6 +42003,33 @@
       ]
     },
     {
+      "repo": "suryacse2019/NodeJs-Project-Manage",
+      "url": "https://github.com/suryacse2019/NodeJs-Project-Manage",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.29,
+      "exposureScore": 30,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit cb5ac8c",
+          "line": 21,
+          "source": "commit",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "suryakun/fit-playground",
       "url": "https://github.com/suryakun/fit-playground",
       "status": "leaked",
@@ -49374,6 +49401,33 @@
       ]
     },
     {
+      "repo": "Iphone255/IPHONE-XMD",
+      "url": "https://github.com/Iphone255/IPHONE-XMD",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.41,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "IPHONE-XMD-main/config.js",
+          "line": 416,
+          "source": "file",
+          "preview": "post************************7738"
+        }
+      ]
+    },
+    {
       "repo": "IronFeniks/Info-bot",
       "url": "https://github.com/IronFeniks/Info-bot",
       "status": "leaked",
@@ -49991,6 +50045,33 @@
           "line": 37,
           "source": "file",
           "preview": "8595************************mEUI"
+        }
+      ]
+    },
+    {
+      "repo": "K4HVH/hyperfocus-agent",
+      "url": "https://github.com/K4HVH/hyperfocus-agent",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.14,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "hyperfocus-agent-main/docker-compose.yml",
+          "line": 7,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -50882,6 +50963,33 @@
           "line": 4,
           "source": "file",
           "preview": "eyJh************************YZxk"
+        }
+      ]
+    },
+    {
+      "repo": "Lucayas94/DRIVESENSE",
+      "url": "https://github.com/Lucayas94/DRIVESENSE",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.64,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "DRIVESENSE-main/API key.txt",
+          "line": 3,
+          "source": "file",
+          "preview": "AIza************************tsTk"
         }
       ]
     },
