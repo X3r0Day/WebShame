@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T05:24:04.160901+00:00",
+  "generatedAt": "2026-03-25T06:25:37.788219+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -8948,6 +8948,49 @@
           "line": 8119,
           "source": "commit",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "akki19-sudo/Rapido",
+      "url": "https://github.com/akki19-sudo/Rapido",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 178.96,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Rapido-main/backend/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Rapido-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 4b3d0ac",
+          "line": 125166,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -22796,6 +22839,40 @@
       ]
     },
     {
+      "repo": "hendirer-png/weddfinbackup1",
+      "url": "https://github.com/hendirer-png/weddfinbackup1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 63.54,
+      "exposureScore": 32,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "weddfinbackup1-main/scripts/03_add_address_migration.js",
+          "line": 8,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "weddfinbackup1-main/scripts/check_bucket_rls.js",
+          "line": 5,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "irfan219-cloud/agroSmart",
       "url": "https://github.com/irfan219-cloud/agroSmart",
       "status": "leaked",
@@ -26839,6 +26916,33 @@
           "line": 776,
           "source": "commit",
           "preview": "eyJh************************ADkI"
+        }
+      ]
+    },
+    {
+      "repo": "JinayNandu/splitkaro",
+      "url": "https://github.com/JinayNandu/splitkaro",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.17,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 6c4cc2a",
+          "line": 646,
+          "source": "commit",
+          "preview": "AIza************************Gcmo"
         }
       ]
     },
@@ -42418,6 +42522,33 @@
           "line": 37,
           "source": "commit",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "ujujkm337/NeuroHAM",
+      "url": "https://github.com/ujujkm337/NeuroHAM",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.12,
+      "exposureScore": 30,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "Commit b437d49",
+          "line": 223,
+          "source": "commit",
+          "preview": "sk-o************************904c"
         }
       ]
     },
@@ -80461,6 +80592,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************SJJI"
+        }
+      ]
+    },
+    {
+      "repo": "seshquvvatov32-max/Translator-bot",
+      "url": "https://github.com/seshquvvatov32-max/Translator-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.89,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Translator-bot-main/translator.py",
+          "line": 9,
+          "source": "file",
+          "preview": "7971************************qncI"
         }
       ]
     },
