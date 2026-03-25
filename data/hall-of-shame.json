@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T19:39:16.356824+00:00",
+  "generatedAt": "2026-03-25T20:13:12.945342+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -8979,6 +8979,49 @@
           "type": "Private Key (RSA)",
           "file": "Commit f869c64",
           "line": 19205,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "Onenantsoa00/feuille_de_temps",
+      "url": "https://github.com/Onenantsoa00/feuille_de_temps",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 94.39,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2,
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "feuille_de_temps-main/gestion-temps-backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "feuille_de_temps-main/gestion-temps-backend/node_modules/pg-pool/README.md",
+          "line": 74,
+          "source": "file",
+          "preview": "post************************####"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 64d880c",
+          "line": 19605,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -29018,6 +29061,33 @@
       ]
     },
     {
+      "repo": "OussamaBoutrouft/Project_Data_APP33",
+      "url": "https://github.com/OussamaBoutrouft/Project_Data_APP33",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.28,
+      "exposureScore": 30,
+      "topTypes": [
+        "AWS Access Key ID"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "Commit ba1db8b",
+          "line": 712,
+          "source": "commit",
+          "preview": "AKIA************X3JB"
+        }
+      ]
+    },
+    {
       "repo": "PATRICIORVH/modulo-07-08",
       "url": "https://github.com/PATRICIORVH/modulo-07-08",
       "status": "leaked",
@@ -37627,6 +37697,33 @@
           "line": 206,
           "source": "commit",
           "preview": "AIza************************pd5A"
+        }
+      ]
+    },
+    {
+      "repo": "manasa-manoj-nbr/golf-draw",
+      "url": "https://github.com/manasa-manoj-nbr/golf-draw",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 17.09,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "Commit affbe19",
+          "line": 34,
+          "source": "commit",
+          "preview": "eyJh************************WafU"
         }
       ]
     },
@@ -47158,6 +47255,33 @@
           "line": 202,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "BleiaApp/greek-exegesis-ai",
+      "url": "https://github.com/BleiaApp/greek-exegesis-ai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.66,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "greek-exegesis-ai-main/scripts/setup_supabase.py",
+          "line": 12,
+          "source": "file",
+          "preview": "eyJh************************qcjA"
         }
       ]
     },
@@ -58228,6 +58352,33 @@
           "line": 18,
           "source": "file",
           "preview": "AIza************************G1Fs"
+        }
+      ]
+    },
+    {
+      "repo": "Uvaancovie/brand-strategy-agent",
+      "url": "https://github.com/Uvaancovie/brand-strategy-agent",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.75,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "brand-strategy-agent-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************Llqw"
         }
       ]
     },
@@ -71404,6 +71555,33 @@
           "line": 154,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "isakasalosokosa-create/didactic-fortnight",
+      "url": "https://github.com/isakasalosokosa-create/didactic-fortnight",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.38,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "didactic-fortnight-main/main.py",
+          "line": 18,
+          "source": "file",
+          "preview": "7991************************gyC0"
         }
       ]
     },
