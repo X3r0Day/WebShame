@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T17:55:20.852561+00:00",
+  "generatedAt": "2026-03-25T18:47:36.219701+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -9501,6 +9501,49 @@
       ]
     },
     {
+      "repo": "karan705014/backend_system_design",
+      "url": "https://github.com/karan705014/backend_system_design",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 205.39,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2,
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "backend_system_design-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "backend_system_design-main/node_modules/pg-pool/README.md",
+          "line": 74,
+          "source": "file",
+          "preview": "post************************####"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit f50b0fb",
+          "line": 71859,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "kasiyellarao/mern_auth_app",
       "url": "https://github.com/kasiyellarao/mern_auth_app",
       "status": "leaked",
@@ -12814,6 +12857,40 @@
           "type": "PostgreSQL Connection URI",
           "file": "Commit 207454f",
           "line": 1741,
+          "source": "commit",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "amjadiqbal99/knowledgeops-ai",
+      "url": "https://github.com/amjadiqbal99/knowledgeops-ai",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 22.24,
+      "exposureScore": 52,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit f12373b",
+          "line": 189,
+          "source": "commit",
+          "preview": "post************************6543"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit f12373b",
+          "line": 190,
           "source": "commit",
           "preview": "post************************5432"
         }
@@ -31688,6 +31765,33 @@
       ]
     },
     {
+      "repo": "anna-naccache/webhook-syndic",
+      "url": "https://github.com/anna-naccache/webhook-syndic",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.87,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit b1ab621",
+          "line": 38,
+          "source": "commit",
+          "preview": "AIza************************PFa0"
+        }
+      ]
+    },
+    {
       "repo": "anulekshmird/cora_aiproject",
       "url": "https://github.com/anulekshmird/cora_aiproject",
       "status": "leaked",
@@ -40463,6 +40567,33 @@
       ]
     },
     {
+      "repo": "raimaslanov222-ui/Russian-checkers-",
+      "url": "https://github.com/raimaslanov222-ui/Russian-checkers-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.54,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit a834df3",
+          "line": 98,
+          "source": "commit",
+          "preview": "AIza************************QIwg"
+        }
+      ]
+    },
+    {
       "repo": "rajeshmscbed2012-bit/MDM.-6.7",
       "url": "https://github.com/rajeshmscbed2012-bit/MDM.-6.7",
       "status": "leaked",
@@ -47884,6 +48015,33 @@
           "line": 145,
           "source": "file",
           "preview": "sk-a************************kgAA"
+        }
+      ]
+    },
+    {
+      "repo": "Dara13144/silver-palm-tree",
+      "url": "https://github.com/Dara13144/silver-palm-tree",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "silver-palm-tree-main/main.py",
+          "line": 12,
+          "source": "file",
+          "preview": "7935************************wEyE"
         }
       ]
     },
@@ -70672,6 +70830,33 @@
           "line": 3,
           "source": "file",
           "preview": "AIza************************72Ls"
+        }
+      ]
+    },
+    {
+      "repo": "hyoniel2025-dot/BotPrueba1",
+      "url": "https://github.com/hyoniel2025-dot/BotPrueba1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.69,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "BotPrueba1-main/configs.py",
+          "line": 3,
+          "source": "file",
+          "preview": "8642************************uLcY"
         }
       ]
     },
