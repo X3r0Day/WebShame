@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T08:18:21.497423+00:00",
+  "generatedAt": "2026-03-25T09:18:11.672919+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -30062,6 +30062,33 @@
       ]
     },
     {
+      "repo": "abdurazoqov606/zuhra-uchun",
+      "url": "https://github.com/abdurazoqov606/zuhra-uchun",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.16,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 66c827b",
+          "line": 194,
+          "source": "commit",
+          "preview": "8153************************aPqU"
+        }
+      ]
+    },
+    {
       "repo": "abhiram123467/gsoc2026-renaissance-ocr3",
       "url": "https://github.com/abhiram123467/gsoc2026-renaissance-ocr3",
       "status": "leaked",
@@ -48395,6 +48422,33 @@
       ]
     },
     {
+      "repo": "H-tech-AFAQ-CEO/AI-personalization-system",
+      "url": "https://github.com/H-tech-AFAQ-CEO/AI-personalization-system",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.3,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "AI-personalization-system-main/docker-compose.dev.yml",
+          "line": 21,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "HIMARS223/TestSolverAI",
       "url": "https://github.com/HIMARS223/TestSolverAI",
       "status": "leaked",
@@ -55141,6 +55195,33 @@
           "line": 44,
           "source": "file",
           "preview": "8783************************aEdc"
+        }
+      ]
+    },
+    {
+      "repo": "Shridhar7m/ai-asset-extraction",
+      "url": "https://github.com/Shridhar7m/ai-asset-extraction",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.28,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenAI API Key (Project)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Project)": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Project)",
+          "file": "ai-asset-extraction-main/main.py",
+          "line": 27,
+          "source": "file",
+          "preview": "sk-p************************NvUA"
         }
       ]
     },
@@ -70724,6 +70805,33 @@
       ]
     },
     {
+      "repo": "jyoung9154/host-calendar",
+      "url": "https://github.com/jyoung9154/host-calendar",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 63.46,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "host-calendar-main/host-calendar/src/services/firebase.ts",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************9MqQ"
+        }
+      ]
+    },
+    {
       "repo": "kaaaykeusrt-pixel/Medical-Bot",
       "url": "https://github.com/kaaaykeusrt-pixel/Medical-Bot",
       "status": "leaked",
@@ -82492,6 +82600,33 @@
           "line": 11,
           "source": "file",
           "preview": "ghp_************************vG43"
+        }
+      ]
+    },
+    {
+      "repo": "syahrinsyeniq-ui/mlbb-bot",
+      "url": "https://github.com/syahrinsyeniq-ui/mlbb-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.85,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "mlbb-bot-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "8760************************qdIQ"
         }
       ]
     },
