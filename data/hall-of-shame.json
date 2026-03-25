@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T20:13:12.945342+00:00",
+  "generatedAt": "2026-03-25T21:00:24.439336+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -11147,6 +11147,54 @@
       ]
     },
     {
+      "repo": "Itzzdaniel2026/Oak-united-GMSG-",
+      "url": "https://github.com/Itzzdaniel2026/Oak-united-GMSG-",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.97,
+      "exposureScore": 56,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 4
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Oak-united-GMSG--main/README.md",
+          "line": 76,
+          "source": "file",
+          "preview": "http************************0LGR"
+        },
+        {
+          "type": "Discord Webhook",
+          "file": "Oak-united-GMSG--main/README.md",
+          "line": 77,
+          "source": "file",
+          "preview": "http************************u5Ih"
+        },
+        {
+          "type": "Discord Webhook",
+          "file": "Oak-united-GMSG--main/README.md",
+          "line": 78,
+          "source": "file",
+          "preview": "http************************cB7Q"
+        },
+        {
+          "type": "Discord Webhook",
+          "file": "Oak-united-GMSG--main/README.md",
+          "line": 79,
+          "source": "file",
+          "preview": "http************************JWmV"
+        }
+      ]
+    },
+    {
       "repo": "JoaoORSimoes/booklink",
       "url": "https://github.com/JoaoORSimoes/booklink",
       "status": "leaked",
@@ -19664,6 +19712,42 @@
         {
           "type": "AWS Secret Access Key (Env Var)",
           "file": "onboarding-github-cloud-9993357026718-3-18-2026-7-44-54-PM-AUe-main/broken/iac/frameworks/cloudformation/cfngoat.yaml",
+          "line": 70,
+          "source": "file",
+          "preview": "AWS_************************AKEY"
+        }
+      ]
+    },
+    {
+      "repo": "cortex-e2e-automation-7/onboarding-github-cloud-9998876468304-3-25-2026-10-50-26-PM-RGq",
+      "url": "https://github.com/cortex-e2e-automation-7/onboarding-github-cloud-9998876468304-3-25-2026-10-50-26-PM-RGq",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 20.23,
+      "exposureScore": 40,
+      "topTypes": [
+        "AWS Access Key ID",
+        "AWS Secret Access Key (Env Var)"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1,
+        "AWS Secret Access Key (Env Var)": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "onboarding-github-cloud-9998876468304-3-25-2026-10-50-26-PM-RGq-main/broken/iac/frameworks/cloudformation/cfngoat.yaml",
+          "line": 69,
+          "source": "file",
+          "preview": "AKIA************MAAA"
+        },
+        {
+          "type": "AWS Secret Access Key (Env Var)",
+          "file": "onboarding-github-cloud-9998876468304-3-25-2026-10-50-26-PM-RGq-main/broken/iac/frameworks/cloudformation/cfngoat.yaml",
           "line": 70,
           "source": "file",
           "preview": "AWS_************************AKEY"
@@ -62055,6 +62139,33 @@
       ]
     },
     {
+      "repo": "aquariustech12/Naviera-Registro",
+      "url": "https://github.com/aquariustech12/Naviera-Registro",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 30.39,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Naviera-Registro-main/naviera_registro/views.py",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************XoHE"
+        }
+      ]
+    },
+    {
       "repo": "architabiswal73-commits/Data-Analytics-ML-app",
       "url": "https://github.com/architabiswal73-commits/Data-Analytics-ML-app",
       "status": "leaked",
@@ -65268,6 +65379,33 @@
       ]
     },
     {
+      "repo": "cortex-e2e-gh-actions/onboarding-gta-9998876468304-3-25-2026-10-51-43-PM-vzl",
+      "url": "https://github.com/cortex-e2e-gh-actions/onboarding-gta-9998876468304-3-25-2026-10-51-43-PM-vzl",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.51,
+      "exposureScore": 20,
+      "topTypes": [
+        "AWS Secret Access Key (Env Var)"
+      ],
+      "typeCounts": {
+        "AWS Secret Access Key (Env Var)": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Secret Access Key (Env Var)",
+          "file": "onboarding-gta-9998876468304-3-25-2026-10-51-43-PM-vzl-main/ec2.tf",
+          "line": 16,
+          "source": "file",
+          "preview": "AWS_************************AKEY"
+        }
+      ]
+    },
+    {
       "repo": "cortex-e2e-gh-actions/onboarding-gta-9999170004064-3-19-2026-11-54-39-AM-6IN",
       "url": "https://github.com/cortex-e2e-gh-actions/onboarding-gta-9999170004064-3-19-2026-11-54-39-AM-6IN",
       "status": "leaked",
@@ -67050,6 +67188,33 @@
       ]
     },
     {
+      "repo": "dinarsanjaya/coal",
+      "url": "https://github.com/dinarsanjaya/coal",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.69,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenAI API Key (Legacy)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Legacy)": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "coal-main/config.json",
+          "line": 4,
+          "source": "file",
+          "preview": "sk-U************************dSsZ"
+        }
+      ]
+    },
+    {
       "repo": "dinodev29/first-project",
       "url": "https://github.com/dinodev29/first-project",
       "status": "leaked",
@@ -68693,6 +68858,33 @@
           "line": 1,
           "source": "file",
           "preview": "AIza************************OMAU"
+        }
+      ]
+    },
+    {
+      "repo": "flucido/local-data-stack",
+      "url": "https://github.com/flucido/local-data-stack",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 29.49,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "local-data-stack-main/oss_framework/k8s-archived/00-namespace-configmap-secrets.yaml",
+          "line": 76,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -77958,6 +78150,33 @@
       ]
     },
     {
+      "repo": "muhammadhamzafx2-code/deriv-propfirm",
+      "url": "https://github.com/muhammadhamzafx2-code/deriv-propfirm",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.68,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "deriv-propfirm-main/script.js",
+          "line": 48,
+          "source": "file",
+          "preview": "8668************************ECPM"
+        }
+      ]
+    },
+    {
       "repo": "muhammadinessa352/repojiuq40",
       "url": "https://github.com/muhammadinessa352/repojiuq40",
       "status": "leaked",
@@ -83273,6 +83492,33 @@
           "line": 140,
           "source": "file",
           "preview": "GOCS************************wXyZ"
+        }
+      ]
+    },
+    {
+      "repo": "sebas-mod/kaori-bot",
+      "url": "https://github.com/sebas-mod/kaori-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.12,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "kaori-bot-main/commands/stickers/emojimix.js",
+          "line": 23,
+          "source": "file",
+          "preview": "AIza************************dCYQ"
         }
       ]
     },
