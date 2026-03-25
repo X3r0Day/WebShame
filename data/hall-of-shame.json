@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T12:48:21.979583+00:00",
+  "generatedAt": "2026-03-25T14:16:36.615757+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -25819,6 +25819,33 @@
       ]
     },
     {
+      "repo": "CuongTran17/ai_finacial_analyzer",
+      "url": "https://github.com/CuongTran17/ai_finacial_analyzer",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 35.65,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit f921e06",
+          "line": 90,
+          "source": "commit",
+          "preview": "AIza************************bat4"
+        }
+      ]
+    },
+    {
       "repo": "CyberPhantom007/g2credito-crm",
       "url": "https://github.com/CyberPhantom007/g2credito-crm",
       "status": "leaked",
@@ -29190,6 +29217,33 @@
           "line": 154653,
           "source": "commit",
           "preview": "AIza************************WxsU"
+        }
+      ]
+    },
+    {
+      "repo": "Soumen0908/VSS_LLM",
+      "url": "https://github.com/Soumen0908/VSS_LLM",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 6.38,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit ff50a51",
+          "line": 25,
+          "source": "commit",
+          "preview": "AIza************************2PWQ"
         }
       ]
     },
@@ -32700,6 +32754,33 @@
           "line": 220,
           "source": "commit",
           "preview": "eyJh************************hpxg"
+        }
+      ]
+    },
+    {
+      "repo": "coding-doudou/temu-cog",
+      "url": "https://github.com/coding-doudou/temu-cog",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 17.64,
+      "exposureScore": 30,
+      "topTypes": [
+        "Mapbox API Key"
+      ],
+      "typeCounts": {
+        "Mapbox API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Mapbox API Key",
+          "file": "Commit bd34bc9",
+          "line": 1078,
+          "source": "commit",
+          "preview": "pk.e************************FqGg"
         }
       ]
     },
@@ -39778,6 +39859,33 @@
       ]
     },
     {
+      "repo": "rahul300rkv/mailflix",
+      "url": "https://github.com/rahul300rkv/mailflix",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.24,
+      "exposureScore": 30,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "Commit 46152dd",
+          "line": 1492,
+          "source": "commit",
+          "preview": "gsk_************************A9Sd"
+        }
+      ]
+    },
+    {
       "repo": "raiky143/stocksathi",
       "url": "https://github.com/raiky143/stocksathi",
       "status": "leaked",
@@ -41662,6 +41770,33 @@
           "type": "MongoDB Connection URI",
           "file": "Commit cf430de",
           "line": 157,
+          "source": "commit",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "snehareddy2112/task-manager-api",
+      "url": "https://github.com/snehareddy2112/task-manager-api",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 86.37,
+      "exposureScore": 30,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 1235d15",
+          "line": 20,
           "source": "commit",
           "preview": "mong************************.net"
         }
@@ -48175,6 +48310,33 @@
       ]
     },
     {
+      "repo": "Fejjii/Interview-App",
+      "url": "https://github.com/Fejjii/Interview-App",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 33.76,
+      "exposureScore": 20,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "Interview-App-main/tests/unit/test_guardrails.py",
+          "line": 88,
+          "source": "file",
+          "preview": "ghp_************************7890"
+        }
+      ]
+    },
+    {
       "repo": "Fightersbane/Neo-Gamemaster-Engine",
       "url": "https://github.com/Fightersbane/Neo-Gamemaster-Engine",
       "status": "leaked",
@@ -50736,6 +50898,33 @@
           "line": 15,
           "source": "file",
           "preview": "dop_************************035d"
+        }
+      ]
+    },
+    {
+      "repo": "KristianValeri/api_rest",
+      "url": "https://github.com/KristianValeri/api_rest",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.63,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "api_rest-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -55762,6 +55951,33 @@
       ]
     },
     {
+      "repo": "Shyamanth-001/hackathon",
+      "url": "https://github.com/Shyamanth-001/hackathon",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.65,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "hackathon-main/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "SidharthBScCS/Student-Management-System-UI",
       "url": "https://github.com/SidharthBScCS/Student-Management-System-UI",
       "status": "leaked",
@@ -60757,6 +60973,33 @@
       ]
     },
     {
+      "repo": "ariwa044/Pi-exchange-",
+      "url": "https://github.com/ariwa044/Pi-exchange-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 116.31,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Pi-exchange--main/your_php_script.php",
+          "line": 23,
+          "source": "file",
+          "preview": "7460************************JBys"
+        }
+      ]
+    },
+    {
       "repo": "arnnavpandacse2024-cpu/messrtoken",
       "url": "https://github.com/arnnavpandacse2024-cpu/messrtoken",
       "status": "leaked",
@@ -65640,6 +65883,33 @@
           "line": 45,
           "source": "file",
           "preview": "eyJh************************iPJg"
+        }
+      ]
+    },
+    {
+      "repo": "dinodev29/first-project",
+      "url": "https://github.com/dinodev29/first-project",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.67,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "first-project-main/backend/README.md",
+          "line": 254,
+          "source": "file",
+          "preview": "mong************************r..."
         }
       ]
     },
@@ -84436,6 +84706,33 @@
       ]
     },
     {
+      "repo": "trebormc/drupal-ai-agents",
+      "url": "https://github.com/trebormc/drupal-ai-agents",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.65,
+      "exposureScore": 20,
+      "topTypes": [
+        "MySQL/MariaDB Connection URI"
+      ],
+      "typeCounts": {
+        "MySQL/MariaDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "drupal-ai-agents-main/agent/drupal-test.md",
+          "line": 437,
+          "source": "file",
+          "preview": "mysq********b@db"
+        }
+      ]
+    },
+    {
       "repo": "trebuerr/TelegramBot-VirusTotal",
       "url": "https://github.com/trebuerr/TelegramBot-VirusTotal",
       "status": "leaked",
@@ -86025,6 +86322,33 @@
           "line": 6,
           "source": "file",
           "preview": "8647************************5q94"
+        }
+      ]
+    },
+    {
+      "repo": "wasalstor-web/deal-car-rental",
+      "url": "https://github.com/wasalstor-web/deal-car-rental",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 98.85,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "deal-car-rental-main/docker-compose.dev.yml",
+          "line": 21,
+          "source": "file",
+          "preview": "mong************************7017"
         }
       ]
     },
