@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T23:27:50.477469+00:00",
+  "generatedAt": "2026-03-25T23:59:55.977153+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -68286,6 +68286,33 @@
       ]
     },
     {
+      "repo": "el-ibrahim-mohamed/LearnPeak",
+      "url": "https://github.com/el-ibrahim-mohamed/LearnPeak",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.76,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "LearnPeak-main/insert_db.py",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************bwow"
+        }
+      ]
+    },
+    {
       "repo": "elawyersbdd/E-Lawyers-Portal",
       "url": "https://github.com/elawyersbdd/E-Lawyers-Portal",
       "status": "leaked",
@@ -78218,6 +78245,33 @@
           "line": 7,
           "source": "file",
           "preview": "eyJh************************i-CE"
+        }
+      ]
+    },
+    {
+      "repo": "mohmmedarabia/My_Application_singers",
+      "url": "https://github.com/mohmmedarabia/My_Application_singers",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.97,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "My_Application_singers-master/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************9tG4"
         }
       ]
     },
