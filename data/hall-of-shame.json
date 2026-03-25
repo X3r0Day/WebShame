@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T14:16:36.615757+00:00",
+  "generatedAt": "2026-03-25T15:27:58.769047+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -4202,6 +4202,63 @@
       ]
     },
     {
+      "repo": "Harshika644/skillbridge-backend",
+      "url": "https://github.com/Harshika644/skillbridge-backend",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 5,
+      "uniqueTypes": 2,
+      "filesAffected": 4,
+      "commitFindings": 2,
+      "scanTimeSeconds": 67.7,
+      "exposureScore": 96,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "skillbridge-backend-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "skillbridge-backend-main/node_modules/dotenv/README-es.md",
+          "line": 65,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "skillbridge-backend-main/node_modules/dotenv/README.md",
+          "line": 95,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 61c509e",
+          "line": 62572,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 61c509e",
+          "line": 63000,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "MOHANKUMARM11/digital-library",
       "url": "https://github.com/MOHANKUMARM11/digital-library",
       "status": "leaked",
@@ -6733,6 +6790,54 @@
           "type": "Private Key (RSA)",
           "file": "Commit 00899c0",
           "line": 87267,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "rachana0249/taskflow-project",
+      "url": "https://github.com/rachana0249/taskflow-project",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 110.13,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "taskflow-project-main/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "taskflow-project-main/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 9f80092",
+          "line": 116459,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 9f80092",
+          "line": 116894,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -15900,6 +16005,40 @@
       ]
     },
     {
+      "repo": "SatyannarayanaGit/CloudKitchen",
+      "url": "https://github.com/SatyannarayanaGit/CloudKitchen",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 219.4,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "CloudKitchen-master/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit c09e9fe",
+          "line": 62137,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "SupratikPanuganti/fincrypt-wallet",
       "url": "https://github.com/SupratikPanuganti/fincrypt-wallet",
       "status": "leaked",
@@ -19226,6 +19365,42 @@
       ]
     },
     {
+      "repo": "diksharaj2005/KairoPath_backend",
+      "url": "https://github.com/diksharaj2005/KairoPath_backend",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.98,
+      "exposureScore": 40,
+      "topTypes": [
+        "MongoDB Connection URI",
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "KairoPath_backend-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "KairoPath_backend-main/.env",
+          "line": 5,
+          "source": "file",
+          "preview": "AIza************************w_rw"
+        }
+      ]
+    },
+    {
       "repo": "eaaajay/MyTrendRadar",
       "url": "https://github.com/eaaajay/MyTrendRadar",
       "status": "leaked",
@@ -19474,6 +19649,42 @@
           "line": 1710,
           "source": "file",
           "preview": "http************************XXXX"
+        }
+      ]
+    },
+    {
+      "repo": "ikram-khal/dell_nspi-main-koyeb-supobase",
+      "url": "https://github.com/ikram-khal/dell_nspi-main-koyeb-supobase",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.53,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "dell_nspi-main-koyeb-supobase-main/config/settings.py",
+          "line": 8,
+          "source": "file",
+          "preview": "7385************************bw5o"
+        },
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "dell_nspi-main-koyeb-supobase-main/config/settings.py",
+          "line": 14,
+          "source": "file",
+          "preview": "eyJh************************kryA"
         }
       ]
     },
@@ -64236,6 +64447,33 @@
           "line": 25,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "cu-e/the-bot-client",
+      "url": "https://github.com/cu-e/the-bot-client",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 24.75,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "the-bot-client-main/app/(tabs)/scanner.tsx",
+          "line": 75,
+          "source": "file",
+          "preview": "sk-o************************ca02"
         }
       ]
     },
