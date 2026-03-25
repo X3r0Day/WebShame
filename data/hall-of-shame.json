@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T09:18:11.672919+00:00",
+  "generatedAt": "2026-03-25T10:18:13.382341+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -15619,6 +15619,40 @@
       ]
     },
     {
+      "repo": "NMSCSTR/ENTRANCEEXAM-WITH-FACERECOGNATION",
+      "url": "https://github.com/NMSCSTR/ENTRANCEEXAM-WITH-FACERECOGNATION",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 104.21,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "ENTRANCEEXAM-WITH-FACERECOGNATION-main/server/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 145fe62",
+          "line": 86967,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "Nithunikzz/app-20260318-172457",
       "url": "https://github.com/Nithunikzz/app-20260318-172457",
       "status": "leaked",
@@ -26255,6 +26289,33 @@
       ]
     },
     {
+      "repo": "FlixBlackout/Marketing-planner-Agent",
+      "url": "https://github.com/FlixBlackout/Marketing-planner-Agent",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 7.17,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit ddf3992",
+          "line": 84,
+          "source": "commit",
+          "preview": "AIza************************7kDQ"
+        }
+      ]
+    },
+    {
       "repo": "Fnzlucas/Alma-admin-app1",
       "url": "https://github.com/Fnzlucas/Alma-admin-app1",
       "status": "leaked",
@@ -33433,6 +33494,33 @@
           "line": 34,
           "source": "commit",
           "preview": "AIza************************5B5s"
+        }
+      ]
+    },
+    {
+      "repo": "fastcode555/short_video",
+      "url": "https://github.com/fastcode555/short_video",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.39,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 6ccb417",
+          "line": 975,
+          "source": "commit",
+          "preview": "post*******************5432"
         }
       ]
     },
@@ -48341,6 +48429,33 @@
       ]
     },
     {
+      "repo": "Guithub12/Login",
+      "url": "https://github.com/Guithub12/Login",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.78,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Login-main/ReactLogin.js",
+          "line": 10,
+          "source": "file",
+          "preview": "http************************UREn"
+        }
+      ]
+    },
+    {
       "repo": "Gunesh22/meditation-challege-v2",
       "url": "https://github.com/Gunesh22/meditation-challege-v2",
       "status": "leaked",
@@ -62246,6 +62361,33 @@
       ]
     },
     {
+      "repo": "chaitanyabanquetsmh24-svg/awadhut-catering",
+      "url": "https://github.com/chaitanyabanquetsmh24-svg/awadhut-catering",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.97,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "awadhut-catering-codex-fix-login-div-display-and-api-issues/RENDER_DEPLOY.md",
+          "line": 37,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "chalimouinan/repo7zmq4i",
       "url": "https://github.com/chalimouinan/repo7zmq4i",
       "status": "leaked",
@@ -67615,6 +67757,33 @@
           "line": 8,
           "source": "file",
           "preview": "sk-R************************d0dl"
+        }
+      ]
+    },
+    {
+      "repo": "hafsahhanan/streamlit-chatbot",
+      "url": "https://github.com/hafsahhanan/streamlit-chatbot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.23,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "streamlit-chatbot-main/chatbot_timtim.py",
+          "line": 7,
+          "source": "file",
+          "preview": "sk-o************************1237"
         }
       ]
     },
