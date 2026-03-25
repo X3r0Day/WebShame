@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T22:56:07.718985+00:00",
+  "generatedAt": "2026-03-25T23:27:50.477469+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -36773,6 +36773,33 @@
           "line": 45,
           "source": "commit",
           "preview": "AIza************************-ZvM"
+        }
+      ]
+    },
+    {
+      "repo": "juramirezrs/lasvegas",
+      "url": "https://github.com/juramirezrs/lasvegas",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.33,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit a6df772",
+          "line": 1197,
+          "source": "commit",
+          "preview": "AIza************************MBWY"
         }
       ]
     },
@@ -76386,6 +76413,33 @@
       ]
     },
     {
+      "repo": "madhumarvel123/mcp-client",
+      "url": "https://github.com/madhumarvel123/mcp-client",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.82,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "mcp-client-master/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************9MHo"
+        }
+      ]
+    },
+    {
       "repo": "magiscrazy20-droid/moviebot",
       "url": "https://github.com/magiscrazy20-droid/moviebot",
       "status": "leaked",
@@ -83103,6 +83157,33 @@
           "type": "PostgreSQL Connection URI",
           "file": "ikkihad-korinishiga-okazuvchi-dastur-main/docs/prd.md",
           "line": 1933,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "rutvik29/llmops-monitor",
+      "url": "https://github.com/rutvik29/llmops-monitor",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.38,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "llmops-monitor-main/docker-compose.yml",
+          "line": 7,
           "source": "file",
           "preview": "post************************5432"
         }
