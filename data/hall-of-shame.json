@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T01:05:08.965722+00:00",
+  "generatedAt": "2026-03-25T03:47:46.764781+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -18436,6 +18436,42 @@
       ]
     },
     {
+      "repo": "andrewsedov7-code/trener",
+      "url": "https://github.com/andrewsedov7-code/trener",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.06,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Anthropic API Key"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Anthropic API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "trener-main/bot.py",
+          "line": 15,
+          "source": "file",
+          "preview": "8778************************mWB8"
+        },
+        {
+          "type": "Anthropic API Key",
+          "file": "trener-main/bot.py",
+          "line": 17,
+          "source": "file",
+          "preview": "sk-a************************7wAA"
+        }
+      ]
+    },
+    {
       "repo": "angelobordinbrventures/aigateway-interceptor",
       "url": "https://github.com/angelobordinbrventures/aigateway-interceptor",
       "status": "leaked",
@@ -34481,6 +34517,33 @@
       ]
     },
     {
+      "repo": "jdesane/thunder-nation",
+      "url": "https://github.com/jdesane/thunder-nation",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 73.33,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 509ddb2",
+          "line": 38263,
+          "source": "commit",
+          "preview": "AIza************************K0pU"
+        }
+      ]
+    },
+    {
       "repo": "jedag5860-boop/Allweblinkyann",
       "url": "https://github.com/jedag5860-boop/Allweblinkyann",
       "status": "leaked",
@@ -46708,6 +46771,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************Kn5I"
+        }
+      ]
+    },
+    {
+      "repo": "Dhivagar2007/ai-soc",
+      "url": "https://github.com/Dhivagar2007/ai-soc",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.42,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ai-soc-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************kpMY"
         }
       ]
     },
@@ -72416,6 +72506,33 @@
       ]
     },
     {
+      "repo": "luanlhorenti/2.1",
+      "url": "https://github.com/luanlhorenti/2.1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.42,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "2.1-main/google-maps-config.js",
+          "line": 5,
+          "source": "file",
+          "preview": "AIza************************Dahg"
+        }
+      ]
+    },
+    {
       "repo": "lucasantosdias/dentist-agent",
       "url": "https://github.com/lucasantosdias/dentist-agent",
       "status": "leaked",
@@ -79706,6 +79823,33 @@
       ]
     },
     {
+      "repo": "sanjay-arr/PRODIGY_FS_02",
+      "url": "https://github.com/sanjay-arr/PRODIGY_FS_02",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 157.05,
+      "exposureScore": 20,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "PRODIGY_FS_02-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "sara900312/cosmetic-3-16-2026",
       "url": "https://github.com/sara900312/cosmetic-3-16-2026",
       "status": "leaked",
@@ -83239,6 +83383,222 @@
           "line": 13,
           "source": "file",
           "preview": "MTQ4************************wA-I"
+        }
+      ]
+    },
+    {
+      "repo": "vanloc26febu4662/repo7f5epv",
+      "url": "https://github.com/vanloc26febu4662/repo7f5epv",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.21,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo7f5epv-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "vanloc26febu4662/repobyllj8",
+      "url": "https://github.com/vanloc26febu4662/repobyllj8",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 32.21,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repobyllj8-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "vanloc26febu4662/repohoaqyn",
+      "url": "https://github.com/vanloc26febu4662/repohoaqyn",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 41.14,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repohoaqyn-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "vanloc26febu4662/repol81ly9",
+      "url": "https://github.com/vanloc26febu4662/repol81ly9",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 43.46,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repol81ly9-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "vanloc26febu4662/repopg4e86",
+      "url": "https://github.com/vanloc26febu4662/repopg4e86",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 43.34,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repopg4e86-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "vanloc26febu4662/repowjktpe",
+      "url": "https://github.com/vanloc26febu4662/repowjktpe",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.81,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repowjktpe-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "vanloc26febu4662/repoyy0dh8",
+      "url": "https://github.com/vanloc26febu4662/repoyy0dh8",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 44.04,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repoyy0dh8-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "vanloc26febu4662/repozbqu49",
+      "url": "https://github.com/vanloc26febu4662/repozbqu49",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.41,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repozbqu49-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
         }
       ]
     },
