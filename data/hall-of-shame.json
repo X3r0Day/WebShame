@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T06:25:37.788219+00:00",
+  "generatedAt": "2026-03-25T07:42:28.401757+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -7895,6 +7895,56 @@
       ]
     },
     {
+      "repo": "bryanjeshua/a03-suilens",
+      "url": "https://github.com/bryanjeshua/a03-suilens",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 4,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 34.39,
+      "exposureScore": 64,
+      "topTypes": [
+        "PostgreSQL Connection URI",
+        "RabbitMQ/AMQP URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 3,
+        "RabbitMQ/AMQP URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "a03-suilens-master/docker-compose.yml",
+          "line": 66,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "a03-suilens-master/docker-compose.yml",
+          "line": 76,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "RabbitMQ/AMQP URI",
+          "file": "a03-suilens-master/docker-compose.yml",
+          "line": 78,
+          "source": "file",
+          "preview": "amqp************************5672"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "a03-suilens-master/docker-compose.yml",
+          "line": 92,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "fides402/swerve-app",
       "url": "https://github.com/fides402/swerve-app",
       "status": "leaked",
@@ -15501,6 +15551,40 @@
       ]
     },
     {
+      "repo": "Morax25/sockets-frontend",
+      "url": "https://github.com/Morax25/sockets-frontend",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 106.83,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "sockets-frontend-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 21cf12f",
+          "line": 77099,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "MuhammadMaaz010606/Url_Shortner_API",
       "url": "https://github.com/MuhammadMaaz010606/Url_Shortner_API",
       "status": "leaked",
@@ -15973,6 +16057,40 @@
           "line": 75,
           "source": "commit",
           "preview": "AIza************************pPdk"
+        }
+      ]
+    },
+    {
+      "repo": "bala-119/irtc-train-microservice",
+      "url": "https://github.com/bala-119/irtc-train-microservice",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 177.92,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "irtc-train-microservice-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 4f23d4c",
+          "line": 92746,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -32617,6 +32735,33 @@
       ]
     },
     {
+      "repo": "dassubrother-max/Looking-",
+      "url": "https://github.com/dassubrother-max/Looking-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.36,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit bd6011f",
+          "line": 105,
+          "source": "commit",
+          "preview": "8777************************UjWU"
+        }
+      ]
+    },
+    {
       "repo": "daviyoneshige/sitepro",
       "url": "https://github.com/daviyoneshige/sitepro",
       "status": "leaked",
@@ -32721,6 +32866,33 @@
           "line": 31,
           "source": "commit",
           "preview": "AIza************************8kns"
+        }
+      ]
+    },
+    {
+      "repo": "dev-serena/Rabbit-giveways",
+      "url": "https://github.com/dev-serena/Rabbit-giveways",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.3,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 4784104",
+          "line": 201,
+          "source": "commit",
+          "preview": "AIza************************axjA"
         }
       ]
     },
@@ -49465,6 +49637,33 @@
       ]
     },
     {
+      "repo": "Jaykit1907/customer_feedback",
+      "url": "https://github.com/Jaykit1907/customer_feedback",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.44,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "customer_feedback-main/server/config.js",
+          "line": 5,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "Jhay-tee/nexora",
       "url": "https://github.com/Jhay-tee/nexora",
       "status": "leaked",
@@ -54298,6 +54497,33 @@
       ]
     },
     {
+      "repo": "SahilSharma06/snowflake-airflow-medallion-pipeline",
+      "url": "https://github.com/SahilSharma06/snowflake-airflow-medallion-pipeline",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 39.27,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "snowflake-airflow-medallion-pipeline-main/docker-compose.yaml",
+          "line": 61,
+          "source": "file",
+          "preview": "post************************gres"
+        }
+      ]
+    },
+    {
       "repo": "Sahilweb837/enoxx-election",
       "url": "https://github.com/Sahilweb837/enoxx-election",
       "status": "leaked",
@@ -58020,6 +58246,33 @@
           "line": 1,
           "source": "file",
           "preview": "AIza************************52UQ"
+        }
+      ]
+    },
+    {
+      "repo": "aegiswizard/elf",
+      "url": "https://github.com/aegiswizard/elf",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.13,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "elf-main/elf/checks/source.py",
+          "line": 75,
+          "source": "file",
+          "preview": "post***********************+@',"
         }
       ]
     },
@@ -71790,6 +72043,33 @@
           "line": 7,
           "source": "file",
           "preview": "8653************************1Vzk"
+        }
+      ]
+    },
+    {
+      "repo": "kovboiboy-hub/backendproject",
+      "url": "https://github.com/kovboiboy-hub/backendproject",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.36,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "backendproject-master/docker-compose.yml",
+          "line": 25,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
