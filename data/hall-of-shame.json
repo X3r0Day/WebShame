@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T16:52:36.572535+00:00",
+  "generatedAt": "2026-03-25T17:55:20.852561+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -7572,6 +7572,49 @@
       ]
     },
     {
+      "repo": "RajeshMuniswamy/MongoTest",
+      "url": "https://github.com/RajeshMuniswamy/MongoTest",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 190.8,
+      "exposureScore": 72,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2,
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "MongoTest-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit ecac258",
+          "line": 19,
+          "source": "commit",
+          "preview": "mong************************7017"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 99b4de9",
+          "line": 116598,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "Derrick-xn/AIClipperTemplate",
       "url": "https://github.com/Derrick-xn/AIClipperTemplate",
       "status": "leaked",
@@ -8592,6 +8635,49 @@
           "type": "Private Key (RSA)",
           "file": "Commit 9dd4879",
           "line": 62258,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "Akhilkumar1306/pcos-tracker",
+      "url": "https://github.com/Akhilkumar1306/pcos-tracker",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 133.59,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "pcos-tracker-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "pcos-tracker-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit a77c295",
+          "line": 64628,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -9630,6 +9716,49 @@
       ]
     },
     {
+      "repo": "yurialvexx/chatbot-musica",
+      "url": "https://github.com/yurialvexx/chatbot-musica",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 59.1,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "chatbot-musica-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************XLPE"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "chatbot-musica-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 418be7f",
+          "line": 35799,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "CodePeriod/skills-introduction-to-secret-scanning",
       "url": "https://github.com/CodePeriod/skills-introduction-to-secret-scanning",
       "status": "leaked",
@@ -9668,6 +9797,51 @@
         {
           "type": "MongoDB Connection URI",
           "file": "skills-introduction-to-secret-scanning-main/.github/steps/1-enable-secret-scanning.md",
+          "line": 59,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "UPT-FAING-EPIS/Carbajal_introduction-to-secret-scanning",
+      "url": "https://github.com/UPT-FAING-EPIS/Carbajal_introduction-to-secret-scanning",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 3,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.39,
+      "exposureScore": 60,
+      "topTypes": [
+        "AWS Access Key ID",
+        "AWS Secret Access Key (Env Var)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1,
+        "AWS Secret Access Key (Env Var)": 1,
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "Carbajal_introduction-to-secret-scanning-main/.github/steps/1-enable-secret-scanning.md",
+          "line": 57,
+          "source": "file",
+          "preview": "AKIA************Z56B"
+        },
+        {
+          "type": "AWS Secret Access Key (Env Var)",
+          "file": "Carbajal_introduction-to-secret-scanning-main/.github/steps/1-enable-secret-scanning.md",
+          "line": 58,
+          "source": "file",
+          "preview": "aws_************************bdca"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Carbajal_introduction-to-secret-scanning-main/.github/steps/1-enable-secret-scanning.md",
           "line": 59,
           "source": "file",
           "preview": "mong************************.net"
@@ -16119,6 +16293,40 @@
           "line": 149,
           "source": "commit",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "Victor-Picciutti/FrontTcc",
+      "url": "https://github.com/Victor-Picciutti/FrontTcc",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 71.23,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "FrontTcc-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 1a2bc96",
+          "line": 53367,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -25077,6 +25285,33 @@
           "line": 635,
           "source": "commit",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "Adnan2410/Task-Manager",
+      "url": "https://github.com/Adnan2410/Task-Manager",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 17.42,
+      "exposureScore": 30,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 8b106bc",
+          "line": 48,
+          "source": "commit",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -34095,6 +34330,33 @@
           "line": 28,
           "source": "commit",
           "preview": "eyJh************************knFM"
+        }
+      ]
+    },
+    {
+      "repo": "felwa24/replatese2",
+      "url": "https://github.com/felwa24/replatese2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.55,
+      "exposureScore": 30,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 1
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "Commit 2f48ddb",
+          "line": 482,
+          "source": "commit",
+          "preview": "http************************json"
         }
       ]
     },
@@ -44922,6 +45184,33 @@
           "line": 17,
           "source": "file",
           "preview": "gsk_************************h6Jd"
+        }
+      ]
+    },
+    {
+      "repo": "Abhisheks0n1/HRMS-Lite",
+      "url": "https://github.com/Abhisheks0n1/HRMS-Lite",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.78,
+      "exposureScore": 20,
+      "topTypes": [
+        "MySQL/MariaDB Connection URI"
+      ],
+      "typeCounts": {
+        "MySQL/MariaDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "HRMS-Lite-main/backend/app/config/db.py",
+          "line": 8,
+          "source": "file",
+          "preview": "mysq************************4659"
         }
       ]
     },
@@ -57531,6 +57820,33 @@
           "line": 13,
           "source": "file",
           "preview": "ghp_************************ghij"
+        }
+      ]
+    },
+    {
+      "repo": "TwistetKrot/tg-bot",
+      "url": "https://github.com/TwistetKrot/tg-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.52,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "tg-bot-main/bot.py",
+          "line": 4,
+          "source": "file",
+          "preview": "8687************************ZkxY"
         }
       ]
     },
@@ -84747,6 +85063,33 @@
           "line": 5,
           "source": "file",
           "preview": "AIza************************bLjo"
+        }
+      ]
+    },
+    {
+      "repo": "thisiskarthick-5/Taskflow",
+      "url": "https://github.com/thisiskarthick-5/Taskflow",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.78,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Taskflow-main/server.py",
+          "line": 31,
+          "source": "file",
+          "preview": "AIza************************Nus4"
         }
       ]
     },
