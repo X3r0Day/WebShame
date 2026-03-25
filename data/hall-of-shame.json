@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-25T07:42:28.401757+00:00",
+  "generatedAt": "2026-03-25T08:18:21.497423+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -58142,6 +58142,33 @@
       ]
     },
     {
+      "repo": "acientsoul/story-forest-walk",
+      "url": "https://github.com/acientsoul/story-forest-walk",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.19,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "story-forest-walk-main/js/api/gemini.js",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************4p6E"
+        }
+      ]
+    },
+    {
       "repo": "adarsh5534/auth-server-boilerplate",
       "url": "https://github.com/adarsh5534/auth-server-boilerplate",
       "status": "leaked",
@@ -82172,6 +82199,33 @@
       ]
     },
     {
+      "repo": "sujanrumakantha19-ctrl/medical",
+      "url": "https://github.com/sujanrumakantha19-ctrl/medical",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.97,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "medical-main/scripts/seed.ts",
+          "line": 4,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "sultanoborec/ThorLive",
       "url": "https://github.com/sultanoborec/ThorLive",
       "status": "leaked",
@@ -84733,6 +84787,33 @@
           "line": 7,
           "source": "file",
           "preview": "sk_l************************4H6A"
+        }
+      ]
+    },
+    {
+      "repo": "vinitchavat-kul/ai-automation-portfolio",
+      "url": "https://github.com/vinitchavat-kul/ai-automation-portfolio",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.62,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ai-automation-portfolio-main/hello_ai.py",
+          "line": 11,
+          "source": "file",
+          "preview": "AIza************************9q6Y"
         }
       ]
     },
