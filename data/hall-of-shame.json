@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T15:55:29.059154+00:00",
+  "generatedAt": "2026-03-26T16:57:40.381895+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -1270,6 +1270,68 @@
           "line": 2346,
           "source": "commit",
           "preview": "AIza************************m-GE"
+        }
+      ]
+    },
+    {
+      "repo": "hanai/hanlab",
+      "url": "https://github.com/hanai/hanlab",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 12,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.51,
+      "exposureScore": 152,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 12
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "hanlab-main/plugins/information/skills/collect-hacker-news/SKILL.md",
+          "line": 18,
+          "source": "file",
+          "preview": "http************************json"
+        },
+        {
+          "type": "Firebase Database URL",
+          "file": "hanlab-main/plugins/information/skills/collect-hacker-news/SKILL.md",
+          "line": 19,
+          "source": "file",
+          "preview": "http************************json"
+        },
+        {
+          "type": "Firebase Database URL",
+          "file": "hanlab-main/plugins/resources/skills/hacker-news/SKILL.md",
+          "line": 56,
+          "source": "file",
+          "preview": "http************************etty"
+        },
+        {
+          "type": "Firebase Database URL",
+          "file": "hanlab-main/plugins/resources/skills/hacker-news/SKILL.md",
+          "line": 57,
+          "source": "file",
+          "preview": "http************************etty"
+        },
+        {
+          "type": "Firebase Database URL",
+          "file": "hanlab-main/plugins/resources/skills/hacker-news/SKILL.md",
+          "line": 58,
+          "source": "file",
+          "preview": "http************************etty"
+        },
+        {
+          "type": "Firebase Database URL",
+          "file": "hanlab-main/plugins/resources/skills/hacker-news/SKILL.md",
+          "line": 59,
+          "source": "file",
+          "preview": "http************************etty"
         }
       ]
     },
@@ -10181,6 +10243,49 @@
       ]
     },
     {
+      "repo": "sanjidasefa/prediction-server",
+      "url": "https://github.com/sanjidasefa/prediction-server",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 270.09,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "prediction-server-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "prediction-server-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 8b6c780",
+          "line": 50117,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "shreepradakv-lab/roast-my-code",
       "url": "https://github.com/shreepradakv-lab/roast-my-code",
       "status": "leaked",
@@ -17466,6 +17571,40 @@
           "type": "Private Key (RSA)",
           "file": "Commit 4f23d4c",
           "line": 92746,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "barani2910/Inventory",
+      "url": "https://github.com/barani2910/Inventory",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 306.18,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Inventory-master/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 685a282",
+          "line": 58369,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -27413,6 +27552,33 @@
       ]
     },
     {
+      "repo": "Central-University-IT-prod/2026-final-command-team-53-backend",
+      "url": "https://github.com/Central-University-IT-prod/2026-final-command-team-53-backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 56.53,
+      "exposureScore": 30,
+      "topTypes": [
+        "Redis Connection URI (Password)"
+      ],
+      "typeCounts": {
+        "Redis Connection URI (Password)": 1
+      },
+      "findings": [
+        {
+          "type": "Redis Connection URI (Password)",
+          "file": "Commit 8bf0f8a",
+          "line": 699,
+          "source": "commit",
+          "preview": "redi************************6379"
+        }
+      ]
+    },
+    {
       "repo": "Check-64/V5",
       "url": "https://github.com/Check-64/V5",
       "status": "leaked",
@@ -37156,6 +37322,33 @@
           "line": 23,
           "source": "commit",
           "preview": "8708************************rg4k"
+        }
+      ]
+    },
+    {
+      "repo": "indiafilovent/filovent-avitaillement",
+      "url": "https://github.com/indiafilovent/filovent-avitaillement",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.55,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit ed61759",
+          "line": 539,
+          "source": "commit",
+          "preview": "AIza************************4N-A"
         }
       ]
     },
@@ -59813,6 +60006,33 @@
       ]
     },
     {
+      "repo": "Tema-Dev/3434",
+      "url": "https://github.com/Tema-Dev/3434",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.75,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "3434-main/sqlite.py",
+          "line": 3,
+          "source": "file",
+          "preview": "8780************************ni2w"
+        }
+      ]
+    },
+    {
       "repo": "Temas10/t-bank_travel",
       "url": "https://github.com/Temas10/t-bank_travel",
       "status": "leaked",
@@ -68233,6 +68453,33 @@
           "line": 4,
           "source": "file",
           "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "danielblar8/Practica9",
+      "url": "https://github.com/danielblar8/Practica9",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.07,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Practica9-main/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************gAQA"
         }
       ]
     },
