@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T22:58:55.689636+00:00",
+  "generatedAt": "2026-03-26T23:23:11.962150+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -88725,6 +88725,33 @@
           "line": 34,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "sruzhrxrhxxhr/Bot",
+      "url": "https://github.com/sruzhrxrhxxhr/Bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.56,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Bot-main/server.js",
+          "line": 3,
+          "source": "file",
+          "preview": "8774************************4Gt0"
         }
       ]
     },
