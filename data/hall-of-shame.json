@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T07:05:26.386078+00:00",
+  "generatedAt": "2026-03-26T08:04:27.820883+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -19902,6 +19902,42 @@
         {
           "type": "AWS Secret Access Key (Env Var)",
           "file": "onboarding-github-cloud-9998876468304-3-25-2026-10-50-26-PM-RGq-main/broken/iac/frameworks/cloudformation/cfngoat.yaml",
+          "line": 70,
+          "source": "file",
+          "preview": "AWS_************************AKEY"
+        }
+      ]
+    },
+    {
+      "repo": "cortex-e2e-automation-8/onboarding-github-cloud-9991921621194-3-26-2026-9-52-43-AM-vAn",
+      "url": "https://github.com/cortex-e2e-automation-8/onboarding-github-cloud-9991921621194-3-26-2026-9-52-43-AM-vAn",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.15,
+      "exposureScore": 40,
+      "topTypes": [
+        "AWS Access Key ID",
+        "AWS Secret Access Key (Env Var)"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1,
+        "AWS Secret Access Key (Env Var)": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "onboarding-github-cloud-9991921621194-3-26-2026-9-52-43-AM-vAn-main/broken/iac/frameworks/cloudformation/cfngoat.yaml",
+          "line": 69,
+          "source": "file",
+          "preview": "AKIA************MAAA"
+        },
+        {
+          "type": "AWS Secret Access Key (Env Var)",
+          "file": "onboarding-github-cloud-9991921621194-3-26-2026-9-52-43-AM-vAn-main/broken/iac/frameworks/cloudformation/cfngoat.yaml",
           "line": 70,
           "source": "file",
           "preview": "AWS_************************AKEY"
@@ -49529,6 +49565,33 @@
       ]
     },
     {
+      "repo": "Embim/Smart_lectures",
+      "url": "https://github.com/Embim/Smart_lectures",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 37.11,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Smart_lectures-main/docker-compose.yml",
+          "line": 190,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Emirsadi101470121/VaultX-marketplace-",
       "url": "https://github.com/Emirsadi101470121/VaultX-marketplace-",
       "status": "leaked",
@@ -50929,6 +50992,33 @@
           "line": 34,
           "source": "file",
           "preview": "post************************5433"
+        }
+      ]
+    },
+    {
+      "repo": "Husanboy1252/8-oy-6-dars",
+      "url": "https://github.com/Husanboy1252/8-oy-6-dars",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.87,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "8-oy-6-dars-main/backend2/src/app.module.ts",
+          "line": 7,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -65999,6 +66089,33 @@
       ]
     },
     {
+      "repo": "cortex-e2e-gh-actions/onboarding-gta-9991921621194-3-26-2026-9-54-00-AM-Er0",
+      "url": "https://github.com/cortex-e2e-gh-actions/onboarding-gta-9991921621194-3-26-2026-9-54-00-AM-Er0",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.43,
+      "exposureScore": 20,
+      "topTypes": [
+        "AWS Secret Access Key (Env Var)"
+      ],
+      "typeCounts": {
+        "AWS Secret Access Key (Env Var)": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Secret Access Key (Env Var)",
+          "file": "onboarding-gta-9991921621194-3-26-2026-9-54-00-AM-Er0-main/ec2.tf",
+          "line": 16,
+          "source": "file",
+          "preview": "AWS_************************AKEY"
+        }
+      ]
+    },
+    {
       "repo": "cortex-e2e-gh-actions/onboarding-gta-9998876468304-3-25-2026-10-51-43-PM-vzl",
       "url": "https://github.com/cortex-e2e-gh-actions/onboarding-gta-9998876468304-3-25-2026-10-51-43-PM-vzl",
       "status": "leaked",
@@ -70369,6 +70486,33 @@
           "line": 1,
           "source": "file",
           "preview": "8669************************9Y24"
+        }
+      ]
+    },
+    {
+      "repo": "godivatech/cedoi_member_list_application",
+      "url": "https://github.com/godivatech/cedoi_member_list_application",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.98,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "cedoi_member_list_application-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "AIza************************ZKnk"
         }
       ]
     },
@@ -83545,6 +83689,33 @@
           "line": 2,
           "source": "file",
           "preview": "AIza************************v1nM"
+        }
+      ]
+    },
+    {
+      "repo": "rp6218602-cpu/La-bhai-ddos",
+      "url": "https://github.com/rp6218602-cpu/La-bhai-ddos",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.21,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "La-bhai-ddos-main/sahil.py",
+          "line": 14,
+          "source": "file",
+          "preview": "7362************************QZcc"
         }
       ]
     },
