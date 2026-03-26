@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T23:23:11.962150+00:00",
+  "generatedAt": "2026-03-26T23:57:36.428640+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -56545,6 +56545,33 @@
       ]
     },
     {
+      "repo": "NYBFLLC/deepscrub-redactor",
+      "url": "https://github.com/NYBFLLC/deepscrub-redactor",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.72,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "deepscrub-redactor-main/redactor_app.py",
+          "line": 14,
+          "source": "file",
+          "preview": "AIza************************hURQ"
+        }
+      ]
+    },
+    {
       "repo": "NamesDain/Username-validator",
       "url": "https://github.com/NamesDain/Username-validator",
       "status": "leaked",
@@ -66751,6 +66778,33 @@
       ]
     },
     {
+      "repo": "bragadeeshwar/aegis-iiot-security",
+      "url": "https://github.com/bragadeeshwar/aegis-iiot-security",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.75,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "aegis-iiot-security-main/supabase/functions/ai-detector/index.ts",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************EQas"
+        }
+      ]
+    },
+    {
       "repo": "brassic88/buisnes",
       "url": "https://github.com/brassic88/buisnes",
       "status": "leaked",
@@ -69501,6 +69555,33 @@
           "line": 2,
           "source": "file",
           "preview": "AIza************************kYuc"
+        }
+      ]
+    },
+    {
+      "repo": "danil070804/exchange-bot",
+      "url": "https://github.com/danil070804/exchange-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.6,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "exchange-bot-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "8538************************JMrY"
         }
       ]
     },
