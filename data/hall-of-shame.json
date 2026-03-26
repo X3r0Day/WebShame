@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T19:54:47.986880+00:00",
+  "generatedAt": "2026-03-26T20:16:54.490544+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -18031,6 +18031,40 @@
           "line": 34,
           "source": "commit",
           "preview": "AIza************************aPd8"
+        }
+      ]
+    },
+    {
+      "repo": "devanshusangra/nodes",
+      "url": "https://github.com/devanshusangra/nodes",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 109.96,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "nodes-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 4f57209",
+          "line": 59704,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -39267,6 +39301,33 @@
       ]
     },
     {
+      "repo": "lmarotomar/TrasderMaster",
+      "url": "https://github.com/lmarotomar/TrasderMaster",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 19.57,
+      "exposureScore": 30,
+      "topTypes": [
+        "Anthropic API Key"
+      ],
+      "typeCounts": {
+        "Anthropic API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Anthropic API Key",
+          "file": "Commit e1d7473",
+          "line": 1697,
+          "source": "commit",
+          "preview": "sk-a************************hQAA"
+        }
+      ]
+    },
+    {
       "repo": "logintomorashahah123/snaqchat",
       "url": "https://github.com/logintomorashahah123/snaqchat",
       "status": "leaked",
@@ -43722,6 +43783,33 @@
       ]
     },
     {
+      "repo": "sanginiv11/SkillConnect---EV",
+      "url": "https://github.com/sanginiv11/SkillConnect---EV",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.94,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit acc2000",
+          "line": 1427,
+          "source": "commit",
+          "preview": "AIza************************uzI0"
+        }
+      ]
+    },
+    {
       "repo": "sasidharakurathi/FastAPI-Notes",
       "url": "https://github.com/sasidharakurathi/FastAPI-Notes",
       "status": "leaked",
@@ -47363,6 +47451,33 @@
           "line": 1,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "Abdulhadi-baqer/stitch",
+      "url": "https://github.com/Abdulhadi-baqer/stitch",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.27,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "stitch-main/android/app/src/main/AndroidManifest.xml",
+          "line": 34,
+          "source": "file",
+          "preview": "AIza************************goVc"
         }
       ]
     },
@@ -51845,6 +51960,33 @@
           "line": 26,
           "source": "file",
           "preview": "AIza************************Mnwc"
+        }
+      ]
+    },
+    {
+      "repo": "Gogreenraghav/ai24x7-llm-gateway",
+      "url": "https://github.com/Gogreenraghav/ai24x7-llm-gateway",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 91.16,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ai24x7-llm-gateway-main/common/str.go",
+          "line": 250,
+          "source": "file",
+          "preview": "AIza************************rV70"
         }
       ]
     },
@@ -67019,6 +67161,33 @@
           "line": 3,
           "source": "file",
           "preview": "AIza************************Wh7E"
+        }
+      ]
+    },
+    {
+      "repo": "chentianle1117/jamie_job_hunt",
+      "url": "https://github.com/chentianle1117/jamie_job_hunt",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 31.94,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "jamie_job_hunt-main/WORKFLOW_GUIDE.md",
+          "line": 79,
+          "source": "file",
+          "preview": "8473************************R7wo"
         }
       ]
     },
