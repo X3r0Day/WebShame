@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T06:02:48.116402+00:00",
+  "generatedAt": "2026-03-26T07:05:26.386078+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -55469,6 +55469,33 @@
       ]
     },
     {
+      "repo": "Presentations-with-ai/policy-with-history3.9",
+      "url": "https://github.com/Presentations-with-ai/policy-with-history3.9",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 21.38,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "policy-with-history3.9-main/macro_script.js",
+          "line": 18,
+          "source": "file",
+          "preview": "7811************************WbRw"
+        }
+      ]
+    },
+    {
       "repo": "Priyadharshini-006/Scribble",
       "url": "https://github.com/Priyadharshini-006/Scribble",
       "status": "leaked",
@@ -56977,6 +57004,33 @@
           "line": 3,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "Sakura-on/TopUp-Zone-bot",
+      "url": "https://github.com/Sakura-on/TopUp-Zone-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.93,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "TopUp-Zone-bot-main/bot.py",
+          "line": 14,
+          "source": "file",
+          "preview": "7579************************s_-Y"
         }
       ]
     },
@@ -62597,6 +62651,33 @@
       ]
     },
     {
+      "repo": "anupkr11/WildlifeGuard-backend",
+      "url": "https://github.com/anupkr11/WildlifeGuard-backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.83,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "WildlifeGuard-backend-main/config/database.js",
+          "line": 5,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "anushka-thota7/chatbot-",
       "url": "https://github.com/anushka-thota7/chatbot-",
       "status": "leaked",
@@ -63484,6 +63565,33 @@
           "line": 2,
           "source": "file",
           "preview": "GOCS************************8ogo"
+        }
+      ]
+    },
+    {
+      "repo": "bc1phugo/token-price-bot",
+      "url": "https://github.com/bc1phugo/token-price-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.55,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "token-price-bot-main/docker-compose.yml",
+          "line": 14,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -70315,6 +70423,33 @@
           "line": 14,
           "source": "file",
           "preview": "AIza************************lpGA"
+        }
+      ]
+    },
+    {
+      "repo": "guseinovasevda26-ctrl/hr-analytics-next",
+      "url": "https://github.com/guseinovasevda26-ctrl/hr-analytics-next",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.52,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "hr-analytics-next-main/DEPLOY.md",
+          "line": 36,
+          "source": "file",
+          "preview": "AIza************************ZYMk"
         }
       ]
     },
@@ -81983,6 +82118,33 @@
       ]
     },
     {
+      "repo": "pybot54-crypto/Multi-Api",
+      "url": "https://github.com/pybot54-crypto/Multi-Api",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 67.37,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Multi-Api-main/bot3.py",
+          "line": 20,
+          "source": "file",
+          "preview": "8206************************0Ey8"
+        }
+      ]
+    },
+    {
       "repo": "pypikov97-hue/project",
       "url": "https://github.com/pypikov97-hue/project",
       "status": "leaked",
@@ -85381,6 +85543,33 @@
           "line": 21,
           "source": "file",
           "preview": "http************************json"
+        }
+      ]
+    },
+    {
+      "repo": "sreekar-creator/Attendance-System1",
+      "url": "https://github.com/sreekar-creator/Attendance-System1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.11,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Attendance-System1-main/src/main/resources/static/assets/index-DpBbaYS-.js",
+          "line": 11,
+          "source": "file",
+          "preview": "AIza************************fS48"
         }
       ]
     },
