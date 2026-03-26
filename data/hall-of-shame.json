@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T21:57:42.279500+00:00",
+  "generatedAt": "2026-03-26T22:20:50.353280+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -52572,6 +52572,33 @@
           "line": 5,
           "source": "file",
           "preview": "8517************************ny6Y"
+        }
+      ]
+    },
+    {
+      "repo": "HankLu-2019/chatbot-devops",
+      "url": "https://github.com/HankLu-2019/chatbot-devops",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.53,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "chatbot-devops-main/data/confluence/pages.json",
+          "line": 39,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
