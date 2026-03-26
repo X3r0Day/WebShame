@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T18:55:11.631668+00:00",
+  "generatedAt": "2026-03-26T19:54:47.986880+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -15880,6 +15880,47 @@
           "line": 64,
           "source": "file",
           "preview": "AIza************************9qFA"
+        }
+      ]
+    },
+    {
+      "repo": "michaelklishin/bunny-rs",
+      "url": "https://github.com/michaelklishin/bunny-rs",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.17,
+      "exposureScore": 44,
+      "topTypes": [
+        "RabbitMQ/AMQP URI"
+      ],
+      "typeCounts": {
+        "RabbitMQ/AMQP URI": 3
+      },
+      "findings": [
+        {
+          "type": "RabbitMQ/AMQP URI",
+          "file": "bunny-rs-main/README.md",
+          "line": 174,
+          "source": "file",
+          "preview": "amqp***********************5672"
+        },
+        {
+          "type": "RabbitMQ/AMQP URI",
+          "file": "bunny-rs-main/README.md",
+          "line": 175,
+          "source": "file",
+          "preview": "amqp***********************5672"
+        },
+        {
+          "type": "RabbitMQ/AMQP URI",
+          "file": "bunny-rs-main/README.md",
+          "line": 176,
+          "source": "file",
+          "preview": "amqp***********************5672"
         }
       ]
     },
@@ -46138,6 +46179,33 @@
       ]
     },
     {
+      "repo": "vse682/mis",
+      "url": "https://github.com/vse682/mis",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.22,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 34f58ed",
+          "line": 1535,
+          "source": "commit",
+          "preview": "8603************************E4yI"
+        }
+      ]
+    },
+    {
       "repo": "vxhll/finintel.in",
       "url": "https://github.com/vxhll/finintel.in",
       "status": "leaked",
@@ -58639,6 +58707,33 @@
       ]
     },
     {
+      "repo": "Sahar2002-git/INFS3201_A4_SchedulingSystem",
+      "url": "https://github.com/Sahar2002-git/INFS3201_A4_SchedulingSystem",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.39,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "INFS3201_A4_SchedulingSystem-main/app.js",
+          "line": 22,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "SahilSharma06/snowflake-airflow-medallion-pipeline",
       "url": "https://github.com/SahilSharma06/snowflake-airflow-medallion-pipeline",
       "status": "leaked",
@@ -69331,6 +69426,33 @@
       ]
     },
     {
+      "repo": "dejavyidn/evo-alert-bot",
+      "url": "https://github.com/dejavyidn/evo-alert-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.83,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "evo-alert-bot-main/README.md",
+          "line": 54,
+          "source": "file",
+          "preview": "8457************************D_WE"
+        }
+      ]
+    },
+    {
       "repo": "denandy83/ToDoozy",
       "url": "https://github.com/denandy83/ToDoozy",
       "status": "leaked",
@@ -76293,6 +76415,33 @@
           "line": 1,
           "source": "file",
           "preview": "AIza************************ZQJg"
+        }
+      ]
+    },
+    {
+      "repo": "karimazondo/budget-tracker-app",
+      "url": "https://github.com/karimazondo/budget-tracker-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.33,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "budget-tracker-app-main/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************nv6U"
         }
       ]
     },
