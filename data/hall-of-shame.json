@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T20:57:38.276187+00:00",
+  "generatedAt": "2026-03-26T21:27:37.870548+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -3500,6 +3500,56 @@
       ]
     },
     {
+      "repo": "fastidiousflame/Exam_Management",
+      "url": "https://github.com/fastidiousflame/Exam_Management",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 4,
+      "scanTimeSeconds": 79.22,
+      "exposureScore": 104,
+      "topTypes": [
+        "Private Key (RSA)",
+        "Private Key (PKCS8)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2,
+        "Private Key (PKCS8)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 940865c",
+          "line": 24840,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (PKCS8)",
+          "file": "Commit 940865c",
+          "line": 144902,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 119777f",
+          "line": 24967,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (PKCS8)",
+          "file": "Commit 119777f",
+          "line": 145029,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "sumanthmalipeddi/mongodb-mastery",
       "url": "https://github.com/sumanthmalipeddi/mongodb-mastery",
       "status": "leaked",
@@ -6765,6 +6815,54 @@
           "type": "Private Key (RSA)",
           "file": "Commit 0458294",
           "line": 69120,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "Roshan-khatri2063/geargo",
+      "url": "https://github.com/Roshan-khatri2063/geargo",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 92.15,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "geargo-main/mechanic-hiring-backend/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "geargo-main/mechanic-hiring-backend/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit ea1a7e3",
+          "line": 123213,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit ea1a7e3",
+          "line": 123648,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -16465,6 +16563,40 @@
           "type": "Private Key (RSA)",
           "file": "Commit b7d0163",
           "line": 62879,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "Astaroth233/NoteMaker",
+      "url": "https://github.com/Astaroth233/NoteMaker",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 135.29,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "NoteMaker-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit ea77fdd",
+          "line": 97655,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -32385,6 +32517,33 @@
           "line": 242,
           "source": "commit",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "Website-Builder-Realty-Genie/webforge-site_9c0b1udo6",
+      "url": "https://github.com/Website-Builder-Realty-Genie/webforge-site_9c0b1udo6",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.76,
+      "exposureScore": 30,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "Commit 51cd34c",
+          "line": 712,
+          "source": "commit",
+          "preview": "sk-o************************3b0b"
         }
       ]
     },
@@ -65410,6 +65569,33 @@
       ]
     },
     {
+      "repo": "ayoubsifeddine22/attendance_app",
+      "url": "https://github.com/ayoubsifeddine22/attendance_app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.0,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "attendance_app-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************n1To"
+        }
+      ]
+    },
+    {
       "repo": "ayushsarang399-cyber/safardrivz",
       "url": "https://github.com/ayushsarang399-cyber/safardrivz",
       "status": "leaked",
@@ -73452,6 +73638,33 @@
           "line": 367,
           "source": "file",
           "preview": "AIza************************JpsE"
+        }
+      ]
+    },
+    {
+      "repo": "hedinyer/vierco_bot",
+      "url": "https://github.com/hedinyer/vierco_bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.6,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "vierco_bot-main/bot.py",
+          "line": 53,
+          "source": "file",
+          "preview": "8560************************t7q8"
         }
       ]
     },
@@ -81691,6 +81904,33 @@
       ]
     },
     {
+      "repo": "murattercan-sys/avax-bot",
+      "url": "https://github.com/murattercan-sys/avax-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.59,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "avax-bot-main/bot.py",
+          "line": 4,
+          "source": "file",
+          "preview": "8653************************INVQ"
+        }
+      ]
+    },
+    {
       "repo": "mustafagermavi/1Prime_Vortex",
       "url": "https://github.com/mustafagermavi/1Prime_Vortex",
       "status": "leaked",
@@ -86200,6 +86440,33 @@
       ]
     },
     {
+      "repo": "royalagamir/Pro-Azerbaijan-Volunteering-Platform-AVP-",
+      "url": "https://github.com/royalagamir/Pro-Azerbaijan-Volunteering-Platform-AVP-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 23.33,
+      "exposureScore": 20,
+      "topTypes": [
+        "AWS Access Key ID"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "Pro-Azerbaijan-Volunteering-Platform-AVP--main/data/imports/projects-export.txt",
+          "line": 17,
+          "source": "file",
+          "preview": "AKIA************XTTW"
+        }
+      ]
+    },
+    {
       "repo": "rp6218602-cpu/La-bhai-ddos",
       "url": "https://github.com/rp6218602-cpu/La-bhai-ddos",
       "status": "leaked",
@@ -90462,6 +90729,33 @@
           "line": 4,
           "source": "file",
           "preview": "8208************************IrHQ"
+        }
+      ]
+    },
+    {
+      "repo": "turevaolga47-bit/black-retrit-bg",
+      "url": "https://github.com/turevaolga47-bit/black-retrit-bg",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.98,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "black-retrit-bg-master/bot.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8372************************PFcs"
         }
       ]
     },
