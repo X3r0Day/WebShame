@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T08:57:07.337369+00:00",
+  "generatedAt": "2026-03-26T09:54:17.375984+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -13982,6 +13982,42 @@
           "line": 30,
           "source": "commit",
           "preview": "8679************************paRw"
+        }
+      ]
+    },
+    {
+      "repo": "samiunarno/Digital-Portfolio-with-AI",
+      "url": "https://github.com/samiunarno/Digital-Portfolio-with-AI",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 8.71,
+      "exposureScore": 50,
+      "topTypes": [
+        "Google API/GCP Key",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Digital-Portfolio-with-AI-main/src/components/GeminiChat.tsx",
+          "line": 90,
+          "source": "file",
+          "preview": "AIza************************QEco"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit d78ee7a",
+          "line": 72,
+          "source": "commit",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -32039,6 +32075,33 @@
           "line": 256,
           "source": "commit",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "amratef70/fatmah",
+      "url": "https://github.com/amratef70/fatmah",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.35,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 139f69a",
+          "line": 148,
+          "source": "commit",
+          "preview": "8554************************VTrc"
         }
       ]
     },
@@ -51290,6 +51353,33 @@
           "line": 7,
           "source": "file",
           "preview": "AIza************************j_LE"
+        }
+      ]
+    },
+    {
+      "repo": "Hyrra297/tracker-report-bot",
+      "url": "https://github.com/Hyrra297/tracker-report-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.53,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "tracker-report-bot-main/daily_report.py",
+          "line": 21,
+          "source": "file",
+          "preview": "8666************************x9OY"
         }
       ]
     },
