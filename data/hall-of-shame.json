@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T12:50:55.775148+00:00",
+  "generatedAt": "2026-03-26T14:25:04.604767+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -7422,6 +7422,47 @@
       ]
     },
     {
+      "repo": "dollypeedolapo2-gif/delly",
+      "url": "https://github.com/dollypeedolapo2-gif/delly",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 3,
+      "scanTimeSeconds": 12.03,
+      "exposureScore": 74,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 3
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 173eba1",
+          "line": 18,
+          "source": "commit",
+          "preview": "7732************************ddLo"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 173eba1",
+          "line": 20,
+          "source": "commit",
+          "preview": "7211************************nfAM"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 6d813b7",
+          "line": 4211,
+          "source": "commit",
+          "preview": "7697************************rfiI"
+        }
+      ]
+    },
+    {
       "repo": "huskarl-rs/huskarl",
       "url": "https://github.com/huskarl-rs/huskarl",
       "status": "leaked",
@@ -7904,6 +7945,49 @@
           "type": "Private Key (RSA)",
           "file": "Commit 99b4de9",
           "line": 116598,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "saurabh-945798/ACT",
+      "url": "https://github.com/saurabh-945798/ACT",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 174.61,
+      "exposureScore": 72,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2,
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "ACT-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit d4eda10",
+          "line": 31,
+          "source": "commit",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 2a7575a",
+          "line": 62608,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -17005,6 +17089,40 @@
       ]
     },
     {
+      "repo": "Schneider-Roger/tvcopercana",
+      "url": "https://github.com/Schneider-Roger/tvcopercana",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 160.81,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "tvcopercana-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 9bf871e",
+          "line": 88116,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "SupratikPanuganti/fincrypt-wallet",
       "url": "https://github.com/SupratikPanuganti/fincrypt-wallet",
       "status": "leaked",
@@ -17713,6 +17831,40 @@
           "type": "Private Key (RSA)",
           "file": "Commit adb58ce",
           "line": 56917,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "javariatahir11/sidebarbackend",
+      "url": "https://github.com/javariatahir11/sidebarbackend",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 201.07,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "sidebarbackend-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit e85aabd",
+          "line": 64550,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -76371,6 +76523,33 @@
       ]
     },
     {
+      "repo": "komallalwani636-ship-it/machine-checklist",
+      "url": "https://github.com/komallalwani636-ship-it/machine-checklist",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.56,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "machine-checklist-main/server.js",
+          "line": 12,
+          "source": "file",
+          "preview": "post************************tech"
+        }
+      ]
+    },
+    {
       "repo": "kompot12345/COOKEDANDFRIED",
       "url": "https://github.com/kompot12345/COOKEDANDFRIED",
       "status": "leaked",
@@ -78014,6 +78193,33 @@
           "line": 6,
           "source": "file",
           "preview": "8442************************I0WM"
+        }
+      ]
+    },
+    {
+      "repo": "luxshoppingcarservices/luxcardsverifyguide",
+      "url": "https://github.com/luxshoppingcarservices/luxcardsverifyguide",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.66,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "luxcardsverifyguide-main/auth_status_99.php",
+          "line": 3,
+          "source": "file",
+          "preview": "8118************************DJIc"
         }
       ]
     },
@@ -86411,6 +86617,33 @@
           "line": 27,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "siriwanchampala-sketch/ai_puzzle_project",
+      "url": "https://github.com/siriwanchampala-sketch/ai_puzzle_project",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.16,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ai_puzzle_project-main/ai_analysis.py",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************2RqQ"
         }
       ]
     },
