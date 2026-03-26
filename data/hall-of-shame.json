@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T17:59:38.528999+00:00",
+  "generatedAt": "2026-03-26T18:55:11.631668+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -6136,6 +6136,49 @@
           "line": 73932,
           "source": "commit",
           "preview": "AAAA************************z-Y0"
+        }
+      ]
+    },
+    {
+      "repo": "khan-akib2/PasswordManager_Backend",
+      "url": "https://github.com/khan-akib2/PasswordManager_Backend",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 3,
+      "scanTimeSeconds": 137.0,
+      "exposureScore": 82,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2,
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 3106178",
+          "line": 62021,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 3106178",
+          "line": 3873,
+          "source": "commit",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 7f8605d",
+          "line": 62047,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -31029,6 +31072,33 @@
       ]
     },
     {
+      "repo": "Rmanideep/Spendly",
+      "url": "https://github.com/Rmanideep/Spendly",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.15,
+      "exposureScore": 30,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "Commit ef500a4",
+          "line": 22,
+          "source": "commit",
+          "preview": "sk-o************************363c"
+        }
+      ]
+    },
+    {
       "repo": "RtxCungpret/payment-web",
       "url": "https://github.com/RtxCungpret/payment-web",
       "status": "leaked",
@@ -49038,6 +49108,33 @@
       ]
     },
     {
+      "repo": "Bhuvaneshwari-bhu/AI-Multi-Tool-App",
+      "url": "https://github.com/Bhuvaneshwari-bhu/AI-Multi-Tool-App",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.18,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "AI-Multi-Tool-App-main/app.py",
+          "line": 10,
+          "source": "file",
+          "preview": "AIza************************YxLg"
+        }
+      ]
+    },
+    {
       "repo": "Bink1n/shortcuts-spa.",
       "url": "https://github.com/Bink1n/shortcuts-spa.",
       "status": "leaked",
@@ -52494,6 +52591,33 @@
       ]
     },
     {
+      "repo": "IAingenieria/-expo-bot-goodmantech",
+      "url": "https://github.com/IAingenieria/-expo-bot-goodmantech",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.43,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "-expo-bot-goodmantech-main/CONTEXT.md",
+          "line": 90,
+          "source": "file",
+          "preview": "8650************************mNkI"
+        }
+      ]
+    },
+    {
       "repo": "IDGS-803-23001508/examePizzas",
       "url": "https://github.com/IDGS-803-23001508/examePizzas",
       "status": "leaked",
@@ -53273,6 +53397,33 @@
           "line": 5,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "Jean-Paul-Mithimbo/asyncof_exercice_flutter",
+      "url": "https://github.com/Jean-Paul-Mithimbo/asyncof_exercice_flutter",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 34.53,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "asyncof_exercice_flutter-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************_B7s"
         }
       ]
     },
@@ -55973,6 +56124,33 @@
           "line": 96,
           "source": "file",
           "preview": "AIza************************EG0Y"
+        }
+      ]
+    },
+    {
+      "repo": "Neves-gv/3-Semestre",
+      "url": "https://github.com/Neves-gv/3-Semestre",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 71.94,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "3-Semestre-branch/Back End/apis/api_produtos/db.js",
+          "line": 12,
+          "source": "file",
+          "preview": "post************************6543"
         }
       ]
     },
@@ -66453,6 +66631,33 @@
       ]
     },
     {
+      "repo": "casadainovacaocomp5-lang/Luniar_confeitaria",
+      "url": "https://github.com/casadainovacaocomp5-lang/Luniar_confeitaria",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.63,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Luniar_confeitaria-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "post************************tech"
+        }
+      ]
+    },
+    {
       "repo": "cashalot-finance/FondTrader",
       "url": "https://github.com/cashalot-finance/FondTrader",
       "status": "leaked",
@@ -70742,6 +70947,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************Hg5w"
+        }
+      ]
+    },
+    {
+      "repo": "erhanmeydan/llm-compare",
+      "url": "https://github.com/erhanmeydan/llm-compare",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.31,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "llm-compare-main/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "sk-o************************6714"
         }
       ]
     },
