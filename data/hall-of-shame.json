@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T09:54:17.375984+00:00",
+  "generatedAt": "2026-03-26T10:48:56.794664+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -9726,6 +9726,49 @@
       ]
     },
     {
+      "repo": "nehabaskar-05/alert-system-backend",
+      "url": "https://github.com/nehabaskar-05/alert-system-backend",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 48.01,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2,
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "alert-system-backend-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "alert-system-backend-main/node_modules/pg-pool/README.md",
+          "line": 74,
+          "source": "file",
+          "preview": "post************************####"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 0a02cc8",
+          "line": 12381,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "rajeshwaranx-dev/susbcription-bot",
       "url": "https://github.com/rajeshwaranx-dev/susbcription-bot",
       "status": "leaked",
@@ -9849,6 +9892,49 @@
           "type": "Private Key (RSA)",
           "file": "Commit db86cf5",
           "line": 72835,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "sneharajput0213/ai-resume-analyzer",
+      "url": "https://github.com/sneharajput0213/ai-resume-analyzer",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 120.56,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2,
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "ai-resume-analyzer-main/server/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "ai-resume-analyzer-main/server/server.js",
+          "line": 11,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit c896ff7",
+          "line": 50846,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -47654,6 +47740,33 @@
           "line": 201,
           "source": "file",
           "preview": "eyJh************************ture"
+        }
+      ]
+    },
+    {
+      "repo": "AziAzi22/8---oy-6---dars-uy-vazifa",
+      "url": "https://github.com/AziAzi22/8---oy-6---dars-uy-vazifa",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 20.72,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "8---oy-6---dars-uy-vazifa-main/backend2/src/app.module.ts",
+          "line": 7,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -87884,6 +87997,33 @@
           "line": 1,
           "source": "file",
           "preview": "7951************************-9xY"
+        }
+      ]
+    },
+    {
+      "repo": "tukavadkamera-wq/flight-bot",
+      "url": "https://github.com/tukavadkamera-wq/flight-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.44,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "tukavadkamera-wq-flight-bot-9ea2335/main.py",
+          "line": 4,
+          "source": "file",
+          "preview": "8208************************IrHQ"
         }
       ]
     },
