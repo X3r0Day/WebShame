@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T16:57:40.381895+00:00",
+  "generatedAt": "2026-03-26T17:59:38.528999+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -14125,6 +14125,40 @@
       ]
     },
     {
+      "repo": "sindipopshini22-commits/therapist-chatbot",
+      "url": "https://github.com/sindipopshini22-commits/therapist-chatbot",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 4.57,
+      "exposureScore": 52,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 1349a3e",
+          "line": 430,
+          "source": "commit",
+          "preview": "AIza************************or5o"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 1349a3e",
+          "line": 435,
+          "source": "commit",
+          "preview": "AIza************************KD2o"
+        }
+      ]
+    },
+    {
       "repo": "tthdfrgdjj-cyber/bellbizca",
       "url": "https://github.com/tthdfrgdjj-cyber/bellbizca",
       "status": "leaked",
@@ -17947,6 +17981,40 @@
           "line": 573,
           "source": "commit",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "ericone14/LoginServer",
+      "url": "https://github.com/ericone14/LoginServer",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 311.39,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "LoginServer-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit a9a0da5",
+          "line": 89128,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -24585,6 +24653,40 @@
           "line": 99,
           "source": "file",
           "preview": "redi*********************379`"
+        }
+      ]
+    },
+    {
+      "repo": "dhatriurs/appointment_bot",
+      "url": "https://github.com/dhatriurs/appointment_bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.59,
+      "exposureScore": 32,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "medical_bot-main/appointment/app.py",
+          "line": 14,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "medical_bot-main/appointment/seed_db.py",
+          "line": 5,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -65568,6 +65670,33 @@
       ]
     },
     {
+      "repo": "blanusse/automated-sales-reporting",
+      "url": "https://github.com/blanusse/automated-sales-reporting",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.95,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "automated-sales-reporting-main/\ud83e\udde0 Business Intelligence Hub \u2014 Reporte Ejecutivo IA .json",
+          "line": 203,
+          "source": "file",
+          "preview": "AIza************************S4hg"
+        }
+      ]
+    },
+    {
       "repo": "blaxkmiradev/Discord-Token-Grabber",
       "url": "https://github.com/blaxkmiradev/Discord-Token-Grabber",
       "status": "leaked",
@@ -89351,6 +89480,33 @@
           "line": 33,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "torathecreator/Music-AI",
+      "url": "https://github.com/torathecreator/Music-AI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 29.67,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Music-AI-main/SymphonyAI/Resources/GoogleService-Info.plist",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************PT7I"
         }
       ]
     },
