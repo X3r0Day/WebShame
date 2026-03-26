@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T22:20:50.353280+00:00",
+  "generatedAt": "2026-03-26T22:58:55.689636+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -43635,6 +43635,33 @@
           "line": 75,
           "source": "commit",
           "preview": "AIza************************Pr9s"
+        }
+      ]
+    },
+    {
+      "repo": "sagar073/pickleball-equity-map",
+      "url": "https://github.com/sagar073/pickleball-equity-map",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 6.51,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 7268f75",
+          "line": 51,
+          "source": "commit",
+          "preview": "AIza************************HzLg"
         }
       ]
     },
