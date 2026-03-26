@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T21:27:37.870548+00:00",
+  "generatedAt": "2026-03-26T21:57:42.279500+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -7007,6 +7007,54 @@
           "type": "Private Key (RSA)",
           "file": "Commit 8630ca2",
           "line": 68958,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "carodelamaza85-stack/Proyecto-Modulo-6",
+      "url": "https://github.com/carodelamaza85-stack/Proyecto-Modulo-6",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 49.43,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Proyecto-Modulo-6-main/Modulo_6_7_8_JS-main/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Proyecto-Modulo-6-main/Modulo_6_7_8_JS-main/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 51a175d",
+          "line": 20923,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 51a175d",
+          "line": 21358,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -55498,6 +55546,33 @@
       ]
     },
     {
+      "repo": "Marcoczm/iCentral-tech-fix-crm-service-errors",
+      "url": "https://github.com/Marcoczm/iCentral-tech-fix-crm-service-errors",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.28,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "iCentral-tech-fix-crm-service-errors-main/.env",
+          "line": 10,
+          "source": "file",
+          "preview": "AIza************************F2OY"
+        }
+      ]
+    },
+    {
       "repo": "Martinmichelaz/Quiz",
       "url": "https://github.com/Martinmichelaz/Quiz",
       "status": "leaked",
@@ -91300,6 +91375,33 @@
       ]
     },
     {
+      "repo": "vaibhavkumarrai000/Cron-Ops",
+      "url": "https://github.com/vaibhavkumarrai000/Cron-Ops",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.2,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Cron-Ops-main/docker-compose.yml",
+          "line": 27,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "valantic-DCA-GmbH/GisVisualisierung",
       "url": "https://github.com/valantic-DCA-GmbH/GisVisualisierung",
       "status": "leaked",
@@ -93456,6 +93558,33 @@
           "line": 50,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "zaheerabbaspk/iceflow",
+      "url": "https://github.com/zaheerabbaspk/iceflow",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 20.64,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "iceflow-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************CHWE"
         }
       ]
     },
