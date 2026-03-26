@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T04:23:45.800257+00:00",
+  "generatedAt": "2026-03-26T06:02:48.116402+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -6796,6 +6796,54 @@
       ]
     },
     {
+      "repo": "patron-fonz/Zabeks",
+      "url": "https://github.com/patron-fonz/Zabeks",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 67.56,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Zabeks-main/backend/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Zabeks-main/backend/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 961494c",
+          "line": 74054,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 961494c",
+          "line": 74489,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "rachana0249/taskflow-project",
       "url": "https://github.com/rachana0249/taskflow-project",
       "status": "leaked",
@@ -12712,6 +12760,40 @@
           "line": 195415,
           "source": "commit",
           "preview": "AIza************************_WAc"
+        }
+      ]
+    },
+    {
+      "repo": "Rajpromods1/Agent",
+      "url": "https://github.com/Rajpromods1/Agent",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 3.34,
+      "exposureScore": 52,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 389b9c9",
+          "line": 71,
+          "source": "commit",
+          "preview": "AIza************************yuwo"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 389b9c9",
+          "line": 72,
+          "source": "commit",
+          "preview": "AIza************************_dy4"
         }
       ]
     },
@@ -34597,6 +34679,33 @@
       ]
     },
     {
+      "repo": "elsa9598/Gilchi_Map",
+      "url": "https://github.com/elsa9598/Gilchi_Map",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.16,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit c86943e",
+          "line": 4057,
+          "source": "commit",
+          "preview": "AIza************************yr5A"
+        }
+      ]
+    },
+    {
       "repo": "esref1071/content-marketing-skills-claude-code",
       "url": "https://github.com/esref1071/content-marketing-skills-claude-code",
       "status": "leaked",
@@ -37482,6 +37591,33 @@
           "line": 3773,
           "source": "commit",
           "preview": "gsk_************************K5vz"
+        }
+      ]
+    },
+    {
+      "repo": "kwerrr/dreiner-kwer",
+      "url": "https://github.com/kwerrr/dreiner-kwer",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.11,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 956a3be",
+          "line": 43,
+          "source": "commit",
+          "preview": "8257************************UHPQ"
         }
       ]
     },
@@ -49902,6 +50038,33 @@
           "line": 21,
           "source": "file",
           "preview": "eyJh************************ZLzA"
+        }
+      ]
+    },
+    {
+      "repo": "GabrielOlufemi/eave-health-backend",
+      "url": "https://github.com/GabrielOlufemi/eave-health-backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 28.12,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "eave-health-backend-main/README.md",
+          "line": 16,
+          "source": "file",
+          "preview": "post************************tech"
         }
       ]
     },
