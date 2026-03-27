@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T14:33:03.421364+00:00",
+  "generatedAt": "2026-03-27T15:25:33.987047+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -16525,6 +16525,47 @@
       ]
     },
     {
+      "repo": "freakingfab/LILA",
+      "url": "https://github.com/freakingfab/LILA",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.18,
+      "exposureScore": 44,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 3
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "LILA-main/README.md",
+          "line": 366,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "LILA-main/docker-compose.yml",
+          "line": 32,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "LILA-main/nakama-server/docker-compose.yml",
+          "line": 20,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "hamdanm10/restaurant-menu-management-api",
       "url": "https://github.com/hamdanm10/restaurant-menu-management-api",
       "status": "leaked",
@@ -17333,6 +17374,40 @@
           "line": 18,
           "source": "commit",
           "preview": "AIza************************efII"
+        }
+      ]
+    },
+    {
+      "repo": "EmadBeltaje/cursor-appstore-upload-rules",
+      "url": "https://github.com/EmadBeltaje/cursor-appstore-upload-rules",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.64,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (PKCS8)"
+      ],
+      "typeCounts": {
+        "Private Key (PKCS8)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (PKCS8)",
+          "file": "cursor-appstore-upload-rules-main/README.md",
+          "line": 15,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (PKCS8)",
+          "file": "Commit 3972864",
+          "line": 34,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -27879,6 +27954,33 @@
       ]
     },
     {
+      "repo": "3hvet/aje12",
+      "url": "https://github.com/3hvet/aje12",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.93,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 709eb7b",
+          "line": 5181,
+          "source": "commit",
+          "preview": "8633************************mEKI"
+        }
+      ]
+    },
+    {
       "repo": "4jmason-lgtm/Vinyl-League",
       "url": "https://github.com/4jmason-lgtm/Vinyl-League",
       "status": "leaked",
@@ -28955,6 +29057,33 @@
           "line": 319,
           "source": "commit",
           "preview": "8371************************w3qo"
+        }
+      ]
+    },
+    {
+      "repo": "Chimelijah/30DaysOfPython",
+      "url": "https://github.com/Chimelijah/30DaysOfPython",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 101.9,
+      "exposureScore": 30,
+      "topTypes": [
+        "AWS Access Key ID"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "Commit 0ba65be",
+          "line": 146837,
+          "source": "commit",
+          "preview": "AKIA************K3TQ"
         }
       ]
     },
@@ -44889,6 +45018,33 @@
       ]
     },
     {
+      "repo": "ryfn1998-hash/Favo",
+      "url": "https://github.com/ryfn1998-hash/Favo",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.37,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit be5eca0",
+          "line": 144,
+          "source": "commit",
+          "preview": "http************************hGd2"
+        }
+      ]
+    },
+    {
       "repo": "sagar073/pickleball-equity-map",
       "url": "https://github.com/sagar073/pickleball-equity-map",
       "status": "leaked",
@@ -47373,6 +47529,33 @@
       ]
     },
     {
+      "repo": "tnpsccity/Tnpsc-City-",
+      "url": "https://github.com/tnpsccity/Tnpsc-City-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.94,
+      "exposureScore": 30,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "Commit 09eb0b3",
+          "line": 27,
+          "source": "commit",
+          "preview": "sk-o************************b272"
+        }
+      ]
+    },
+    {
       "repo": "tokazov/caucashub",
       "url": "https://github.com/tokazov/caucashub",
       "status": "leaked",
@@ -48692,6 +48875,33 @@
           "line": 3,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "105306002/AI-SDLC-lab",
+      "url": "https://github.com/105306002/AI-SDLC-lab",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.21,
+      "exposureScore": 20,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "AI-SDLC-lab-main/lab0/03-setup-github-mcp.md",
+          "line": 137,
+          "source": "file",
+          "preview": "ghp_************************xxxx"
         }
       ]
     },
@@ -55959,6 +56169,33 @@
       ]
     },
     {
+      "repo": "KavyaPoddar23/IoTBasedSmartChairApp",
+      "url": "https://github.com/KavyaPoddar23/IoTBasedSmartChairApp",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 21.65,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "IoTBasedSmartChairApp-main/SmartChairBackend/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "Kea335/LocationApp",
       "url": "https://github.com/Kea335/LocationApp",
       "status": "leaked",
@@ -58925,6 +59162,33 @@
           "line": 9,
           "source": "file",
           "preview": "http************************t-v2"
+        }
+      ]
+    },
+    {
+      "repo": "OrenHarari/Gravity-Alert-Bot",
+      "url": "https://github.com/OrenHarari/Gravity-Alert-Bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.92,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Gravity-Alert-Bot-master/setup_telegram.py",
+          "line": 5,
+          "source": "file",
+          "preview": "8456************************s9Mo"
         }
       ]
     },
@@ -62786,6 +63050,33 @@
           "line": 5,
           "source": "file",
           "preview": "gsk_************************4eey"
+        }
+      ]
+    },
+    {
+      "repo": "TijinThomas45/Legal-Ease-AI",
+      "url": "https://github.com/TijinThomas45/Legal-Ease-AI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.9,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Legal-Ease-AI-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************uiCs"
         }
       ]
     },
@@ -79418,6 +79709,33 @@
           "line": 7,
           "source": "file",
           "preview": "eyJh************************ohd4"
+        }
+      ]
+    },
+    {
+      "repo": "kawtherlazaar/server-ecommerce",
+      "url": "https://github.com/kawtherlazaar/server-ecommerce",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 134.79,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "server-ecommerce-main/App.js",
+          "line": 27,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
