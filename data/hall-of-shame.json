@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T21:53:50.419317+00:00",
+  "generatedAt": "2026-03-27T22:23:28.088093+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -18774,6 +18774,40 @@
           "type": "Private Key (RSA)",
           "file": "Commit 16554ea",
           "line": 12183,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "VishrutPradhanOrane/salesMeetingApp-main",
+      "url": "https://github.com/VishrutPradhanOrane/salesMeetingApp-main",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 89.04,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "salesMeetingApp-main-master/Backend/salesMeeting/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 44b48e0",
+          "line": 79667,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -76991,6 +77025,33 @@
           "line": 7,
           "source": "file",
           "preview": "eyJh************************GjOI"
+        }
+      ]
+    },
+    {
+      "repo": "hallysam-droid/hallyvestpay-bot",
+      "url": "https://github.com/hallysam-droid/hallyvestpay-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.53,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "hallyvestpay-bot-main/bot_handler.php",
+          "line": 18,
+          "source": "file",
+          "preview": "8569************************eEoc"
         }
       ]
     },
