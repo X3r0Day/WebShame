@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T19:58:13.040392+00:00",
+  "generatedAt": "2026-03-27T20:30:51.850568+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -7550,6 +7550,54 @@
           "line": 949,
           "source": "commit",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "madhwanibhumika24/lets-meet-backend",
+      "url": "https://github.com/madhwanibhumika24/lets-meet-backend",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 130.53,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "lets-meet-backend-main/node_modules/dotenv/README-es.md",
+          "line": 78,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "lets-meet-backend-main/node_modules/dotenv/README.md",
+          "line": 110,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit a3deff5",
+          "line": 126879,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit a3deff5",
+          "line": 127322,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -23833,6 +23881,40 @@
           "line": 26,
           "source": "file",
           "preview": "AIza************************aQys"
+        }
+      ]
+    },
+    {
+      "repo": "AhmedOsmanOmer/chat_app",
+      "url": "https://github.com/AhmedOsmanOmer/chat_app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 44.18,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "chat_app-main/android/app/google-services.json",
+          "line": 23,
+          "source": "file",
+          "preview": "AIza************************jzCw"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "chat_app-main/ios/Runner/GoogleService-Info.plist",
+          "line": 12,
+          "source": "file",
+          "preview": "AIza************************Pi1M"
         }
       ]
     },
@@ -68763,6 +68845,33 @@
       ]
     },
     {
+      "repo": "bagyi600/epoch-duel-system",
+      "url": "https://github.com/bagyi600/epoch-duel-system",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.64,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "epoch-duel-system-main/nodes/assets/inspector.py",
+          "line": 70,
+          "source": "file",
+          "preview": "AIza************************nEG8"
+        }
+      ]
+    },
+    {
       "repo": "bahouadonald/vitejs-vite-pbtq3w3d",
       "url": "https://github.com/bahouadonald/vitejs-vite-pbtq3w3d",
       "status": "leaked",
@@ -73430,6 +73539,33 @@
           "line": 1,
           "source": "file",
           "preview": "8435************************3X4E"
+        }
+      ]
+    },
+    {
+      "repo": "dimonushub-svg/Managerbot",
+      "url": "https://github.com/dimonushub-svg/Managerbot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.92,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Managerbot-main/server.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8273************************CXhE"
         }
       ]
     },
