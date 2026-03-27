@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T09:44:36.035575+00:00",
+  "generatedAt": "2026-03-27T10:39:28.075741+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -9336,6 +9336,47 @@
           "line": 90,
           "source": "commit",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "amidatanga6-spec/LVh9",
+      "url": "https://github.com/amidatanga6-spec/LVh9",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 4.57,
+      "exposureScore": 64,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 3
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "LVh9-main/src/config.json",
+          "line": 2,
+          "source": "file",
+          "preview": "8637************************lP_s"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit c93a0ca",
+          "line": 16,
+          "source": "commit",
+          "preview": "8699************************4m34"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 3e1622f",
+          "line": 34,
+          "source": "commit",
+          "preview": "7696************************OycA"
         }
       ]
     },
@@ -32059,6 +32100,33 @@
           "line": 22,
           "source": "commit",
           "preview": "sk-o************************363c"
+        }
+      ]
+    },
+    {
+      "repo": "Ronnie44Hall/supplychain-plus",
+      "url": "https://github.com/Ronnie44Hall/supplychain-plus",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 26.2,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit d534320",
+          "line": 428,
+          "source": "commit",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -61304,6 +61372,33 @@
       ]
     },
     {
+      "repo": "Smartappli/DEALIoT",
+      "url": "https://github.com/Smartappli/DEALIoT",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.28,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "DEALIoT-main/docker-compose.yml",
+          "line": 36,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Smarty-Indonesia/smartyindonesia",
       "url": "https://github.com/Smarty-Indonesia/smartyindonesia",
       "status": "leaked",
@@ -78476,6 +78571,33 @@
       ]
     },
     {
+      "repo": "karankirodian-cpu/compliance-autopilot",
+      "url": "https://github.com/karankirodian-cpu/compliance-autopilot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.93,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "compliance-autopilot-main/DEPLOYMENT_GUIDE.md",
+          "line": 192,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "karimazondo/budget-tracker-app",
       "url": "https://github.com/karimazondo/budget-tracker-app",
       "status": "leaked",
@@ -85982,6 +86104,33 @@
       ]
     },
     {
+      "repo": "pierrerollotlibfi-alt/ORPI-PILOTAGE-MAP-V2",
+      "url": "https://github.com/pierrerollotlibfi-alt/ORPI-PILOTAGE-MAP-V2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.09,
+      "exposureScore": 20,
+      "topTypes": [
+        "Mapbox API Key"
+      ],
+      "typeCounts": {
+        "Mapbox API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Mapbox API Key",
+          "file": "ORPI-PILOTAGE-MAP-V2-main/src/components/ProspectionMap.jsx",
+          "line": 5,
+          "source": "file",
+          "preview": "pk.e************************jijA"
+        }
+      ]
+    },
+    {
       "repo": "pjs4z/pjs4z_kms_library-2",
       "url": "https://github.com/pjs4z/pjs4z_kms_library-2",
       "status": "leaked",
@@ -87166,6 +87315,33 @@
           "line": 2,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "raju00000040/Raju",
+      "url": "https://github.com/raju00000040/Raju",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.38,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Raju-main/neoxflamextanmay.py",
+          "line": 20,
+          "source": "file",
+          "preview": "8702************************ycmw"
         }
       ]
     },
