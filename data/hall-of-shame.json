@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T23:31:52.716322+00:00",
+  "generatedAt": "2026-03-27T23:58:03.161680+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -91438,6 +91438,33 @@
           "line": 15,
           "source": "file",
           "preview": "7564************************WOvA"
+        }
+      ]
+    },
+    {
+      "repo": "romeoman/openclaw-infra",
+      "url": "https://github.com/romeoman/openclaw-infra",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 105.6,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "openclaw-infra-main/docker-compose.yml",
+          "line": 30,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
