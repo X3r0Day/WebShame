@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T16:21:45.999169+00:00",
+  "generatedAt": "2026-03-27T17:22:50.150180+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -25981,6 +25981,40 @@
       ]
     },
     {
+      "repo": "darioshopibro/newClaw",
+      "url": "https://github.com/darioshopibro/newClaw",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 21.94,
+      "exposureScore": 32,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 2
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "newClaw-main/memory/2026-02-17.md",
+          "line": 46,
+          "source": "file",
+          "preview": "8395************************chG8"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "newClaw-main/skills/calendar/scripts/create_event.py",
+          "line": 35,
+          "source": "file",
+          "preview": "8297************************kxKs"
+        }
+      ]
+    },
+    {
       "repo": "desai013/waf-console",
       "url": "https://github.com/desai013/waf-console",
       "status": "leaked",
@@ -31175,6 +31209,33 @@
           "line": 623,
           "source": "commit",
           "preview": "AIza************************TYMw"
+        }
+      ]
+    },
+    {
+      "repo": "Lordzyxz/Script",
+      "url": "https://github.com/Lordzyxz/Script",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.37,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 7d4b6c1",
+          "line": 542,
+          "source": "commit",
+          "preview": "http************************DQIP"
         }
       ]
     },
@@ -67440,6 +67501,33 @@
       ]
     },
     {
+      "repo": "aosp-mirror-neo/platform_external_okhttp",
+      "url": "https://github.com/aosp-mirror-neo/platform_external_okhttp",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 36.07,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "platform_external_okhttp-aml_ads_341826060/samples/guide/src/main/java/com/squareup/okhttp/recipes/RequestBodyCompression.java",
+          "line": 38,
+          "source": "file",
+          "preview": "AIza************************wiGs"
+        }
+      ]
+    },
+    {
       "repo": "aotem0206/JKVideo",
       "url": "https://github.com/aotem0206/JKVideo",
       "status": "leaked",
@@ -76454,6 +76542,33 @@
           "line": 367,
           "source": "file",
           "preview": "AIza************************JpsE"
+        }
+      ]
+    },
+    {
+      "repo": "hdjekd/Nadeem",
+      "url": "https://github.com/hdjekd/Nadeem",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.14,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Nadeem-main/main.py",
+          "line": 16,
+          "source": "file",
+          "preview": "8506************************1qa4"
         }
       ]
     },
