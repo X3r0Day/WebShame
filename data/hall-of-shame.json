@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T10:39:28.075741+00:00",
+  "generatedAt": "2026-03-27T11:25:02.676363+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -6860,6 +6860,54 @@
           "line": 14134,
           "source": "commit",
           "preview": "http************************json"
+        }
+      ]
+    },
+    {
+      "repo": "Dhanashri1010/smart-crop-guardian",
+      "url": "https://github.com/Dhanashri1010/smart-crop-guardian",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 175.64,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "smart-crop-guardian-main/backend/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "smart-crop-guardian-main/backend/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit a36291a",
+          "line": 118629,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit a36291a",
+          "line": 119064,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -33828,6 +33876,33 @@
           "line": 694,
           "source": "commit",
           "preview": "AIza************************_vJk"
+        }
+      ]
+    },
+    {
+      "repo": "akielkucki/gungensapi",
+      "url": "https://github.com/akielkucki/gungensapi",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.46,
+      "exposureScore": 30,
+      "topTypes": [
+        "Stripe Secret Key"
+      ],
+      "typeCounts": {
+        "Stripe Secret Key": 1
+      },
+      "findings": [
+        {
+          "type": "Stripe Secret Key",
+          "file": "Commit 6e67aaa",
+          "line": 18,
+          "source": "commit",
+          "preview": "sk_t************************lfQ2"
         }
       ]
     },
@@ -83674,6 +83749,33 @@
       ]
     },
     {
+      "repo": "munjam-dev/zingify-web-app",
+      "url": "https://github.com/munjam-dev/zingify-web-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.73,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "zingify-web-app-main/DEPLOYMENT_GUIDE.md",
+          "line": 169,
+          "source": "file",
+          "preview": "AIza************************0qDo"
+        }
+      ]
+    },
+    {
       "repo": "murattercan-sys/avax-bot",
       "url": "https://github.com/murattercan-sys/avax-bot",
       "status": "leaked",
@@ -84399,6 +84501,33 @@
           "line": 1,
           "source": "file",
           "preview": "AIza************************z-C4"
+        }
+      ]
+    },
+    {
+      "repo": "nguyenthithanhhong6482-jpg/repouijram",
+      "url": "https://github.com/nguyenthithanhhong6482-jpg/repouijram",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 24.09,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repouijram-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8449************************60m4"
         }
       ]
     },
@@ -94146,6 +94275,33 @@
           "line": 3,
           "source": "file",
           "preview": "8507************************57Uk"
+        }
+      ]
+    },
+    {
+      "repo": "vkdeepak1102/INTERNAL_TAG-HR",
+      "url": "https://github.com/vkdeepak1102/INTERNAL_TAG-HR",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 48.22,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "INTERNAL_TAG-HR-main/scripts/list_dbs.js",
+          "line": 3,
+          "source": "file",
+          "preview": "mong************************7017"
         }
       ]
     },
