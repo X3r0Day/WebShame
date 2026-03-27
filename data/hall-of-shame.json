@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T23:02:13.874161+00:00",
+  "generatedAt": "2026-03-27T23:31:52.716322+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -86254,6 +86254,33 @@
           "line": 5,
           "source": "file",
           "preview": "8716************************AkTo"
+        }
+      ]
+    },
+    {
+      "repo": "motero2k/ts-node-express-postgres-template",
+      "url": "https://github.com/motero2k/ts-node-express-postgres-template",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.27,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "ts-node-express-postgres-template-main/compose.dev.yml",
+          "line": 28,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
