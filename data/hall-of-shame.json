@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T21:09:20.303869+00:00",
+  "generatedAt": "2026-03-27T21:53:50.419317+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -19562,6 +19562,40 @@
       ]
     },
     {
+      "repo": "ibra-cium/ecom-app",
+      "url": "https://github.com/ibra-cium/ecom-app",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 96.74,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit ce7bb67",
+          "line": 15527,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "javariatahir11/sidebarbackend",
       "url": "https://github.com/javariatahir11/sidebarbackend",
       "status": "leaked",
@@ -38864,6 +38898,33 @@
       ]
     },
     {
+      "repo": "gonzalarra2000-max/nuevobot",
+      "url": "https://github.com/gonzalarra2000-max/nuevobot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.64,
+      "exposureScore": 30,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "Commit 5aaa16e",
+          "line": 69,
+          "source": "commit",
+          "preview": "gsk_************************0JCq"
+        }
+      ]
+    },
+    {
       "repo": "grupoescutiasl/Grupoescutiasl-gmail.com",
       "url": "https://github.com/grupoescutiasl/Grupoescutiasl-gmail.com",
       "status": "leaked",
@@ -40939,6 +41000,33 @@
           "line": 729,
           "source": "commit",
           "preview": "AIza************************8-0s"
+        }
+      ]
+    },
+    {
+      "repo": "knapdima2004-droid/smart-kitchen-hub-",
+      "url": "https://github.com/knapdima2004-droid/smart-kitchen-hub-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 10.03,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit a74b37d",
+          "line": 298,
+          "source": "commit",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -68699,6 +68787,33 @@
       ]
     },
     {
+      "repo": "axeltanjung/lms-platform",
+      "url": "https://github.com/axeltanjung/lms-platform",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.38,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "lms-platform-master/docker-compose.yml",
+          "line": 27,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "axyenko/myprojektzxc",
       "url": "https://github.com/axyenko/myprojektzxc",
       "status": "leaked",
@@ -88756,6 +88871,33 @@
           "line": 7,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "primacoda-de/nx-nestjs-nextjs-starter",
+      "url": "https://github.com/primacoda-de/nx-nestjs-nextjs-starter",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.97,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "nx-nestjs-nextjs-starter-main/docker-compose.yml",
+          "line": 34,
+          "source": "file",
+          "preview": "mong************************7017"
         }
       ]
     },
