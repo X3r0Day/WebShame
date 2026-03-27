@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T11:25:02.676363+00:00",
+  "generatedAt": "2026-03-27T12:15:26.633002+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -14363,6 +14363,40 @@
       ]
     },
     {
+      "repo": "chakri-chris/Crud-operations",
+      "url": "https://github.com/chakri-chris/Crud-operations",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 2,
+      "scanTimeSeconds": 141.78,
+      "exposureScore": 52,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 0d8cbcf",
+          "line": 50873,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 75de602",
+          "line": 51160,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "dport96/lms-autopilot",
       "url": "https://github.com/dport96/lms-autopilot",
       "status": "leaked",
@@ -17512,6 +17546,40 @@
           "line": 76,
           "source": "commit",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "Kabesh-M/online-product-auction-backend",
+      "url": "https://github.com/Kabesh-M/online-product-auction-backend",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 7.22,
+      "exposureScore": 42,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "online-product-auction-backend-main/BACKEND_SUMMARY.md",
+          "line": 213,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 876a253",
+          "line": 63,
+          "source": "commit",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -25444,6 +25512,40 @@
           "line": 12,
           "source": "file",
           "preview": "AIza************************-Ij4"
+        }
+      ]
+    },
+    {
+      "repo": "bharatkumar-777/RBAC-project",
+      "url": "https://github.com/bharatkumar-777/RBAC-project",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 40.81,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "RBAC-project-main/GoogleService-Info.plist",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************-zRg"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "RBAC-project-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************ltqA"
         }
       ]
     },
@@ -47025,6 +47127,33 @@
           "line": 9504,
           "source": "commit",
           "preview": "AIza************************qLrQ"
+        }
+      ]
+    },
+    {
+      "repo": "tokazov/caucashub",
+      "url": "https://github.com/tokazov/caucashub",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.08,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 2ab4a47",
+          "line": 115,
+          "source": "commit",
+          "preview": "AIza************************bfXI"
         }
       ]
     },
@@ -75568,6 +75697,33 @@
       ]
     },
     {
+      "repo": "hfcastro/AItrade",
+      "url": "https://github.com/hfcastro/AItrade",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.92,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "AItrade-main/app/config.py",
+          "line": 70,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "hidytech-a11y/Ecommerce",
       "url": "https://github.com/hidytech-a11y/Ecommerce",
       "status": "leaked",
@@ -86877,6 +87033,33 @@
           "line": 8,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "puja7799/ai-powered-dictionary",
+      "url": "https://github.com/puja7799/ai-powered-dictionary",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.0,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ai-powered-dictionary-main/dicApp/src/App.jsx",
+          "line": 26,
+          "source": "file",
+          "preview": "AIza************************WZck"
         }
       ]
     },
