@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T01:11:05.229059+00:00",
+  "generatedAt": "2026-03-27T04:02:01.221325+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -1522,6 +1522,70 @@
           "line": 2172,
           "source": "commit",
           "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "vaniaposkedov-web/II_bots",
+      "url": "https://github.com/vaniaposkedov-web/II_bots",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 6,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 5,
+      "scanTimeSeconds": 13.47,
+      "exposureScore": 138,
+      "topTypes": [
+        "Google API/GCP Key",
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 3,
+        "Telegram Bot Token": 3
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "II_bots-main/bot/db.py",
+          "line": 509,
+          "source": "file",
+          "preview": "AIza************************KyVs"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 7bf39e4",
+          "line": 102,
+          "source": "commit",
+          "preview": "7426************************BL6E"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 7bf39e4",
+          "line": 103,
+          "source": "commit",
+          "preview": "AIza************************edfg"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 7bf39e4",
+          "line": 122,
+          "source": "commit",
+          "preview": "7426************************HkpU"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 7bf39e4",
+          "line": 123,
+          "source": "commit",
+          "preview": "AIza************************taSc"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 7bf39e4",
+          "line": 133,
+          "source": "commit",
+          "preview": "8337************************mEU8"
         }
       ]
     },
@@ -31030,6 +31094,33 @@
       ]
     },
     {
+      "repo": "Prajwal-Gowda-N/Backup-System",
+      "url": "https://github.com/Prajwal-Gowda-N/Backup-System",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.14,
+      "exposureScore": 30,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 3c3a40a",
+          "line": 60,
+          "source": "commit",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "Prajwallalpotu/MoveArcade",
       "url": "https://github.com/Prajwallalpotu/MoveArcade",
       "status": "leaked",
@@ -42825,6 +42916,33 @@
           "line": 1832,
           "source": "commit",
           "preview": "AIza************************GPjc"
+        }
+      ]
+    },
+    {
+      "repo": "rafly-habibi/Flysite",
+      "url": "https://github.com/rafly-habibi/Flysite",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 9.64,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit f116b4b",
+          "line": 153,
+          "source": "commit",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -66076,6 +66194,33 @@
       ]
     },
     {
+      "repo": "banddi/lucah",
+      "url": "https://github.com/banddi/lucah",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 93.34,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "lucah-main/app.py",
+          "line": 35,
+          "source": "file",
+          "preview": "8623************************sWBc"
+        }
+      ]
+    },
+    {
       "repo": "bc1phugo/token-price-bot",
       "url": "https://github.com/bc1phugo/token-price-bot",
       "status": "leaked",
@@ -75171,6 +75316,33 @@
           "line": 7,
           "source": "file",
           "preview": "8649************************cVr4"
+        }
+      ]
+    },
+    {
+      "repo": "imrankhan1294/STRATUMai",
+      "url": "https://github.com/imrankhan1294/STRATUMai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.21,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "STRATUMai-master/docker-compose.yml",
+          "line": 44,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -88833,6 +89005,33 @@
           "line": 21,
           "source": "file",
           "preview": "http************************json"
+        }
+      ]
+    },
+    {
+      "repo": "srawanthi73-dot/campus-connect-project",
+      "url": "https://github.com/srawanthi73-dot/campus-connect-project",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.79,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "campus-connect-project-main/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "eyJh************************aEB8"
         }
       ]
     },
