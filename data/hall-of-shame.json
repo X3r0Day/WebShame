@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-26T23:57:36.428640+00:00",
+  "generatedAt": "2026-03-27T01:11:05.229059+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -48958,6 +48958,33 @@
       ]
     },
     {
+      "repo": "Arthurk237/chat-app",
+      "url": "https://github.com/Arthurk237/chat-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 43.72,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "chat-app-main/server/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "Arthurpfz/telegram-summary-bot",
       "url": "https://github.com/Arthurpfz/telegram-summary-bot",
       "status": "leaked",
@@ -65131,6 +65158,33 @@
       ]
     },
     {
+      "repo": "aotem0206/JKVideo",
+      "url": "https://github.com/aotem0206/JKVideo",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 91.03,
+      "exposureScore": 20,
+      "topTypes": [
+        "Sentry Token"
+      ],
+      "typeCounts": {
+        "Sentry Token": 1
+      },
+      "findings": [
+        {
+          "type": "Sentry Token",
+          "file": "JKVideo-master/eas.json",
+          "line": 19,
+          "source": "file",
+          "preview": "sntr************************LtLI"
+        }
+      ]
+    },
+    {
       "repo": "apoorvjain2911/AI-Internship-Automation-System",
       "url": "https://github.com/apoorvjain2911/AI-Internship-Automation-System",
       "status": "leaked",
@@ -66072,6 +66126,33 @@
           "line": 11,
           "source": "file",
           "preview": "8632************************p41I"
+        }
+      ]
+    },
+    {
+      "repo": "bekis-pro/sewarmh",
+      "url": "https://github.com/bekis-pro/sewarmh",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 66.71,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "sewarmh-main/app.py",
+          "line": 51,
+          "source": "file",
+          "preview": "8674************************bcNc"
         }
       ]
     },
