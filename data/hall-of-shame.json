@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T15:25:33.987047+00:00",
+  "generatedAt": "2026-03-27T16:21:45.999169+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -3672,6 +3672,58 @@
           "line": 11,
           "source": "file",
           "preview": "mong************************017\""
+        }
+      ]
+    },
+    {
+      "repo": "BManchi/podd-test",
+      "url": "https://github.com/BManchi/podd-test",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 3,
+      "filesAffected": 2,
+      "commitFindings": 3,
+      "scanTimeSeconds": 67.67,
+      "exposureScore": 102,
+      "topTypes": [
+        "Private Key (PKCS8)",
+        "Google API/GCP Key",
+        "Private Key (OPENSSH)"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "Private Key (PKCS8)": 2,
+        "Private Key (OPENSSH)": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "podd-test-dev/cmp-android/google-services.json",
+          "line": 23,
+          "source": "file",
+          "preview": "AIza************************Nn70"
+        },
+        {
+          "type": "Private Key (PKCS8)",
+          "file": "Commit 7da5371",
+          "line": 83825,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (PKCS8)",
+          "file": "Commit 7da5371",
+          "line": 83848,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (OPENSSH)",
+          "file": "Commit 7da5371",
+          "line": 84128,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -16603,6 +16655,47 @@
           "line": 82,
           "source": "file",
           "preview": "post************************host"
+        }
+      ]
+    },
+    {
+      "repo": "janirutech-art/JANI-MD",
+      "url": "https://github.com/janirutech-art/JANI-MD",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.1,
+      "exposureScore": 44,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 3
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "JANI-MD-main/pair.js",
+          "line": 682,
+          "source": "file",
+          "preview": "AIza************************tNug"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "JANI-MD-main/pair.js",
+          "line": 2964,
+          "source": "file",
+          "preview": "AIza************************jnWI"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "JANI-MD-main/pair.js",
+          "line": 3622,
+          "source": "file",
+          "preview": "AIza************************a4vw"
         }
       ]
     },
@@ -37755,6 +37848,33 @@
       ]
     },
     {
+      "repo": "faruk93k/gekek",
+      "url": "https://github.com/faruk93k/gekek",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.81,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 1257529",
+          "line": 332,
+          "source": "commit",
+          "preview": "8749************************ygy8"
+        }
+      ]
+    },
+    {
       "repo": "fastcode555/short_video",
       "url": "https://github.com/fastcode555/short_video",
       "status": "leaked",
@@ -45068,6 +45188,33 @@
           "line": 51,
           "source": "commit",
           "preview": "AIza************************HzLg"
+        }
+      ]
+    },
+    {
+      "repo": "sahilgariya/ATTENDANCE",
+      "url": "https://github.com/sahilgariya/ATTENDANCE",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.49,
+      "exposureScore": 30,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 1
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "Commit a43fdb9",
+          "line": 48,
+          "source": "commit",
+          "preview": "http************************json"
         }
       ]
     },
@@ -57870,6 +58017,33 @@
       ]
     },
     {
+      "repo": "Mizan7373/Project-",
+      "url": "https://github.com/Mizan7373/Project-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.65,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Project--main/bot.py",
+          "line": 15,
+          "source": "file",
+          "preview": "8620************************kEhQ"
+        }
+      ]
+    },
+    {
       "repo": "Mo9L1/Aedas-RAG",
       "url": "https://github.com/Mo9L1/Aedas-RAG",
       "status": "leaked",
@@ -62460,6 +62634,33 @@
       ]
     },
     {
+      "repo": "SuperPorz/minigame1",
+      "url": "https://github.com/SuperPorz/minigame1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 93.49,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "minigame1-main/.claude/skills/nextjs-developer/references/deployment.md",
+          "line": 178,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Suprakas/MERN-E-COMMERCE",
       "url": "https://github.com/Suprakas/MERN-E-COMMERCE",
       "status": "leaked",
@@ -65723,6 +65924,33 @@
           "line": 18,
           "source": "file",
           "preview": "AIza************************mQ8w"
+        }
+      ]
+    },
+    {
+      "repo": "akashprajapati1952-cmd/My-project-server",
+      "url": "https://github.com/akashprajapati1952-cmd/My-project-server",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 179.9,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "My-project-server-master/server.js",
+          "line": 14,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -90999,6 +91227,33 @@
       ]
     },
     {
+      "repo": "sihembouchnak/final-project-gomycode-softwaredevelopment",
+      "url": "https://github.com/sihembouchnak/final-project-gomycode-softwaredevelopment",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 59.84,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "final-project-gomycode-softwaredevelopment-main/server-ecommerce/App.js",
+          "line": 27,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "sijanpaudel14/Nepse",
       "url": "https://github.com/sijanpaudel14/Nepse",
       "status": "leaked",
@@ -93560,6 +93815,33 @@
           "line": 98,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "transaurus/staging-standardnotes-docs",
+      "url": "https://github.com/transaurus/staging-standardnotes-docs",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 181.62,
+      "exposureScore": 20,
+      "topTypes": [
+        "Mailgun API Key"
+      ],
+      "typeCounts": {
+        "Mailgun API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Mailgun API Key",
+          "file": "staging-standardnotes-docs-main/build/assets/js/5d2ee761.f3cad130.js",
+          "line": 1,
+          "source": "file",
+          "preview": "key-************************071c"
         }
       ]
     },
