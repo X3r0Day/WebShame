@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T08:45:55.258746+00:00",
+  "generatedAt": "2026-03-27T09:44:36.035575+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -30551,6 +30551,33 @@
       ]
     },
     {
+      "repo": "Kushdalal/youttube-_RAG_Q-A",
+      "url": "https://github.com/Kushdalal/youttube-_RAG_Q-A",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.6,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 606060a",
+          "line": 6211,
+          "source": "commit",
+          "preview": "AIza************************IhwM"
+        }
+      ]
+    },
+    {
       "repo": "Lexus-27l/sharkscrm",
       "url": "https://github.com/Lexus-27l/sharkscrm",
       "status": "leaked",
@@ -31465,6 +31492,33 @@
           "line": 712,
           "source": "commit",
           "preview": "AKIA************X3JB"
+        }
+      ]
+    },
+    {
+      "repo": "PANKAJ111222/constuction-final",
+      "url": "https://github.com/PANKAJ111222/constuction-final",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.43,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 3799165",
+          "line": 1578,
+          "source": "commit",
+          "preview": "AIza************************7hRs"
         }
       ]
     },
@@ -38296,6 +38350,33 @@
           "line": 12061,
           "source": "commit",
           "preview": "http************************GM6-"
+        }
+      ]
+    },
+    {
+      "repo": "iMofij/abcdxyz",
+      "url": "https://github.com/iMofij/abcdxyz",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.06,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit c433f23",
+          "line": 284,
+          "source": "commit",
+          "preview": "8718************************b4oY"
         }
       ]
     },
@@ -47102,6 +47183,33 @@
       ]
     },
     {
+      "repo": "usan-82/ai-agent-master-class",
+      "url": "https://github.com/usan-82/ai-agent-master-class",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.55,
+      "exposureScore": 30,
+      "topTypes": [
+        "OpenAI API Key (Project)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Project)": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Project)",
+          "file": "Commit d611795",
+          "line": 4281,
+          "source": "commit",
+          "preview": "sk-p************************954A"
+        }
+      ]
+    },
+    {
       "repo": "vaishu109/HTML",
       "url": "https://github.com/vaishu109/HTML",
       "status": "leaked",
@@ -50365,6 +50473,33 @@
           "line": 91,
           "source": "file",
           "preview": "AIza************************qU1g"
+        }
+      ]
+    },
+    {
+      "repo": "Bhavana244-blip/Campus-Cart",
+      "url": "https://github.com/Bhavana244-blip/Campus-Cart",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 36.38,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "Campus-Cart-main/.gemini/antigravity/scratch/campuscart/.env",
+          "line": 5,
+          "source": "file",
+          "preview": "eyJh************************_lpo"
         }
       ]
     },
@@ -71938,6 +72073,33 @@
           "line": 106,
           "source": "file",
           "preview": "AIza************************LNwU"
+        }
+      ]
+    },
+    {
+      "repo": "dralialshaafee-sys/KNvideoUpload",
+      "url": "https://github.com/dralialshaafee-sys/KNvideoUpload",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.18,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "KNvideoUpload-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************UF8I"
         }
       ]
     },
