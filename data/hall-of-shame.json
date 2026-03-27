@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T06:57:50.204547+00:00",
+  "generatedAt": "2026-03-27T08:01:14.421113+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -10524,6 +10524,49 @@
       ]
     },
     {
+      "repo": "pvtltdpratik/duolingo-clone",
+      "url": "https://github.com/pvtltdpratik/duolingo-clone",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 97.72,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "duolingo-clone-main/backend/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "duolingo-clone-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit cd2f40e",
+          "line": 57477,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "rajeshwaranx-dev/susbcription-bot",
       "url": "https://github.com/rajeshwaranx-dev/susbcription-bot",
       "status": "leaked",
@@ -11820,6 +11863,42 @@
           "line": 266,
           "source": "commit",
           "preview": "8642************************7uDQ"
+        }
+      ]
+    },
+    {
+      "repo": "signsafe-io/signsafe-api",
+      "url": "https://github.com/signsafe-io/signsafe-api",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 2.56,
+      "exposureScore": 60,
+      "topTypes": [
+        "PostgreSQL Connection URI",
+        "RabbitMQ/AMQP URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1,
+        "RabbitMQ/AMQP URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit bc25c28",
+          "line": 43,
+          "source": "commit",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "RabbitMQ/AMQP URI",
+          "file": "Commit bc25c28",
+          "line": 45,
+          "source": "commit",
+          "preview": "amqp************************5672"
         }
       ]
     },
@@ -18239,6 +18318,40 @@
           "line": 432,
           "source": "commit",
           "preview": "8597************************ftLo"
+        }
+      ]
+    },
+    {
+      "repo": "buildwithmansi123/FakeNewsDetectorApp",
+      "url": "https://github.com/buildwithmansi123/FakeNewsDetectorApp",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 212.86,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "FakeNewsDetectorApp-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit ce586c7",
+          "line": 84521,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -26239,6 +26352,40 @@
           "line": 14,
           "source": "file",
           "preview": "8766************************qZKU"
+        }
+      ]
+    },
+    {
+      "repo": "nileshtech1/DigiAusTradie",
+      "url": "https://github.com/nileshtech1/DigiAusTradie",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 111.28,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "DigiAusTradie-main/src/Component/RightSideBarComponent/New Contact/EditNewContact.js",
+          "line": 543,
+          "source": "file",
+          "preview": "AIza************************35Cw"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "DigiAusTradie-main/src/Component/RightSideBarComponent/New Contact/EditNewContact.js",
+          "line": 576,
+          "source": "file",
+          "preview": "AIza************************Mb1w"
         }
       ]
     },
@@ -48646,6 +48793,33 @@
       ]
     },
     {
+      "repo": "AhsanRejwan/admin-template",
+      "url": "https://github.com/AhsanRejwan/admin-template",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 78.39,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "admin-template-main/.env",
+          "line": 8,
+          "source": "file",
+          "preview": "AIza************************xUXw"
+        }
+      ]
+    },
+    {
       "repo": "Aiman-Momin/Collaborative-Whiteboard",
       "url": "https://github.com/Aiman-Momin/Collaborative-Whiteboard",
       "status": "leaked",
@@ -55095,6 +55269,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************JoxU"
+        }
+      ]
+    },
+    {
+      "repo": "KinorGa/GiClaw",
+      "url": "https://github.com/KinorGa/GiClaw",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.37,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenAI API Key (Legacy)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Legacy)": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "GiClaw-main/core/llm.py",
+          "line": 24,
+          "source": "file",
+          "preview": "sk-w************************JmHg"
         }
       ]
     },
@@ -62443,6 +62644,33 @@
       ]
     },
     {
+      "repo": "Vrushali-sagar26/statboot-pro-",
+      "url": "https://github.com/Vrushali-sagar26/statboot-pro-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.41,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "statboot-pro--main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************zSyo"
+        }
+      ]
+    },
+    {
       "repo": "Weeravaradhana/Elite-event-service-api-1",
       "url": "https://github.com/Weeravaradhana/Elite-event-service-api-1",
       "status": "leaked",
@@ -66759,6 +66987,33 @@
           "line": 51,
           "source": "file",
           "preview": "8674************************bcNc"
+        }
+      ]
+    },
+    {
+      "repo": "bekzodbaratov454-stack/imtihon-2",
+      "url": "https://github.com/bekzodbaratov454-stack/imtihon-2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 58.67,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "imtihon-2-main/node_modules/pg-pool/README.md",
+          "line": 74,
+          "source": "file",
+          "preview": "post************************####"
         }
       ]
     },
@@ -71299,6 +71554,33 @@
       ]
     },
     {
+      "repo": "djtommymcfly-dot/Koolnumber",
+      "url": "https://github.com/djtommymcfly-dot/Koolnumber",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.4,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Koolnumber-main/src/components/dashboard/MapCard.tsx",
+          "line": 11,
+          "source": "file",
+          "preview": "AIza************************rMCY"
+        }
+      ]
+    },
+    {
       "repo": "dkirby-ms/void-market",
       "url": "https://github.com/dkirby-ms/void-market",
       "status": "leaked",
@@ -73914,6 +74196,33 @@
           "line": 361,
           "source": "file",
           "preview": "mong************************7017"
+        }
+      ]
+    },
+    {
+      "repo": "gptabdo32-cpu/wasata-malia-pro-8e0c5",
+      "url": "https://github.com/gptabdo32-cpu/wasata-malia-pro-8e0c5",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 23.47,
+      "exposureScore": 20,
+      "topTypes": [
+        "MySQL/MariaDB Connection URI"
+      ],
+      "typeCounts": {
+        "MySQL/MariaDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "wasata-malia-pro-8e0c5-master/docker-compose.yml",
+          "line": 53,
+          "source": "file",
+          "preview": "mysq************************3306"
         }
       ]
     },
@@ -78153,6 +78462,33 @@
           "line": 5,
           "source": "file",
           "preview": "AIza************************ZZUw"
+        }
+      ]
+    },
+    {
+      "repo": "khantzawwin/FlashCard",
+      "url": "https://github.com/khantzawwin/FlashCard",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.11,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "FlashCard-main/FlashCard/GoogleService-Info.plist",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************E0-0"
         }
       ]
     },
@@ -86932,6 +87268,33 @@
       ]
     },
     {
+      "repo": "rensiter/renbotstream",
+      "url": "https://github.com/rensiter/renbotstream",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.57,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "renbotstream-main/fsb.sample.env",
+          "line": 30,
+          "source": "file",
+          "preview": "6941************************KRMM"
+        }
+      ]
+    },
+    {
       "repo": "restaurantecardapio/cardapiodigital",
       "url": "https://github.com/restaurantecardapio/cardapiodigital",
       "status": "leaked",
@@ -91707,6 +92070,33 @@
           "line": 4,
           "source": "file",
           "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "trymvestengen/polymarket-bot",
+      "url": "https://github.com/trymvestengen/polymarket-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 30.94,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "polymarket-bot-main/docs/GETTING_STARTED.md",
+          "line": 134,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
