@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T18:15:46.208699+00:00",
+  "generatedAt": "2026-03-27T19:18:33.076729+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -561,6 +561,68 @@
           "type": "Discord Bot Token",
           "file": "Commit f0b5f96",
           "line": 111708,
+          "source": "commit",
+          "preview": "Moun************************1960"
+        }
+      ]
+    },
+    {
+      "repo": "wldd22/blueprint-chopsticks",
+      "url": "https://github.com/wldd22/blueprint-chopsticks",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 11,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 11,
+      "scanTimeSeconds": 95.8,
+      "exposureScore": 250,
+      "topTypes": [
+        "Discord Bot Token"
+      ],
+      "typeCounts": {
+        "Discord Bot Token": 11
+      },
+      "findings": [
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 8e257ca",
+          "line": 309770,
+          "source": "commit",
+          "preview": "Moun************************6960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 8e257ca",
+          "line": 309777,
+          "source": "commit",
+          "preview": "Moun************************1960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 8e257ca",
+          "line": 309784,
+          "source": "commit",
+          "preview": "Moun************************6960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 8e257ca",
+          "line": 309791,
+          "source": "commit",
+          "preview": "Moun************************1960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 8e257ca",
+          "line": 309798,
+          "source": "commit",
+          "preview": "Moun************************6960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 8e257ca",
+          "line": 309805,
           "source": "commit",
           "preview": "Moun************************1960"
         }
@@ -18457,6 +18519,40 @@
       ]
     },
     {
+      "repo": "Sheldon-Patel/Disaster-Ready",
+      "url": "https://github.com/Sheldon-Patel/Disaster-Ready",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 31.65,
+      "exposureScore": 42,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Disaster-Ready-main/backend/fix_db.js",
+          "line": 4,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 1e6a889",
+          "line": 1100,
+          "source": "commit",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "SupratikPanuganti/fincrypt-wallet",
       "url": "https://github.com/SupratikPanuganti/fincrypt-wallet",
       "status": "leaked",
@@ -25981,6 +26077,40 @@
       ]
     },
     {
+      "repo": "daisychowdhury04/model-master",
+      "url": "https://github.com/daisychowdhury04/model-master",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 82.58,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "model-master-main/1774387026635-player-script.js",
+          "line": 4335,
+          "source": "file",
+          "preview": "AIza************************bUhE"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "model-master-main/1774387026635-player-script.js",
+          "line": 4776,
+          "source": "file",
+          "preview": "AIza************************oAnw"
+        }
+      ]
+    },
+    {
       "repo": "darioshopibro/newClaw",
       "url": "https://github.com/darioshopibro/newClaw",
       "status": "leaked",
@@ -32073,6 +32203,33 @@
           "line": 1433,
           "source": "commit",
           "preview": "http************************TnXa"
+        }
+      ]
+    },
+    {
+      "repo": "NurdanSelcuk63/Laravel-ile-CMS-Geli-titme",
+      "url": "https://github.com/NurdanSelcuk63/Laravel-ile-CMS-Geli-titme",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 78.38,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 9ca547e",
+          "line": 30419,
+          "source": "commit",
+          "preview": "AIza************************moM4"
         }
       ]
     },
@@ -54784,6 +54941,33 @@
       ]
     },
     {
+      "repo": "HeyLavenderBee/app-web-cadastro-atv",
+      "url": "https://github.com/HeyLavenderBee/app-web-cadastro-atv",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.1,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "app-web-cadastro-atv-main/.env",
+          "line": 15,
+          "source": "file",
+          "preview": "post************************.com"
+        }
+      ]
+    },
+    {
       "repo": "HiMyNameIsBob36/discord",
       "url": "https://github.com/HiMyNameIsBob36/discord",
       "status": "leaked",
@@ -74544,6 +74728,33 @@
           "line": 8,
           "source": "file",
           "preview": "http************************json"
+        }
+      ]
+    },
+    {
+      "repo": "everprimeinside-alt/Everprime",
+      "url": "https://github.com/everprimeinside-alt/Everprime",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.54,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Everprime-main/script.js",
+          "line": 242,
+          "source": "file",
+          "preview": "8023************************7wxE"
         }
       ]
     },
