@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T08:01:14.421113+00:00",
+  "generatedAt": "2026-03-27T08:45:55.258746+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -4605,6 +4605,63 @@
           "type": "Private Key (RSA)",
           "file": "Commit 3cb130a",
           "line": 68179,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "dev-sam920/Backend",
+      "url": "https://github.com/dev-sam920/Backend",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 5,
+      "uniqueTypes": 2,
+      "filesAffected": 4,
+      "commitFindings": 2,
+      "scanTimeSeconds": 166.52,
+      "exposureScore": 96,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Backend-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Backend-main/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Backend-main/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 736ef3f",
+          "line": 121552,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 736ef3f",
+          "line": 121987,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -18080,6 +18137,40 @@
           "line": 111,
           "source": "commit",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "adityasharma68/TravelBuddy",
+      "url": "https://github.com/adityasharma68/TravelBuddy",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 45.67,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "TravelBuddy-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit d9cd460",
+          "line": 19420,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -36481,6 +36572,33 @@
       ]
     },
     {
+      "repo": "dhruv-maker-og/workshop-273",
+      "url": "https://github.com/dhruv-maker-og/workshop-273",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 15.64,
+      "exposureScore": 30,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "Commit c0714e2",
+          "line": 117,
+          "source": "commit",
+          "preview": "ghp_************************xxxx"
+        }
+      ]
+    },
+    {
       "repo": "digisensedigital-hash/recruiters-orbit-web",
       "url": "https://github.com/digisensedigital-hash/recruiters-orbit-web",
       "status": "leaked",
@@ -45387,6 +45505,33 @@
           "line": 1114,
           "source": "commit",
           "preview": "8633************************_pfA"
+        }
+      ]
+    },
+    {
+      "repo": "sivnarayan-pal/copilot-review-security-analysis-workshop-siv-hrc",
+      "url": "https://github.com/sivnarayan-pal/copilot-review-security-analysis-workshop-siv-hrc",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 14.44,
+      "exposureScore": 30,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "Commit f93b34c",
+          "line": 117,
+          "source": "commit",
+          "preview": "ghp_************************xxxx"
         }
       ]
     },
@@ -65587,6 +65732,33 @@
       ]
     },
     {
+      "repo": "aniketchougule1902/cybercord",
+      "url": "https://github.com/aniketchougule1902/cybercord",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.16,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "cybercord-main/server.ts",
+          "line": 45,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "anitaralot42-oss/Query_bot",
       "url": "https://github.com/anitaralot42-oss/Query_bot",
       "status": "leaked",
@@ -73498,6 +73670,33 @@
       ]
     },
     {
+      "repo": "frutteriasciacovelli-web/repohd294k",
+      "url": "https://github.com/frutteriasciacovelli-web/repohd294k",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.33,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repohd294k-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8648************************aHAk"
+        }
+      ]
+    },
+    {
       "repo": "fujhhhhiygu-cell/G1",
       "url": "https://github.com/fujhhhhiygu-cell/G1",
       "status": "leaked",
@@ -76788,6 +76987,33 @@
           "line": 9,
           "source": "file",
           "preview": "pk.e************************1PAg"
+        }
+      ]
+    },
+    {
+      "repo": "jatin2302/paperclip",
+      "url": "https://github.com/jatin2302/paperclip",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 80.2,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "paperclip-master/docker-compose.yml",
+          "line": 23,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -85590,6 +85816,33 @@
           "line": 2436,
           "source": "file",
           "preview": "gsk_************************Rkoe"
+        }
+      ]
+    },
+    {
+      "repo": "pjs4z/pjs4z_kms_library-2",
+      "url": "https://github.com/pjs4z/pjs4z_kms_library-2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 164.4,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "pjs4z_kms_library-2-master/7_theory_references/knowledge-theory/building-knowledge-graphs.md",
+          "line": 1213,
+          "source": "file",
+          "preview": "mong************************17',"
         }
       ]
     },
