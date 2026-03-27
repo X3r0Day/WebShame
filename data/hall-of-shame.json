@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T17:22:50.150180+00:00",
+  "generatedAt": "2026-03-27T18:15:46.208699+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -52381,6 +52381,33 @@
       ]
     },
     {
+      "repo": "ConTresillo/rag_agent",
+      "url": "https://github.com/ConTresillo/rag_agent",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 26.65,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "rag_agent-main/docker-compose.yml",
+          "line": 33,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Continuum-Associates/gridsecure-backend",
       "url": "https://github.com/Continuum-Associates/gridsecure-backend",
       "status": "leaked",
@@ -76465,6 +76492,33 @@
       ]
     },
     {
+      "repo": "harshrana14-fi/WasteFlowipu",
+      "url": "https://github.com/harshrana14-fi/WasteFlowipu",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.16,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "WasteFlowipu-main/tmp/delete_listings.js",
+          "line": 3,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "haydan-ops/MyChat-IA",
       "url": "https://github.com/haydan-ops/MyChat-IA",
       "status": "leaked",
@@ -84835,6 +84889,33 @@
       ]
     },
     {
+      "repo": "muhammad-zaidadnan/HS2",
+      "url": "https://github.com/muhammad-zaidadnan/HS2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.27,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Bot Token"
+      ],
+      "typeCounts": {
+        "Discord Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Bot Token",
+          "file": "HS2-main/hs.py",
+          "line": 10,
+          "source": "file",
+          "preview": "MTQ4************************uCxI"
+        }
+      ]
+    },
+    {
       "repo": "muhammadhamzafx2-code/deriv-propfirm",
       "url": "https://github.com/muhammadhamzafx2-code/deriv-propfirm",
       "status": "leaked",
@@ -91500,6 +91581,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************2RqQ"
+        }
+      ]
+    },
+    {
+      "repo": "sissinou-moon/keylogger",
+      "url": "https://github.com/sissinou-moon/keylogger",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.18,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "keylogger-main/main.py",
+          "line": 3,
+          "source": "file",
+          "preview": "8543************************KEJk"
         }
       ]
     },
