@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T20:30:51.850568+00:00",
+  "generatedAt": "2026-03-27T21:09:20.303869+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -10532,6 +10532,49 @@
           "type": "Private Key (RSA)",
           "file": "Commit 4b3d0ac",
           "line": 125166,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "camilo199811/ECOHOME_STORE_CAMILO",
+      "url": "https://github.com/camilo199811/ECOHOME_STORE_CAMILO",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 129.75,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2,
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "ECOHOME_STORE_CAMILO-master/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "ECOHOME_STORE_CAMILO-master/node_modules/pg-pool/README.md",
+          "line": 74,
+          "source": "file",
+          "preview": "post************************####"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit c957485",
+          "line": 107225,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -37876,6 +37919,33 @@
       ]
     },
     {
+      "repo": "drewse/NoBrakesSports",
+      "url": "https://github.com/drewse/NoBrakesSports",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 12.56,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "Commit 3e18605",
+          "line": 204,
+          "source": "commit",
+          "preview": "eyJh************************bQhc"
+        }
+      ]
+    },
+    {
       "repo": "droid-svg/droid-manual.github.oi",
       "url": "https://github.com/droid-svg/droid-manual.github.oi",
       "status": "leaked",
@@ -40626,6 +40696,33 @@
           "line": 1290,
           "source": "commit",
           "preview": "sk-a************************3QAA"
+        }
+      ]
+    },
+    {
+      "repo": "kazekdaniel-lab/gsa",
+      "url": "https://github.com/kazekdaniel-lab/gsa",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 10.62,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit c65d26d",
+          "line": 708,
+          "source": "commit",
+          "preview": "AIza************************z20g"
         }
       ]
     },
@@ -59499,6 +59596,33 @@
           "line": 1,
           "source": "file",
           "preview": "8766************************xbgg"
+        }
+      ]
+    },
+    {
+      "repo": "NoMadAndy/aiCompany",
+      "url": "https://github.com/NoMadAndy/aiCompany",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.35,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "aiCompany-main/docker-compose.yml",
+          "line": 9,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
