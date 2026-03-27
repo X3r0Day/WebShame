@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T19:18:33.076729+00:00",
+  "generatedAt": "2026-03-27T19:58:13.040392+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -14060,6 +14060,40 @@
       ]
     },
     {
+      "repo": "Blaber-Philip/week3-todo-api",
+      "url": "https://github.com/Blaber-Philip/week3-todo-api",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 2,
+      "scanTimeSeconds": 44.14,
+      "exposureScore": 52,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 4bca8d3",
+          "line": 18479,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 3326fe7",
+          "line": 18563,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "Building-Blocks-GTC-Demo/jcullen-test-vuphh",
       "url": "https://github.com/Building-Blocks-GTC-Demo/jcullen-test-vuphh",
       "status": "leaked",
@@ -21109,6 +21143,42 @@
       ]
     },
     {
+      "repo": "MRSHABAN45/OTP-BOT",
+      "url": "https://github.com/MRSHABAN45/OTP-BOT",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.81,
+      "exposureScore": 40,
+      "topTypes": [
+        "MongoDB Connection URI",
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "OTP-BOT-main/main.go",
+          "line": 64,
+          "source": "file",
+          "preview": "mong************************017\""
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "OTP-BOT-main/main.go",
+          "line": 485,
+          "source": "file",
+          "preview": "post************************2891"
+        }
+      ]
+    },
+    {
       "repo": "Milo-2026/Milo-Workspace",
       "url": "https://github.com/Milo-2026/Milo-Workspace",
       "status": "leaked",
@@ -23013,6 +23083,42 @@
           "line": 1710,
           "source": "file",
           "preview": "http************************XXXX"
+        }
+      ]
+    },
+    {
+      "repo": "noppasit3511/log-manager",
+      "url": "https://github.com/noppasit3511/log-manager",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.38,
+      "exposureScore": 40,
+      "topTypes": [
+        "Discord Webhook",
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1,
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "log-manager-main/backend/main.py",
+          "line": 17,
+          "source": "file",
+          "preview": "http************************mke1"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "log-manager-main/docker-compose.yml",
+          "line": 17,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -46783,6 +46889,33 @@
           "line": 176,
           "source": "commit",
           "preview": "AIza************************1V9A"
+        }
+      ]
+    },
+    {
+      "repo": "solucionesfinancierasst-and/nequi",
+      "url": "https://github.com/solucionesfinancierasst-and/nequi",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 17.45,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 2ac8938",
+          "line": 474,
+          "source": "commit",
+          "preview": "http************************ADQH"
         }
       ]
     },
@@ -87341,6 +87474,33 @@
       ]
     },
     {
+      "repo": "pantment/YTtoNotes",
+      "url": "https://github.com/pantment/YTtoNotes",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.12,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "YTtoNotes-main/src/youtube_summarizer_bot/channel_resolver.py",
+          "line": 25,
+          "source": "file",
+          "preview": "AIza************************M39w"
+        }
+      ]
+    },
+    {
       "repo": "papai2023/nicm",
       "url": "https://github.com/papai2023/nicm",
       "status": "leaked",
@@ -88660,6 +88820,33 @@
           "line": 17,
           "source": "file",
           "preview": "AIza************************E-0o"
+        }
+      ]
+    },
+    {
+      "repo": "qinzhangsheng050-sys/main-voice-ai",
+      "url": "https://github.com/qinzhangsheng050-sys/main-voice-ai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 27.79,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "main-voice-ai-main/ai-engine.js",
+          "line": 15,
+          "source": "file",
+          "preview": "AIza************************iBng"
         }
       ]
     },
@@ -90986,6 +91173,33 @@
       ]
     },
     {
+      "repo": "seifeldinmohamed2003/55-0428-Task-02-SeifeldinMohamed",
+      "url": "https://github.com/seifeldinmohamed2003/55-0428-Task-02-SeifeldinMohamed",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.22,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "55-0428-Task-02-SeifeldinMohamed-main/docker-compose.yml",
+          "line": 48,
+          "source": "file",
+          "preview": "mong************************7017"
+        }
+      ]
+    },
+    {
       "repo": "semi556tgb/frer",
       "url": "https://github.com/semi556tgb/frer",
       "status": "leaked",
@@ -91549,6 +91763,33 @@
           "line": 603,
           "source": "file",
           "preview": "AIza************************M6Lk"
+        }
+      ]
+    },
+    {
+      "repo": "shsolaev26-cloud/Lomon",
+      "url": "https://github.com/shsolaev26-cloud/Lomon",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.97,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Lomon-main/Main.py",
+          "line": 21,
+          "source": "file",
+          "preview": "8411************************5Psg"
         }
       ]
     },
@@ -93304,6 +93545,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************w3IY"
+        }
+      ]
+    },
+    {
+      "repo": "thahir2005/ecommerce-devops",
+      "url": "https://github.com/thahir2005/ecommerce-devops",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 35.67,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "thahir2005-ecommerce-devops-b4e2603/backend/node_modules/pg-pool/README.md",
+          "line": 74,
+          "source": "file",
+          "preview": "post************************####"
         }
       ]
     },
