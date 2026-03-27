@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T13:31:52.179027+00:00",
+  "generatedAt": "2026-03-27T14:33:03.421364+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -7824,6 +7824,56 @@
       ]
     },
     {
+      "repo": "thakaremumukshita-sudo/productivity-tracker",
+      "url": "https://github.com/thakaremumukshita-sudo/productivity-tracker",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 2,
+      "filesAffected": 4,
+      "commitFindings": 1,
+      "scanTimeSeconds": 105.24,
+      "exposureScore": 74,
+      "topTypes": [
+        "MongoDB Connection URI",
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 2,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "productivity-tracker-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************7017"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "productivity-tracker-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "productivity-tracker-main/touch .env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 858af18",
+          "line": 50866,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "vonwebs/Express-Store",
       "url": "https://github.com/vonwebs/Express-Store",
       "status": "leaked",
@@ -10105,6 +10155,49 @@
           "type": "Private Key (RSA)",
           "file": "Commit 0feefd9",
           "line": 58545,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "Sowmyanagarajan2/Deployment_backend",
+      "url": "https://github.com/Sowmyanagarajan2/Deployment_backend",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 187.03,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Deployment_backend-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Deployment_backend-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 0b9bf47",
+          "line": 84442,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -17754,6 +17847,40 @@
       ]
     },
     {
+      "repo": "MohdAzmuddin/fullStack",
+      "url": "https://github.com/MohdAzmuddin/fullStack",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 197.31,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "fullStack-main/server/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit b195025",
+          "line": 110983,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "Morax25/sockets-frontend",
       "url": "https://github.com/Morax25/sockets-frontend",
       "status": "leaked",
@@ -17988,6 +18115,40 @@
           "line": 14,
           "source": "commit",
           "preview": "MTQ4************************RCJH"
+        }
+      ]
+    },
+    {
+      "repo": "Pranvera426/Dielli",
+      "url": "https://github.com/Pranvera426/Dielli",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 246.18,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Dielli-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit e2a40b4",
+          "line": 192795,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -36385,6 +36546,33 @@
       ]
     },
     {
+      "repo": "cnotley/dfdsfsdfsdfsddfs",
+      "url": "https://github.com/cnotley/dfdsfsdfsdfsddfs",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 6.8,
+      "exposureScore": 30,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "Commit 7619cad",
+          "line": 19,
+          "source": "commit",
+          "preview": "ghp_************************xxxx"
+        }
+      ]
+    },
+    {
       "repo": "codex-pokhara/ledgerly",
       "url": "https://github.com/codex-pokhara/ledgerly",
       "status": "leaked",
@@ -38892,6 +39080,33 @@
           "line": 444,
           "source": "commit",
           "preview": "AIza************************ewEk"
+        }
+      ]
+    },
+    {
+      "repo": "jakevandenbrink20/euro_planner",
+      "url": "https://github.com/jakevandenbrink20/euro_planner",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 160.3,
+      "exposureScore": 30,
+      "topTypes": [
+        "Algolia Admin API Key (Context)"
+      ],
+      "typeCounts": {
+        "Algolia Admin API Key (Context)": 1
+      },
+      "findings": [
+        {
+          "type": "Algolia Admin API Key (Context)",
+          "file": "Commit fa4a706",
+          "line": 123579,
+          "source": "commit",
+          "preview": "ALGO************************7ba5"
         }
       ]
     },
@@ -43050,6 +43265,33 @@
           "line": 57,
           "source": "commit",
           "preview": "AIza************************QNa4"
+        }
+      ]
+    },
+    {
+      "repo": "personal70035-bit/aqua-quence-app",
+      "url": "https://github.com/personal70035-bit/aqua-quence-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.22,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 3553f9b",
+          "line": 341,
+          "source": "commit",
+          "preview": "AIza************************fGGI"
         }
       ]
     },
@@ -54471,6 +54713,33 @@
           "line": 7,
           "source": "file",
           "preview": "mysq************************3306"
+        }
+      ]
+    },
+    {
+      "repo": "IK-MVSolution/Approval",
+      "url": "https://github.com/IK-MVSolution/Approval",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 47.1,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Approval-main/docker-compose.prod.yml",
+          "line": 6,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -67597,6 +67866,33 @@
       ]
     },
     {
+      "repo": "balbes0/flutter_application_1",
+      "url": "https://github.com/balbes0/flutter_application_1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.71,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "flutter_application_1-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************6gZ8"
+        }
+      ]
+    },
+    {
       "repo": "banddi/lucah",
       "url": "https://github.com/banddi/lucah",
       "status": "leaked",
@@ -73047,6 +73343,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************gZ2A"
+        }
+      ]
+    },
+    {
+      "repo": "egencydigitalinfo-svg/skinmusebackend",
+      "url": "https://github.com/egencydigitalinfo-svg/skinmusebackend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.08,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "skinmusebackend-main/src/config/db.js",
+          "line": 5,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -85737,6 +86060,33 @@
           "line": 6,
           "source": "file",
           "preview": "8022************************pEV8"
+        }
+      ]
+    },
+    {
+      "repo": "orion-atopng/wisp-platform",
+      "url": "https://github.com/orion-atopng/wisp-platform",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.4,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "wisp-platform-main/docker-compose.yml",
+          "line": 25,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
