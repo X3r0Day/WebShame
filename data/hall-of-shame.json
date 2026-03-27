@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T05:41:11.259230+00:00",
+  "generatedAt": "2026-03-27T06:57:50.204547+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -11181,6 +11181,51 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************Q6Kk"
+        }
+      ]
+    },
+    {
+      "repo": "sawariyaseth/crypto-trading-bot",
+      "url": "https://github.com/sawariyaseth/crypto-trading-bot",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 3,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.8,
+      "exposureScore": 60,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Groq API Key",
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Groq API Key": 1,
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "crypto-trading-bot-main/crypto/stock market scanner/.env",
+          "line": 37,
+          "source": "file",
+          "preview": "8631************************WHWM"
+        },
+        {
+          "type": "Groq API Key",
+          "file": "crypto-trading-bot-main/crypto/stock market scanner/.env",
+          "line": 47,
+          "source": "file",
+          "preview": "gsk_************************7orO"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "crypto-trading-bot-main/crypto/stock market scanner/docker-compose.yml",
+          "line": 52,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -31537,6 +31582,33 @@
       ]
     },
     {
+      "repo": "Rahi-007/Fuel-Stations-Backend",
+      "url": "https://github.com/Rahi-007/Fuel-Stations-Backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 6.29,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 86b34a1",
+          "line": 93,
+          "source": "commit",
+          "preview": "post************************tech"
+        }
+      ]
+    },
+    {
       "repo": "Ratul8478/New-Gayetri-Jewellery-Jewellery-of-Jewelles",
       "url": "https://github.com/Ratul8478/New-Gayetri-Jewellery-Jewellery-of-Jewelles",
       "status": "leaked",
@@ -46657,6 +46729,33 @@
       ]
     },
     {
+      "repo": "umitcancinar/SeyahatRehberAI",
+      "url": "https://github.com/umitcancinar/SeyahatRehberAI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 10.15,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 4eb0f16",
+          "line": 19,
+          "source": "commit",
+          "preview": "AIza************************UwbU"
+        }
+      ]
+    },
+    {
       "repo": "unkv0wn/Clinixapi",
       "url": "https://github.com/unkv0wn/Clinixapi",
       "status": "leaked",
@@ -46761,6 +46860,33 @@
           "line": 3584,
           "source": "commit",
           "preview": "eyJh************************38V8"
+        }
+      ]
+    },
+    {
+      "repo": "vienna-ryo/-_v2",
+      "url": "https://github.com/vienna-ryo/-_v2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.08,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit caa3955",
+          "line": 745,
+          "source": "commit",
+          "preview": "AIza************************gwYs"
         }
       ]
     },
@@ -60022,6 +60148,33 @@
       ]
     },
     {
+      "repo": "Santandave961/NairaWise-AI",
+      "url": "https://github.com/Santandave961/NairaWise-AI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.84,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "NairaWise-AI-main/app.py",
+          "line": 99,
+          "source": "file",
+          "preview": "AIza************************tpuU"
+        }
+      ]
+    },
+    {
       "repo": "Saranggole9106/ideathon_project",
       "url": "https://github.com/Saranggole9106/ideathon_project",
       "status": "leaked",
@@ -65850,6 +66003,33 @@
           "line": 19,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "asafr-dev/supportdesk-app",
+      "url": "https://github.com/asafr-dev/supportdesk-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.49,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "supportdesk-app-main/.devcontainer/docker-compose.yml",
+          "line": 10,
+          "source": "file",
+          "preview": "post********************5432"
         }
       ]
     },
@@ -87751,6 +87931,33 @@
       ]
     },
     {
+      "repo": "sanchayan7432/AutoGuide-Telegram-Bot",
+      "url": "https://github.com/sanchayan7432/AutoGuide-Telegram-Bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.05,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "AutoGuide-Telegram-Bot-main/app.py",
+          "line": 14,
+          "source": "file",
+          "preview": "8634************************tcWg"
+        }
+      ]
+    },
+    {
       "repo": "sandolpin/SantopiSpeedmeter",
       "url": "https://github.com/sandolpin/SantopiSpeedmeter",
       "status": "leaked",
@@ -90663,6 +90870,33 @@
           "line": 31,
           "source": "file",
           "preview": "AIza************************Nus4"
+        }
+      ]
+    },
+    {
+      "repo": "thuanhgmakeatradingbot/trading-system",
+      "url": "https://github.com/thuanhgmakeatradingbot/trading-system",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.36,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "trading-system-main/server.js",
+          "line": 12,
+          "source": "file",
+          "preview": "8083************************mEn8"
         }
       ]
     },
