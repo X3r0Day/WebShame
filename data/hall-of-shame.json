@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T11:34:51.493427+00:00",
+  "generatedAt": "2026-03-28T11:57:49.806122+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -6175,6 +6175,56 @@
           "line": 36,
           "source": "file",
           "preview": "7619************************WntE"
+        }
+      ]
+    },
+    {
+      "repo": "kishorekalavakollu18/expense-tracker-backend",
+      "url": "https://github.com/kishorekalavakollu18/expense-tracker-backend",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 2,
+      "filesAffected": 4,
+      "commitFindings": 2,
+      "scanTimeSeconds": 142.6,
+      "exposureScore": 84,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 3
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "expense-tracker-backend-master/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "expense-tracker-backend-master/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 03f12cb",
+          "line": 60978,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 9bcc24f",
+          "line": 61752,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -50049,6 +50099,33 @@
       ]
     },
     {
+      "repo": "valeh1824/legendary-carnival",
+      "url": "https://github.com/valeh1824/legendary-carnival",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.13,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit f545dfd",
+          "line": 7599,
+          "source": "commit",
+          "preview": "8499************************OheA"
+        }
+      ]
+    },
+    {
       "repo": "valexxarg777/nutrimas-app",
       "url": "https://github.com/valexxarg777/nutrimas-app",
       "status": "leaked",
@@ -55989,6 +56066,33 @@
       ]
     },
     {
+      "repo": "EricEEEEEEE/openclaw-workspace-be",
+      "url": "https://github.com/EricEEEEEEE/openclaw-workspace-be",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.11,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenAI API Key (Legacy)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Legacy)": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "openclaw-workspace-be-main/memory/2026-03-17.md",
+          "line": 50,
+          "source": "file",
+          "preview": "sk-2************************K04i"
+        }
+      ]
+    },
+    {
       "repo": "Estrefo/Estrefo.github.io",
       "url": "https://github.com/Estrefo/Estrefo.github.io",
       "status": "leaked",
@@ -60174,6 +60278,33 @@
       ]
     },
     {
+      "repo": "Markide1/RemoTriage",
+      "url": "https://github.com/Markide1/RemoTriage",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.67,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "RemoTriage-main/backend/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "AIza************************Czi0"
+        }
+      ]
+    },
+    {
       "repo": "MartinSchmieschek/dataDogs",
       "url": "https://github.com/MartinSchmieschek/dataDogs",
       "status": "leaked",
@@ -62435,6 +62566,33 @@
         {
           "type": "Telegram Bot Token",
           "file": "Money-and-Banks2.1-main/macro_script.js",
+          "line": 18,
+          "source": "file",
+          "preview": "7811************************WbRw"
+        }
+      ]
+    },
+    {
+      "repo": "Presentations-with-ai/Money-and-Banks5.5",
+      "url": "https://github.com/Presentations-with-ai/Money-and-Banks5.5",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 19.76,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Money-and-Banks5.5-main/macro_script.js",
           "line": 18,
           "source": "file",
           "preview": "7811************************WbRw"
@@ -74106,6 +74264,33 @@
       ]
     },
     {
+      "repo": "cosmolotto/privacy-messenger",
+      "url": "https://github.com/cosmolotto/privacy-messenger",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.97,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "privacy-messenger-main/docker-compose.yml",
+          "line": 30,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "cristiand395/keyboard_game",
       "url": "https://github.com/cristiand395/keyboard_game",
       "status": "leaked",
@@ -78912,6 +79097,33 @@
       ]
     },
     {
+      "repo": "grodriguez-max/dn-clinic-app",
+      "url": "https://github.com/grodriguez-max/dn-clinic-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.86,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "dn-clinic-app-main/.claude/settings.local.json",
+          "line": 21,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "guauimpresion3d/cotizador3D",
       "url": "https://github.com/guauimpresion3d/cotizador3D",
       "status": "leaked",
@@ -81365,6 +81577,33 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************1D48"
+        }
+      ]
+    },
+    {
+      "repo": "ivy-ipm/api-checker",
+      "url": "https://github.com/ivy-ipm/api-checker",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.14,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "api-checker-main/main.py",
+          "line": 4,
+          "source": "file",
+          "preview": "http************************MJVx"
         }
       ]
     },
@@ -90329,6 +90568,33 @@
           "line": 4,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "painelsell-uiasa/telegram-mail-bot",
+      "url": "https://github.com/painelsell-uiasa/telegram-mail-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.53,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "telegram-mail-bot-main/mail.py",
+          "line": 14,
+          "source": "file",
+          "preview": "8731************************G5ds"
         }
       ]
     },
