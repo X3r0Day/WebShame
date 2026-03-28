@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T17:32:29.667432+00:00",
+  "generatedAt": "2026-03-28T18:00:25.090227+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -7546,6 +7546,54 @@
           "type": "Private Key (RSA)",
           "file": "Commit ea1a7e3",
           "line": 123648,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "Spykrr/testdil",
+      "url": "https://github.com/Spykrr/testdil",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 90.02,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "testdil-master/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "testdil-master/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit eca4748",
+          "line": 77193,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit eca4748",
+          "line": 77628,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -49749,6 +49797,33 @@
       ]
     },
     {
+      "repo": "stuprovn/dangiu2453",
+      "url": "https://github.com/stuprovn/dangiu2453",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.66,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit e5d3f49",
+          "line": 1324,
+          "source": "commit",
+          "preview": "8717************************V7jA"
+        }
+      ]
+    },
+    {
       "repo": "sublime247/mobile-money",
       "url": "https://github.com/sublime247/mobile-money",
       "status": "leaked",
@@ -58304,6 +58379,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************CD4o"
+        }
+      ]
+    },
+    {
+      "repo": "HarshitTomar143/taskflow",
+      "url": "https://github.com/HarshitTomar143/taskflow",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.25,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "taskflow-main/docker-compose.yml",
+          "line": 39,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -83553,6 +83655,33 @@
       ]
     },
     {
+      "repo": "javierggez/uni6tarea4",
+      "url": "https://github.com/javierggez/uni6tarea4",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 35.25,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "uni6tarea4-main/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************Jh0w"
+        }
+      ]
+    },
+    {
       "repo": "jawg-zz/test-stack-backend",
       "url": "https://github.com/jawg-zz/test-stack-backend",
       "status": "leaked",
@@ -92031,6 +92160,33 @@
       ]
     },
     {
+      "repo": "onetrustit-projects-repo/project-management-app",
+      "url": "https://github.com/onetrustit-projects-repo/project-management-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.25,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "project-management-app-main/docker/docker-compose.yml",
+          "line": 46,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "onurbzkn/Capsul",
       "url": "https://github.com/onurbzkn/Capsul",
       "status": "leaked",
@@ -94133,6 +94289,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************dsKY"
+        }
+      ]
+    },
+    {
+      "repo": "rabbi50100/my-telegram-bott",
+      "url": "https://github.com/rabbi50100/my-telegram-bott",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.08,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "my-telegram-bott-main/bot.py",
+          "line": 4,
+          "source": "file",
+          "preview": "8691************************jV7c"
         }
       ]
     },
@@ -96756,6 +96939,33 @@
       ]
     },
     {
+      "repo": "shamsuddoha123/firebase-phone-authentication",
+      "url": "https://github.com/shamsuddoha123/firebase-phone-authentication",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.26,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "firebase-phone-authentication-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************YUTw"
+        }
+      ]
+    },
+    {
       "repo": "shankarbanerjee63/remote-dev",
       "url": "https://github.com/shankarbanerjee63/remote-dev",
       "status": "leaked",
@@ -98187,6 +98397,33 @@
       ]
     },
     {
+      "repo": "studentcontrollerjyx-source/zukkoma-landingg",
+      "url": "https://github.com/studentcontrollerjyx-source/zukkoma-landingg",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.78,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "zukkoma-landingg-main/Zukkoma Landing page/src/Components/Mainsection.jsx",
+          "line": 44,
+          "source": "file",
+          "preview": "8574************************fbIk"
+        }
+      ]
+    },
+    {
       "repo": "studybuddy012/pic",
       "url": "https://github.com/studybuddy012/pic",
       "status": "leaked",
@@ -98615,6 +98852,33 @@
           "line": 1,
           "source": "file",
           "preview": "8760************************qdIQ"
+        }
+      ]
+    },
+    {
+      "repo": "t1mrush/g",
+      "url": "https://github.com/t1mrush/g",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.21,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "g-main/main.py",
+          "line": 16,
+          "source": "file",
+          "preview": "8666************************R4kg"
         }
       ]
     },
