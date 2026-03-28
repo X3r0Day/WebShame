@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T08:42:29.718114+00:00",
+  "generatedAt": "2026-03-28T09:20:47.323253+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -13880,6 +13880,49 @@
       ]
     },
     {
+      "repo": "ashish797/sutraapi-backup",
+      "url": "https://github.com/ashish797/sutraapi-backup",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 159.23,
+      "exposureScore": 52,
+      "topTypes": [
+        "OpenRouter API Key",
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 2,
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "sutraapi-backup-main/.openclaw/openclaw.json",
+          "line": 76,
+          "source": "file",
+          "preview": "sk-o************************af86"
+        },
+        {
+          "type": "OpenRouter API Key",
+          "file": "sutraapi-backup-main/.openclaw/openclaw.json",
+          "line": 77,
+          "source": "file",
+          "preview": "sk-o************************ffa7"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "sutraapi-backup-main/.openclaw/openclaw.json",
+          "line": 180,
+          "source": "file",
+          "preview": "8792************************4O38"
+        }
+      ]
+    },
+    {
       "repo": "fiittz/pivot1",
       "url": "https://github.com/fiittz/pivot1",
       "status": "leaked",
@@ -22577,6 +22620,42 @@
       ]
     },
     {
+      "repo": "cbpi/TrendRadar",
+      "url": "https://github.com/cbpi/TrendRadar",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 149.85,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Slack Webhook"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Slack Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "TrendRadar-master/README-EN.md",
+          "line": 1356,
+          "source": "file",
+          "preview": "1234************************m9T0"
+        },
+        {
+          "type": "Slack Webhook",
+          "file": "TrendRadar-master/README-EN.md",
+          "line": 1711,
+          "source": "file",
+          "preview": "http************************XXXX"
+        }
+      ]
+    },
+    {
       "repo": "cfcreator29-stack/-5554845",
       "url": "https://github.com/cfcreator29-stack/-5554845",
       "status": "leaked",
@@ -28287,6 +28366,40 @@
       ]
     },
     {
+      "repo": "raunak-choudhary/redline-reveal-gdg-hackathon-2026",
+      "url": "https://github.com/raunak-choudhary/redline-reveal-gdg-hackathon-2026",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.31,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "redline-reveal-gdg-hackathon-2026-main/CLAUDE.md",
+          "line": 82,
+          "source": "file",
+          "preview": "AIza************************lgKM"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "redline-reveal-gdg-hackathon-2026-main/CLAUDE.md",
+          "line": 83,
+          "source": "file",
+          "preview": "AIza************************VWro"
+        }
+      ]
+    },
+    {
       "repo": "riikuid/sobat-sql-api",
       "url": "https://github.com/riikuid/sobat-sql-api",
       "status": "leaked",
@@ -28997,6 +29110,40 @@
           "line": 39,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "zlade30/mc2-mobile",
+      "url": "https://github.com/zlade30/mc2-mobile",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 35.09,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "mc2-mobile-main/GoogleService-Info-Dev.plist",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************JivM"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "mc2-mobile-main/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************KdXc"
         }
       ]
     },
@@ -39581,6 +39728,33 @@
           "line": 355,
           "source": "commit",
           "preview": "AIza************************ymYA"
+        }
+      ]
+    },
+    {
+      "repo": "gamemegamemaa-crypto/Tempmail",
+      "url": "https://github.com/gamemegamemaa-crypto/Tempmail",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.0,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 5b0bae6",
+          "line": 812,
+          "source": "commit",
+          "preview": "AIza************************xgyQ"
         }
       ]
     },
@@ -50786,6 +50960,33 @@
           "line": 3,
           "source": "file",
           "preview": "AIza************************fQaE"
+        }
+      ]
+    },
+    {
+      "repo": "A1Hamo/New-njah1",
+      "url": "https://github.com/A1Hamo/New-njah1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.42,
+      "exposureScore": 20,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "New-njah1-main/README.md",
+          "line": 2,
+          "source": "file",
+          "preview": "ghp_************************3eGu"
         }
       ]
     },
@@ -82700,6 +82901,33 @@
           "line": 61,
           "source": "file",
           "preview": "whse************************ef95"
+        }
+      ]
+    },
+    {
+      "repo": "khalidabdullahiesse-hash/Biler-Market",
+      "url": "https://github.com/khalidabdullahiesse-hash/Biler-Market",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.13,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Biler-Market-main/my-fullstack-app/db/mongoose.js",
+          "line": 5,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
