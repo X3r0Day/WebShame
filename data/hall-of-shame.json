@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T20:07:25.015270+00:00",
+  "generatedAt": "2026-03-28T20:41:24.795745+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -21904,6 +21904,42 @@
           "line": 1710,
           "source": "file",
           "preview": "http************************XXXX"
+        }
+      ]
+    },
+    {
+      "repo": "ALLPLai/gradesecure-v4",
+      "url": "https://github.com/ALLPLai/gradesecure-v4",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.83,
+      "exposureScore": 40,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)",
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1,
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "gradesecure-v4-main/attached_assets/Pasted--usr-bin-env-python3-GradeSecure-Maritime-Intelligence-_1773412327694.txt",
+          "line": 28,
+          "source": "file",
+          "preview": "eyJh************************WKBs"
+        },
+        {
+          "type": "OpenRouter API Key",
+          "file": "gradesecure-v4-main/attached_assets/Pasted--usr-bin-env-python3-GradeSecure-Maritime-Intelligence-_1773412327694.txt",
+          "line": 32,
+          "source": "file",
+          "preview": "sk-o************************dae3"
         }
       ]
     },
@@ -63496,6 +63532,33 @@
       ]
     },
     {
+      "repo": "Nugget-Scietific/service-history",
+      "url": "https://github.com/Nugget-Scietific/service-history",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "service-history-main/worker/index.js",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************qsHI"
+        }
+      ]
+    },
+    {
       "repo": "Nuhufshk/mediterack",
       "url": "https://github.com/Nuhufshk/mediterack",
       "status": "leaked",
@@ -84529,6 +84592,33 @@
       ]
     },
     {
+      "repo": "jlopezsa/mcp-hello-world",
+      "url": "https://github.com/jlopezsa/mcp-hello-world",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 93.44,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "mcp-hello-world-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "sk-o************************dd5f"
+        }
+      ]
+    },
+    {
       "repo": "jmcolfersc-dev/PuntodeVenta",
       "url": "https://github.com/jmcolfersc-dev/PuntodeVenta",
       "status": "leaked",
@@ -88791,6 +88881,33 @@
           "line": 18,
           "source": "file",
           "preview": "AIza************************MIxo"
+        }
+      ]
+    },
+    {
+      "repo": "marcoantonioq/supabase",
+      "url": "https://github.com/marcoantonioq/supabase",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.77,
+      "exposureScore": 20,
+      "topTypes": [
+        "Stripe Webhook Secret"
+      ],
+      "typeCounts": {
+        "Stripe Webhook Secret": 1
+      },
+      "findings": [
+        {
+          "type": "Stripe Webhook Secret",
+          "file": "supabase-main/docker-compose.yml",
+          "line": 239,
+          "source": "file",
+          "preview": "whse************************aW5n"
         }
       ]
     },
