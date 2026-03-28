@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T11:57:49.806122+00:00",
+  "generatedAt": "2026-03-28T12:13:05.034575+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -10566,6 +10566,49 @@
       ]
     },
     {
+      "repo": "Unknown8765-ak/Company_Management",
+      "url": "https://github.com/Unknown8765-ak/Company_Management",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 153.12,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Unknown8765-ak-Company_Management-95df61f/Backend/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Unknown8765-ak-Company_Management-95df61f/Backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 95df61f",
+          "line": 75651,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "Zeddy-88/consul-test",
       "url": "https://github.com/Zeddy-88/consul-test",
       "status": "leaked",
@@ -14639,6 +14682,40 @@
           "line": 183,
           "source": "commit",
           "preview": "mong************************7017"
+        }
+      ]
+    },
+    {
+      "repo": "Niru-9/ORCHID",
+      "url": "https://github.com/Niru-9/ORCHID",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 112.56,
+      "exposureScore": 52,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit d83111b",
+          "line": 13674,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit d83111b",
+          "line": 83577,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -32252,6 +32329,33 @@
       ]
     },
     {
+      "repo": "IxsOiw/DEMO-TRADING",
+      "url": "https://github.com/IxsOiw/DEMO-TRADING",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 32.19,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 2234457",
+          "line": 19435,
+          "source": "commit",
+          "preview": "AIza************************moM4"
+        }
+      ]
+    },
+    {
       "repo": "JK-SWE-Smith/django__channels_redis.48f0e0f1",
       "url": "https://github.com/JK-SWE-Smith/django__channels_redis.48f0e0f1",
       "status": "leaked",
@@ -32491,6 +32595,33 @@
           "line": 218,
           "source": "commit",
           "preview": "eyJh************************5AQM"
+        }
+      ]
+    },
+    {
+      "repo": "Karnav018/securetrip",
+      "url": "https://github.com/Karnav018/securetrip",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 20.07,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 73657ba",
+          "line": 12859,
+          "source": "commit",
+          "preview": "AIza************************kUgc"
         }
       ]
     },
@@ -35596,6 +35727,33 @@
           "line": 108,
           "source": "commit",
           "preview": "AKIA************K4ZA"
+        }
+      ]
+    },
+    {
+      "repo": "Yashu-m23/Deskpulse",
+      "url": "https://github.com/Yashu-m23/Deskpulse",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.95,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit c63ffe9",
+          "line": 60,
+          "source": "commit",
+          "preview": "AIza************************cbk4"
         }
       ]
     },
@@ -67514,6 +67672,33 @@
       ]
     },
     {
+      "repo": "Yugmittal02/taksh",
+      "url": "https://github.com/Yugmittal02/taksh",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.68,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "taksh-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "Yuori81/tgbee-bot",
       "url": "https://github.com/Yuori81/tgbee-bot",
       "status": "leaked",
@@ -81253,6 +81438,33 @@
           "line": 7,
           "source": "file",
           "preview": "AIza************************gMVU"
+        }
+      ]
+    },
+    {
+      "repo": "innovation-dim/myinvite",
+      "url": "https://github.com/innovation-dim/myinvite",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.04,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "myinvite-main/scripts/seed-admin.ts",
+          "line": 5,
+          "source": "file",
+          "preview": "eyJh************************wkco"
         }
       ]
     },
