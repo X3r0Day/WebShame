@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T17:01:06.821650+00:00",
+  "generatedAt": "2026-03-28T17:32:29.667432+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -7450,6 +7450,54 @@
           "type": "Private Key (RSA)",
           "file": "Commit 0458294",
           "line": 69120,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "PriyamvadhaT/digital-id-backend",
+      "url": "https://github.com/PriyamvadhaT/digital-id-backend",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 120.31,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "digital-id-backend-main/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "digital-id-backend-main/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 9aafbb4",
+          "line": 113423,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 9aafbb4",
+          "line": 113858,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -19858,6 +19906,74 @@
       ]
     },
     {
+      "repo": "amidatanga6-spec/sevemoi",
+      "url": "https://github.com/amidatanga6-spec/sevemoi",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 7.89,
+      "exposureScore": 42,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 2
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "sevemoi-main/src/utils/config.js",
+          "line": 2,
+          "source": "file",
+          "preview": "8695************************MRr0"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 0371809",
+          "line": 16,
+          "source": "commit",
+          "preview": "7696************************OycA"
+        }
+      ]
+    },
+    {
+      "repo": "amidatanga6-spec/sevemoivery",
+      "url": "https://github.com/amidatanga6-spec/sevemoivery",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 24.23,
+      "exposureScore": 42,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 2
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "sevemoivery-main/src/utils/config.js",
+          "line": 2,
+          "source": "file",
+          "preview": "8330************************pxzw"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 6621180",
+          "line": 19,
+          "source": "commit",
+          "preview": "8726************************ij9c"
+        }
+      ]
+    },
+    {
       "repo": "apten-fors/apten-chat-server",
       "url": "https://github.com/apten-fors/apten-chat-server",
       "status": "leaked",
@@ -24826,6 +24942,42 @@
           "line": 2,
           "source": "file",
           "preview": "8525************************6cu4"
+        }
+      ]
+    },
+    {
+      "repo": "vikas-pawar-01/boiler-plate-project",
+      "url": "https://github.com/vikas-pawar-01/boiler-plate-project",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 139.28,
+      "exposureScore": 40,
+      "topTypes": [
+        "PostgreSQL Connection URI",
+        "Redis Connection URI (Password)"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1,
+        "Redis Connection URI (Password)": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "boiler-plate-project-main/backend-node/node_modules/pg-pool/README.md",
+          "line": 74,
+          "source": "file",
+          "preview": "post************************####"
+        },
+        {
+          "type": "Redis Connection URI (Password)",
+          "file": "boiler-plate-project-main/backend-node/node_modules/redis/README.md",
+          "line": 81,
+          "source": "file",
+          "preview": "redi************************80\","
         }
       ]
     },
@@ -31341,6 +31493,33 @@
           "line": 4295,
           "source": "commit",
           "preview": "AIza************************zevo"
+        }
+      ]
+    },
+    {
+      "repo": "Codeboosterz/Kratos",
+      "url": "https://github.com/Codeboosterz/Kratos",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 24.34,
+      "exposureScore": 30,
+      "topTypes": [
+        "Stripe Secret Key"
+      ],
+      "typeCounts": {
+        "Stripe Secret Key": 1
+      },
+      "findings": [
+        {
+          "type": "Stripe Secret Key",
+          "file": "Commit bef7902",
+          "line": 89,
+          "source": "commit",
+          "preview": "sk_t************************XXXX"
         }
       ]
     },
@@ -52999,6 +53178,33 @@
       ]
     },
     {
+      "repo": "Ackahkelvin45/mosquito_dashboard_be",
+      "url": "https://github.com/Ackahkelvin45/mosquito_dashboard_be",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.5,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "mosquito_dashboard_be-main/docker-compose.yml",
+          "line": 37,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Aconer991/tgbotnew",
       "url": "https://github.com/Aconer991/tgbotnew",
       "status": "leaked",
@@ -60370,6 +60576,33 @@
       ]
     },
     {
+      "repo": "Leigh12-93/cheapelectriciansnearme",
+      "url": "https://github.com/Leigh12-93/cheapelectriciansnearme",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 24.01,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "cheapelectriciansnearme-master/scripts/check-new-leads.sh",
+          "line": 6,
+          "source": "file",
+          "preview": "eyJh************************OWOo"
+        }
+      ]
+    },
+    {
       "repo": "Lepiozdyx/cost-and-sales-farm",
       "url": "https://github.com/Lepiozdyx/cost-and-sales-farm",
       "status": "leaked",
@@ -64470,6 +64703,33 @@
           "line": 7,
           "source": "file",
           "preview": "AIza************************t3UA"
+        }
+      ]
+    },
+    {
+      "repo": "Ritulx/job-portal",
+      "url": "https://github.com/Ritulx/job-portal",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.77,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "job-portal-main/backend/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -83536,6 +83796,33 @@
       ]
     },
     {
+      "repo": "jdwright/pennmed",
+      "url": "https://github.com/jdwright/pennmed",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.35,
+      "exposureScore": 20,
+      "topTypes": [
+        "AWS Access Key ID"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "pennmed-master/app/javascript/lib/ldcjs/waveform/helpers.js",
+          "line": 238,
+          "source": "file",
+          "preview": "AKIA************LGF3"
+        }
+      ]
+    },
+    {
       "repo": "jeevalm/Expense_Tracker",
       "url": "https://github.com/jeevalm/Expense_Tracker",
       "status": "leaked",
@@ -98976,6 +99263,33 @@
           "line": 2,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "thegrounder254/MATRIX2-XMD",
+      "url": "https://github.com/thegrounder254/MATRIX2-XMD",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.45,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "MATRIX2-XMD-main/commands/Search.js",
+          "line": 87,
+          "source": "file",
+          "preview": "AIza************************358c"
         }
       ]
     },
