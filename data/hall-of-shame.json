@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T23:03:57.064007+00:00",
+  "generatedAt": "2026-03-28T23:39:37.078645+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -28338,6 +28338,40 @@
           "line": 12,
           "source": "file",
           "preview": "ghp_************************WXjM"
+        }
+      ]
+    },
+    {
+      "repo": "dsgorthy/Form4",
+      "url": "https://github.com/dsgorthy/Form4",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 110.87,
+      "exposureScore": 32,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 2
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Form4-main/pipelines/insider_study/notify.py",
+          "line": 6,
+          "source": "file",
+          "preview": "8676************************69u0"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Form4-main/pipelines/insider_study/options_backfill.py",
+          "line": 64,
+          "source": "file",
+          "preview": "8738************************4mtA"
         }
       ]
     },
