@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T03:49:49.733050+00:00",
+  "generatedAt": "2026-03-28T05:32:35.905505+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -315,6 +315,70 @@
           "line": 2510,
           "source": "file",
           "preview": "eyJh************************yPw0"
+        }
+      ]
+    },
+    {
+      "repo": "aosp-mirror-neo/platform_external_python_ecdsa",
+      "url": "https://github.com/aosp-mirror-neo/platform_external_python_ecdsa",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 17,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 9,
+      "scanTimeSeconds": 26.01,
+      "exposureScore": 310,
+      "topTypes": [
+        "Private Key (PKCS8)",
+        "Private Key (EC)"
+      ],
+      "typeCounts": {
+        "Private Key (EC)": 8,
+        "Private Key (PKCS8)": 9
+      },
+      "findings": [
+        {
+          "type": "Private Key (EC)",
+          "file": "platform_external_python_ecdsa-main/src/ecdsa/test_ecdh.py",
+          "line": 298,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (EC)",
+          "file": "platform_external_python_ecdsa-main/src/ecdsa/test_keys.py",
+          "line": 133,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (PKCS8)",
+          "file": "platform_external_python_ecdsa-main/src/ecdsa/test_keys.py",
+          "line": 491,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (EC)",
+          "file": "platform_external_python_ecdsa-main/src/ecdsa/test_keys.py",
+          "line": 500,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (PKCS8)",
+          "file": "platform_external_python_ecdsa-main/src/ecdsa/test_keys.py",
+          "line": 510,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (PKCS8)",
+          "file": "platform_external_python_ecdsa-main/src/ecdsa/test_keys.py",
+          "line": 641,
+          "source": "file",
+          "preview": "----************************----"
         }
       ]
     },
@@ -14865,6 +14929,40 @@
       ]
     },
     {
+      "repo": "marriottgiftcards/giftcards",
+      "url": "https://github.com/marriottgiftcards/giftcards",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 1.79,
+      "exposureScore": 52,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 2
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 7b98f17",
+          "line": 448,
+          "source": "commit",
+          "preview": "8792************************fzdI"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 7b98f17",
+          "line": 531,
+          "source": "commit",
+          "preview": "8151************************qNYE"
+        }
+      ]
+    },
+    {
       "repo": "mlhommet/simone-mvp-perso",
       "url": "https://github.com/mlhommet/simone-mvp-perso",
       "status": "leaked",
@@ -22224,6 +22322,42 @@
       ]
     },
     {
+      "repo": "aosp-mirror-neo/platform_external_tink-java",
+      "url": "https://github.com/aosp-mirror-neo/platform_external_tink-java",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 198.76,
+      "exposureScore": 40,
+      "topTypes": [
+        "Private Key (PKCS8)",
+        "Private Key (EC)"
+      ],
+      "typeCounts": {
+        "Private Key (PKCS8)": 1,
+        "Private Key (EC)": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (PKCS8)",
+          "file": "platform_external_tink-java-main/src/test/java/com/google/crypto/tink/PemKeyTypeTest.java",
+          "line": 113,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (EC)",
+          "file": "platform_external_tink-java-main/src/test/java/com/google/crypto/tink/signature/SignaturePemKeysetReaderTest.java",
+          "line": 394,
+          "source": "file",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "arieliten85/liftlyGym-api",
       "url": "https://github.com/arieliten85/liftlyGym-api",
       "status": "leaked",
@@ -26274,6 +26408,40 @@
       ]
     },
     {
+      "repo": "aosp-mirror-neo/platform_packages_apps_Dialer",
+      "url": "https://github.com/aosp-mirror-neo/platform_packages_apps_Dialer",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 213.3,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "platform_packages_apps_Dialer-main/java/com/android/incallui/calllocation/impl/LocationUrlBuilder.java",
+          "line": 58,
+          "source": "file",
+          "preview": "AIza************************s060"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "platform_packages_apps_Dialer-main/java/com/android/incallui/calllocation/impl/LocationUrlBuilder.java",
+          "line": 59,
+          "source": "file",
+          "preview": "AIza************************dyCI"
+        }
+      ]
+    },
+    {
       "repo": "ask2expert/NebulaSync",
       "url": "https://github.com/ask2expert/NebulaSync",
       "status": "leaked",
@@ -28344,6 +28512,40 @@
           "line": 10,
           "source": "file",
           "preview": "AIza************************Zblc"
+        }
+      ]
+    },
+    {
+      "repo": "thiagosv/threads-bench",
+      "url": "https://github.com/thiagosv/threads-bench",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.51,
+      "exposureScore": 32,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "threads-bench-master/docker-compose.yaml",
+          "line": 75,
+          "source": "file",
+          "preview": "mong************************017\""
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "threads-bench-master/docker-compose.yaml",
+          "line": 90,
+          "source": "file",
+          "preview": "mong************************7017"
         }
       ]
     },
@@ -54729,6 +54931,33 @@
       ]
     },
     {
+      "repo": "ELASHA0/E_Police_3.0_new",
+      "url": "https://github.com/ELASHA0/E_Police_3.0_new",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 73.97,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "E_Police_3.0_new-main/Desktop/flutter_projects/safe-pick-ayush_patch/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************HwzY"
+        }
+      ]
+    },
+    {
       "repo": "Earthiscool/BraxtonV1Chatbot",
       "url": "https://github.com/Earthiscool/BraxtonV1Chatbot",
       "status": "leaked",
@@ -67230,6 +67459,33 @@
       ]
     },
     {
+      "repo": "aikamol1100-star/FieldPro",
+      "url": "https://github.com/aikamol1100-star/FieldPro",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.84,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "FieldPro-main/bot_runner.py",
+          "line": 6,
+          "source": "file",
+          "preview": "8670************************CzLU"
+        }
+      ]
+    },
+    {
       "repo": "aimasterwes66-collab/aimas-sgm-archive",
       "url": "https://github.com/aimasterwes66-collab/aimas-sgm-archive",
       "status": "leaked",
@@ -69008,6 +69264,33 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************FVGo"
+        }
+      ]
+    },
+    {
+      "repo": "aosp-mirror-neo/platform_external_doclava",
+      "url": "https://github.com/aosp-mirror-neo/platform_external_doclava",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 96.14,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "platform_external_doclava-main/res/assets/templates-sdk/assets/js/docs.js",
+          "line": 2111,
+          "source": "file",
+          "preview": "AIza************************bEe8"
         }
       ]
     },
@@ -85266,6 +85549,33 @@
       ]
     },
     {
+      "repo": "mayconRamos94/cemig-bot-project",
+      "url": "https://github.com/mayconRamos94/cemig-bot-project",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.34,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "cemig-bot-project-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "8606************************ppQE"
+        }
+      ]
+    },
+    {
       "repo": "mayur9618/VM",
       "url": "https://github.com/mayur9618/VM",
       "status": "leaked",
@@ -98897,6 +99207,33 @@
           "line": 4,
           "source": "file",
           "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "yernurkaa01/PP2-Practice-7",
+      "url": "https://github.com/yernurkaa01/PP2-Practice-7",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.0,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "PP2-Practice-7-main/a.py",
+          "line": 5,
+          "source": "file",
+          "preview": "post************************tech"
         }
       ]
     },
