@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T21:06:16.157231+00:00",
+  "generatedAt": "2026-03-28T21:42:55.580053+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -20336,6 +20336,40 @@
           "type": "Private Key (RSA)",
           "file": "Commit ce586c7",
           "line": 84521,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "carolinasouza0/ai-helpdesk-agent",
+      "url": "https://github.com/carolinasouza0/ai-helpdesk-agent",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 40.56,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "ai-helpdesk-agent-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 7c97ed3",
+          "line": 24505,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -61183,6 +61217,33 @@
       ]
     },
     {
+      "repo": "Levbezb/Telegram_bot",
+      "url": "https://github.com/Levbezb/Telegram_bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.32,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Telegram_bot-main/bot.py",
+          "line": 113,
+          "source": "file",
+          "preview": "8596************************vJhc"
+        }
+      ]
+    },
+    {
       "repo": "Lilianxsi/gato-multiplayer-unison",
       "url": "https://github.com/Lilianxsi/gato-multiplayer-unison",
       "status": "leaked",
@@ -92391,6 +92452,33 @@
           "line": 9,
           "source": "file",
           "preview": "http************************WSzd"
+        }
+      ]
+    },
+    {
+      "repo": "notabhi01/contentvault",
+      "url": "https://github.com/notabhi01/contentvault",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.52,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "contentvault-main/src/App.jsx",
+          "line": 16,
+          "source": "file",
+          "preview": "AIza************************Sajg"
         }
       ]
     },
