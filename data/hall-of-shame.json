@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T06:20:49.594879+00:00",
+  "generatedAt": "2026-03-28T07:24:52.926453+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -10295,6 +10295,49 @@
           "type": "Private Key (RSA)",
           "file": "Commit d23b520",
           "line": 50970,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "Sachin18022006/Expense-tracker",
+      "url": "https://github.com/Sachin18022006/Expense-tracker",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 72.53,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Expense-tracker-main/backend/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Expense-tracker-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit b8b2be8",
+          "line": 62089,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -36490,6 +36533,33 @@
       ]
     },
     {
+      "repo": "aslace-mi/ai_bot_talk",
+      "url": "https://github.com/aslace-mi/ai_bot_talk",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.14,
+      "exposureScore": 30,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "Commit 1f6b16a",
+          "line": 18,
+          "source": "commit",
+          "preview": "sk-o************************3eb5"
+        }
+      ]
+    },
+    {
       "repo": "aurasociety-code/paga_tu_credito_nequi_v2",
       "url": "https://github.com/aurasociety-code/paga_tu_credito_nequi_v2",
       "status": "leaked",
@@ -45454,6 +45524,33 @@
       ]
     },
     {
+      "repo": "qorexdev/django-api-template",
+      "url": "https://github.com/qorexdev/django-api-template",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.93,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 30aec80",
+          "line": 68,
+          "source": "commit",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "quinhi1993-hub/Yoga-b-u",
       "url": "https://github.com/quinhi1993-hub/Yoga-b-u",
       "status": "leaked",
@@ -50364,6 +50461,33 @@
           "line": 137,
           "source": "file",
           "preview": "ghp_************************xxxx"
+        }
+      ]
+    },
+    {
+      "repo": "20211124702/erp-system",
+      "url": "https://github.com/20211124702/erp-system",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.14,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "erp-system-main/docker-compose.yml",
+          "line": 63,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -85680,6 +85804,33 @@
           "line": 7,
           "source": "file",
           "preview": "8724************************FSq4"
+        }
+      ]
+    },
+    {
+      "repo": "mayankpandey131/Bluetooth-low-energy",
+      "url": "https://github.com/mayankpandey131/Bluetooth-low-energy",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.93,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Bluetooth-low-energy-main/app/src/main/AndroidManifest.xml",
+          "line": 27,
+          "source": "file",
+          "preview": "AIza************************lLao"
         }
       ]
     },
