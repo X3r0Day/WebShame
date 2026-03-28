@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T13:28:02.724004+00:00",
+  "generatedAt": "2026-03-28T14:12:05.645463+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -3630,6 +3630,68 @@
           "line": 1,
           "source": "file",
           "preview": "AIza************************a70s"
+        }
+      ]
+    },
+    {
+      "repo": "ferryfernando2/heyyow-",
+      "url": "https://github.com/ferryfernando2/heyyow-",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 8,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 47.52,
+      "exposureScore": 104,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 8
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "heyyow--main/src/pages/Home.jsx",
+          "line": 627,
+          "source": "file",
+          "preview": "AIza************************VNBc"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "heyyow--main/src/pages/Home.jsx",
+          "line": 628,
+          "source": "file",
+          "preview": "AIza************************qPjg"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "heyyow--main/src/pages/Home.jsx",
+          "line": 629,
+          "source": "file",
+          "preview": "AIza************************voy4"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "heyyow--main/src/pages/Home.jsx",
+          "line": 630,
+          "source": "file",
+          "preview": "AIza************************Snv4"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "heyyow--main/src/pages/Home.jsx",
+          "line": 631,
+          "source": "file",
+          "preview": "AIza************************6JqY"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "heyyow--main/src/pages/Home.jsx",
+          "line": 632,
+          "source": "file",
+          "preview": "AIza************************5zIw"
         }
       ]
     },
@@ -15526,6 +15588,40 @@
           "line": 2205,
           "source": "commit",
           "preview": "AIza************************wpG0"
+        }
+      ]
+    },
+    {
+      "repo": "pkd929/test-git-issues-assignment",
+      "url": "https://github.com/pkd929/test-git-issues-assignment",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 2,
+      "scanTimeSeconds": 61.89,
+      "exposureScore": 52,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 6657d48",
+          "line": 44499,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 062824e",
+          "line": 44499,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -63306,6 +63402,33 @@
       ]
     },
     {
+      "repo": "Rahban1/gym-tracker-swift",
+      "url": "https://github.com/Rahban1/gym-tracker-swift",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.78,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "gym-tracker-swift-master/GoogleService-Info.plist",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************0m5w"
+        }
+      ]
+    },
+    {
       "repo": "Raj7817/IndiaGPT",
       "url": "https://github.com/Raj7817/IndiaGPT",
       "status": "leaked",
@@ -66519,6 +66642,33 @@
       ]
     },
     {
+      "repo": "Tommy3808/ignum-cfo",
+      "url": "https://github.com/Tommy3808/ignum-cfo",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.61,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "ignum-cfo-main/README.md",
+          "line": 84,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Tristan-DW/nexus-api",
       "url": "https://github.com/Tristan-DW/nexus-api",
       "status": "leaked",
@@ -68706,6 +68856,33 @@
       ]
     },
     {
+      "repo": "adm-alvin-decruz/mandai-git-deploy-checker",
+      "url": "https://github.com/adm-alvin-decruz/mandai-git-deploy-checker",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.62,
+      "exposureScore": 20,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "mandai-git-deploy-checker-main/menubar-app/src/shared/api.ts",
+          "line": 11,
+          "source": "file",
+          "preview": "ghp_************************8834"
+        }
+      ]
+    },
+    {
       "repo": "aegiswizard/elf",
       "url": "https://github.com/aegiswizard/elf",
       "status": "leaked",
@@ -69404,6 +69581,33 @@
           "line": 3188,
           "source": "file",
           "preview": "AIza************************D5mA"
+        }
+      ]
+    },
+    {
+      "repo": "alexrbz/arexa-simulateur",
+      "url": "https://github.com/alexrbz/arexa-simulateur",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 61.35,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "arexa-simulateur-main/api/leads.js",
+          "line": 3,
+          "source": "file",
+          "preview": "post************************tech"
         }
       ]
     },
@@ -73481,6 +73685,33 @@
           "line": 3,
           "source": "file",
           "preview": "AIza************************Wh7E"
+        }
+      ]
+    },
+    {
+      "repo": "chayanandanj7-commits/flutter-firebase-posts-fetching",
+      "url": "https://github.com/chayanandanj7-commits/flutter-firebase-posts-fetching",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.42,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "flutter-firebase-posts-fetching-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************shfY"
         }
       ]
     },
@@ -86904,6 +87135,33 @@
       ]
     },
     {
+      "repo": "mariana01-martins/bot-refugo",
+      "url": "https://github.com/mariana01-martins/bot-refugo",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "bot-refugo-main/bot_refugo.py",
+          "line": 25,
+          "source": "file",
+          "preview": "8534************************RZtg"
+        }
+      ]
+    },
+    {
       "repo": "markswendsen-code/mcp-blueapron",
       "url": "https://github.com/markswendsen-code/mcp-blueapron",
       "status": "leaked",
@@ -87386,6 +87644,33 @@
           "line": 1,
           "source": "file",
           "preview": "8606************************ppQE"
+        }
+      ]
+    },
+    {
+      "repo": "maymyothet/carrental",
+      "url": "https://github.com/maymyothet/carrental",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.14,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "carrental-main/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************bBgk"
         }
       ]
     },
@@ -93141,6 +93426,33 @@
       ]
     },
     {
+      "repo": "rayzenuhuy12/DeathHead",
+      "url": "https://github.com/rayzenuhuy12/DeathHead",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.58,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "DeathHead-main/Database.json",
+          "line": 3,
+          "source": "file",
+          "preview": "8585************************NtAA"
+        }
+      ]
+    },
+    {
       "repo": "razz-rosan/Personal_ExpenseTracker_Assignment_HyScalar",
       "url": "https://github.com/razz-rosan/Personal_ExpenseTracker_Assignment_HyScalar",
       "status": "leaked",
@@ -94541,6 +94853,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************FxWw"
+        }
+      ]
+    },
+    {
+      "repo": "samsung15use-cyber/gifts",
+      "url": "https://github.com/samsung15use-cyber/gifts",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.08,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "gifts-main/agifts.py",
+          "line": 14,
+          "source": "file",
+          "preview": "8559************************U6u4"
         }
       ]
     },
