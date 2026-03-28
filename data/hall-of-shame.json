@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T22:03:41.652720+00:00",
+  "generatedAt": "2026-03-28T22:35:26.469563+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -27220,6 +27220,40 @@
       ]
     },
     {
+      "repo": "Sirilak2004/News_Offline_First_Supported",
+      "url": "https://github.com/Sirilak2004/News_Offline_First_Supported",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.35,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "News_Offline_First_Supported-main/ios/Runner/GoogleService-Info.plist",
+          "line": 10,
+          "source": "file",
+          "preview": "AIza************************nMBM"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "News_Offline_First_Supported-main/lib/utils/constants.dart",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************4fbk"
+        }
+      ]
+    },
+    {
       "repo": "SkiddedShizNits/Tools",
       "url": "https://github.com/SkiddedShizNits/Tools",
       "status": "leaked",
@@ -38315,6 +38349,33 @@
           "line": 874,
           "source": "commit",
           "preview": "AIza************************YYp4"
+        }
+      ]
+    },
+    {
+      "repo": "axiom-experiment/preview-estradas-handyman-service",
+      "url": "https://github.com/axiom-experiment/preview-estradas-handyman-service",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.79,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit a27f00a",
+          "line": 922,
+          "source": "commit",
+          "preview": "AIza************************9zjI"
         }
       ]
     },
@@ -69045,6 +69106,33 @@
       ]
     },
     {
+      "repo": "Vitoriano/listafacil-api",
+      "url": "https://github.com/Vitoriano/listafacil-api",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "listafacil-api-main/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Vivek436/airbnb-clonee",
       "url": "https://github.com/Vivek436/airbnb-clonee",
       "status": "leaked",
@@ -77384,6 +77472,33 @@
           "line": 4,
           "source": "file",
           "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "daniel81017/Lab4",
+      "url": "https://github.com/daniel81017/Lab4",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.2,
+      "exposureScore": 20,
+      "topTypes": [
+        "Mapbox API Key"
+      ],
+      "typeCounts": {
+        "Mapbox API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Mapbox API Key",
+          "file": "Lab4-main/script.js",
+          "line": 2,
+          "source": "file",
+          "preview": "pk.e************************Js0A"
         }
       ]
     },
