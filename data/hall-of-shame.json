@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T10:28:56.715731+00:00",
+  "generatedAt": "2026-03-28T11:05:06.970742+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -22627,6 +22627,42 @@
       ]
     },
     {
+      "repo": "avisekrajb/harvestifypdd",
+      "url": "https://github.com/avisekrajb/harvestifypdd",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.45,
+      "exposureScore": 40,
+      "topTypes": [
+        "Google API/GCP Key",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "harvestifypdd-main/backend/app/routes/disease.py",
+          "line": 53,
+          "source": "file",
+          "preview": "AIza************************LuaE"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "harvestifypdd-main/backend/check_admin.py",
+          "line": 7,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "begonal/NewsRadar",
       "url": "https://github.com/begonal/NewsRadar",
       "status": "leaked",
@@ -28745,6 +28781,40 @@
           "line": 13,
           "source": "file",
           "preview": "eyJh************************tbi8"
+        }
+      ]
+    },
+    {
+      "repo": "tainguyen07/ghep-chuyen",
+      "url": "https://github.com/tainguyen07/ghep-chuyen",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 22.11,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ghep-chuyen-master/android/app/google-services.json",
+          "line": 23,
+          "source": "file",
+          "preview": "AIza************************v_WM"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "ghep-chuyen-master/ios/Runner/GoogleService-Info.plist",
+          "line": 10,
+          "source": "file",
+          "preview": "AIza************************wGl4"
         }
       ]
     },
@@ -43045,6 +43115,33 @@
           "line": 34,
           "source": "commit",
           "preview": "eyJh************************WafU"
+        }
+      ]
+    },
+    {
+      "repo": "manishayadav2693/latlong",
+      "url": "https://github.com/manishayadav2693/latlong",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.6,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit cf223a9",
+          "line": 363,
+          "source": "commit",
+          "preview": "AIza************************1HHQ"
         }
       ]
     },
@@ -67075,6 +67172,33 @@
           "line": 18,
           "source": "file",
           "preview": "AIza************************rSQM"
+        }
+      ]
+    },
+    {
+      "repo": "Yashthakre-07/Chat_with_PDF_byYT",
+      "url": "https://github.com/Yashthakre-07/Chat_with_PDF_byYT",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.61,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Chat_with_PDF_byYT-main/app.py",
+          "line": 16,
+          "source": "file",
+          "preview": "AIza************************OEBU"
         }
       ]
     },
