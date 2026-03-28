@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T12:13:05.034575+00:00",
+  "generatedAt": "2026-03-28T13:28:02.724004+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -379,6 +379,68 @@
           "line": 641,
           "source": "file",
           "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "BastaMasta/LumioV2_Hardware",
+      "url": "https://github.com/BastaMasta/LumioV2_Hardware",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 11,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 11,
+      "scanTimeSeconds": 29.45,
+      "exposureScore": 250,
+      "topTypes": [
+        "Discord Bot Token"
+      ],
+      "typeCounts": {
+        "Discord Bot Token": 11
+      },
+      "findings": [
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 04e0fb1",
+          "line": 89861,
+          "source": "commit",
+          "preview": "Moun************************6960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 04e0fb1",
+          "line": 89868,
+          "source": "commit",
+          "preview": "Moun************************1960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 04e0fb1",
+          "line": 89875,
+          "source": "commit",
+          "preview": "Moun************************6960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 04e0fb1",
+          "line": 89882,
+          "source": "commit",
+          "preview": "Moun************************1960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 04e0fb1",
+          "line": 89889,
+          "source": "commit",
+          "preview": "Moun************************6960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 04e0fb1",
+          "line": 89896,
+          "source": "commit",
+          "preview": "Moun************************1960"
         }
       ]
     },
@@ -35542,6 +35604,33 @@
       ]
     },
     {
+      "repo": "Venky8249/Ai-Doctor-chatbot",
+      "url": "https://github.com/Venky8249/Ai-Doctor-chatbot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 21.0,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 34fd29c",
+          "line": 18,
+          "source": "commit",
+          "preview": "AIza************************jQQo"
+        }
+      ]
+    },
+    {
       "repo": "Vineet010104/cuda-ai-optimizer",
       "url": "https://github.com/Vineet010104/cuda-ai-optimizer",
       "status": "leaked",
@@ -37104,6 +37193,33 @@
           "line": 287,
           "source": "commit",
           "preview": "8647************************B0ZI"
+        }
+      ]
+    },
+    {
+      "repo": "arshad98333/Athithee-Collections",
+      "url": "https://github.com/arshad98333/Athithee-Collections",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 7.55,
+      "exposureScore": 30,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 9337c12",
+          "line": 57,
+          "source": "commit",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -53844,6 +53960,33 @@
           "line": 10,
           "source": "file",
           "preview": "AIza************************rENY"
+        }
+      ]
+    },
+    {
+      "repo": "BTKcreations/Food_Management_For_NGO_and_Donar",
+      "url": "https://github.com/BTKcreations/Food_Management_For_NGO_and_Donar",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 45.08,
+      "exposureScore": 20,
+      "topTypes": [
+        "Mapbox API Key"
+      ],
+      "typeCounts": {
+        "Mapbox API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Mapbox API Key",
+          "file": "Food_Management_For_NGO_and_Donar-main/client/src/components/MapboxTracker.jsx",
+          "line": 7,
+          "source": "file",
+          "preview": "pk.e************************-G-G"
         }
       ]
     },
@@ -80065,6 +80208,33 @@
       ]
     },
     {
+      "repo": "hencofouche/The-Averian",
+      "url": "https://github.com/hencofouche/The-Averian",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.6,
+      "exposureScore": 20,
+      "topTypes": [
+        "Stripe Secret Key"
+      ],
+      "typeCounts": {
+        "Stripe Secret Key": 1
+      },
+      "findings": [
+        {
+          "type": "Stripe Secret Key",
+          "file": "The-Averian-main/api/create-checkout.ts",
+          "line": 15,
+          "source": "file",
+          "preview": "sk_t************************e9f7"
+        }
+      ]
+    },
+    {
       "repo": "henesdoner/mhrs-android-appointment-system",
       "url": "https://github.com/henesdoner/mhrs-android-appointment-system",
       "status": "leaked",
@@ -89029,6 +89199,33 @@
       ]
     },
     {
+      "repo": "natebutler-sudo/cybersecurity-career-tracker",
+      "url": "https://github.com/natebutler-sudo/cybersecurity-career-tracker",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.43,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "cybersecurity-career-tracker-master/docker-compose.yml",
+          "line": 34,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "nazarbekov00003-sudo/tjkbonibt.shop",
       "url": "https://github.com/nazarbekov00003-sudo/tjkbonibt.shop",
       "status": "leaked",
@@ -94722,6 +94919,33 @@
           "line": 23,
           "source": "file",
           "preview": "AIza************************dCYQ"
+        }
+      ]
+    },
+    {
+      "repo": "sebasfavaron/eiffel-monitor",
+      "url": "https://github.com/sebasfavaron/eiffel-monitor",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 59.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "eiffel-monitor-main/monitor.py",
+          "line": 15,
+          "source": "file",
+          "preview": "8523************************mJ6E"
         }
       ]
     },
