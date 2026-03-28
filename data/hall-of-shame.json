@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T22:35:26.469563+00:00",
+  "generatedAt": "2026-03-28T23:03:57.064007+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -58441,6 +58441,33 @@
       ]
     },
     {
+      "repo": "GastonLevy/BE26_EXAM6_LevyGaston",
+      "url": "https://github.com/GastonLevy/BE26_EXAM6_LevyGaston",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.36,
+      "exposureScore": 20,
+      "topTypes": [
+        "MySQL/MariaDB Connection URI"
+      ],
+      "typeCounts": {
+        "MySQL/MariaDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "BE26_EXAM6_LevyGaston-main/.env",
+          "line": 8,
+          "source": "file",
+          "preview": "mysq***********************3306"
+        }
+      ]
+    },
+    {
       "repo": "Gauresh3008/AirBnb-Backend",
       "url": "https://github.com/Gauresh3008/AirBnb-Backend",
       "status": "leaked",
@@ -92808,6 +92835,33 @@
           "line": 31,
           "source": "file",
           "preview": "AIza************************JdKU"
+        }
+      ]
+    },
+    {
+      "repo": "odin-labs-ai/horizons",
+      "url": "https://github.com/odin-labs-ai/horizons",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 76.89,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google OAuth Access Token"
+      ],
+      "typeCounts": {
+        "Google OAuth Access Token": 1
+      },
+      "findings": [
+        {
+          "type": "Google OAuth Access Token",
+          "file": "horizons-main/horizons/src/core/services/token-vault.test.ts",
+          "line": 102,
+          "source": "file",
+          "preview": "ya29******************ere_"
         }
       ]
     },
