@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T21:42:55.580053+00:00",
+  "generatedAt": "2026-03-28T22:03:41.652720+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -8833,6 +8833,58 @@
           "line": 63531,
           "source": "commit",
           "preview": "AIza************************KG_E"
+        }
+      ]
+    },
+    {
+      "repo": "Ml2b/conway-automaton",
+      "url": "https://github.com/Ml2b/conway-automaton",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 3,
+      "filesAffected": 3,
+      "commitFindings": 0,
+      "scanTimeSeconds": 19.02,
+      "exposureScore": 72,
+      "topTypes": [
+        "Stripe Webhook Secret",
+        "GitHub Classic PAT",
+        "OpenAI API Key (Project)"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1,
+        "OpenAI API Key (Project)": 1,
+        "Stripe Webhook Secret": 2
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "conway-automaton-main/scripts/setup-github.md",
+          "line": 31,
+          "source": "file",
+          "preview": "ghp_************************xxxx"
+        },
+        {
+          "type": "OpenAI API Key (Project)",
+          "file": "conway-automaton-main/scripts/setup-openai.md",
+          "line": 26,
+          "source": "file",
+          "preview": "sk-p************************xxxx"
+        },
+        {
+          "type": "Stripe Webhook Secret",
+          "file": "conway-automaton-main/scripts/setup-stripe.md",
+          "line": 56,
+          "source": "file",
+          "preview": "whse************************xxxx"
+        },
+        {
+          "type": "Stripe Webhook Secret",
+          "file": "conway-automaton-main/scripts/setup-stripe.md",
+          "line": 73,
+          "source": "file",
+          "preview": "whse************************xxxx"
         }
       ]
     },
@@ -38483,6 +38535,33 @@
       ]
     },
     {
+      "repo": "baigjunaid2007-cpu/Ai-police-patrol",
+      "url": "https://github.com/baigjunaid2007-cpu/Ai-police-patrol",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 7.81,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit a44cd3e",
+          "line": 80,
+          "source": "commit",
+          "preview": "AIza************************IQ8c"
+        }
+      ]
+    },
+    {
       "repo": "bakaltech/2ndnaturesafety",
       "url": "https://github.com/bakaltech/2ndnaturesafety",
       "status": "leaked",
@@ -50143,6 +50222,33 @@
           "line": 568,
           "source": "commit",
           "preview": "eyJh************************TbEE"
+        }
+      ]
+    },
+    {
+      "repo": "stevenyapo278-ui/busci",
+      "url": "https://github.com/stevenyapo278-ui/busci",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 7.98,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit fcd9f5e",
+          "line": 141,
+          "source": "commit",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -103684,6 +103790,33 @@
           "line": 17,
           "source": "file",
           "preview": "sk-o************************358c"
+        }
+      ]
+    },
+    {
+      "repo": "xuJaa/my-newapi",
+      "url": "https://github.com/xuJaa/my-newapi",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 67.36,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "my-newapi-main/common/str.go",
+          "line": 250,
+          "source": "file",
+          "preview": "AIza************************rV70"
         }
       ]
     },
