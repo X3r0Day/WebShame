@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T16:14:29.414240+00:00",
+  "generatedAt": "2026-03-28T17:01:06.821650+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -11593,6 +11593,49 @@
       ]
     },
     {
+      "repo": "xoxmach7/brigada-backend",
+      "url": "https://github.com/xoxmach7/brigada-backend",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 122.61,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2,
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "brigada-backend-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "brigada-backend-main/node_modules/pg-pool/README.md",
+          "line": 74,
+          "source": "file",
+          "preview": "post************************####"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit a3bd5bc",
+          "line": 59631,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "xwla9090/karobot",
       "url": "https://github.com/xwla9090/karobot",
       "status": "leaked",
@@ -18653,6 +18696,40 @@
           "type": "Private Key (RSA)",
           "file": "Commit 9ac2cc3",
           "line": 21937,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "Gourmani/HomeBuddy",
+      "url": "https://github.com/Gourmani/HomeBuddy",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 146.68,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "HomeBuddy-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit f952f30",
+          "line": 73171,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -38315,6 +38392,33 @@
       ]
     },
     {
+      "repo": "booyahxxzone-ai/Admin-pannel",
+      "url": "https://github.com/booyahxxzone-ai/Admin-pannel",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.53,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 39c337a",
+          "line": 100,
+          "source": "commit",
+          "preview": "8491************************20-o"
+        }
+      ]
+    },
+    {
       "repo": "bqnq-zqnq/bone-zone-cock-shot-meter",
       "url": "https://github.com/bqnq-zqnq/bone-zone-cock-shot-meter",
       "status": "leaked",
@@ -50681,6 +50785,33 @@
       ]
     },
     {
+      "repo": "utkarsh-vats/LegalReader-1.0",
+      "url": "https://github.com/utkarsh-vats/LegalReader-1.0",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.55,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 0ae13c5",
+          "line": 64,
+          "source": "commit",
+          "preview": "post************************6543"
+        }
+      ]
+    },
+    {
       "repo": "vaishu109/HTML",
       "url": "https://github.com/vaishu109/HTML",
       "status": "leaked",
@@ -61886,6 +62017,33 @@
       ]
     },
     {
+      "repo": "Mzafeer11/doc-chat-multi-agent-rag",
+      "url": "https://github.com/Mzafeer11/doc-chat-multi-agent-rag",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 47.88,
+      "exposureScore": 20,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "doc-chat-multi-agent-rag-main/INTEGRATION_GITHUB_MODELS.md",
+          "line": 145,
+          "source": "file",
+          "preview": "ghp_************************xxxx"
+        }
+      ]
+    },
+    {
       "repo": "N4tzzOfficial/n4lyx",
       "url": "https://github.com/N4tzzOfficial/n4lyx",
       "status": "leaked",
@@ -63502,6 +63660,33 @@
           "line": 17,
           "source": "file",
           "preview": "AIza************************fDYg"
+        }
+      ]
+    },
+    {
+      "repo": "Priyeshshrivastav/Sepsis",
+      "url": "https://github.com/Priyeshshrivastav/Sepsis",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 18.07,
+      "exposureScore": 20,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "Sepsis-main/multi_agent_system.py",
+          "line": 34,
+          "source": "file",
+          "preview": "gsk_************************rKgX"
         }
       ]
     },
@@ -67579,6 +67764,33 @@
           "line": 31,
           "source": "file",
           "preview": "AIza************************8-wY"
+        }
+      ]
+    },
+    {
+      "repo": "VikrantPareek/Week-7-MongoDB",
+      "url": "https://github.com/VikrantPareek/Week-7-MongoDB",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 250.29,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Week-7-MongoDB-main/index.js",
+          "line": 10,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -76219,6 +76431,33 @@
           "line": 1,
           "source": "file",
           "preview": "8538************************JMrY"
+        }
+      ]
+    },
+    {
+      "repo": "danil20192018/projectsdaca",
+      "url": "https://github.com/danil20192018/projectsdaca",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.48,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "projectsdaca-main/core/gemini_client.py",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************mWI0"
         }
       ]
     },
@@ -87293,6 +87532,33 @@
       ]
     },
     {
+      "repo": "mackyy34/zlm-final",
+      "url": "https://github.com/mackyy34/zlm-final",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 60.76,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "zlm-final-main/.env",
+          "line": 10,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "madhumarvel123/mcp-client",
       "url": "https://github.com/madhumarvel123/mcp-client",
       "status": "leaked",
@@ -93739,6 +94005,33 @@
         {
           "type": "MongoDB Connection URI",
           "file": "my_portfolio-main/backend/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "raj-singh45/Auth-JWT-Redis-",
+      "url": "https://github.com/raj-singh45/Auth-JWT-Redis-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.2,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "raj-singh45-Auth-JWT-Redis--9627d80/.env",
           "line": 1,
           "source": "file",
           "preview": "mong************************.net"
