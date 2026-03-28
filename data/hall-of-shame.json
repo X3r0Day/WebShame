@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-27T23:58:03.161680+00:00",
+  "generatedAt": "2026-03-28T01:09:22.384085+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -33446,6 +33446,33 @@
       ]
     },
     {
+      "repo": "Rinjani-Dawn-Lombok/Lombok-Travel-Map",
+      "url": "https://github.com/Rinjani-Dawn-Lombok/Lombok-Travel-Map",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.4,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 1dd8add",
+          "line": 721,
+          "source": "commit",
+          "preview": "AIza************************U6WA"
+        }
+      ]
+    },
+    {
       "repo": "RishikKolpekwar/plum",
       "url": "https://github.com/RishikKolpekwar/plum",
       "status": "leaked",
@@ -48643,6 +48670,33 @@
           "line": 337,
           "source": "commit",
           "preview": "AIza************************wZcM"
+        }
+      ]
+    },
+    {
+      "repo": "thzzxq777/by",
+      "url": "https://github.com/thzzxq777/by",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.53,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 9c063cc",
+          "line": 357,
+          "source": "commit",
+          "preview": "http************************UeoI"
         }
       ]
     },
