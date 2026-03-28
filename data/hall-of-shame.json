@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T19:13:01.374214+00:00",
+  "generatedAt": "2026-03-28T19:48:42.308607+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -15797,6 +15797,40 @@
           "line": 44499,
           "source": "commit",
           "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "quy-tam/tiem-tra-sua-cua-tam",
+      "url": "https://github.com/quy-tam/tiem-tra-sua-cua-tam",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 2.85,
+      "exposureScore": 52,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit fc27abc",
+          "line": 177,
+          "source": "commit",
+          "preview": "AIza************************3sBg"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit fc27abc",
+          "line": 182,
+          "source": "commit",
+          "preview": "AIza************************OJ48"
         }
       ]
     },
@@ -44028,6 +44062,33 @@
       ]
     },
     {
+      "repo": "lusorasweets-ctrl/Toonnrussh",
+      "url": "https://github.com/lusorasweets-ctrl/Toonnrussh",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.95,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 0638bb3",
+          "line": 512,
+          "source": "commit",
+          "preview": "8777************************ZCac"
+        }
+      ]
+    },
+    {
       "repo": "lyqaswqasw-cpu/loop-live-v2",
       "url": "https://github.com/lyqaswqasw-cpu/loop-live-v2",
       "status": "leaked",
@@ -66299,6 +66360,33 @@
           "line": 14,
           "source": "file",
           "preview": "8773************************kyyY"
+        }
+      ]
+    },
+    {
+      "repo": "ShikharCodex/Prompting",
+      "url": "https://github.com/ShikharCodex/Prompting",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.67,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Prompting-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************1yqw"
         }
       ]
     },
@@ -95891,6 +95979,33 @@
           "line": 14,
           "source": "file",
           "preview": "7362************************QZcc"
+        }
+      ]
+    },
+    {
+      "repo": "rrikhy/credo-test",
+      "url": "https://github.com/rrikhy/credo-test",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.24,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "credo-test-main/tests/integration/test_sideeye_harness.py",
+          "line": 27,
+          "source": "file",
+          "preview": "AIza************************ERQY"
         }
       ]
     },
