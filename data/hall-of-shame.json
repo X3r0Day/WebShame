@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T19:48:42.308607+00:00",
+  "generatedAt": "2026-03-28T20:07:25.015270+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -8074,6 +8074,54 @@
           "type": "Private Key (RSA)",
           "file": "Commit 961494c",
           "line": 74489,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "praneet-01/BookHaven-Hub",
+      "url": "https://github.com/praneet-01/BookHaven-Hub",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 93.5,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "BookHaven-Hub-main/Backend/node_modules/dotenv/README-es.md",
+          "line": 112,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "BookHaven-Hub-main/Backend/node_modules/dotenv/README.md",
+          "line": 121,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 7043543",
+          "line": 57368,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 7043543",
+          "line": 57831,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -32425,6 +32473,33 @@
       ]
     },
     {
+      "repo": "GTG0116/Guam_MRMS",
+      "url": "https://github.com/GTG0116/Guam_MRMS",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.49,
+      "exposureScore": 30,
+      "topTypes": [
+        "Mapbox API Key"
+      ],
+      "typeCounts": {
+        "Mapbox API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Mapbox API Key",
+          "file": "Commit 1275336",
+          "line": 239,
+          "source": "commit",
+          "preview": "pk.e************************FucQ"
+        }
+      ]
+    },
+    {
       "repo": "Gabriely-Montanhana/Labirinto",
       "url": "https://github.com/Gabriely-Montanhana/Labirinto",
       "status": "leaked",
@@ -34720,6 +34795,33 @@
       ]
     },
     {
+      "repo": "PolibudMC/PolibedMC",
+      "url": "https://github.com/PolibudMC/PolibedMC",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.06,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 217883e",
+          "line": 151,
+          "source": "commit",
+          "preview": "8312************************XjX4"
+        }
+      ]
+    },
+    {
       "repo": "Prajwal-Gowda-N/Backup-System",
       "url": "https://github.com/Prajwal-Gowda-N/Backup-System",
       "status": "leaked",
@@ -35607,6 +35709,33 @@
           "line": 25,
           "source": "commit",
           "preview": "AIza************************2PWQ"
+        }
+      ]
+    },
+    {
+      "repo": "StockPro-AI/NexusTrader",
+      "url": "https://github.com/StockPro-AI/NexusTrader",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 9.11,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 8c0ca73",
+          "line": 165,
+          "source": "commit",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -39306,6 +39435,33 @@
           "line": 30,
           "source": "commit",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "cloudmarket99/nico-claude-batterymonster-v1",
+      "url": "https://github.com/cloudmarket99/nico-claude-batterymonster-v1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 31.36,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 1768200",
+          "line": 40687,
+          "source": "commit",
+          "preview": "AIza************************xhWM"
         }
       ]
     },
@@ -56640,6 +56796,33 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************iCU4"
+        }
+      ]
+    },
+    {
+      "repo": "Detellez/Servidor-Belcy",
+      "url": "https://github.com/Detellez/Servidor-Belcy",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.11,
+      "exposureScore": 20,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 1
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "Servidor-Belcy-main/public/content_auth.js",
+          "line": 632,
+          "source": "file",
+          "preview": "http************************json"
         }
       ]
     },
@@ -103269,6 +103452,33 @@
           "line": 21,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "yadavbrand5511/Telegram-bot_1",
+      "url": "https://github.com/yadavbrand5511/Telegram-bot_1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.78,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Telegram-bot_1-main/Bot.py",
+          "line": 5,
+          "source": "file",
+          "preview": "8759************************bLpw"
         }
       ]
     },
