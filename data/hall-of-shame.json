@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T01:09:22.384085+00:00",
+  "generatedAt": "2026-03-28T03:49:49.733050+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -19964,6 +19964,40 @@
           "type": "Private Key (RSA)",
           "file": "Commit 06f8f47",
           "line": 53265,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "kmoh-byte/FIGHTCENTRAL",
+      "url": "https://github.com/kmoh-byte/FIGHTCENTRAL",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 54.17,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "FIGHTCENTRAL-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 320b1a7",
+          "line": 25287,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -76615,6 +76649,33 @@
           "line": 6,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "fogyy1/Silly-Memes",
+      "url": "https://github.com/fogyy1/Silly-Memes",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.71,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Silly-Memes-main/main(1).py",
+          "line": 15,
+          "source": "file",
+          "preview": "http************************OVbq"
         }
       ]
     },
