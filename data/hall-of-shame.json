@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T11:05:06.970742+00:00",
+  "generatedAt": "2026-03-28T11:34:51.493427+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -11773,6 +11773,51 @@
           "line": 59,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "kalvin0x8d0/repomix",
+      "url": "https://github.com/kalvin0x8d0/repomix",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 3,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 48.18,
+      "exposureScore": 60,
+      "topTypes": [
+        "Private Key (RSA)",
+        "GitHub Classic PAT",
+        "AWS Secret Access Key (Env Var)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 1,
+        "GitHub Classic PAT": 1,
+        "AWS Secret Access Key (Env Var)": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "repomix-main/tests/core/security/workers/securityCheckWorker.test.ts",
+          "line": 29,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "GitHub Classic PAT",
+          "file": "repomix-main/tests/core/security/workers/securityCheckWorker.test.ts",
+          "line": 16,
+          "source": "file",
+          "preview": "ghp_************************INUx"
+        },
+        {
+          "type": "AWS Secret Access Key (Env Var)",
+          "file": "repomix-main/tests/core/security/workers/securityCheckWorker.test.ts",
+          "line": 20,
+          "source": "file",
+          "preview": "AWS_************************SKEY"
         }
       ]
     },
@@ -61695,6 +61740,33 @@
       ]
     },
     {
+      "repo": "Nuhufshk/mediterack",
+      "url": "https://github.com/Nuhufshk/mediterack",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 133.38,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "mediterack-main/README.md",
+          "line": 57,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "NumbWhileY/OpenRouter",
       "url": "https://github.com/NumbWhileY/OpenRouter",
       "status": "leaked",
@@ -80541,6 +80613,33 @@
       ]
     },
     {
+      "repo": "hylansilvadev/fastapi-vehicle-manager",
+      "url": "https://github.com/hylansilvadev/fastapi-vehicle-manager",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.3,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "fastapi-vehicle-manager-main/docker-compose.yml",
+          "line": 21,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "hyoniel2025-dot/BotPrueba1",
       "url": "https://github.com/hyoniel2025-dot/BotPrueba1",
       "status": "leaked",
@@ -95306,6 +95405,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************r94E"
+        }
+      ]
+    },
+    {
+      "repo": "sofrosri-netizen/sofrosri",
+      "url": "https://github.com/sofrosri-netizen/sofrosri",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.96,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "sofrosri-main/COMPLETE_FUNCTIONALITY_REPORT.md",
+          "line": 19,
+          "source": "file",
+          "preview": "AIza************************r0vc"
         }
       ]
     },
