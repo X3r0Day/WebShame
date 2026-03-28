@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T08:06:34.935486+00:00",
+  "generatedAt": "2026-03-28T08:42:29.718114+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -85269,6 +85269,33 @@
       ]
     },
     {
+      "repo": "mahadsharif2009-bit/oriyon_project",
+      "url": "https://github.com/mahadsharif2009-bit/oriyon_project",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.81,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "oriyon_project-main/bot_cassa.py",
+          "line": 6,
+          "source": "file",
+          "preview": "8690************************5vbE"
+        }
+      ]
+    },
+    {
       "repo": "mahudmahim-png/Jdjfjfjfjfjfjfj",
       "url": "https://github.com/mahudmahim-png/Jdjfjfjfjfjfjfj",
       "status": "leaked",
@@ -89616,6 +89643,33 @@
       ]
     },
     {
+      "repo": "pandit-in/golf-charity",
+      "url": "https://github.com/pandit-in/golf-charity",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.74,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "golf-charity-master/.env",
+          "line": 8,
+          "source": "file",
+          "preview": "post************************tech"
+        }
+      ]
+    },
+    {
       "repo": "pansatj11-cell/veterinaria",
       "url": "https://github.com/pansatj11-cell/veterinaria",
       "status": "leaked",
@@ -92231,6 +92285,33 @@
           "line": 14,
           "source": "file",
           "preview": "eyJh************************JEDg"
+        }
+      ]
+    },
+    {
+      "repo": "rngbadboy/RNGPASS",
+      "url": "https://github.com/rngbadboy/RNGPASS",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.57,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "RNGPASS-main/bot.py",
+          "line": 18,
+          "source": "file",
+          "preview": "8739************************RuEM"
         }
       ]
     },
