@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T10:00:47.320260+00:00",
+  "generatedAt": "2026-03-28T10:28:56.715731+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -45533,6 +45533,33 @@
       ]
     },
     {
+      "repo": "premiumytgemini/zooplus-40-rabatt",
+      "url": "https://github.com/premiumytgemini/zooplus-40-rabatt",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.4,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 3538bc3",
+          "line": 102,
+          "source": "commit",
+          "preview": "http************************vwx3"
+        }
+      ]
+    },
+    {
       "repo": "private232/sasa",
       "url": "https://github.com/private232/sasa",
       "status": "leaked",
@@ -62755,6 +62782,33 @@
           "line": 6,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "Ramya-S09/Gemini-Chat",
+      "url": "https://github.com/Ramya-S09/Gemini-Chat",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.44,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "Gemini-Chat-main/src/main/resources/application.properties",
+          "line": 3,
+          "source": "file",
+          "preview": "sk-o************************8723"
         }
       ]
     },
@@ -91784,6 +91838,33 @@
       ]
     },
     {
+      "repo": "radu25201-glitch/radu25201-glitch.github.io",
+      "url": "https://github.com/radu25201-glitch/radu25201-glitch.github.io",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.53,
+      "exposureScore": 20,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "radu25201-glitch.github.io-main/app.py",
+          "line": 8,
+          "source": "file",
+          "preview": "gsk_************************4GlK"
+        }
+      ]
+    },
+    {
       "repo": "ragavanpushpa67-netizen/My-portfolio",
       "url": "https://github.com/ragavanpushpa67-netizen/My-portfolio",
       "status": "leaked",
@@ -92023,6 +92104,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************o7CA"
+        }
+      ]
+    },
+    {
+      "repo": "rathorepayal56970-glitch/instaclone",
+      "url": "https://github.com/rathorepayal56970-glitch/instaclone",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 108.88,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "instaclone-main/app.js",
+          "line": 17,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -99313,6 +99421,33 @@
           "line": 1,
           "source": "file",
           "preview": "AIza************************lHyU"
+        }
+      ]
+    },
+    {
+      "repo": "wakashela/mavuno",
+      "url": "https://github.com/wakashela/mavuno",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.32,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "mavuno-dev/docker-compose.yml",
+          "line": 51,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
