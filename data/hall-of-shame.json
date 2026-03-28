@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T14:12:05.645463+00:00",
+  "generatedAt": "2026-03-28T14:49:09.378935+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -15660,6 +15660,40 @@
       ]
     },
     {
+      "repo": "rudypaolozzi-netizen/DndCalendarManager",
+      "url": "https://github.com/rudypaolozzi-netizen/DndCalendarManager",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 43.41,
+      "exposureScore": 52,
+      "topTypes": [
+        "Appwrite API Key"
+      ],
+      "typeCounts": {
+        "Appwrite API Key": 2
+      },
+      "findings": [
+        {
+          "type": "Appwrite API Key",
+          "file": "Commit b0d2028",
+          "line": 82,
+          "source": "commit",
+          "preview": "APPW************************05e5"
+        },
+        {
+          "type": "Appwrite API Key",
+          "file": "Commit b0d2028",
+          "line": 103,
+          "source": "commit",
+          "preview": "APPW************************05e5"
+        }
+      ]
+    },
+    {
       "repo": "sgorlov2003-design/architecture_python",
       "url": "https://github.com/sgorlov2003-design/architecture_python",
       "status": "leaked",
@@ -21201,6 +21235,40 @@
           "type": "Private Key (RSA)",
           "file": "Commit 4195d66",
           "line": 55689,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "theonesteIT/Library-Monitoring-System",
+      "url": "https://github.com/theonesteIT/Library-Monitoring-System",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 76.43,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Library-Monitoring-System-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit a6fa4bb",
+          "line": 75370,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -43152,6 +43220,33 @@
       ]
     },
     {
+      "repo": "lingoblast/lingoblast-app82989",
+      "url": "https://github.com/lingoblast/lingoblast-app82989",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 6.95,
+      "exposureScore": 30,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "Commit 355bf87",
+          "line": 10446,
+          "source": "commit",
+          "preview": "gsk_************************eNpk"
+        }
+      ]
+    },
+    {
       "repo": "lion391/sidequests",
       "url": "https://github.com/lion391/sidequests",
       "status": "leaked",
@@ -43607,6 +43702,33 @@
           "line": 363,
           "source": "commit",
           "preview": "AIza************************1HHQ"
+        }
+      ]
+    },
+    {
+      "repo": "mankaj77/AESTA1",
+      "url": "https://github.com/mankaj77/AESTA1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.7,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 3dc72dd",
+          "line": 1606,
+          "source": "commit",
+          "preview": "8593************************-i1U"
         }
       ]
     },
@@ -51441,6 +51563,33 @@
       ]
     },
     {
+      "repo": "0sama-rao/fortress-score-backend",
+      "url": "https://github.com/0sama-rao/fortress-score-backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.3,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "fortress-score-backend-master/docker-compose.yml",
+          "line": 31,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "105306002/AI-SDLC-lab",
       "url": "https://github.com/105306002/AI-SDLC-lab",
       "status": "leaked",
@@ -51572,6 +51721,33 @@
           "line": 14,
           "source": "file",
           "preview": "AIza************************LK04"
+        }
+      ]
+    },
+    {
+      "repo": "393799203/citycitypass",
+      "url": "https://github.com/393799203/citycitypass",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 23.84,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "citycitypass-main/client/src/api/ai.ts",
+          "line": 1,
+          "source": "file",
+          "preview": "sk-o************************c44e"
         }
       ]
     },
@@ -68559,6 +68735,33 @@
       ]
     },
     {
+      "repo": "abhay1999/dev-env-platform",
+      "url": "https://github.com/abhay1999/dev-env-platform",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.21,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "dev-env-platform-main/backend/internal/templates/templates/go-api/template.yaml",
+          "line": 17,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "abhijeeta2007-crypto/AI-research-agent",
       "url": "https://github.com/abhijeeta2007-crypto/AI-research-agent",
       "status": "leaked",
@@ -73685,6 +73888,33 @@
           "line": 3,
           "source": "file",
           "preview": "AIza************************Wh7E"
+        }
+      ]
+    },
+    {
+      "repo": "chayanandanj7-commits/firebase-data-filtering-",
+      "url": "https://github.com/chayanandanj7-commits/firebase-data-filtering-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.66,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "firebase-data-filtering--main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************shfY"
         }
       ]
     },
