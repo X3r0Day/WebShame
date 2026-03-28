@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T18:00:25.090227+00:00",
+  "generatedAt": "2026-03-28T18:32:09.654125+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -24490,6 +24490,42 @@
       ]
     },
     {
+      "repo": "maksadov57-sys/testbot",
+      "url": "https://github.com/maksadov57-sys/testbot",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.4,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "testbot-main/bot.py",
+          "line": 14,
+          "source": "file",
+          "preview": "8789************************-p-c"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "testbot-main/bot.py",
+          "line": 16,
+          "source": "file",
+          "preview": "AIza************************bFY4"
+        }
+      ]
+    },
+    {
       "repo": "mane-yash/Stash-Dashboard",
       "url": "https://github.com/mane-yash/Stash-Dashboard",
       "status": "leaked",
@@ -43587,6 +43623,33 @@
       ]
     },
     {
+      "repo": "lakshrajput04/ApplyWise_AI_CA",
+      "url": "https://github.com/lakshrajput04/ApplyWise_AI_CA",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.06,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 3369c91",
+          "line": 18,
+          "source": "commit",
+          "preview": "AIza************************gXbs"
+        }
+      ]
+    },
+    {
       "repo": "lalshinhzala1234/tradovaai",
       "url": "https://github.com/lalshinhzala1234/tradovaai",
       "status": "leaked",
@@ -56219,6 +56282,33 @@
           "line": 12,
           "source": "file",
           "preview": "7935************************wEyE"
+        }
+      ]
+    },
+    {
+      "repo": "DataRogue/wuxia-MMO",
+      "url": "https://github.com/DataRogue/wuxia-MMO",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.7,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "wuxia-MMO-master/research/mvp-dev-environment.md",
+          "line": 632,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -100634,6 +100724,33 @@
           "line": 4,
           "source": "file",
           "preview": "8208************************IrHQ"
+        }
+      ]
+    },
+    {
+      "repo": "turab456/finance_backend",
+      "url": "https://github.com/turab456/finance_backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.96,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "finance_backend-main/src/services/aiInsights.js",
+          "line": 5,
+          "source": "file",
+          "preview": "sk-o************************61a8"
         }
       ]
     },
