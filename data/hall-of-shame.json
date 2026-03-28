@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T18:32:09.654125+00:00",
+  "generatedAt": "2026-03-28T19:13:01.374214+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -53883,6 +53883,33 @@
       ]
     },
     {
+      "repo": "AlyanSameer01/Trackify",
+      "url": "https://github.com/AlyanSameer01/Trackify",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 51.12,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Trackify-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************5YJM"
+        }
+      ]
+    },
+    {
       "repo": "AmaanCD/poc-dremio-mcp-client",
       "url": "https://github.com/AmaanCD/poc-dremio-mcp-client",
       "status": "leaked",
@@ -54662,6 +54689,33 @@
           "line": 1,
           "source": "file",
           "preview": "AIza************************bJvA"
+        }
+      ]
+    },
+    {
+      "repo": "AyoLaww/doctor-appointment",
+      "url": "https://github.com/AyoLaww/doctor-appointment",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.72,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "doctor-appointment-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "post************************tech"
         }
       ]
     },
@@ -86877,6 +86931,33 @@
       ]
     },
     {
+      "repo": "lafix9910/bpump",
+      "url": "https://github.com/lafix9910/bpump",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.54,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "bpump-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "8674************************Cro0"
+        }
+      ]
+    },
+    {
       "repo": "laliteshwar/Async-AI-Pipeline",
       "url": "https://github.com/laliteshwar/Async-AI-Pipeline",
       "status": "leaked",
@@ -98433,6 +98514,33 @@
       ]
     },
     {
+      "repo": "starbowteam/-key-sk-or-v1------",
+      "url": "https://github.com/starbowteam/-key-sk-or-v1------",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.14,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "-key-sk-or-v1-------main/api-key.json",
+          "line": 1,
+          "source": "file",
+          "preview": "sk-o************************f682"
+        }
+      ]
+    },
+    {
       "repo": "starklabs2026-crypto/Cado",
       "url": "https://github.com/starklabs2026-crypto/Cado",
       "status": "leaked",
@@ -103019,6 +103127,33 @@
           "line": 14,
           "source": "file",
           "preview": "8741************************7m_A"
+        }
+      ]
+    },
+    {
+      "repo": "xxxzzx232131/bolt-diy-proxy",
+      "url": "https://github.com/xxxzzx232131/bolt-diy-proxy",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.56,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "bolt-diy-proxy-main/docker-compose.yml",
+          "line": 21,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
