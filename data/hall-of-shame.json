@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T15:55:43.402344+00:00",
+  "generatedAt": "2026-03-28T16:14:29.414240+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -35183,6 +35183,33 @@
       ]
     },
     {
+      "repo": "Sivan-devara7/Restaurant-website",
+      "url": "https://github.com/Sivan-devara7/Restaurant-website",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 32.28,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit bdbc351",
+          "line": 11999,
+          "source": "commit",
+          "preview": "AIza************************4PkE"
+        }
+      ]
+    },
+    {
       "repo": "Soumen0908/VSS_LLM",
       "url": "https://github.com/Soumen0908/VSS_LLM",
       "status": "leaked",
@@ -61859,6 +61886,33 @@
       ]
     },
     {
+      "repo": "N4tzzOfficial/n4lyx",
+      "url": "https://github.com/N4tzzOfficial/n4lyx",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 82.29,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "n4lyx-main/lib/WABinary/constants.js",
+          "line": 603,
+          "source": "file",
+          "preview": "AIza************************M6Lk"
+        }
+      ]
+    },
+    {
       "repo": "NAHID-TEST-SERVER/msg1",
       "url": "https://github.com/NAHID-TEST-SERVER/msg1",
       "status": "leaked",
@@ -67313,6 +67367,33 @@
       ]
     },
     {
+      "repo": "VIJAY8848/PS-2_Teamseven",
+      "url": "https://github.com/VIJAY8848/PS-2_Teamseven",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.51,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "PS-2_Teamseven-main/db_alter.js",
+          "line": 2,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "VakadaRupa/Career-Counseling-Platform-backend-3",
       "url": "https://github.com/VakadaRupa/Career-Counseling-Platform-backend-3",
       "status": "leaked",
@@ -70603,6 +70684,33 @@
           "line": 17,
           "source": "file",
           "preview": "AIza************************xSlc"
+        }
+      ]
+    },
+    {
+      "repo": "andrikotak27/bagibagi-roblox-server-nown",
+      "url": "https://github.com/andrikotak27/bagibagi-roblox-server-nown",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.56,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "bagibagi-roblox-server-nown-main/discord.js",
+          "line": 6,
+          "source": "file",
+          "preview": "http************************z11z"
         }
       ]
     },
@@ -97954,6 +98062,33 @@
           "line": 897,
           "source": "file",
           "preview": "AKIA************52Y5"
+        }
+      ]
+    },
+    {
+      "repo": "t5nn8ggs6s-beep/Shaken",
+      "url": "https://github.com/t5nn8ggs6s-beep/Shaken",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.06,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Shaken-main/bot.py",
+          "line": 13,
+          "source": "file",
+          "preview": "8328************************89Go"
         }
       ]
     },
