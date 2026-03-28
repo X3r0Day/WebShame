@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T14:49:09.378935+00:00",
+  "generatedAt": "2026-03-28T15:16:43.461878+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -33014,6 +33014,33 @@
       ]
     },
     {
+      "repo": "KondkariYusuf/aicp-backend",
+      "url": "https://github.com/KondkariYusuf/aicp-backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.13,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 94e8b12",
+          "line": 207,
+          "source": "commit",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Kosay/cv-maker",
       "url": "https://github.com/Kosay/cv-maker",
       "status": "leaked",
@@ -63065,6 +63092,33 @@
       ]
     },
     {
+      "repo": "Pratik9850/financial-year-end-closing",
+      "url": "https://github.com/Pratik9850/financial-year-end-closing",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.61,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "financial-year-end-closing-main/docker-compose.yml",
+          "line": 27,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Pratyush-06/CreatorForge",
       "url": "https://github.com/Pratyush-06/CreatorForge",
       "status": "leaked",
@@ -76511,6 +76565,33 @@
       ]
     },
     {
+      "repo": "deva3019/Finger-Print-Comparison",
+      "url": "https://github.com/deva3019/Finger-Print-Comparison",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 149.06,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Finger-Print-Comparison-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "devaa-ops/Climapx",
       "url": "https://github.com/devaa-ops/Climapx",
       "status": "leaked",
@@ -82582,6 +82663,33 @@
           "line": 1,
           "source": "file",
           "preview": "sk-p************************Ty4A"
+        }
+      ]
+    },
+    {
+      "repo": "jagjourney/true-protection-by-jag",
+      "url": "https://github.com/jagjourney/true-protection-by-jag",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 56.32,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "true-protection-by-jag-main/docs/admin-guide/central-management.md",
+          "line": 110,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -96001,6 +96109,33 @@
           "line": 9,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "shinlku/lunch",
+      "url": "https://github.com/shinlku/lunch",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.11,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "lunch-main/src/App.jsx",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************k6xw"
         }
       ]
     },
