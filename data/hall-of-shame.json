@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T05:32:35.905505+00:00",
+  "generatedAt": "2026-03-28T06:20:49.594879+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -38353,6 +38353,33 @@
       ]
     },
     {
+      "repo": "deryljacob/studio",
+      "url": "https://github.com/deryljacob/studio",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 10.12,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 9c80138",
+          "line": 16,
+          "source": "commit",
+          "preview": "AIza************************Rf20"
+        }
+      ]
+    },
+    {
       "repo": "dev-serena/Rabbit-giveways",
       "url": "https://github.com/dev-serena/Rabbit-giveways",
       "status": "leaked",
@@ -52717,6 +52744,33 @@
       ]
     },
     {
+      "repo": "Ayush-dot-146/healthops",
+      "url": "https://github.com/Ayush-dot-146/healthops",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.71,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "healthops-main/healthOps-main/docker-compose.yml",
+          "line": 29,
+          "source": "file",
+          "preview": "AIza************************waq8"
+        }
+      ]
+    },
+    {
       "repo": "AyushPandav/CyberComplain",
       "url": "https://github.com/AyushPandav/CyberComplain",
       "status": "leaked",
@@ -59386,6 +59440,33 @@
       ]
     },
     {
+      "repo": "MartinSchmieschek/dataDogs",
+      "url": "https://github.com/MartinSchmieschek/dataDogs",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.7,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "dataDogs-develop/dogs/FoodPornRetriever.ts",
+          "line": 30,
+          "source": "file",
+          "preview": "AIza************************y8PE"
+        }
+      ]
+    },
+    {
       "repo": "Martinmichelaz/Quiz",
       "url": "https://github.com/Martinmichelaz/Quiz",
       "status": "leaked",
@@ -61245,6 +61326,33 @@
           "line": 32,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "ParthGurav29/RL-ENV-reproducibility_auditor",
+      "url": "https://github.com/ParthGurav29/RL-ENV-reproducibility_auditor",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.67,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "RL-ENV-reproducibility_auditor-main/eval_all.py",
+          "line": 56,
+          "source": "file",
+          "preview": "AIza************************LpBA"
         }
       ]
     },
@@ -82714,6 +82822,33 @@
       ]
     },
     {
+      "repo": "kinnari222/Namaste-Youtube",
+      "url": "https://github.com/kinnari222/Namaste-Youtube",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.58,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Namaste-Youtube-main/src/utils/constants.js",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************Xb_M"
+        }
+      ]
+    },
+    {
       "repo": "kiritoebalo-gif/discord-ticket-bot",
       "url": "https://github.com/kiritoebalo-gif/discord-ticket-bot",
       "status": "leaked",
@@ -87574,6 +87709,33 @@
       ]
     },
     {
+      "repo": "newupdate716-png/Php",
+      "url": "https://github.com/newupdate716-png/Php",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.33,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Php-main/api/index.py",
+          "line": 10,
+          "source": "file",
+          "preview": "8488************************lRwY"
+        }
+      ]
+    },
+    {
       "repo": "nghidong26febu4164/repo0t5sau",
       "url": "https://github.com/nghidong26febu4164/repo0t5sau",
       "status": "leaked",
@@ -91516,6 +91678,33 @@
       ]
     },
     {
+      "repo": "renzalwayssolo-coder/Databasetoken.json",
+      "url": "https://github.com/renzalwayssolo-coder/Databasetoken.json",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.37,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Databasetoken.json-main/Datatoken.json",
+          "line": 3,
+          "source": "file",
+          "preview": "8434************************9phk"
+        }
+      ]
+    },
+    {
       "repo": "restaurantecardapio/cardapiodigital",
       "url": "https://github.com/restaurantecardapio/cardapiodigital",
       "status": "leaked",
@@ -94509,6 +94698,33 @@
           "line": 4,
           "source": "file",
           "preview": "eyJh************************WOTA"
+        }
+      ]
+    },
+    {
+      "repo": "subalakshmi-mohanasundaram/FilmFlow",
+      "url": "https://github.com/subalakshmi-mohanasundaram/FilmFlow",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.2,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "FilmFlow-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************lNB4"
         }
       ]
     },
