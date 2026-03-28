@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T07:24:52.926453+00:00",
+  "generatedAt": "2026-03-28T08:06:34.935486+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -20417,6 +20417,40 @@
       ]
     },
     {
+      "repo": "ramya0511/Synergia_Booking_api",
+      "url": "https://github.com/ramya0511/Synergia_Booking_api",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 110.96,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Synergia_Booking_api-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 252ae83",
+          "line": 58420,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "roberts8da/fabric",
       "url": "https://github.com/roberts8da/fabric",
       "status": "leaked",
@@ -20549,6 +20583,40 @@
           "line": 97,
           "source": "commit",
           "preview": "eyJh************************eeS4"
+        }
+      ]
+    },
+    {
+      "repo": "shivalisavant/Electronics-PIM-System",
+      "url": "https://github.com/shivalisavant/Electronics-PIM-System",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 151.69,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Electronics-PIM-System-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 696c885",
+          "line": 82942,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -25227,6 +25295,40 @@
       ]
     },
     {
+      "repo": "KyanX/V-seventeen",
+      "url": "https://github.com/KyanX/V-seventeen",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.18,
+      "exposureScore": 32,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 2
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "V-seventeen-main/king_legacy_AutoFarmSeaKingHydra.lua",
+          "line": 81,
+          "source": "file",
+          "preview": "http************************vmdZ"
+        },
+        {
+          "type": "Discord Webhook",
+          "file": "V-seventeen-main/king_legacy_AutoFarmSeaKingHydra.lua",
+          "line": 82,
+          "source": "file",
+          "preview": "http************************wB71"
+        }
+      ]
+    },
+    {
       "repo": "MangalNathYadav/Neet-error-notebook-ai",
       "url": "https://github.com/MangalNathYadav/Neet-error-notebook-ai",
       "status": "leaked",
@@ -26821,6 +26923,40 @@
           "line": 5,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "coder-noman/image-hosting-server",
+      "url": "https://github.com/coder-noman/image-hosting-server",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 31.72,
+      "exposureScore": 32,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "image-hosting-server-main/Backend/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "image-hosting-server-main/Backend/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "mong************************7017"
         }
       ]
     },
@@ -65288,6 +65424,33 @@
       ]
     },
     {
+      "repo": "TienxDun/API_Digibook",
+      "url": "https://github.com/TienxDun/API_Digibook",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.85,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "API_Digibook-main/appsettings.json",
+          "line": 42,
+          "source": "file",
+          "preview": "8564************************aqPE"
+        }
+      ]
+    },
+    {
       "repo": "TijinThomas45/Legal-Ease-AI",
       "url": "https://github.com/TijinThomas45/Legal-Ease-AI",
       "status": "leaked",
@@ -71656,6 +71819,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************ehh8"
+        }
+      ]
+    },
+    {
+      "repo": "camkylam/Deloy_web",
+      "url": "https://github.com/camkylam/Deloy_web",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 159.95,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Deloy_web-main/config/database.config.js",
+          "line": 5,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -94633,6 +94823,33 @@
           "line": 11,
           "source": "file",
           "preview": "AIza************************fS48"
+        }
+      ]
+    },
+    {
+      "repo": "srinivas9618/Weather_API_Assignment",
+      "url": "https://github.com/srinivas9618/Weather_API_Assignment",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 28.49,
+      "exposureScore": 20,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Weather_API_Assignment-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
         }
       ]
     },
