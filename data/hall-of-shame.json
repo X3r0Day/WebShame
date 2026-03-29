@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T05:10:04.240864+00:00",
+  "generatedAt": "2026-03-29T06:25:00.527083+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -30927,6 +30927,33 @@
           "line": 36,
           "source": "commit",
           "preview": "AIza************************qG4k"
+        }
+      ]
+    },
+    {
+      "repo": "AgungExcel/PayslipBIPO",
+      "url": "https://github.com/AgungExcel/PayslipBIPO",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.82,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 6174e6c",
+          "line": 59,
+          "source": "commit",
+          "preview": "AIza************************CuhY"
         }
       ]
     },
