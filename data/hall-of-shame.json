@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T16:00:06.450445+00:00",
+  "generatedAt": "2026-03-29T16:19:22.260290+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -12736,6 +12736,51 @@
       ]
     },
     {
+      "repo": "markusbergmann94/meridian-ml-analytics",
+      "url": "https://github.com/markusbergmann94/meridian-ml-analytics",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 3,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.33,
+      "exposureScore": 60,
+      "topTypes": [
+        "OpenAI API Key (Project)",
+        "Anthropic API Key",
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Project)": 1,
+        "Anthropic API Key": 1,
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Project)",
+          "file": "meridian-ml-analytics-main/.env",
+          "line": 11,
+          "source": "file",
+          "preview": "sk-p************************DlEf"
+        },
+        {
+          "type": "Anthropic API Key",
+          "file": "meridian-ml-analytics-main/.env",
+          "line": 14,
+          "source": "file",
+          "preview": "sk-a************************wXyZ"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "meridian-ml-analytics-main/.env",
+          "line": 29,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "sawariyaseth/crypto-trading-bot",
       "url": "https://github.com/sawariyaseth/crypto-trading-bot",
       "status": "leaked",
@@ -16695,6 +16740,42 @@
           "line": 4852,
           "source": "commit",
           "preview": "AIza************************HQ-s"
+        }
+      ]
+    },
+    {
+      "repo": "BulatXS/Go2_Practice-13",
+      "url": "https://github.com/BulatXS/Go2_Practice-13",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 14.59,
+      "exposureScore": 50,
+      "topTypes": [
+        "RabbitMQ/AMQP URI",
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "RabbitMQ/AMQP URI": 1,
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "RabbitMQ/AMQP URI",
+          "file": "Go2_Practice-13-main/services/worker/cmd/main.go",
+          "line": 12,
+          "source": "file",
+          "preview": "amqp************************5672"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 8459666",
+          "line": 305,
+          "source": "commit",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -48034,6 +48115,33 @@
       ]
     },
     {
+      "repo": "nnufu/xanhdo",
+      "url": "https://github.com/nnufu/xanhdo",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.75,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit e553030",
+          "line": 519,
+          "source": "commit",
+          "preview": "AIza************************kpo0"
+        }
+      ]
+    },
+    {
       "repo": "nooralhud498-tech/Wep",
       "url": "https://github.com/nooralhud498-tech/Wep",
       "status": "leaked",
@@ -77599,6 +77707,33 @@
       ]
     },
     {
+      "repo": "catalinacid37-lgtm/simpleman.05",
+      "url": "https://github.com/catalinacid37-lgtm/simpleman.05",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 94.6,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "simpleman.05-main/fullstack_clientes/node_modules/pg-pool/README.md",
+          "line": 74,
+          "source": "file",
+          "preview": "post************************####"
+        }
+      ]
+    },
+    {
       "repo": "cbosiang/Investment_Advisory_Report",
       "url": "https://github.com/cbosiang/Investment_Advisory_Report",
       "status": "leaked",
@@ -78702,6 +78837,33 @@
           "line": 3,
           "source": "file",
           "preview": "AIza************************5aio"
+        }
+      ]
+    },
+    {
+      "repo": "codencytech/mern-food-delivery-app-main",
+      "url": "https://github.com/codencytech/mern-food-delivery-app-main",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 30.83,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "mern-food-delivery-app-main-main/backend/config/db.js",
+          "line": 4,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -82189,6 +82351,33 @@
       ]
     },
     {
+      "repo": "elifkollsuz/easy-shop-admin",
+      "url": "https://github.com/elifkollsuz/easy-shop-admin",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.92,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "easy-shop-admin-main/app/google-services.json",
+          "line": 19,
+          "source": "file",
+          "preview": "AIza************************IyCs"
+        }
+      ]
+    },
+    {
       "repo": "elitsuri/authguard-api-1",
       "url": "https://github.com/elitsuri/authguard-api-1",
       "status": "leaked",
@@ -82405,6 +82594,33 @@
       ]
     },
     {
+      "repo": "elitsuri/go-file-processor",
+      "url": "https://github.com/elitsuri/go-file-processor",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.22,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "go-file-processor-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "elitsuri/greentrack-1",
       "url": "https://github.com/elitsuri/greentrack-1",
       "status": "leaked",
@@ -82540,6 +82756,33 @@
       ]
     },
     {
+      "repo": "elitsuri/pydatasync",
+      "url": "https://github.com/elitsuri/pydatasync",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.69,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "pydatasync-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "elitsuri/reactdatagrid-1",
       "url": "https://github.com/elitsuri/reactdatagrid-1",
       "status": "leaked",
@@ -82560,6 +82803,33 @@
         {
           "type": "PostgreSQL Connection URI",
           "file": "reactdatagrid-1-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/rust-rest-api",
+      "url": "https://github.com/elitsuri/rust-rest-api",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.5,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "rust-rest-api-main/docker/docker-compose.yml",
           "line": 11,
           "source": "file",
           "preview": "post************************5432"
@@ -82641,6 +82911,33 @@
         {
           "type": "PostgreSQL Connection URI",
           "file": "streamflow-1-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/supportdesk-1",
+      "url": "https://github.com/elitsuri/supportdesk-1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.57,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "supportdesk-1-main/docker/docker-compose.yml",
           "line": 11,
           "source": "file",
           "preview": "post************************5432"
@@ -84021,6 +84318,33 @@
           "line": 12,
           "source": "file",
           "preview": "8432************************gido"
+        }
+      ]
+    },
+    {
+      "repo": "gauzamf22/HealthcareAI-App",
+      "url": "https://github.com/gauzamf22/HealthcareAI-App",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.56,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "HealthcareAI-App-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************Vd28"
         }
       ]
     },
@@ -86455,6 +86779,33 @@
       ]
     },
     {
+      "repo": "iampokrovsky/managed-tg-gpt-chat",
+      "url": "https://github.com/iampokrovsky/managed-tg-gpt-chat",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.5,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "managed-tg-gpt-chat-master/pkg/echotron/api_test.go",
+          "line": 24,
+          "source": "file",
+          "preview": "1713************************luzM"
+        }
+      ]
+    },
+    {
       "repo": "iamrandz92-cloud/crisiswatch",
       "url": "https://github.com/iamrandz92-cloud/crisiswatch",
       "status": "leaked",
@@ -88746,6 +89097,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************kAGk"
+        }
+      ]
+    },
+    {
+      "repo": "justman00/ski-agent",
+      "url": "https://github.com/justman00/ski-agent",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.62,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "ski-agent-main/docker-compose.yml",
+          "line": 42,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
