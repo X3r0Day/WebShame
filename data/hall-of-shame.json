@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T22:59:13.886838+00:00",
+  "generatedAt": "2026-03-29T23:27:35.680538+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -22118,6 +22118,40 @@
           "type": "Private Key (RSA)",
           "file": "Commit a9a0da5",
           "line": 89128,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "fabianonetto/mcp-server-firefly-iii",
+      "url": "https://github.com/fabianonetto/mcp-server-firefly-iii",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 72.29,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "mcp-server-firefly-iii-master/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit a52e269",
+          "line": 159930,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -85977,6 +86011,33 @@
           "line": 15,
           "source": "file",
           "preview": "AIza************************hdc8"
+        }
+      ]
+    },
+    {
+      "repo": "fifsertech/FerroTrade",
+      "url": "https://github.com/fifsertech/FerroTrade",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.27,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "FerroTrade-master/seed.py",
+          "line": 5,
+          "source": "file",
+          "preview": "post************************tech"
         }
       ]
     },
