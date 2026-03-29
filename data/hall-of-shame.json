@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T00:05:04.736846+00:00",
+  "generatedAt": "2026-03-29T02:54:39.645262+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -25450,6 +25450,42 @@
       ]
     },
     {
+      "repo": "yuvmarkee-collab/0pp",
+      "url": "https://github.com/yuvmarkee-collab/0pp",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 78.06,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Slack Webhook"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Slack Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "0pp-master/README-EN.md",
+          "line": 1376,
+          "source": "file",
+          "preview": "1234************************m9T0"
+        },
+        {
+          "type": "Slack Webhook",
+          "file": "0pp-master/README-EN.md",
+          "line": 1731,
+          "source": "file",
+          "preview": "http************************XXXX"
+        }
+      ]
+    },
+    {
       "repo": "zlord0102-blip/admin_dashboard_telegram_bot",
       "url": "https://github.com/zlord0102-blip/admin_dashboard_telegram_bot",
       "status": "leaked",
@@ -48454,6 +48490,33 @@
           "line": 878,
           "source": "commit",
           "preview": "AIza************************9uH8"
+        }
+      ]
+    },
+    {
+      "repo": "romashka-13pg/final",
+      "url": "https://github.com/romashka-13pg/final",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 39.55,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 220d652",
+          "line": 411,
+          "source": "commit",
+          "preview": "8268************************2xJM"
         }
       ]
     },
