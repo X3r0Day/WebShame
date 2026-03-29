@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T06:25:00.527083+00:00",
+  "generatedAt": "2026-03-29T07:41:38.327508+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -16762,6 +16762,47 @@
       ]
     },
     {
+      "repo": "Ankit-kr-27/SmileCare-main",
+      "url": "https://github.com/Ankit-kr-27/SmileCare-main",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 130.9,
+      "exposureScore": 44,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 3
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "SmileCare-main-main/.agents/skills/neon-postgres/references/neon-rest-api/branches.md",
+          "line": 152,
+          "source": "file",
+          "preview": "post************************tech"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "SmileCare-main-main/.agents/skills/neon-postgres/references/neon-rest-api/projects.md",
+          "line": 189,
+          "source": "file",
+          "preview": "post************************tech"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "SmileCare-main-main/.agents/skills/neon-postgres/references/neon-rest-api/projects.md",
+          "line": 574,
+          "source": "file",
+          "preview": "post************************tech"
+        }
+      ]
+    },
+    {
       "repo": "BLUHHHZZ25/rapidoo-superapp",
       "url": "https://github.com/BLUHHHZZ25/rapidoo-superapp",
       "status": "leaked",
@@ -23212,6 +23253,42 @@
           "line": 10,
           "source": "file",
           "preview": "redi***********************379\""
+        }
+      ]
+    },
+    {
+      "repo": "Unknown-903/luvk",
+      "url": "https://github.com/Unknown-903/luvk",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 20.46,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "luvk-main/config.py",
+          "line": 13,
+          "source": "file",
+          "preview": "7439************************XaqY"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "luvk-main/config.py",
+          "line": 22,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -70081,6 +70158,33 @@
       ]
     },
     {
+      "repo": "ZenDroidX/SkyHub",
+      "url": "https://github.com/ZenDroidX/SkyHub",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 31.56,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "SkyHub-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************0LjU"
+        }
+      ]
+    },
+    {
       "repo": "ZenTxZen/SpaceBot",
       "url": "https://github.com/ZenTxZen/SpaceBot",
       "status": "leaked",
@@ -74343,6 +74447,33 @@
           "line": 199,
           "source": "file",
           "preview": "AIza************************NlPk"
+        }
+      ]
+    },
+    {
+      "repo": "bhjagag660-source/Can-market-reis",
+      "url": "https://github.com/bhjagag660-source/Can-market-reis",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.78,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Can-market-reis-main/main.py",
+          "line": 22,
+          "source": "file",
+          "preview": "8694************************1Q3o"
         }
       ]
     },
