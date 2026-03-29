@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-28T23:39:37.078645+00:00",
+  "generatedAt": "2026-03-29T00:05:04.736846+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -78856,6 +78856,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************nTmU"
+        }
+      ]
+    },
+    {
+      "repo": "doco552/denpyou-app",
+      "url": "https://github.com/doco552/denpyou-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.46,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "denpyou-app-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************qI0Y"
         }
       ]
     },
