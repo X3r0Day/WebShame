@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T09:42:32.297138+00:00",
+  "generatedAt": "2026-03-29T10:13:28.917592+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -41665,6 +41665,33 @@
       ]
     },
     {
+      "repo": "g-ipg240000739-del/PB-Bahasa-Arab",
+      "url": "https://github.com/g-ipg240000739-del/PB-Bahasa-Arab",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.88,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 4ffa1c0",
+          "line": 300,
+          "source": "commit",
+          "preview": "AIza************************OHhk"
+        }
+      ]
+    },
+    {
       "repo": "gabrielpezzoli-svg/SPACE-WORK",
       "url": "https://github.com/gabrielpezzoli-svg/SPACE-WORK",
       "status": "leaked",
@@ -42849,6 +42876,33 @@
           "line": 539,
           "source": "commit",
           "preview": "AIza************************4N-A"
+        }
+      ]
+    },
+    {
+      "repo": "infodelta18-creator/twitter-clonett",
+      "url": "https://github.com/infodelta18-creator/twitter-clonett",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 25.43,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit c158f61",
+          "line": 411,
+          "source": "commit",
+          "preview": "AIza************************AUv8"
         }
       ]
     },
@@ -44550,6 +44604,33 @@
           "line": 3705,
           "source": "commit",
           "preview": "eyJh************************qUeA"
+        }
+      ]
+    },
+    {
+      "repo": "leo-leo-691/assam-tourism-agent",
+      "url": "https://github.com/leo-leo-691/assam-tourism-agent",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.09,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit a7d280b",
+          "line": 17,
+          "source": "commit",
+          "preview": "AIza************************Ps8k"
         }
       ]
     },
@@ -52353,6 +52434,33 @@
           "line": 374,
           "source": "commit",
           "preview": "AIza************************8Ztw"
+        }
+      ]
+    },
+    {
+      "repo": "vladsosikmarchuk2006-lgtm/test-adm",
+      "url": "https://github.com/vladsosikmarchuk2006-lgtm/test-adm",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.74,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit b838f8b",
+          "line": 64,
+          "source": "commit",
+          "preview": "8786************************U-s0"
         }
       ]
     },
@@ -76981,6 +77089,33 @@
       ]
     },
     {
+      "repo": "cnshein/telenot",
+      "url": "https://github.com/cnshein/telenot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.49,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "telenot-main/pocket_option_signal_bot.py",
+          "line": 17,
+          "source": "file",
+          "preview": "8603************************WcJU"
+        }
+      ]
+    },
+    {
       "repo": "codeby-rafay/Full-Stack-Web-Applications",
       "url": "https://github.com/codeby-rafay/Full-Stack-Web-Applications",
       "status": "leaked",
@@ -89833,6 +89968,33 @@
       ]
     },
     {
+      "repo": "manavsingh345/Monorepo-VMs",
+      "url": "https://github.com/manavsingh345/Monorepo-VMs",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.77,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Monorepo-VMs-main/docker-compose.yml",
+          "line": 9,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "mandoag22/simple-crud",
       "url": "https://github.com/mandoag22/simple-crud",
       "status": "leaked",
@@ -95985,6 +96147,33 @@
           "line": 4,
           "source": "file",
           "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "quintogeorge/soulmintrelease",
+      "url": "https://github.com/quintogeorge/soulmintrelease",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 22.18,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "soulmintrelease-main/scripts/test_delete_account.sh",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************xaMA"
         }
       ]
     },
@@ -105894,6 +106083,33 @@
           "line": 8,
           "source": "file",
           "preview": "AIza************************Wf-c"
+        }
+      ]
+    },
+    {
+      "repo": "zhe9898/ZEN70",
+      "url": "https://github.com/zhe9898/ZEN70",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 78.33,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "ZEN70-main/tests/docker-compose.yml",
+          "line": 35,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
