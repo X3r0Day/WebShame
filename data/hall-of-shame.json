@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T08:13:08.505597+00:00",
+  "generatedAt": "2026-03-29T09:04:23.639379+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -21251,6 +21251,40 @@
       ]
     },
     {
+      "repo": "mahesh-akkala/ai-integrated-feedback-rating-system",
+      "url": "https://github.com/mahesh-akkala/ai-integrated-feedback-rating-system",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 102.84,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "ai-integrated-feedback-rating-system-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit c37c512",
+          "line": 51264,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "meet-shah820/PORTFOLIO",
       "url": "https://github.com/meet-shah820/PORTFOLIO",
       "status": "leaked",
@@ -25483,6 +25517,42 @@
           "line": 41,
           "source": "file",
           "preview": "amqp************************5672"
+        }
+      ]
+    },
+    {
+      "repo": "wadyankaw/BeamMP-Account-Sync",
+      "url": "https://github.com/wadyankaw/BeamMP-Account-Sync",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.39,
+      "exposureScore": 40,
+      "topTypes": [
+        "PostgreSQL Connection URI",
+        "Discord Bot Token"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1,
+        "Discord Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "BeamMP-Account-Sync-main/.env",
+          "line": 4,
+          "source": "file",
+          "preview": "post************************4002"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "BeamMP-Account-Sync-main/.env",
+          "line": 5,
+          "source": "file",
+          "preview": "NTg1************************GVS8"
         }
       ]
     },
@@ -34656,6 +34726,33 @@
           "line": 122,
           "source": "commit",
           "preview": "8605************************HWUE"
+        }
+      ]
+    },
+    {
+      "repo": "MuhammadSaim0604/POS",
+      "url": "https://github.com/MuhammadSaim0604/POS",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 17.04,
+      "exposureScore": 30,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 8bd1c92",
+          "line": 66,
+          "source": "commit",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -50347,6 +50444,33 @@
       ]
     },
     {
+      "repo": "sonyaalsu/-",
+      "url": "https://github.com/sonyaalsu/-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.3,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit ad86985",
+          "line": 25,
+          "source": "commit",
+          "preview": "8720************************7EN8"
+        }
+      ]
+    },
+    {
       "repo": "soportefacturacioncr-eng/apppuravidaspa",
       "url": "https://github.com/soportefacturacioncr-eng/apppuravidaspa",
       "status": "leaked",
@@ -61683,6 +61807,33 @@
           "line": 5,
           "source": "file",
           "preview": "eyJh************************wrHI"
+        }
+      ]
+    },
+    {
+      "repo": "LearningEverythingFirstTIme/Keystroke",
+      "url": "https://github.com/LearningEverythingFirstTIme/Keystroke",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.55,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Keystroke-main/memory/PROJECT_STATE.md",
+          "line": 99,
+          "source": "file",
+          "preview": "AIza************************AwCI"
         }
       ]
     },
