@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T20:14:52.559841+00:00",
+  "generatedAt": "2026-03-29T20:57:04.582416+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -3860,6 +3860,56 @@
           "line": 145029,
           "source": "commit",
           "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "talhaunas1/sunmarke-voice-agent",
+      "url": "https://github.com/talhaunas1/sunmarke-voice-agent",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 4,
+      "scanTimeSeconds": 6.37,
+      "exposureScore": 104,
+      "topTypes": [
+        "Google API/GCP Key",
+        "OpenAI API Key (Legacy)"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 3,
+        "OpenAI API Key (Legacy)": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 6979578",
+          "line": 21,
+          "source": "commit",
+          "preview": "AIza************************U-xE"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 6979578",
+          "line": 22,
+          "source": "commit",
+          "preview": "AIza************************ussI"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 6979578",
+          "line": 23,
+          "source": "commit",
+          "preview": "AIza************************anks"
+        },
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "Commit 6979578",
+          "line": 24,
+          "source": "commit",
+          "preview": "sk-0************************V5AG"
         }
       ]
     },
