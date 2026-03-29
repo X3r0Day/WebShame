@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T20:02:19.946816+00:00",
+  "generatedAt": "2026-03-29T20:14:52.559841+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -16006,6 +16006,40 @@
       ]
     },
     {
+      "repo": "Sep-Gob-Mx/SIGED-certificado-secundaria-autenticacion-VAAS861105MNLZLR00",
+      "url": "https://github.com/Sep-Gob-Mx/SIGED-certificado-secundaria-autenticacion-VAAS861105MNLZLR00",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 19.09,
+      "exposureScore": 52,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit a9c8990",
+          "line": 203,
+          "source": "commit",
+          "preview": "AIza************************nsaM"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit a9c8990",
+          "line": 47186,
+          "source": "commit",
+          "preview": "AIza************************w-jM"
+        }
+      ]
+    },
+    {
       "repo": "Undisputed18/collabcart-stk-push",
       "url": "https://github.com/Undisputed18/collabcart-stk-push",
       "status": "leaked",
@@ -28880,6 +28914,40 @@
           "line": 245,
           "source": "file",
           "preview": "http************************-RxP"
+        }
+      ]
+    },
+    {
+      "repo": "SlayerBit/simulator",
+      "url": "https://github.com/SlayerBit/simulator",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.16,
+      "exposureScore": 32,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "simulator-main/deploy/db-secret.yaml",
+          "line": 7,
+          "source": "file",
+          "preview": "post************************tech"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "simulator-main/deploy/docker-compose.yml",
+          "line": 66,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -46559,6 +46627,33 @@
       ]
     },
     {
+      "repo": "lucasriazzi-wq/exercicio06-a5",
+      "url": "https://github.com/lucasriazzi-wq/exercicio06-a5",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.07,
+      "exposureScore": 30,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "Commit 136e6ff",
+          "line": 2,
+          "source": "commit",
+          "preview": "ghp_************************UHWT"
+        }
+      ]
+    },
+    {
       "repo": "lucasriazzi-wq/exercicio10",
       "url": "https://github.com/lucasriazzi-wq/exercicio10",
       "status": "leaked",
@@ -63970,6 +64065,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************JoxU"
+        }
+      ]
+    },
+    {
+      "repo": "King-Kuan/palacedev",
+      "url": "https://github.com/King-Kuan/palacedev",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.76,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "palacedev-main/README.md",
+          "line": 80,
+          "source": "file",
+          "preview": "AIza************************h5xM"
         }
       ]
     },
@@ -83441,6 +83563,33 @@
       ]
     },
     {
+      "repo": "elitsuri/angular-iot-panel-1",
+      "url": "https://github.com/elitsuri/angular-iot-panel-1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.15,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "angular-iot-panel-1-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "elitsuri/authguard-api-1",
       "url": "https://github.com/elitsuri/authguard-api-1",
       "status": "leaked",
@@ -83515,6 +83664,33 @@
         {
           "type": "PostgreSQL Connection URI",
           "file": "bootloadmanager-1-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/cachepulse-6",
+      "url": "https://github.com/elitsuri/cachepulse-6",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.15,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "cachepulse-6-main/docker/docker-compose.yml",
           "line": 11,
           "source": "file",
           "preview": "post************************5432"
@@ -83677,6 +83853,33 @@
         {
           "type": "PostgreSQL Connection URI",
           "file": "flutter-fitness-app-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/flutter-task-app-2",
+      "url": "https://github.com/elitsuri/flutter-task-app-2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.78,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "flutter-task-app-2-main/docker/docker-compose.yml",
           "line": 11,
           "source": "file",
           "preview": "post************************5432"
@@ -83954,6 +84157,33 @@
       ]
     },
     {
+      "repo": "elitsuri/nestjs-graphql-2",
+      "url": "https://github.com/elitsuri/nestjs-graphql-2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.63,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "nestjs-graphql-2-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "elitsuri/net-cms-backend",
       "url": "https://github.com/elitsuri/net-cms-backend",
       "status": "leaked",
@@ -84082,6 +84312,33 @@
         {
           "type": "PostgreSQL Connection URI",
           "file": "pydatasync-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/react-dashboard-kit",
+      "url": "https://github.com/elitsuri/react-dashboard-kit",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.83,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "react-dashboard-kit-main/docker/docker-compose.yml",
           "line": 11,
           "source": "file",
           "preview": "post************************5432"
@@ -86461,6 +86718,33 @@
           "line": 14,
           "source": "file",
           "preview": "AIza************************lpGA"
+        }
+      ]
+    },
+    {
+      "repo": "gullirg/clawd-voice",
+      "url": "https://github.com/gullirg/clawd-voice",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.79,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "clawd-voice-main/config.json",
+          "line": 25,
+          "source": "file",
+          "preview": "8715************************UJLQ"
         }
       ]
     },
