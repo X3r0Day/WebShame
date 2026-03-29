@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T07:41:38.327508+00:00",
+  "generatedAt": "2026-03-29T08:13:08.505597+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -19139,6 +19139,40 @@
           "line": 89,
           "source": "commit",
           "preview": "AIza************************Qf8Q"
+        }
+      ]
+    },
+    {
+      "repo": "Jeebanjyotibiswal/mern_chatbot_backend",
+      "url": "https://github.com/Jeebanjyotibiswal/mern_chatbot_backend",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 58.89,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "mern_chatbot_backend-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 135c59b",
+          "line": 71497,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -57387,6 +57421,33 @@
       ]
     },
     {
+      "repo": "DevShaid/fitmirage1",
+      "url": "https://github.com/DevShaid/fitmirage1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 69.45,
+      "exposureScore": 20,
+      "topTypes": [
+        "AWS Session Token"
+      ],
+      "typeCounts": {
+        "AWS Session Token": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Session Token",
+          "file": "fitmirage1-main/scripts/test.txt",
+          "line": 6,
+          "source": "file",
+          "preview": "ASIA************QWS4"
+        }
+      ]
+    },
+    {
       "repo": "Devansh-567/Prayatna-3.0_DMS",
       "url": "https://github.com/Devansh-567/Prayatna-3.0_DMS",
       "status": "leaked",
@@ -62702,6 +62763,33 @@
           "line": 835,
           "source": "file",
           "preview": "AIza************************UIqo"
+        }
+      ]
+    },
+    {
+      "repo": "MenghaoZhao/AndroidApp",
+      "url": "https://github.com/MenghaoZhao/AndroidApp",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.16,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "AndroidApp-master/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************uNrc"
         }
       ]
     },
@@ -79041,6 +79129,33 @@
       ]
     },
     {
+      "repo": "dingyuana/huihua-financial",
+      "url": "https://github.com/dingyuana/huihua-financial",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 29.74,
+      "exposureScore": 20,
+      "topTypes": [
+        "MySQL/MariaDB Connection URI"
+      ],
+      "typeCounts": {
+        "MySQL/MariaDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "huihua-financial-master/docker-compose.yml",
+          "line": 29,
+          "source": "file",
+          "preview": "mysq********************3306"
+        }
+      ]
+    },
+    {
       "repo": "dinodev29/first-project",
       "url": "https://github.com/dinodev29/first-project",
       "status": "leaked",
@@ -84788,6 +84903,33 @@
           "line": 31,
           "source": "file",
           "preview": "AIza************************FNoY"
+        }
+      ]
+    },
+    {
+      "repo": "jalyuziliontoshkent/websiteeeee",
+      "url": "https://github.com/jalyuziliontoshkent/websiteeeee",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 106.3,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "websiteeeee-main/server.js",
+          "line": 13,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -96888,6 +97030,33 @@
       ]
     },
     {
+      "repo": "rohit98k/ai-job-automation-system",
+      "url": "https://github.com/rohit98k/ai-job-automation-system",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.26,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "ai-job-automation-system-main/DEPLOYMENT_GUIDE.md",
+          "line": 37,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "romansingh5023-hue/AIPIPNEW",
       "url": "https://github.com/romansingh5023-hue/AIPIPNEW",
       "status": "leaked",
@@ -97179,6 +97348,33 @@
           "type": "PostgreSQL Connection URI",
           "file": "NeuroCalc-AI-main/build_project.py",
           "line": 46,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "rtx4070-m4/medguard-data-platform",
+      "url": "https://github.com/rtx4070-m4/medguard-data-platform",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.26,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "medguard-data-platform-main/warehouse/db.py",
+          "line": 5,
           "source": "file",
           "preview": "post************************5432"
         }
