@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T15:20:52.883434+00:00",
+  "generatedAt": "2026-03-29T16:00:06.450445+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -8557,6 +8557,56 @@
           "line": 29609,
           "source": "commit",
           "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "shhuanjun-star/sansheng-backup",
+      "url": "https://github.com/shhuanjun-star/sansheng-backup",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 84.73,
+      "exposureScore": 74,
+      "topTypes": [
+        "OpenAI API Key (Legacy)",
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Legacy)": 2,
+        "Telegram Bot Token": 2
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "sansheng-backup-main/agents/bingbu/agent/models.json",
+          "line": 85,
+          "source": "file",
+          "preview": "sk-H************************ZA5w"
+        },
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "sansheng-backup-main/agents/bingbu/agent/models.json",
+          "line": 306,
+          "source": "file",
+          "preview": "sk-S************************Xuec"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "sansheng-backup-main/openclaw.json",
+          "line": 472,
+          "source": "file",
+          "preview": "8362************************u33M"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 09ba185",
+          "line": 59610,
+          "source": "commit",
+          "preview": "8362************************Hjdw"
         }
       ]
     },
@@ -37427,6 +37477,33 @@
       ]
     },
     {
+      "repo": "TIJAYY/AI-Resume-Analyzer-",
+      "url": "https://github.com/TIJAYY/AI-Resume-Analyzer-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.74,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 0a3d223",
+          "line": 43,
+          "source": "commit",
+          "preview": "AIza************************eyUs"
+        }
+      ]
+    },
+    {
       "repo": "Tarikz22/aithenor-landing",
       "url": "https://github.com/Tarikz22/aithenor-landing",
       "status": "leaked",
@@ -47822,6 +47899,33 @@
       ]
     },
     {
+      "repo": "nikhilmanvi360/edge-ai-ganu-Hackathon-",
+      "url": "https://github.com/nikhilmanvi360/edge-ai-ganu-Hackathon-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 130.04,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit e109a36",
+          "line": 67,
+          "source": "commit",
+          "preview": "AIza************************9mEY"
+        }
+      ]
+    },
+    {
       "repo": "niksof-afk/Lub-Oil-Inventory",
       "url": "https://github.com/niksof-afk/Lub-Oil-Inventory",
       "status": "leaked",
@@ -54109,6 +54213,33 @@
           "line": 196,
           "source": "commit",
           "preview": "AIza************************FfQs"
+        }
+      ]
+    },
+    {
+      "repo": "yeziy-123/x.ai",
+      "url": "https://github.com/yeziy-123/x.ai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 7.38,
+      "exposureScore": 30,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "Commit 99144cf",
+          "line": 716,
+          "source": "commit",
+          "preview": "sk-o************************043d"
         }
       ]
     },
@@ -83300,6 +83431,33 @@
       ]
     },
     {
+      "repo": "feliperfpereira/OlheMeuCelular",
+      "url": "https://github.com/feliperfpereira/OlheMeuCelular",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.14,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "OlheMeuCelular-main/functions/src/index.ts",
+          "line": 14,
+          "source": "file",
+          "preview": "AIza************************Ao2Q"
+        }
+      ]
+    },
+    {
       "repo": "felix-josemon404/InsightForge",
       "url": "https://github.com/felix-josemon404/InsightForge",
       "status": "leaked",
@@ -85429,6 +85587,33 @@
           "line": 20,
           "source": "file",
           "preview": "sk_t************************6971"
+        }
+      ]
+    },
+    {
+      "repo": "hieudevmobile/StudyApp",
+      "url": "https://github.com/hieudevmobile/StudyApp",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 52.27,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "StudyApp-main/app/google-services.json",
+          "line": 32,
+          "source": "file",
+          "preview": "AIza************************oKSY"
         }
       ]
     },
@@ -87859,6 +88044,33 @@
           "line": 1,
           "source": "file",
           "preview": "AIza************************9uTo"
+        }
+      ]
+    },
+    {
+      "repo": "jheyduk/zellij-claude",
+      "url": "https://github.com/jheyduk/zellij-claude",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.99,
+      "exposureScore": 20,
+      "topTypes": [
+        "Private Key (PKCS8)"
+      ],
+      "typeCounts": {
+        "Private Key (PKCS8)": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (PKCS8)",
+          "file": "zellij-claude-master/test/sanitize.test.js",
+          "line": 78,
+          "source": "file",
+          "preview": "----************************----"
         }
       ]
     },
@@ -91859,6 +92071,33 @@
       ]
     },
     {
+      "repo": "m1ta-hup/telegram-bot",
+      "url": "https://github.com/m1ta-hup/telegram-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.1,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "telegram-bot-main/bot.py",
+          "line": 13,
+          "source": "file",
+          "preview": "8477************************g9sA"
+        }
+      ]
+    },
+    {
       "repo": "mackyy34/zlm-final",
       "url": "https://github.com/mackyy34/zlm-final",
       "status": "leaked",
@@ -92584,6 +92823,33 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************LVBw"
+        }
+      ]
+    },
+    {
+      "repo": "mashrafihossain307-png/otp-bot",
+      "url": "https://github.com/mashrafihossain307-png/otp-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.58,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "otp-bot-main/bot.py",
+          "line": 14,
+          "source": "file",
+          "preview": "8512************************Z194"
         }
       ]
     },
