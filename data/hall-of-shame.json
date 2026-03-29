@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T02:54:39.645262+00:00",
+  "generatedAt": "2026-03-29T05:10:04.240864+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -20870,6 +20870,40 @@
       ]
     },
     {
+      "repo": "ishpriya23/task-management",
+      "url": "https://github.com/ishpriya23/task-management",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 68.21,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "task-management-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit e3d3542",
+          "line": 78763,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "javariatahir11/sidebarbackend",
       "url": "https://github.com/javariatahir11/sidebarbackend",
       "status": "leaked",
@@ -28748,6 +28782,40 @@
           "line": 5,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "ikhan302/ecommerceBackend-Api",
+      "url": "https://github.com/ikhan302/ecommerceBackend-Api",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 103.16,
+      "exposureScore": 32,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "ecommerceBackend-Api-main/node_modules/dotenv/README-es.md",
+          "line": 78,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "ecommerceBackend-Api-main/node_modules/dotenv/README.md",
+          "line": 110,
+          "source": "file",
+          "preview": "----************************----"
         }
       ]
     },
@@ -87293,6 +87361,33 @@
       ]
     },
     {
+      "repo": "korirkibet/powerkingtips-vite",
+      "url": "https://github.com/korirkibet/powerkingtips-vite",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 29.69,
+      "exposureScore": 20,
+      "topTypes": [
+        "Stripe Secret Key"
+      ],
+      "typeCounts": {
+        "Stripe Secret Key": 1
+      },
+      "findings": [
+        {
+          "type": "Stripe Secret Key",
+          "file": "powerkingtips-vite-main/src/pages/Payments/Ticket.jsx",
+          "line": 33,
+          "source": "file",
+          "preview": "sk_l************************c590"
+        }
+      ]
+    },
+    {
       "repo": "korotkovsememnsk-ux/space-bot",
       "url": "https://github.com/korotkovsememnsk-ux/space-bot",
       "status": "leaked",
@@ -96955,6 +97050,33 @@
           "line": 6,
           "source": "file",
           "preview": "eyJh************************om1M"
+        }
+      ]
+    },
+    {
+      "repo": "runninggator/blog-repos",
+      "url": "https://github.com/runninggator/blog-repos",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.11,
+      "exposureScore": 20,
+      "topTypes": [
+        "MySQL/MariaDB Connection URI"
+      ],
+      "typeCounts": {
+        "MySQL/MariaDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "blog-repos-main/dynamic-server-example-db/compose.yaml",
+          "line": 13,
+          "source": "file",
+          "preview": "mysq************************3306"
         }
       ]
     },
