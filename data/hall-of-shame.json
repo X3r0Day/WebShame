@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T17:35:39.761961+00:00",
+  "generatedAt": "2026-03-29T18:15:00.474944+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -6902,6 +6902,68 @@
           "line": 57591,
           "source": "commit",
           "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "Rishabh7006/cci_flutter",
+      "url": "https://github.com/Rishabh7006/cci_flutter",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 6,
+      "uniqueTypes": 1,
+      "filesAffected": 6,
+      "commitFindings": 0,
+      "scanTimeSeconds": 47.6,
+      "exposureScore": 80,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 6
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "cci_flutter-main/android/app/src/dev/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************c1tQ"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "cci_flutter-main/android/app/src/prod/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************KaL4"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "cci_flutter-main/android/app/src/uat/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************o75Q"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "cci_flutter-main/ios/GoogleService-Info.plistaGoogleService-Info-Dev.plist",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************tWpg"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "cci_flutter-main/ios/Runner/Firebase/prod/GoogleService-Info.plist",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************B7uM"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "cci_flutter-main/ios/Runner/Firebase/uat/GoogleService-Info.plist",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************Xs6M"
         }
       ]
     },
@@ -16060,6 +16122,40 @@
           "line": 49,
           "source": "commit",
           "preview": "AIza************************J1MA"
+        }
+      ]
+    },
+    {
+      "repo": "fbmasterkingmurad/Apurbo-Bot",
+      "url": "https://github.com/fbmasterkingmurad/Apurbo-Bot",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 2.53,
+      "exposureScore": 52,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 2
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit eaa31af",
+          "line": 34,
+          "source": "commit",
+          "preview": "8591************************NdA8"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit eaa31af",
+          "line": 42,
+          "source": "commit",
+          "preview": "8737************************Uva0"
         }
       ]
     },
@@ -39899,6 +39995,33 @@
       ]
     },
     {
+      "repo": "armansabitkan-rgb/Hack",
+      "url": "https://github.com/armansabitkan-rgb/Hack",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.54,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 6198f53",
+          "line": 1132,
+          "source": "commit",
+          "preview": "8674************************tPNk"
+        }
+      ]
+    },
+    {
       "repo": "arsen1729w1-collab/Legends",
       "url": "https://github.com/arsen1729w1-collab/Legends",
       "status": "leaked",
@@ -52504,6 +52627,33 @@
           "line": 568,
           "source": "commit",
           "preview": "eyJh************************TbEE"
+        }
+      ]
+    },
+    {
+      "repo": "starktommy351/my-browser-7",
+      "url": "https://github.com/starktommy351/my-browser-7",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.06,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 8d868cd",
+          "line": 532,
+          "source": "commit",
+          "preview": "AIza************************P9Cw"
         }
       ]
     },
@@ -71786,6 +71936,33 @@
       ]
     },
     {
+      "repo": "Virusboot/viralmate",
+      "url": "https://github.com/Virusboot/viralmate",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.47,
+      "exposureScore": 20,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "viralmate-main/server.js",
+          "line": 38,
+          "source": "file",
+          "preview": "gsk_************************akdS"
+        }
+      ]
+    },
+    {
       "repo": "Vishal-AFK21/e-commerce",
       "url": "https://github.com/Vishal-AFK21/e-commerce",
       "status": "leaked",
@@ -89579,6 +89756,33 @@
       ]
     },
     {
+      "repo": "jorgerv17/paperclip",
+      "url": "https://github.com/jorgerv17/paperclip",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 124.27,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "paperclip-master/docker-compose.yml",
+          "line": 23,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "josielEJR/MiniBlog",
       "url": "https://github.com/josielEJR/MiniBlog",
       "status": "leaked",
@@ -90389,6 +90593,33 @@
       ]
     },
     {
+      "repo": "kavish1919/TravelMateProject",
+      "url": "https://github.com/kavish1919/TravelMateProject",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 177.79,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "TravelMateProject-main/lib/prisma.ts",
+          "line": 6,
+          "source": "file",
+          "preview": "post************************tech"
+        }
+      ]
+    },
+    {
       "repo": "kavisha2035/divya",
       "url": "https://github.com/kavisha2035/divya",
       "status": "leaked",
@@ -90547,6 +90778,33 @@
           "line": 15,
           "source": "file",
           "preview": "http************************t-pP"
+        }
+      ]
+    },
+    {
+      "repo": "kevserekinci539-debug/yapay-zeka",
+      "url": "https://github.com/kevserekinci539-debug/yapay-zeka",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.52,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "yapay-zeka-main/app.py.txt",
+          "line": 10,
+          "source": "file",
+          "preview": "AIza************************PaP8"
         }
       ]
     },
@@ -99758,6 +100016,33 @@
       ]
     },
     {
+      "repo": "qwert5200/GlideVPNRobot",
+      "url": "https://github.com/qwert5200/GlideVPNRobot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.53,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "GlideVPNRobot-main/main.py",
+          "line": 6,
+          "source": "file",
+          "preview": "8782************************vKK0"
+        }
+      ]
+    },
+    {
       "repo": "qwertyuiopqaz787898-source/VocabAI",
       "url": "https://github.com/qwertyuiopqaz787898-source/VocabAI",
       "status": "leaked",
@@ -100132,6 +100417,33 @@
           "line": 2,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "rajsingh9898/plagiarism_checker",
+      "url": "https://github.com/rajsingh9898/plagiarism_checker",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 36.7,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "plagiarism_checker-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
