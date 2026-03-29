@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T12:14:40.363204+00:00",
+  "generatedAt": "2026-03-29T13:32:33.938998+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -6628,6 +6628,49 @@
           "type": "Private Key (RSA)",
           "file": "Commit 6437307",
           "line": 63037,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "cemlus/vercel",
+      "url": "https://github.com/cemlus/vercel",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 3,
+      "scanTimeSeconds": 166.31,
+      "exposureScore": 82,
+      "topTypes": [
+        "Private Key (RSA)",
+        "Redis Connection URI (Password)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2,
+        "Redis Connection URI (Password)": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 7f1b1af",
+          "line": 300260,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Redis Connection URI (Password)",
+          "file": "Commit 7f1b1af",
+          "line": 359319,
+          "source": "commit",
+          "preview": "redi************************80\","
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 9292447",
+          "line": 300283,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -21786,6 +21829,40 @@
       ]
     },
     {
+      "repo": "phuwanatboss/webapp_securenote",
+      "url": "https://github.com/phuwanatboss/webapp_securenote",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 17.98,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "webapp_securenote-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit ff6df2d",
+          "line": 12017,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "planmoni/VixTraderAI",
       "url": "https://github.com/planmoni/VixTraderAI",
       "status": "leaked",
@@ -25626,6 +25703,42 @@
           "line": 54,
           "source": "file",
           "preview": "eyJh************************sw5c"
+        }
+      ]
+    },
+    {
+      "repo": "reyteves/django-ai-chatbot",
+      "url": "https://github.com/reyteves/django-ai-chatbot",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 180.71,
+      "exposureScore": 40,
+      "topTypes": [
+        "OpenRouter API Key",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1,
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "django-ai-chatbot-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "sk-o************************0bb9"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "django-ai-chatbot-main/plant.txt",
+          "line": 8,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -30216,6 +30329,40 @@
           "line": 10,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "pathapatisneha2025-commits/Frugodatabse",
+      "url": "https://github.com/pathapatisneha2025-commits/Frugodatabse",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 55.56,
+      "exposureScore": 32,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Frugodatabse-master/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "post************************.com"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Frugodatabse-master/node_modules/pg-pool/README.md",
+          "line": 74,
+          "source": "file",
+          "preview": "post************************####"
         }
       ]
     },
@@ -76748,6 +76895,33 @@
       ]
     },
     {
+      "repo": "cence-no/agent-tickets",
+      "url": "https://github.com/cence-no/agent-tickets",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.56,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "agent-tickets-main/docker-compose.yml",
+          "line": 8,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "chaitanya9980/Travel-Mate",
       "url": "https://github.com/chaitanya9980/Travel-Mate",
       "status": "leaked",
@@ -81064,6 +81238,33 @@
           "line": 5,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "einstain74-yws/fish-drawing",
+      "url": "https://github.com/einstain74-yws/fish-drawing",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.09,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "fish-drawing-main/src/App.tsx",
+          "line": 11,
+          "source": "file",
+          "preview": "AIza************************aSsY"
         }
       ]
     },
@@ -85519,6 +85720,33 @@
           "line": 154,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "isakasalosokosa-create/Nunetizm",
+      "url": "https://github.com/isakasalosokosa-create/Nunetizm",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.22,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Nunetizm-main/bot.py",
+          "line": 10,
+          "source": "file",
+          "preview": "7991************************gyC0"
         }
       ]
     },
@@ -93569,6 +93797,33 @@
       ]
     },
     {
+      "repo": "nghhhh00/aiwritten",
+      "url": "https://github.com/nghhhh00/aiwritten",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.84,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "aiwritten-main/main.lua",
+          "line": 12,
+          "source": "file",
+          "preview": "http************************SrLK"
+        }
+      ]
+    },
+    {
       "repo": "nghidong26febu4164/repo0t5sau",
       "url": "https://github.com/nghidong26febu4164/repo0t5sau",
       "status": "leaked",
@@ -99235,6 +99490,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************V_JY"
+        }
+      ]
+    },
+    {
+      "repo": "sanusaa1/telegram-bot",
+      "url": "https://github.com/sanusaa1/telegram-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.79,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "telegram-bot-main/bot.py",
+          "line": 5,
+          "source": "file",
+          "preview": "8683************************_e6E"
         }
       ]
     },
