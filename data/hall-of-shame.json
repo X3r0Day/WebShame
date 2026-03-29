@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T10:59:54.537452+00:00",
+  "generatedAt": "2026-03-29T11:29:19.623814+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -6763,6 +6763,49 @@
       ]
     },
     {
+      "repo": "santhi1213/Admission-Management-BE",
+      "url": "https://github.com/santhi1213/Admission-Management-BE",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 3,
+      "scanTimeSeconds": 193.56,
+      "exposureScore": 82,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit bbf6699",
+          "line": 18,
+          "source": "commit",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit a304ac7",
+          "line": 57476,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 815e6f1",
+          "line": 57591,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "cyphertechnologiesinc-star/calendar-app",
       "url": "https://github.com/cyphertechnologiesinc-star/calendar-app",
       "status": "leaked",
@@ -10364,6 +10407,49 @@
           "type": "Private Key (RSA)",
           "file": "Commit e055497",
           "line": 50916,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "Coder-panse/Email_tool_backend",
+      "url": "https://github.com/Coder-panse/Email_tool_backend",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 222.23,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Email_tool_backend-main/.env",
+          "line": 12,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Email_tool_backend-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit b4186e4",
+          "line": 114215,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -18651,6 +18737,40 @@
       ]
     },
     {
+      "repo": "AasrithSairam/aasro",
+      "url": "https://github.com/AasrithSairam/aasro",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 67.1,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "aasro-aasro/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 8fb91bb",
+          "line": 11990,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "Addo21-Josh/weather-app",
       "url": "https://github.com/Addo21-Josh/weather-app",
       "status": "leaked",
@@ -24885,6 +25005,42 @@
       ]
     },
     {
+      "repo": "lincanlong/aixinwenredian",
+      "url": "https://github.com/lincanlong/aixinwenredian",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 102.37,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Slack Webhook"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Slack Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "aixinwenredian-master/README-EN.md",
+          "line": 1376,
+          "source": "file",
+          "preview": "1234************************m9T0"
+        },
+        {
+          "type": "Slack Webhook",
+          "file": "aixinwenredian-master/README-EN.md",
+          "line": 1731,
+          "source": "file",
+          "preview": "http************************XXXX"
+        }
+      ]
+    },
+    {
       "repo": "lvhaojie456/recipe1",
       "url": "https://github.com/lvhaojie456/recipe1",
       "status": "leaked",
@@ -29219,6 +29375,40 @@
           "line": 71,
           "source": "file",
           "preview": "ghp_************************7890"
+        }
+      ]
+    },
+    {
+      "repo": "jairlinethai8989/neonot_llama",
+      "url": "https://github.com/jairlinethai8989/neonot_llama",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 95.58,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "neonot_llama-main/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "AIza************************9dHI"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "neonot_llama-main/tmp/list_models.js",
+          "line": 2,
+          "source": "file",
+          "preview": "AIza************************182Y"
         }
       ]
     },
@@ -45090,6 +45280,33 @@
       ]
     },
     {
+      "repo": "lusorasweets-ctrl/Manatustus",
+      "url": "https://github.com/lusorasweets-ctrl/Manatustus",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.15,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 45391ae",
+          "line": 2175,
+          "source": "commit",
+          "preview": "8779************************Dbkg"
+        }
+      ]
+    },
+    {
       "repo": "lusorasweets-ctrl/Toonnrussh",
       "url": "https://github.com/lusorasweets-ctrl/Toonnrussh",
       "status": "leaked",
@@ -51485,6 +51702,33 @@
           "line": 431,
           "source": "commit",
           "preview": "sk-a************************-AAA"
+        }
+      ]
+    },
+    {
+      "repo": "tawfiqkhalilieh/auto-shorts-generator-from-yt",
+      "url": "https://github.com/tawfiqkhalilieh/auto-shorts-generator-from-yt",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 9.12,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 6a241b9",
+          "line": 17,
+          "source": "commit",
+          "preview": "http************************cmxV"
         }
       ]
     },
@@ -96633,6 +96877,33 @@
       ]
     },
     {
+      "repo": "rahulroshiya22/tv",
+      "url": "https://github.com/rahulroshiya22/tv",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.24,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "tv-main/appsettings.json",
+          "line": 10,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "raj-singh45/Auth-JWT-Redis-",
       "url": "https://github.com/raj-singh45/Auth-JWT-Redis-",
       "status": "leaked",
@@ -99626,6 +99897,33 @@
           "line": 603,
           "source": "file",
           "preview": "AIza************************M6Lk"
+        }
+      ]
+    },
+    {
+      "repo": "shreexc/health-tracker",
+      "url": "https://github.com/shreexc/health-tracker",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.15,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "health-tracker-main/backend.py",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************WuDA"
         }
       ]
     },
