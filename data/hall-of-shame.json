@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T10:13:28.917592+00:00",
+  "generatedAt": "2026-03-29T10:59:54.537452+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -10194,6 +10194,49 @@
           "line": 19,
           "source": "commit",
           "preview": "AIza************************vaIQ"
+        }
+      ]
+    },
+    {
+      "repo": "25BAI80013/5.1",
+      "url": "https://github.com/25BAI80013/5.1",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 168.19,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "5.1-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "5.1-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit c4845e0",
+          "line": 57809,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -29044,6 +29087,40 @@
       ]
     },
     {
+      "repo": "hoonseokkim/youtube-webplayer",
+      "url": "https://github.com/hoonseokkim/youtube-webplayer",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 141.98,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "youtube-webplayer-main/deobfuscate/player/video-loader.js",
+          "line": 1880,
+          "source": "file",
+          "preview": "AIza************************oAnw"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "youtube-webplayer-main/player_es6.vflset/en_US/base.js",
+          "line": 43418,
+          "source": "file",
+          "preview": "AIza************************bUhE"
+        }
+      ]
+    },
+    {
       "repo": "ikhan302/ecommerceBackend-Api",
       "url": "https://github.com/ikhan302/ecommerceBackend-Api",
       "status": "leaked",
@@ -36126,6 +36203,33 @@
           "line": 1155,
           "source": "commit",
           "preview": "AIza************************yQfM"
+        }
+      ]
+    },
+    {
+      "repo": "Sajid-Jahan-Ragib/student-hub",
+      "url": "https://github.com/Sajid-Jahan-Ragib/student-hub",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 35.59,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit aa8a5fc",
+          "line": 331,
+          "source": "commit",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -70605,6 +70709,33 @@
           "line": 5,
           "source": "file",
           "preview": "AIza************************GALw"
+        }
+      ]
+    },
+    {
+      "repo": "ZaneL1u/cloud-cli-proxy",
+      "url": "https://github.com/ZaneL1u/cloud-cli-proxy",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 83.18,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "cloud-cli-proxy-main/.planning/milestones/v1.0-phases/01-foundation-control-plane-host-agent/01-01-PLAN.md",
+          "line": 111,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
