@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T11:58:17.608574+00:00",
+  "generatedAt": "2026-03-29T12:14:40.363204+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -10164,6 +10164,47 @@
           "line": 34,
           "source": "commit",
           "preview": "7696************************OycA"
+        }
+      ]
+    },
+    {
+      "repo": "doniyoryusupob246-cmd/webhook-support-bot",
+      "url": "https://github.com/doniyoryusupob246-cmd/webhook-support-bot",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 4.45,
+      "exposureScore": 64,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 3
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "webhook-support-bot-master/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "8644************************nXwc"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 0d24c81",
+          "line": 44,
+          "source": "commit",
+          "preview": "8571************************dj4c"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 4e5c44a",
+          "line": 17,
+          "source": "commit",
+          "preview": "8506************************ldbg"
         }
       ]
     },
