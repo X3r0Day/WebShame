@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T11:29:19.623814+00:00",
+  "generatedAt": "2026-03-29T11:58:17.608574+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -8407,6 +8407,56 @@
           "line": 4042,
           "source": "commit",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "Variski/Camp4_WD_UI-UX__Express_RESTAPI",
+      "url": "https://github.com/Variski/Camp4_WD_UI-UX__Express_RESTAPI",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 2,
+      "filesAffected": 4,
+      "commitFindings": 1,
+      "scanTimeSeconds": 91.87,
+      "exposureScore": 74,
+      "topTypes": [
+        "PostgreSQL Connection URI",
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Camp4_WD_UI-UX__Express_RESTAPI-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "post************************tech"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Camp4_WD_UI-UX__Express_RESTAPI-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Camp4_WD_UI-UX__Express_RESTAPI-main/node_modules/pg-pool/README.md",
+          "line": 74,
+          "source": "file",
+          "preview": "post************************####"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit fe9855b",
+          "line": 29609,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -19213,6 +19263,40 @@
       ]
     },
     {
+      "repo": "Grushnesh-06/amazon-clone",
+      "url": "https://github.com/Grushnesh-06/amazon-clone",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 97.28,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "amazon-clone-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit f331aa6",
+          "line": 79127,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "GustavoJustin/API_cinema",
       "url": "https://github.com/GustavoJustin/API_cinema",
       "status": "leaked",
@@ -20199,6 +20283,40 @@
       ]
     },
     {
+      "repo": "Vincent9777/webneueRechnung",
+      "url": "https://github.com/Vincent9777/webneueRechnung",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 6.58,
+      "exposureScore": 42,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 2
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "webneueRechnung-main/invChorusPro/invChorusPro/next.js",
+          "line": 8825,
+          "source": "file",
+          "preview": "6135************************-a4w"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit e6dd801",
+          "line": 14575,
+          "source": "commit",
+          "preview": "8345************************2Kis"
+        }
+      ]
+    },
+    {
       "repo": "VirajKumar3/Yasharyan-Folio",
       "url": "https://github.com/VirajKumar3/Yasharyan-Folio",
       "status": "leaked",
@@ -21145,6 +21263,40 @@
           "type": "Private Key (RSA)",
           "file": "Commit adb58ce",
           "line": 56917,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "himesh9887/Nowait-queue-management-system",
+      "url": "https://github.com/himesh9887/Nowait-queue-management-system",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 203.1,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Nowait-queue-management-system-main/nowait-system/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 26c84a3",
+          "line": 108566,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -25001,6 +25153,42 @@
           "line": 289,
           "source": "file",
           "preview": "eyJh************************sw5c"
+        }
+      ]
+    },
+    {
+      "repo": "lincanlong/TrendRadar",
+      "url": "https://github.com/lincanlong/TrendRadar",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 126.62,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Slack Webhook"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Slack Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "TrendRadar-master/README-EN.md",
+          "line": 1376,
+          "source": "file",
+          "preview": "1234************************m9T0"
+        },
+        {
+          "type": "Slack Webhook",
+          "file": "TrendRadar-master/README-EN.md",
+          "line": 1731,
+          "source": "file",
+          "preview": "http************************XXXX"
         }
       ]
     },
@@ -55432,6 +55620,33 @@
       ]
     },
     {
+      "repo": "Amashaama/FoodMart",
+      "url": "https://github.com/Amashaama/FoodMart",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 58.65,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Amashaama-FoodMart-f42ccaa/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************krTI"
+        }
+      ]
+    },
+    {
       "repo": "AmitS1009/Startup-Co-Founder-AI-Agent",
       "url": "https://github.com/AmitS1009/Startup-Co-Founder-AI-Agent",
       "status": "leaked",
@@ -61152,6 +61367,33 @@
           "line": 66,
           "source": "file",
           "preview": "post************************port"
+        }
+      ]
+    },
+    {
+      "repo": "JackyRes/relationship",
+      "url": "https://github.com/JackyRes/relationship",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.18,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenAI API Key (Legacy)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Legacy)": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "relationship-main/\u6545\u969c\u6392\u9664.md",
+          "line": 20,
+          "source": "file",
+          "preview": "sk-O************************Lrmx"
         }
       ]
     },
@@ -96985,6 +97227,33 @@
       ]
     },
     {
+      "repo": "rakhadavin/AAW-A04-demo-helpdesk",
+      "url": "https://github.com/rakhadavin/AAW-A04-demo-helpdesk",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.03,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "AAW-A04-demo-helpdesk-main/docker-compose.yml",
+          "line": 22,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "ramanjaglan2006-crypto/Easy-Consulting-react-master",
       "url": "https://github.com/ramanjaglan2006-crypto/Easy-Consulting-react-master",
       "status": "leaked",
@@ -103812,6 +104081,33 @@
           "line": 2,
           "source": "file",
           "preview": "AIza************************K2Lg"
+        }
+      ]
+    },
+    {
+      "repo": "vaaiiibbhav/Fitpal2026-backend",
+      "url": "https://github.com/vaaiiibbhav/Fitpal2026-backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 26.57,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Fitpal2026-backend-main/seed.js",
+          "line": 6,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
