@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T18:15:00.474944+00:00",
+  "generatedAt": "2026-03-29T18:37:29.644838+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -8617,6 +8617,56 @@
           "type": "Private Key (RSA)",
           "file": "Commit fe9855b",
           "line": 29609,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "saranshsahu123/videoconferncing",
+      "url": "https://github.com/saranshsahu123/videoconferncing",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 2,
+      "filesAffected": 4,
+      "commitFindings": 1,
+      "scanTimeSeconds": 172.4,
+      "exposureScore": 74,
+      "topTypes": [
+        "MongoDB Connection URI",
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 2,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "videoconferncing-main/backend/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "videoconferncing-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "videoconferncing-main/backend/src/app.js",
+          "line": 26,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit fb9f332",
+          "line": 121710,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -61055,6 +61105,33 @@
       ]
     },
     {
+      "repo": "GaredBerns/ml-training-4121",
+      "url": "https://github.com/GaredBerns/ml-training-4121",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.27,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "ml-training-4121-main/Dockerfile",
+          "line": 20,
+          "source": "file",
+          "preview": "8620************************91gc"
+        }
+      ]
+    },
+    {
       "repo": "GaredBerns/ml-training-5653",
       "url": "https://github.com/GaredBerns/ml-training-5653",
       "status": "leaked",
@@ -62887,6 +62964,33 @@
           "line": 1,
           "source": "file",
           "preview": "post************************tech"
+        }
+      ]
+    },
+    {
+      "repo": "Jaid-Khan/Job_Portal_Backend",
+      "url": "https://github.com/Jaid-Khan/Job_Portal_Backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 56.15,
+      "exposureScore": 20,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Job_Portal_Backend-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
         }
       ]
     },
@@ -67909,6 +68013,33 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************0m5w"
+        }
+      ]
+    },
+    {
+      "repo": "RahulInfolabz/ethical_clothing_backend",
+      "url": "https://github.com/RahulInfolabz/ethical_clothing_backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "ethical_clothing_backend-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -101825,6 +101956,33 @@
       ]
     },
     {
+      "repo": "rudranshchouksey/bbp-scheduler-backend",
+      "url": "https://github.com/rudranshchouksey/bbp-scheduler-backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.9,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "bbp-scheduler-backend-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "post************************tech"
+        }
+      ]
+    },
+    {
       "repo": "runninggator/blog-repos",
       "url": "https://github.com/runninggator/blog-repos",
       "status": "leaked",
@@ -101956,6 +102114,33 @@
           "line": 12,
           "source": "file",
           "preview": "8692************************Z7CY"
+        }
+      ]
+    },
+    {
+      "repo": "sachinyogi1gyy-bot/KaluHost",
+      "url": "https://github.com/sachinyogi1gyy-bot/KaluHost",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.92,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "KaluHost-main/config.py",
+          "line": 6,
+          "source": "file",
+          "preview": "8074************************_SVk"
         }
       ]
     },
