@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T21:57:14.268558+00:00",
+  "generatedAt": "2026-03-29T22:22:35.259735+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -20250,6 +20250,40 @@
           "line": 63,
           "source": "commit",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "KarimWajihKMW/academy-demo",
+      "url": "https://github.com/KarimWajihKMW/academy-demo",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 12.53,
+      "exposureScore": 42,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "academy-demo-main/restore_database_schema.sh",
+          "line": 8,
+          "source": "file",
+          "preview": "post************************5275"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 0d05756",
+          "line": 160,
+          "source": "commit",
+          "preview": "post************************5432"
         }
       ]
     },
