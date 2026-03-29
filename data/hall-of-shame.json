@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T17:02:46.221188+00:00",
+  "generatedAt": "2026-03-29T17:35:39.761961+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -20430,6 +20430,40 @@
       ]
     },
     {
+      "repo": "RiyaRaj79/FreshKeep",
+      "url": "https://github.com/RiyaRaj79/FreshKeep",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 200.81,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "FreshKeep-main/freshkeep-backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit a333821",
+          "line": 13876,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "SQADIRKVM/kurvo-editor",
       "url": "https://github.com/SQADIRKVM/kurvo-editor",
       "status": "leaked",
@@ -23982,6 +24016,42 @@
           "line": 8,
           "source": "file",
           "preview": "AIza************************JYZU"
+        }
+      ]
+    },
+    {
+      "repo": "Puranjay9/et-hack",
+      "url": "https://github.com/Puranjay9/et-hack",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.81,
+      "exposureScore": 40,
+      "topTypes": [
+        "PostgreSQL Connection URI",
+        "RabbitMQ/AMQP URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1,
+        "RabbitMQ/AMQP URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "et-hack-main/backend/alembic.ini",
+          "line": 5,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "RabbitMQ/AMQP URI",
+          "file": "et-hack-main/backend/app/core/config.py",
+          "line": 23,
+          "source": "file",
+          "preview": "amqp************************5672"
         }
       ]
     },
@@ -28800,6 +28870,40 @@
           "line": 7,
           "source": "file",
           "preview": "AIza************************eRJI"
+        }
+      ]
+    },
+    {
+      "repo": "TONIRUIZ1982/HuertoCero",
+      "url": "https://github.com/TONIRUIZ1982/HuertoCero",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 76.21,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "HuertoCero-master/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************c45U"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "HuertoCero-master/app/src/main/AndroidManifest.xml",
+          "line": 33,
+          "source": "file",
+          "preview": "AIza************************ynMQ"
         }
       ]
     },
@@ -43683,6 +43787,33 @@
       ]
     },
     {
+      "repo": "hasnmhdi07-commits/house-rental-app",
+      "url": "https://github.com/hasnmhdi07-commits/house-rental-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 17.66,
+      "exposureScore": 30,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 2b6bcc4",
+          "line": 273,
+          "source": "commit",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "hassanjan1841/devbrain-saas",
       "url": "https://github.com/hassanjan1841/devbrain-saas",
       "status": "leaked",
@@ -48215,6 +48346,33 @@
           "line": 118,
           "source": "commit",
           "preview": "sk-o************************bcbf"
+        }
+      ]
+    },
+    {
+      "repo": "nithishkumar257/tools_recom",
+      "url": "https://github.com/nithishkumar257/tools_recom",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 65.78,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 8ceefb2",
+          "line": 86,
+          "source": "commit",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -60747,6 +60905,33 @@
       ]
     },
     {
+      "repo": "GaredBerns/ml-training-5653",
+      "url": "https://github.com/GaredBerns/ml-training-5653",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.55,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "ml-training-5653-main/Dockerfile",
+          "line": 20,
+          "source": "file",
+          "preview": "8620************************91gc"
+        }
+      ]
+    },
+    {
       "repo": "GastonLevy/BE26_EXAM6_LevyGaston",
       "url": "https://github.com/GastonLevy/BE26_EXAM6_LevyGaston",
       "status": "leaked",
@@ -64064,6 +64249,33 @@
           "line": 7,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "MANDO-lab/cashops",
+      "url": "https://github.com/MANDO-lab/cashops",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.99,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "cashops-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************vfs8"
         }
       ]
     },
@@ -82779,6 +82991,60 @@
       ]
     },
     {
+      "repo": "elitsuri/flutter-e-shop",
+      "url": "https://github.com/elitsuri/flutter-e-shop",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.09,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "flutter-e-shop-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/flutter-fitness-app",
+      "url": "https://github.com/elitsuri/flutter-fitness-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.34,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "flutter-fitness-app-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "elitsuri/gameassetmanager-3",
       "url": "https://github.com/elitsuri/gameassetmanager-3",
       "status": "leaked",
@@ -82914,6 +83180,60 @@
       ]
     },
     {
+      "repo": "elitsuri/laravel-rest-api",
+      "url": "https://github.com/elitsuri/laravel-rest-api",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.78,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "laravel-rest-api-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/levelforge-3",
+      "url": "https://github.com/elitsuri/levelforge-3",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.13,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "levelforge-3-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "elitsuri/logaggregator-2",
       "url": "https://github.com/elitsuri/logaggregator-2",
       "status": "leaked",
@@ -82934,6 +83254,60 @@
         {
           "type": "PostgreSQL Connection URI",
           "file": "logaggregator-2-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/mediaprocessor-api-1-1",
+      "url": "https://github.com/elitsuri/mediaprocessor-api-1-1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.1,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "mediaprocessor-api-1-1-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/mobile-analytics-api",
+      "url": "https://github.com/elitsuri/mobile-analytics-api",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.86,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "mobile-analytics-api-main/docker/docker-compose.yml",
           "line": 11,
           "source": "file",
           "preview": "post************************5432"
@@ -82988,6 +83362,33 @@
         {
           "type": "PostgreSQL Connection URI",
           "file": "netmonitor-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/ngfilemanager-1",
+      "url": "https://github.com/elitsuri/ngfilemanager-1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "ngfilemanager-1-main/docker/docker-compose.yml",
           "line": 11,
           "source": "file",
           "preview": "post************************5432"
@@ -83285,6 +83686,33 @@
         {
           "type": "PostgreSQL Connection URI",
           "file": "tradebridge-1-1-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/tradebridge-2",
+      "url": "https://github.com/elitsuri/tradebridge-2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.03,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "tradebridge-2-main/docker/docker-compose.yml",
           "line": 11,
           "source": "file",
           "preview": "post************************5432"
@@ -90821,6 +91249,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************xhyk"
+        }
+      ]
+    },
+    {
+      "repo": "kishormaskikm/Langfuse-self-host",
+      "url": "https://github.com/kishormaskikm/Langfuse-self-host",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.15,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Langfuse-self-host-main/docker-compose.langfuse.yml",
+          "line": 22,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -107480,6 +107935,33 @@
           "line": 5,
           "source": "file",
           "preview": "AIza************************bLjo"
+        }
+      ]
+    },
+    {
+      "repo": "vishwakarmashivansh16-bit/VidhiSetu",
+      "url": "https://github.com/vishwakarmashivansh16-bit/VidhiSetu",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 23.26,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "VidhiSetu-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************q4GQ"
         }
       ]
     },
