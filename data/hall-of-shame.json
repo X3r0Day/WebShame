@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T09:04:23.639379+00:00",
+  "generatedAt": "2026-03-29T09:42:32.297138+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -14417,6 +14417,49 @@
       ]
     },
     {
+      "repo": "Nikhilwakekar01/ShopSphere",
+      "url": "https://github.com/Nikhilwakekar01/ShopSphere",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 0,
+      "scanTimeSeconds": 151.49,
+      "exposureScore": 52,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "ShopSphere-main/backend/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "ShopSphere-main/backend/node_modules/dotenv/README-es.md",
+          "line": 78,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "ShopSphere-main/backend/node_modules/dotenv/README.md",
+          "line": 110,
+          "source": "file",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "aprem01/aspire-emr",
       "url": "https://github.com/aprem01/aspire-emr",
       "status": "leaked",
@@ -19241,6 +19284,40 @@
           "line": 63,
           "source": "commit",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "Kartik-dev-design/Interview-With-AI",
+      "url": "https://github.com/Kartik-dev-design/Interview-With-AI",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 153.63,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Interview-With-AI-main/server/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 5faf852",
+          "line": 150680,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -64808,6 +64885,33 @@
       ]
     },
     {
+      "repo": "Physcodeveloper76/Antidote_ai",
+      "url": "https://github.com/Physcodeveloper76/Antidote_ai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 70.66,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Antidote_ai-main/venofront/venofront/server.py",
+          "line": 14,
+          "source": "file",
+          "preview": "AIza************************eyTY"
+        }
+      ]
+    },
+    {
       "repo": "Pintu64/Crypto",
       "url": "https://github.com/Pintu64/Crypto",
       "status": "leaked",
@@ -84761,6 +84865,33 @@
       ]
     },
     {
+      "repo": "itsarraj/SeekersConnect",
+      "url": "https://github.com/itsarraj/SeekersConnect",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 43.1,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "SeekersConnect-main/matchmyresume-bff/src/configuration.rs",
+          "line": 100,
+          "source": "file",
+          "preview": "post**************}:{}"
+        }
+      ]
+    },
+    {
       "repo": "itslandmine/students-management-system-SMS",
       "url": "https://github.com/itslandmine/students-management-system-SMS",
       "status": "leaked",
@@ -93644,6 +93775,33 @@
       ]
     },
     {
+      "repo": "olya457/AstroTrailsStarPlaces",
+      "url": "https://github.com/olya457/AstroTrailsStarPlaces",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 60.19,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "AstroTrailsStarPlaces-main/android/app/src/main/AndroidManifest.xml",
+          "line": 15,
+          "source": "file",
+          "preview": "AIza************************FGfo"
+        }
+      ]
+    },
+    {
       "repo": "olya457/ReagentExplorerCanada",
       "url": "https://github.com/olya457/ReagentExplorerCanada",
       "status": "leaked",
@@ -98693,6 +98851,33 @@
       ]
     },
     {
+      "repo": "shah-abhishek/shah-abhishek-Aggregrate_Data_Dashboard",
+      "url": "https://github.com/shah-abhishek/shah-abhishek-Aggregrate_Data_Dashboard",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 53.47,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Aggregrate_Data_Dashboard-main/backend/README.md",
+          "line": 760,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "shahidafridi2006/nw-create-pizza-website-mmtwbuw9",
       "url": "https://github.com/shahidafridi2006/nw-create-pizza-website-mmtwbuw9",
       "status": "leaked",
@@ -103738,6 +103923,33 @@
           "line": 11,
           "source": "file",
           "preview": "AIza************************9q6Y"
+        }
+      ]
+    },
+    {
+      "repo": "viratsabari18/FLUTTER-OFFLINE-FIRST-TASK-SYNC",
+      "url": "https://github.com/viratsabari18/FLUTTER-OFFLINE-FIRST-TASK-SYNC",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.53,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "FLUTTER-OFFLINE-FIRST-TASK-SYNC-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************gk_Q"
         }
       ]
     },
