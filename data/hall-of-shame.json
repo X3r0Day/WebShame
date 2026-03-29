@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T22:22:35.259735+00:00",
+  "generatedAt": "2026-03-29T22:59:13.886838+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -25174,6 +25174,42 @@
           "line": 39,
           "source": "file",
           "preview": "7801************************oHl4"
+        }
+      ]
+    },
+    {
+      "repo": "catalinacid37-lgtm/universe.1",
+      "url": "https://github.com/catalinacid37-lgtm/universe.1",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 109.41,
+      "exposureScore": 40,
+      "topTypes": [
+        "Private Key (RSA)",
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 1,
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "universe.1-main/ecommerce-jwt/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "universe.1-main/ecommerce-jwt/node_modules/pg-pool/README.md",
+          "line": 74,
+          "source": "file",
+          "preview": "post************************####"
         }
       ]
     },
@@ -54733,6 +54769,33 @@
       ]
     },
     {
+      "repo": "vipvipmen/HileSite",
+      "url": "https://github.com/vipvipmen/HileSite",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.84,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 9f74c9d",
+          "line": 196,
+          "source": "commit",
+          "preview": "8797************************GePI"
+        }
+      ]
+    },
+    {
       "repo": "viswahackerlord214/desert.drnp",
       "url": "https://github.com/viswahackerlord214/desert.drnp",
       "status": "leaked",
@@ -58644,6 +58707,33 @@
           "line": 55,
           "source": "file",
           "preview": "sk_t************************xxxx"
+        }
+      ]
+    },
+    {
+      "repo": "BennethJane/assignmen_mogodb",
+      "url": "https://github.com/BennethJane/assignmen_mogodb",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.52,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "assignmen_mogodb-master/database/database.js",
+          "line": 3,
+          "source": "file",
+          "preview": "mong************************7017"
         }
       ]
     },
@@ -91260,6 +91350,33 @@
           "line": 25,
           "source": "file",
           "preview": "8225************************1Y6w"
+        }
+      ]
+    },
+    {
+      "repo": "juanmitriatti/campo-bot",
+      "url": "https://github.com/juanmitriatti/campo-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 33.64,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "campo-bot-main/docker-compose.yml",
+          "line": 26,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
