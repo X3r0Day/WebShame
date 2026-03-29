@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T18:37:29.644838+00:00",
+  "generatedAt": "2026-03-29T19:21:58.335431+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -31230,6 +31230,40 @@
       ]
     },
     {
+      "repo": "preet-gsb3/Khatabook",
+      "url": "https://github.com/preet-gsb3/Khatabook",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 26.04,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Khatabook-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************wY2M"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Khatabook-main/ios/Runner/GoogleService-Info.plist",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************5W1Q"
+        }
+      ]
+    },
+    {
       "repo": "princekathrotiya5/bloom-market-delight-main",
       "url": "https://github.com/princekathrotiya5/bloom-market-delight-main",
       "status": "leaked",
@@ -44091,6 +44125,33 @@
           "line": 153,
           "source": "commit",
           "preview": "AIza************************6GoE"
+        }
+      ]
+    },
+    {
+      "repo": "hhx5/hhx5.github.io",
+      "url": "https://github.com/hhx5/hhx5.github.io",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.3,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 86edc18",
+          "line": 197,
+          "source": "commit",
+          "preview": "AIza************************iRz8"
         }
       ]
     },
@@ -65236,6 +65297,33 @@
       ]
     },
     {
+      "repo": "MbarizPaayev2/fron",
+      "url": "https://github.com/MbarizPaayev2/fron",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.73,
+      "exposureScore": 20,
+      "topTypes": [
+        "AWS Access Key ID"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "fron-main/figma_design.json",
+          "line": 1,
+          "source": "file",
+          "preview": "AKIA************DPLF"
+        }
+      ]
+    },
+    {
       "repo": "MegaBryan06/teste01",
       "url": "https://github.com/MegaBryan06/teste01",
       "status": "leaked",
@@ -75010,6 +75098,33 @@
       ]
     },
     {
+      "repo": "amidatanga6-spec/Datacuem1ty",
+      "url": "https://github.com/amidatanga6-spec/Datacuem1ty",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 18.56,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Datacuem1ty-main/src/utils/config.js",
+          "line": 2,
+          "source": "file",
+          "preview": "8330************************pxzw"
+        }
+      ]
+    },
+    {
       "repo": "amiiiirsaman/dll-advanced-pricing-engine",
       "url": "https://github.com/amiiiirsaman/dll-advanced-pricing-engine",
       "status": "leaked",
@@ -83299,6 +83414,33 @@
       ]
     },
     {
+      "repo": "elitsuri/fastgraph-api-1-2",
+      "url": "https://github.com/elitsuri/fastgraph-api-1-2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.84,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "fastgraph-api-1-2-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "elitsuri/flutter-e-shop",
       "url": "https://github.com/elitsuri/flutter-e-shop",
       "status": "leaked",
@@ -83839,6 +83981,33 @@
       ]
     },
     {
+      "repo": "elitsuri/rust-rest-api-1",
+      "url": "https://github.com/elitsuri/rust-rest-api-1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.33,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "rust-rest-api-1-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "elitsuri/salesscope",
       "url": "https://github.com/elitsuri/salesscope",
       "status": "leaked",
@@ -83886,6 +84055,33 @@
         {
           "type": "PostgreSQL Connection URI",
           "file": "servicemesh-1-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/spring-websocket-1",
+      "url": "https://github.com/elitsuri/spring-websocket-1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.73,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "spring-websocket-1-main/docker/docker-compose.yml",
           "line": 11,
           "source": "file",
           "preview": "post************************5432"
@@ -85968,6 +86164,33 @@
           "line": 361,
           "source": "file",
           "preview": "mong************************7017"
+        }
+      ]
+    },
+    {
+      "repo": "gpezao/bronder",
+      "url": "https://github.com/gpezao/bronder",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.95,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "bronder-main/ai/pipeline/07_deployment.md",
+          "line": 120,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -98955,6 +99178,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************dUCY"
+        }
+      ]
+    },
+    {
+      "repo": "pazmi28/APP-STOP-V1",
+      "url": "https://github.com/pazmi28/APP-STOP-V1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.62,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "APP-STOP-V1-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************zU4U"
         }
       ]
     },
