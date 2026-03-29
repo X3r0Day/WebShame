@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T23:27:35.680538+00:00",
+  "generatedAt": "2026-03-29T23:58:51.627189+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -31484,6 +31484,40 @@
           "line": 74,
           "source": "file",
           "preview": "post************************####"
+        }
+      ]
+    },
+    {
+      "repo": "paulosales/fintrack-account-service",
+      "url": "https://github.com/paulosales/fintrack-account-service",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.06,
+      "exposureScore": 32,
+      "topTypes": [
+        "MySQL/MariaDB Connection URI"
+      ],
+      "typeCounts": {
+        "MySQL/MariaDB Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "fintrack-account-service-master/src/db/connection.rs",
+          "line": 39,
+          "source": "file",
+          "preview": "mysq************************3306"
+        },
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "fintrack-account-service-master/src/db/connection.rs",
+          "line": 59,
+          "source": "file",
+          "preview": "mysq************************host"
         }
       ]
     },
