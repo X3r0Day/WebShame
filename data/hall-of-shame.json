@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T16:19:22.260290+00:00",
+  "generatedAt": "2026-03-29T17:02:46.221188+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -20906,6 +20906,40 @@
       ]
     },
     {
+      "repo": "aketipriyavardhan2006-lang/hiregrid",
+      "url": "https://github.com/aketipriyavardhan2006-lang/hiregrid",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 274.9,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "hiregrid-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit d1185d7",
+          "line": 51077,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "amidatanga6-spec/sevemoi",
       "url": "https://github.com/amidatanga6-spec/sevemoi",
       "status": "leaked",
@@ -21580,6 +21614,40 @@
           "type": "PostgreSQL Connection URI",
           "file": "Commit 86a7ee4",
           "line": 573,
+          "source": "commit",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "dracuten1/agent_hub",
+      "url": "https://github.com/dracuten1/agent_hub",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 21.93,
+      "exposureScore": 42,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "agent_hub-main/docker-compose.yml",
+          "line": 29,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 96798ed",
+          "line": 54,
           "source": "commit",
           "preview": "post************************5432"
         }
@@ -25390,6 +25458,42 @@
           "line": 1710,
           "source": "file",
           "preview": "http************************XXXX"
+        }
+      ]
+    },
+    {
+      "repo": "hmzou/parkfree",
+      "url": "https://github.com/hmzou/parkfree",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.9,
+      "exposureScore": 40,
+      "topTypes": [
+        "Mapbox API Key",
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Mapbox API Key": 1,
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Mapbox API Key",
+          "file": "parkfree-master/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "pk.e************************etAQ"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "parkfree-master/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "AIza************************cnOQ"
         }
       ]
     },
@@ -46954,6 +47058,33 @@
       ]
     },
     {
+      "repo": "micomacababbad2-wq/script-pavillion546.",
+      "url": "https://github.com/micomacababbad2-wq/script-pavillion546.",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.89,
+      "exposureScore": 30,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "Commit 8f79b3d",
+          "line": 109,
+          "source": "commit",
+          "preview": "gsk_************************ajX6"
+        }
+      ]
+    },
+    {
       "repo": "mikko-ui/asdf",
       "url": "https://github.com/mikko-ui/asdf",
       "status": "leaked",
@@ -48381,6 +48512,33 @@
           "line": 40,
           "source": "commit",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "olyadmengistu/Nexus-Mind-problem-solving-Platform",
+      "url": "https://github.com/olyadmengistu/Nexus-Mind-problem-solving-Platform",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 9.23,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 8f10878",
+          "line": 155,
+          "source": "commit",
+          "preview": "AIza************************dKFs"
         }
       ]
     },
@@ -54352,6 +54510,33 @@
       ]
     },
     {
+      "repo": "yeziy-123/x.ai.play",
+      "url": "https://github.com/yeziy-123/x.ai.play",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.5,
+      "exposureScore": 30,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "Commit 45a264b",
+          "line": 716,
+          "source": "commit",
+          "preview": "sk-o************************2f75"
+        }
+      ]
+    },
+    {
       "repo": "yigongfangmp/yigongfangmp",
       "url": "https://github.com/yigongfangmp/yigongfangmp",
       "status": "leaked",
@@ -56805,6 +56990,33 @@
           "line": 23,
           "source": "file",
           "preview": "eyJh************************mWas"
+        }
+      ]
+    },
+    {
+      "repo": "Armaansaxena/cyberultron",
+      "url": "https://github.com/Armaansaxena/cyberultron",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.32,
+      "exposureScore": 20,
+      "topTypes": [
+        "RabbitMQ/AMQP URI"
+      ],
+      "typeCounts": {
+        "RabbitMQ/AMQP URI": 1
+      },
+      "findings": [
+        {
+          "type": "RabbitMQ/AMQP URI",
+          "file": "cyberultron-main/celery_worker/tasks.py",
+          "line": 19,
+          "source": "file",
+          "preview": "amqp************************5672"
         }
       ]
     },
@@ -74305,6 +74517,33 @@
       ]
     },
     {
+      "repo": "amthesrn/PDF-RAG-Pro",
+      "url": "https://github.com/amthesrn/PDF-RAG-Pro",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.05,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "PDF-RAG-Pro-main/config/settings.py",
+          "line": 90,
+          "source": "file",
+          "preview": "AIza************************rCcE"
+        }
+      ]
+    },
+    {
       "repo": "anames2323/anonik",
       "url": "https://github.com/anames2323/anonik",
       "status": "leaked",
@@ -82702,6 +82941,33 @@
       ]
     },
     {
+      "repo": "elitsuri/net-cms-backend",
+      "url": "https://github.com/elitsuri/net-cms-backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.07,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "net-cms-backend-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "elitsuri/netmonitor",
       "url": "https://github.com/elitsuri/netmonitor",
       "status": "leaked",
@@ -82803,6 +83069,33 @@
         {
           "type": "PostgreSQL Connection URI",
           "file": "reactdatagrid-1-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/rust-log-aggregator",
+      "url": "https://github.com/elitsuri/rust-log-aggregator",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.21,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "rust-log-aggregator-main/docker/docker-compose.yml",
           "line": 11,
           "source": "file",
           "preview": "post************************5432"
@@ -82938,6 +83231,60 @@
         {
           "type": "PostgreSQL Connection URI",
           "file": "supportdesk-1-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/svelte-notes",
+      "url": "https://github.com/elitsuri/svelte-notes",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.0,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "svelte-notes-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/tradebridge-1-1",
+      "url": "https://github.com/elitsuri/tradebridge-1-1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.56,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "tradebridge-1-1-main/docker/docker-compose.yml",
           "line": 11,
           "source": "file",
           "preview": "post************************5432"
@@ -108024,6 +108371,33 @@
           "line": 124,
           "source": "file",
           "preview": "amqp************************5672"
+        }
+      ]
+    },
+    {
+      "repo": "xiangdee/tlsrider",
+      "url": "https://github.com/xiangdee/tlsrider",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 38.08,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "tlsrider-main/google-services.json",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************0pf4"
         }
       ]
     },
