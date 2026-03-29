@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T21:26:14.900190+00:00",
+  "generatedAt": "2026-03-29T21:57:14.268558+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -12732,6 +12732,51 @@
       ]
     },
     {
+      "repo": "actions-marketplace-validations/Acacian_aegis",
+      "url": "https://github.com/actions-marketplace-validations/Acacian_aegis",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 3,
+      "filesAffected": 3,
+      "commitFindings": 0,
+      "scanTimeSeconds": 42.85,
+      "exposureScore": 60,
+      "topTypes": [
+        "OpenAI API Key (Project)",
+        "GitHub Classic PAT",
+        "AWS Session Token"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Project)": 1,
+        "GitHub Classic PAT": 1,
+        "AWS Session Token": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Project)",
+          "file": "Acacian_aegis-main/playground/js/guardrails.js",
+          "line": 117,
+          "source": "file",
+          "preview": "sk-p************************34yz"
+        },
+        {
+          "type": "GitHub Classic PAT",
+          "file": "Acacian_aegis-main/tests/playground/test_guardrails.js",
+          "line": 108,
+          "source": "file",
+          "preview": "ghp_************************ghij"
+        },
+        {
+          "type": "AWS Session Token",
+          "file": "Acacian_aegis-main/tests/test_mcp_response_scanner.py",
+          "line": 238,
+          "source": "file",
+          "preview": "ASIA************3456"
+        }
+      ]
+    },
+    {
       "repo": "cds-yiwei/dl-project-template",
       "url": "https://github.com/cds-yiwei/dl-project-template",
       "status": "leaked",
@@ -16825,6 +16870,40 @@
           "line": 103,
           "source": "commit",
           "preview": "APPW************************05e5"
+        }
+      ]
+    },
+    {
+      "repo": "salahbadi19/tock_trader_Qoutex1",
+      "url": "https://github.com/salahbadi19/tock_trader_Qoutex1",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 4.91,
+      "exposureScore": 52,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 2
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "Commit 558e99f",
+          "line": 1354,
+          "source": "commit",
+          "preview": "eyJh************************5BrU"
+        },
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "Commit 558e99f",
+          "line": 1356,
+          "source": "commit",
+          "preview": "eyJh************************UrMc"
         }
       ]
     },
@@ -61100,6 +61179,33 @@
       ]
     },
     {
+      "repo": "Fe4ar/LetsTrip",
+      "url": "https://github.com/Fe4ar/LetsTrip",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.11,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "LetsTrip-main/docker-compose.yml",
+          "line": 21,
+          "source": "file",
+          "preview": "post************************d@db"
+        }
+      ]
+    },
+    {
       "repo": "Fejjii/Interview-App",
       "url": "https://github.com/Fejjii/Interview-App",
       "status": "leaked",
@@ -62149,6 +62255,33 @@
           "line": 3,
           "source": "file",
           "preview": "AIza************************tv9c"
+        }
+      ]
+    },
+    {
+      "repo": "Harlockman01/DOTA2-WEB",
+      "url": "https://github.com/Harlockman01/DOTA2-WEB",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.01,
+      "exposureScore": 20,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "DOTA2-WEB-main/IA_PROFESIONAL.md",
+          "line": 16,
+          "source": "file",
+          "preview": "gsk_************************AOO3"
         }
       ]
     },
@@ -73327,6 +73460,33 @@
           "line": 4,
           "source": "file",
           "preview": "8617************************TWaA"
+        }
+      ]
+    },
+    {
+      "repo": "Yuuruiizhin/yrz-rp-scripts",
+      "url": "https://github.com/Yuuruiizhin/yrz-rp-scripts",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.89,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "yrz-rp-scripts-main/yrz_advanced_storage/config/config.lua",
+          "line": 24,
+          "source": "file",
+          "preview": "http************************kbvE"
         }
       ]
     },
@@ -95386,6 +95546,33 @@
           "line": 69,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "matheuslkl12-netizen/clansiafc",
+      "url": "https://github.com/matheuslkl12-netizen/clansiafc",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.43,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "clansiafc-main/main.py",
+          "line": 29,
+          "source": "file",
+          "preview": "http************************9LL6"
         }
       ]
     },
