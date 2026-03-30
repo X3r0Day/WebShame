@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-30T16:57:59.940893+00:00",
+  "generatedAt": "2026-03-30T17:54:51.215251+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -4964,6 +4964,63 @@
           "type": "Private Key (RSA)",
           "file": "Commit 61c509e",
           "line": 63000,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "Kaladevikaladevi/taskflowserver_deploy",
+      "url": "https://github.com/Kaladevikaladevi/taskflowserver_deploy",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 5,
+      "uniqueTypes": 2,
+      "filesAffected": 4,
+      "commitFindings": 2,
+      "scanTimeSeconds": 201.84,
+      "exposureScore": 96,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "taskflowserver_deploy-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "taskflowserver_deploy-main/node_modules/dotenv/README-es.md",
+          "line": 78,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "taskflowserver_deploy-main/node_modules/dotenv/README.md",
+          "line": 110,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 17e1269",
+          "line": 64210,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 17e1269",
+          "line": 64653,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -12423,6 +12480,49 @@
           "type": "Private Key (RSA)",
           "file": "Commit 1040130",
           "line": 11941,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "priyadharshini-025/Authentication_Authorization",
+      "url": "https://github.com/priyadharshini-025/Authentication_Authorization",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 154.74,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Authentication_Authorization-master/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Authentication_Authorization-master/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit ab1c595",
+          "line": 61654,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -20167,6 +20267,40 @@
           "type": "Private Key (RSA)",
           "file": "Commit ea77fdd",
           "line": 97655,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "DEVSINGH2004/sellerAI",
+      "url": "https://github.com/DEVSINGH2004/sellerAI",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 24.82,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "sellerAI-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 47c6545",
+          "line": 11960,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -56472,6 +56606,33 @@
       ]
     },
     {
+      "repo": "xzo-x0zxk1d/winstorm",
+      "url": "https://github.com/xzo-x0zxk1d/winstorm",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 28.99,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 47d63e0",
+          "line": 31545,
+          "source": "commit",
+          "preview": "http************************Ii5T"
+        }
+      ]
+    },
+    {
       "repo": "y514756/SexyAI",
       "url": "https://github.com/y514756/SexyAI",
       "status": "leaked",
@@ -76718,6 +76879,33 @@
           "line": 1,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "ahmedalibob2stone/fluxiq",
+      "url": "https://github.com/ahmedalibob2stone/fluxiq",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 24.39,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "fluxiq-master/android/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************MsCk"
         }
       ]
     },
