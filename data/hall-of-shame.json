@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-30T23:13:55.484532+00:00",
+  "generatedAt": "2026-03-30T23:57:51.417106+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -18509,6 +18509,47 @@
       ]
     },
     {
+      "repo": "Danilozarta/smart-epp",
+      "url": "https://github.com/Danilozarta/smart-epp",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 50.31,
+      "exposureScore": 44,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 3
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "smart-epp-main/backendUnipalma/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "smart-epp-main/backendUnipalma/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "smart-epp-main/backendUnipalma/.env",
+          "line": 5,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "EgeCankaya/curiopilot",
       "url": "https://github.com/EgeCankaya/curiopilot",
       "status": "leaked",
@@ -33671,6 +33712,33 @@
           "line": 109,
           "source": "commit",
           "preview": "8721************************P5cs"
+        }
+      ]
+    },
+    {
+      "repo": "1Ryan22/bot-anime",
+      "url": "https://github.com/1Ryan22/bot-anime",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.16,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 6b40f89",
+          "line": 27,
+          "source": "commit",
+          "preview": "http************************Mq_j"
         }
       ]
     },
@@ -89133,6 +89201,33 @@
       ]
     },
     {
+      "repo": "fahmymohsen777-cmd/wazafly",
+      "url": "https://github.com/fahmymohsen777-cmd/wazafly",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.6,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "wazafly-main/src/lib/supabase.ts",
+          "line": 4,
+          "source": "file",
+          "preview": "eyJh************************4_Os"
+        }
+      ]
+    },
+    {
       "repo": "faidhol/Food-Recognizer-App",
       "url": "https://github.com/faidhol/Food-Recognizer-App",
       "status": "leaked",
@@ -94178,6 +94273,33 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************E98w"
+        }
+      ]
+    },
+    {
+      "repo": "jeonck/k8s-adv",
+      "url": "https://github.com/jeonck/k8s-adv",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.14,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google OAuth Access Token"
+      ],
+      "typeCounts": {
+        "Google OAuth Access Token": 1
+      },
+      "findings": [
+        {
+          "type": "Google OAuth Access Token",
+          "file": "k8s-adv-main/docs/37-oauth2-concept.md",
+          "line": 249,
+          "source": "file",
+          "preview": "ya29************************xxxx"
         }
       ]
     },
