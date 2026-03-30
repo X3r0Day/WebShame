@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-30T19:51:17.366934+00:00",
+  "generatedAt": "2026-03-30T20:35:45.221955+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -6983,6 +6983,49 @@
           "line": 21,
           "source": "commit",
           "preview": "AIza************************vF7E"
+        }
+      ]
+    },
+    {
+      "repo": "Neel9372/new_ownly_main",
+      "url": "https://github.com/Neel9372/new_ownly_main",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 3,
+      "scanTimeSeconds": 48.6,
+      "exposureScore": 82,
+      "topTypes": [
+        "Private Key (RSA)",
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2,
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 67cbb28",
+          "line": 26153,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 67cbb28",
+          "line": 85134,
+          "source": "commit",
+          "preview": "post************************####"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 2f434e5",
+          "line": 26132,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -50446,6 +50489,33 @@
       ]
     },
     {
+      "repo": "noahbalboah/claude-telegram-channel",
+      "url": "https://github.com/noahbalboah/claude-telegram-channel",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.34,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 23186a1",
+          "line": 18,
+          "source": "commit",
+          "preview": "8703************************vYPg"
+        }
+      ]
+    },
+    {
       "repo": "nooralhud498-tech/Wep",
       "url": "https://github.com/nooralhud498-tech/Wep",
       "status": "leaked",
@@ -67240,6 +67310,33 @@
       ]
     },
     {
+      "repo": "MANUEL626/e-Mall_backend",
+      "url": "https://github.com/MANUEL626/e-Mall_backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.2,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "e-Mall_backend-main/config/supabase_client.py",
+          "line": 29,
+          "source": "file",
+          "preview": "eyJh************************81IU"
+        }
+      ]
+    },
+    {
       "repo": "MAXIMUS113s/vanaraksha_v1.3",
       "url": "https://github.com/MAXIMUS113s/vanaraksha_v1.3",
       "status": "leaked",
@@ -80709,6 +80806,33 @@
           "line": 84,
           "source": "file",
           "preview": "8535************************M9zo"
+        }
+      ]
+    },
+    {
+      "repo": "bishnu-prasad/ExpenseAI",
+      "url": "https://github.com/bishnu-prasad/ExpenseAI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.47,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "ExpenseAI-main/backend/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -97372,6 +97496,33 @@
       ]
     },
     {
+      "repo": "lexzymodss/SC-NEW",
+      "url": "https://github.com/lexzymodss/SC-NEW",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.97,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "SC-NEW-main/token.json",
+          "line": 3,
+          "source": "file",
+          "preview": "8514************************sN3g"
+        }
+      ]
+    },
+    {
       "repo": "lhian-dark/misteri-e-leggende",
       "url": "https://github.com/lhian-dark/misteri-e-leggende",
       "status": "leaked",
@@ -98286,6 +98437,33 @@
           "line": 1,
           "source": "file",
           "preview": "8327************************pAcM"
+        }
+      ]
+    },
+    {
+      "repo": "mahabubrabb-a11y/portfolio_backend_project_API-use",
+      "url": "https://github.com/mahabubrabb-a11y/portfolio_backend_project_API-use",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.3,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "portfolio_backend_project_API-use-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -102282,6 +102460,33 @@
           "line": 31,
           "source": "file",
           "preview": "AIza************************JdKU"
+        }
+      ]
+    },
+    {
+      "repo": "ocneakir/discord",
+      "url": "https://github.com/ocneakir/discord",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.2,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "discord-main/Yuuki.py",
+          "line": 290,
+          "source": "file",
+          "preview": "http************************F_QO"
         }
       ]
     },
@@ -113325,6 +113530,33 @@
           "line": 6,
           "source": "file",
           "preview": "8654************************cSRU"
+        }
+      ]
+    },
+    {
+      "repo": "vimlesh9iitd/NEXA-",
+      "url": "https://github.com/vimlesh9iitd/NEXA-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.79,
+      "exposureScore": 20,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "NEXA--main/appL5_deploy (1).py",
+          "line": 756,
+          "source": "file",
+          "preview": "gsk_************************Zb3c"
         }
       ]
     },
