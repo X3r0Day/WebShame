@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-30T04:28:43.838107+00:00",
+  "generatedAt": "2026-03-30T06:25:28.522454+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -17044,6 +17044,40 @@
       ]
     },
     {
+      "repo": "vlanriddle/24BDA70057-6b-VAISHNAVI",
+      "url": "https://github.com/vlanriddle/24BDA70057-6b-VAISHNAVI",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 5.43,
+      "exposureScore": 52,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit e3c1daa",
+          "line": 17,
+          "source": "commit",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit e3c1daa",
+          "line": 18,
+          "source": "commit",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "womerx/rodata",
       "url": "https://github.com/womerx/rodata",
       "status": "leaked",
@@ -30810,6 +30844,40 @@
       ]
     },
     {
+      "repo": "ibrahimnkya/mizigo",
+      "url": "https://github.com/ibrahimnkya/mizigo",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 152.21,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "mizigo-main/apps/mobile/android/app/google-services.json",
+          "line": 24,
+          "source": "file",
+          "preview": "AIza************************60ec"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "mizigo-main/apps/mobile/ios/Runner/GoogleService-Info.plist",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************by8A"
+        }
+      ]
+    },
+    {
       "repo": "ikhan302/ecommerceBackend-Api",
       "url": "https://github.com/ikhan302/ecommerceBackend-Api",
       "status": "leaked",
@@ -41187,6 +41255,33 @@
           "line": 202,
           "source": "commit",
           "preview": "ghp_************************XXXX"
+        }
+      ]
+    },
+    {
+      "repo": "barahonavidaldavid-star/Repositorio-Personal",
+      "url": "https://github.com/barahonavidaldavid-star/Repositorio-Personal",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.19,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 5c0087c",
+          "line": 165,
+          "source": "commit",
+          "preview": "AIza************************csQE"
         }
       ]
     },
@@ -55690,6 +55785,33 @@
       ]
     },
     {
+      "repo": "yixianghuang2005/ai-director-studio",
+      "url": "https://github.com/yixianghuang2005/ai-director-studio",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.62,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 9427ab8",
+          "line": 213,
+          "source": "commit",
+          "preview": "AIza************************N_uc"
+        }
+      ]
+    },
+    {
       "repo": "yourquirey-gif/adminpanelofgamereward",
       "url": "https://github.com/yourquirey-gif/adminpanelofgamereward",
       "status": "leaked",
@@ -56064,6 +56186,33 @@
           "line": 16,
           "source": "file",
           "preview": "8766************************nsJA"
+        }
+      ]
+    },
+    {
+      "repo": "22ketsanee-ksn/426-315-",
+      "url": "https://github.com/22ketsanee-ksn/426-315-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 20.99,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "426-315--main/CRUD1/5.php",
+          "line": 102,
+          "source": "file",
+          "preview": "AIza************************HobU"
         }
       ]
     },
@@ -58440,6 +58589,33 @@
           "line": 3,
           "source": "file",
           "preview": "AIza************************gET8"
+        }
+      ]
+    },
+    {
+      "repo": "Ashika07734/-ERP-System-Purchase-Order-PO-Management-System",
+      "url": "https://github.com/Ashika07734/-ERP-System-Purchase-Order-PO-Management-System",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.48,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Ashika07734--ERP-System-Purchase-Order-PO-Management-System-12a3eca/README.md",
+          "line": 139,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -68299,6 +68475,33 @@
       ]
     },
     {
+      "repo": "Prasadadi18/rcbalert",
+      "url": "https://github.com/Prasadadi18/rcbalert",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.23,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "rcbalert-main/tracker.py",
+          "line": 12,
+          "source": "file",
+          "preview": "8066************************yYwk"
+        }
+      ]
+    },
+    {
       "repo": "Prasadkandekar/gras-backend-new",
       "url": "https://github.com/Prasadkandekar/gras-backend-new",
       "status": "leaked",
@@ -74586,6 +74789,33 @@
           "line": 1,
           "source": "file",
           "preview": "AIza************************XcBM"
+        }
+      ]
+    },
+    {
+      "repo": "abhishekraj0601/connect-hub",
+      "url": "https://github.com/abhishekraj0601/connect-hub",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.09,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "connect-hub-main/server/config/db.js",
+          "line": 13,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -103152,6 +103382,33 @@
           "line": 2,
           "source": "file",
           "preview": "8759************************kkIw"
+        }
+      ]
+    },
+    {
+      "repo": "rodmanr90/rr-react-demo-wiz",
+      "url": "https://github.com/rodmanr90/rr-react-demo-wiz",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 52.98,
+      "exposureScore": 20,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "rr-react-demo-wiz-main/scenarios/react2shell/aws/data/api-keys.txt",
+          "line": 2,
+          "source": "file",
+          "preview": "ghp_************************q7r8"
         }
       ]
     },
