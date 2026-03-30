@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-30T18:49:42.288788+00:00",
+  "generatedAt": "2026-03-30T19:51:17.366934+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -17000,6 +17000,40 @@
           "line": 9383,
           "source": "commit",
           "preview": "eyJh************************L0Zg"
+        }
+      ]
+    },
+    {
+      "repo": "gustavohenriqq/workflow-final",
+      "url": "https://github.com/gustavohenriqq/workflow-final",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 9.78,
+      "exposureScore": 52,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 7252cf7",
+          "line": 219,
+          "source": "commit",
+          "preview": "post************************6543"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 7252cf7",
+          "line": 222,
+          "source": "commit",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -70365,6 +70399,33 @@
       ]
     },
     {
+      "repo": "Presentations-with-ai/macro80",
+      "url": "https://github.com/Presentations-with-ai/macro80",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.2,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "macro80-main/macro_script.js",
+          "line": 18,
+          "source": "file",
+          "preview": "7811************************WbRw"
+        }
+      ]
+    },
+    {
       "repo": "Presentations-with-ai/policy-with-history2",
       "url": "https://github.com/Presentations-with-ai/policy-with-history2",
       "status": "leaked",
@@ -88802,6 +88863,33 @@
           "line": 20,
           "source": "file",
           "preview": "AIza************************2qAE"
+        }
+      ]
+    },
+    {
+      "repo": "farhaanqazi/beauty-parlour-chatbot",
+      "url": "https://github.com/farhaanqazi/beauty-parlour-chatbot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 162.48,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "beauty-parlour-chatbot-master/.qwen-code/skills/docker/SKILL.md",
+          "line": 190,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
