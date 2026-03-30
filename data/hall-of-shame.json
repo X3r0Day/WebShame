@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-29T23:58:51.627189+00:00",
+  "generatedAt": "2026-03-30T01:22:41.324894+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -23484,6 +23484,42 @@
       ]
     },
     {
+      "repo": "3142221437-lang/hll-",
+      "url": "https://github.com/3142221437-lang/hll-",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 76.22,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Slack Webhook"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Slack Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "hll--master/README-EN.md",
+          "line": 1376,
+          "source": "file",
+          "preview": "1234************************m9T0"
+        },
+        {
+          "type": "Slack Webhook",
+          "file": "hll--master/README-EN.md",
+          "line": 1731,
+          "source": "file",
+          "preview": "http************************XXXX"
+        }
+      ]
+    },
+    {
       "repo": "417326839/TrendRadar",
       "url": "https://github.com/417326839/TrendRadar",
       "status": "leaked",
@@ -27404,6 +27440,40 @@
           "line": 3,
           "source": "file",
           "preview": "8511************************F_No"
+        }
+      ]
+    },
+    {
+      "repo": "12liyab/Ben-Gift-Clothing",
+      "url": "https://github.com/12liyab/Ben-Gift-Clothing",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 34.27,
+      "exposureScore": 32,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Ben-Gift-Clothing-main/DEPLOY_TO_RENDER.md",
+          "line": 95,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Ben-Gift-Clothing-main/MONGODB_TROUBLESHOOTING.md",
+          "line": 42,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -97362,6 +97432,33 @@
       ]
     },
     {
+      "repo": "msmichellesamson/model-performance-predictor",
+      "url": "https://github.com/msmichellesamson/model-performance-predictor",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.44,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "model-performance-predictor-main/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "mthielen16/gemini_didaktik",
       "url": "https://github.com/mthielen16/gemini_didaktik",
       "status": "leaked",
@@ -104918,6 +105015,33 @@
           "line": 3,
           "source": "file",
           "preview": "sk-y************************mwmv"
+        }
+      ]
+    },
+    {
+      "repo": "shlok12343/human_activity_sequence_generation_robotics",
+      "url": "https://github.com/shlok12343/human_activity_sequence_generation_robotics",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.95,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "human_activity_sequence_generation_robotics-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************bnrg"
         }
       ]
     },
