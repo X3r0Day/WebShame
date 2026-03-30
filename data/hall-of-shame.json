@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-30T06:25:28.522454+00:00",
+  "generatedAt": "2026-03-30T08:15:20.299273+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -7430,6 +7430,54 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************tnCg"
+        }
+      ]
+    },
+    {
+      "repo": "Beam4989/data_restaurant-system",
+      "url": "https://github.com/Beam4989/data_restaurant-system",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 116.15,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "data_restaurant-system-main/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "data_restaurant-system-main/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit b4567bd",
+          "line": 63814,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit b4567bd",
+          "line": 64249,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -54543,6 +54591,33 @@
       ]
     },
     {
+      "repo": "tota80384-bot/Burger-and-slice",
+      "url": "https://github.com/tota80384-bot/Burger-and-slice",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 31.03,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 69f4c68",
+          "line": 72743,
+          "source": "commit",
+          "preview": "AIza************************LdmI"
+        }
+      ]
+    },
+    {
       "repo": "tpmurray13/bov116personst-v2",
       "url": "https://github.com/tpmurray13/bov116personst-v2",
       "status": "leaked",
@@ -68205,6 +68280,33 @@
       ]
     },
     {
+      "repo": "Pankaj145-pb/Angular-Concepts",
+      "url": "https://github.com/Pankaj145-pb/Angular-Concepts",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.19,
+      "exposureScore": 20,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 1
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "Angular-Concepts-master/src/app/components/apis/api/api.ts",
+          "line": 17,
+          "source": "file",
+          "preview": "http************************json"
+        }
+      ]
+    },
+    {
       "repo": "Parasjoshi02-pj/Lex-Analytics",
       "url": "https://github.com/Parasjoshi02-pj/Lex-Analytics",
       "status": "leaked",
@@ -69119,6 +69221,33 @@
           "line": 13,
           "source": "file",
           "preview": "8519************************vOcw"
+        }
+      ]
+    },
+    {
+      "repo": "RachidJedata/QuizApp",
+      "url": "https://github.com/RachidJedata/QuizApp",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.67,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "QuizApp-master/app/google-services.json",
+          "line": 23,
+          "source": "file",
+          "preview": "AIza************************tWK8"
         }
       ]
     },
@@ -84621,6 +84750,60 @@
       ]
     },
     {
+      "repo": "elitsuri/chatbotbuilder-6",
+      "url": "https://github.com/elitsuri/chatbotbuilder-6",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.98,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "chatbotbuilder-6-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/datascraper-pro-1-1",
+      "url": "https://github.com/elitsuri/datascraper-pro-1-1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.69,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "datascraper-pro-1-1-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "elitsuri/datavalidator-api-1",
       "url": "https://github.com/elitsuri/datavalidator-api-1",
       "status": "leaked",
@@ -85478,6 +85661,60 @@
         {
           "type": "PostgreSQL Connection URI",
           "file": "streamflow-1-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/studiodesk-1-4",
+      "url": "https://github.com/elitsuri/studiodesk-1-4",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.26,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "studiodesk-1-4-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/studiodesk-5",
+      "url": "https://github.com/elitsuri/studiodesk-5",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.97,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "studiodesk-5-main/docker/docker-compose.yml",
           "line": 11,
           "source": "file",
           "preview": "post************************5432"
@@ -110753,6 +110990,33 @@
           "line": 6,
           "source": "file",
           "preview": "8647************************5q94"
+        }
+      ]
+    },
+    {
+      "repo": "walubejordan/Smartbin",
+      "url": "https://github.com/walubejordan/Smartbin",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 26.12,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Smartbin-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************zL7Y"
         }
       ]
     },
