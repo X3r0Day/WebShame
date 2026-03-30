@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-30T14:30:31.600135+00:00",
+  "generatedAt": "2026-03-30T15:59:19.686287+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -6523,6 +6523,56 @@
           "file": "sintersync-main/utils/powder_metrics.lua",
           "line": 16,
           "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "Srushti2121/Urban-waste-management",
+      "url": "https://github.com/Srushti2121/Urban-waste-management",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 75.31,
+      "exposureScore": 84,
+      "topTypes": [
+        "MongoDB Connection URI",
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 2,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Urban-waste-management-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************7017"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Urban-waste-management-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 70505e4",
+          "line": 12813,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 70505e4",
+          "line": 30312,
+          "source": "commit",
           "preview": "mong************************.net"
         }
       ]
@@ -20794,6 +20844,40 @@
           "line": 666,
           "source": "commit",
           "preview": "eyJh************************mvl0"
+        }
+      ]
+    },
+    {
+      "repo": "Mohan9498/Appointment",
+      "url": "https://github.com/Mohan9498/Appointment",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 114.91,
+      "exposureScore": 42,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Appointment-main/backend/config/settings.py",
+          "line": 115,
+          "source": "file",
+          "preview": "post************************.com"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit c5b74eb",
+          "line": 626,
+          "source": "commit",
+          "preview": "post************************.com"
         }
       ]
     },
@@ -48815,6 +48899,33 @@
       ]
     },
     {
+      "repo": "mohamedy72/ibm_chabots",
+      "url": "https://github.com/mohamedy72/ibm_chabots",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.77,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 33388ca",
+          "line": 17,
+          "source": "commit",
+          "preview": "AIza************************7zSk"
+        }
+      ]
+    },
+    {
       "repo": "moheeba1944-alt/moheeba1944-alt.github.io",
       "url": "https://github.com/moheeba1944-alt/moheeba1944-alt.github.io",
       "status": "leaked",
@@ -60830,6 +60941,33 @@
       ]
     },
     {
+      "repo": "CoderShivam/nlp_assign",
+      "url": "https://github.com/CoderShivam/nlp_assign",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.2,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "nlp_assign-main/patient_listing/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************YEFg"
+        }
+      ]
+    },
+    {
       "repo": "CodingMonkey19/GoogleAIStudioUpwork",
       "url": "https://github.com/CodingMonkey19/GoogleAIStudioUpwork",
       "status": "leaked",
@@ -65443,6 +65581,33 @@
           "line": 6,
           "source": "file",
           "preview": "7981************************bTio"
+        }
+      ]
+    },
+    {
+      "repo": "Kartiktech89/stock-agent-",
+      "url": "https://github.com/Kartiktech89/stock-agent-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 24.81,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "stock-agent--main/config.py",
+          "line": 11,
+          "source": "file",
+          "preview": "AIza************************pEGU"
         }
       ]
     },
@@ -73034,6 +73199,33 @@
       ]
     },
     {
+      "repo": "Tahirali-110/flipkart-clone",
+      "url": "https://github.com/Tahirali-110/flipkart-clone",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.85,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "flipkart-clone-main/index.js",
+          "line": 11,
+          "source": "file",
+          "preview": "AIza************************p_P0"
+        }
+      ]
+    },
+    {
       "repo": "TalehHD/MInecraft-Bilgi-Botu-",
       "url": "https://github.com/TalehHD/MInecraft-Bilgi-Botu-",
       "status": "leaked",
@@ -73624,6 +73816,33 @@
           "line": 29,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "TumoDev/nutrickeck_llm_bot",
+      "url": "https://github.com/TumoDev/nutrickeck_llm_bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.99,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "nutrickeck_llm_bot-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "8747************************hvcY"
         }
       ]
     },
@@ -75842,6 +76061,33 @@
       ]
     },
     {
+      "repo": "ablly/bloomx",
+      "url": "https://github.com/ablly/bloomx",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.72,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "bloomx-main/CLOUDFLARE_DEPLOYMENT.md",
+          "line": 50,
+          "source": "file",
+          "preview": "AIza************************_Jps"
+        }
+      ]
+    },
+    {
       "repo": "aboyosefahmed90-oss/telegram-bot",
       "url": "https://github.com/aboyosefahmed90-oss/telegram-bot",
       "status": "leaked",
@@ -76648,6 +76894,33 @@
           "line": 71,
           "source": "file",
           "preview": "AIza************************htVA"
+        }
+      ]
+    },
+    {
+      "repo": "alangiu-gif/privacy-n-parsimony",
+      "url": "https://github.com/alangiu-gif/privacy-n-parsimony",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.8,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "privacy-n-parsimony-main/exponential_scale_test.py",
+          "line": 16,
+          "source": "file",
+          "preview": "sk-o************************73b5"
         }
       ]
     },
@@ -105835,6 +106108,33 @@
           "line": 7,
           "source": "file",
           "preview": "AIza************************fKa4"
+        }
+      ]
+    },
+    {
+      "repo": "sakshibhoge935/YogaFit",
+      "url": "https://github.com/sakshibhoge935/YogaFit",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.48,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "YogaFit-main/app.py",
+          "line": 452,
+          "source": "file",
+          "preview": "AIza************************f2RA"
         }
       ]
     },
