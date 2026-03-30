@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-30T17:54:51.215251+00:00",
+  "generatedAt": "2026-03-30T18:49:42.288788+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -11835,6 +11835,49 @@
           "type": "Private Key (RSA)",
           "file": "Commit 95df61f",
           "line": 75651,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "VAS-18/cliprr",
+      "url": "https://github.com/VAS-18/cliprr",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 58.87,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2,
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "cliprr-main/server/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "cliprr-main/server/node_modules/pg-pool/README.md",
+          "line": 74,
+          "source": "file",
+          "preview": "post************************####"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit ffd934f",
+          "line": 23784,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -40595,6 +40638,33 @@
       ]
     },
     {
+      "repo": "advertisingplatform-blip/elda",
+      "url": "https://github.com/advertisingplatform-blip/elda",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 9.3,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 2c103bf",
+          "line": 735,
+          "source": "commit",
+          "preview": "AIza************************BOSg"
+        }
+      ]
+    },
+    {
       "repo": "ahmadzulham985-commits/sebeleww.io",
       "url": "https://github.com/ahmadzulham985-commits/sebeleww.io",
       "status": "leaked",
@@ -41455,6 +41525,33 @@
           "line": 1168,
           "source": "commit",
           "preview": "AIza************************Ewzw"
+        }
+      ]
+    },
+    {
+      "repo": "arejuu/S-Pankki",
+      "url": "https://github.com/arejuu/S-Pankki",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.25,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 789b15e",
+          "line": 405,
+          "source": "commit",
+          "preview": "http************************S4DD"
         }
       ]
     },
@@ -58334,6 +58431,33 @@
       ]
     },
     {
+      "repo": "Abhishek3561/Chatify-Website",
+      "url": "https://github.com/Abhishek3561/Chatify-Website",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.22,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Chatify-Website-main/backend/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "Abhisheks0n1/HRMS-Lite",
       "url": "https://github.com/Abhisheks0n1/HRMS-Lite",
       "status": "leaked",
@@ -69890,6 +70014,33 @@
       ]
     },
     {
+      "repo": "Pjotrs-Gojs/testbot",
+      "url": "https://github.com/Pjotrs-Gojs/testbot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.13,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "testbot-main/bot.py",
+          "line": 5,
+          "source": "file",
+          "preview": "8640************************zO5o"
+        }
+      ]
+    },
+    {
       "repo": "Portaplix/portaplix-web",
       "url": "https://github.com/Portaplix/portaplix-web",
       "status": "leaked",
@@ -71884,6 +72035,33 @@
           "line": 4,
           "source": "file",
           "preview": "8713************************nUyw"
+        }
+      ]
+    },
+    {
+      "repo": "SRGuyYT/grubed",
+      "url": "https://github.com/SRGuyYT/grubed",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 82.69,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "grubed-main/README.md",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************XAk0"
         }
       ]
     },
@@ -77446,6 +77624,33 @@
           "line": 1743,
           "source": "file",
           "preview": "AIza************************K15U"
+        }
+      ]
+    },
+    {
+      "repo": "alecia-h98/sidequest",
+      "url": "https://github.com/alecia-h98/sidequest",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.56,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "sidequest-main/server/modules/pool.js",
+          "line": 8,
+          "source": "file",
+          "preview": "post************************.com"
         }
       ]
     },
@@ -90815,6 +91020,33 @@
       ]
     },
     {
+      "repo": "hema325/AuctionApp",
+      "url": "https://github.com/hema325/AuctionApp",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.46,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "AuctionApp-master/docker-compose.yml",
+          "line": 86,
+          "source": "file",
+          "preview": "mong************************7017"
+        }
+      ]
+    },
+    {
       "repo": "hencofouche/The-Averian",
       "url": "https://github.com/hencofouche/The-Averian",
       "status": "leaked",
@@ -91999,6 +92231,33 @@
           "line": 4,
           "source": "file",
           "preview": "eyJh************************l-zQ"
+        }
+      ]
+    },
+    {
+      "repo": "igorlehkuy-cell/PCCOMPANY",
+      "url": "https://github.com/igorlehkuy-cell/PCCOMPANY",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 54.4,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "PCCOMPANY-master/Frontend/JS/checkout.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8659************************Wgvg"
         }
       ]
     },
@@ -107150,6 +107409,33 @@
       ]
     },
     {
+      "repo": "satendravron/bowling-analyzer",
+      "url": "https://github.com/satendravron/bowling-analyzer",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.99,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "bowling-analyzer-main/Complete Project.py",
+          "line": 17,
+          "source": "file",
+          "preview": "sk-o************************9a46"
+        }
+      ]
+    },
+    {
       "repo": "sathishai2026/applyroh",
       "url": "https://github.com/sathishai2026/applyroh",
       "status": "leaked",
@@ -114004,6 +114290,33 @@
           "line": 5,
           "source": "file",
           "preview": "eyJh************************C9Zs"
+        }
+      ]
+    },
+    {
+      "repo": "xcvqx/roblox-checker",
+      "url": "https://github.com/xcvqx/roblox-checker",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.24,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "roblox-checker-main/roblox.py",
+          "line": 21,
+          "source": "file",
+          "preview": "http************************PQEh"
         }
       ]
     },
