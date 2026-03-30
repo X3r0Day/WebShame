@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-30T22:04:37.229030+00:00",
+  "generatedAt": "2026-03-30T22:38:26.919579+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -95073,6 +95073,33 @@
       ]
     },
     {
+      "repo": "kale-Avishkar/EatEpic",
+      "url": "https://github.com/kale-Avishkar/EatEpic",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 104.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "EatEpic-master/app/google-services.json",
+          "line": 24,
+          "source": "file",
+          "preview": "AIza************************pt2o"
+        }
+      ]
+    },
+    {
       "repo": "kalfunakk-cmd/-",
       "url": "https://github.com/kalfunakk-cmd/-",
       "status": "leaked",
@@ -97283,6 +97310,33 @@
           "line": 1,
           "source": "file",
           "preview": "8674************************Cro0"
+        }
+      ]
+    },
+    {
+      "repo": "lakunzy7/AI-Customer-Support-Platform",
+      "url": "https://github.com/lakunzy7/AI-Customer-Support-Platform",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.85,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "AI-Customer-Support-Platform-main/docs/incident-runbook.md",
+          "line": 21,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
