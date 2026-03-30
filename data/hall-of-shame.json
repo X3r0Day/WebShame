@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-30T21:15:56.330789+00:00",
+  "generatedAt": "2026-03-30T22:04:37.229030+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -30843,6 +30843,40 @@
           "line": 7,
           "source": "file",
           "preview": "eyJh************************GKRQ"
+        }
+      ]
+    },
+    {
+      "repo": "bajju08/dma-car-swing-trading",
+      "url": "https://github.com/bajju08/dma-car-swing-trading",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.0,
+      "exposureScore": 32,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 2
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "dma-car-swing-trading-main/SETUP_TELEGRAM.md",
+          "line": 22,
+          "source": "file",
+          "preview": "1234************************6789"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "dma-car-swing-trading-main/SETUP_TELEGRAM.md",
+          "line": 25,
+          "source": "file",
+          "preview": "7012************************IjKl"
         }
       ]
     },
@@ -84185,6 +84219,33 @@
       ]
     },
     {
+      "repo": "damondeng8/Tweeply",
+      "url": "https://github.com/damondeng8/Tweeply",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.38,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "Tweeply-main/lib/supabase-server.ts",
+          "line": 8,
+          "source": "file",
+          "preview": "eyJh************************-key"
+        }
+      ]
+    },
+    {
       "repo": "danabindra/postgres-deadlock-agent",
       "url": "https://github.com/danabindra/postgres-deadlock-agent",
       "status": "leaked",
@@ -110776,6 +110837,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************w3IY"
+        }
+      ]
+    },
+    {
+      "repo": "tesleum/carbon-messenger",
+      "url": "https://github.com/tesleum/carbon-messenger",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.54,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "carbon-messenger-codex-carbon/server/server.js",
+          "line": 42,
+          "source": "file",
+          "preview": "8279************************hQRw"
         }
       ]
     },
