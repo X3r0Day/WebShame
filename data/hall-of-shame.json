@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-30T12:54:53.910658+00:00",
+  "generatedAt": "2026-03-30T14:30:31.600135+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -6406,6 +6406,65 @@
           "line": 36,
           "source": "file",
           "preview": "7619************************WntE"
+        }
+      ]
+    },
+    {
+      "repo": "Pancake-ART/qmc",
+      "url": "https://github.com/Pancake-ART/qmc",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 5,
+      "uniqueTypes": 3,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.18,
+      "exposureScore": 84,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)",
+        "OpenAI API Key (Legacy)",
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1,
+        "Supabase Service Role Key (JWT)": 2,
+        "OpenAI API Key (Legacy)": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "qmc-main/\u542f\u52a8\u6587\u6863.txt",
+          "line": 14,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "qmc-main/\u542f\u52a8\u6587\u6863.txt",
+          "line": 15,
+          "source": "file",
+          "preview": "eyJh************************uebk"
+        },
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "qmc-main/\u542f\u52a8\u6587\u6863.txt",
+          "line": 27,
+          "source": "file",
+          "preview": "sk-9************************QANE"
+        },
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "qmc-main/\u542f\u52a8\u6587\u6863.txt",
+          "line": 81,
+          "source": "file",
+          "preview": "sk-k************************fmdf"
+        },
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "qmc-main/\u542f\u52a8\u6587\u6863.txt",
+          "line": 84,
+          "source": "file",
+          "preview": "eyJh************************7SfA"
         }
       ]
     },
@@ -16471,6 +16530,40 @@
           "line": 190,
           "source": "commit",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "aryan05125/BuyNNext-E-commerce-Backend-",
+      "url": "https://github.com/aryan05125/BuyNNext-E-commerce-Backend-",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 2,
+      "scanTimeSeconds": 147.39,
+      "exposureScore": 52,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 66a3544",
+          "line": 106078,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 9b0c500",
+          "line": 106729,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -40406,6 +40499,33 @@
       ]
     },
     {
+      "repo": "alnsyannsyan04-wq/hfgfhcyy",
+      "url": "https://github.com/alnsyannsyan04-wq/hfgfhcyy",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.84,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 8e0436e",
+          "line": 48,
+          "source": "commit",
+          "preview": "8449************************kHYU"
+        }
+      ]
+    },
+    {
       "repo": "amdechat/index.html",
       "url": "https://github.com/amdechat/index.html",
       "status": "leaked",
@@ -61790,6 +61910,33 @@
       ]
     },
     {
+      "repo": "EASS-HIT-PART-A-2026-CLASS-IX/dev-paradigm-showdown",
+      "url": "https://github.com/EASS-HIT-PART-A-2026-CLASS-IX/dev-paradigm-showdown",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.51,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "dev-paradigm-showdown-main/backend/main.py",
+          "line": 17,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "ELASHA0/E_Police_3.0_new",
       "url": "https://github.com/ELASHA0/E_Police_3.0_new",
       "status": "leaked",
@@ -63410,6 +63557,33 @@
       ]
     },
     {
+      "repo": "HarshSonawane/cg-infra",
+      "url": "https://github.com/HarshSonawane/cg-infra",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.06,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "cg-infra-master/docker/docker-compose.yml",
+          "line": 18,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "HarshitBhatt691/BOOK_MY_SHOW_CLONE",
       "url": "https://github.com/HarshitBhatt691/BOOK_MY_SHOW_CLONE",
       "status": "leaked",
@@ -64945,6 +65119,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************LBSE"
+        }
+      ]
+    },
+    {
+      "repo": "Joshua12343-ign/flutter_demo",
+      "url": "https://github.com/Joshua12343-ign/flutter_demo",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 30.1,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "flutter_demo-main/android/app/google-services.json",
+          "line": 23,
+          "source": "file",
+          "preview": "AIza************************HCsQ"
         }
       ]
     },
@@ -69508,6 +69709,33 @@
           "line": 18,
           "source": "file",
           "preview": "7811************************WbRw"
+        }
+      ]
+    },
+    {
+      "repo": "Prijitha7/nirog",
+      "url": "https://github.com/Prijitha7/nirog",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.22,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Prijitha7-nirog-8809e71/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************uEUo"
         }
       ]
     },
@@ -76478,6 +76706,33 @@
       ]
     },
     {
+      "repo": "alecnhance/Cp5Sol",
+      "url": "https://github.com/alecnhance/Cp5Sol",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.13,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Cp5Sol-checkpoint_5/S26Checkpoints/S26Checkpoints/GoogleService-Info.plist",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************8GrY"
+        }
+      ]
+    },
+    {
       "repo": "alexander0999/ajtbd",
       "url": "https://github.com/alexander0999/ajtbd",
       "status": "leaked",
@@ -81689,6 +81944,33 @@
       ]
     },
     {
+      "repo": "codexu/note-gen-action-test",
+      "url": "https://github.com/codexu/note-gen-action-test",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 23.05,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenAI API Key (Legacy)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Legacy)": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "note-gen-action-test-codex-pr1034-appimage-test/src/app/model-config.ts",
+          "line": 5,
+          "source": "file",
+          "preview": "sk-1************************unbQ"
+        }
+      ]
+    },
+    {
       "repo": "colee0509-boop/win11",
       "url": "https://github.com/colee0509-boop/win11",
       "status": "leaked",
@@ -85523,6 +85805,33 @@
       ]
     },
     {
+      "repo": "elitsuri/codereview-ai-13",
+      "url": "https://github.com/elitsuri/codereview-ai-13",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.01,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "codereview-ai-13-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "elitsuri/codereview-ai-7",
       "url": "https://github.com/elitsuri/codereview-ai-7",
       "status": "leaked",
@@ -85975,6 +86284,60 @@
         {
           "type": "PostgreSQL Connection URI",
           "file": "inventorymaster-1-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/inventorymaster-5",
+      "url": "https://github.com/elitsuri/inventorymaster-5",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.06,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "inventorymaster-5-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/invoicepilot-12",
+      "url": "https://github.com/elitsuri/invoicepilot-12",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.73,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "invoicepilot-12-main/docker/docker-compose.yml",
           "line": 11,
           "source": "file",
           "preview": "post************************5432"
@@ -89299,6 +89662,33 @@
           "line": 12,
           "source": "file",
           "preview": "8299************************_Vdc"
+        }
+      ]
+    },
+    {
+      "repo": "hammadalvi-a1/idm",
+      "url": "https://github.com/hammadalvi-a1/idm",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.87,
+      "exposureScore": 20,
+      "topTypes": [
+        "MySQL/MariaDB Connection URI"
+      ],
+      "typeCounts": {
+        "MySQL/MariaDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "idm-main/Makefile",
+          "line": 15,
+          "source": "file",
+          "preview": "mysq************************306)"
         }
       ]
     },
@@ -102502,6 +102892,33 @@
           "line": 1,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "prajapatirv/Python-Al",
+      "url": "https://github.com/prajapatirv/Python-Al",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 82.56,
+      "exposureScore": 20,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 1
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "Python-Al-pre-commit-ci-update-config/web_programming/get_top_hn_posts.py",
+          "line": 22,
+          "source": "file",
+          "preview": "http************************etty"
         }
       ]
     },
