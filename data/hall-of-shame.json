@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-30T11:58:11.215096+00:00",
+  "generatedAt": "2026-03-30T12:54:53.910658+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -38003,6 +38003,33 @@
       ]
     },
     {
+      "repo": "RatneshSingh21/DigiPay",
+      "url": "https://github.com/RatneshSingh21/DigiPay",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 127.65,
+      "exposureScore": 30,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "Commit b6af3c1",
+          "line": 17,
+          "source": "commit",
+          "preview": "gsk_************************AHUF"
+        }
+      ]
+    },
+    {
       "repo": "Ratul8478/New-Gayetri-Jewellery-Jewellery-of-Jewelles",
       "url": "https://github.com/Ratul8478/New-Gayetri-Jewellery-Jewellery-of-Jewelles",
       "status": "leaked",
@@ -44965,6 +44992,33 @@
           "line": 48,
           "source": "commit",
           "preview": "eyJh************************IEHE"
+        }
+      ]
+    },
+    {
+      "repo": "heet-sutariya-193/agentic-ai-lab",
+      "url": "https://github.com/heet-sutariya-193/agentic-ai-lab",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.86,
+      "exposureScore": 30,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "Commit 354bdd2",
+          "line": 19,
+          "source": "commit",
+          "preview": "gsk_************************Ad4J"
         }
       ]
     },
@@ -80042,6 +80096,33 @@
       ]
     },
     {
+      "repo": "caffeinepub/opper-search",
+      "url": "https://github.com/caffeinepub/opper-search",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 29.22,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "opper-search-main/spec.md",
+          "line": 13,
+          "source": "file",
+          "preview": "AIza************************iN9E"
+        }
+      ]
+    },
+    {
       "repo": "caglar-ops/caglar-business",
       "url": "https://github.com/caglar-ops/caglar-business",
       "status": "leaked",
@@ -85226,6 +85307,33 @@
       ]
     },
     {
+      "repo": "elitsuri/authguard-api-6",
+      "url": "https://github.com/elitsuri/authguard-api-6",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.97,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "authguard-api-6-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "elitsuri/backupguardian-1-1",
       "url": "https://github.com/elitsuri/backupguardian-1-1",
       "status": "leaked",
@@ -85678,6 +85786,33 @@
         {
           "type": "PostgreSQL Connection URI",
           "file": "flutter-task-app-2-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/foodcourt-online-3",
+      "url": "https://github.com/elitsuri/foodcourt-online-3",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.5,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "foodcourt-online-3-main/docker/docker-compose.yml",
           "line": 11,
           "source": "file",
           "preview": "post************************5432"
@@ -86623,6 +86758,33 @@
         {
           "type": "PostgreSQL Connection URI",
           "file": "tradebridge-1-1-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/tradebridge-18",
+      "url": "https://github.com/elitsuri/tradebridge-18",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.68,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "tradebridge-18-main/docker/docker-compose.yml",
           "line": 11,
           "source": "file",
           "preview": "post************************5432"
