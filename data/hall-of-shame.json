@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-30T01:22:41.324894+00:00",
+  "generatedAt": "2026-03-30T04:28:43.838107+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -35035,6 +35035,33 @@
       ]
     },
     {
+      "repo": "GaryGreatbot/sydney-map",
+      "url": "https://github.com/GaryGreatbot/sydney-map",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.39,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 8014248",
+          "line": 351,
+          "source": "commit",
+          "preview": "AIza************************_t-c"
+        }
+      ]
+    },
+    {
       "repo": "GibranSatrio/dana-security.com",
       "url": "https://github.com/GibranSatrio/dana-security.com",
       "status": "leaked",
@@ -47320,6 +47347,33 @@
       ]
     },
     {
+      "repo": "mairasyed-cell/n_park",
+      "url": "https://github.com/mairasyed-cell/n_park",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 44.04,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 1084b43",
+          "line": 70000,
+          "source": "commit",
+          "preview": "AIza************************Nq34"
+        }
+      ]
+    },
+    {
       "repo": "manasa-manoj-nbr/golf-draw",
       "url": "https://github.com/manasa-manoj-nbr/golf-draw",
       "status": "leaked",
@@ -56307,6 +56361,33 @@
           "line": 1,
           "source": "file",
           "preview": "amqp************************.com"
+        }
+      ]
+    },
+    {
+      "repo": "ARYAN1725/smartvitals-clean",
+      "url": "https://github.com/ARYAN1725/smartvitals-clean",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.31,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "smartvitals-clean-main/backend/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -67273,6 +67354,33 @@
       ]
     },
     {
+      "repo": "Nikhil-Srimanth/PPT_MINI",
+      "url": "https://github.com/Nikhil-Srimanth/PPT_MINI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 37.04,
+      "exposureScore": 20,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "PPT_MINI-main/app.py",
+          "line": 32,
+          "source": "file",
+          "preview": "gsk_************************0Ie8"
+        }
+      ]
+    },
+    {
       "repo": "NikkoWebDev/veterinaria",
       "url": "https://github.com/NikkoWebDev/veterinaria",
       "status": "leaked",
@@ -69213,6 +69321,33 @@
           "line": 27,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "Remonambrish/sign-language",
+      "url": "https://github.com/Remonambrish/sign-language",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.86,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "sign-language-main/main.py",
+          "line": 262,
+          "source": "file",
+          "preview": "AIza************************OixU"
         }
       ]
     },
@@ -108417,6 +108552,33 @@
           "line": 4,
           "source": "file",
           "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "trungkien20020428/teencare-inteview",
+      "url": "https://github.com/trungkien20020428/teencare-inteview",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.27,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "teencare-inteview-main/docker-compose.dev.yml",
+          "line": 26,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
