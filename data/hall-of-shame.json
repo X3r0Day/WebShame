@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-30T15:59:19.686287+00:00",
+  "generatedAt": "2026-03-30T16:57:59.940893+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -2831,6 +2831,70 @@
           "line": 0,
           "source": "commit",
           "preview": "eyJh************************rrQ"
+        }
+      ]
+    },
+    {
+      "repo": "Suman123542/hotelbooking_backend",
+      "url": "https://github.com/Suman123542/hotelbooking_backend",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 6,
+      "uniqueTypes": 2,
+      "filesAffected": 4,
+      "commitFindings": 3,
+      "scanTimeSeconds": 196.97,
+      "exposureScore": 118,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 2,
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "hotelbooking_backend-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "hotelbooking_backend-main/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "hotelbooking_backend-main/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 6c684d4",
+          "line": 90461,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 6c684d4",
+          "line": 90896,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 6c684d4",
+          "line": 3854,
+          "source": "commit",
+          "preview": "mong************************net\""
         }
       ]
     },
@@ -12316,6 +12380,49 @@
           "type": "Private Key (RSA)",
           "file": "Commit 0a02cc8",
           "line": 12381,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "ombabde2-stack/Iso_Audit_System_College",
+      "url": "https://github.com/ombabde2-stack/Iso_Audit_System_College",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 162.4,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Iso_Audit_System_College-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Iso_Audit_System_College-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 1040130",
+          "line": 11941,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -23262,6 +23369,40 @@
       ]
     },
     {
+      "repo": "rihabTB/Secure-Task-Manager-API",
+      "url": "https://github.com/rihabTB/Secure-Task-Manager-API",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 202.89,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Secure-Task-Manager-API-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 5750435",
+          "line": 62966,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "roberts8da/fabric",
       "url": "https://github.com/roberts8da/fabric",
       "status": "leaked",
@@ -23836,6 +23977,40 @@
           "line": 1625,
           "source": "commit",
           "preview": "post************************host"
+        }
+      ]
+    },
+    {
+      "repo": "youssefsighari/cosmetique-repo",
+      "url": "https://github.com/youssefsighari/cosmetique-repo",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 116.9,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "cosmetique-repo-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit c7b8b2b",
+          "line": 76671,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -38153,6 +38328,33 @@
       ]
     },
     {
+      "repo": "Raghavgupta2003/Smart-Ecommerce",
+      "url": "https://github.com/Raghavgupta2003/Smart-Ecommerce",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 9.9,
+      "exposureScore": 30,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit a3f16aa",
+          "line": 17,
+          "source": "commit",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "Rahi-007/Fuel-Stations-Backend",
       "url": "https://github.com/Rahi-007/Fuel-Stations-Backend",
       "status": "leaked",
@@ -45763,6 +45965,33 @@
           "line": 379,
           "source": "commit",
           "preview": "eyJh************************Aj8U"
+        }
+      ]
+    },
+    {
+      "repo": "inomallesh/robot",
+      "url": "https://github.com/inomallesh/robot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.26,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 070307a",
+          "line": 601,
+          "source": "commit",
+          "preview": "AIza************************O1B4"
         }
       ]
     },
@@ -59969,6 +60198,33 @@
       ]
     },
     {
+      "repo": "Bharath1822/speakEasy",
+      "url": "https://github.com/Bharath1822/speakEasy",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.66,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "speakEasy-main/SpeakEasy-main/README.md",
+          "line": 74,
+          "source": "file",
+          "preview": "AIza************************YS8M"
+        }
+      ]
+    },
+    {
       "repo": "Bhavana244-blip/Campus-Cart",
       "url": "https://github.com/Bhavana244-blip/Campus-Cart",
       "status": "leaked",
@@ -60449,6 +60705,33 @@
           "type": "PostgreSQL Connection URI",
           "file": "saga-practice-master/Makefile",
           "line": 1,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "CaesarCloudSync/ProofOfResolution",
+      "url": "https://github.com/CaesarCloudSync/ProofOfResolution",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 51.22,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "ProofOfResolution-main/CaesarSQLDB/CaesarSQL.py",
+          "line": 12,
           "source": "file",
           "preview": "post************************5432"
         }
@@ -87509,6 +87792,33 @@
       ]
     },
     {
+      "repo": "emirsaginda34/fc-scout-pro",
+      "url": "https://github.com/emirsaginda34/fc-scout-pro",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 123.79,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "fc-scout-pro-main/importData.js",
+          "line": 5,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "enoche-001/foodcastle",
       "url": "https://github.com/enoche-001/foodcastle",
       "status": "leaked",
@@ -106054,6 +106364,33 @@
           "line": 8,
           "source": "file",
           "preview": "8613************************rAbw"
+        }
+      ]
+    },
+    {
+      "repo": "saimonkumarsahteli2401268-spec/fitmapbyshreya",
+      "url": "https://github.com/saimonkumarsahteli2401268-spec/fitmapbyshreya",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.07,
+      "exposureScore": 20,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "fitmapbyshreya-main/services/geminiService.ts",
+          "line": 1,
+          "source": "file",
+          "preview": "gsk_************************GHxy"
         }
       ]
     },
