@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-30T10:57:08.632794+00:00",
+  "generatedAt": "2026-03-30T11:58:11.215096+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -13179,6 +13179,51 @@
           "line": 52,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "sayali23leapforge-glitch/ai-boat-calender-2.0",
+      "url": "https://github.com/sayali23leapforge-glitch/ai-boat-calender-2.0",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 3,
+      "filesAffected": 3,
+      "commitFindings": 0,
+      "scanTimeSeconds": 26.98,
+      "exposureScore": 60,
+      "topTypes": [
+        "Google API/GCP Key",
+        "Supabase Service Role Key (JWT)",
+        "Supabase PAT"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "Supabase Service Role Key (JWT)": 1,
+        "Supabase PAT": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ai-boat-calender-2.0-main/BLOO_WEBHOOK_INTEGRATION.md",
+          "line": 191,
+          "source": "file",
+          "preview": "AIza************************1KlU"
+        },
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "ai-boat-calender-2.0-main/supabase/functions/send-reminder/index.ts",
+          "line": 7,
+          "source": "file",
+          "preview": "eyJh************************jZ4I"
+        },
+        {
+          "type": "Supabase PAT",
+          "file": "ai-boat-calender-2.0-main/supabase/migrations/20260320114500_create_reminders_and_scheduler.sql",
+          "line": 13,
+          "source": "file",
+          "preview": "sbp_************************6dea"
         }
       ]
     },
@@ -31348,6 +31393,40 @@
           "line": 25,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "kishore07kbp/bunk-tracer",
+      "url": "https://github.com/kishore07kbp/bunk-tracer",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 25.59,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "bunk-tracer-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************vH94"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "bunk-tracer-main/ios/Runner/GoogleService-Info.plist",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************pNyY"
         }
       ]
     },
@@ -85282,6 +85361,33 @@
       ]
     },
     {
+      "repo": "elitsuri/chatbotbuilder-3-1",
+      "url": "https://github.com/elitsuri/chatbotbuilder-3-1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.56,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "chatbotbuilder-3-1-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "elitsuri/chatbotbuilder-6",
       "url": "https://github.com/elitsuri/chatbotbuilder-6",
       "status": "leaked",
@@ -85356,6 +85462,33 @@
         {
           "type": "PostgreSQL Connection URI",
           "file": "datascraper-pro-1-1-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/datascraper-pro-7",
+      "url": "https://github.com/elitsuri/datascraper-pro-7",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.18,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "datascraper-pro-7-main/docker/docker-compose.yml",
           "line": 11,
           "source": "file",
           "preview": "post************************5432"
@@ -86355,6 +86488,33 @@
         {
           "type": "PostgreSQL Connection URI",
           "file": "studiodesk-1-4-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/studiodesk-19",
+      "url": "https://github.com/elitsuri/studiodesk-19",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.25,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "studiodesk-19-main/docker/docker-compose.yml",
           "line": 11,
           "source": "file",
           "preview": "post************************5432"
@@ -93324,6 +93484,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************UkuA"
+        }
+      ]
+    },
+    {
+      "repo": "kauriane1/talentlaunch",
+      "url": "https://github.com/kauriane1/talentlaunch",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.84,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "talentlaunch-main/.env",
+          "line": 4,
+          "source": "file",
+          "preview": "post************************tech"
         }
       ]
     },
@@ -105528,6 +105715,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************VYRI"
+        }
+      ]
+    },
+    {
+      "repo": "sarveshramm/soloboss-AI",
+      "url": "https://github.com/sarveshramm/soloboss-AI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.09,
+      "exposureScore": 20,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "soloboss-AI-main/src/App.jsx",
+          "line": 155,
+          "source": "file",
+          "preview": "gsk_************************cYzD"
         }
       ]
     },
