@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-31T10:32:01.999094+00:00",
+  "generatedAt": "2026-03-31T11:26:39.345963+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -40723,6 +40723,33 @@
       ]
     },
     {
+      "repo": "Viidhii19/Auto-Triage-Agent-Autonomous-Digital-Forensics-Malware-Triage",
+      "url": "https://github.com/Viidhii19/Auto-Triage-Agent-Autonomous-Digital-Forensics-Malware-Triage",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 8.7,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 8d4f73e",
+          "line": 39,
+          "source": "commit",
+          "preview": "AIza************************epbU"
+        }
+      ]
+    },
+    {
       "repo": "Vineet010104/cuda-ai-optimizer",
       "url": "https://github.com/Vineet010104/cuda-ai-optimizer",
       "status": "leaked",
@@ -43176,6 +43203,33 @@
           "line": 41,
           "source": "commit",
           "preview": "AIza************************R9a8"
+        }
+      ]
+    },
+    {
+      "repo": "bigteslaboy3-creator/rsvp-web",
+      "url": "https://github.com/bigteslaboy3-creator/rsvp-web",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.57,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 86ca9fb",
+          "line": 1197,
+          "source": "commit",
+          "preview": "AIza************************ougQ"
         }
       ]
     },
@@ -75661,6 +75715,33 @@
       ]
     },
     {
+      "repo": "ThibaultGontrand/SC01234-OC-Oquiz-romain-hoffmann",
+      "url": "https://github.com/ThibaultGontrand/SC01234-OC-Oquiz-romain-hoffmann",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 29.29,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "SC01234-OC-Oquiz-romain-hoffmann-challengeDocker/docs/challenges/CHALL-SC02E01/CORR-SC02E01/CORR-SC02E01.md",
+          "line": 160,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Thinhlxpham/test-stripe-payment",
       "url": "https://github.com/Thinhlxpham/test-stripe-payment",
       "status": "leaked",
@@ -93103,6 +93184,33 @@
       ]
     },
     {
+      "repo": "hienne215/lab8",
+      "url": "https://github.com/hienne215/lab8",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 25.21,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "lab8-main/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************p_u4"
+        }
+      ]
+    },
+    {
       "repo": "hieudevmobile/StudyApp",
       "url": "https://github.com/hieudevmobile/StudyApp",
       "status": "leaked",
@@ -100366,6 +100474,33 @@
       ]
     },
     {
+      "repo": "mahi0x/ai-tour-guide",
+      "url": "https://github.com/mahi0x/ai-tour-guide",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.18,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ai-tour-guide-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************cg2E"
+        }
+      ]
+    },
+    {
       "repo": "mahudmahim-png/Jdjfjfjfjfjfjfj",
       "url": "https://github.com/mahudmahim-png/Jdjfjfjfjfjfjfj",
       "status": "leaked",
@@ -101334,6 +101469,33 @@
           "line": 1677,
           "source": "file",
           "preview": "eyJh************************3C8M"
+        }
+      ]
+    },
+    {
+      "repo": "mdbchilimasala-cmd/mdb-khata-dashboard",
+      "url": "https://github.com/mdbchilimasala-cmd/mdb-khata-dashboard",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.16,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "mdb-khata-dashboard-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************DeJM"
         }
       ]
     },
@@ -102414,6 +102576,33 @@
           "line": 5,
           "source": "file",
           "preview": "8716************************AkTo"
+        }
+      ]
+    },
+    {
+      "repo": "mostafaahmedkmg-sys/ess",
+      "url": "https://github.com/mostafaahmedkmg-sys/ess",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.85,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "ess-main/send_otp.php",
+          "line": 5,
+          "source": "file",
+          "preview": "7286************************-fng"
         }
       ]
     },
@@ -116724,6 +116913,33 @@
           "line": 22,
           "source": "file",
           "preview": "AKIA************XXXX"
+        }
+      ]
+    },
+    {
+      "repo": "workgroup-service/Centraal",
+      "url": "https://github.com/workgroup-service/Centraal",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 132.12,
+      "exposureScore": 20,
+      "topTypes": [
+        "GitLab PAT"
+      ],
+      "typeCounts": {
+        "GitLab PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitLab PAT",
+          "file": "Centraal-main/src/components/SettingsDialog.tsx",
+          "line": 63,
+          "source": "file",
+          "preview": "glpa******************xxxx"
         }
       ]
     },
