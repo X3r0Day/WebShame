@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-31T07:12:53.387163+00:00",
+  "generatedAt": "2026-03-31T08:25:30.360943+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -25025,6 +25025,42 @@
       ]
     },
     {
+      "repo": "Hanako989/Dekuflicks-bot-",
+      "url": "https://github.com/Hanako989/Dekuflicks-bot-",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 42.62,
+      "exposureScore": 40,
+      "topTypes": [
+        "MongoDB Connection URI",
+        "Google OAuth Client Secret"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Google OAuth Client Secret": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Dekuflicks-bot--shan/config.json",
+          "line": 38,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Google OAuth Client Secret",
+          "file": "Dekuflicks-bot--shan/config.json",
+          "line": 48,
+          "source": "file",
+          "preview": "GOCS************************d8_O"
+        }
+      ]
+    },
+    {
       "repo": "IsaelFatamaDev/SistemaEvaluaciones",
       "url": "https://github.com/IsaelFatamaDev/SistemaEvaluaciones",
       "status": "leaked",
@@ -39028,6 +39064,33 @@
       ]
     },
     {
+      "repo": "RasulSodiqov1/test",
+      "url": "https://github.com/RasulSodiqov1/test",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 20.06,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 96a01d1",
+          "line": 187,
+          "source": "commit",
+          "preview": "7712************************kGIM"
+        }
+      ]
+    },
+    {
       "repo": "RatneshSingh21/DigiPay",
       "url": "https://github.com/RatneshSingh21/DigiPay",
       "status": "leaked",
@@ -46750,6 +46813,33 @@
       ]
     },
     {
+      "repo": "intelinsight-sgp/50-soal-ipa-ips",
+      "url": "https://github.com/intelinsight-sgp/50-soal-ipa-ips",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.01,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 3cd67ad",
+          "line": 126,
+          "source": "commit",
+          "preview": "AIza************************QsIM"
+        }
+      ]
+    },
+    {
       "repo": "interlab001-afk/gallery",
       "url": "https://github.com/interlab001-afk/gallery",
       "status": "leaked",
@@ -49851,6 +49941,33 @@
           "line": 15912,
           "source": "commit",
           "preview": "sk-o************************ed25"
+        }
+      ]
+    },
+    {
+      "repo": "mmohammedmunshif127-crypto/POS-",
+      "url": "https://github.com/mmohammedmunshif127-crypto/POS-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.2,
+      "exposureScore": 30,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit ea0bc0e",
+          "line": 44,
+          "source": "commit",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -62977,6 +63094,33 @@
       ]
     },
     {
+      "repo": "Dinithilakshani/Tourism-Configuration",
+      "url": "https://github.com/Dinithilakshani/Tourism-Configuration",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.26,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Tourism-Configuration-master/Travel-Configuration-master/services/program-service.yaml",
+          "line": 7,
+          "source": "file",
+          "preview": "mong************************:443"
+        }
+      ]
+    },
+    {
       "repo": "Dirige/danmu-api",
       "url": "https://github.com/Dirige/danmu-api",
       "status": "leaked",
@@ -64836,6 +64980,33 @@
           "line": 5,
           "source": "file",
           "preview": "8517************************ny6Y"
+        }
+      ]
+    },
+    {
+      "repo": "Hamza-ctrC-ctrlV/Habitify",
+      "url": "https://github.com/Hamza-ctrC-ctrlV/Habitify",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.71,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Habitify-master/supabase/functions/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************9kSw"
         }
       ]
     },
@@ -67999,6 +68170,33 @@
       ]
     },
     {
+      "repo": "MMAHAK/Spark_AI-story-generator-app",
+      "url": "https://github.com/MMAHAK/Spark_AI-story-generator-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.06,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Spark_AI-STORY-GENERATOR-APP-main/Spark/test_gemini.py",
+          "line": 3,
+          "source": "file",
+          "preview": "AIza************************yU9M"
+        }
+      ]
+    },
+    {
       "repo": "MODONDIAYE/testWithCinaya",
       "url": "https://github.com/MODONDIAYE/testWithCinaya",
       "status": "leaked",
@@ -68728,6 +68926,33 @@
       ]
     },
     {
+      "repo": "MeherwerAli/my-accountant",
+      "url": "https://github.com/MeherwerAli/my-accountant",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.04,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "my-accountant-master/docker-compose.yml",
+          "line": 19,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Mehranchandail/Cashchat",
       "url": "https://github.com/Mehranchandail/Cashchat",
       "status": "leaked",
@@ -69102,6 +69327,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************SdBM"
+        }
+      ]
+    },
+    {
+      "repo": "MohauKhakhu/health",
+      "url": "https://github.com/MohauKhakhu/health",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 30.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "health-main/docker-compose.yml",
+          "line": 34,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -90085,6 +90337,33 @@
       ]
     },
     {
+      "repo": "fincoric/telegram-bot",
+      "url": "https://github.com/fincoric/telegram-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.13,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "telegram-bot-main/botggt/bot.py",
+          "line": 12,
+          "source": "file",
+          "preview": "8693************************Inrk"
+        }
+      ]
+    },
+    {
       "repo": "flucido/local-data-stack",
       "url": "https://github.com/flucido/local-data-stack",
       "status": "leaked",
@@ -103095,6 +103374,33 @@
           "line": 4,
           "source": "file",
           "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "nhnayem941-png/Bot0",
+      "url": "https://github.com/nhnayem941-png/Bot0",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.88,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Bot0-main/config.js",
+          "line": 2,
+          "source": "file",
+          "preview": "8298************************jk08"
         }
       ]
     },
