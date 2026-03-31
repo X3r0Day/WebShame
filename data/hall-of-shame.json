@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-31T18:24:37.563672+00:00",
+  "generatedAt": "2026-03-31T19:33:07.249524+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -10217,6 +10217,49 @@
       ]
     },
     {
+      "repo": "kuraderegmailcom/ethio-freelance-and-internship-managment",
+      "url": "https://github.com/kuraderegmailcom/ethio-freelance-and-internship-managment",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 53.84,
+      "exposureScore": 72,
+      "topTypes": [
+        "MongoDB Connection URI",
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "MongoDB Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ethio-freelance-and-internship-managment-main/backend/.env",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************2t5o"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 2e71157",
+          "line": 20,
+          "source": "commit",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 1ef3a9f",
+          "line": 17,
+          "source": "commit",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "saurabh-945798/ACT",
       "url": "https://github.com/saurabh-945798/ACT",
       "status": "leaked",
@@ -18293,6 +18336,42 @@
           "line": 305,
           "source": "commit",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "DMP-SPAIN/Spain-caves-conditions",
+      "url": "https://github.com/DMP-SPAIN/Spain-caves-conditions",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 14.12,
+      "exposureScore": 50,
+      "topTypes": [
+        "Supabase PAT",
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase PAT": 1,
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase PAT",
+          "file": "Spain-caves-conditions-main/backend/setup_supabase.py",
+          "line": 5,
+          "source": "file",
+          "preview": "sbp_************************d0ec"
+        },
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "Commit 8687b1f",
+          "line": 60,
+          "source": "commit",
+          "preview": "eyJh************************vi4g"
         }
       ]
     },
@@ -36356,6 +36435,33 @@
       ]
     },
     {
+      "repo": "CrizZapp/Host.dash",
+      "url": "https://github.com/CrizZapp/Host.dash",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.04,
+      "exposureScore": 30,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 1
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "Commit 9e25367",
+          "line": 65,
+          "source": "commit",
+          "preview": "http************************json"
+        }
+      ]
+    },
+    {
       "repo": "CuongTran17/ai_finacial_analyzer",
       "url": "https://github.com/CuongTran17/ai_finacial_analyzer",
       "status": "leaked",
@@ -39403,6 +39509,33 @@
           "line": 137,
           "source": "commit",
           "preview": "8637************************LXhc"
+        }
+      ]
+    },
+    {
+      "repo": "Orryy1/orryy-tools",
+      "url": "https://github.com/Orryy1/orryy-tools",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.74,
+      "exposureScore": 30,
+      "topTypes": [
+        "Stripe Secret Key"
+      ],
+      "typeCounts": {
+        "Stripe Secret Key": 1
+      },
+      "findings": [
+        {
+          "type": "Stripe Secret Key",
+          "file": "Commit 9d501ba",
+          "line": 124,
+          "source": "commit",
+          "preview": "sk_t************************xxxx"
         }
       ]
     },
@@ -63977,6 +64110,33 @@
       ]
     },
     {
+      "repo": "Davioficialbilly/fluffy-octo-c0",
+      "url": "https://github.com/Davioficialbilly/fluffy-octo-c0",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.56,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "fluffy-octo-c0-main/index.js",
+          "line": 1376,
+          "source": "file",
+          "preview": "AIza************************dCYQ"
+        }
+      ]
+    },
+    {
       "repo": "DebbaghMadara/fitai-backend",
       "url": "https://github.com/DebbaghMadara/fitai-backend",
       "status": "leaked",
@@ -73103,6 +73263,33 @@
       ]
     },
     {
+      "repo": "ProjectInformaperu/textoAVoz",
+      "url": "https://github.com/ProjectInformaperu/textoAVoz",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 131.7,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "textoAVoz-master/TextToSpeech/generate_audio.py",
+          "line": 9,
+          "source": "file",
+          "preview": "AIza************************_OCk"
+        }
+      ]
+    },
+    {
       "repo": "Pruthwiraj-Patel/langchain_chatbot",
       "url": "https://github.com/Pruthwiraj-Patel/langchain_chatbot",
       "status": "leaked",
@@ -74071,6 +74258,33 @@
           "line": 3,
           "source": "file",
           "preview": "AIza************************aKoE"
+        }
+      ]
+    },
+    {
+      "repo": "RogerioHetfield/RJ-Stock-Flow",
+      "url": "https://github.com/RogerioHetfield/RJ-Stock-Flow",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 30.13,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "RJ-Stock-Flow-main/artifacts/api-server/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "post************************tech"
         }
       ]
     },
@@ -108905,6 +109119,141 @@
       ]
     },
     {
+      "repo": "quocban26marc1114/repodw243e",
+      "url": "https://github.com/quocban26marc1114/repodw243e",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 37.09,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repodw243e-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "quocban26marc1114/repojbe6r7",
+      "url": "https://github.com/quocban26marc1114/repojbe6r7",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 18.05,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repojbe6r7-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "quocban26marc1114/repondvgvp",
+      "url": "https://github.com/quocban26marc1114/repondvgvp",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 27.2,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repondvgvp-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "quocban26marc1114/repoo5e53o",
+      "url": "https://github.com/quocban26marc1114/repoo5e53o",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 32.31,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repoo5e53o-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "quocban26marc1114/reposr0y0m",
+      "url": "https://github.com/quocban26marc1114/reposr0y0m",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 29.95,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "reposr0y0m-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
       "repo": "quyetdai/repon1tjqk",
       "url": "https://github.com/quyetdai/repon1tjqk",
       "status": "leaked",
@@ -113356,6 +113705,33 @@
           "line": 13,
           "source": "file",
           "preview": "AIza************************9KvA"
+        }
+      ]
+    },
+    {
+      "repo": "sorgina-beltza/Migrantes_desaparecidos",
+      "url": "https://github.com/sorgina-beltza/Migrantes_desaparecidos",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 37.57,
+      "exposureScore": 20,
+      "topTypes": [
+        "Mapbox API Key"
+      ],
+      "typeCounts": {
+        "Mapbox API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Mapbox API Key",
+          "file": "Migrantes_desaparecidos-main/config.js",
+          "line": 3,
+          "source": "file",
+          "preview": "pk.e************************p7Lg"
         }
       ]
     },
