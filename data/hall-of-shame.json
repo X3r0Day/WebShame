@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-31T04:06:41.579187+00:00",
+  "generatedAt": "2026-03-31T05:59:04.345493+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -26151,6 +26151,42 @@
       ]
     },
     {
+      "repo": "bulingbuling688/-1",
+      "url": "https://github.com/bulingbuling688/-1",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.54,
+      "exposureScore": 40,
+      "topTypes": [
+        "Firebase Database URL",
+        "OpenAI API Key (Legacy)"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 1,
+        "OpenAI API Key (Legacy)": 1
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "-1-main/config.example.json",
+          "line": 24,
+          "source": "file",
+          "preview": "http************************json"
+        },
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "-1-main/n8n_cloud_ingest_news_to_feishu_with_ai.json",
+          "line": 27,
+          "source": "file",
+          "preview": "sk-R************************rFEn"
+        }
+      ]
+    },
+    {
       "repo": "catalinacid37-lgtm/universe.1",
       "url": "https://github.com/catalinacid37-lgtm/universe.1",
       "status": "leaked",
@@ -34448,6 +34484,33 @@
       ]
     },
     {
+      "repo": "Anmole1104/Smart-Fitness",
+      "url": "https://github.com/Anmole1104/Smart-Fitness",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.1,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 32d0e9d",
+          "line": 735,
+          "source": "commit",
+          "preview": "AIza************************KLsA"
+        }
+      ]
+    },
+    {
       "repo": "Antho6262/Site-24-24",
       "url": "https://github.com/Antho6262/Site-24-24",
       "status": "leaked",
@@ -37954,6 +38017,33 @@
           "line": 66,
           "source": "commit",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "MuruganMK-16/resume-chatbot",
+      "url": "https://github.com/MuruganMK-16/resume-chatbot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.84,
+      "exposureScore": 30,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "Commit 72baf5c",
+          "line": 5195,
+          "source": "commit",
+          "preview": "gsk_************************q5pv"
         }
       ]
     },
@@ -89366,6 +89456,33 @@
       ]
     },
     {
+      "repo": "ezio1123/Iymusic",
+      "url": "https://github.com/ezio1123/Iymusic",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 29.19,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Iymusic-main/modules/core/mongo.py",
+          "line": 11,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "fahmidakm99/OLX-Clone-React",
       "url": "https://github.com/fahmidakm99/OLX-Clone-React",
       "status": "leaked",
@@ -92953,6 +93070,33 @@
           "line": 4,
           "source": "file",
           "preview": "eyJh************************l-zQ"
+        }
+      ]
+    },
+    {
+      "repo": "igobackend1-prog/IGOwebiste-final",
+      "url": "https://github.com/igobackend1-prog/IGOwebiste-final",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 18.65,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "IGOwebiste-final-main/temp_html.txt",
+          "line": 1745,
+          "source": "file",
+          "preview": "AIza************************EN3A"
         }
       ]
     },
@@ -98866,6 +99010,33 @@
           "line": 3,
           "source": "file",
           "preview": "8118************************DJIc"
+        }
+      ]
+    },
+    {
+      "repo": "luzedong/anycoding",
+      "url": "https://github.com/luzedong/anycoding",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 27.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "anycoding-main/src/components/project-creation-wizard/components/GithubAuthenticationCard.tsx",
+          "line": 119,
+          "source": "file",
+          "preview": "ghp_************************xxxx"
         }
       ]
     },
