@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-31T05:59:04.345493+00:00",
+  "generatedAt": "2026-03-31T07:12:53.387163+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -7470,6 +7470,68 @@
           "line": 973,
           "source": "file",
           "preview": "AIza************************eaDc"
+        }
+      ]
+    },
+    {
+      "repo": "meghanamallela69-tech/meghana-pro",
+      "url": "https://github.com/meghanamallela69-tech/meghana-pro",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 6,
+      "uniqueTypes": 1,
+      "filesAffected": 6,
+      "commitFindings": 0,
+      "scanTimeSeconds": 101.25,
+      "exposureScore": 80,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 6
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "meghana-pro-main/backend/.env",
+          "line": 6,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "meghana-pro-main/backend/DATABASE_SETUP.md",
+          "line": 14,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "meghana-pro-main/backend/DATABASE_TROUBLESHOOTING.md",
+          "line": 86,
+          "source": "file",
+          "preview": "mong************************7017"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "meghana-pro-main/backend/MONGODB_ATLAS_PERMANENT_SOLUTION.md",
+          "line": 74,
+          "source": "file",
+          "preview": "mong************************7017"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "meghana-pro-main/backend/check-summer-fest.js",
+          "line": 8,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "meghana-pro-main/backend/create-notif-test-data.js",
+          "line": 6,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -34241,6 +34303,33 @@
       ]
     },
     {
+      "repo": "AdibaAmin/Document_Ocr",
+      "url": "https://github.com/AdibaAmin/Document_Ocr",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 10.38,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 07e777f",
+          "line": 15,
+          "source": "commit",
+          "preview": "AIza************************fDLE"
+        }
+      ]
+    },
+    {
       "repo": "Adnan2410/Task-Manager",
       "url": "https://github.com/Adnan2410/Task-Manager",
       "status": "leaked",
@@ -48304,6 +48393,33 @@
           "line": 226,
           "source": "commit",
           "preview": "AIza************************OjYQ"
+        }
+      ]
+    },
+    {
+      "repo": "laxmangc132-source/Laxu-ai-Babe-",
+      "url": "https://github.com/laxmangc132-source/Laxu-ai-Babe-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.79,
+      "exposureScore": 30,
+      "topTypes": [
+        "OpenAI API Key (Project)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Project)": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Project)",
+          "file": "Commit 79c1c6b",
+          "line": 98,
+          "source": "commit",
+          "preview": "sk-p************************mVwA"
         }
       ]
     },
@@ -64670,6 +64786,33 @@
       ]
     },
     {
+      "repo": "HaVanThuyDev/Book-your-tour-online_FE",
+      "url": "https://github.com/HaVanThuyDev/Book-your-tour-online_FE",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 32.28,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Book-your-tour-online_FE-master/nhaKhoa/src/components/custom/ChatWindow.tsx",
+          "line": 13,
+          "source": "file",
+          "preview": "AIza************************4o5w"
+        }
+      ]
+    },
+    {
       "repo": "HackerIndonesian3693/telegram-osint-bot",
       "url": "https://github.com/HackerIndonesian3693/telegram-osint-bot",
       "status": "leaked",
@@ -75898,6 +76041,33 @@
           "line": 208,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "VoXc2/dealix",
+      "url": "https://github.com/VoXc2/dealix",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.67,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "dealix-main/backend/app/core/config.py",
+          "line": 7,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -111349,6 +111519,33 @@
           "line": 1,
           "source": "file",
           "preview": "AIza************************DK10"
+        }
+      ]
+    },
+    {
+      "repo": "techexplorer-07/FINFLOW",
+      "url": "https://github.com/techexplorer-07/FINFLOW",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.96,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "FINFLOW-main/telegram_bot.py",
+          "line": 39,
+          "source": "file",
+          "preview": "8202************************QEmk"
         }
       ]
     },
