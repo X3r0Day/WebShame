@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-31T01:11:53.868562+00:00",
+  "generatedAt": "2026-03-31T04:06:41.579187+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -11233,6 +11233,49 @@
           "type": "Private Key (RSA)",
           "file": "Commit b4186e4",
           "line": 114215,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "Divyagoyal3/Eventora",
+      "url": "https://github.com/Divyagoyal3/Eventora",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 144.05,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Eventora-master/server/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Eventora-master/server/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit a0fdcba",
+          "line": 63100,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -29830,6 +29873,40 @@
           "line": 61,
           "source": "file",
           "preview": "post************************ort>"
+        }
+      ]
+    },
+    {
+      "repo": "Rimsha1826/content_rephraser",
+      "url": "https://github.com/Rimsha1826/content_rephraser",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.63,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "content_rephraser-main/TROUBLESHOOTING.md",
+          "line": 32,
+          "source": "file",
+          "preview": "AIza************************xxxx"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "content_rephraser-main/config.php",
+          "line": 19,
+          "source": "file",
+          "preview": "AIza************************fZSs"
         }
       ]
     },
@@ -60588,6 +60665,33 @@
       ]
     },
     {
+      "repo": "Badsha1245/telegram-referral-bot",
+      "url": "https://github.com/Badsha1245/telegram-referral-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.41,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "telegram-referral-bot-main/referral_bot.py",
+          "line": 13,
+          "source": "file",
+          "preview": "8202************************bAD8"
+        }
+      ]
+    },
+    {
       "repo": "Banknaja55/Project_DormitoryWebApp",
       "url": "https://github.com/Banknaja55/Project_DormitoryWebApp",
       "status": "leaked",
@@ -66038,6 +66142,33 @@
           "line": 5,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "Jds207/alliance-gate",
+      "url": "https://github.com/Jds207/alliance-gate",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.92,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "alliance-gate-main/docker/docker-compose.override.yml",
+          "line": 26,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -91634,6 +91765,33 @@
           "line": 15,
           "source": "file",
           "preview": "sk_t************************e9f7"
+        }
+      ]
+    },
+    {
+      "repo": "hendersonjames/maxs-md-files-for-openclaw",
+      "url": "https://github.com/hendersonjames/maxs-md-files-for-openclaw",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.88,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "maxs-md-files-for-openclaw-main/MEMORY.md",
+          "line": 139,
+          "source": "file",
+          "preview": "AIza************************KTyM"
         }
       ]
     },
