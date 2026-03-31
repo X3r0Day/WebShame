@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-31T12:18:19.825476+00:00",
+  "generatedAt": "2026-03-31T14:13:26.084513+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -38665,6 +38665,33 @@
           "line": 612,
           "source": "commit",
           "preview": "AIza************************KSF4"
+        }
+      ]
+    },
+    {
+      "repo": "NoahtheBoah32/content-calendar",
+      "url": "https://github.com/NoahtheBoah32/content-calendar",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.53,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 03c898c",
+          "line": 346,
+          "source": "commit",
+          "preview": "AIza************************7Y2A"
         }
       ]
     },
@@ -97610,6 +97637,33 @@
       ]
     },
     {
+      "repo": "kevinmakwana/TicketBooking",
+      "url": "https://github.com/kevinmakwana/TicketBooking",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.73,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "TicketBooking-main/docker-compose.yml",
+          "line": 25,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "kevserekinci539-debug/yapay-zeka",
       "url": "https://github.com/kevserekinci539-debug/yapay-zeka",
       "status": "leaked",
@@ -113108,6 +113162,33 @@
       ]
     },
     {
+      "repo": "tara0705/Online-Book-Store-Website-using-Django-",
+      "url": "https://github.com/tara0705/Online-Book-Store-Website-using-Django-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.77,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Online-Book-Store-Website-using-Django--main/ai_summary.py",
+          "line": 3,
+          "source": "file",
+          "preview": "AIza************************LmMc"
+        }
+      ]
+    },
+    {
       "repo": "tcrainer/TripPlanner",
       "url": "https://github.com/tcrainer/TripPlanner",
       "status": "leaked",
@@ -115723,6 +115804,33 @@
           "line": 27,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "vaishnavikhade4/ai-ddr-generator",
+      "url": "https://github.com/vaishnavikhade4/ai-ddr-generator",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.61,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ai-ddr-generator-main/ai_processor.py",
+          "line": 3,
+          "source": "file",
+          "preview": "AIza************************wx5A"
         }
       ]
     },
