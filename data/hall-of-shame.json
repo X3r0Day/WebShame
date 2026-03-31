@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-30T23:57:51.417106+00:00",
+  "generatedAt": "2026-03-31T01:11:53.868562+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -30990,6 +30990,40 @@
       ]
     },
     {
+      "repo": "bhagyashreewagh/llmaven-azure-demo",
+      "url": "https://github.com/bhagyashreewagh/llmaven-azure-demo",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 26.58,
+      "exposureScore": 32,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "llmaven-azure-demo-main/src/llmaven/deployment/validate.py",
+          "line": 324,
+          "source": "file",
+          "preview": "post*****************+@\","
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "llmaven-azure-demo-main/src/llmaven/infrastructure/utils/secrets.py",
+          "line": 100,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "bharatkumar-777/RBAC-project",
       "url": "https://github.com/bharatkumar-777/RBAC-project",
       "status": "leaked",
@@ -44323,6 +44357,33 @@
           "line": 11738,
           "source": "commit",
           "preview": "8134************************qU6o"
+        }
+      ]
+    },
+    {
+      "repo": "dlecoqzpmkn/view-image.html",
+      "url": "https://github.com/dlecoqzpmkn/view-image.html",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.72,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 1f55267",
+          "line": 31,
+          "source": "commit",
+          "preview": "http************************-11V"
         }
       ]
     },
