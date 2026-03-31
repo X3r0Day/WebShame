@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-31T17:33:50.289931+00:00",
+  "generatedAt": "2026-03-31T18:24:37.563672+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -8681,6 +8681,54 @@
           "type": "Private Key (RSA)",
           "file": "Commit 2571533",
           "line": 47619,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "dkhemka12/Livebook-3.8",
+      "url": "https://github.com/dkhemka12/Livebook-3.8",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 158.86,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Livebook-3.8-main/backend/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Livebook-3.8-main/backend/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit ebed182",
+          "line": 68429,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit ebed182",
+          "line": 68864,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -20818,6 +20866,40 @@
       ]
     },
     {
+      "repo": "Ashish-3507/Url-shortner",
+      "url": "https://github.com/Ashish-3507/Url-shortner",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 121.83,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Url-shortner-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit cd35411",
+          "line": 50370,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "Astaroth233/NoteMaker",
       "url": "https://github.com/Astaroth233/NoteMaker",
       "status": "leaked",
@@ -20846,6 +20928,40 @@
           "type": "Private Key (RSA)",
           "file": "Commit ea77fdd",
           "line": 97655,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "Codeakriti2005/job-tracker",
+      "url": "https://github.com/Codeakriti2005/job-tracker",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 151.82,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "job-tracker-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 1d7f9e6",
+          "line": 51288,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -40803,6 +40919,33 @@
       ]
     },
     {
+      "repo": "TomoRevo/tomorevo.github.io",
+      "url": "https://github.com/TomoRevo/tomorevo.github.io",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 20.56,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit c86dcc6",
+          "line": 42,
+          "source": "commit",
+          "preview": "AIza************************qWTk"
+        }
+      ]
+    },
+    {
       "repo": "Tophat27/raspcam_teste",
       "url": "https://github.com/Tophat27/raspcam_teste",
       "status": "leaked",
@@ -55302,6 +55445,33 @@
       ]
     },
     {
+      "repo": "shaikRahilAhmed/chronicDiseasesPredectionn",
+      "url": "https://github.com/shaikRahilAhmed/chronicDiseasesPredectionn",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 99.43,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit ccbbe0a",
+          "line": 115089,
+          "source": "commit",
+          "preview": "AIza************************ihAA"
+        }
+      ]
+    },
+    {
       "repo": "shakeer8248-ux/Img2pdf",
       "url": "https://github.com/shakeer8248-ux/Img2pdf",
       "status": "leaked",
@@ -63398,6 +63568,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************cxws"
+        }
+      ]
+    },
+    {
+      "repo": "Comp-Sci-High/se12-25-26-u5l8-code-along-u5L8codealong",
+      "url": "https://github.com/Comp-Sci-High/se12-25-26-u5l8-code-along-u5L8codealong",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.44,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "se12-25-26-u5l8-code-along-u5L8codealong-main/index.js",
+          "line": 49,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -102876,6 +103073,33 @@
       ]
     },
     {
+      "repo": "meddash/architecture-pro-cinemaabyss2",
+      "url": "https://github.com/meddash/architecture-pro-cinemaabyss2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.72,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "architecture-pro-cinemaabyss2-main/docker-compose.yml",
+          "line": 65,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "medeirosvictor/buyingnothing",
       "url": "https://github.com/medeirosvictor/buyingnothing",
       "status": "leaked",
@@ -112457,6 +112681,33 @@
           "line": 7,
           "source": "file",
           "preview": "AIza************************WuDA"
+        }
+      ]
+    },
+    {
+      "repo": "shrinathkale/Fraud_Transaction_Detection",
+      "url": "https://github.com/shrinathkale/Fraud_Transaction_Detection",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.32,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Fraud_Transaction_Detection-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
