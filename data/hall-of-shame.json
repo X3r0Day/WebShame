@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-31T16:26:14.579578+00:00",
+  "generatedAt": "2026-03-31T17:33:50.289931+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -8303,6 +8303,54 @@
       ]
     },
     {
+      "repo": "Smoky777Sui/relentless-backend",
+      "url": "https://github.com/Smoky777Sui/relentless-backend",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 92.71,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "relentless-backend-main/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "relentless-backend-main/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 25b56d3",
+          "line": 32959,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 25b56d3",
+          "line": 33394,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "Spykrr/testdil",
       "url": "https://github.com/Spykrr/testdil",
       "status": "leaked",
@@ -9700,6 +9748,47 @@
           "line": 9375,
           "source": "commit",
           "preview": "AIza************************KG_E"
+        }
+      ]
+    },
+    {
+      "repo": "rs7594801-star/Digital-Literacy-Vityarthi",
+      "url": "https://github.com/rs7594801-star/Digital-Literacy-Vityarthi",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 3,
+      "scanTimeSeconds": 6.28,
+      "exposureScore": 74,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 3
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit d611916",
+          "line": 25,
+          "source": "commit",
+          "preview": "AIza************************_CHs"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit d611916",
+          "line": 25,
+          "source": "commit",
+          "preview": "AIza************************yW8w"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit d611916",
+          "line": 25,
+          "source": "commit",
+          "preview": "AIza************************11a4"
         }
       ]
     },
@@ -22191,6 +22280,40 @@
       ]
     },
     {
+      "repo": "Stark2133/Social-Media-Backend",
+      "url": "https://github.com/Stark2133/Social-Media-Backend",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 96.94,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Social-Media-Backend-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 4d2d762",
+          "line": 71706,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "SupratikPanuganti/fincrypt-wallet",
       "url": "https://github.com/SupratikPanuganti/fincrypt-wallet",
       "status": "leaked",
@@ -23955,6 +24078,40 @@
           "line": 16892,
           "source": "commit",
           "preview": "eyJh************************qpQI"
+        }
+      ]
+    },
+    {
+      "repo": "pranaygundla/mern-portfolio",
+      "url": "https://github.com/pranaygundla/mern-portfolio",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 149.64,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "mern-portfolio-main/server/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit d28914e",
+          "line": 74252,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -31431,6 +31588,40 @@
       ]
     },
     {
+      "repo": "avasis-ai/buble-dating",
+      "url": "https://github.com/avasis-ai/buble-dating",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 83.16,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "buble-dating-main/android/app/google-services.json",
+          "line": 31,
+          "source": "file",
+          "preview": "AIza************************UGJw"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "buble-dating-main/ios/Runner/GoogleService-Info.plist",
+          "line": 12,
+          "source": "file",
+          "preview": "AIza************************tU5g"
+        }
+      ]
+    },
+    {
       "repo": "avinash-addweb/mern_base",
       "url": "https://github.com/avinash-addweb/mern_base",
       "status": "leaked",
@@ -32209,6 +32400,40 @@
           "line": 18,
           "source": "file",
           "preview": "AIza************************JVxA"
+        }
+      ]
+    },
+    {
+      "repo": "gauravnadekar472-arch/hello-world",
+      "url": "https://github.com/gauravnadekar472-arch/hello-world",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 37.63,
+      "exposureScore": 32,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "hello-world-main/node_modules/dotenv/README-es.md",
+          "line": 78,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "hello-world-main/node_modules/dotenv/README.md",
+          "line": 110,
+          "source": "file",
+          "preview": "----************************----"
         }
       ]
     },
@@ -71385,6 +71610,33 @@
       ]
     },
     {
+      "repo": "NoshalFatima/SparkleHub-MERN",
+      "url": "https://github.com/NoshalFatima/SparkleHub-MERN",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 147.23,
+      "exposureScore": 20,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "SparkleHub-MERN-main/server/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "Nosreme07/gestao_escolar",
       "url": "https://github.com/Nosreme07/gestao_escolar",
       "status": "leaked",
@@ -74976,6 +75228,33 @@
       ]
     },
     {
+      "repo": "Shimara-Appuhami/Capstone-Project-backend-Service",
+      "url": "https://github.com/Shimara-Appuhami/Capstone-Project-backend-Service",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.45,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Capstone-Project-backend-Service-main/ecosystem.config.js",
+          "line": 33,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "Shine2965/project",
       "url": "https://github.com/Shine2965/project",
       "status": "leaked",
@@ -75485,6 +75764,33 @@
           "line": 8,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "SparksFlash/simple-crud-server",
+      "url": "https://github.com/SparksFlash/simple-crud-server",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 103.66,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "simple-crud-server-main/index.js",
+          "line": 14,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -90825,6 +91131,33 @@
       ]
     },
     {
+      "repo": "erikpersson0884/screenit2",
+      "url": "https://github.com/erikpersson0884/screenit2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 26.86,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "screenit2-main/docker-compose.yml",
+          "line": 8,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "ersinkoc/PhantomStrike",
       "url": "https://github.com/ersinkoc/PhantomStrike",
       "status": "leaked",
@@ -94844,6 +95177,33 @@
           "line": 51,
           "source": "file",
           "preview": "eyJh************************J21k"
+        }
+      ]
+    },
+    {
+      "repo": "iamrudransh18-lgtm/2.1.3",
+      "url": "https://github.com/iamrudransh18-lgtm/2.1.3",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.93,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "2.1.3-main/index.js",
+          "line": 7,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -99758,6 +100118,33 @@
           "line": 3,
           "source": "file",
           "preview": "AIza************************cc2s"
+        }
+      ]
+    },
+    {
+      "repo": "l8yh1/white",
+      "url": "https://github.com/l8yh1/white",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 139.69,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google OAuth Client Secret"
+      ],
+      "typeCounts": {
+        "Google OAuth Client Secret": 1
+      },
+      "findings": [
+        {
+          "type": "Google OAuth Client Secret",
+          "file": "white-main/config.json",
+          "line": 68,
+          "source": "file",
+          "preview": "GOCS************************fjWj"
         }
       ]
     },
