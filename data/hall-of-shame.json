@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-31T22:13:17.951703+00:00",
+  "generatedAt": "2026-03-31T23:00:05.249241+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -34468,6 +34468,40 @@
           "line": 22,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "tayyabali77865-tech/TayyabAli-Portfolio",
+      "url": "https://github.com/tayyabali77865-tech/TayyabAli-Portfolio",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 124.95,
+      "exposureScore": 32,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "TayyabAli-Portfolio-master/backend/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "TayyabAli-Portfolio-master/backend/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
         }
       ]
     },
@@ -69440,6 +69474,33 @@
       ]
     },
     {
+      "repo": "Kranthi0011/airflow-lab1",
+      "url": "https://github.com/Kranthi0011/airflow-lab1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.27,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "airflow-lab1-main/docker-compose.yaml",
+          "line": 57,
+          "source": "file",
+          "preview": "post************************gres"
+        }
+      ]
+    },
+    {
       "repo": "KristianValeri/api_rest",
       "url": "https://github.com/KristianValeri/api_rest",
       "status": "leaked",
@@ -76487,6 +76548,33 @@
       ]
     },
     {
+      "repo": "SirProspect/FootyHub",
+      "url": "https://github.com/SirProspect/FootyHub",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.61,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "FootyHub-main/FootyHub/GoogleService-Info.plist",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************yiUU"
+        }
+      ]
+    },
+    {
       "repo": "SiriGuttula/ai-resume-analyzer",
       "url": "https://github.com/SiriGuttula/ai-resume-analyzer",
       "status": "leaked",
@@ -77698,6 +77786,33 @@
           "line": 1,
           "source": "file",
           "preview": "AIza************************uiCs"
+        }
+      ]
+    },
+    {
+      "repo": "TimSmokovski/batman_door_signal",
+      "url": "https://github.com/TimSmokovski/batman_door_signal",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.21,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "batman_door_signal-main/bot.py",
+          "line": 21,
+          "source": "file",
+          "preview": "8524************************_hl8"
         }
       ]
     },
