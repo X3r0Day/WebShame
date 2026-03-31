@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-31T20:15:55.291561+00:00",
+  "generatedAt": "2026-03-31T21:05:29.973799+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -30514,6 +30514,40 @@
       ]
     },
     {
+      "repo": "Moonlight4597/Ddos",
+      "url": "https://github.com/Moonlight4597/Ddos",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.22,
+      "exposureScore": 32,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 2
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Ddos-main/m.py",
+          "line": 11,
+          "source": "file",
+          "preview": "8574************************rsR0"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Ddos-main/watcher.py",
+          "line": 7,
+          "source": "file",
+          "preview": "8784************************IMt8"
+        }
+      ]
+    },
+    {
       "repo": "NIKHILMPM/Gitops-project",
       "url": "https://github.com/NIKHILMPM/Gitops-project",
       "status": "leaked",
@@ -39226,6 +39260,33 @@
       ]
     },
     {
+      "repo": "NOTZMAN112/Robox-Login",
+      "url": "https://github.com/NOTZMAN112/Robox-Login",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.38,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit faef04b",
+          "line": 425,
+          "source": "commit",
+          "preview": "http************************dR6E"
+        }
+      ]
+    },
+    {
       "repo": "Nandhakishore23/dashboard-project",
       "url": "https://github.com/Nandhakishore23/dashboard-project",
       "status": "leaked",
@@ -43270,6 +43331,33 @@
           "type": "Discord Webhook",
           "file": "Commit 789b15e",
           "line": 405,
+          "source": "commit",
+          "preview": "http************************S4DD"
+        }
+      ]
+    },
+    {
+      "repo": "arejuu/Tunnistautuminen",
+      "url": "https://github.com/arejuu/Tunnistautuminen",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.96,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 01c11b7",
+          "line": 369,
           "source": "commit",
           "preview": "http************************S4DD"
         }
@@ -62257,6 +62345,33 @@
       ]
     },
     {
+      "repo": "AttiHub/ants",
+      "url": "https://github.com/AttiHub/ants",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.25,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "ants-main/tharos/docker-compose.yml",
+          "line": 10,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Avinash1286/floorGPT-1",
       "url": "https://github.com/Avinash1286/floorGPT-1",
       "status": "leaked",
@@ -75730,6 +75845,33 @@
       ]
     },
     {
+      "repo": "Set1124321412343124/botirisatest",
+      "url": "https://github.com/Set1124321412343124/botirisatest",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "botirisatest-main/config.py",
+          "line": 1,
+          "source": "file",
+          "preview": "8553************************SS2o"
+        }
+      ]
+    },
+    {
       "repo": "Shareiar-shams/hnrender",
       "url": "https://github.com/Shareiar-shams/hnrender",
       "status": "leaked",
@@ -88875,6 +89017,33 @@
           "line": 1,
           "source": "file",
           "preview": "AIza************************qI0Y"
+        }
+      ]
+    },
+    {
+      "repo": "dominikzielewski/dobremordy",
+      "url": "https://github.com/dominikzielewski/dobremordy",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 39.44,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "dobremordy-main/dm-clans/src/main/java/xyz/nexu/dmClans/mongodb/MongoDBConnection.java",
+          "line": 13,
+          "source": "file",
+          "preview": "mong************************7017"
         }
       ]
     },
@@ -120246,6 +120415,168 @@
         {
           "type": "Telegram Bot Token",
           "file": "repotlmbm3-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "yennhan26marc1113/repo9l6jpn",
+      "url": "https://github.com/yennhan26marc1113/repo9l6jpn",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.1,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo9l6jpn-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "yennhan26marc1113/repoai5mgv",
+      "url": "https://github.com/yennhan26marc1113/repoai5mgv",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 30.26,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repoai5mgv-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "yennhan26marc1113/repoflfp17",
+      "url": "https://github.com/yennhan26marc1113/repoflfp17",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 27.69,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repoflfp17-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "yennhan26marc1113/repog6qd7u",
+      "url": "https://github.com/yennhan26marc1113/repog6qd7u",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 34.77,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repog6qd7u-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "yennhan26marc1113/repojc25y9",
+      "url": "https://github.com/yennhan26marc1113/repojc25y9",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 27.45,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repojc25y9-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "yennhan26marc1113/repolb7tf9",
+      "url": "https://github.com/yennhan26marc1113/repolb7tf9",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 22.41,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repolb7tf9-main/public/js/config.js",
           "line": 4,
           "source": "file",
           "preview": "8394************************b-VU"
