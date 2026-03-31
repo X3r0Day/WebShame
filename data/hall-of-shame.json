@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-31T14:13:26.084513+00:00",
+  "generatedAt": "2026-03-31T15:18:42.004343+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -25845,6 +25845,42 @@
       ]
     },
     {
+      "repo": "Sharath-1105/WANDERLUST",
+      "url": "https://github.com/Sharath-1105/WANDERLUST",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 142.71,
+      "exposureScore": 40,
+      "topTypes": [
+        "MongoDB Connection URI",
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "WANDERLUST-main/backend/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "WANDERLUST-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "Shubh0262/test..",
       "url": "https://github.com/Shubh0262/test..",
       "status": "leaked",
@@ -31103,6 +31139,40 @@
           "line": 33,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "aldy505/faux-seer",
+      "url": "https://github.com/aldy505/faux-seer",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.09,
+      "exposureScore": 32,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "faux-seer-master/README.md",
+          "line": 199,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "faux-seer-master/docs/providers.md",
+          "line": 85,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -37801,6 +37871,33 @@
           "line": 6211,
           "source": "commit",
           "preview": "AIza************************IhwM"
+        }
+      ]
+    },
+    {
+      "repo": "LUXIAHOME/Luxia---Home",
+      "url": "https://github.com/LUXIAHOME/Luxia---Home",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.73,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 206a0ad",
+          "line": 1368,
+          "source": "commit",
+          "preview": "AIza************************lInY"
         }
       ]
     },
@@ -55004,6 +55101,33 @@
       ]
     },
     {
+      "repo": "shipleaf/honorsparking_mobile",
+      "url": "https://github.com/shipleaf/honorsparking_mobile",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 16.2,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 4a95d90",
+          "line": 141,
+          "source": "commit",
+          "preview": "AIza************************hiP0"
+        }
+      ]
+    },
+    {
       "repo": "shivamchaurasiya8866-crypto/BINDING-REMOVE",
       "url": "https://github.com/shivamchaurasiya8866-crypto/BINDING-REMOVE",
       "status": "leaked",
@@ -58564,6 +58688,33 @@
           "line": 137,
           "source": "file",
           "preview": "ghp_************************xxxx"
+        }
+      ]
+    },
+    {
+      "repo": "1theone1-web/bot",
+      "url": "https://github.com/1theone1-web/bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.01,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "bot-main/check_tg.py",
+          "line": 2,
+          "source": "file",
+          "preview": "6625************************Z7MA"
         }
       ]
     },
@@ -64747,6 +64898,33 @@
           "line": 622,
           "source": "file",
           "preview": "ASIA************SYT2"
+        }
+      ]
+    },
+    {
+      "repo": "FrankdeBruijn/warmtescan",
+      "url": "https://github.com/FrankdeBruijn/warmtescan",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 41.73,
+      "exposureScore": 20,
+      "topTypes": [
+        "Anthropic API Key"
+      ],
+      "typeCounts": {
+        "Anthropic API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Anthropic API Key",
+          "file": "warmtescan-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "sk-a************************tAAA"
         }
       ]
     },
@@ -74471,6 +74649,33 @@
       ]
     },
     {
+      "repo": "SeikaxLynx/dropper",
+      "url": "https://github.com/SeikaxLynx/dropper",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.28,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "dropper-main/bot.py",
+          "line": 9,
+          "source": "file",
+          "preview": "8746************************WHYU"
+        }
+      ]
+    },
+    {
       "repo": "SerPalomo/buggy-isometric-battle",
       "url": "https://github.com/SerPalomo/buggy-isometric-battle",
       "status": "leaked",
@@ -81815,6 +82020,33 @@
       ]
     },
     {
+      "repo": "ayushkl-23/new-web-ayush",
+      "url": "https://github.com/ayushkl-23/new-web-ayush",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.78,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "new-web-ayush-main/server.js",
+          "line": 12,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "ayushsarang399-cyber/safardrivz",
       "url": "https://github.com/ayushsarang399-cyber/safardrivz",
       "status": "leaked",
@@ -85078,6 +85310,33 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************6Hq0"
+        }
+      ]
+    },
+    {
+      "repo": "correo11011correo-netizen/google-maps-leads-extractor",
+      "url": "https://github.com/correo11011correo-netizen/google-maps-leads-extractor",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.64,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "google-maps-leads-extractor-main/app.js",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************k2o8"
         }
       ]
     },
