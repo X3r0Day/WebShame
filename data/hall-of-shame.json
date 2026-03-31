@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-31T21:05:29.973799+00:00",
+  "generatedAt": "2026-03-31T21:44:09.604358+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -15626,6 +15626,54 @@
           "line": 6,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "mindben7/Interior-Scraper",
+      "url": "https://github.com/mindben7/Interior-Scraper",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.91,
+      "exposureScore": 56,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 4
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Interior-Scraper-main/src/api_rotator.py",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************-7VA"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Interior-Scraper-main/src/api_rotator.py",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************tNGg"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Interior-Scraper-main/src/api_rotator.py",
+          "line": 8,
+          "source": "file",
+          "preview": "AIza************************p72k"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Interior-Scraper-main/src/api_rotator.py",
+          "line": 9,
+          "source": "file",
+          "preview": "AIza************************M14Q"
         }
       ]
     },
@@ -47441,6 +47489,33 @@
       ]
     },
     {
+      "repo": "harukojapanbusiness-maker/Pet-Print",
+      "url": "https://github.com/harukojapanbusiness-maker/Pet-Print",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.73,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit c63ac11",
+          "line": 50,
+          "source": "commit",
+          "preview": "AIza************************xAoE"
+        }
+      ]
+    },
+    {
       "repo": "hasnmhdi07-commits/house-rental-app",
       "url": "https://github.com/hasnmhdi07-commits/house-rental-app",
       "status": "leaked",
@@ -56320,6 +56395,33 @@
           "line": 76937,
           "source": "commit",
           "preview": "gsk_************************GiK6"
+        }
+      ]
+    },
+    {
+      "repo": "slaystuff-fun/sample",
+      "url": "https://github.com/slaystuff-fun/sample",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.79,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit b522793",
+          "line": 35,
+          "source": "commit",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -68821,6 +68923,33 @@
           "line": 9,
           "source": "file",
           "preview": "APPW************************7a2f"
+        }
+      ]
+    },
+    {
+      "repo": "KaikyDEV/clube_da_compra",
+      "url": "https://github.com/KaikyDEV/clube_da_compra",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.73,
+      "exposureScore": 20,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "clube_da_compra-main/amazon.py",
+          "line": 26,
+          "source": "file",
+          "preview": "gsk_************************76No"
         }
       ]
     },
