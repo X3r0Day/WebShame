@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-31T19:33:07.249524+00:00",
+  "generatedAt": "2026-03-31T20:15:55.291561+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -3189,6 +3189,63 @@
           "line": 357,
           "source": "file",
           "preview": "ghp_************************xxxx"
+        }
+      ]
+    },
+    {
+      "repo": "abdeldjalile-lafkir/tamweel-app",
+      "url": "https://github.com/abdeldjalile-lafkir/tamweel-app",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 5,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 4,
+      "scanTimeSeconds": 144.54,
+      "exposureScore": 116,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "tamweel-app-main/backend/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 385ded6",
+          "line": 116476,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 385ded6",
+          "line": 116911,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 55e2742",
+          "line": 117427,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 55e2742",
+          "line": 117862,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -33619,6 +33676,40 @@
       ]
     },
     {
+      "repo": "om-react-native/devkit",
+      "url": "https://github.com/om-react-native/devkit",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 27.57,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "devkit-main/GoogleService-Info.plist",
+          "line": 10,
+          "source": "file",
+          "preview": "AIza************************ePvY"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "devkit-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************CJYo"
+        }
+      ]
+    },
+    {
       "repo": "pablo-clueless/arc-lms",
       "url": "https://github.com/pablo-clueless/arc-lms",
       "status": "leaked",
@@ -37565,6 +37656,33 @@
           "line": 2509,
           "source": "commit",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "HasCold/x-beat-price-prediction",
+      "url": "https://github.com/HasCold/x-beat-price-prediction",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 17.76,
+      "exposureScore": 30,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit daa4eb2",
+          "line": 3809,
+          "source": "commit",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -50529,6 +50647,33 @@
       ]
     },
     {
+      "repo": "marioSoftmedic/marioLanding",
+      "url": "https://github.com/marioSoftmedic/marioLanding",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 10.39,
+      "exposureScore": 30,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 1
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "Commit 943d93b",
+          "line": 63,
+          "source": "commit",
+          "preview": "http************************json"
+        }
+      ]
+    },
+    {
       "repo": "markodapap-sketch/kryptoke",
       "url": "https://github.com/markodapap-sketch/kryptoke",
       "status": "leaked",
@@ -59088,6 +59233,33 @@
       ]
     },
     {
+      "repo": "yousefGamal638/engagement-invite",
+      "url": "https://github.com/yousefGamal638/engagement-invite",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 51.81,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit e7bf888",
+          "line": 89947,
+          "source": "commit",
+          "preview": "AIza************************P1X8"
+        }
+      ]
+    },
+    {
       "repo": "yousseftamer68/chatmaster99",
       "url": "https://github.com/yousseftamer68/chatmaster99",
       "status": "leaked",
@@ -65973,6 +66145,33 @@
       ]
     },
     {
+      "repo": "Gaudencioln/IndAguaV1.3.2",
+      "url": "https://github.com/Gaudencioln/IndAguaV1.3.2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.39,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "IndAguaV1.3.2-main/app.js",
+          "line": 2,
+          "source": "file",
+          "preview": "8616************************AwrI"
+        }
+      ]
+    },
+    {
       "repo": "Gauresh3008/AirBnb-Backend",
       "url": "https://github.com/Gauresh3008/AirBnb-Backend",
       "status": "leaked",
@@ -72422,6 +72621,33 @@
           "line": 5,
           "source": "file",
           "preview": "eyJh************************NP_k"
+        }
+      ]
+    },
+    {
+      "repo": "PRASANAMBIGAI/CrisisGaurd",
+      "url": "https://github.com/PRASANAMBIGAI/CrisisGaurd",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.59,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "CrisisGaurd-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************QnoU"
         }
       ]
     },
@@ -115811,6 +116037,33 @@
           "line": 87,
           "source": "file",
           "preview": "AIza************************358c"
+        }
+      ]
+    },
+    {
+      "repo": "thejas-c/JourneyBox",
+      "url": "https://github.com/thejas-c/JourneyBox",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.3,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "JourneyBox-main/app/google-services.json",
+          "line": 31,
+          "source": "file",
+          "preview": "AIza************************xnt8"
         }
       ]
     },
