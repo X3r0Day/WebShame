@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-31T23:28:12.129385+00:00",
+  "generatedAt": "2026-04-01T00:01:34.588375+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -4961,6 +4961,63 @@
           "type": "Private Key (RSA)",
           "file": "Commit f26e393",
           "line": 116477,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "Ameet86/itilite-travel-bot",
+      "url": "https://github.com/Ameet86/itilite-travel-bot",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 5,
+      "uniqueTypes": 2,
+      "filesAffected": 4,
+      "commitFindings": 2,
+      "scanTimeSeconds": 62.02,
+      "exposureScore": 96,
+      "topTypes": [
+        "Private Key (RSA)",
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "itilite-travel-bot-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "AIza************************cwrE"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "itilite-travel-bot-main/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "itilite-travel-bot-main/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit d080b70",
+          "line": 54286,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit d080b70",
+          "line": 54721,
           "source": "commit",
           "preview": "----************************----"
         }
