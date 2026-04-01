@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-01T01:31:48.739330+00:00",
+  "generatedAt": "2026-04-01T04:32:36.067683+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -12773,6 +12773,49 @@
           "type": "Private Key (RSA)",
           "file": "Commit c957485",
           "line": 107225,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "classic1990/duydoe-hd",
+      "url": "https://github.com/classic1990/duydoe-hd",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 54.51,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (PKCS8)",
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "Private Key (PKCS8)": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "duydoe-hd-main/DUY-DOE-PROJECT/backend/.env",
+          "line": 16,
+          "source": "file",
+          "preview": "AIza************************LjII"
+        },
+        {
+          "type": "Private Key (PKCS8)",
+          "file": "duydoe-hd-main/DUY-DOE-PROJECT/backend/generate-mock-key.ps1",
+          "line": 17,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (PKCS8)",
+          "file": "Commit e98bdd3",
+          "line": 646,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -47275,6 +47318,33 @@
           "line": 69,
           "source": "commit",
           "preview": "gsk_************************0JCq"
+        }
+      ]
+    },
+    {
+      "repo": "greenwich99/Google-ai-searcgh-product-2",
+      "url": "https://github.com/greenwich99/Google-ai-searcgh-product-2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.6,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 08615ab",
+          "line": 303,
+          "source": "commit",
+          "preview": "AIza************************cHUU"
         }
       ]
     },
