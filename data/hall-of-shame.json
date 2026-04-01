@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-01T21:56:30.700150+00:00",
+  "generatedAt": "2026-04-01T22:32:08.741785+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -28649,6 +28649,42 @@
       ]
     },
     {
+      "repo": "dougchuster/CRM-MRKT",
+      "url": "https://github.com/dougchuster/CRM-MRKT",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 68.29,
+      "exposureScore": 40,
+      "topTypes": [
+        "PostgreSQL Connection URI",
+        "RabbitMQ/AMQP URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1,
+        "RabbitMQ/AMQP URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "CRM-MRKT-main/docker/evolution-api/Docker/swarm/evolution_api_v2.yaml",
+          "line": 14,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "RabbitMQ/AMQP URI",
+          "file": "CRM-MRKT-main/docker/evolution-api/Docker/swarm/evolution_api_v2.yaml",
+          "line": 24,
+          "source": "file",
+          "preview": "amqp************************5672"
+        }
+      ]
+    },
+    {
       "repo": "eaaajay/MyTrendRadar",
       "url": "https://github.com/eaaajay/MyTrendRadar",
       "status": "leaked",
@@ -31975,6 +32011,40 @@
           "line": 82,
           "source": "file",
           "preview": "post************************host"
+        }
+      ]
+    },
+    {
+      "repo": "Qeyam/studio_amodeo",
+      "url": "https://github.com/Qeyam/studio_amodeo",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.94,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "studio_amodeo-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************jCJA"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "studio_amodeo-main/ios/Runner/GoogleService-Info.plist",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************gkkU"
         }
       ]
     },
@@ -46509,6 +46579,33 @@
       ]
     },
     {
+      "repo": "certidao/registrocivil.org.br-validar-yc74-6sga",
+      "url": "https://github.com/certidao/registrocivil.org.br-validar-yc74-6sga",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 55.87,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 931c878",
+          "line": 71567,
+          "source": "commit",
+          "preview": "AIza************************nQ6g"
+        }
+      ]
+    },
+    {
       "repo": "cflac87/AP2_Ultimate_Trainer_FirebaseVersion2",
       "url": "https://github.com/cflac87/AP2_Ultimate_Trainer_FirebaseVersion2",
       "status": "leaked",
@@ -52742,6 +52839,33 @@
           "line": 7521,
           "source": "commit",
           "preview": "http************************8LrY"
+        }
+      ]
+    },
+    {
+      "repo": "medlinkint-hub/caseeval1",
+      "url": "https://github.com/medlinkint-hub/caseeval1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.91,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 8292857",
+          "line": 292,
+          "source": "commit",
+          "preview": "AIza************************BUwE"
         }
       ]
     },
@@ -93705,6 +93829,33 @@
       ]
     },
     {
+      "repo": "elitsuri/fleettracker-1-3",
+      "url": "https://github.com/elitsuri/fleettracker-1-3",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.92,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "fleettracker-1-3-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "elitsuri/flutter-e-shop",
       "url": "https://github.com/elitsuri/flutter-e-shop",
       "status": "leaked",
@@ -94407,6 +94558,33 @@
       ]
     },
     {
+      "repo": "elitsuri/pymonitorbot-2",
+      "url": "https://github.com/elitsuri/pymonitorbot-2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.22,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "pymonitorbot-2-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "elitsuri/react-dashboard-kit",
       "url": "https://github.com/elitsuri/react-dashboard-kit",
       "status": "leaked",
@@ -94454,6 +94632,33 @@
         {
           "type": "PostgreSQL Connection URI",
           "file": "reactdatagrid-1-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/reactmapexplorer",
+      "url": "https://github.com/elitsuri/reactmapexplorer",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.16,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "reactmapexplorer-main/docker/docker-compose.yml",
           "line": 11,
           "source": "file",
           "preview": "post************************5432"
@@ -97022,6 +97227,33 @@
           "line": 17,
           "source": "file",
           "preview": "AIza************************_hVM"
+        }
+      ]
+    },
+    {
+      "repo": "glebis/photopulse",
+      "url": "https://github.com/glebis/photopulse",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.46,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "photopulse-main/embeddings/embed_incremental.sh",
+          "line": 8,
+          "source": "file",
+          "preview": "AIza************************es7w"
         }
       ]
     },
@@ -102615,6 +102847,33 @@
       ]
     },
     {
+      "repo": "kcemate/ratchet",
+      "url": "https://github.com/kcemate/ratchet",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 120.05,
+      "exposureScore": 20,
+      "topTypes": [
+        "AWS Access Key ID"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "ratchet-main/tests/fixtures/scoring-corpus/messy-js/index.js",
+          "line": 3,
+          "source": "file",
+          "preview": "AKIA************CDEF"
+        }
+      ]
+    },
+    {
       "repo": "keerthu332/result-analysis",
       "url": "https://github.com/keerthu332/result-analysis",
       "status": "leaked",
@@ -107714,6 +107973,33 @@
           "line": 4,
           "source": "file",
           "preview": "http************************MjOa"
+        }
+      ]
+    },
+    {
+      "repo": "mihir-babu27/xsa",
+      "url": "https://github.com/mihir-babu27/xsa",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 42.5,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "xsa-main/CaretakerApp/app/google-services.json",
+          "line": 24,
+          "source": "file",
+          "preview": "AIza************************hDvI"
         }
       ]
     },
