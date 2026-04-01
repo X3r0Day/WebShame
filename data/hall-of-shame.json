@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-01T16:25:30.971956+00:00",
+  "generatedAt": "2026-04-01T17:26:16.156786+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -12139,6 +12139,49 @@
       ]
     },
     {
+      "repo": "Mohdfaraz21/mini-diagnosis-api",
+      "url": "https://github.com/Mohdfaraz21/mini-diagnosis-api",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 119.67,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "mini-diagnosis-api-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "mini-diagnosis-api-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 962463a",
+          "line": 58512,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "MotazAl-Masri/node.js",
       "url": "https://github.com/MotazAl-Masri/node.js",
       "status": "leaked",
@@ -12563,6 +12606,49 @@
           "type": "Private Key (RSA)",
           "file": "Commit 0b9bf47",
           "line": 84442,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "SruthinReddy05/todo-app",
+      "url": "https://github.com/SruthinReddy05/todo-app",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 81.26,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "todo-app-main/server/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************7017"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "todo-app-main/server/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 61a09ac",
+          "line": 58564,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -15833,6 +15919,54 @@
           "line": 16999,
           "source": "file",
           "preview": "AIza************************Nmmg"
+        }
+      ]
+    },
+    {
+      "repo": "Suhaniwaadukle/Fit-First",
+      "url": "https://github.com/Suhaniwaadukle/Fit-First",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 4,
+      "commitFindings": 0,
+      "scanTimeSeconds": 62.7,
+      "exposureScore": 56,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 4
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Fit-First-main/android/app/google-services.json",
+          "line": 31,
+          "source": "file",
+          "preview": "AIza************************DleE"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Fit-First-main/android/app/src/main/AndroidManifest.xml",
+          "line": 49,
+          "source": "file",
+          "preview": "AIza************************l88A"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Fit-First-main/ios/Runner/AppDelegate.swift",
+          "line": 11,
+          "source": "file",
+          "preview": "AIza************************nNN8"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Fit-First-main/ios/Runner/GoogleService-Info.plist",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************NkxA"
         }
       ]
     },
@@ -49169,6 +49303,33 @@
       ]
     },
     {
+      "repo": "independentsalesnmarketing/search-tool",
+      "url": "https://github.com/independentsalesnmarketing/search-tool",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.79,
+      "exposureScore": 30,
+      "topTypes": [
+        "Mapbox API Key"
+      ],
+      "typeCounts": {
+        "Mapbox API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Mapbox API Key",
+          "file": "Commit ca36a11",
+          "line": 192,
+          "source": "commit",
+          "preview": "pk.e************************XQTA"
+        }
+      ]
+    },
+    {
       "repo": "indiafilovent/filovent-avitaillement",
       "url": "https://github.com/indiafilovent/filovent-avitaillement",
       "status": "leaked",
@@ -69878,6 +70039,33 @@
       ]
     },
     {
+      "repo": "Jano-Games/dinplan",
+      "url": "https://github.com/Jano-Games/dinplan",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.08,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "dinplan-master/server/.env",
+          "line": 5,
+          "source": "file",
+          "preview": "eyJh************************MFp4"
+        }
+      ]
+    },
+    {
       "repo": "Jatin0Yadav/Booki",
       "url": "https://github.com/Jatin0Yadav/Booki",
       "status": "leaked",
@@ -81214,6 +81402,33 @@
           "line": 3,
           "source": "file",
           "preview": "8533************************uyW0"
+        }
+      ]
+    },
+    {
+      "repo": "Zuhaib042/agentic-ai-learning",
+      "url": "https://github.com/Zuhaib042/agentic-ai-learning",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.97,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "agentic-ai-learning-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "AIza************************BQy8"
         }
       ]
     },
@@ -96068,6 +96283,33 @@
       ]
     },
     {
+      "repo": "gonghi2009-del/api2new",
+      "url": "https://github.com/gonghi2009-del/api2new",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.48,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "api2new-main/server.js",
+          "line": 10,
+          "source": "file",
+          "preview": "8260************************IqUY"
+        }
+      ]
+    },
+    {
       "repo": "gpezao/bronder",
       "url": "https://github.com/gpezao/bronder",
       "status": "leaked",
@@ -97414,6 +97656,33 @@
           "line": 18,
           "source": "file",
           "preview": "AIza************************h18E"
+        }
+      ]
+    },
+    {
+      "repo": "hmahmad-07/paani-mtm",
+      "url": "https://github.com/hmahmad-07/paani-mtm",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 50.35,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "paani-mtm-main/android/secrets.properties",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************-8lE"
         }
       ]
     },
@@ -113159,6 +113428,33 @@
       ]
     },
     {
+      "repo": "ramazansalleh541-cmd/repo7skp5g",
+      "url": "https://github.com/ramazansalleh541-cmd/repo7skp5g",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 30.49,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo7skp5g-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8798************************Z1lg"
+        }
+      ]
+    },
+    {
       "repo": "ramyasri-01/project",
       "url": "https://github.com/ramyasri-01/project",
       "status": "leaked",
@@ -114779,6 +115075,33 @@
       ]
     },
     {
+      "repo": "saidkurt/cozbak",
+      "url": "https://github.com/saidkurt/cozbak",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 19.38,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "cozbak-main/android/app/google-services.json",
+          "line": 23,
+          "source": "file",
+          "preview": "AIza************************E1fE"
+        }
+      ]
+    },
+    {
       "repo": "saifk1raiem/projyaak",
       "url": "https://github.com/saifk1raiem/projyaak",
       "status": "leaked",
@@ -115720,6 +116043,33 @@
           "line": 48,
           "source": "file",
           "preview": "mong************************7017"
+        }
+      ]
+    },
+    {
+      "repo": "semaes111/SUPERPOWERS-CLAUDE",
+      "url": "https://github.com/semaes111/SUPERPOWERS-CLAUDE",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 28.4,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "SUPERPOWERS-CLAUDE-main/skills/docker-patterns/SKILL.md",
+          "line": 36,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
