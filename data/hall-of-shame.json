@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-01T23:12:02.219423+00:00",
+  "generatedAt": "2026-04-01T23:56:17.111434+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -52952,6 +52952,33 @@
       ]
     },
     {
+      "repo": "meetwoyou/V-bage-Application",
+      "url": "https://github.com/meetwoyou/V-bage-Application",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 6.49,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit d071650",
+          "line": 265,
+          "source": "commit",
+          "preview": "8385************************tos4"
+        }
+      ]
+    },
+    {
       "repo": "mehakturk-debug/ZEKAT",
       "url": "https://github.com/mehakturk-debug/ZEKAT",
       "status": "leaked",
@@ -67798,6 +67825,33 @@
           "line": 58,
           "source": "file",
           "preview": "hf_z************************Saof"
+        }
+      ]
+    },
+    {
+      "repo": "Ejulian1/firebase",
+      "url": "https://github.com/Ejulian1/firebase",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.2,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "firebase-main/class_11/android/app/google-services.json",
+          "line": 19,
+          "source": "file",
+          "preview": "AIza************************IDsI"
         }
       ]
     },
@@ -103118,6 +103172,33 @@
       ]
     },
     {
+      "repo": "kellyrobert-coder/closer-briefing-ai",
+      "url": "https://github.com/kellyrobert-coder/closer-briefing-ai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.95,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "closer-briefing-ai-main/src/lib/api-keys.ts",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************WBjM"
+        }
+      ]
+    },
+    {
       "repo": "kevinmakwana/TicketBooking",
       "url": "https://github.com/kevinmakwana/TicketBooking",
       "status": "leaked",
@@ -108190,6 +108271,33 @@
           "line": 24,
           "source": "file",
           "preview": "AIza************************hDvI"
+        }
+      ]
+    },
+    {
+      "repo": "miketerry-org/daytonajs-mvc",
+      "url": "https://github.com/miketerry-org/daytonajs-mvc",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 33.97,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "daytonajs-mvc-main/node_modules/pg-pool/README.md",
+          "line": 74,
+          "source": "file",
+          "preview": "post************************####"
         }
       ]
     },
