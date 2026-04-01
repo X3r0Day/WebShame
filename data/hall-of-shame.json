@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-01T21:11:01.101998+00:00",
+  "generatedAt": "2026-04-01T21:56:30.700150+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -58875,6 +58875,33 @@
       ]
     },
     {
+      "repo": "suizo777/daviviendazo-2222",
+      "url": "https://github.com/suizo777/daviviendazo-2222",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.59,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 038f073",
+          "line": 458,
+          "source": "commit",
+          "preview": "http************************8r-9"
+        }
+      ]
+    },
+    {
       "repo": "sukyoungyoun/Candid-AI",
       "url": "https://github.com/sukyoungyoun/Candid-AI",
       "status": "leaked",
@@ -68672,6 +68699,33 @@
           "line": 10,
           "source": "file",
           "preview": "8736************************rdsw"
+        }
+      ]
+    },
+    {
+      "repo": "Globalpampas/voxit-crm",
+      "url": "https://github.com/Globalpampas/voxit-crm",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.75,
+      "exposureScore": 20,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "voxit-crm-main/main.py",
+          "line": 14,
+          "source": "file",
+          "preview": "gsk_************************rua9"
         }
       ]
     },
@@ -93435,6 +93489,33 @@
       ]
     },
     {
+      "repo": "elitsuri/crmaster-8",
+      "url": "https://github.com/elitsuri/crmaster-8",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.65,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "crmaster-8-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "elitsuri/datascraper-pro-1-1",
       "url": "https://github.com/elitsuri/datascraper-pro-1-1",
       "status": "leaked",
@@ -93536,6 +93617,33 @@
         {
           "type": "PostgreSQL Connection URI",
           "file": "dbinspect-cli-1-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/dbinspect-cli-6",
+      "url": "https://github.com/elitsuri/dbinspect-cli-6",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.35,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "dbinspect-cli-6-main/docker/docker-compose.yml",
           "line": 11,
           "source": "file",
           "preview": "post************************5432"
@@ -94670,6 +94778,33 @@
         {
           "type": "PostgreSQL Connection URI",
           "file": "svelte-notes-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/taskflow-pro-6",
+      "url": "https://github.com/elitsuri/taskflow-pro-6",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "taskflow-pro-6-main/docker/docker-compose.yml",
           "line": 11,
           "source": "file",
           "preview": "post************************5432"
@@ -95996,6 +96131,33 @@
           "line": 15,
           "source": "file",
           "preview": "http************************OVbq"
+        }
+      ]
+    },
+    {
+      "repo": "fonarikisshey-boop/afreim-telegram-bot",
+      "url": "https://github.com/fonarikisshey-boop/afreim-telegram-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.71,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "afreim-telegram-bot-main/Dockerfile",
+          "line": 18,
+          "source": "file",
+          "preview": "8625************************Rg6s"
         }
       ]
     },
