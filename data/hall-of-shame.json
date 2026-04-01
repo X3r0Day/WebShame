@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-01T15:18:11.173599+00:00",
+  "generatedAt": "2026-04-01T16:25:30.971956+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -12827,6 +12827,49 @@
       ]
     },
     {
+      "repo": "alexiskrazy1/backend",
+      "url": "https://github.com/alexiskrazy1/backend",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 38.14,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2,
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "backend-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "backend-main/node_modules/pg-pool/README.md",
+          "line": 74,
+          "source": "file",
+          "preview": "post************************####"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 06f90bd",
+          "line": 21771,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "camilo199811/ECOHOME_STORE_CAMILO",
       "url": "https://github.com/camilo199811/ECOHOME_STORE_CAMILO",
       "status": "leaked",
@@ -14602,6 +14645,42 @@
           "line": 16,
           "source": "commit",
           "preview": "AIza************************xgvA"
+        }
+      ]
+    },
+    {
+      "repo": "Jaimin2687/StackScope",
+      "url": "https://github.com/Jaimin2687/StackScope",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 10.04,
+      "exposureScore": 60,
+      "topTypes": [
+        "PostgreSQL Connection URI",
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1,
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit d86ee4c",
+          "line": 164,
+          "source": "commit",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit d86ee4c",
+          "line": 165,
+          "source": "commit",
+          "preview": "AIza************************W6D8"
         }
       ]
     },
@@ -16389,6 +16468,47 @@
           "type": "PostgreSQL Connection URI",
           "file": "Commit e693450",
           "line": 160,
+          "source": "commit",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "gavanjeet/JeetCode",
+      "url": "https://github.com/gavanjeet/JeetCode",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.07,
+      "exposureScore": 54,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 3
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "JeetCode-main/docker-compose.ci.yml",
+          "line": 19,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "JeetCode-main/docker-compose.dev.yml",
+          "line": 32,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 018d681",
+          "line": 112,
           "source": "commit",
           "preview": "post************************5432"
         }
@@ -23700,6 +23820,40 @@
       ]
     },
     {
+      "repo": "bhaskkkarrr/Authentication",
+      "url": "https://github.com/bhaskkkarrr/Authentication",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 106.75,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Authentication-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 662ddd7",
+          "line": 59537,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "buchananricardo9jptun84654/felta199950001",
       "url": "https://github.com/buchananricardo9jptun84654/felta199950001",
       "status": "leaked",
@@ -24646,6 +24800,40 @@
           "type": "Private Key (RSA)",
           "file": "Commit 891b223",
           "line": 70205,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "legennd48/carepath-bot",
+      "url": "https://github.com/legennd48/carepath-bot",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 38.68,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "carepath-bot-master/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit d364c2a",
+          "line": 44767,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -45984,6 +46172,33 @@
       ]
     },
     {
+      "repo": "cicmen-glitc/bot",
+      "url": "https://github.com/cicmen-glitc/bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.56,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit a0133b5",
+          "line": 18,
+          "source": "commit",
+          "preview": "8735************************uZdw"
+        }
+      ]
+    },
+    {
       "repo": "cloudmarket99/nico-claude-batterymonster-v1",
       "url": "https://github.com/cloudmarket99/nico-claude-batterymonster-v1",
       "status": "leaked",
@@ -52190,6 +52405,33 @@
           "line": 608,
           "source": "commit",
           "preview": "AIza************************9guI"
+        }
+      ]
+    },
+    {
+      "repo": "mickchwedziak/fashion-app",
+      "url": "https://github.com/mickchwedziak/fashion-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.44,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit bafc311",
+          "line": 603,
+          "source": "commit",
+          "preview": "AIza************************Q4DQ"
         }
       ]
     },
@@ -72930,6 +73172,33 @@
       ]
     },
     {
+      "repo": "MuhammadAwaisGill/chat_app_backend",
+      "url": "https://github.com/MuhammadAwaisGill/chat_app_backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 122.26,
+      "exposureScore": 20,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "chat_app_backend-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "MuhammadSirajShah/bychat",
       "url": "https://github.com/MuhammadSirajShah/bychat",
       "status": "leaked",
@@ -84752,6 +85021,33 @@
           "line": 416,
           "source": "file",
           "preview": "redi************************6379"
+        }
+      ]
+    },
+    {
+      "repo": "asroriddin04/Stars_bot",
+      "url": "https://github.com/asroriddin04/Stars_bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Stars_bot-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "8748************************6ZJw"
         }
       ]
     },
@@ -99467,6 +99763,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************G7f0"
+        }
+      ]
+    },
+    {
+      "repo": "jdjsjsjsjsj96-eng/railway",
+      "url": "https://github.com/jdjsjsjsjsj96-eng/railway",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.97,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Bot Token"
+      ],
+      "typeCounts": {
+        "Discord Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Bot Token",
+          "file": "railway-main/bot.py",
+          "line": 10,
+          "source": "file",
+          "preview": "MTQ4************************5rmo"
         }
       ]
     },
@@ -116832,6 +117155,33 @@
       ]
     },
     {
+      "repo": "soumadipdebnath2-hub/lab5",
+      "url": "https://github.com/soumadipdebnath2-hub/lab5",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.83,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "lab5-main/app.py",
+          "line": 12,
+          "source": "file",
+          "preview": "AIza************************G0B8"
+        }
+      ]
+    },
+    {
       "repo": "souravagr8765/DriveScrapper",
       "url": "https://github.com/souravagr8765/DriveScrapper",
       "status": "leaked",
@@ -119667,6 +120017,33 @@
       ]
     },
     {
+      "repo": "tonioloewald/tosijs-product",
+      "url": "https://github.com/tonioloewald/tosijs-product",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 196.16,
+      "exposureScore": 20,
+      "topTypes": [
+        "Mapbox API Key"
+      ],
+      "typeCounts": {
+        "Mapbox API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Mapbox API Key",
+          "file": "tosijs-product-main/demo/index.js",
+          "line": 7574,
+          "source": "file",
+          "preview": "pk.e************************UScA"
+        }
+      ]
+    },
+    {
       "repo": "torathecreator/Music-AI",
       "url": "https://github.com/torathecreator/Music-AI",
       "status": "leaked",
@@ -121877,6 +122254,33 @@
           "line": 19,
           "source": "file",
           "preview": "gsk_************************2kD4"
+        }
+      ]
+    },
+    {
+      "repo": "vitalii-dynamiq/tax-monitoring",
+      "url": "https://github.com/vitalii-dynamiq/tax-monitoring",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.15,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "tax-monitoring-main/docker-compose.yml",
+          "line": 25,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
