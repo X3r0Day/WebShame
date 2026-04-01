@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-01T06:21:40.662380+00:00",
+  "generatedAt": "2026-04-01T08:06:44.105049+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -17235,6 +17235,40 @@
       ]
     },
     {
+      "repo": "Mmy2000/Multi-Tenant-Organization",
+      "url": "https://github.com/Mmy2000/Multi-Tenant-Organization",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 3.02,
+      "exposureScore": 52,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit f14c8ab",
+          "line": 100,
+          "source": "commit",
+          "preview": "AIza************************8UFY"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit f14c8ab",
+          "line": 101,
+          "source": "commit",
+          "preview": "AIza************************lg4k"
+        }
+      ]
+    },
+    {
       "repo": "Namitkumarkrrish/The-Gallery",
       "url": "https://github.com/Namitkumarkrrish/The-Gallery",
       "status": "leaked",
@@ -24439,6 +24473,40 @@
       ]
     },
     {
+      "repo": "madhuratech/Madhuraenergy-backend",
+      "url": "https://github.com/madhuratech/Madhuraenergy-backend",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 50.16,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Madhuraenergy-backend-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 245c3c6",
+          "line": 19493,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "mahesh-akkala/ai-integrated-feedback-rating-system",
       "url": "https://github.com/mahesh-akkala/ai-integrated-feedback-rating-system",
       "status": "leaked",
@@ -30107,6 +30175,40 @@
           "line": 81,
           "source": "file",
           "preview": "mysq************************6543"
+        }
+      ]
+    },
+    {
+      "repo": "Dev-Fredy/kabiangavote",
+      "url": "https://github.com/Dev-Fredy/kabiangavote",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 155.68,
+      "exposureScore": 32,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "kabiangavote-main/node_modules/dotenv/README-es.md",
+          "line": 78,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "kabiangavote-main/node_modules/dotenv/README.md",
+          "line": 110,
+          "source": "file",
+          "preview": "----************************----"
         }
       ]
     },
@@ -38498,6 +38600,33 @@
       ]
     },
     {
+      "repo": "Jeriousman/BEAT-greetings-module",
+      "url": "https://github.com/Jeriousman/BEAT-greetings-module",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 53.6,
+      "exposureScore": 30,
+      "topTypes": [
+        "HuggingFace Token"
+      ],
+      "typeCounts": {
+        "HuggingFace Token": 1
+      },
+      "findings": [
+        {
+          "type": "HuggingFace Token",
+          "file": "Commit ff43d3f",
+          "line": 19,
+          "source": "commit",
+          "preview": "hf_f************************HGCO"
+        }
+      ]
+    },
+    {
       "repo": "JinayNandu/splitkaro",
       "url": "https://github.com/JinayNandu/splitkaro",
       "status": "leaked",
@@ -46324,6 +46453,33 @@
           "line": 246,
           "source": "commit",
           "preview": "AIza************************chsM"
+        }
+      ]
+    },
+    {
+      "repo": "diotanauma7-ai/tes",
+      "url": "https://github.com/diotanauma7-ai/tes",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.84,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit a399175",
+          "line": 26,
+          "source": "commit",
+          "preview": "8565************************lp6M"
         }
       ]
     },
@@ -80290,6 +80446,33 @@
           "line": 8,
           "source": "file",
           "preview": "http************************CQkH"
+        }
+      ]
+    },
+    {
+      "repo": "aayanrairai7-lgtm/Primeaccxstore",
+      "url": "https://github.com/aayanrairai7-lgtm/Primeaccxstore",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.14,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Primeaccxstore-main/saled.py",
+          "line": 24,
+          "source": "file",
+          "preview": "8752************************98Yw"
         }
       ]
     },
