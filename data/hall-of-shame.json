@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-01T14:13:17.503969+00:00",
+  "generatedAt": "2026-04-01T15:18:11.173599+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -51519,6 +51519,33 @@
       ]
     },
     {
+      "repo": "manga-source/manga6578uy",
+      "url": "https://github.com/manga-source/manga6578uy",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.06,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 2c7e869",
+          "line": 517,
+          "source": "commit",
+          "preview": "http************************qEBP"
+        }
+      ]
+    },
+    {
       "repo": "manishayadav2693/latlong",
       "url": "https://github.com/manishayadav2693/latlong",
       "status": "leaked",
@@ -53814,6 +53841,60 @@
       ]
     },
     {
+      "repo": "onebender137/The-Architect",
+      "url": "https://github.com/onebender137/The-Architect",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.03,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 949375c",
+          "line": 21,
+          "source": "commit",
+          "preview": "8457************************MLb4"
+        }
+      ]
+    },
+    {
+      "repo": "orekiiftw/frieren",
+      "url": "https://github.com/orekiiftw/frieren",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.87,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 9217fce",
+          "line": 250,
+          "source": "commit",
+          "preview": "AIza************************WKZo"
+        }
+      ]
+    },
+    {
       "repo": "p3olh567-sys/bouygues.fr",
       "url": "https://github.com/p3olh567-sys/bouygues.fr",
       "status": "leaked",
@@ -55484,6 +55565,33 @@
           "line": 1504,
           "source": "commit",
           "preview": "eyJh************************mdkc"
+        }
+      ]
+    },
+    {
+      "repo": "ricardorike06-spec/Frete-j-",
+      "url": "https://github.com/ricardorike06-spec/Frete-j-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.76,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit b788d1c",
+          "line": 635,
+          "source": "commit",
+          "preview": "AIza************************ttYQ"
         }
       ]
     },
@@ -65289,6 +65397,33 @@
       ]
     },
     {
+      "repo": "CraxBuddy9958/NewAccnt_LikeNoDel2",
+      "url": "https://github.com/CraxBuddy9958/NewAccnt_LikeNoDel2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.96,
+      "exposureScore": 20,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 1
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "NewAccnt_LikeNoDel2-main/README (1).md",
+          "line": 140,
+          "source": "file",
+          "preview": "http************************json"
+        }
+      ]
+    },
+    {
       "repo": "Croziris/Acti-minute-pb",
       "url": "https://github.com/Croziris/Acti-minute-pb",
       "status": "leaked",
@@ -68255,6 +68390,33 @@
           "line": 7,
           "source": "file",
           "preview": "AIza************************tjLU"
+        }
+      ]
+    },
+    {
+      "repo": "Hatym/event-planner",
+      "url": "https://github.com/Hatym/event-planner",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 19.03,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "event-planner-main/docker-compose.yml",
+          "line": 24,
+          "source": "file",
+          "preview": "post******************5432"
         }
       ]
     },
@@ -81381,6 +81543,33 @@
       ]
     },
     {
+      "repo": "abigail24223/apk-69cd323e",
+      "url": "https://github.com/abigail24223/apk-69cd323e",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.98,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "apk-69cd323e-main/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************f8SI"
+        }
+      ]
+    },
+    {
       "repo": "abinash-max/SRT-roman",
       "url": "https://github.com/abinash-max/SRT-roman",
       "status": "leaked",
@@ -87830,6 +88019,33 @@
           "line": 2,
           "source": "file",
           "preview": "mong************************7017"
+        }
+      ]
+    },
+    {
+      "repo": "cloveding/wifi_http_otaf_soc",
+      "url": "https://github.com/cloveding/wifi_http_otaf_soc",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 155.34,
+      "exposureScore": 20,
+      "topTypes": [
+        "AWS Access Key ID"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "wifi_http_otaf_soc-main/firmware/wifi_http_otaf_soc/readme.md",
+          "line": 227,
+          "source": "file",
+          "preview": "AKIA************RSZD"
         }
       ]
     },
@@ -114591,6 +114807,33 @@
       ]
     },
     {
+      "repo": "samsung15use-cyber/stars",
+      "url": "https://github.com/samsung15use-cyber/stars",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.0,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "stars-main/starz.py",
+          "line": 24,
+          "source": "file",
+          "preview": "8747************************H9ms"
+        }
+      ]
+    },
+    {
       "repo": "samueltarif/blog",
       "url": "https://github.com/samueltarif/blog",
       "status": "leaked",
@@ -118853,6 +119096,33 @@
           "line": 31,
           "source": "file",
           "preview": "AIza************************Nus4"
+        }
+      ]
+    },
+    {
+      "repo": "thpinteligencia/H.O.R.M.O.S.",
+      "url": "https://github.com/thpinteligencia/H.O.R.M.O.S.",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 18.3,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "H.O.R.M.O.S.-master/docker-compose.yml",
+          "line": 30,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
