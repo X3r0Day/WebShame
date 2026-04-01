@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-01T08:06:44.105049+00:00",
+  "generatedAt": "2026-04-01T09:12:06.368329+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -12220,6 +12220,49 @@
       ]
     },
     {
+      "repo": "Qwerty-12347878/Smart-Serivce-B",
+      "url": "https://github.com/Qwerty-12347878/Smart-Serivce-B",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 298.19,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Smart-Serivce-B-main/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "mong************************7017"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Smart-Serivce-B-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 90545f8",
+          "line": 70161,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "Rvjais/Invoice",
       "url": "https://github.com/Rvjais/Invoice",
       "status": "leaked",
@@ -13246,6 +13289,49 @@
           "type": "Private Key (RSA)",
           "file": "Commit 1040130",
           "line": 11941,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "prasadbhalerao1/onlineCourseRegistration",
+      "url": "https://github.com/prasadbhalerao1/onlineCourseRegistration",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 222.47,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "onlineCourseRegistration-main/backend/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "onlineCourseRegistration-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit b22636e",
+          "line": 50955,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -53045,6 +53131,33 @@
       ]
     },
     {
+      "repo": "nishika841/multi-enterprise-job-scraper",
+      "url": "https://github.com/nishika841/multi-enterprise-job-scraper",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 36.05,
+      "exposureScore": 30,
+      "topTypes": [
+        "Algolia Admin API Key (Context)"
+      ],
+      "typeCounts": {
+        "Algolia Admin API Key (Context)": 1
+      },
+      "findings": [
+        {
+          "type": "Algolia Admin API Key (Context)",
+          "file": "Commit f1e6af1",
+          "line": 3669,
+          "source": "commit",
+          "preview": "algo************************6fa3"
+        }
+      ]
+    },
+    {
       "repo": "nithishkumar257/tools_recom",
       "url": "https://github.com/nithishkumar257/tools_recom",
       "status": "leaked",
@@ -64030,6 +64143,33 @@
           "line": 47,
           "source": "file",
           "preview": "mong************************7');"
+        }
+      ]
+    },
+    {
+      "repo": "Byte-Maste/Cultivation",
+      "url": "https://github.com/Byte-Maste/Cultivation",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 100.09,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Cultivation-master/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************eLp8"
         }
       ]
     },
@@ -80936,6 +81076,33 @@
       ]
     },
     {
+      "repo": "achrafallakkis-pixel/lebanon-fuel-dashboard",
+      "url": "https://github.com/achrafallakkis-pixel/lebanon-fuel-dashboard",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 22.72,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "lebanon-fuel-dashboard-main/config.json",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************F0Ew"
+        }
+      ]
+    },
+    {
       "repo": "acientsoul/story-forest-walk",
       "url": "https://github.com/acientsoul/story-forest-walk",
       "status": "leaked",
@@ -84010,6 +84177,33 @@
           "line": 8,
           "source": "file",
           "preview": "AIza************************KzRE"
+        }
+      ]
+    },
+    {
+      "repo": "atishayjainyt/comet-shoe-alert",
+      "url": "https://github.com/atishayjainyt/comet-shoe-alert",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.25,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "comet-shoe-alert-main/check_stock.py",
+          "line": 3,
+          "source": "file",
+          "preview": "8204************************MNek"
         }
       ]
     },
@@ -101321,6 +101515,33 @@
       ]
     },
     {
+      "repo": "korwlik23/gpt",
+      "url": "https://github.com/korwlik23/gpt",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 38.43,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "gpt-main/app.js",
+          "line": 10,
+          "source": "file",
+          "preview": "sk-o************************26f8"
+        }
+      ]
+    },
+    {
       "repo": "kosae711-ui/watsapp",
       "url": "https://github.com/kosae711-ui/watsapp",
       "status": "leaked",
@@ -106559,6 +106780,33 @@
       ]
     },
     {
+      "repo": "ncdanh0311/sportswear-store",
+      "url": "https://github.com/ncdanh0311/sportswear-store",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 112.06,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "sportswear-store-main/Do_an/dkpl_sports/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************Yn5o"
+        }
+      ]
+    },
+    {
       "repo": "neaskol/ticket-scanner-web",
       "url": "https://github.com/neaskol/ticket-scanner-web",
       "status": "leaked",
@@ -110686,6 +110934,33 @@
           "line": 4,
           "source": "file",
           "preview": "8217************************no3s"
+        }
+      ]
+    },
+    {
+      "repo": "quynhchu505/financeProject",
+      "url": "https://github.com/quynhchu505/financeProject",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.59,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "financeProject-main/docker-compose.yml",
+          "line": 42,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -115627,6 +115902,33 @@
           "line": 51,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "stewartyoung/winter-25-coding",
+      "url": "https://github.com/stewartyoung/winter-25-coding",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.8,
+      "exposureScore": 20,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 1
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "winter-25-coding-master/addepar-final/src/components/great-frontend/JobsListings.tsx",
+          "line": 59,
+          "source": "file",
+          "preview": "http************************json"
         }
       ]
     },
