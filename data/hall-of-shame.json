@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-01T22:32:08.741785+00:00",
+  "generatedAt": "2026-04-01T23:12:02.219423+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -8843,6 +8843,54 @@
           "type": "Private Key (RSA)",
           "file": "Commit 51a175d",
           "line": 21358,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "cyusagift/my-internship-work-1",
+      "url": "https://github.com/cyusagift/my-internship-work-1",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 54.93,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "my-internship-work-1-main/node_modules/dotenv/README-es.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "my-internship-work-1-main/node_modules/dotenv/README.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 0a412b1",
+          "line": 76278,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 0a412b1",
+          "line": 77026,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -22151,6 +22199,40 @@
           "line": 18,
           "source": "commit",
           "preview": "AIza************************efII"
+        }
+      ]
+    },
+    {
+      "repo": "EduardoRiosSale/visionrs-portfolio",
+      "url": "https://github.com/EduardoRiosSale/visionrs-portfolio",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 107.93,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "visionrs-portfolio-main/visionrs-backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 5bb5b2c",
+          "line": 68022,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -94099,6 +94181,33 @@
       ]
     },
     {
+      "repo": "elitsuri/hrnexus-9",
+      "url": "https://github.com/elitsuri/hrnexus-9",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.67,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "hrnexus-9-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "elitsuri/inventorymaster-1",
       "url": "https://github.com/elitsuri/inventorymaster-1",
       "status": "leaked",
@@ -94443,6 +94552,33 @@
         {
           "type": "PostgreSQL Connection URI",
           "file": "ngfilemanager-1-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/node-rest-api-1",
+      "url": "https://github.com/elitsuri/node-rest-api-1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.9,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "node-rest-api-1-main/docker/docker-compose.yml",
           "line": 11,
           "source": "file",
           "preview": "post************************5432"
@@ -94902,6 +95038,33 @@
         {
           "type": "PostgreSQL Connection URI",
           "file": "studiodesk-19-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/studiodesk-3-2",
+      "url": "https://github.com/elitsuri/studiodesk-3-2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.2,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "studiodesk-3-2-main/docker/docker-compose.yml",
           "line": 11,
           "source": "file",
           "preview": "post************************5432"
@@ -98037,6 +98200,33 @@
           "line": 7,
           "source": "file",
           "preview": "8296************************wXaQ"
+        }
+      ]
+    },
+    {
+      "repo": "hareeshraddi2005-max/BOT",
+      "url": "https://github.com/hareeshraddi2005-max/BOT",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.94,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "BOT-main/config.js",
+          "line": 6,
+          "source": "file",
+          "preview": "8737************************YkMA"
         }
       ]
     },
