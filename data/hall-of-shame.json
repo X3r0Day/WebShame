@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-01T00:01:34.588375+00:00",
+  "generatedAt": "2026-04-01T01:31:48.739330+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -10977,6 +10977,56 @@
           "line": 11,
           "source": "file",
           "preview": "PMAK************************6zM2"
+        }
+      ]
+    },
+    {
+      "repo": "jaketribe417/openclaw",
+      "url": "https://github.com/jaketribe417/openclaw",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 4,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.44,
+      "exposureScore": 64,
+      "topTypes": [
+        "Firebase Database URL",
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 2,
+        "Telegram Bot Token": 2
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "openclaw-main/skills/data-apis/SKILL.md",
+          "line": 39,
+          "source": "file",
+          "preview": "http************************json"
+        },
+        {
+          "type": "Firebase Database URL",
+          "file": "openclaw-main/skills/data-apis/SKILL.md",
+          "line": 42,
+          "source": "file",
+          "preview": "http************************json"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "openclaw-main/workspace/agents/harlan/scripts/bee-meeting-check.js",
+          "line": 20,
+          "source": "file",
+          "preview": "8701************************sQtQ"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "openclaw-main/workspace/skills/agentmail-mail/scripts/joy-email-check.js",
+          "line": 20,
+          "source": "file",
+          "preview": "8780************************Z2BU"
         }
       ]
     },
@@ -78248,6 +78298,33 @@
           "line": 4,
           "source": "file",
           "preview": "http************************AmW2"
+        }
+      ]
+    },
+    {
+      "repo": "Umhenrique/VibeQuiz",
+      "url": "https://github.com/Umhenrique/VibeQuiz",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.68,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "VibeQuiz-main/server/youtubeService.js",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************qcW8"
         }
       ]
     },
