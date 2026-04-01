@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-01T19:31:44.539742+00:00",
+  "generatedAt": "2026-04-01T20:15:56.117856+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -32861,6 +32861,40 @@
       ]
     },
     {
+      "repo": "algaly12345/abaad-last",
+      "url": "https://github.com/algaly12345/abaad-last",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 59.98,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "abaad-last-main/ios/Runner/AppDelegate.swift",
+          "line": 13,
+          "source": "file",
+          "preview": "AIza************************g7n4"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "abaad-last-main/ios/Runner/AppDelegate.swift",
+          "line": 14,
+          "source": "file",
+          "preview": "AIza************************KhLQ"
+        }
+      ]
+    },
+    {
       "repo": "andriusgabriel-ccl/painel-financeiro-pessoal-o1845bp55",
       "url": "https://github.com/andriusgabriel-ccl/painel-financeiro-pessoal-o1845bp55",
       "status": "leaked",
@@ -45915,6 +45949,33 @@
           "line": 28,
           "source": "commit",
           "preview": "AIza************************lzpg"
+        }
+      ]
+    },
+    {
+      "repo": "braxton-shoes/319",
+      "url": "https://github.com/braxton-shoes/319",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 37.58,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 28cf94c",
+          "line": 38782,
+          "source": "commit",
+          "preview": "8682************************TqW8"
         }
       ]
     },
@@ -63172,6 +63233,33 @@
       ]
     },
     {
+      "repo": "AleksiGarmash/hotel-booking-enterprise-SpringBoot",
+      "url": "https://github.com/AleksiGarmash/hotel-booking-enterprise-SpringBoot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.07,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "hotel-booking-enterprise-SpringBoot-master/docker-compose.yml",
+          "line": 84,
+          "source": "file",
+          "preview": "mong************************7017"
+        }
+      ]
+    },
+    {
       "repo": "AlexMari0/project-ecommerce",
       "url": "https://github.com/AlexMari0/project-ecommerce",
       "status": "leaked",
@@ -63681,6 +63769,33 @@
           "line": 3,
           "source": "file",
           "preview": "AIza************************G0gA"
+        }
+      ]
+    },
+    {
+      "repo": "Anujchoudhary87/Edu_Track",
+      "url": "https://github.com/Anujchoudhary87/Edu_Track",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.44,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Edu_Track-main/artifacts/api-server/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "post************************0817"
         }
       ]
     },
@@ -66030,6 +66145,33 @@
           "line": 37,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "Cootracovi/cootracovi-disciplinarios",
+      "url": "https://github.com/Cootracovi/cootracovi-disciplinarios",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.65,
+      "exposureScore": 20,
+      "topTypes": [
+        "MySQL/MariaDB Connection URI"
+      ],
+      "typeCounts": {
+        "MySQL/MariaDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "cootracovi-disciplinarios-main/docker-compose.yml",
+          "line": 47,
+          "source": "file",
+          "preview": "mysq************************3306"
         }
       ]
     },
@@ -96544,6 +96686,33 @@
       ]
     },
     {
+      "repo": "girlssareee-gif/instafollowers",
+      "url": "https://github.com/girlssareee-gif/instafollowers",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.38,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "instafollowers-main/main.py",
+          "line": 12,
+          "source": "file",
+          "preview": "8758************************CwBs"
+        }
+      ]
+    },
+    {
       "repo": "gizemaksoy257/webb",
       "url": "https://github.com/gizemaksoy257/webb",
       "status": "leaked",
@@ -109072,6 +109241,33 @@
       ]
     },
     {
+      "repo": "nazarbekov00001-alt/abank",
+      "url": "https://github.com/nazarbekov00001-alt/abank",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.16,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "abank-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "8755************************LXKI"
+        }
+      ]
+    },
+    {
       "repo": "nazarbekov00003-sudo/tjkbonibt.shop",
       "url": "https://github.com/nazarbekov00003-sudo/tjkbonibt.shop",
       "status": "leaked",
@@ -112497,6 +112693,33 @@
           "line": 28,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "pqmdev/ddos",
+      "url": "https://github.com/pqmdev/ddos",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 55.32,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "ddos-main/bot.py",
+          "line": 10,
+          "source": "file",
+          "preview": "8463************************pPyE"
         }
       ]
     },
