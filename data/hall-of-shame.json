@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-01T18:20:49.849375+00:00",
+  "generatedAt": "2026-04-01T19:31:44.539742+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -9035,6 +9035,54 @@
           "type": "Private Key (RSA)",
           "file": "Commit a3deff5",
           "line": 127322,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "maxwell4425/whop-runner",
+      "url": "https://github.com/maxwell4425/whop-runner",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 84.09,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "whop-runner-main/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "whop-runner-main/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit dda73c6",
+          "line": 57631,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit dda73c6",
+          "line": 58066,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -60667,6 +60715,33 @@
       ]
     },
     {
+      "repo": "x7rces/XentinelHubV2",
+      "url": "https://github.com/x7rces/XentinelHubV2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 44.16,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit eb468d2",
+          "line": 7978,
+          "source": "commit",
+          "preview": "http************************8LrY"
+        }
+      ]
+    },
+    {
       "repo": "xxz212/daily-discipline-tracker",
       "url": "https://github.com/xxz212/daily-discipline-tracker",
       "status": "leaked",
@@ -84832,6 +84907,33 @@
       ]
     },
     {
+      "repo": "antilosserhub/Duels-",
+      "url": "https://github.com/antilosserhub/Duels-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.18,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Duels--main/Duelsmachine.lua",
+          "line": 3,
+          "source": "file",
+          "preview": "http************************Xime"
+        }
+      ]
+    },
+    {
       "repo": "anupkr11/WildlifeGuard-backend",
       "url": "https://github.com/anupkr11/WildlifeGuard-backend",
       "status": "leaked",
@@ -87636,6 +87738,33 @@
           "line": 21,
           "source": "file",
           "preview": "8774************************Z8FM"
+        }
+      ]
+    },
+    {
+      "repo": "carlos4s/Kord-ai",
+      "url": "https://github.com/carlos4s/Kord-ai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 18.65,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Kord-ai-main/cmds/misc.js",
+          "line": 221,
+          "source": "file",
+          "preview": "AIza************************dCYQ"
         }
       ]
     },
@@ -98625,6 +98754,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************3vF4"
+        }
+      ]
+    },
+    {
+      "repo": "huonghua26marc1181/repob31a9p",
+      "url": "https://github.com/huonghua26marc1181/repob31a9p",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 39.39,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repob31a9p-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
         }
       ]
     },
@@ -120846,6 +121002,114 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************PT7I"
+        }
+      ]
+    },
+    {
+      "repo": "trangmach26marc1180/repogul69e",
+      "url": "https://github.com/trangmach26marc1180/repogul69e",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 38.33,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repogul69e-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "trangmach26marc1180/repohy2ruc",
+      "url": "https://github.com/trangmach26marc1180/repohy2ruc",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 26.47,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repohy2ruc-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "trangmach26marc1180/repoo2k2r2",
+      "url": "https://github.com/trangmach26marc1180/repoo2k2r2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.82,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repoo2k2r2-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "trangmach26marc1180/repos62ykz",
+      "url": "https://github.com/trangmach26marc1180/repos62ykz",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 21.49,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repos62ykz-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
         }
       ]
     },
