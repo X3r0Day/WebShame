@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-01T04:32:36.067683+00:00",
+  "generatedAt": "2026-04-01T06:21:40.662380+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -14832,6 +14832,42 @@
       ]
     },
     {
+      "repo": "leafclutch/academics-student-mentor",
+      "url": "https://github.com/leafclutch/academics-student-mentor",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 12.46,
+      "exposureScore": 60,
+      "topTypes": [
+        "PostgreSQL Connection URI",
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1,
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 1001c2f",
+          "line": 341,
+          "source": "commit",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "Commit 1001c2f",
+          "line": 345,
+          "source": "commit",
+          "preview": "eyJh************************bJX8"
+        }
+      ]
+    },
+    {
       "repo": "mariyarahman127-stack/imperial_vote",
       "url": "https://github.com/mariyarahman127-stack/imperial_vote",
       "status": "leaked",
@@ -19428,6 +19464,47 @@
           "line": 50,
           "source": "file",
           "preview": "AIza************************fwPI"
+        }
+      ]
+    },
+    {
+      "repo": "Iz040622/TARUMT_ARNavigation",
+      "url": "https://github.com/Iz040622/TARUMT_ARNavigation",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 0,
+      "scanTimeSeconds": 18.03,
+      "exposureScore": 44,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 3
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "TARUMT_ARNavigation-main/TARUMTAR/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************kQ94"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "TARUMT_ARNavigation-main/TARUMTAR/app/src/main/java/com/example/tarumtar/Navigation.kt",
+          "line": 35,
+          "source": "file",
+          "preview": "AIza************************yDIs"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "TARUMT_ARNavigation-main/TARUMTAR/app/src/main/res/values/strings.xml",
+          "line": 3,
+          "source": "file",
+          "preview": "AIza************************JXHM"
         }
       ]
     },
@@ -28260,6 +28337,42 @@
           "line": 16,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "langkemaoxin/TrendRadar",
+      "url": "https://github.com/langkemaoxin/TrendRadar",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 91.02,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Slack Webhook"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Slack Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "TrendRadar-master/README-EN.md",
+          "line": 1376,
+          "source": "file",
+          "preview": "1234************************m9T0"
+        },
+        {
+          "type": "Slack Webhook",
+          "file": "TrendRadar-master/README-EN.md",
+          "line": 1731,
+          "source": "file",
+          "preview": "http************************XXXX"
         }
       ]
     },
@@ -42674,6 +42787,33 @@
           "line": 19,
           "source": "commit",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "adriantlh/Meet_in_the_middle",
+      "url": "https://github.com/adriantlh/Meet_in_the_middle",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.86,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 7910a38",
+          "line": 18,
+          "source": "commit",
+          "preview": "AIza************************Eklg"
         }
       ]
     },
@@ -63036,6 +63176,33 @@
       ]
     },
     {
+      "repo": "BalajiPatil1207/blogger",
+      "url": "https://github.com/BalajiPatil1207/blogger",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 18.56,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "blogger-main/backend/.env",
+          "line": 11,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "Banknaja55/Project_DormitoryWebApp",
       "url": "https://github.com/Banknaja55/Project_DormitoryWebApp",
       "status": "leaked",
@@ -68783,6 +68950,33 @@
           "line": 18,
           "source": "file",
           "preview": "AIza************************_B7s"
+        }
+      ]
+    },
+    {
+      "repo": "Jenilan/FINEGUARDNET",
+      "url": "https://github.com/Jenilan/FINEGUARDNET",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.62,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "FINEGUARDNET-main/docker-compose.yml",
+          "line": 12,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -84879,6 +85073,33 @@
       ]
     },
     {
+      "repo": "bnajera645-oss/cp",
+      "url": "https://github.com/bnajera645-oss/cp",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.84,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "cp-main/bot.py",
+          "line": 48,
+          "source": "file",
+          "preview": "8286************************Ylfc"
+        }
+      ]
+    },
+    {
       "repo": "bogatirevmaks2-del/tg_bot.py",
       "url": "https://github.com/bogatirevmaks2-del/tg_bot.py",
       "status": "leaked",
@@ -89465,6 +89686,33 @@
           "line": 246,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "dnh2703/booking-spa-FE",
+      "url": "https://github.com/dnh2703/booking-spa-FE",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 32.47,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "booking-spa-FE-main/src/app/core/environment.ts",
+          "line": 3,
+          "source": "file",
+          "preview": "AIza************************xQm0"
         }
       ]
     },
@@ -106533,6 +106781,60 @@
       ]
     },
     {
+      "repo": "ngocgiang26marc1110/repog1fljg",
+      "url": "https://github.com/ngocgiang26marc1110/repog1fljg",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 31.18,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repog1fljg-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "ngocgiang26marc1110/repoo0ws1y",
+      "url": "https://github.com/ngocgiang26marc1110/repoo0ws1y",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 26.38,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repoo0ws1y-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
       "repo": "ngochac26marc1066/repo56ybzk",
       "url": "https://github.com/ngochac26marc1066/repo56ybzk",
       "status": "leaked",
@@ -113630,6 +113932,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************KeqM"
+        }
+      ]
+    },
+    {
+      "repo": "sharmila110/let-s-_clone_perplexity",
+      "url": "https://github.com/sharmila110/let-s-_clone_perplexity",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.32,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "let-s-_clone_perplexity-main/app.py",
+          "line": 12,
+          "source": "file",
+          "preview": "AIza************************Vlyg"
         }
       ]
     },
