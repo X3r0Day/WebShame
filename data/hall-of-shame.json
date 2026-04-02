@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T03:58:33.563198+00:00",
+  "generatedAt": "2026-04-02T05:40:02.454629+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -32093,6 +32093,40 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************pq7U"
+        }
+      ]
+    },
+    {
+      "repo": "Pratyush785/Studio-SyncroLab",
+      "url": "https://github.com/Pratyush785/Studio-SyncroLab",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.69,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Studio-SyncroLab-main/SyncroLab/app.py",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************RmEU"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Studio-SyncroLab-main/SyncroLab/app.py",
+          "line": 8,
+          "source": "file",
+          "preview": "AIza************************DQ_I"
         }
       ]
     },
@@ -76989,6 +77023,33 @@
       ]
     },
     {
+      "repo": "Rana-Ahmed-Ali/PCC-img-to-text",
+      "url": "https://github.com/Rana-Ahmed-Ali/PCC-img-to-text",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.52,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "PCC-img-to-text-main/src/App.tsx",
+          "line": 31,
+          "source": "file",
+          "preview": "AIza************************TE9U"
+        }
+      ]
+    },
+    {
       "repo": "Rana-devanand/Youtube-journey",
       "url": "https://github.com/Rana-devanand/Youtube-journey",
       "status": "leaked",
@@ -92811,6 +92872,33 @@
       ]
     },
     {
+      "repo": "durgesh1120054-del/calfit",
+      "url": "https://github.com/durgesh1120054-del/calfit",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.89,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "calfit-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************87kg"
+        }
+      ]
+    },
+    {
       "repo": "dvanjev-lang/jeveren-f1a9c4a3",
       "url": "https://github.com/dvanjev-lang/jeveren-f1a9c4a3",
       "status": "leaked",
@@ -103283,6 +103371,33 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************WBjM"
+        }
+      ]
+    },
+    {
+      "repo": "kemundino/quiz-bot",
+      "url": "https://github.com/kemundino/quiz-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.13,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "quiz-bot-main/bot.js",
+          "line": 12,
+          "source": "file",
+          "preview": "8688************************zRYk"
         }
       ]
     },
