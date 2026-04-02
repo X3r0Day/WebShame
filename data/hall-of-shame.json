@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T22:42:30.385467+00:00",
+  "generatedAt": "2026-04-02T23:12:52.261650+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -8879,6 +8879,54 @@
       ]
     },
     {
+      "repo": "MrMustache789/Hakari-Bot",
+      "url": "https://github.com/MrMustache789/Hakari-Bot",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 177.89,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Hakari-Bot-main/node_modules/dotenv/README-es.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Hakari-Bot-main/node_modules/dotenv/README.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit ce0e408",
+          "line": 299537,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit ce0e408",
+          "line": 300285,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "OmRakholiya/AlumNexus",
       "url": "https://github.com/OmRakholiya/AlumNexus",
       "status": "leaked",
@@ -13690,6 +13738,49 @@
           "type": "Private Key (RSA)",
           "file": "Commit 61a09ac",
           "line": 58564,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "SyedArslanHaider/expense-tracker",
+      "url": "https://github.com/SyedArslanHaider/expense-tracker",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 89.9,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2,
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "expense-tracker-master/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "expense-tracker-master/backend/node_modules/pg-pool/README.md",
+          "line": 74,
+          "source": "file",
+          "preview": "post************************####"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 6f8f99f",
+          "line": 19708,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -88889,6 +88980,33 @@
       ]
     },
     {
+      "repo": "angels57/financial-app",
+      "url": "https://github.com/angels57/financial-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.18,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "financial-app-main/docker-compose.yml",
+          "line": 31,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "anhhua26febu4636/repo06v16n",
       "url": "https://github.com/anhhua26febu4636/repo06v16n",
       "status": "leaked",
@@ -124579,6 +124697,33 @@
           "line": 7,
           "source": "file",
           "preview": "AIza************************K7jI"
+        }
+      ]
+    },
+    {
+      "repo": "siddhantsawant2505-del/Jobwise",
+      "url": "https://github.com/siddhantsawant2505-del/Jobwise",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 47.64,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Jobwise-main/JobModule/utils.py",
+          "line": 53,
+          "source": "file",
+          "preview": "AIza************************qBYY"
         }
       ]
     },
