@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T17:34:12.134051+00:00",
+  "generatedAt": "2026-04-02T17:51:42.328517+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -53324,6 +53324,33 @@
       ]
     },
     {
+      "repo": "kyleandreii/april3",
+      "url": "https://github.com/kyleandreii/april3",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.01,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 86a517b",
+          "line": 280,
+          "source": "commit",
+          "preview": "AIza************************gLQI"
+        }
+      ]
+    },
+    {
       "repo": "kyletran77/reorderly-web",
       "url": "https://github.com/kyletran77/reorderly-web",
       "status": "leaked",
@@ -69817,6 +69844,33 @@
           "line": 1,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "Divanshu17/predusk_assignment",
+      "url": "https://github.com/Divanshu17/predusk_assignment",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.87,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "predusk_assignment-main/docker-compose.yml",
+          "line": 39,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -86345,6 +86399,33 @@
       ]
     },
     {
+      "repo": "ahm-destino/Groovy-Bot",
+      "url": "https://github.com/ahm-destino/Groovy-Bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.5,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Groovy-Bot-main/app/check_supabase.py",
+          "line": 7,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "ahmedalibob2stone/fluxiq",
       "url": "https://github.com/ahmedalibob2stone/fluxiq",
       "status": "leaked",
@@ -89311,6 +89392,33 @@
           "line": 22,
           "source": "file",
           "preview": "8135************************9VIg"
+        }
+      ]
+    },
+    {
+      "repo": "atakanbattal/Telefoncular-QMS",
+      "url": "https://github.com/atakanbattal/Telefoncular-QMS",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 78.07,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "Telefoncular-QMS-main/scripts/create-process-control-storage.js",
+          "line": 8,
+          "source": "file",
+          "preview": "eyJh************************usa4"
         }
       ]
     },
@@ -95552,6 +95660,33 @@
       ]
     },
     {
+      "repo": "diogoesteves23/NodeJsExperimental",
+      "url": "https://github.com/diogoesteves23/NodeJsExperimental",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 76.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "NodeJsExperimental-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "djtommymcfly-dot/Koolnumber",
       "url": "https://github.com/djtommymcfly-dot/Koolnumber",
       "status": "leaked",
@@ -96007,6 +96142,141 @@
           "line": 12,
           "source": "file",
           "preview": "AIza************************-hMg"
+        }
+      ]
+    },
+    {
+      "repo": "duongkha26marc1589/repoi49lzs",
+      "url": "https://github.com/duongkha26marc1589/repoi49lzs",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 29.05,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repoi49lzs-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "duongkha26marc1589/repomfwth2",
+      "url": "https://github.com/duongkha26marc1589/repomfwth2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 25.86,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repomfwth2-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "duongkha26marc1589/reposkyn7m",
+      "url": "https://github.com/duongkha26marc1589/reposkyn7m",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 33.81,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "reposkyn7m-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "duongkha26marc1589/reposwz6uz",
+      "url": "https://github.com/duongkha26marc1589/reposwz6uz",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 37.64,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "reposwz6uz-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "duongkha26marc1589/repozwf736",
+      "url": "https://github.com/duongkha26marc1589/repozwf736",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 27.26,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repozwf736-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
         }
       ]
     },
@@ -121580,6 +121850,33 @@
       ]
     },
     {
+      "repo": "sameer8556/bot",
+      "url": "https://github.com/sameer8556/bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.4,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "bot-main/bot.py",
+          "line": 13,
+          "source": "file",
+          "preview": "8512************************ttEY"
+        }
+      ]
+    },
+    {
       "repo": "samersoub/nashamaplus",
       "url": "https://github.com/samersoub/nashamaplus",
       "status": "leaked",
@@ -129730,6 +130027,33 @@
           "line": 1,
           "source": "file",
           "preview": "AIza************************lHyU"
+        }
+      ]
+    },
+    {
+      "repo": "wahyuajisuryantoro/pakan_ayam_fe",
+      "url": "https://github.com/wahyuajisuryantoro/pakan_ayam_fe",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 19.73,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "pakan_ayam_fe-master/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************z6_A"
         }
       ]
     },
