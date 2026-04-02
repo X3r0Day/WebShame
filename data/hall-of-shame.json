@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T11:46:11.278994+00:00",
+  "generatedAt": "2026-04-02T12:29:09.334368+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -17296,6 +17296,49 @@
           "line": 104,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "Mohitraikwar121/Home-Energy-Optimization",
+      "url": "https://github.com/Mohitraikwar121/Home-Energy-Optimization",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 0,
+      "scanTimeSeconds": 99.91,
+      "exposureScore": 52,
+      "topTypes": [
+        "Private Key (RSA)",
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Home-Energy-Optimization-main/backend/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************3t50"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Home-Energy-Optimization-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Home-Energy-Optimization-main/backend/node_modules/dotenv/README.md",
+          "line": 109,
+          "source": "file",
+          "preview": "----************************----"
         }
       ]
     },
@@ -37292,6 +37335,33 @@
       ]
     },
     {
+      "repo": "Abonaoaf/az",
+      "url": "https://github.com/Abonaoaf/az",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.44,
+      "exposureScore": 30,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 1
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "Commit b55fb63",
+          "line": 77,
+          "source": "commit",
+          "preview": "http************************json"
+        }
+      ]
+    },
+    {
       "repo": "AdibaAmin/Document_Ocr",
       "url": "https://github.com/AdibaAmin/Document_Ocr",
       "status": "leaked",
@@ -42773,6 +42843,33 @@
       ]
     },
     {
+      "repo": "SONGmax-bot/a",
+      "url": "https://github.com/SONGmax-bot/a",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.11,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 1f1714a",
+          "line": 373,
+          "source": "commit",
+          "preview": "8567************************dqkI"
+        }
+      ]
+    },
+    {
       "repo": "SSab51/Trade-Freezer",
       "url": "https://github.com/SSab51/Trade-Freezer",
       "status": "leaked",
@@ -43012,6 +43109,33 @@
           "line": 6110,
           "source": "commit",
           "preview": "AIza************************VxGc"
+        }
+      ]
+    },
+    {
+      "repo": "Shirsendu-Chatterjee/ei",
+      "url": "https://github.com/Shirsendu-Chatterjee/ei",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.41,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit aa0bb14",
+          "line": 429,
+          "source": "commit",
+          "preview": "AIza************************81CE"
         }
       ]
     },
@@ -65507,6 +65631,33 @@
       ]
     },
     {
+      "repo": "Atharrv2459/Deployed-website",
+      "url": "https://github.com/Atharrv2459/Deployed-website",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.02,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Deployed-website-main/Emerging-tools-and-tech-ticket-main/docker-compose.yml",
+          "line": 31,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Atharvatare/Green-Root",
       "url": "https://github.com/Atharvatare/Green-Root",
       "status": "leaked",
@@ -66506,6 +66657,33 @@
       ]
     },
     {
+      "repo": "BotzFandirr/Bot-Nokos",
+      "url": "https://github.com/BotzFandirr/Bot-Nokos",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 60.64,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Bot-Nokos-main/settings.js",
+          "line": 12,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "Brkcan/Eventra-podman",
       "url": "https://github.com/Brkcan/Eventra-podman",
       "status": "leaked",
@@ -67096,6 +67274,33 @@
           "line": 46,
           "source": "file",
           "preview": "eyJh************************5Qfc"
+        }
+      ]
+    },
+    {
+      "repo": "ChunkyzSoup/civic-transparency-platform",
+      "url": "https://github.com/ChunkyzSoup/civic-transparency-platform",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "civic-transparency-platform-main/docker-compose.yml",
+          "line": 23,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -67744,6 +67949,33 @@
           "line": 1376,
           "source": "file",
           "preview": "AIza************************dCYQ"
+        }
+      ]
+    },
+    {
+      "repo": "Dchuuuuuu/disease-risk-classifier",
+      "url": "https://github.com/Dchuuuuuu/disease-risk-classifier",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 171.37,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "disease-risk-classifier-main/.claude/skills/02-dataflow/dataflow-connection-config.md",
+          "line": 168,
+          "source": "file",
+          "preview": "post************************host"
         }
       ]
     },
@@ -70282,6 +70514,33 @@
           "line": 5,
           "source": "file",
           "preview": "8517************************ny6Y"
+        }
+      ]
+    },
+    {
+      "repo": "Hamza-Haadi/disease-risk-classifier-hamza",
+      "url": "https://github.com/Hamza-Haadi/disease-risk-classifier-hamza",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 137.29,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "disease-risk-classifier-hamza-main/.claude/skills/02-dataflow/dataflow-connection-config.md",
+          "line": 168,
+          "source": "file",
+          "preview": "post************************host"
         }
       ]
     },
@@ -76820,6 +77079,33 @@
       ]
     },
     {
+      "repo": "PranayBandari/healthcare-AI",
+      "url": "https://github.com/PranayBandari/healthcare-AI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 192.25,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "healthcare-AI-main/.claude/skills/02-dataflow/dataflow-connection-config.md",
+          "line": 168,
+          "source": "file",
+          "preview": "post************************host"
+        }
+      ]
+    },
+    {
       "repo": "Prasadadi18/rcbalert",
       "url": "https://github.com/Prasadadi18/rcbalert",
       "status": "leaked",
@@ -82571,6 +82857,33 @@
       ]
     },
     {
+      "repo": "William189189/disease-risk-classifier",
+      "url": "https://github.com/William189189/disease-risk-classifier",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 198.89,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "disease-risk-classifier-main/.claude/skills/02-dataflow/dataflow-connection-config.md",
+          "line": 168,
+          "source": "file",
+          "preview": "post************************host"
+        }
+      ]
+    },
+    {
       "repo": "William55q/foodscanner",
       "url": "https://github.com/William55q/foodscanner",
       "status": "leaked",
@@ -83107,6 +83420,33 @@
           "line": 19,
           "source": "file",
           "preview": "http************************json"
+        }
+      ]
+    },
+    {
+      "repo": "Yuwen0226/Disease-Risk-Classifier",
+      "url": "https://github.com/Yuwen0226/Disease-Risk-Classifier",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 91.32,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Disease-Risk-Classifier-main/.claude/skills/02-dataflow/dataflow-connection-config.md",
+          "line": 168,
+          "source": "file",
+          "preview": "post************************host"
         }
       ]
     },
@@ -85213,6 +85553,33 @@
           "line": 6,
           "source": "file",
           "preview": "MTQ4************************onuo"
+        }
+      ]
+    },
+    {
+      "repo": "aliciapls/ML-Week-2---Healthcare",
+      "url": "https://github.com/aliciapls/ML-Week-2---Healthcare",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 174.11,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "ML-Week-2---Healthcare-main/.claude/skills/02-dataflow/dataflow-connection-config.md",
+          "line": 168,
+          "source": "file",
+          "preview": "post************************host"
         }
       ]
     },
@@ -97907,6 +98274,33 @@
       ]
     },
     {
+      "repo": "freya0305/disease-risk-classifier",
+      "url": "https://github.com/freya0305/disease-risk-classifier",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 190.13,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "disease-risk-classifier-main/.claude/skills/02-dataflow/dataflow-connection-config.md",
+          "line": 168,
+          "source": "file",
+          "preview": "post************************host"
+        }
+      ]
+    },
+    {
       "repo": "frutteriasciacovelli-web/repohd294k",
       "url": "https://github.com/frutteriasciacovelli-web/repohd294k",
       "status": "leaked",
@@ -102416,6 +102810,33 @@
       ]
     },
     {
+      "repo": "janelynneo/disease-risk-classifier",
+      "url": "https://github.com/janelynneo/disease-risk-classifier",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 195.04,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "disease-risk-classifier-main/.claude/skills/02-dataflow/dataflow-connection-config.md",
+          "line": 168,
+          "source": "file",
+          "preview": "post************************host"
+        }
+      ]
+    },
+    {
       "repo": "janicewalder-del/Lab-4",
       "url": "https://github.com/janicewalder-del/Lab-4",
       "status": "leaked",
@@ -103411,6 +103832,33 @@
           "line": 23,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "joshgd1/disease_risk_classfier",
+      "url": "https://github.com/joshgd1/disease_risk_classfier",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 182.38,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "disease_risk_classfier-main/.claude/skills/02-dataflow/dataflow-connection-config.md",
+          "line": 168,
+          "source": "file",
+          "preview": "post************************host"
         }
       ]
     },
@@ -106030,6 +106478,33 @@
           "line": 6,
           "source": "file",
           "preview": "eyJh************************JVAQ"
+        }
+      ]
+    },
+    {
+      "repo": "kshitijv2025/disease-risk-classifier",
+      "url": "https://github.com/kshitijv2025/disease-risk-classifier",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 179.47,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "disease-risk-classifier-main/.claude/skills/02-dataflow/dataflow-connection-config.md",
+          "line": 168,
+          "source": "file",
+          "preview": "post************************host"
         }
       ]
     },
@@ -109814,6 +110289,33 @@
       ]
     },
     {
+      "repo": "michitaka16/disease-risk-identifier",
+      "url": "https://github.com/michitaka16/disease-risk-identifier",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 207.69,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "disease-risk-identifier-main/.claude/skills/02-dataflow/dataflow-connection-config.md",
+          "line": 168,
+          "source": "file",
+          "preview": "post************************host"
+        }
+      ]
+    },
+    {
       "repo": "mihir-babu27/xsa",
       "url": "https://github.com/mihir-babu27/xsa",
       "status": "leaked",
@@ -111970,6 +112472,114 @@
           "line": 10,
           "source": "file",
           "preview": "8488************************lRwY"
+        }
+      ]
+    },
+    {
+      "repo": "nganquyen26marc1592/repo1a08h0",
+      "url": "https://github.com/nganquyen26marc1592/repo1a08h0",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 62.76,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo1a08h0-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "nganquyen26marc1592/repobb5q8h",
+      "url": "https://github.com/nganquyen26marc1592/repobb5q8h",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 45.08,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repobb5q8h-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "nganquyen26marc1592/repoidn3hb",
+      "url": "https://github.com/nganquyen26marc1592/repoidn3hb",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 46.86,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repoidn3hb-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "nganquyen26marc1592/repoznzrnd",
+      "url": "https://github.com/nganquyen26marc1592/repoznzrnd",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 34.94,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repoznzrnd-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
         }
       ]
     },
@@ -116020,6 +116630,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************J0Eo"
+        }
+      ]
+    },
+    {
+      "repo": "queenie9216/disease-risk-classifier",
+      "url": "https://github.com/queenie9216/disease-risk-classifier",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 210.76,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "disease-risk-classifier-main/.claude/skills/02-dataflow/dataflow-connection-config.md",
+          "line": 168,
+          "source": "file",
+          "preview": "post************************host"
         }
       ]
     },
@@ -120209,6 +120846,33 @@
       ]
     },
     {
+      "repo": "shobhit-16/Disease-Risk-classifier",
+      "url": "https://github.com/shobhit-16/Disease-Risk-classifier",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 190.81,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Disease-Risk-classifier-main/.claude/skills/02-dataflow/dataflow-connection-config.md",
+          "line": 168,
+          "source": "file",
+          "preview": "post************************host"
+        }
+      ]
+    },
+    {
       "repo": "shohjahon40001-tech/my-kino-bot",
       "url": "https://github.com/shohjahon40001-tech/my-kino-bot",
       "status": "leaked",
@@ -122444,6 +123108,33 @@
           "type": "PostgreSQL Connection URI",
           "file": "The_Ledger-master/README.md",
           "line": 17,
+          "source": "file",
+          "preview": "post************************host"
+        }
+      ]
+    },
+    {
+      "repo": "terrene-foundation/disease-risk-classifier",
+      "url": "https://github.com/terrene-foundation/disease-risk-classifier",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 190.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "disease-risk-classifier-main/.claude/skills/02-dataflow/dataflow-connection-config.md",
+          "line": 168,
           "source": "file",
           "preview": "post************************host"
         }
@@ -127630,6 +128321,33 @@
           "line": 1,
           "source": "file",
           "preview": "AIza************************ZfNw"
+        }
+      ]
+    },
+    {
+      "repo": "yashparaskar623-code/disease-risk-classifier",
+      "url": "https://github.com/yashparaskar623-code/disease-risk-classifier",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 206.92,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "disease-risk-classifier-main/.claude/skills/02-dataflow/dataflow-connection-config.md",
+          "line": 168,
+          "source": "file",
+          "preview": "post************************host"
         }
       ]
     },
