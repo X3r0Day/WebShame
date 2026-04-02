@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T23:12:52.261650+00:00",
+  "generatedAt": "2026-04-02T23:58:03.078046+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -48773,6 +48773,33 @@
           "line": 738,
           "source": "commit",
           "preview": "AIza************************993A"
+        }
+      ]
+    },
+    {
+      "repo": "chadyyyy/football-bot",
+      "url": "https://github.com/chadyyyy/football-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 51.17,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 78970e7",
+          "line": 27,
+          "source": "commit",
+          "preview": "8705************************4vl4"
         }
       ]
     },
@@ -100887,6 +100914,33 @@
       ]
     },
     {
+      "repo": "felipe-trujillo/monitor-ceo-mobile",
+      "url": "https://github.com/felipe-trujillo/monitor-ceo-mobile",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.5,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "monitor-ceo-mobile-main/CLAUDE.md",
+          "line": 122,
+          "source": "file",
+          "preview": "sk-o************************0612"
+        }
+      ]
+    },
+    {
       "repo": "feliperfpereira/OlheMeuCelular",
       "url": "https://github.com/feliperfpereira/OlheMeuCelular",
       "status": "leaked",
@@ -118784,6 +118838,33 @@
           "line": 33501,
           "source": "file",
           "preview": "eyJh************************idoU"
+        }
+      ]
+    },
+    {
+      "repo": "pedrohenriquemagina043-netizen/atividade",
+      "url": "https://github.com/pedrohenriquemagina043-netizen/atividade",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.8,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "atividade-main/API.py",
+          "line": 32,
+          "source": "file",
+          "preview": "AIza************************3lh4"
         }
       ]
     },
