@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T14:13:21.233970+00:00",
+  "generatedAt": "2026-04-02T15:09:40.704097+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -10486,6 +10486,58 @@
           "line": 130,
           "source": "file",
           "preview": "sk-p************************34yz"
+        }
+      ]
+    },
+    {
+      "repo": "neildcruz/trust-gate",
+      "url": "https://github.com/neildcruz/trust-gate",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 3,
+      "filesAffected": 3,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.9,
+      "exposureScore": 72,
+      "topTypes": [
+        "GitHub Classic PAT",
+        "Stripe Secret Key",
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 2,
+        "Stripe Secret Key": 1,
+        "Private Key (RSA)": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "trust-gate-main/.github/prompts/test-api-keys.prompt.md",
+          "line": 17,
+          "source": "file",
+          "preview": "ghp_************************ghij"
+        },
+        {
+          "type": "Stripe Secret Key",
+          "file": "trust-gate-main/.github/prompts/test-api-keys.prompt.md",
+          "line": 26,
+          "source": "file",
+          "preview": "sk_t************************lmno"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "trust-gate-main/.github/prompts/test-private-keys.prompt.md",
+          "line": 16,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "GitHub Classic PAT",
+          "file": "trust-gate-main/tests/test_sensitive_data_guard.py",
+          "line": 285,
+          "source": "file",
+          "preview": "ghp_************************gh12"
         }
       ]
     },
@@ -45327,6 +45379,33 @@
       ]
     },
     {
+      "repo": "amuraiwoo/AIsindan",
+      "url": "https://github.com/amuraiwoo/AIsindan",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.69,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 88dce4c",
+          "line": 64,
+          "source": "commit",
+          "preview": "http************************QBm7"
+        }
+      ]
+    },
+    {
       "repo": "amyholl91/milk-stash",
       "url": "https://github.com/amyholl91/milk-stash",
       "status": "leaked",
@@ -50723,6 +50802,33 @@
           "line": 207,
           "source": "commit",
           "preview": "AIza************************EV8Q"
+        }
+      ]
+    },
+    {
+      "repo": "inky-0/20th-street-auto",
+      "url": "https://github.com/inky-0/20th-street-auto",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 10.35,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 18ec668",
+          "line": 18,
+          "source": "commit",
+          "preview": "AIza************************5l_A"
         }
       ]
     },
@@ -60771,6 +60877,33 @@
       ]
     },
     {
+      "repo": "thoabui01/vinhomes-green-paradise-cangio",
+      "url": "https://github.com/thoabui01/vinhomes-green-paradise-cangio",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 6.77,
+      "exposureScore": 30,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "Commit acdc399",
+          "line": 41,
+          "source": "commit",
+          "preview": "sk-o************************0c7d"
+        }
+      ]
+    },
+    {
       "repo": "thriftthread/passingprobability",
       "url": "https://github.com/thriftthread/passingprobability",
       "status": "leaked",
@@ -64679,6 +64812,33 @@
         {
           "type": "PostgreSQL Connection URI",
           "file": "ada-main/.env",
+          "line": 6,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "Alfa-Anshul/mario-game",
+      "url": "https://github.com/Alfa-Anshul/mario-game",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.75,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "mario-game-main/backend/database.py",
           "line": 6,
           "source": "file",
           "preview": "post************************5432"
@@ -75158,6 +75318,33 @@
           "line": 4,
           "source": "file",
           "preview": "eyJh************************bPxc"
+        }
+      ]
+    },
+    {
+      "repo": "MohamedSkanderHaguiga/MedVoyage-PLatform",
+      "url": "https://github.com/MohamedSkanderHaguiga/MedVoyage-PLatform",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 229.36,
+      "exposureScore": 20,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "MedVoyage-PLatform-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
         }
       ]
     },
@@ -106968,6 +107155,33 @@
       ]
     },
     {
+      "repo": "kyawlayacc99-code/my-ebook-bot",
+      "url": "https://github.com/kyawlayacc99-code/my-ebook-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.75,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "my-ebook-bot-main/Ebook_Sales_Telegram_Bot.md",
+          "line": 55,
+          "source": "file",
+          "preview": "8602************************Hs_o"
+        }
+      ]
+    },
+    {
       "repo": "kykhong26febu4178/repo44ah7e",
       "url": "https://github.com/kykhong26febu4178/repo44ah7e",
       "status": "leaked",
@@ -124302,6 +124516,33 @@
       ]
     },
     {
+      "repo": "thrka33/Wifi_intrusion_detection",
+      "url": "https://github.com/thrka33/Wifi_intrusion_detection",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.73,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Wifi_intrusion_detection-main/wifi_instrusion/server.py",
+          "line": 7,
+          "source": "file",
+          "preview": "7624************************SNvA"
+        }
+      ]
+    },
+    {
       "repo": "thuanhgmakeatradingbot/trading-system",
       "url": "https://github.com/thuanhgmakeatradingbot/trading-system",
       "status": "leaked",
@@ -124784,6 +125025,141 @@
           "line": 5,
           "source": "file",
           "preview": "eyJh************************OxmM"
+        }
+      ]
+    },
+    {
+      "repo": "toankha26marc1591/repo27l5ed",
+      "url": "https://github.com/toankha26marc1591/repo27l5ed",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 27.86,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo27l5ed-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "toankha26marc1591/repoanccvt",
+      "url": "https://github.com/toankha26marc1591/repoanccvt",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 37.52,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repoanccvt-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "toankha26marc1591/repooj65lp",
+      "url": "https://github.com/toankha26marc1591/repooj65lp",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 48.63,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repooj65lp-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "toankha26marc1591/repoyjruq3",
+      "url": "https://github.com/toankha26marc1591/repoyjruq3",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.68,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repoyjruq3-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "toankha26marc1591/repoyqbv7q",
+      "url": "https://github.com/toankha26marc1591/repoyqbv7q",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 45.23,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repoyqbv7q-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
         }
       ]
     },
