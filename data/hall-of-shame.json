@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T20:16:55.630693+00:00",
+  "generatedAt": "2026-04-02T21:03:13.136522+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -23025,6 +23025,40 @@
       ]
     },
     {
+      "repo": "Ayushkhoke/performance-",
+      "url": "https://github.com/Ayushkhoke/performance-",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 174.07,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "performance--main/FocusForge/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 75b2f7f",
+          "line": 72562,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "Codeakriti2005/job-tracker",
       "url": "https://github.com/Codeakriti2005/job-tracker",
       "status": "leaked",
@@ -31339,6 +31373,42 @@
           "line": 14,
           "source": "file",
           "preview": "ghp_************************lLct"
+        }
+      ]
+    },
+    {
+      "repo": "vaibhav-personal/Chit-chat-app",
+      "url": "https://github.com/vaibhav-personal/Chit-chat-app",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 134.28,
+      "exposureScore": 40,
+      "topTypes": [
+        "MongoDB Connection URI",
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Chit-chat-app-master/server/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Chit-chat-app-master/server/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
         }
       ]
     },
@@ -66592,6 +66662,33 @@
       ]
     },
     {
+      "repo": "AnonymousVS/Website-Daily-Create",
+      "url": "https://github.com/AnonymousVS/Website-Daily-Create",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.75,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Website-Daily-Create-main/website-daily-create.sh",
+          "line": 21,
+          "source": "file",
+          "preview": "8601************************dir4"
+        }
+      ]
+    },
+    {
       "repo": "AntonioSalces/documentation",
       "url": "https://github.com/AntonioSalces/documentation",
       "status": "leaked",
@@ -77149,6 +77246,33 @@
       ]
     },
     {
+      "repo": "MrNevak/crypto-bot",
+      "url": "https://github.com/MrNevak/crypto-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.08,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "crypto-bot-main/bot.py",
+          "line": 18,
+          "source": "file",
+          "preview": "8631************************nc10"
+        }
+      ]
+    },
+    {
       "repo": "Mugasir/portifolio-calvin",
       "url": "https://github.com/Mugasir/portifolio-calvin",
       "status": "leaked",
@@ -80788,6 +80912,33 @@
           "type": "PostgreSQL Connection URI",
           "file": "household-app-monorepo-main/backend/app/core/config.py",
           "line": 9,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "Rushi788816/Daily-Task-Manager",
+      "url": "https://github.com/Rushi788816/Daily-Task-Manager",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.87,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Daily-Task-Manager-main/migrate-db.js",
+          "line": 3,
           "source": "file",
           "preview": "post************************5432"
         }
@@ -94776,6 +94927,33 @@
           "line": 660,
           "source": "file",
           "preview": "7566************************61xY"
+        }
+      ]
+    },
+    {
+      "repo": "danyachuglaev-a11y/telegram-bot",
+      "url": "https://github.com/danyachuglaev-a11y/telegram-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.67,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "telegram-bot-main/bot.py",
+          "line": 6,
+          "source": "file",
+          "preview": "8715************************V8W4"
         }
       ]
     },
@@ -111786,6 +111964,33 @@
           "line": 20,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "manem-emad/Back-API",
+      "url": "https://github.com/manem-emad/Back-API",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.79,
+      "exposureScore": 20,
+      "topTypes": [
+        "Mapbox API Key"
+      ],
+      "typeCounts": {
+        "Mapbox API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Mapbox API Key",
+          "file": "Back-API-main/data1/geocode.js",
+          "line": 6,
+          "source": "file",
+          "preview": "pk.e************************8yIw"
         }
       ]
     },
