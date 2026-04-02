@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T07:03:17.674045+00:00",
+  "generatedAt": "2026-04-02T08:09:16.973568+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -21204,6 +21204,47 @@
           "line": 64,
           "source": "file",
           "preview": "AIza************************9qFA"
+        }
+      ]
+    },
+    {
+      "repo": "mahmoudelzoghbi92/custom-docker-action",
+      "url": "https://github.com/mahmoudelzoghbi92/custom-docker-action",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 62.28,
+      "exposureScore": 44,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 3
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "custom-docker-action-main/.github/actions/deploy-s3-javascript/node_modules/@octokit/auth-token/README.md",
+          "line": 61,
+          "source": "file",
+          "preview": "ghp_************************0000"
+        },
+        {
+          "type": "GitHub Classic PAT",
+          "file": "custom-docker-action-main/.github/actions/deploy-s3-javascript/node_modules/@octokit/auth-token/README.md",
+          "line": 92,
+          "source": "file",
+          "preview": "ghs_************************0000"
+        },
+        {
+          "type": "GitHub Classic PAT",
+          "file": "custom-docker-action-main/.github/actions/deploy-s3-javascript/node_modules/@octokit/auth-token/README.md",
+          "line": 100,
+          "source": "file",
+          "preview": "ghu_************************0000"
         }
       ]
     },
@@ -48581,6 +48622,33 @@
       ]
     },
     {
+      "repo": "finnlumley-ship-it/flowright-receptionist",
+      "url": "https://github.com/finnlumley-ship-it/flowright-receptionist",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.7,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 6481665",
+          "line": 129,
+          "source": "commit",
+          "preview": "AIza************************0pP4"
+        }
+      ]
+    },
+    {
       "repo": "finnschanz-svg/rum-nienhilfe_Termin_Kalender",
       "url": "https://github.com/finnschanz-svg/rum-nienhilfe_Termin_Kalender",
       "status": "leaked",
@@ -62243,6 +62311,33 @@
       ]
     },
     {
+      "repo": "2254560004/mental-health-mini-program",
+      "url": "https://github.com/2254560004/mental-health-mini-program",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 53.36,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "mental-health-mini-program-main/server/DEPLOYMENT.md",
+          "line": 14,
+          "source": "file",
+          "preview": "eyJh************************UcJ4"
+        }
+      ]
+    },
+    {
       "repo": "22ketsanee-ksn/426-315-",
       "url": "https://github.com/22ketsanee-ksn/426-315-",
       "status": "leaked",
@@ -74960,6 +75055,33 @@
       ]
     },
     {
+      "repo": "Nayatamaa/unagi",
+      "url": "https://github.com/Nayatamaa/unagi",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.15,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "unagi-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************lNmw"
+        }
+      ]
+    },
+    {
       "repo": "Nehilghetia/portfolio-",
       "url": "https://github.com/Nehilghetia/portfolio-",
       "status": "leaked",
@@ -83411,6 +83533,33 @@
       ]
     },
     {
+      "repo": "adarsh005-arch/ai-resume-critiquer",
+      "url": "https://github.com/adarsh005-arch/ai-resume-critiquer",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.46,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ai-resume-critiquer-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************5uTY"
+        }
+      ]
+    },
+    {
       "repo": "adarsh5534/auth-server-boilerplate",
       "url": "https://github.com/adarsh5534/auth-server-boilerplate",
       "status": "leaked",
@@ -91723,6 +91872,33 @@
           "line": 2,
           "source": "file",
           "preview": "8550************************CWrw"
+        }
+      ]
+    },
+    {
+      "repo": "datshiro/glab-mcp",
+      "url": "https://github.com/datshiro/glab-mcp",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "GitLab PAT"
+      ],
+      "typeCounts": {
+        "GitLab PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitLab PAT",
+          "file": "glab-mcp-master/README.md",
+          "line": 68,
+          "source": "file",
+          "preview": "glpa******************xxxx"
         }
       ]
     },
@@ -105497,6 +105673,33 @@
       ]
     },
     {
+      "repo": "lakshayverma2610/mock",
+      "url": "https://github.com/lakshayverma2610/mock",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.98,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "mock-main/evaluator.py",
+          "line": 4,
+          "source": "file",
+          "preview": "sk-o************************551d"
+        }
+      ]
+    },
+    {
       "repo": "lakunzy7/AI-Customer-Support-Platform",
       "url": "https://github.com/lakunzy7/AI-Customer-Support-Platform",
       "status": "leaked",
@@ -110299,6 +110502,33 @@
           "line": 19,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "mzakirhossain/AI-Sales-Matching",
+      "url": "https://github.com/mzakirhossain/AI-Sales-Matching",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.23,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenAI API Key (Project)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Project)": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Project)",
+          "file": "AI-Sales-Matching-main/customMetadata/API_Config.OpenAI.md",
+          "line": 7,
+          "source": "file",
+          "preview": "sk-p************************sAwA"
         }
       ]
     },
@@ -115591,6 +115821,33 @@
           "line": 22,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "rakib420ok/RAKIB_VAI_BOT",
+      "url": "https://github.com/rakib420ok/RAKIB_VAI_BOT",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 27.98,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google OAuth Client Secret"
+      ],
+      "typeCounts": {
+        "Google OAuth Client Secret": 1
+      },
+      "findings": [
+        {
+          "type": "Google OAuth Client Secret",
+          "file": "RAKIB_VAI_BOT-main/config.json",
+          "line": 53,
+          "source": "file",
+          "preview": "GOCS************************aEKK"
         }
       ]
     },
