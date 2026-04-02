@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T05:40:02.454629+00:00",
+  "generatedAt": "2026-04-02T07:03:17.674045+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -22645,6 +22645,40 @@
       ]
     },
     {
+      "repo": "JCHong83/milanochurch-shuttle",
+      "url": "https://github.com/JCHong83/milanochurch-shuttle",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 178.92,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "milanochurch-shuttle-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 5bf01c1",
+          "line": 119368,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "Jeebanjyotibiswal/mern_chatbot_backend",
       "url": "https://github.com/Jeebanjyotibiswal/mern_chatbot_backend",
       "status": "leaked",
@@ -26313,6 +26347,42 @@
           "line": 45,
           "source": "commit",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "1012492240/newsRadar",
+      "url": "https://github.com/1012492240/newsRadar",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 80.54,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Slack Webhook"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Slack Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "newsRadar-master/README-EN.md",
+          "line": 1376,
+          "source": "file",
+          "preview": "1234************************m9T0"
+        },
+        {
+          "type": "Slack Webhook",
+          "file": "newsRadar-master/README-EN.md",
+          "line": 1731,
+          "source": "file",
+          "preview": "http************************XXXX"
         }
       ]
     },
@@ -49267,6 +49337,33 @@
       ]
     },
     {
+      "repo": "handysquadadil-prog/Field-service1",
+      "url": "https://github.com/handysquadadil-prog/Field-service1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.4,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 8ea6acf",
+          "line": 397,
+          "source": "commit",
+          "preview": "AIza************************zTts"
+        }
+      ]
+    },
+    {
       "repo": "hareemnadeem8897-art/bridigix-",
       "url": "https://github.com/hareemnadeem8897-art/bridigix-",
       "status": "leaked",
@@ -57259,6 +57356,33 @@
       ]
     },
     {
+      "repo": "sakshampandey380/Quiz_game",
+      "url": "https://github.com/sakshampandey380/Quiz_game",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 17.1,
+      "exposureScore": 30,
+      "topTypes": [
+        "OpenAI API Key (Project)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Project)": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Project)",
+          "file": "Commit 05a17d8",
+          "line": 19,
+          "source": "commit",
+          "preview": "sk-p************************BeIA"
+        }
+      ]
+    },
+    {
       "repo": "salamiicai/eid-salami-quiz-26",
       "url": "https://github.com/salamiicai/eid-salami-quiz-26",
       "status": "leaked",
@@ -59145,6 +59269,33 @@
           "line": 1324,
           "source": "commit",
           "preview": "8717************************V7jA"
+        }
+      ]
+    },
+    {
+      "repo": "subinoykhatua-dev/my-website",
+      "url": "https://github.com/subinoykhatua-dev/my-website",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.51,
+      "exposureScore": 30,
+      "topTypes": [
+        "Private Key (OPENSSH)"
+      ],
+      "typeCounts": {
+        "Private Key (OPENSSH)": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (OPENSSH)",
+          "file": "Commit ec45c16",
+          "line": 19,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -81181,6 +81332,33 @@
       ]
     },
     {
+      "repo": "VarunHarinath/tb_detection",
+      "url": "https://github.com/VarunHarinath/tb_detection",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 87.6,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "tb_detection-main/server/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************kY2U"
+        }
+      ]
+    },
+    {
       "repo": "Veritas-Calculus/claw-dashboard",
       "url": "https://github.com/Veritas-Calculus/claw-dashboard",
       "status": "leaked",
@@ -100756,6 +100934,33 @@
       ]
     },
     {
+      "repo": "ishanrt119/internship-chatbot",
+      "url": "https://github.com/ishanrt119/internship-chatbot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.73,
+      "exposureScore": 20,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "internship-chatbot-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "gsk_************************dd2Y"
+        }
+      ]
+    },
+    {
       "repo": "ismailBEY/Language_Learning_Platform",
       "url": "https://github.com/ismailBEY/Language_Learning_Platform",
       "status": "leaked",
@@ -106638,6 +106843,33 @@
           "line": 11,
           "source": "file",
           "preview": "AIza************************M2hw"
+        }
+      ]
+    },
+    {
+      "repo": "luigivis/luigi-chat",
+      "url": "https://github.com/luigivis/luigi-chat",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.47,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "luigi-chat-main/SPEC.md",
+          "line": 689,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -112767,6 +112999,33 @@
           "line": 32,
           "source": "file",
           "preview": "AIza************************g7Gk"
+        }
+      ]
+    },
+    {
+      "repo": "paramwork/umami",
+      "url": "https://github.com/paramwork/umami",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 38.67,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "umami-master/cypress/docker-compose.yml",
+          "line": 10,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
