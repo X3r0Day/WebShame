@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T01:07:43.716355+00:00",
+  "generatedAt": "2026-04-02T03:58:33.563198+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -18257,6 +18257,40 @@
           "line": 47186,
           "source": "commit",
           "preview": "AIza************************w-jM"
+        }
+      ]
+    },
+    {
+      "repo": "Stick24sk/BM-ONLINE",
+      "url": "https://github.com/Stick24sk/BM-ONLINE",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 3.8,
+      "exposureScore": 52,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 2
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit fcdf26c",
+          "line": 3734,
+          "source": "commit",
+          "preview": "8583************************xZEM"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit fcdf26c",
+          "line": 3735,
+          "source": "commit",
+          "preview": "8750************************b21o"
         }
       ]
     },
@@ -58865,6 +58899,33 @@
       ]
     },
     {
+      "repo": "srikanthamsa/werize-streak",
+      "url": "https://github.com/srikanthamsa/werize-streak",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 53.1,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "Commit 150e6fb",
+          "line": 20,
+          "source": "commit",
+          "preview": "eyJh************************Ys40"
+        }
+      ]
+    },
+    {
       "repo": "srinivasan0077/RentEasy",
       "url": "https://github.com/srinivasan0077/RentEasy",
       "status": "leaked",
@@ -67258,6 +67319,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************Kn5I"
+        }
+      ]
+    },
+    {
+      "repo": "Dheer6/Find",
+      "url": "https://github.com/Dheer6/Find",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.42,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Find-main/app/google-services.json",
+          "line": 19,
+          "source": "file",
+          "preview": "AIza************************myHY"
         }
       ]
     },
@@ -114161,6 +114249,33 @@
       ]
     },
     {
+      "repo": "pw1131fd0-hub/clawbook",
+      "url": "https://github.com/pw1131fd0-hub/clawbook",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 34.68,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "clawbook-master/archive/v1/tests/test_utils.py",
+          "line": 35,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "pybot54-crypto/Multi-Api",
       "url": "https://github.com/pybot54-crypto/Multi-Api",
       "status": "leaked",
@@ -117505,6 +117620,33 @@
           "line": 357,
           "source": "file",
           "preview": "AIza************************HkkU"
+        }
+      ]
+    },
+    {
+      "repo": "sb9462008-creator/backend",
+      "url": "https://github.com/sb9462008-creator/backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 21.01,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "backend-master/docker-compose.yml",
+          "line": 10,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
