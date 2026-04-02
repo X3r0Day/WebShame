@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T17:51:42.328517+00:00",
+  "generatedAt": "2026-04-02T18:45:33.051108+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -6012,6 +6012,68 @@
       ]
     },
     {
+      "repo": "fakedesyncc/analyze-hackeone",
+      "url": "https://github.com/fakedesyncc/analyze-hackeone",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 7,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.26,
+      "exposureScore": 92,
+      "topTypes": [
+        "AWS Session Token"
+      ],
+      "typeCounts": {
+        "AWS Session Token": 7
+      },
+      "findings": [
+        {
+          "type": "AWS Session Token",
+          "file": "analyze-hackeone-main/data/raw/profiles_raw.json",
+          "line": 432,
+          "source": "file",
+          "preview": "ASIA************4JRF"
+        },
+        {
+          "type": "AWS Session Token",
+          "file": "analyze-hackeone-main/data/raw/profiles_raw.json",
+          "line": 1118,
+          "source": "file",
+          "preview": "ASIA************IXJC"
+        },
+        {
+          "type": "AWS Session Token",
+          "file": "analyze-hackeone-main/data/raw/profiles_raw.json",
+          "line": 1603,
+          "source": "file",
+          "preview": "ASIA************P2XT"
+        },
+        {
+          "type": "AWS Session Token",
+          "file": "analyze-hackeone-main/data/raw/profiles_raw.json",
+          "line": 1906,
+          "source": "file",
+          "preview": "ASIA************D3TR"
+        },
+        {
+          "type": "AWS Session Token",
+          "file": "analyze-hackeone-main/data/raw/profiles_raw.json",
+          "line": 2532,
+          "source": "file",
+          "preview": "ASIA************QIOU"
+        },
+        {
+          "type": "AWS Session Token",
+          "file": "analyze-hackeone-main/data/raw/profiles_raw.json",
+          "line": 3004,
+          "source": "file",
+          "preview": "ASIA************VJYO"
+        }
+      ]
+    },
+    {
       "repo": "xzc889/temp-repo-fox-it_dissect.target-1774262148",
       "url": "https://github.com/xzc889/temp-repo-fox-it_dissect.target-1774262148",
       "status": "leaked",
@@ -11686,6 +11748,56 @@
           "line": 45,
           "source": "file",
           "preview": "AIza************************8PqL"
+        }
+      ]
+    },
+    {
+      "repo": "Kevmusango/trailbill",
+      "url": "https://github.com/Kevmusango/trailbill",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 4,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 0,
+      "scanTimeSeconds": 79.33,
+      "exposureScore": 64,
+      "topTypes": [
+        "Supabase PAT",
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase PAT": 3,
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase PAT",
+          "file": "trailbill-main/EDGE-FUNCTIONS-SETUP.md",
+          "line": 27,
+          "source": "file",
+          "preview": "sbp_************************d0e6"
+        },
+        {
+          "type": "Supabase PAT",
+          "file": "trailbill-main/EDGE_FUNCTION_DEPLOYMENT.md",
+          "line": 11,
+          "source": "file",
+          "preview": "sbp_************************1209"
+        },
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "trailbill-main/EMAIL_ROUTING_IMPLEMENTATION.md",
+          "line": 84,
+          "source": "file",
+          "preview": "eyJh************************q7g4"
+        },
+        {
+          "type": "Supabase PAT",
+          "file": "trailbill-main/EMAIL_ROUTING_IMPLEMENTATION.md",
+          "line": 169,
+          "source": "file",
+          "preview": "sbp_************************f12b"
         }
       ]
     },
@@ -19776,6 +19888,40 @@
           "line": 103,
           "source": "commit",
           "preview": "APPW************************05e5"
+        }
+      ]
+    },
+    {
+      "repo": "saimompapitextil-bit/Stor-ti",
+      "url": "https://github.com/saimompapitextil-bit/Stor-ti",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 3.58,
+      "exposureScore": 52,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 6cb0451",
+          "line": 70,
+          "source": "commit",
+          "preview": "post************************6543"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 6cb0451",
+          "line": 74,
+          "source": "commit",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -62612,6 +62758,33 @@
       ]
     },
     {
+      "repo": "vantruong21/Aura_Decor",
+      "url": "https://github.com/vantruong21/Aura_Decor",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 42.02,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 43af4eb",
+          "line": 18,
+          "source": "commit",
+          "preview": "AIza************************M8zs"
+        }
+      ]
+    },
+    {
       "repo": "vienna-ryo/-_v2",
       "url": "https://github.com/vienna-ryo/-_v2",
       "status": "leaked",
@@ -67549,6 +67722,33 @@
           "line": 46,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "BestStealABrainrotScript/InstantStealSpawnerBrainrotsSpawner",
+      "url": "https://github.com/BestStealABrainrotScript/InstantStealSpawnerBrainrotsSpawner",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 18.27,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "InstantStealSpawnerBrainrotsSpawner-main/SCRIPT.lua",
+          "line": 48,
+          "source": "file",
+          "preview": "http************************nuIy"
         }
       ]
     },
@@ -79460,6 +79660,33 @@
       ]
     },
     {
+      "repo": "Radi0activ/Resume-proxy",
+      "url": "https://github.com/Radi0activ/Resume-proxy",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.96,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Resume-proxy-main/main.py",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************mvE4"
+        }
+      ]
+    },
+    {
       "repo": "RadlyFrost/Weather-Telegram-bot",
       "url": "https://github.com/RadlyFrost/Weather-Telegram-bot",
       "status": "leaked",
@@ -79861,6 +80088,33 @@
           "line": 1,
           "source": "file",
           "preview": "sk_t************************ugDO"
+        }
+      ]
+    },
+    {
+      "repo": "RealLakshay/gen-ai",
+      "url": "https://github.com/RealLakshay/gen-ai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.97,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "gen-ai-main/unit2/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************oYqQ"
         }
       ]
     },
@@ -95467,6 +95721,114 @@
           "line": 824,
           "source": "file",
           "preview": "AIza************************aw2Q"
+        }
+      ]
+    },
+    {
+      "repo": "dihoa26marc1588/repobknh4l",
+      "url": "https://github.com/dihoa26marc1588/repobknh4l",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 30.58,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repobknh4l-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "dihoa26marc1588/repodb3snz",
+      "url": "https://github.com/dihoa26marc1588/repodb3snz",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 76.88,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repodb3snz-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "dihoa26marc1588/repog3255p",
+      "url": "https://github.com/dihoa26marc1588/repog3255p",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 19.87,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repog3255p-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "dihoa26marc1588/repox6e0ap",
+      "url": "https://github.com/dihoa26marc1588/repox6e0ap",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 35.84,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repox6e0ap-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
         }
       ]
     },
@@ -120959,6 +121321,33 @@
       ]
     },
     {
+      "repo": "romanalbert2506-boop/ESSK-hub",
+      "url": "https://github.com/romanalbert2506-boop/ESSK-hub",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.8,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "ESSK-hub-main/app.py",
+          "line": 9,
+          "source": "file",
+          "preview": "http************************NLjj"
+        }
+      ]
+    },
+    {
       "repo": "romansingh5023-hue/AIPIPNEW",
       "url": "https://github.com/romansingh5023-hue/AIPIPNEW",
       "status": "leaked",
@@ -125113,6 +125502,33 @@
           "line": 1,
           "source": "file",
           "preview": "8760************************qdIQ"
+        }
+      ]
+    },
+    {
+      "repo": "t123123me-ux/-",
+      "url": "https://github.com/t123123me-ux/-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.73,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "--main/.github/workflows/static.yml",
+          "line": 46,
+          "source": "file",
+          "preview": "http************************zRm-"
         }
       ]
     },
