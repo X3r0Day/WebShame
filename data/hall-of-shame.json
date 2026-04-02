@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T08:09:16.973568+00:00",
+  "generatedAt": "2026-04-02T09:02:49.978021+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -67036,6 +67036,33 @@
       ]
     },
     {
+      "repo": "DJ-RAKIB-GOAT-BOT/SIZU",
+      "url": "https://github.com/DJ-RAKIB-GOAT-BOT/SIZU",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.1,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google OAuth Client Secret"
+      ],
+      "typeCounts": {
+        "Google OAuth Client Secret": 1
+      },
+      "findings": [
+        {
+          "type": "Google OAuth Client Secret",
+          "file": "SIZU-main/config.json",
+          "line": 53,
+          "source": "file",
+          "preview": "GOCS************************aEKK"
+        }
+      ]
+    },
+    {
       "repo": "DOFEMIN/Bot_dofemin",
       "url": "https://github.com/DOFEMIN/Bot_dofemin",
       "status": "leaked",
@@ -67761,6 +67788,33 @@
           "line": 416,
           "source": "file",
           "preview": "redi************************6379"
+        }
+      ]
+    },
+    {
+      "repo": "Disha4118/Backend-for-finance-data-processing",
+      "url": "https://github.com/Disha4118/Backend-for-finance-data-processing",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.94,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Backend-for-finance-data-processing-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
