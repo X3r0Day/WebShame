@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T19:44:22.228873+00:00",
+  "generatedAt": "2026-04-02T20:16:55.630693+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -40456,6 +40456,33 @@
       ]
     },
     {
+      "repo": "Glppro/Alertnet-Game",
+      "url": "https://github.com/Glppro/Alertnet-Game",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.13,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 647c8f6",
+          "line": 73,
+          "source": "commit",
+          "preview": "AIza************************ErZA"
+        }
+      ]
+    },
+    {
       "repo": "Godlikeprogrammer1037/PLC-PLAYERS-STATICS",
       "url": "https://github.com/Godlikeprogrammer1037/PLC-PLAYERS-STATICS",
       "status": "leaked",
@@ -42990,6 +43017,33 @@
           "line": 35,
           "source": "commit",
           "preview": "AIza************************El7E"
+        }
+      ]
+    },
+    {
+      "repo": "Pleb5/flotilla-budabitadsf",
+      "url": "https://github.com/Pleb5/flotilla-budabitadsf",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 99.12,
+      "exposureScore": 30,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "Commit 1a6828a",
+          "line": 34469,
+          "source": "commit",
+          "preview": "ghp_************************xxxx"
         }
       ]
     },
@@ -102309,6 +102363,87 @@
           "line": 15,
           "source": "file",
           "preview": "mysq************************306)"
+        }
+      ]
+    },
+    {
+      "repo": "hanhthoi26marc1606/repo5hywoc",
+      "url": "https://github.com/hanhthoi26marc1606/repo5hywoc",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 40.86,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo5hywoc-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "hanhthoi26marc1606/repoiaasut",
+      "url": "https://github.com/hanhthoi26marc1606/repoiaasut",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 33.73,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repoiaasut-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "hanhthoi26marc1606/repom94mqv",
+      "url": "https://github.com/hanhthoi26marc1606/repom94mqv",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 23.38,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repom94mqv-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
         }
       ]
     },
