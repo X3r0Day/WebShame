@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T18:45:33.051108+00:00",
+  "generatedAt": "2026-04-02T19:44:22.228873+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -65620,6 +65620,33 @@
       ]
     },
     {
+      "repo": "AdamDisanti/cards-MERN",
+      "url": "https://github.com/AdamDisanti/cards-MERN",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 30.21,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "cards-MERN-main/assignment_extracted.txt",
+          "line": 772,
+          "source": "file",
+          "preview": "mong************************er0-"
+        }
+      ]
+    },
+    {
       "repo": "AdemRomdhani/magasin-app",
       "url": "https://github.com/AdemRomdhani/magasin-app",
       "status": "leaked",
@@ -98965,6 +98992,33 @@
       ]
     },
     {
+      "repo": "elitsuri/smarthome-backend-5",
+      "url": "https://github.com/elitsuri/smarthome-backend-5",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.24,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "smarthome-backend-5-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "elitsuri/spring-websocket-1",
       "url": "https://github.com/elitsuri/spring-websocket-1",
       "status": "leaked",
@@ -127878,6 +127932,114 @@
           "line": 1,
           "source": "file",
           "preview": "7951************************-9xY"
+        }
+      ]
+    },
+    {
+      "repo": "trinhlu26marc1607/repo9u7ol5",
+      "url": "https://github.com/trinhlu26marc1607/repo9u7ol5",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 18.44,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo9u7ol5-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "trinhlu26marc1607/repogzmq0m",
+      "url": "https://github.com/trinhlu26marc1607/repogzmq0m",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 28.64,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repogzmq0m-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "trinhlu26marc1607/repoj9ufbf",
+      "url": "https://github.com/trinhlu26marc1607/repoj9ufbf",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 18.68,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repoj9ufbf-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "trinhlu26marc1607/repouobyfo",
+      "url": "https://github.com/trinhlu26marc1607/repouobyfo",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 29.84,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repouobyfo-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
         }
       ]
     },
