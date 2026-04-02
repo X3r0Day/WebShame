@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T15:09:40.704097+00:00",
+  "generatedAt": "2026-04-02T16:05:59.393051+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -66034,6 +66034,33 @@
       ]
     },
     {
+      "repo": "Ayushraj6942/Financial-Ai-copilot",
+      "url": "https://github.com/Ayushraj6942/Financial-Ai-copilot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.86,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Financial-Ai-copilot-main/app.py",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************99qQ"
+        }
+      ]
+    },
+    {
       "repo": "AyyJayyC/casa-mx-backend",
       "url": "https://github.com/AyyJayyC/casa-mx-backend",
       "status": "leaked",
@@ -69567,6 +69594,33 @@
           "line": 12,
           "source": "file",
           "preview": "sk-z************************4VxG"
+        }
+      ]
+    },
+    {
+      "repo": "Fatkhurofficial/polymarket-",
+      "url": "https://github.com/Fatkhurofficial/polymarket-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.47,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "polymarket--main/docs/GETTING_STARTED.md",
+          "line": 134,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -73617,6 +73671,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************2mzU"
+        }
+      ]
+    },
+    {
+      "repo": "LazzyShivam/stok",
+      "url": "https://github.com/LazzyShivam/stok",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.49,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "stok-main/docker-compose.yml",
+          "line": 38,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -84367,6 +84448,33 @@
       ]
     },
     {
+      "repo": "abdullatheefmm/TraceX",
+      "url": "https://github.com/abdullatheefmm/TraceX",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 38.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "TraceX-main/backend/add_admin.py",
+          "line": 23,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "abeljose09-beep/chaza-sisma",
       "url": "https://github.com/abeljose09-beep/chaza-sisma",
       "status": "leaked",
@@ -91383,6 +91491,33 @@
           "line": 17,
           "source": "file",
           "preview": "8603************************WcJU"
+        }
+      ]
+    },
+    {
+      "repo": "codeaeondev/husseinshaito674-shop-backend",
+      "url": "https://github.com/codeaeondev/husseinshaito674-shop-backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 103.23,
+      "exposureScore": 20,
+      "topTypes": [
+        "Twilio Auth Token (Context)"
+      ],
+      "typeCounts": {
+        "Twilio Auth Token (Context)": 1
+      },
+      "findings": [
+        {
+          "type": "Twilio Auth Token (Context)",
+          "file": "husseinshaito674-shop-backend-master/internal/platform/config/default.go",
+          "line": 24,
+          "source": "file",
+          "preview": "Twil************************893c"
         }
       ]
     },
@@ -108451,6 +108586,33 @@
       ]
     },
     {
+      "repo": "logancol/SmokeBackend",
+      "url": "https://github.com/logancol/SmokeBackend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.71,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "SmokeBackend-main/compose.yml",
+          "line": 21,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "logeshkannan19/PERSONAX",
       "url": "https://github.com/logeshkannan19/PERSONAX",
       "status": "leaked",
@@ -114117,6 +114279,33 @@
           "line": 9,
           "source": "file",
           "preview": "http************************WSzd"
+        }
+      ]
+    },
+    {
+      "repo": "nomadic-frame/multi-agent-orchestrator",
+      "url": "https://github.com/nomadic-frame/multi-agent-orchestrator",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.41,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "multi-agent-orchestrator-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
