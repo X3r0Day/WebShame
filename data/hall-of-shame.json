@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T12:29:09.334368+00:00",
+  "generatedAt": "2026-04-02T14:13:21.233970+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -43464,6 +43464,33 @@
       ]
     },
     {
+      "repo": "TheBigLaw/ponto_digital",
+      "url": "https://github.com/TheBigLaw/ponto_digital",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.57,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit c149814",
+          "line": 70,
+          "source": "commit",
+          "preview": "AIza************************NRn0"
+        }
+      ]
+    },
+    {
       "repo": "TheRhyno/Brainrot-TCG",
       "url": "https://github.com/TheRhyno/Brainrot-TCG",
       "status": "leaked",
@@ -60852,6 +60879,33 @@
       ]
     },
     {
+      "repo": "tohtashevshohnazar030-coder/AiHackathon",
+      "url": "https://github.com/tohtashevshohnazar030-coder/AiHackathon",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 19.76,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 545966b",
+          "line": 70,
+          "source": "commit",
+          "preview": "AIza************************K5oc"
+        }
+      ]
+    },
+    {
       "repo": "tokazov/caucashub",
       "url": "https://github.com/tokazov/caucashub",
       "status": "leaked",
@@ -73650,6 +73704,33 @@
       ]
     },
     {
+      "repo": "Lovejeet-Soni/protfoliio-backend",
+      "url": "https://github.com/Lovejeet-Soni/protfoliio-backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.83,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "protfoliio-backend-main/.env",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************1Afs"
+        }
+      ]
+    },
+    {
       "repo": "LowLow-35/flutter_lab_practical_1_d240097b",
       "url": "https://github.com/LowLow-35/flutter_lab_practical_1_d240097b",
       "status": "leaked",
@@ -83424,6 +83505,33 @@
       ]
     },
     {
+      "repo": "YuvalAI2024/nano-banana-studio",
+      "url": "https://github.com/YuvalAI2024/nano-banana-studio",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.26,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "nano-banana-studio-main/server.js",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************j0gE"
+        }
+      ]
+    },
+    {
       "repo": "Yuwen0226/Disease-Risk-Classifier",
       "url": "https://github.com/Yuwen0226/Disease-Risk-Classifier",
       "status": "leaked",
@@ -84801,6 +84909,33 @@
       ]
     },
     {
+      "repo": "ai-azamat95/gnb-kazakhstan",
+      "url": "https://github.com/ai-azamat95/gnb-kazakhstan",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.2,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "gnb-kazakhstan-main/script.js",
+          "line": 2,
+          "source": "file",
+          "preview": "7669************************9I4U"
+        }
+      ]
+    },
+    {
       "repo": "aiforpeople/ProteusCore",
       "url": "https://github.com/aiforpeople/ProteusCore",
       "status": "leaked",
@@ -85904,6 +86039,33 @@
           "line": 3,
           "source": "file",
           "preview": "AIza************************NMcg"
+        }
+      ]
+    },
+    {
+      "repo": "amanxploit/ai-chat-companion-whatsapp",
+      "url": "https://github.com/amanxploit/ai-chat-companion-whatsapp",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.55,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ai-chat-companion-whatsapp-main/README.md",
+          "line": 48,
+          "source": "file",
+          "preview": "AIza************************2uQM"
         }
       ]
     },
@@ -93468,6 +93630,33 @@
       ]
     },
     {
+      "repo": "didarradid97-netizen/-",
+      "url": "https://github.com/didarradid97-netizen/-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "--main/bot.py",
+          "line": 8,
+          "source": "file",
+          "preview": "8102************************E2wI"
+        }
+      ]
+    },
+    {
       "repo": "diegolivad-cell/inventario-restaurante",
       "url": "https://github.com/diegolivad-cell/inventario-restaurante",
       "status": "leaked",
@@ -98355,6 +98544,33 @@
       ]
     },
     {
+      "repo": "fundifinder2025/fundi-fynda",
+      "url": "https://github.com/fundifinder2025/fundi-fynda",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.47,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "fundi-fynda-main/important.txt",
+          "line": 6,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "gamerentov-byte/afdfsdfsfsd",
       "url": "https://github.com/gamerentov-byte/afdfsdfsfsd",
       "status": "leaked",
@@ -100592,6 +100808,33 @@
           "line": 18,
           "source": "file",
           "preview": "AIza************************h18E"
+        }
+      ]
+    },
+    {
+      "repo": "hmabib/port-pulse",
+      "url": "https://github.com/hmabib/port-pulse",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.67,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "port-pulse-main/src/lib/db.ts",
+          "line": 6,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -115388,6 +115631,33 @@
           "line": 2436,
           "source": "file",
           "preview": "gsk_************************Rkoe"
+        }
+      ]
+    },
+    {
+      "repo": "photon-hq/NemoClaw",
+      "url": "https://github.com/photon-hq/NemoClaw",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 23.57,
+      "exposureScore": 20,
+      "topTypes": [
+        "GitHub Classic PAT"
+      ],
+      "typeCounts": {
+        "GitHub Classic PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Classic PAT",
+          "file": "NemoClaw-main/test/runner.test.js",
+          "line": 206,
+          "source": "file",
+          "preview": "ghp_************************7890"
         }
       ]
     },
