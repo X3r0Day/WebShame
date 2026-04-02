@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T10:03:21.401358+00:00",
+  "generatedAt": "2026-04-02T11:03:37.407758+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -5024,6 +5024,63 @@
       ]
     },
     {
+      "repo": "Dharmi-456-design/-mongo-middleware",
+      "url": "https://github.com/Dharmi-456-design/-mongo-middleware",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 5,
+      "uniqueTypes": 2,
+      "filesAffected": 4,
+      "commitFindings": 2,
+      "scanTimeSeconds": 152.2,
+      "exposureScore": 96,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "-mongo-middleware-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "-mongo-middleware-main/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "-mongo-middleware-main/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 7a832a8",
+          "line": 62921,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 7a832a8",
+          "line": 63356,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "DhruvOz11/fish-backend",
       "url": "https://github.com/DhruvOz11/fish-backend",
       "status": "leaked",
@@ -9185,6 +9242,54 @@
       ]
     },
     {
+      "repo": "nehak5764/event-booking-system",
+      "url": "https://github.com/nehak5764/event-booking-system",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 119.22,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "event-booking-system-master/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "event-booking-system-master/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit c8ea35a",
+          "line": 82960,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit c8ea35a",
+          "line": 83395,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "nithinnstech-cyber/LMS-PORTAL",
       "url": "https://github.com/nithinnstech-cyber/LMS-PORTAL",
       "status": "leaked",
@@ -10880,6 +10985,61 @@
           "line": 15,
           "source": "file",
           "preview": "eyJh************************n0.b"
+        }
+      ]
+    },
+    {
+      "repo": "kevvy340-dot/-",
+      "url": "https://github.com/kevvy340-dot/-",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 5,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.92,
+      "exposureScore": 68,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 5
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "--main/TELEGRAM FIRST  (1).py",
+          "line": 17,
+          "source": "file",
+          "preview": "8742************************U890"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "--main/TELEGRAM FIRST  (1).py",
+          "line": 18,
+          "source": "file",
+          "preview": "8365************************KYyo"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "--main/TELEGRAM FIRST  (1).py",
+          "line": 19,
+          "source": "file",
+          "preview": "8628************************elik"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "--main/TELEGRAM FIRST  (1).py",
+          "line": 20,
+          "source": "file",
+          "preview": "8777************************PZh0"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "--main/TELEGRAM FIRST  (1).py",
+          "line": 21,
+          "source": "file",
+          "preview": "8153************************wR-I"
         }
       ]
     },
@@ -34090,6 +34250,40 @@
           "line": 5,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "dimashkairolda/equip-agro",
+      "url": "https://github.com/dimashkairolda/equip-agro",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 144.74,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "equip-agro-main/android/app/src/main/AndroidManifest.xml",
+          "line": 66,
+          "source": "file",
+          "preview": "AIza************************1KdE"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "equip-agro-main/lib/custom_code/actions/extract_vehicle_data_gemini.dart",
+          "line": 17,
+          "source": "file",
+          "preview": "AIza************************SooU"
         }
       ]
     },
@@ -77427,6 +77621,33 @@
       ]
     },
     {
+      "repo": "RamaVenkataCharan/resume_analyzer_interview_automater-master",
+      "url": "https://github.com/RamaVenkataCharan/resume_analyzer_interview_automater-master",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.44,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "resume_analyzer_interview_automater-master-main/resume_analyzer_interview_automater-master/talentmatch-main/infrastructure/compose/docker-compose.production.yml",
+          "line": 33,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Ramankhosa/Logrequest",
       "url": "https://github.com/Ramankhosa/Logrequest",
       "status": "leaked",
@@ -87413,6 +87634,33 @@
           "line": 7,
           "source": "file",
           "preview": "AIza************************t3SE"
+        }
+      ]
+    },
+    {
+      "repo": "bahtiarovsardor83-cpu/projekt-mega",
+      "url": "https://github.com/bahtiarovsardor83-cpu/projekt-mega",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.71,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "projekt-mega-main/js/script-fetch.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8601************************rs3U"
         }
       ]
     },
@@ -112554,6 +112802,33 @@
       ]
     },
     {
+      "repo": "nonuserhostwebi6ohsh/igxdbot",
+      "url": "https://github.com/nonuserhostwebi6ohsh/igxdbot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.41,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "igxdbot-main/bot.py",
+          "line": 27,
+          "source": "file",
+          "preview": "8728************************-X-U"
+        }
+      ]
+    },
+    {
       "repo": "notabhi01/contentvault",
       "url": "https://github.com/notabhi01/contentvault",
       "status": "leaked",
@@ -117761,6 +118036,33 @@
           "line": 13,
           "source": "file",
           "preview": "mysq************************3306"
+        }
+      ]
+    },
+    {
+      "repo": "rupalk2501/job-tracker-api",
+      "url": "https://github.com/rupalk2501/job-tracker-api",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 111.82,
+      "exposureScore": 20,
+      "topTypes": [
+        "MySQL/MariaDB Connection URI"
+      ],
+      "typeCounts": {
+        "MySQL/MariaDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "job-tracker-api-main/venv/Lib/site-packages/sqlalchemy/dialects/mysql/pymysql.py",
+          "line": 35,
+          "source": "file",
+          "preview": "mysq************************.134"
         }
       ]
     },
