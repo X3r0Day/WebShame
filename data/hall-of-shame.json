@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T21:03:13.136522+00:00",
+  "generatedAt": "2026-04-02T21:36:50.341327+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -14336,6 +14336,49 @@
       ]
     },
     {
+      "repo": "laulp-15/api_mongodb",
+      "url": "https://github.com/laulp-15/api_mongodb",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 197.98,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "api_mongodb-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************7017"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "api_mongodb-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 83dac2a",
+          "line": 58494,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "mekouar1999/panierbeldii",
       "url": "https://github.com/mekouar1999/panierbeldii",
       "status": "leaked",
@@ -25977,6 +26020,40 @@
           "type": "Private Key (RSA)",
           "file": "Commit e3d3542",
           "line": 78763,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "jamltg/soundlytics",
+      "url": "https://github.com/jamltg/soundlytics",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 41.98,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "soundlytics-main/server/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 10ebbc5",
+          "line": 22500,
           "source": "commit",
           "preview": "----************************----"
         }
