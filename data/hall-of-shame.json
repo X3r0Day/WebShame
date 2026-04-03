@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T22:11:36.964418+00:00",
+  "generatedAt": "2026-04-03T22:56:38.430013+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -15811,6 +15811,49 @@
       ]
     },
     {
+      "repo": "rsl25/alveroto",
+      "url": "https://github.com/rsl25/alveroto",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 12.9,
+      "exposureScore": 62,
+      "topTypes": [
+        "PostgreSQL Connection URI",
+        "Private Key (PKCS8)"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2,
+        "Private Key (PKCS8)": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "alveroto-main/backend/migrate.py",
+          "line": 13,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "alveroto-main/backend/migrate.py",
+          "line": 17,
+          "source": "file",
+          "preview": "post************************([^:"
+        },
+        {
+          "type": "Private Key (PKCS8)",
+          "file": "Commit ee16b95",
+          "line": 14861,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "saivamshi112k5/gen_AI",
       "url": "https://github.com/saivamshi112k5/gen_AI",
       "status": "leaked",
@@ -28990,6 +29033,40 @@
           "line": 16,
           "source": "commit",
           "preview": "7524************************d5Q0"
+        }
+      ]
+    },
+    {
+      "repo": "wesomelo97/data-scan",
+      "url": "https://github.com/wesomelo97/data-scan",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.77,
+      "exposureScore": 42,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "data-scan-main/samples/config.ini",
+          "line": 21,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 395fe02",
+          "line": 609,
+          "source": "commit",
+          "preview": "post************************.100"
         }
       ]
     },
@@ -52194,6 +52271,33 @@
       ]
     },
     {
+      "repo": "dominikpfolz-del/factguard",
+      "url": "https://github.com/dominikpfolz-del/factguard",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.11,
+      "exposureScore": 30,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "Commit 5c75d8d",
+          "line": 94,
+          "source": "commit",
+          "preview": "gsk_************************xxxx"
+        }
+      ]
+    },
+    {
       "repo": "drewse/NoBrakesSports",
       "url": "https://github.com/drewse/NoBrakesSports",
       "status": "leaked",
@@ -59615,6 +59719,33 @@
           "line": 40,
           "source": "commit",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "ohtmanboulanouar-web/promptaxwbsite",
+      "url": "https://github.com/ohtmanboulanouar-web/promptaxwbsite",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.92,
+      "exposureScore": 30,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 1
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "Commit 0306731",
+          "line": 72,
+          "source": "commit",
+          "preview": "http************************json"
         }
       ]
     },
@@ -105245,6 +105376,33 @@
           "line": 43,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "flet-build-to-system2/Random-bot-pro",
+      "url": "https://github.com/flet-build-to-system2/Random-bot-pro",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.09,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Random-bot-pro-main/main.py",
+          "line": 12,
+          "source": "file",
+          "preview": "8777************************pNbA"
         }
       ]
     },
