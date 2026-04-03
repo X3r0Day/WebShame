@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T01:11:42.154301+00:00",
+  "generatedAt": "2026-04-03T04:02:14.345598+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -51261,6 +51261,33 @@
       ]
     },
     {
+      "repo": "gyanuu/VibeKit-Studio",
+      "url": "https://github.com/gyanuu/VibeKit-Studio",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 12.59,
+      "exposureScore": 30,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "Commit 08dc696",
+          "line": 97,
+          "source": "commit",
+          "preview": "eyJh************************ZlII"
+        }
+      ]
+    },
+    {
       "repo": "ha8imhazom-bit/HazHackArena",
       "url": "https://github.com/ha8imhazom-bit/HazHackArena",
       "status": "leaked",
@@ -75264,6 +75291,33 @@
       ]
     },
     {
+      "repo": "Kjean13/aiagent-detection-rules",
+      "url": "https://github.com/Kjean13/aiagent-detection-rules",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "aiagent-detection-rules-main/scripts/lab_gate_setup.sh",
+          "line": 391,
+          "source": "file",
+          "preview": "post************************rnal"
+        }
+      ]
+    },
+    {
       "repo": "Koushikf79/scriptoria",
       "url": "https://github.com/Koushikf79/scriptoria",
       "status": "leaked",
@@ -77501,6 +77555,33 @@
           "line": 19,
           "source": "file",
           "preview": "sk_t************************ftpF"
+        }
+      ]
+    },
+    {
+      "repo": "Moneofficial2/Nori",
+      "url": "https://github.com/Moneofficial2/Nori",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.73,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Nori-main/main.lua",
+          "line": 2,
+          "source": "file",
+          "preview": "http************************Bpun"
         }
       ]
     },
@@ -96374,6 +96455,141 @@
           "line": 4,
           "source": "file",
           "preview": "eyJh************************77Fc"
+        }
+      ]
+    },
+    {
+      "repo": "diepchiu26marc1604/repo4mh2eb",
+      "url": "https://github.com/diepchiu26marc1604/repo4mh2eb",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 42.42,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo4mh2eb-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "diepchiu26marc1604/repo8sr8fz",
+      "url": "https://github.com/diepchiu26marc1604/repo8sr8fz",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 39.65,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo8sr8fz-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "diepchiu26marc1604/repol16ofj",
+      "url": "https://github.com/diepchiu26marc1604/repol16ofj",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 20.03,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repol16ofj-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "diepchiu26marc1604/repoy7i3cb",
+      "url": "https://github.com/diepchiu26marc1604/repoy7i3cb",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.74,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repoy7i3cb-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "diepchiu26marc1604/repoypgdo3",
+      "url": "https://github.com/diepchiu26marc1604/repoypgdo3",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 37.8,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repoypgdo3-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
         }
       ]
     },
@@ -124290,6 +124506,33 @@
           "type": "PostgreSQL Connection URI",
           "file": "ATS-Integration-Microservice--main/README (2).md",
           "line": 81,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "sharmamayur/daimon",
+      "url": "https://github.com/sharmamayur/daimon",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.25,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "daimon-main/docker-compose.yml",
+          "line": 17,
           "source": "file",
           "preview": "post************************5432"
         }
