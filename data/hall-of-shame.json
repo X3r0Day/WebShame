@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T21:10:27.320110+00:00",
+  "generatedAt": "2026-04-03T21:52:31.982189+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -5217,6 +5217,63 @@
           "line": 21,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "Aman-raj23/RozgarSetu",
+      "url": "https://github.com/Aman-raj23/RozgarSetu",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 5,
+      "uniqueTypes": 2,
+      "filesAffected": 4,
+      "commitFindings": 2,
+      "scanTimeSeconds": 87.45,
+      "exposureScore": 96,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "RozgarSetu-main/backend/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "RozgarSetu-main/backend/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "RozgarSetu-main/backend/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit b699eb2",
+          "line": 69441,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit b699eb2",
+          "line": 69876,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -12929,6 +12986,56 @@
           "line": 92,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "ritartha/Creviz_backend_railway",
+      "url": "https://github.com/ritartha/Creviz_backend_railway",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 4,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.15,
+      "exposureScore": 64,
+      "topTypes": [
+        "Discord Webhook",
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1,
+        "Discord Webhook": 3
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Creviz_backend_railway-main/.env",
+          "line": 5,
+          "source": "file",
+          "preview": "post************************9719"
+        },
+        {
+          "type": "Discord Webhook",
+          "file": "Creviz_backend_railway-main/.env",
+          "line": 7,
+          "source": "file",
+          "preview": "http************************enid"
+        },
+        {
+          "type": "Discord Webhook",
+          "file": "Creviz_backend_railway-main/.env",
+          "line": 8,
+          "source": "file",
+          "preview": "http************************MXw5"
+        },
+        {
+          "type": "Discord Webhook",
+          "file": "Creviz_backend_railway-main/.env",
+          "line": 9,
+          "source": "file",
+          "preview": "http************************B_mm"
         }
       ]
     },
