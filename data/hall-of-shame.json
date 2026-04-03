@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T08:03:37.263565+00:00",
+  "generatedAt": "2026-04-03T08:49:42.306274+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -11039,6 +11039,58 @@
       ]
     },
     {
+      "repo": "coinmax-dev/coinmax",
+      "url": "https://github.com/coinmax-dev/coinmax",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 3,
+      "filesAffected": 4,
+      "commitFindings": 0,
+      "scanTimeSeconds": 51.75,
+      "exposureScore": 72,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)",
+        "PostgreSQL Connection URI",
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 2,
+        "PostgreSQL Connection URI": 1,
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "coinmax-main/ai-engine/agent/openclaw/skills/ai-memory/SKILL.md",
+          "line": 16,
+          "source": "file",
+          "preview": "eyJh************************6H5A"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "coinmax-main/contracts/scripts/fix-rewards.js",
+          "line": 4,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "coinmax-main/supabase/functions/copy-trade-notify/index.ts",
+          "line": 15,
+          "source": "file",
+          "preview": "8707************************QO9I"
+        },
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "coinmax-main/supabase/migrations/022_cron_jobs.sql",
+          "line": 20,
+          "source": "file",
+          "preview": "eyJh************************qmZQ"
+        }
+      ]
+    },
+    {
       "repo": "neildcruz/trust-gate",
       "url": "https://github.com/neildcruz/trust-gate",
       "status": "leaked",
@@ -19809,6 +19861,40 @@
           "line": 531,
           "source": "commit",
           "preview": "8151************************qNYE"
+        }
+      ]
+    },
+    {
+      "repo": "matin715/shop",
+      "url": "https://github.com/matin715/shop",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 21.97,
+      "exposureScore": 52,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 2
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 39e2274",
+          "line": 18,
+          "source": "commit",
+          "preview": "8502************************mL3Y"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 39e2274",
+          "line": 19,
+          "source": "commit",
+          "preview": "8095************************QkRo"
         }
       ]
     },
@@ -31198,6 +31284,42 @@
           "line": 17,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "noraheart-cloud/CheekyAI-pleasant-bot",
+      "url": "https://github.com/noraheart-cloud/CheekyAI-pleasant-bot",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.4,
+      "exposureScore": 40,
+      "topTypes": [
+        "Google API/GCP Key",
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "CheekyAI-pleasant-bot-main/commands/emojimix.js",
+          "line": 29,
+          "source": "file",
+          "preview": "AIza************************dCYQ"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "CheekyAI-pleasant-bot-main/commands/stickertelegram.js",
+          "line": 39,
+          "source": "file",
+          "preview": "7801************************oHl4"
         }
       ]
     },
@@ -83288,6 +83410,33 @@
       ]
     },
     {
+      "repo": "Sindryukov/-11",
+      "url": "https://github.com/Sindryukov/-11",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.92,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "-11-main/bot.env",
+          "line": 1,
+          "source": "file",
+          "preview": "8658************************Jgw8"
+        }
+      ]
+    },
+    {
       "repo": "Sinister-ss/MINING",
       "url": "https://github.com/Sinister-ss/MINING",
       "status": "leaked",
@@ -88202,6 +88351,33 @@
       ]
     },
     {
+      "repo": "akramnm/Akram-Habbit-Tracker",
+      "url": "https://github.com/akramnm/Akram-Habbit-Tracker",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.67,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Akram-Habbit-Tracker-main/src/App.tsx",
+          "line": 111,
+          "source": "file",
+          "preview": "AIza************************d5oE"
+        }
+      ]
+    },
+    {
       "repo": "akupaloheimo/dynamic-survey-app",
       "url": "https://github.com/akupaloheimo/dynamic-survey-app",
       "status": "leaked",
@@ -91955,6 +92131,33 @@
       ]
     },
     {
+      "repo": "binhan212/vt-project",
+      "url": "https://github.com/binhan212/vt-project",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 34.9,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "vt-project-main/backend/app/core/config.py",
+          "line": 16,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "bishnu-prasad/ExpenseAI",
       "url": "https://github.com/bishnu-prasad/ExpenseAI",
       "status": "leaked",
@@ -93463,6 +93666,33 @@
           "line": 135,
           "source": "file",
           "preview": "sk-c************************1ds8"
+        }
+      ]
+    },
+    {
+      "repo": "charlesphandurand/wa-view-once-n8n-project",
+      "url": "https://github.com/charlesphandurand/wa-view-once-n8n-project",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.35,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "wa-view-once-n8n-project-main/docker-compose.yml",
+          "line": 75,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -103777,6 +104007,33 @@
           "line": 4,
           "source": "file",
           "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "hansen115566/1-",
+      "url": "https://github.com/hansen115566/1-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.96,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "1--main/Launch-V1.cmd",
+          "line": 11,
+          "source": "file",
+          "preview": "8641************************G1GQ"
         }
       ]
     },
@@ -125786,6 +126043,33 @@
       ]
     },
     {
+      "repo": "simonjester1776/GrowOS",
+      "url": "https://github.com/simonjester1776/GrowOS",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 78.99,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "GrowOS-main/growos/docker-compose.yml",
+          "line": 33,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "sinhaArchit/Smart-Contract",
       "url": "https://github.com/sinhaArchit/Smart-Contract",
       "status": "leaked",
@@ -132505,6 +132789,33 @@
           "line": 21,
           "source": "file",
           "preview": "mong************************7017"
+        }
+      ]
+    },
+    {
+      "repo": "web-mux/sadaf",
+      "url": "https://github.com/web-mux/sadaf",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.1,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "sadaf-main/src/pages/checkout/CheckoutPage.jsx",
+          "line": 96,
+          "source": "file",
+          "preview": "8784************************029s"
         }
       ]
     },
