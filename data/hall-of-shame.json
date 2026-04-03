@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T12:48:09.838420+00:00",
+  "generatedAt": "2026-04-03T14:00:10.919371+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -16742,6 +16742,42 @@
           "line": 266,
           "source": "commit",
           "preview": "8642************************7uDQ"
+        }
+      ]
+    },
+    {
+      "repo": "ravikumaryalla/interview-buddy-backend",
+      "url": "https://github.com/ravikumaryalla/interview-buddy-backend",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 3.21,
+      "exposureScore": 60,
+      "topTypes": [
+        "Redis Connection URI (Password)",
+        "OpenAI API Key (Project)"
+      ],
+      "typeCounts": {
+        "Redis Connection URI (Password)": 1,
+        "OpenAI API Key (Project)": 1
+      },
+      "findings": [
+        {
+          "type": "Redis Connection URI (Password)",
+          "file": "Commit 6334b6d",
+          "line": 64,
+          "source": "commit",
+          "preview": "redi**********************ORT["
+        },
+        {
+          "type": "OpenAI API Key (Project)",
+          "file": "Commit 6334b6d",
+          "line": 75,
+          "source": "commit",
+          "preview": "sk-p************************xxxx"
         }
       ]
     },
@@ -44141,6 +44177,33 @@
       ]
     },
     {
+      "repo": "PrashantShri05/EMOChatbot",
+      "url": "https://github.com/PrashantShri05/EMOChatbot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.01,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 76da814",
+          "line": 248,
+          "source": "commit",
+          "preview": "AIza************************_Wmg"
+        }
+      ]
+    },
+    {
       "repo": "Prateekc003/hackfest",
       "url": "https://github.com/Prateekc003/hackfest",
       "status": "leaked",
@@ -47273,6 +47336,33 @@
       ]
     },
     {
+      "repo": "americanones22-cell/Website-html-hacker-",
+      "url": "https://github.com/americanones22-cell/Website-html-hacker-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.39,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit afdeef0",
+          "line": 582,
+          "source": "commit",
+          "preview": "8493************************we1s"
+        }
+      ]
+    },
+    {
       "repo": "amptechnology-dev/attendance_backend",
       "url": "https://github.com/amptechnology-dev/attendance_backend",
       "status": "leaked",
@@ -48619,6 +48709,33 @@
           "line": 158,
           "source": "commit",
           "preview": "AIza************************MiTk"
+        }
+      ]
+    },
+    {
+      "repo": "bharatxnj/AgenticAI",
+      "url": "https://github.com/bharatxnj/AgenticAI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.7,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit a36276e",
+          "line": 21,
+          "source": "commit",
+          "preview": "AIza************************Nkuo"
         }
       ]
     },
@@ -51778,6 +51895,33 @@
           "line": 69,
           "source": "commit",
           "preview": "gsk_************************0JCq"
+        }
+      ]
+    },
+    {
+      "repo": "grand-line-markets/copy-trading-bots",
+      "url": "https://github.com/grand-line-markets/copy-trading-bots",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 53.9,
+      "exposureScore": 30,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 93364e8",
+          "line": 322,
+          "source": "commit",
+          "preview": "mong************************net'"
         }
       ]
     },
@@ -57448,6 +57592,33 @@
           "line": 24,
           "source": "commit",
           "preview": "http************************bQfE"
+        }
+      ]
+    },
+    {
+      "repo": "nicholassparky/scarlet-org-health",
+      "url": "https://github.com/nicholassparky/scarlet-org-health",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.88,
+      "exposureScore": 30,
+      "topTypes": [
+        "Airtable PAT"
+      ],
+      "typeCounts": {
+        "Airtable PAT": 1
+      },
+      "findings": [
+        {
+          "type": "Airtable PAT",
+          "file": "Commit 503c6d5",
+          "line": 2150,
+          "source": "commit",
+          "preview": "patZ************************2780"
         }
       ]
     },
@@ -70088,6 +70259,33 @@
       ]
     },
     {
+      "repo": "Catnip-01/major",
+      "url": "https://github.com/Catnip-01/major",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.6,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "major-master/finize.js",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************vArg"
+        }
+      ]
+    },
+    {
       "repo": "CeleHub/Telegram-Reminder-bot",
       "url": "https://github.com/CeleHub/Telegram-Reminder-bot",
       "status": "leaked",
@@ -72082,6 +72280,33 @@
           "line": 3,
           "source": "file",
           "preview": "eyJh************************KTBs"
+        }
+      ]
+    },
+    {
+      "repo": "EldorAlijonov/signal-bot",
+      "url": "https://github.com/EldorAlijonov/signal-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.88,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "signal-bot-main/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "8675************************V5Ws"
         }
       ]
     },
@@ -79129,6 +79354,33 @@
           "line": 44,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "Naveensen77/test",
+      "url": "https://github.com/Naveensen77/test",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.38,
+      "exposureScore": 20,
+      "topTypes": [
+        "GitHub Fine-Grained PAT"
+      ],
+      "typeCounts": {
+        "GitHub Fine-Grained PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitHub Fine-Grained PAT",
+          "file": "test-main/.env",
+          "line": 22,
+          "source": "file",
+          "preview": "gith************************7R18"
         }
       ]
     },
@@ -102596,6 +102848,33 @@
       ]
     },
     {
+      "repo": "filoo17/notes-manager",
+      "url": "https://github.com/filoo17/notes-manager",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.55,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "notes-manager-main/backend/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "fincoric/telegram-bot",
       "url": "https://github.com/fincoric/telegram-bot",
       "status": "leaked",
@@ -108181,6 +108460,33 @@
           "line": 10,
           "source": "file",
           "preview": "MTQ4************************5rmo"
+        }
+      ]
+    },
+    {
+      "repo": "jdonmingo-sys/jdonmingo78",
+      "url": "https://github.com/jdonmingo-sys/jdonmingo78",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.67,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "jdonmingo78-main/enviar.php",
+          "line": 14,
+          "source": "file",
+          "preview": "http************************fEmr"
         }
       ]
     },
@@ -119899,6 +120205,33 @@
           "line": 2,
           "source": "file",
           "preview": "8442************************dhyw"
+        }
+      ]
+    },
+    {
+      "repo": "p07bpassengerservices-cyber/BOC-Mactan-PS-Dashboard",
+      "url": "https://github.com/p07bpassengerservices-cyber/BOC-Mactan-PS-Dashboard",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 36.21,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "BOC-Mactan-PS-Dashboard-main/config.js",
+          "line": 3,
+          "source": "file",
+          "preview": "AIza************************NKD4"
         }
       ]
     },
