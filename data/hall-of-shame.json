@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T20:07:10.032701+00:00",
+  "generatedAt": "2026-04-03T20:34:46.571831+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -15824,6 +15824,49 @@
           "line": 50846,
           "source": "commit",
           "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "turk65169/hurmamusic",
+      "url": "https://github.com/turk65169/hurmamusic",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 21.72,
+      "exposureScore": 62,
+      "topTypes": [
+        "Telegram Bot Token",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 2,
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "hurmamusic-main/config.py",
+          "line": 12,
+          "source": "file",
+          "preview": "7318************************1rT8"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "hurmamusic-main/config.py",
+          "line": 13,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit c471a73",
+          "line": 23,
+          "source": "commit",
+          "preview": "8441************************4KS0"
         }
       ]
     },
@@ -74064,6 +74107,33 @@
       ]
     },
     {
+      "repo": "Finopschandra/Claude_Finops",
+      "url": "https://github.com/Finopschandra/Claude_Finops",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.45,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Claude_Finops-main/__init__.py",
+          "line": 26,
+          "source": "file",
+          "preview": "post************************tech"
+        }
+      ]
+    },
+    {
       "repo": "Firas2525/salhly",
       "url": "https://github.com/Firas2525/salhly",
       "status": "leaked",
@@ -97037,6 +97107,33 @@
           "line": 3,
           "source": "file",
           "preview": "eyJh************************KgiU"
+        }
+      ]
+    },
+    {
+      "repo": "cleaner909/dzqkuiodhqsuidsnqbotdidi",
+      "url": "https://github.com/cleaner909/dzqkuiodhqsuidsnqbotdidi",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.5,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Bot Token"
+      ],
+      "typeCounts": {
+        "Discord Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Bot Token",
+          "file": "dzqkuiodhqsuidsnqbotdidi-main/AIO.py",
+          "line": 36,
+          "source": "file",
+          "preview": "MTQ1************************-T3s"
         }
       ]
     },
@@ -128928,6 +129025,33 @@
       ]
     },
     {
+      "repo": "shahid130/Shahid-Hasan-Portfolio",
+      "url": "https://github.com/shahid130/Shahid-Hasan-Portfolio",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 76.3,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Shahid-Hasan-Portfolio-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************FxFY"
+        }
+      ]
+    },
+    {
       "repo": "shahidafridi2006/nw-create-pizza-website-mmtwbuw9",
       "url": "https://github.com/shahidafridi2006/nw-create-pizza-website-mmtwbuw9",
       "status": "leaked",
@@ -137429,6 +137553,33 @@
           "line": 11,
           "source": "file",
           "preview": "8619************************9h8w"
+        }
+      ]
+    },
+    {
+      "repo": "yarasoftes/bottgprodaza",
+      "url": "https://github.com/yarasoftes/bottgprodaza",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.0,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "bottgprodaza-main/smmbot.py",
+          "line": 11,
+          "source": "file",
+          "preview": "8725************************xtkA"
         }
       ]
     },
