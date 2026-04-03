@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T15:29:52.010532+00:00",
+  "generatedAt": "2026-04-03T16:09:08.737634+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -39778,6 +39778,33 @@
       ]
     },
     {
+      "repo": "Arava-Sukeerthan/cold_email_generator_tool",
+      "url": "https://github.com/Arava-Sukeerthan/cold_email_generator_tool",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.62,
+      "exposureScore": 30,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "Commit 6916a0d",
+          "line": 50,
+          "source": "commit",
+          "preview": "gsk_************************QSf8"
+        }
+      ]
+    },
+    {
       "repo": "Archimdes/AA-Workshop",
       "url": "https://github.com/Archimdes/AA-Workshop",
       "status": "leaked",
@@ -69667,6 +69694,33 @@
       ]
     },
     {
+      "repo": "BhaskPand/Paisa-tracker-app",
+      "url": "https://github.com/BhaskPand/Paisa-tracker-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.69,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Paisa-tracker-app-main/src/constants/index.ts",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************rNEc"
+        }
+      ]
+    },
+    {
       "repo": "Bhavana244-blip/Campus-Cart",
       "url": "https://github.com/Bhavana244-blip/Campus-Cart",
       "status": "leaked",
@@ -91726,6 +91780,33 @@
       ]
     },
     {
+      "repo": "artursfsd74-beep/checker",
+      "url": "https://github.com/artursfsd74-beep/checker",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.24,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "checker-main/config.py",
+          "line": 1,
+          "source": "file",
+          "preview": "8714************************dpK8"
+        }
+      ]
+    },
+    {
       "repo": "arundevvstack/DP-MEDIA-OS",
       "url": "https://github.com/arundevvstack/DP-MEDIA-OS",
       "status": "leaked",
@@ -97720,6 +97801,33 @@
       ]
     },
     {
+      "repo": "davydoffmikhail/HelperBot",
+      "url": "https://github.com/davydoffmikhail/HelperBot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.05,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "HelperBot-main/server.ts",
+          "line": 30,
+          "source": "file",
+          "preview": "8787************************GROY"
+        }
+      ]
+    },
+    {
       "repo": "dbacepa/AIES-Reclutamiento-CEPA",
       "url": "https://github.com/dbacepa/AIES-Reclutamiento-CEPA",
       "status": "leaked",
@@ -97770,6 +97878,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************vwVo"
+        }
+      ]
+    },
+    {
+      "repo": "debajyoti-product/walk-this-way",
+      "url": "https://github.com/debajyoti-product/walk-this-way",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.41,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "walk-this-way-main/app.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************m6Ug"
         }
       ]
     },
@@ -100690,6 +100825,33 @@
       ]
     },
     {
+      "repo": "elitsuri/devtoolkit-cli-7",
+      "url": "https://github.com/elitsuri/devtoolkit-cli-7",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.1,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "devtoolkit-cli-7-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "elitsuri/fastgraph-api-1-2",
       "url": "https://github.com/elitsuri/fastgraph-api-1-2",
       "status": "leaked",
@@ -101331,6 +101493,33 @@
         {
           "type": "PostgreSQL Connection URI",
           "file": "net-cms-backend-main/docker/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "elitsuri/net-rest-api-2",
+      "url": "https://github.com/elitsuri/net-rest-api-2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.15,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "net-rest-api-2-main/docker/docker-compose.yml",
           "line": 11,
           "source": "file",
           "preview": "post************************5432"
@@ -106977,6 +107166,33 @@
           "line": 43,
           "source": "file",
           "preview": "8747************************0CGA"
+        }
+      ]
+    },
+    {
+      "repo": "hungleu26marc1602/repo6vneu5",
+      "url": "https://github.com/hungleu26marc1602/repo6vneu5",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 22.2,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo6vneu5-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
         }
       ]
     },
@@ -126282,6 +126498,33 @@
           "line": 94,
           "source": "file",
           "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "sanjit8652/jarvis-ai",
+      "url": "https://github.com/sanjit8652/jarvis-ai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.74,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "jarvis-ai-main/assistant.py",
+          "line": 15,
+          "source": "file",
+          "preview": "AIza************************vqhM"
         }
       ]
     },
