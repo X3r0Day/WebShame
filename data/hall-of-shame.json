@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T07:03:36.780505+00:00",
+  "generatedAt": "2026-04-03T08:03:37.263565+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -37274,6 +37274,40 @@
       ]
     },
     {
+      "repo": "roberto7634/data_project",
+      "url": "https://github.com/roberto7634/data_project",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.93,
+      "exposureScore": 32,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 2
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "data_project-main/bot.py",
+          "line": 7,
+          "source": "file",
+          "preview": "8789************************93Hs"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "data_project-main/test_requests.py",
+          "line": 3,
+          "source": "file",
+          "preview": "8631************************NdlA"
+        }
+      ]
+    },
+    {
       "repo": "ronaldstech/basal-flutter",
       "url": "https://github.com/ronaldstech/basal-flutter",
       "status": "leaked",
@@ -44856,6 +44890,33 @@
           "line": 43,
           "source": "commit",
           "preview": "AIza************************eyUs"
+        }
+      ]
+    },
+    {
+      "repo": "TahaFazlani/collab-docs",
+      "url": "https://github.com/TahaFazlani/collab-docs",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.62,
+      "exposureScore": 30,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit ddc2259",
+          "line": 185,
+          "source": "commit",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -54337,6 +54398,33 @@
       ]
     },
     {
+      "repo": "leichao-create/demo",
+      "url": "https://github.com/leichao-create/demo",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 89.84,
+      "exposureScore": 30,
+      "topTypes": [
+        "OpenAI API Key (Legacy)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Legacy)": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "Commit dbf134b",
+          "line": 56085,
+          "source": "commit",
+          "preview": "sk-v************************072c"
+        }
+      ]
+    },
+    {
       "repo": "leo-leo-691/assam-tourism-agent",
       "url": "https://github.com/leo-leo-691/assam-tourism-agent",
       "status": "leaked",
@@ -55957,6 +56045,33 @@
       ]
     },
     {
+      "repo": "mlazmelmadin1998-create/artbank",
+      "url": "https://github.com/mlazmelmadin1998-create/artbank",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.31,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit d3394aa",
+          "line": 43,
+          "source": "commit",
+          "preview": "8672************************Fnfg"
+        }
+      ]
+    },
+    {
       "repo": "mmohammedmunshif127-crypto/POS-",
       "url": "https://github.com/mmohammedmunshif127-crypto/POS-",
       "status": "leaked",
@@ -56547,6 +56662,33 @@
           "line": 23,
           "source": "commit",
           "preview": "AIza************************nnP0"
+        }
+      ]
+    },
+    {
+      "repo": "myhiendtnt/congnghe51",
+      "url": "https://github.com/myhiendtnt/congnghe51",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.45,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 6647843",
+          "line": 541,
+          "source": "commit",
+          "preview": "AIza************************ZKb4"
         }
       ]
     },
@@ -67752,6 +67894,33 @@
           "line": 233,
           "source": "file",
           "preview": "mong************************7017"
+        }
+      ]
+    },
+    {
+      "repo": "Aslbek3/hisob-kitob",
+      "url": "https://github.com/Aslbek3/hisob-kitob",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.19,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "hisob-kitob-main/src/Database.php",
+          "line": 9,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -80712,6 +80881,33 @@
           "line": 69,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "RakibHossen490/Student_Management_System",
+      "url": "https://github.com/RakibHossen490/Student_Management_System",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.14,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Student_Management_System-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************Epcw"
         }
       ]
     },
