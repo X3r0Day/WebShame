@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T18:07:44.196875+00:00",
+  "generatedAt": "2026-04-03T18:42:18.692930+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -16578,6 +16578,42 @@
           "line": 10366,
           "source": "commit",
           "preview": "eyJh************************rmRw"
+        }
+      ]
+    },
+    {
+      "repo": "Srinivasan-001/GUVI_CallCenter",
+      "url": "https://github.com/Srinivasan-001/GUVI_CallCenter",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 1.99,
+      "exposureScore": 60,
+      "topTypes": [
+        "OpenAI API Key (Project)",
+        "Anthropic API Key"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Project)": 1,
+        "Anthropic API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Project)",
+          "file": "Commit d6615c5",
+          "line": 21,
+          "source": "commit",
+          "preview": "sk-p************************CD0A"
+        },
+        {
+          "type": "Anthropic API Key",
+          "file": "Commit d6615c5",
+          "line": 22,
+          "source": "commit",
+          "preview": "sk-a************************AwAA"
         }
       ]
     },
@@ -39539,6 +39575,33 @@
           "line": 635,
           "source": "commit",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "AasimJadaf/Social_App",
+      "url": "https://github.com/AasimJadaf/Social_App",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 10.31,
+      "exposureScore": 30,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit cfb2b06",
+          "line": 324,
+          "source": "commit",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -85146,6 +85209,33 @@
       ]
     },
     {
+      "repo": "Sowmyasree23S/emergency-blood-donor",
+      "url": "https://github.com/Sowmyasree23S/emergency-blood-donor",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.73,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "emergency-blood-donor-main/app.py",
+          "line": 20,
+          "source": "file",
+          "preview": "post************************fg-a"
+        }
+      ]
+    },
+    {
       "repo": "SparkleButt747/ONI",
       "url": "https://github.com/SparkleButt747/ONI",
       "status": "leaked",
@@ -93782,6 +93872,195 @@
           "line": 16,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "binhhuynh26marc1600/repo63wz4p",
+      "url": "https://github.com/binhhuynh26marc1600/repo63wz4p",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 40.04,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo63wz4p-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "binhhuynh26marc1600/repod4ookc",
+      "url": "https://github.com/binhhuynh26marc1600/repod4ookc",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 55.66,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repod4ookc-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "binhhuynh26marc1600/repoddyvso",
+      "url": "https://github.com/binhhuynh26marc1600/repoddyvso",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 20.07,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repoddyvso-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "binhhuynh26marc1600/repoen8fej",
+      "url": "https://github.com/binhhuynh26marc1600/repoen8fej",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 23.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repoen8fej-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "binhhuynh26marc1600/reponwzykl",
+      "url": "https://github.com/binhhuynh26marc1600/reponwzykl",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 30.53,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "reponwzykl-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "binhhuynh26marc1600/repouhiy9k",
+      "url": "https://github.com/binhhuynh26marc1600/repouhiy9k",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 25.79,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repouhiy9k-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "binhhuynh26marc1600/repozfmtq5",
+      "url": "https://github.com/binhhuynh26marc1600/repozfmtq5",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 32.3,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repozfmtq5-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8394************************b-VU"
         }
       ]
     },
@@ -108632,6 +108911,33 @@
           "line": 5,
           "source": "file",
           "preview": "AIza************************AchY"
+        }
+      ]
+    },
+    {
+      "repo": "iprofex/panelprofexpro",
+      "url": "https://github.com/iprofex/panelprofexpro",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.97,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "panelprofexpro-main/.env",
+          "line": 4,
+          "source": "file",
+          "preview": "8748************************OADU"
         }
       ]
     },
@@ -137360,6 +137666,33 @@
           "line": 8,
           "source": "file",
           "preview": "AIza************************Wf-c"
+        }
+      ]
+    },
+    {
+      "repo": "zhanel7/event-discovery",
+      "url": "https://github.com/zhanel7/event-discovery",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "event-discovery-master/docker-compose.yml",
+          "line": 40,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
