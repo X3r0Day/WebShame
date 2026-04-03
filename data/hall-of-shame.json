@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T10:37:52.067305+00:00",
+  "generatedAt": "2026-04-03T11:24:09.078363+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -9353,6 +9353,54 @@
           "type": "Private Key (RSA)",
           "file": "Commit 8630ca2",
           "line": 68958,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "ad8tea/finance-backend",
+      "url": "https://github.com/ad8tea/finance-backend",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 99.23,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "finance-backend-main/node_modules/dotenv/README-es.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "finance-backend-main/node_modules/dotenv/README.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit a68448a",
+          "line": 23314,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit a68448a",
+          "line": 24062,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -27457,6 +27505,40 @@
           "line": 204,
           "source": "commit",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "ss-345/Finance-Mangement-system",
+      "url": "https://github.com/ss-345/Finance-Mangement-system",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 84.58,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Finance-Mangement-system-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit bd4d83e",
+          "line": 59069,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -46997,6 +47079,33 @@
       ]
     },
     {
+      "repo": "amanversee/codecanvass",
+      "url": "https://github.com/amanversee/codecanvass",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 7.91,
+      "exposureScore": 30,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 3bd01cb",
+          "line": 147,
+          "source": "commit",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "amdechat/index.html",
       "url": "https://github.com/amdechat/index.html",
       "status": "leaked",
@@ -57793,6 +57902,33 @@
           "line": 40,
           "source": "commit",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "oliviaMoore861/dsbot",
+      "url": "https://github.com/oliviaMoore861/dsbot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.87,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Bot Token"
+      ],
+      "typeCounts": {
+        "Discord Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 9201bd0",
+          "line": 18,
+          "source": "commit",
+          "preview": "MTQ4************************yep0"
         }
       ]
     },
@@ -104372,6 +104508,33 @@
       ]
     },
     {
+      "repo": "hariharanpolinedi/Gen_Conflux_Ai",
+      "url": "https://github.com/hariharanpolinedi/Gen_Conflux_Ai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 75.19,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Gen_Conflux_Ai-main/drizzle.config.js",
+          "line": 6,
+          "source": "file",
+          "preview": "post************************tech"
+        }
+      ]
+    },
+    {
       "repo": "haripriya-0/blood-donor-finder",
       "url": "https://github.com/haripriya-0/blood-donor-finder",
       "status": "leaked",
@@ -121490,6 +121653,33 @@
       ]
     },
     {
+      "repo": "pvchienbt/EduMaster",
+      "url": "https://github.com/pvchienbt/EduMaster",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.03,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "EduMaster-main/src/lib/gemini.ts",
+          "line": 16,
+          "source": "file",
+          "preview": "AIza************************ddnM"
+        }
+      ]
+    },
+    {
       "repo": "pw1131fd0-hub/clawbook",
       "url": "https://github.com/pw1131fd0-hub/clawbook",
       "status": "leaked",
@@ -135175,6 +135365,33 @@
           "line": 130,
           "source": "file",
           "preview": "eyJh************************xwRJ"
+        }
+      ]
+    },
+    {
+      "repo": "zukh111/telegram",
+      "url": "https://github.com/zukh111/telegram",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.54,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "telegram-main/ilmlaEDU/bot.py",
+          "line": 30,
+          "source": "file",
+          "preview": "8780************************_wtk"
         }
       ]
     },
