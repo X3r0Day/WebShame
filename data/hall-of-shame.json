@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T17:19:44.743608+00:00",
+  "generatedAt": "2026-04-03T18:07:44.196875+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -15081,6 +15081,49 @@
           "type": "Private Key (RSA)",
           "file": "Commit 1040130",
           "line": 11941,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "pawan872633/job-portal",
+      "url": "https://github.com/pawan872633/job-portal",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 117.84,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "job-portal-main/backend/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "job-portal-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 3c05437",
+          "line": 68443,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -80162,6 +80205,33 @@
       ]
     },
     {
+      "repo": "Nick-VeraLuxAI/Receptionist-Deployment",
+      "url": "https://github.com/Nick-VeraLuxAI/Receptionist-Deployment",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 72.26,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Receptionist-Deployment-main/control-plane/scripts/wait-for-db.js",
+          "line": 8,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Nidalzom/sakan",
       "url": "https://github.com/Nidalzom/sakan",
       "status": "leaked",
@@ -123443,6 +123513,33 @@
       ]
     },
     {
+      "repo": "purvesh2005/NOTES-APP",
+      "url": "https://github.com/purvesh2005/NOTES-APP",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 88.46,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "NOTES-APP-main/Backend/src/db/db.js",
+          "line": 4,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "putrakapanlagimxr3/pict-hncute",
       "url": "https://github.com/putrakapanlagimxr3/pict-hncute",
       "status": "leaked",
@@ -127867,6 +127964,33 @@
           "line": 12,
           "source": "file",
           "preview": "AIza************************Vlyg"
+        }
+      ]
+    },
+    {
+      "repo": "shehapelsedawy665/payroll-team-system",
+      "url": "https://github.com/shehapelsedawy665/payroll-team-system",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.74,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "payroll-team-system-main/server.js",
+          "line": 10,
+          "source": "file",
+          "preview": "mong************************7017"
         }
       ]
     },
