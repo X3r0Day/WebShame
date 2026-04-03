@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T21:52:31.982189+00:00",
+  "generatedAt": "2026-04-03T22:11:36.964418+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -68799,6 +68799,33 @@
       ]
     },
     {
+      "repo": "Ahmed-Rizk1/AI-Incident-Post-Mortem-Generator",
+      "url": "https://github.com/Ahmed-Rizk1/AI-Incident-Post-Mortem-Generator",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.12,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "AI-Incident-Post-Mortem-Generator-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "sk-o************************c2ca"
+        }
+      ]
+    },
+    {
       "repo": "AhmedMohammedSaad/food-app",
       "url": "https://github.com/AhmedMohammedSaad/food-app",
       "status": "leaked",
@@ -126062,6 +126089,33 @@
           "line": 20,
           "source": "file",
           "preview": "8702************************ycmw"
+        }
+      ]
+    },
+    {
+      "repo": "rajvbiw/workflow_automation",
+      "url": "https://github.com/rajvbiw/workflow_automation",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 30.22,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "workflow_automation-main/README.md",
+          "line": 301,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
