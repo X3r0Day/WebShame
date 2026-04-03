@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T16:45:49.051132+00:00",
+  "generatedAt": "2026-04-03T17:19:44.743608+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -5722,6 +5722,63 @@
       ]
     },
     {
+      "repo": "vladislavOshepkov/kursach2",
+      "url": "https://github.com/vladislavOshepkov/kursach2",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 5,
+      "uniqueTypes": 2,
+      "filesAffected": 4,
+      "commitFindings": 2,
+      "scanTimeSeconds": 144.86,
+      "exposureScore": 96,
+      "topTypes": [
+        "Private Key (RSA)",
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4,
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "kursach2-master/server/node_modules/dotenv/README-es.md",
+          "line": 78,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "kursach2-master/server/node_modules/dotenv/README.md",
+          "line": 110,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "kursach2-master/server/node_modules/pg-pool/README.md",
+          "line": 72,
+          "source": "file",
+          "preview": "post************************####"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 876fb1e",
+          "line": 112637,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 876fb1e",
+          "line": 113080,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "SubaSelvam4/ARS-Mothers",
       "url": "https://github.com/SubaSelvam4/ARS-Mothers",
       "status": "leaked",
@@ -5766,6 +5823,54 @@
           "line": 64920,
           "source": "commit",
           "preview": "AIza************************KG_E"
+        }
+      ]
+    },
+    {
+      "repo": "acsadarsh/ACS-DATA-COUNCIL",
+      "url": "https://github.com/acsadarsh/ACS-DATA-COUNCIL",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 4,
+      "scanTimeSeconds": 2.58,
+      "exposureScore": 96,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 4
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 620e9f8",
+          "line": 165,
+          "source": "commit",
+          "preview": "AIza************************JP3Y"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 620e9f8",
+          "line": 168,
+          "source": "commit",
+          "preview": "AIza************************EKZA"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 620e9f8",
+          "line": 171,
+          "source": "commit",
+          "preview": "AIza************************sGzg"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 620e9f8",
+          "line": 174,
+          "source": "commit",
+          "preview": "AIza************************NUYA"
         }
       ]
     },
@@ -9449,6 +9554,54 @@
           "type": "Private Key (RSA)",
           "file": "Commit b85fd1b",
           "line": 86521,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "amalshadin/Event-Booking",
+      "url": "https://github.com/amalshadin/Event-Booking",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 104.24,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Event-Booking-main/backend/node_modules/dotenv/README-es.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Event-Booking-main/backend/node_modules/dotenv/README.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 97bfd57",
+          "line": 82563,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 97bfd57",
+          "line": 83311,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -51817,6 +51970,33 @@
           "line": 2607,
           "source": "commit",
           "preview": "redi**********************6379"
+        }
+      ]
+    },
+    {
+      "repo": "forsazg/hishn",
+      "url": "https://github.com/forsazg/hishn",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.84,
+      "exposureScore": 30,
+      "topTypes": [
+        "AWS Access Key ID"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "Commit 4056d6d",
+          "line": 235,
+          "source": "commit",
+          "preview": "AKIA************WCG7"
         }
       ]
     },
@@ -112193,6 +112373,33 @@
       ]
     },
     {
+      "repo": "kiranpatil2003/full_scale_recipe_finder",
+      "url": "https://github.com/kiranpatil2003/full_scale_recipe_finder",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.19,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "full_scale_recipe_finder-main/frontend/recipe_finder/android/app/google-services.json",
+          "line": 23,
+          "source": "file",
+          "preview": "AIza************************1aYQ"
+        }
+      ]
+    },
+    {
       "repo": "kiranrajkunchala/balance-sheet-analyzerr",
       "url": "https://github.com/kiranrajkunchala/balance-sheet-analyzerr",
       "status": "leaked",
@@ -135274,6 +135481,33 @@
           "line": 260,
           "source": "file",
           "preview": "8221************************cJkI"
+        }
+      ]
+    },
+    {
+      "repo": "whikies/amigo-invisible",
+      "url": "https://github.com/whikies/amigo-invisible",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.01,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "amigo-invisible-main/docs/AUTENTICACION.md",
+          "line": 24,
+          "source": "file",
+          "preview": "post******************5432"
         }
       ]
     },
