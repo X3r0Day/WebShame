@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T11:24:09.078363+00:00",
+  "generatedAt": "2026-04-03T12:05:44.323008+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -86391,6 +86391,33 @@
       ]
     },
     {
+      "repo": "Wuchinator/Payment-service",
+      "url": "https://github.com/Wuchinator/Payment-service",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.26,
+      "exposureScore": 20,
+      "topTypes": [
+        "RabbitMQ/AMQP URI"
+      ],
+      "typeCounts": {
+        "RabbitMQ/AMQP URI": 1
+      },
+      "findings": [
+        {
+          "type": "RabbitMQ/AMQP URI",
+          "file": "Payment-service-master/app/core/config.py",
+          "line": 5,
+          "source": "file",
+          "preview": "amqp************************5672"
+        }
+      ]
+    },
+    {
       "repo": "XTRSaBa02/Chodsound.github.io",
       "url": "https://github.com/XTRSaBa02/Chodsound.github.io",
       "status": "leaked",
@@ -89546,6 +89573,33 @@
           "line": 3,
           "source": "file",
           "preview": "AIza************************NMcg"
+        }
+      ]
+    },
+    {
+      "repo": "amanturumar78-sys/Note-app",
+      "url": "https://github.com/amanturumar78-sys/Note-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 21.39,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Note-app-master/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************DoO0"
         }
       ]
     },
@@ -96836,6 +96890,33 @@
           "line": 68,
           "source": "file",
           "preview": "glpa******************xxxx"
+        }
+      ]
+    },
+    {
+      "repo": "david-mamani/aegiscloud-devsecops-sentinel",
+      "url": "https://github.com/david-mamani/aegiscloud-devsecops-sentinel",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 22.81,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "aegiscloud-devsecops-sentinel-master/backend/scripts/test_step05_full.py",
+          "line": 11,
+          "source": "file",
+          "preview": "AIza************************zKxw"
         }
       ]
     },
@@ -111393,6 +111474,33 @@
       ]
     },
     {
+      "repo": "kunalSri2303/files",
+      "url": "https://github.com/kunalSri2303/files",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.11,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "files-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "AIza************************Sf3E"
+        }
+      ]
+    },
+    {
       "repo": "kuncarmitb23-ctrl/moje-supabase-app",
       "url": "https://github.com/kuncarmitb23-ctrl/moje-supabase-app",
       "status": "leaked",
@@ -123003,6 +123111,33 @@
       ]
     },
     {
+      "repo": "rbrat/payment_service",
+      "url": "https://github.com/rbrat/payment_service",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.27,
+      "exposureScore": 20,
+      "topTypes": [
+        "RabbitMQ/AMQP URI"
+      ],
+      "typeCounts": {
+        "RabbitMQ/AMQP URI": 1
+      },
+      "findings": [
+        {
+          "type": "RabbitMQ/AMQP URI",
+          "file": "payment_service-master/README.md",
+          "line": 158,
+          "source": "file",
+          "preview": "amqp************************5672"
+        }
+      ]
+    },
+    {
       "repo": "rchepkwony-fourwells/Four-Wells-App",
       "url": "https://github.com/rchepkwony-fourwells/Four-Wells-App",
       "status": "leaked",
@@ -130802,6 +130937,33 @@
           "line": 134,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "tseon-designs/project-hug",
+      "url": "https://github.com/tseon-designs/project-hug",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 26.47,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "project-hug-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************yEYU"
         }
       ]
     },
