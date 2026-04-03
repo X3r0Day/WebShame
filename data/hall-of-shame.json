@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T12:05:44.323008+00:00",
+  "generatedAt": "2026-04-03T12:48:09.838420+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -13500,6 +13500,49 @@
       ]
     },
     {
+      "repo": "Priyanka7081/Ecomm_YT",
+      "url": "https://github.com/Priyanka7081/Ecomm_YT",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 238.12,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Ecomm_YT-main/backend/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Ecomm_YT-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 77f4172",
+          "line": 61812,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "Qwerty-12347878/Smart-Serivce-B",
       "url": "https://github.com/Qwerty-12347878/Smart-Serivce-B",
       "status": "leaked",
@@ -16051,6 +16094,42 @@
           "line": 16,
           "source": "commit",
           "preview": "AIza************************xgvA"
+        }
+      ]
+    },
+    {
+      "repo": "Hirenmp1006/Gen_AI_Handson_3",
+      "url": "https://github.com/Hirenmp1006/Gen_AI_Handson_3",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 3.38,
+      "exposureScore": 60,
+      "topTypes": [
+        "Groq API Key",
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1,
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "Commit ff8c1a1",
+          "line": 1116,
+          "source": "commit",
+          "preview": "gsk_************************M0FX"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit ff8c1a1",
+          "line": 11358,
+          "source": "commit",
+          "preview": "AIza************************h2SQ"
         }
       ]
     },
@@ -27845,6 +27924,40 @@
           "line": 1625,
           "source": "commit",
           "preview": "post************************host"
+        }
+      ]
+    },
+    {
+      "repo": "ya753121988/drama4u",
+      "url": "https://github.com/ya753121988/drama4u",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.78,
+      "exposureScore": 42,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "drama4u-main/bot.py",
+          "line": 13,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 7d2fa2a",
+          "line": 18,
+          "source": "commit",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -116712,6 +116825,33 @@
       ]
     },
     {
+      "repo": "muhamedd823/mmi-assignment-tracke",
+      "url": "https://github.com/muhamedd823/mmi-assignment-tracke",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.14,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "mmi-assignment-tracke-main/bot.py",
+          "line": 9,
+          "source": "file",
+          "preview": "8679************************1Zwk"
+        }
+      ]
+    },
+    {
       "repo": "muhammad-zaidadnan/HS2",
       "url": "https://github.com/muhammad-zaidadnan/HS2",
       "status": "leaked",
@@ -125213,6 +125353,33 @@
           "line": 5,
           "source": "file",
           "preview": "8683************************_e6E"
+        }
+      ]
+    },
+    {
+      "repo": "saqibmarwat44965-boop/MERN-stack-E-commerce-App",
+      "url": "https://github.com/saqibmarwat44965-boop/MERN-stack-E-commerce-App",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.32,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "MERN-stack-E-commerce-App-main/SystemLimited/backend/config/config.js",
+          "line": 3,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -134906,6 +135073,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************Fs4s"
+        }
+      ]
+    },
+    {
+      "repo": "yihisab-debug/flutter3",
+      "url": "https://github.com/yihisab-debug/flutter3",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.0,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "flutter3-main/android/app/google-services.json",
+          "line": 31,
+          "source": "file",
+          "preview": "AIza************************ST38"
         }
       ]
     },
