@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-02T23:58:03.078046+00:00",
+  "generatedAt": "2026-04-03T01:11:42.154301+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -60981,6 +60981,33 @@
       ]
     },
     {
+      "repo": "slolago/readyset-review-vercel",
+      "url": "https://github.com/slolago/readyset-review-vercel",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 16.95,
+      "exposureScore": 30,
+      "topTypes": [
+        "Private Key (PKCS8)"
+      ],
+      "typeCounts": {
+        "Private Key (PKCS8)": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (PKCS8)",
+          "file": "Commit 2a4ae85",
+          "line": 193,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "smanshu34-lab/shudhanaj-farms",
       "url": "https://github.com/smanshu34-lab/shudhanaj-farms",
       "status": "leaked",
@@ -111305,6 +111332,33 @@
           "line": 5,
           "source": "file",
           "preview": "eyJh************************FtFc"
+        }
+      ]
+    },
+    {
+      "repo": "likesrt/email-workers-python",
+      "url": "https://github.com/likesrt/email-workers-python",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.53,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "email-workers-python-main/README.md",
+          "line": 420,
+          "source": "file",
+          "preview": "post**********************5432"
         }
       ]
     },
