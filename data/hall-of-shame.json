@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T08:49:42.306274+00:00",
+  "generatedAt": "2026-04-03T09:53:12.390358+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -18476,6 +18476,49 @@
       ]
     },
     {
+      "repo": "mounika376/RunScript",
+      "url": "https://github.com/mounika376/RunScript",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 0,
+      "scanTimeSeconds": 131.22,
+      "exposureScore": 52,
+      "topTypes": [
+        "Redis Connection URI (Password)",
+        "RabbitMQ/AMQP URI"
+      ],
+      "typeCounts": {
+        "RabbitMQ/AMQP URI": 1,
+        "Redis Connection URI (Password)": 2
+      },
+      "findings": [
+        {
+          "type": "RabbitMQ/AMQP URI",
+          "file": "RunScript-main/backend/node_modules/amqplib/test/connect.js",
+          "line": 52,
+          "source": "file",
+          "preview": "amqp************************st')"
+        },
+        {
+          "type": "Redis Connection URI (Password)",
+          "file": "RunScript-main/backend/node_modules/redis/README.md",
+          "line": 80,
+          "source": "file",
+          "preview": "redi************************380'"
+        },
+        {
+          "type": "Redis Connection URI (Password)",
+          "file": "RunScript-main/worker/node_modules/redis/README.md",
+          "line": 81,
+          "source": "file",
+          "preview": "redi************************80\","
+        }
+      ]
+    },
+    {
       "repo": "rajeshwaranx-dev/thanos",
       "url": "https://github.com/rajeshwaranx-dev/thanos",
       "status": "leaked",
@@ -18909,6 +18952,40 @@
           "line": 94,
           "source": "commit",
           "preview": "mong**********************7017"
+        }
+      ]
+    },
+    {
+      "repo": "EmpiteHenry/tcp-chat-agent",
+      "url": "https://github.com/EmpiteHenry/tcp-chat-agent",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 2,
+      "scanTimeSeconds": 3.8,
+      "exposureScore": 52,
+      "topTypes": [
+        "Private Key (PKCS8)"
+      ],
+      "typeCounts": {
+        "Private Key (PKCS8)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (PKCS8)",
+          "file": "Commit f508e9b",
+          "line": 54,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (PKCS8)",
+          "file": "Commit 3c3d7ef",
+          "line": 90,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -58165,6 +58242,33 @@
       ]
     },
     {
+      "repo": "pinakatechnologiessg-beep/3d-Pinaka-Platform",
+      "url": "https://github.com/pinakatechnologiessg-beep/3d-Pinaka-Platform",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 111.73,
+      "exposureScore": 30,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 24c844b",
+          "line": 1770,
+          "source": "commit",
+          "preview": "mong************************7017"
+        }
+      ]
+    },
+    {
       "repo": "pingpong-hcs/secondhand-map",
       "url": "https://github.com/pingpong-hcs/secondhand-map",
       "status": "leaked",
@@ -82384,6 +82488,33 @@
       ]
     },
     {
+      "repo": "Sahilbhardwajjj/Persona-JennyMam",
+      "url": "https://github.com/Sahilbhardwajjj/Persona-JennyMam",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.9,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Persona-JennyMam-Backend-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************WLBA"
+        }
+      ]
+    },
+    {
       "repo": "Sahilweb837/enoxx-election",
       "url": "https://github.com/Sahilweb837/enoxx-election",
       "status": "leaked",
@@ -102499,6 +102630,33 @@
       ]
     },
     {
+      "repo": "funnymovieclips33-beep/antispam",
+      "url": "https://github.com/funnymovieclips33-beep/antispam",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.69,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "antispam-main/bot.py",
+          "line": 7,
+          "source": "file",
+          "preview": "8721************************XrJY"
+        }
+      ]
+    },
+    {
       "repo": "gamerentov-byte/afdfsdfsfsd",
       "url": "https://github.com/gamerentov-byte/afdfsdfsfsd",
       "status": "leaked",
@@ -114780,6 +114938,33 @@
           "line": 168,
           "source": "file",
           "preview": "post************************host"
+        }
+      ]
+    },
+    {
+      "repo": "mido100a/amazon-bot",
+      "url": "https://github.com/mido100a/amazon-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.44,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "amazon-bot-main/bot.py",
+          "line": 9,
+          "source": "file",
+          "preview": "8625************************TTnY"
         }
       ]
     },
@@ -131871,6 +132056,33 @@
           "line": 3,
           "source": "file",
           "preview": "AIza************************w5tk"
+        }
+      ]
+    },
+    {
+      "repo": "vijaysahu1111/vijaysahu_api",
+      "url": "https://github.com/vijaysahu1111/vijaysahu_api",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 128.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "vijaysahu_api-master/back/app.js",
+          "line": 18,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
