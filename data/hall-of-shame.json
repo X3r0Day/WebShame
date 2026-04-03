@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T05:38:18.554129+00:00",
+  "generatedAt": "2026-04-03T07:03:36.780505+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -24544,6 +24544,40 @@
       ]
     },
     {
+      "repo": "Pm-vk/finance-dashboard-backend",
+      "url": "https://github.com/Pm-vk/finance-dashboard-backend",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 140.76,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "finance-dashboard-backend-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 34c25aa",
+          "line": 54811,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "Pranvera426/Dielli",
       "url": "https://github.com/Pranvera426/Dielli",
       "status": "leaked",
@@ -42801,6 +42835,33 @@
       ]
     },
     {
+      "repo": "Namanlko/Terraform-Multi-Env-AWS",
+      "url": "https://github.com/Namanlko/Terraform-Multi-Env-AWS",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 17.18,
+      "exposureScore": 30,
+      "topTypes": [
+        "Private Key (OPENSSH)"
+      ],
+      "typeCounts": {
+        "Private Key (OPENSSH)": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (OPENSSH)",
+          "file": "Commit 896a2c2",
+          "line": 15059,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "Nandhakishore23/dashboard-project",
       "url": "https://github.com/Nandhakishore23/dashboard-project",
       "status": "leaked",
@@ -45902,6 +45963,33 @@
           "line": 277,
           "source": "commit",
           "preview": "AIza************************bjiw"
+        }
+      ]
+    },
+    {
+      "repo": "aamodadu-ai/my-fitness-app",
+      "url": "https://github.com/aamodadu-ai/my-fitness-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 8.35,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit fb8bce7",
+          "line": 186,
+          "source": "commit",
+          "preview": "AIza************************gPic"
         }
       ]
     },
@@ -68960,6 +69048,33 @@
           "line": 47,
           "source": "file",
           "preview": "mong************************7');"
+        }
+      ]
+    },
+    {
+      "repo": "Byirwi/docker-vote",
+      "url": "https://github.com/Byirwi/docker-vote",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.41,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "docker-vote-main/result/server.js",
+          "line": 27,
+          "source": "file",
+          "preview": "post***********************s@db"
         }
       ]
     },
@@ -97557,6 +97672,33 @@
       ]
     },
     {
+      "repo": "duffess/dash",
+      "url": "https://github.com/duffess/dash",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 163.31,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google OAuth Client Secret"
+      ],
+      "typeCounts": {
+        "Google OAuth Client Secret": 1
+      },
+      "findings": [
+        {
+          "type": "Google OAuth Client Secret",
+          "file": "dash-main/client_secret.json",
+          "line": 1,
+          "source": "file",
+          "preview": "GOCS************************TZq4"
+        }
+      ]
+    },
+    {
       "repo": "duongkha26marc1589/repoi49lzs",
       "url": "https://github.com/duongkha26marc1589/repoi49lzs",
       "status": "leaked",
@@ -119616,6 +119758,33 @@
       ]
     },
     {
+      "repo": "pisparanimondal-prog/vevr",
+      "url": "https://github.com/pisparanimondal-prog/vevr",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.45,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "vevr-main/otp-bot/config.json",
+          "line": 3,
+          "source": "file",
+          "preview": "8798************************7DNg"
+        }
+      ]
+    },
+    {
       "repo": "pjs4z/pjs4z_kms_library-2",
       "url": "https://github.com/pjs4z/pjs4z_kms_library-2",
       "status": "leaked",
@@ -132059,6 +132228,33 @@
           "line": 6,
           "source": "file",
           "preview": "8647************************5q94"
+        }
+      ]
+    },
+    {
+      "repo": "walkzzz/Dual-Engine",
+      "url": "https://github.com/walkzzz/Dual-Engine",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 121.88,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenAI API Key (Legacy)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Legacy)": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "Dual-Engine-master/.opencode.json",
+          "line": 4,
+          "source": "file",
+          "preview": "sk-2************************Bzsb"
         }
       ]
     },
