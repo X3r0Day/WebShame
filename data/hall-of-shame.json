@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T09:53:12.390358+00:00",
+  "generatedAt": "2026-04-03T10:37:52.067305+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -19024,6 +19024,40 @@
       ]
     },
     {
+      "repo": "Genkoko666/matchme",
+      "url": "https://github.com/Genkoko666/matchme",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 2,
+      "scanTimeSeconds": 3.8,
+      "exposureScore": 52,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit f9a0936",
+          "line": 17,
+          "source": "commit",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 9d523d2",
+          "line": 30,
+          "source": "commit",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "KasiaKab/docker-networking-demo",
       "url": "https://github.com/KasiaKab/docker-networking-demo",
       "status": "leaked",
@@ -32675,6 +32709,40 @@
           "line": 195,
           "source": "file",
           "preview": "AIza************************62ec"
+        }
+      ]
+    },
+    {
+      "repo": "Arlrq/agent_test",
+      "url": "https://github.com/Arlrq/agent_test",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.73,
+      "exposureScore": 32,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "agent_test-main/docker-compose.yml",
+          "line": 102,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "agent_test-main/docs/04-\u90e8\u7f72\u4e0e\u914d\u7f6e\u6307\u5357.md",
+          "line": 200,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -57806,6 +57874,33 @@
           "line": 21,
           "source": "commit",
           "preview": "8457************************MLb4"
+        }
+      ]
+    },
+    {
+      "repo": "oom-nextera/oom-nextera",
+      "url": "https://github.com/oom-nextera/oom-nextera",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.07,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 882cf00",
+          "line": 389,
+          "source": "commit",
+          "preview": "8515************************nPYk"
         }
       ]
     },
@@ -107274,6 +107369,33 @@
       ]
     },
     {
+      "repo": "janelynneo/asian_women_fitness_app",
+      "url": "https://github.com/janelynneo/asian_women_fitness_app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 78.61,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "asian_women_fitness_app-main/.claude/skills/02-dataflow/dataflow-connection-config.md",
+          "line": 168,
+          "source": "file",
+          "preview": "post************************host"
+        }
+      ]
+    },
+    {
       "repo": "janelynneo/disease-risk-classifier",
       "url": "https://github.com/janelynneo/disease-risk-classifier",
       "status": "leaked",
@@ -109137,6 +109259,33 @@
       ]
     },
     {
+      "repo": "karishma-bhoyar/sales_managment_app",
+      "url": "https://github.com/karishma-bhoyar/sales_managment_app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 58.86,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "sales_managment_app-sale_new/.env",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************JWN4"
+        }
+      ]
+    },
+    {
       "repo": "kartikeysingh402-glitch/project2",
       "url": "https://github.com/kartikeysingh402-glitch/project2",
       "status": "leaked",
@@ -109592,6 +109741,33 @@
           "line": 10,
           "source": "file",
           "preview": "AIza************************PaP8"
+        }
+      ]
+    },
+    {
+      "repo": "kevvy340-dot/-hs",
+      "url": "https://github.com/kevvy340-dot/-hs",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.88,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "-hs-main/sigma_ultimate_bot_full-1.py",
+          "line": 7,
+          "source": "file",
+          "preview": "8761************************I8Hw"
         }
       ]
     },
