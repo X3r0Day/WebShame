@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-03T20:34:46.571831+00:00",
+  "generatedAt": "2026-04-03T21:10:27.320110+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -10004,6 +10004,54 @@
           "type": "Private Key (RSA)",
           "file": "Commit c9c078b",
           "line": 66972,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "brunodeuzeda-png/fitapp",
+      "url": "https://github.com/brunodeuzeda-png/fitapp",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 83.56,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "fitapp-main/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "fitapp-main/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 403e6b4",
+          "line": 328172,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 403e6b4",
+          "line": 328607,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -32323,6 +32371,42 @@
       ]
     },
     {
+      "repo": "lucasmcoleman/training-data",
+      "url": "https://github.com/lucasmcoleman/training-data",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.53,
+      "exposureScore": 40,
+      "topTypes": [
+        "PostgreSQL Connection URI",
+        "Google OAuth Access Token"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1,
+        "Google OAuth Access Token": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "training-data-master/datagen/scenarios_extended.py",
+          "line": 35,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "Google OAuth Access Token",
+          "file": "training-data-master/datagen/scenarios_generated.py",
+          "line": 9909,
+          "source": "file",
+          "preview": "ya29**********************xxxx"
+        }
+      ]
+    },
+    {
       "repo": "lvhaojie456/recipe1",
       "url": "https://github.com/lvhaojie456/recipe1",
       "status": "leaked",
@@ -33075,6 +33159,42 @@
           "line": 1710,
           "source": "file",
           "preview": "http************************XXXX"
+        }
+      ]
+    },
+    {
+      "repo": "turk65169/NewMusic",
+      "url": "https://github.com/turk65169/NewMusic",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.84,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "NewMusic-main/config.py",
+          "line": 12,
+          "source": "file",
+          "preview": "8441************************4KS0"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "NewMusic-main/config.py",
+          "line": 13,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
