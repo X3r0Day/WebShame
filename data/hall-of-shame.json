@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T05:26:36.487734+00:00",
+  "generatedAt": "2026-04-04T06:29:38.265715+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -6019,6 +6019,63 @@
       ]
     },
     {
+      "repo": "lakshaysinghhh/Cake_shop",
+      "url": "https://github.com/lakshaysinghhh/Cake_shop",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 5,
+      "uniqueTypes": 2,
+      "filesAffected": 4,
+      "commitFindings": 2,
+      "scanTimeSeconds": 127.0,
+      "exposureScore": 96,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Cake_shop-main/backend/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Cake_shop-main/backend/node_modules/dotenv/README-es.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Cake_shop-main/backend/node_modules/dotenv/README.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit be48bb2",
+          "line": 79738,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit be48bb2",
+          "line": 80486,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "mdrizwanuzzamann/Chat-Application",
       "url": "https://github.com/mdrizwanuzzamann/Chat-Application",
       "status": "leaked",
@@ -10925,6 +10982,54 @@
           "type": "Private Key (RSA)",
           "file": "Commit 37ae41c",
           "line": 350800,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "urvashidab/BookStoreComplete",
+      "url": "https://github.com/urvashidab/BookStoreComplete",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 53.43,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "BookStoreComplete-main/backend/node_modules/dotenv/README-es.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "BookStoreComplete-main/backend/node_modules/dotenv/README.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 8b4dd07",
+          "line": 18568,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 8b4dd07",
+          "line": 19316,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -17209,6 +17314,42 @@
           "line": 22,
           "source": "commit",
           "preview": "sk-a************************AwAA"
+        }
+      ]
+    },
+    {
+      "repo": "aalaatantawi/Vercel",
+      "url": "https://github.com/aalaatantawi/Vercel",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 37.32,
+      "exposureScore": 60,
+      "topTypes": [
+        "Google API/GCP Key",
+        "Stripe Webhook Secret"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "Stripe Webhook Secret": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 8af1fd8",
+          "line": 115,
+          "source": "commit",
+          "preview": "AIza************************gw9o"
+        },
+        {
+          "type": "Stripe Webhook Secret",
+          "file": "Commit 8af1fd8",
+          "line": 118,
+          "source": "commit",
+          "preview": "whse************************JAhj"
         }
       ]
     },
@@ -40914,6 +41055,33 @@
           "line": 735,
           "source": "commit",
           "preview": "AIza************************KLsA"
+        }
+      ]
+    },
+    {
+      "repo": "Ansh-2211/finsentry-ai",
+      "url": "https://github.com/Ansh-2211/finsentry-ai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.5,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 33f30e4",
+          "line": 876,
+          "source": "commit",
+          "preview": "AIza************************X9og"
         }
       ]
     },
@@ -122566,6 +122734,33 @@
       ]
     },
     {
+      "repo": "o9-9/discord-ai-selfbot",
+      "url": "https://github.com/o9-9/discord-ai-selfbot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.15,
+      "exposureScore": 20,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "discord-ai-selfbot-main/README.md",
+          "line": 86,
+          "source": "file",
+          "preview": "gsk_************************huGE"
+        }
+      ]
+    },
+    {
       "repo": "ocneakir/discord",
       "url": "https://github.com/ocneakir/discord",
       "status": "leaked",
@@ -123318,6 +123513,33 @@
           "line": 13,
           "source": "file",
           "preview": "8348************************5SyU"
+        }
+      ]
+    },
+    {
+      "repo": "oxo-saito-oxo/Tuzuri",
+      "url": "https://github.com/oxo-saito-oxo/Tuzuri",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.15,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Tuzuri-main/Tuzuri/GoogleService-Info.plist",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************N_M0"
         }
       ]
     },
@@ -130041,6 +130263,33 @@
           "line": 23,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "shivamverma99399-bit/medpulse",
+      "url": "https://github.com/shivamverma99399-bit/medpulse",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 18.0,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "medpulse-main/.env",
+          "line": 5,
+          "source": "file",
+          "preview": "AIza************************Wkhw"
         }
       ]
     },
