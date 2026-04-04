@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T19:55:18.056425+00:00",
+  "generatedAt": "2026-04-04T20:13:04.158307+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -32403,6 +32403,42 @@
       ]
     },
     {
+      "repo": "araieternalsister-ui/nexus-release",
+      "url": "https://github.com/araieternalsister-ui/nexus-release",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.78,
+      "exposureScore": 40,
+      "topTypes": [
+        "Google API/GCP Key",
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "nexus-release-main/src/lib/constants.js",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************nwHs"
+        },
+        {
+          "type": "Discord Webhook",
+          "file": "nexus-release-main/src/lib/constants.js",
+          "line": 6,
+          "source": "file",
+          "preview": "http************************ingO"
+        }
+      ]
+    },
+    {
       "repo": "arieliten85/liftlyGym-api",
       "url": "https://github.com/arieliten85/liftlyGym-api",
       "status": "leaked",
@@ -36405,6 +36441,40 @@
           "line": 32,
           "source": "file",
           "preview": "AIza************************TXSE"
+        }
+      ]
+    },
+    {
+      "repo": "KISHORE-0763/EDUFY-PRO-01",
+      "url": "https://github.com/KISHORE-0763/EDUFY-PRO-01",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.25,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "EDUFY-PRO-01-main/edufy-pro-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************PYgg"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "EDUFY-PRO-01-main/edufy-pro-main/check_models.js",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************sj3c"
         }
       ]
     },
@@ -139816,6 +139886,33 @@
       ]
     },
     {
+      "repo": "vaheshakaryan/sushi-mini-app",
+      "url": "https://github.com/vaheshakaryan/sushi-mini-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 74.6,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "sushi-mini-app-main/bot/config.py",
+          "line": 6,
+          "source": "file",
+          "preview": "8653************************Dr9w"
+        }
+      ]
+    },
+    {
       "repo": "vaibhavkumarrai000/Cron-Ops",
       "url": "https://github.com/vaibhavkumarrai000/Cron-Ops",
       "status": "leaked",
@@ -140163,6 +140260,33 @@
           "line": 4,
           "source": "file",
           "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "vansh999001/codex",
+      "url": "https://github.com/vansh999001/codex",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.75,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "codex-main/app.py",
+          "line": 8,
+          "source": "file",
+          "preview": "7948************************sLog"
         }
       ]
     },
