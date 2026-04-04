@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T14:19:38.281295+00:00",
+  "generatedAt": "2026-04-04T14:58:23.906167+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -23230,6 +23230,47 @@
       ]
     },
     {
+      "repo": "Communityconnect0406/UKWL-Management",
+      "url": "https://github.com/Communityconnect0406/UKWL-Management",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.98,
+      "exposureScore": 44,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 3
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "UKWL-Management-main/README.md",
+          "line": 326,
+          "source": "file",
+          "preview": "http************************CZdW"
+        },
+        {
+          "type": "Discord Webhook",
+          "file": "UKWL-Management-main/README.md",
+          "line": 327,
+          "source": "file",
+          "preview": "http************************HSW8"
+        },
+        {
+          "type": "Discord Webhook",
+          "file": "UKWL-Management-main/README.md",
+          "line": 328,
+          "source": "file",
+          "preview": "http************************F8mR"
+        }
+      ]
+    },
+    {
       "repo": "Danilozarta/smart-epp",
       "url": "https://github.com/Danilozarta/smart-epp",
       "status": "leaked",
@@ -43329,6 +43370,33 @@
       ]
     },
     {
+      "repo": "FoulTrip/fleetflow-ecosystem",
+      "url": "https://github.com/FoulTrip/fleetflow-ecosystem",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.92,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 4adad89",
+          "line": 36,
+          "source": "commit",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Fp0XoWe7uU7KlEDFjMHVokROA5iy/35861448",
       "url": "https://github.com/Fp0XoWe7uU7KlEDFjMHVokROA5iy/35861448",
       "status": "leaked",
@@ -52586,6 +52654,33 @@
           "line": 409,
           "source": "commit",
           "preview": "AIza************************d77k"
+        }
+      ]
+    },
+    {
+      "repo": "darrellhulseii/MontereyD2D",
+      "url": "https://github.com/darrellhulseii/MontereyD2D",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.38,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit e1043c0",
+          "line": 1036,
+          "source": "commit",
+          "preview": "AIza************************SEmE"
         }
       ]
     },
@@ -76620,6 +76715,33 @@
       ]
     },
     {
+      "repo": "HAMZAIqbalSharref/ai-productivity-agent",
+      "url": "https://github.com/HAMZAIqbalSharref/ai-productivity-agent",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.86,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "ai-productivity-agent-master/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "sk-o************************5663"
+        }
+      ]
+    },
+    {
       "repo": "HIMARS223/TestSolverAI",
       "url": "https://github.com/HIMARS223/TestSolverAI",
       "status": "leaked",
@@ -89445,6 +89567,33 @@
       ]
     },
     {
+      "repo": "Varunpratap74358/Windows_Exe",
+      "url": "https://github.com/Varunpratap74358/Windows_Exe",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.96,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Windows_Exe-main/src/App.tsx",
+          "line": 14,
+          "source": "file",
+          "preview": "8629************************dm4o"
+        }
+      ]
+    },
+    {
       "repo": "Veritas-Calculus/claw-dashboard",
       "url": "https://github.com/Veritas-Calculus/claw-dashboard",
       "status": "leaked",
@@ -89927,6 +90076,33 @@
           "line": 80,
           "source": "file",
           "preview": "redi************************380'"
+        }
+      ]
+    },
+    {
+      "repo": "Wellmassena/calculator-mec",
+      "url": "https://github.com/Wellmassena/calculator-mec",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 72.19,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "calculator-mec-main/assets/index-D1bRLvFR.js",
+          "line": 20621,
+          "source": "file",
+          "preview": "http************************gO9u"
         }
       ]
     },
@@ -92897,6 +93073,33 @@
           "line": 2,
           "source": "file",
           "preview": "AIza************************MbDY"
+        }
+      ]
+    },
+    {
+      "repo": "alias1947/Cloud_Native",
+      "url": "https://github.com/alias1947/Cloud_Native",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 29.88,
+      "exposureScore": 20,
+      "topTypes": [
+        "RabbitMQ/AMQP URI"
+      ],
+      "typeCounts": {
+        "RabbitMQ/AMQP URI": 1
+      },
+      "findings": [
+        {
+          "type": "RabbitMQ/AMQP URI",
+          "file": "Cloud_Native-main/infrastructure/kubernetes/config.yaml",
+          "line": 16,
+          "source": "file",
+          "preview": "amqp************************5672"
         }
       ]
     },
@@ -99084,6 +99287,33 @@
       ]
     },
     {
+      "repo": "clothingrobloxmakeryas/fn-account-bot",
+      "url": "https://github.com/clothingrobloxmakeryas/fn-account-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.46,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Bot Token"
+      ],
+      "typeCounts": {
+        "Discord Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Bot Token",
+          "file": "fn-account-bot-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "MTQ4************************hcEg"
+        }
+      ]
+    },
+    {
       "repo": "cloudkit111/api-server",
       "url": "https://github.com/cloudkit111/api-server",
       "status": "leaked",
@@ -99836,6 +100066,33 @@
           "line": 144,
           "source": "file",
           "preview": "eyJh************************GLZo"
+        }
+      ]
+    },
+    {
+      "repo": "cuongthinh62/InsuranceQuote",
+      "url": "https://github.com/cuongthinh62/InsuranceQuote",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.29,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "InsuranceQuote-master/InsuranceQuoteAPI/Data/InsuranceQuoteContext.cs",
+          "line": 21,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -117984,6 +118241,33 @@
       ]
     },
     {
+      "repo": "lliangmengg/NTU-SC4052-Coding-as-a-Service-Project",
+      "url": "https://github.com/lliangmengg/NTU-SC4052-Coding-as-a-Service-Project",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 30.2,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "NTU-SC4052-Coding-as-a-Service-Project-main/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "AIza************************NkO0"
+        }
+      ]
+    },
+    {
       "repo": "lmortiz920205mx-create/Taxi-Platino-Agendados",
       "url": "https://github.com/lmortiz920205mx-create/Taxi-Platino-Agendados",
       "status": "leaked",
@@ -121085,6 +121369,33 @@
           "line": 2,
           "source": "file",
           "preview": "7790************************tNs8"
+        }
+      ]
+    },
+    {
+      "repo": "mirfayzfarxodov1-png/Deploy.bot",
+      "url": "https://github.com/mirfayzfarxodov1-png/Deploy.bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.54,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Deploy.bot-main/Deploy.py",
+          "line": 38,
+          "source": "file",
+          "preview": "8620************************o9rI"
         }
       ]
     },
