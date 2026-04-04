@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T20:53:09.265046+00:00",
+  "generatedAt": "2026-04-04T21:15:00.530502+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -563,6 +563,68 @@
           "type": "Discord Bot Token",
           "file": "Commit 9a99cd6",
           "line": 87795,
+          "source": "commit",
+          "preview": "Moun************************1960"
+        }
+      ]
+    },
+    {
+      "repo": "SwiftDust/binary-adder",
+      "url": "https://github.com/SwiftDust/binary-adder",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 11,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 11,
+      "scanTimeSeconds": 35.57,
+      "exposureScore": 250,
+      "topTypes": [
+        "Discord Bot Token"
+      ],
+      "typeCounts": {
+        "Discord Bot Token": 11
+      },
+      "findings": [
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 2180451",
+          "line": 103049,
+          "source": "commit",
+          "preview": "Moun************************6960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 2180451",
+          "line": 103056,
+          "source": "commit",
+          "preview": "Moun************************1960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 2180451",
+          "line": 103063,
+          "source": "commit",
+          "preview": "Moun************************6960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 2180451",
+          "line": 103070,
+          "source": "commit",
+          "preview": "Moun************************1960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 2180451",
+          "line": 103077,
+          "source": "commit",
+          "preview": "Moun************************6960"
+        },
+        {
+          "type": "Discord Bot Token",
+          "file": "Commit 2180451",
+          "line": 103084,
           "source": "commit",
           "preview": "Moun************************1960"
         }
@@ -63323,6 +63385,33 @@
       ]
     },
     {
+      "repo": "qasim2qasim2ppqq-ai/index.htm",
+      "url": "https://github.com/qasim2qasim2ppqq-ai/index.htm",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.66,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 0f6b67d",
+          "line": 136,
+          "source": "commit",
+          "preview": "http************************hQFv"
+        }
+      ]
+    },
+    {
       "repo": "qitaijingguan-cpu/-fd-y",
       "url": "https://github.com/qitaijingguan-cpu/-fd-y",
       "status": "leaked",
@@ -68395,6 +68484,33 @@
           "line": 18,
           "source": "commit",
           "preview": "AIza************************M8zs"
+        }
+      ]
+    },
+    {
+      "repo": "vicandrej/muni-chatbot",
+      "url": "https://github.com/vicandrej/muni-chatbot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 8.97,
+      "exposureScore": 30,
+      "topTypes": [
+        "Anthropic API Key"
+      ],
+      "typeCounts": {
+        "Anthropic API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Anthropic API Key",
+          "file": "Commit 0eb7f1f",
+          "line": 386,
+          "source": "commit",
+          "preview": "sk-a************************AAAA"
         }
       ]
     },
@@ -113539,6 +113655,33 @@
           "line": 7,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "iamtaher03-cloud/SyncJoAhmad1",
+      "url": "https://github.com/iamtaher03-cloud/SyncJoAhmad1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.82,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "SyncJoAhmad1-master/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************D_Yo"
         }
       ]
     },
