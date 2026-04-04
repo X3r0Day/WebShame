@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T12:17:31.898424+00:00",
+  "generatedAt": "2026-04-04T13:30:36.278342+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -9320,6 +9320,54 @@
           "type": "Private Key (RSA)",
           "file": "Commit 1ec63b7",
           "line": 30676,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "Gawgaci/secure-jwt-auth",
+      "url": "https://github.com/Gawgaci/secure-jwt-auth",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 45.33,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "secure-jwt-auth-main/node_modules/dotenv/README-es.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "secure-jwt-auth-main/node_modules/dotenv/README.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 618b1af",
+          "line": 12253,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 618b1af",
+          "line": 13001,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -94146,6 +94194,33 @@
       ]
     },
     {
+      "repo": "anshpandey7836-dev/ansh-chatbot-server",
+      "url": "https://github.com/anshpandey7836-dev/ansh-chatbot-server",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.61,
+      "exposureScore": 20,
+      "topTypes": [
+        "Anthropic API Key"
+      ],
+      "typeCounts": {
+        "Anthropic API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Anthropic API Key",
+          "file": "ansh-chatbot-server-main/server.js",
+          "line": 9,
+          "source": "file",
+          "preview": "sk-a************************OgAA"
+        }
+      ]
+    },
+    {
       "repo": "anthonytech04-art/telegram-price-bot",
       "url": "https://github.com/anthonytech04-art/telegram-price-bot",
       "status": "leaked",
@@ -136158,6 +136233,33 @@
       ]
     },
     {
+      "repo": "truongtantai1803/LoginRegister",
+      "url": "https://github.com/truongtantai1803/LoginRegister",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.04,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "LoginRegister-master/app/google-services.json",
+          "line": 23,
+          "source": "file",
+          "preview": "AIza************************k7wc"
+        }
+      ]
+    },
+    {
       "repo": "trymvestengen/polymarket-bot",
       "url": "https://github.com/trymvestengen/polymarket-bot",
       "status": "leaked",
@@ -140474,6 +140576,33 @@
           "line": 7,
           "source": "file",
           "preview": "8725************************GQcA"
+        }
+      ]
+    },
+    {
+      "repo": "yowo0118/ai-pulse",
+      "url": "https://github.com/yowo0118/ai-pulse",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.97,
+      "exposureScore": 20,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 1
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "ai-pulse-master/ai-pulse/collector.py",
+          "line": 212,
+          "source": "file",
+          "preview": "http************************json"
         }
       ]
     },
