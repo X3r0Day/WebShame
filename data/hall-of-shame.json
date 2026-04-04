@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T11:30:03.982773+00:00",
+  "generatedAt": "2026-04-04T12:01:22.117946+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -3377,6 +3377,72 @@
           "line": 357,
           "source": "file",
           "preview": "ghp_************************xxxx"
+        }
+      ]
+    },
+    {
+      "repo": "maaz1604/SecureFinance",
+      "url": "https://github.com/maaz1604/SecureFinance",
+      "status": "leaked",
+      "severity": "critical",
+      "totalSecrets": 6,
+      "uniqueTypes": 3,
+      "filesAffected": 4,
+      "commitFindings": 2,
+      "scanTimeSeconds": 156.67,
+      "exposureScore": 116,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI",
+        "Google OAuth Client Secret"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Google OAuth Client Secret": 1,
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "SecureFinance-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Google OAuth Client Secret",
+          "file": "SecureFinance-main/.env",
+          "line": 5,
+          "source": "file",
+          "preview": "GOCS************************DYwq"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "SecureFinance-main/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "SecureFinance-main/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit eac0e06",
+          "line": 61510,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit eac0e06",
+          "line": 61945,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -34192,6 +34258,42 @@
       ]
     },
     {
+      "repo": "woodqqq97-cloud/Rafiq-Bot",
+      "url": "https://github.com/woodqqq97-cloud/Rafiq-Bot",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.9,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Rafiq-Bot-main/main.py",
+          "line": 6,
+          "source": "file",
+          "preview": "8654************************Rk_k"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Rafiq-Bot-main/main.py",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************zm5g"
+        }
+      ]
+    },
+    {
       "repo": "xiaobaiba999/TrendRadar",
       "url": "https://github.com/xiaobaiba999/TrendRadar",
       "status": "leaked",
@@ -49841,6 +49943,33 @@
           "line": 15,
           "source": "commit",
           "preview": "AIza************************tZWA"
+        }
+      ]
+    },
+    {
+      "repo": "anymind-yuto26/instant-eigo",
+      "url": "https://github.com/anymind-yuto26/instant-eigo",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.6,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit cbf1baf",
+          "line": 176,
+          "source": "commit",
+          "preview": "AIza************************QLwk"
         }
       ]
     },
@@ -89103,6 +89232,33 @@
       ]
     },
     {
+      "repo": "Vijayakash-588/appointment-scheduler-app",
+      "url": "https://github.com/Vijayakash-588/appointment-scheduler-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 116.25,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "appointment-scheduler-app-main/frontend/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************atis"
+        }
+      ]
+    },
+    {
       "repo": "VikrantPareek/Week-7-MongoDB",
       "url": "https://github.com/VikrantPareek/Week-7-MongoDB",
       "status": "leaked",
@@ -101114,6 +101270,33 @@
           "line": 4,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "devopstales/AI-Superpowers",
+      "url": "https://github.com/devopstales/AI-Superpowers",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 162.55,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "AI-Superpowers-main/.agents/skills/docker-patterns/SKILL.md",
+          "line": 36,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -118907,6 +119090,33 @@
           "line": 25,
           "source": "file",
           "preview": "8534************************RZtg"
+        }
+      ]
+    },
+    {
+      "repo": "mariyam-hanna/medquery-ai",
+      "url": "https://github.com/mariyam-hanna/medquery-ai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 83.24,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "medquery-ai-main/backend/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************1fQY"
         }
       ]
     },
