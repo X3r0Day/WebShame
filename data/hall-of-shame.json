@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T08:14:13.757027+00:00",
+  "generatedAt": "2026-04-04T09:07:14.022154+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -81608,6 +81608,33 @@
       ]
     },
     {
+      "repo": "Navay5507/Experiment",
+      "url": "https://github.com/Navay5507/Experiment",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 37.32,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "Experiment-main/add_col.js",
+          "line": 2,
+          "source": "file",
+          "preview": "eyJh************************d0RI"
+        }
+      ]
+    },
+    {
       "repo": "Naveen977397/poc",
       "url": "https://github.com/Naveen977397/poc",
       "status": "leaked",
@@ -116789,6 +116816,33 @@
       ]
     },
     {
+      "repo": "leulEth/afrosms",
+      "url": "https://github.com/leulEth/afrosms",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.77,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "afrosms-main/DEPLOYMENT_GUIDE.md",
+          "line": 5,
+          "source": "file",
+          "preview": "8623************************n8TM"
+        }
+      ]
+    },
+    {
       "repo": "lex-lutor/T-EcoTicket",
       "url": "https://github.com/lex-lutor/T-EcoTicket",
       "status": "leaked",
@@ -119269,6 +119323,33 @@
           "line": 1,
           "source": "file",
           "preview": "8656************************84EA"
+        }
+      ]
+    },
+    {
+      "repo": "meowkhansrt-bot/Dhdhdh",
+      "url": "https://github.com/meowkhansrt-bot/Dhdhdh",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.25,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Dhdhdh-main/m.py",
+          "line": 10,
+          "source": "file",
+          "preview": "8783************************o4vU"
         }
       ]
     },
@@ -138763,6 +138844,33 @@
           "line": 11,
           "source": "file",
           "preview": "8725************************xtkA"
+        }
+      ]
+    },
+    {
+      "repo": "yaredyaredyared37-hub/telegram-id-bot",
+      "url": "https://github.com/yaredyaredyared37-hub/telegram-id-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.59,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "telegram-id-bot-main/id_card_bot.py",
+          "line": 9,
+          "source": "file",
+          "preview": "8726************************368k"
         }
       ]
     },
