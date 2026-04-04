@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T14:58:23.906167+00:00",
+  "generatedAt": "2026-04-04T15:23:41.409722+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -18925,6 +18925,54 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************NkxA"
+        }
+      ]
+    },
+    {
+      "repo": "bourdierflorent-svg/stargazing-hub-v2",
+      "url": "https://github.com/bourdierflorent-svg/stargazing-hub-v2",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.46,
+      "exposureScore": 56,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 4
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "stargazing-hub-v2-main/docs/plans/2026-02-25-hub-v2-implementation.md",
+          "line": 27,
+          "source": "file",
+          "preview": "AIza************************vTZ0"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "stargazing-hub-v2-main/docs/plans/2026-02-25-hub-v2-implementation.md",
+          "line": 35,
+          "source": "file",
+          "preview": "AIza************************y8dk"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "stargazing-hub-v2-main/docs/plans/2026-02-25-hub-v2-implementation.md",
+          "line": 43,
+          "source": "file",
+          "preview": "AIza************************Nlts"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "stargazing-hub-v2-main/docs/plans/2026-02-25-hub-v2-implementation.md",
+          "line": 51,
+          "source": "file",
+          "preview": "AIza************************MrUA"
         }
       ]
     },
@@ -84761,6 +84809,33 @@
       ]
     },
     {
+      "repo": "RafaGarciaDev/health-data-platform",
+      "url": "https://github.com/RafaGarciaDev/health-data-platform",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.45,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "health-data-platform-master/docker-compose.yml",
+          "line": 56,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Rahban1/gym-tracker-swift",
       "url": "https://github.com/Rahban1/gym-tracker-swift",
       "status": "leaked",
@@ -100097,6 +100172,33 @@
       ]
     },
     {
+      "repo": "cuongthinh62/InsuranceQuoteProject",
+      "url": "https://github.com/cuongthinh62/InsuranceQuoteProject",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.71,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "InsuranceQuoteProject-master/InsuranceQuoteAPI/Data/InsuranceQuoteContext.cs",
+          "line": 21,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "cure555/Cure-dbot",
       "url": "https://github.com/cure555/Cure-dbot",
       "status": "leaked",
@@ -102820,6 +102922,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************-_yE"
+        }
+      ]
+    },
+    {
+      "repo": "doniyortrader0-a11y/reader",
+      "url": "https://github.com/doniyortrader0-a11y/reader",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.72,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "reader-main/bot (1).py",
+          "line": 9,
+          "source": "file",
+          "preview": "7972************************eHnM"
         }
       ]
     },
@@ -120856,6 +120985,33 @@
           "line": 2,
           "source": "file",
           "preview": "8227************************HHjE"
+        }
+      ]
+    },
+    {
+      "repo": "mimimeoo/demo_order_app",
+      "url": "https://github.com/mimimeoo/demo_order_app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 48.47,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "demo_order_app-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************yR2w"
         }
       ]
     },
@@ -139891,6 +140047,33 @@
           "line": 22,
           "source": "file",
           "preview": "AKIA************XXXX"
+        }
+      ]
+    },
+    {
+      "repo": "workdevil77-a11y/Coder",
+      "url": "https://github.com/workdevil77-a11y/Coder",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.59,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Coder-main/Railway_Deployment.txt",
+          "line": 24,
+          "source": "file",
+          "preview": "8774************************TKNg"
         }
       ]
     },
