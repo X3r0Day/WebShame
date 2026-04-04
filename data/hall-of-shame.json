@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T20:13:04.158307+00:00",
+  "generatedAt": "2026-04-04T20:53:09.265046+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -18799,6 +18799,42 @@
           "line": 188,
           "source": "commit",
           "preview": "http************************bNwR"
+        }
+      ]
+    },
+    {
+      "repo": "urbexsigma11/shop",
+      "url": "https://github.com/urbexsigma11/shop",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 2.37,
+      "exposureScore": 60,
+      "topTypes": [
+        "Discord Webhook",
+        "Twilio Auth Token (Context)"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1,
+        "Twilio Auth Token (Context)": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 882e76d",
+          "line": 124,
+          "source": "commit",
+          "preview": "http************************9EQe"
+        },
+        {
+          "type": "Twilio Auth Token (Context)",
+          "file": "Commit 882e76d",
+          "line": 126,
+          "source": "commit",
+          "preview": "twil************************d425"
         }
       ]
     },
@@ -54107,6 +54143,33 @@
       ]
     },
     {
+      "repo": "di-tish/spelling-test",
+      "url": "https://github.com/di-tish/spelling-test",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.69,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 75aac66",
+          "line": 23,
+          "source": "commit",
+          "preview": "8211************************5hiw"
+        }
+      ]
+    },
+    {
       "repo": "dickson6969/index.html",
       "url": "https://github.com/dickson6969/index.html",
       "status": "leaked",
@@ -69196,6 +69259,33 @@
           "line": 5959,
           "source": "commit",
           "preview": "AIza************************S6ZY"
+        }
+      ]
+    },
+    {
+      "repo": "yamandenizer-cyber/plaza-bot",
+      "url": "https://github.com/yamandenizer-cyber/plaza-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.51,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 70c9ede",
+          "line": 18,
+          "source": "commit",
+          "preview": "8742************************gZ6o"
         }
       ]
     },
@@ -120608,6 +120698,33 @@
       ]
     },
     {
+      "repo": "lucasbrito78534-lang/my-bot",
+      "url": "https://github.com/lucasbrito78534-lang/my-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.13,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "my-bot-main/lanbot.py",
+          "line": 6,
+          "source": "file",
+          "preview": "8710************************LrHE"
+        }
+      ]
+    },
+    {
       "repo": "lucasmakan52-code/Cecil",
       "url": "https://github.com/lucasmakan52-code/Cecil",
       "status": "leaked",
@@ -131678,6 +131795,33 @@
       ]
     },
     {
+      "repo": "romakholodetskiy/user-locator",
+      "url": "https://github.com/romakholodetskiy/user-locator",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 27.57,
+      "exposureScore": 20,
+      "topTypes": [
+        "MySQL/MariaDB Connection URI"
+      ],
+      "typeCounts": {
+        "MySQL/MariaDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "user-locator-main/app/.env",
+          "line": 12,
+          "source": "file",
+          "preview": "mysq*********************3306"
+        }
+      ]
+    },
+    {
       "repo": "romanalbert2506-boop/ESSK-hub",
       "url": "https://github.com/romanalbert2506-boop/ESSK-hub",
       "status": "leaked",
@@ -133483,6 +133627,33 @@
           "line": 48,
           "source": "file",
           "preview": "mong************************7017"
+        }
+      ]
+    },
+    {
+      "repo": "seifkhalled/FCDS-Final-Project",
+      "url": "https://github.com/seifkhalled/FCDS-Final-Project",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.44,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "FCDS-Final-Project-main/frontend/src/components/results/MapView.tsx",
+          "line": 96,
+          "source": "file",
+          "preview": "AIza************************17R8"
         }
       ]
     },
