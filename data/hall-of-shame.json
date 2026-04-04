@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T16:22:42.551000+00:00",
+  "generatedAt": "2026-04-04T17:04:46.746279+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -51786,6 +51786,33 @@
       ]
     },
     {
+      "repo": "bug615012-ui/skin-test",
+      "url": "https://github.com/bug615012-ui/skin-test",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.06,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 1cfb48b",
+          "line": 376,
+          "source": "commit",
+          "preview": "AIza************************qsXs"
+        }
+      ]
+    },
+    {
       "repo": "buildwithJJ/ai-portfolio-assistant",
       "url": "https://github.com/buildwithJJ/ai-portfolio-assistant",
       "status": "leaked",
@@ -56804,6 +56831,33 @@
           "line": 139,
           "source": "commit",
           "preview": "eyJh************************9cq0"
+        }
+      ]
+    },
+    {
+      "repo": "kaustubh3852/Medibot",
+      "url": "https://github.com/kaustubh3852/Medibot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.04,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 7e98004",
+          "line": 19,
+          "source": "commit",
+          "preview": "AIza************************EIbI"
         }
       ]
     },
@@ -96278,6 +96332,33 @@
           "line": 81,
           "source": "file",
           "preview": "http************************Nqm3"
+        }
+      ]
+    },
+    {
+      "repo": "ayesha5107/financial-analytics",
+      "url": "https://github.com/ayesha5107/financial-analytics",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.16,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "financial-analytics-main/financial-analytics/docker-compose.yml",
+          "line": 59,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
