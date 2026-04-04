@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T22:11:02.403402+00:00",
+  "generatedAt": "2026-04-04T22:49:06.727071+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -17040,6 +17040,49 @@
           "line": 23,
           "source": "commit",
           "preview": "8441************************4KS0"
+        }
+      ]
+    },
+    {
+      "repo": "vahidrahimibr/posto-saude-sjh-backend",
+      "url": "https://github.com/vahidrahimibr/posto-saude-sjh-backend",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 91.42,
+      "exposureScore": 62,
+      "topTypes": [
+        "Private Key (RSA)",
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2,
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "posto-saude-sjh-backend-master/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "posto-saude-sjh-backend-master/node_modules/pg-pool/README.md",
+          "line": 74,
+          "source": "file",
+          "preview": "post************************####"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit b2bb819",
+          "line": 34085,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -76159,6 +76202,33 @@
       ]
     },
     {
+      "repo": "Dheeraj-del-cyber/ElectraVoter",
+      "url": "https://github.com/Dheeraj-del-cyber/ElectraVoter",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 19.54,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "ElectraVoter-main/.env",
+          "line": 7,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "Dhivagar2007/ai-soc",
       "url": "https://github.com/Dhivagar2007/ai-soc",
       "status": "leaked",
@@ -95703,6 +95773,33 @@
           "line": 10,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "amirdhaka/phone-number-sylhet-bot",
+      "url": "https://github.com/amirdhaka/phone-number-sylhet-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.09,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "phone-number-sylhet-bot-main/bot.py",
+          "line": 27,
+          "source": "file",
+          "preview": "8643************************PwXg"
         }
       ]
     },
@@ -117982,6 +118079,33 @@
       ]
     },
     {
+      "repo": "kids-masaru/Play",
+      "url": "https://github.com/kids-masaru/Play",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 67.32,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Play-main/_Trash/google_apps_script_prompt.js",
+          "line": 14,
+          "source": "file",
+          "preview": "AIza************************91SE"
+        }
+      ]
+    },
+    {
       "repo": "kieudo26febu4634/repo31olc0",
       "url": "https://github.com/kieudo26febu4634/repo31olc0",
       "status": "leaked",
@@ -126676,6 +126800,33 @@
       ]
     },
     {
+      "repo": "noanuman/guzwa-backend",
+      "url": "https://github.com/noanuman/guzwa-backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.47,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "guzwa-backend-master/main.py",
+          "line": 129,
+          "source": "file",
+          "preview": "AIza************************IClk"
+        }
+      ]
+    },
+    {
       "repo": "nogiszd/ApiMonitor",
       "url": "https://github.com/nogiszd/ApiMonitor",
       "status": "leaked",
@@ -132801,6 +132952,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************eAys"
+        }
+      ]
+    },
+    {
+      "repo": "saicisco/logiq",
+      "url": "https://github.com/saicisco/logiq",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.28,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "logiq-main/docker-compose.yml",
+          "line": 23,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
