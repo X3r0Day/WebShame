@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T17:36:00.525667+00:00",
+  "generatedAt": "2026-04-04T18:10:09.227956+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -10826,6 +10826,54 @@
           "type": "Private Key (RSA)",
           "file": "Commit ef69904",
           "line": 57597,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "gautam070205/finance-backend",
+      "url": "https://github.com/gautam070205/finance-backend",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 161.15,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "finance-backend-main/node_modules/dotenv/README-es.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "finance-backend-main/node_modules/dotenv/README.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 585c7ad",
+          "line": 329928,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 585c7ad",
+          "line": 330676,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -24813,6 +24861,47 @@
       ]
     },
     {
+      "repo": "princegupta3641-prog/asdsdfg",
+      "url": "https://github.com/princegupta3641-prog/asdsdfg",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 0,
+      "scanTimeSeconds": 117.63,
+      "exposureScore": 44,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 3
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "asdsdfg-main/ims-platform/backend/add-user-to-tenant.js",
+          "line": 4,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "asdsdfg-main/ims-platform/backend/purge_system.js",
+          "line": 6,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "asdsdfg-main/ims-platform/frontend/components/settings/MongoSetupGuide.tsx",
+          "line": 83,
+          "source": "file",
+          "preview": "mong************************span"
+        }
+      ]
+    },
+    {
       "repo": "rishijayanath24-cpu/Cloud-Native-Personal-Finance-Tracker",
       "url": "https://github.com/rishijayanath24-cpu/Cloud-Native-Personal-Finance-Tracker",
       "status": "leaked",
@@ -35084,6 +35173,40 @@
           "line": 173,
           "source": "file",
           "preview": "AIza************************z3bI"
+        }
+      ]
+    },
+    {
+      "repo": "Alicricher/tgStomBot",
+      "url": "https://github.com/Alicricher/tgStomBot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 37.78,
+      "exposureScore": 32,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 2
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "tgStomBot-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "8599************************7CyE"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "tgStomBot-main/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "8402************************5gUM"
         }
       ]
     },
@@ -51793,6 +51916,33 @@
           "line": 38782,
           "source": "commit",
           "preview": "8682************************TqW8"
+        }
+      ]
+    },
+    {
+      "repo": "brimo3433-cpu/Haji-berbagi-uang",
+      "url": "https://github.com/brimo3433-cpu/Haji-berbagi-uang",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.98,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 2182cee",
+          "line": 675,
+          "source": "commit",
+          "preview": "8522************************MH_4"
         }
       ]
     },
@@ -85196,6 +85346,33 @@
       ]
     },
     {
+      "repo": "Quasarax/Quasarax-Flux-Sentinel",
+      "url": "https://github.com/Quasarax/Quasarax-Flux-Sentinel",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.63,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Quasarax-Flux-Sentinel-main/infrastructure/docker-compose.yml",
+          "line": 24,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Quiber08/OpticaPro2.0",
       "url": "https://github.com/Quiber08/OpticaPro2.0",
       "status": "leaked",
@@ -97423,6 +97600,33 @@
           "line": 7,
           "source": "file",
           "preview": "eyJh************************7oz4"
+        }
+      ]
+    },
+    {
+      "repo": "bilalabdelkadir/prim",
+      "url": "https://github.com/bilalabdelkadir/prim",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.98,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "prim-main/internal/db/db_test.go",
+          "line": 12,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -112435,6 +112639,33 @@
           "line": 51,
           "source": "file",
           "preview": "eyJh************************J21k"
+        }
+      ]
+    },
+    {
+      "repo": "iamreddy5555-debug/ProjectX",
+      "url": "https://github.com/iamreddy5555-debug/ProjectX",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 25.71,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "ProjectX-main/server/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************7017"
         }
       ]
     },
@@ -131555,6 +131786,33 @@
       ]
     },
     {
+      "repo": "salmanMS2005/Ai-voice-interviewer",
+      "url": "https://github.com/salmanMS2005/Ai-voice-interviewer",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.47,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Ai-voice-interviewer-main/test_ai_response.py",
+          "line": 7,
+          "source": "file",
+          "preview": "AIza************************GdF8"
+        }
+      ]
+    },
+    {
       "repo": "salmansniper56-cloud/beingsalmanbutt.app",
       "url": "https://github.com/salmansniper56-cloud/beingsalmanbutt.app",
       "status": "leaked",
@@ -137302,6 +137560,33 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************PT7I"
+        }
+      ]
+    },
+    {
+      "repo": "traceveilforensics/tv-vercel",
+      "url": "https://github.com/traceveilforensics/tv-vercel",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 30.43,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "tv-vercel-main/SECURITY.md",
+          "line": 8,
+          "source": "file",
+          "preview": "eyJh************************Ejew"
         }
       ]
     },
