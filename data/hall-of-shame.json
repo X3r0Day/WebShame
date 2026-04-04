@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T17:04:46.746279+00:00",
+  "generatedAt": "2026-04-04T17:36:00.525667+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -5800,6 +5800,63 @@
       ]
     },
     {
+      "repo": "Soyal24/finance-backend-zorvyn",
+      "url": "https://github.com/Soyal24/finance-backend-zorvyn",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 5,
+      "uniqueTypes": 2,
+      "filesAffected": 4,
+      "commitFindings": 2,
+      "scanTimeSeconds": 263.25,
+      "exposureScore": 96,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "finance-backend-zorvyn-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************7017"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "finance-backend-zorvyn-main/node_modules/dotenv/README-es.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "finance-backend-zorvyn-main/node_modules/dotenv/README.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 593c02d",
+          "line": 62301,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 593c02d",
+          "line": 63049,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "YaswanthNadh-coder/Nexus-Exchange",
       "url": "https://github.com/YaswanthNadh-coder/Nexus-Exchange",
       "status": "leaked",
@@ -10913,6 +10970,54 @@
           "type": "Private Key (RSA)",
           "file": "Commit dda73c6",
           "line": 58066,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "mobispecas-rgb/genesis-irollo-360",
+      "url": "https://github.com/mobispecas-rgb/genesis-irollo-360",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 135.89,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "genesis-irollo-360-main/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "genesis-irollo-360-main/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit a79e09a",
+          "line": 100166,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit a79e09a",
+          "line": 100601,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -24702,6 +24807,47 @@
           "type": "PostgreSQL Connection URI",
           "file": "playWright-demo-main/docs/testing/database/connection-db.md",
           "line": 238,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "rishijayanath24-cpu/Cloud-Native-Personal-Finance-Tracker",
+      "url": "https://github.com/rishijayanath24-cpu/Cloud-Native-Personal-Finance-Tracker",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.82,
+      "exposureScore": 44,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 3
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Cloud-Native-Personal-Finance-Tracker-master/docker-compose.yml",
+          "line": 72,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Cloud-Native-Personal-Finance-Tracker-master/docker-compose.yml",
+          "line": 99,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Cloud-Native-Personal-Finance-Tracker-master/docker-compose.yml",
+          "line": 125,
           "source": "file",
           "preview": "post************************5432"
         }
@@ -60696,6 +60842,33 @@
       ]
     },
     {
+      "repo": "nishkarshk212/Security-bot",
+      "url": "https://github.com/nishkarshk212/Security-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.86,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 30179a0",
+          "line": 20,
+          "source": "commit",
+          "preview": "8124************************8hsY"
+        }
+      ]
+    },
+    {
       "repo": "nithishkumar257/tools_recom",
       "url": "https://github.com/nithishkumar257/tools_recom",
       "status": "leaked",
@@ -70925,6 +71098,33 @@
           "line": 12,
           "source": "file",
           "preview": "AIza************************r1d0"
+        }
+      ]
+    },
+    {
+      "repo": "Amanpandey2005/AI-Engineer-Assignment-3",
+      "url": "https://github.com/Amanpandey2005/AI-Engineer-Assignment-3",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.01,
+      "exposureScore": 20,
+      "topTypes": [
+        "HuggingFace Token"
+      ],
+      "typeCounts": {
+        "HuggingFace Token": 1
+      },
+      "findings": [
+        {
+          "type": "HuggingFace Token",
+          "file": "AI-Engineer-Assignment-3-main/app.py",
+          "line": 9,
+          "source": "file",
+          "preview": "hf_Q************************AraY"
         }
       ]
     },
@@ -103491,6 +103691,33 @@
       ]
     },
     {
+      "repo": "doshinikunjk-code/TickerEdge2026-",
+      "url": "https://github.com/doshinikunjk-code/TickerEdge2026-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.28,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "TickerEdge2026--main/server.js",
+          "line": 21,
+          "source": "file",
+          "preview": "AIza************************9Txc"
+        }
+      ]
+    },
+    {
       "repo": "dragonb98/Dg-Bhai-2.0",
       "url": "https://github.com/dragonb98/Dg-Bhai-2.0",
       "status": "leaked",
@@ -110484,6 +110711,33 @@
       ]
     },
     {
+      "repo": "hidecard/mm-match",
+      "url": "https://github.com/hidecard/mm-match",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "mm-match-main/.env",
+          "line": 4,
+          "source": "file",
+          "preview": "7704************************Fm48"
+        }
+      ]
+    },
+    {
       "repo": "hidytech-a11y/Ecommerce",
       "url": "https://github.com/hidytech-a11y/Ecommerce",
       "status": "leaked",
@@ -117450,6 +117704,33 @@
       ]
     },
     {
+      "repo": "kunalsharma0709/feeltonebackend",
+      "url": "https://github.com/kunalsharma0709/feeltonebackend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.86,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "feeltonebackend-master/database/db.js",
+          "line": 3,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "kuncarmitb23-ctrl/moje-supabase-app",
       "url": "https://github.com/kuncarmitb23-ctrl/moje-supabase-app",
       "status": "leaked",
@@ -117932,6 +118213,33 @@
           "line": 4,
           "source": "file",
           "preview": "sk-o************************551d"
+        }
+      ]
+    },
+    {
+      "repo": "lakshmihasini987-bit/login-page-sign-up-page",
+      "url": "https://github.com/lakshmihasini987-bit/login-page-sign-up-page",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.68,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "login-page-sign-up-page-main/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************htkU"
         }
       ]
     },
@@ -129677,6 +129985,33 @@
           "line": 22,
           "source": "file",
           "preview": "8742************************UZQY"
+        }
+      ]
+    },
+    {
+      "repo": "recif-platform/recif-operator",
+      "url": "https://github.com/recif-platform/recif-operator",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 77.64,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "recif-operator-main/README.md",
+          "line": 179,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
