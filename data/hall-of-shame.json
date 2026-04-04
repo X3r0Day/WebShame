@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T09:48:20.550826+00:00",
+  "generatedAt": "2026-04-04T10:15:46.106340+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -9644,6 +9644,54 @@
       ]
     },
     {
+      "repo": "RishiByte/COntest-repo",
+      "url": "https://github.com/RishiByte/COntest-repo",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 47.41,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "COntest-repo-main/node_modules/dotenv/README-es.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "COntest-repo-main/node_modules/dotenv/README.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 0b21fee",
+          "line": 12994,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 0b21fee",
+          "line": 13742,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "Riteshh82/chat-server",
       "url": "https://github.com/Riteshh82/chat-server",
       "status": "leaked",
@@ -10504,6 +10552,54 @@
           "line": 949,
           "source": "commit",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "febieannn/Mombay_Portfolio",
+      "url": "https://github.com/febieannn/Mombay_Portfolio",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 134.2,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Mombay_Portfolio-main/node_modules/dotenv/README-es.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Mombay_Portfolio-main/node_modules/dotenv/README.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit ef69904",
+          "line": 56849,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit ef69904",
+          "line": 57597,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -138406,6 +138502,33 @@
           "line": 9,
           "source": "file",
           "preview": "8334************************qfB8"
+        }
+      ]
+    },
+    {
+      "repo": "williamyang2024/pdf2md",
+      "url": "https://github.com/williamyang2024/pdf2md",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.8,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenAI API Key (Legacy)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Legacy)": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "pdf2md-main/convert_and_beautify.py",
+          "line": 27,
+          "source": "file",
+          "preview": "sk-q************************vxeb"
         }
       ]
     },
