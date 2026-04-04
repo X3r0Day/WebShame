@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T19:20:06.934643+00:00",
+  "generatedAt": "2026-04-04T19:55:18.056425+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -11027,6 +11027,54 @@
           "type": "Private Key (RSA)",
           "file": "Commit 6f4a476",
           "line": 62102,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "kevinGarciaOrtega/ForexBack",
+      "url": "https://github.com/kevinGarciaOrtega/ForexBack",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 137.76,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "ForexBack-main/node_modules/dotenv/README-es.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "ForexBack-main/node_modules/dotenv/README.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 0f72d48",
+          "line": 202985,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 0f72d48",
+          "line": 203733,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -32495,6 +32543,42 @@
           "line": 1710,
           "source": "file",
           "preview": "http************************XXXX"
+        }
+      ]
+    },
+    {
+      "repo": "bekosng/dumbulo-bot5",
+      "url": "https://github.com/bekosng/dumbulo-bot5",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.43,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "dumbulo-bot5-main/main.env",
+          "line": 1,
+          "source": "file",
+          "preview": "8778************************bJi0"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "dumbulo-bot5-main/main.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -55870,6 +55954,33 @@
       ]
     },
     {
+      "repo": "hassanatwi92/AtwiGPT",
+      "url": "https://github.com/hassanatwi92/AtwiGPT",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.31,
+      "exposureScore": 30,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "Commit f58c0c7",
+          "line": 95,
+          "source": "commit",
+          "preview": "sk-o************************f8c5"
+        }
+      ]
+    },
+    {
       "repo": "hassanjan1841/devbrain-saas",
       "url": "https://github.com/hassanjan1841/devbrain-saas",
       "status": "leaked",
@@ -73092,6 +73203,33 @@
           "line": 300,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "Bacteria007/MarketBackend",
+      "url": "https://github.com/Bacteria007/MarketBackend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.3,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "MarketBackend-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -111382,6 +111520,33 @@
       ]
     },
     {
+      "repo": "hexray1/hydradrop-global",
+      "url": "https://github.com/hexray1/hydradrop-global",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.38,
+      "exposureScore": 20,
+      "topTypes": [
+        "MySQL/MariaDB Connection URI"
+      ],
+      "typeCounts": {
+        "MySQL/MariaDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "hydradrop-global-main/docker-compose.yml",
+          "line": 42,
+          "source": "file",
+          "preview": "mysq************************3306"
+        }
+      ]
+    },
+    {
       "repo": "heyab-gebremariam/stark-mcp-agent",
       "url": "https://github.com/heyab-gebremariam/stark-mcp-agent",
       "status": "leaked",
@@ -120855,6 +121020,33 @@
           "line": 10,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "madhavgharmalkar/slack3",
+      "url": "https://github.com/madhavgharmalkar/slack3",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.09,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "slack3-main/glimpse/settings.py",
+          "line": 97,
+          "source": "file",
+          "preview": "post************************.com"
         }
       ]
     },
