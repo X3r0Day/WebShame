@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T18:10:09.227956+00:00",
+  "generatedAt": "2026-04-04T18:37:49.417942+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -11552,6 +11552,54 @@
       ]
     },
     {
+      "repo": "tushar-yeola/habit-tracker",
+      "url": "https://github.com/tushar-yeola/habit-tracker",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 123.78,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "habit-tracker-main/node_modules/dotenv/README-es.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "habit-tracker-main/node_modules/dotenv/README.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 501dc08",
+          "line": 55204,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 501dc08",
+          "line": 55952,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "urvashidab/BookStoreComplete",
       "url": "https://github.com/urvashidab/BookStoreComplete",
       "status": "leaked",
@@ -21355,6 +21403,40 @@
       ]
     },
     {
+      "repo": "Sep-Gob-Mx/SIGED-certificado-preparatoria-autenticacion-GAGV931208MNLRMV08",
+      "url": "https://github.com/Sep-Gob-Mx/SIGED-certificado-preparatoria-autenticacion-GAGV931208MNLRMV08",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 30.29,
+      "exposureScore": 52,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 8951ed1",
+          "line": 203,
+          "source": "commit",
+          "preview": "AIza************************nsaM"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 8951ed1",
+          "line": 47186,
+          "source": "commit",
+          "preview": "AIza************************w-jM"
+        }
+      ]
+    },
+    {
       "repo": "Sep-Gob-Mx/SIGED-certificado-preparatoria-autenticacion-RASA771120HGRMLL07",
       "url": "https://github.com/Sep-Gob-Mx/SIGED-certificado-preparatoria-autenticacion-RASA771120HGRMLL07",
       "status": "leaked",
@@ -26311,6 +26393,40 @@
       ]
     },
     {
+      "repo": "Jeetsingh12/9man-legend-boy-e2e-4apr2026",
+      "url": "https://github.com/Jeetsingh12/9man-legend-boy-e2e-4apr2026",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.62,
+      "exposureScore": 42,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 2
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "9man-legend-boy-e2e-4apr2026-main/streamlit_app royl.py",
+          "line": 272,
+          "source": "file",
+          "preview": "8782************************Nm88"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit b525a77",
+          "line": 37,
+          "source": "commit",
+          "preview": "8752************************z5ZA"
+        }
+      ]
+    },
+    {
       "repo": "Jones-Latras/jltrs-portfolio",
       "url": "https://github.com/Jones-Latras/jltrs-portfolio",
       "status": "leaked",
@@ -28719,6 +28835,40 @@
           "type": "Private Key (RSA)",
           "file": "Commit e3d3542",
           "line": 78763,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "issamkebdani780/artisan-backend",
+      "url": "https://github.com/issamkebdani780/artisan-backend",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 76.13,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "artisan-backend-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 079c0af",
+          "line": 88538,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -45224,6 +45374,33 @@
       ]
     },
     {
+      "repo": "Krishil-Patel/Stock-Manager",
+      "url": "https://github.com/Krishil-Patel/Stock-Manager",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 26.44,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit c57e8ee",
+          "line": 39,
+          "source": "commit",
+          "preview": "AIza************************gnNI"
+        }
+      ]
+    },
+    {
       "repo": "Kumarutsav1102/Food-order-website",
       "url": "https://github.com/Kumarutsav1102/Food-order-website",
       "status": "leaked",
@@ -58643,6 +58820,33 @@
       ]
     },
     {
+      "repo": "luxfi/genesis",
+      "url": "https://github.com/luxfi/genesis",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 62.59,
+      "exposureScore": 30,
+      "topTypes": [
+        "Private Key (PKCS8)"
+      ],
+      "typeCounts": {
+        "Private Key (PKCS8)": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (PKCS8)",
+          "file": "Commit 2b46a8b",
+          "line": 260339,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "lyqaswqasw-cpu/loop-live-v2",
       "url": "https://github.com/lyqaswqasw-cpu/loop-live-v2",
       "status": "leaked",
@@ -61339,6 +61543,33 @@
           "line": 75,
           "source": "commit",
           "preview": "eyJh************************FLDY"
+        }
+      ]
+    },
+    {
+      "repo": "officielcita-sudo/Cad-lol-Staff-Apply",
+      "url": "https://github.com/officielcita-sudo/Cad-lol-Staff-Apply",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.63,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 383e825",
+          "line": 280,
+          "source": "commit",
+          "preview": "http************************M9OC"
         }
       ]
     },
@@ -140881,6 +141112,33 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************7LUY"
+        }
+      ]
+    },
+    {
+      "repo": "wenkangwei/content-supply",
+      "url": "https://github.com/wenkangwei/content-supply",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.55,
+      "exposureScore": 20,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 1
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "content-supply-master/configs/hot_sources.yaml",
+          "line": 55,
+          "source": "file",
+          "preview": "http************************json"
         }
       ]
     },
