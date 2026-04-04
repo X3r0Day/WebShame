@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T10:15:46.106340+00:00",
+  "generatedAt": "2026-04-04T11:01:28.450694+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -20467,6 +20467,40 @@
           "line": 94,
           "source": "commit",
           "preview": "mong**********************7017"
+        }
+      ]
+    },
+    {
+      "repo": "EdithGoren/triplet-loss-per-research",
+      "url": "https://github.com/EdithGoren/triplet-loss-per-research",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 142.02,
+      "exposureScore": 52,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit ec3d704",
+          "line": 1503,
+          "source": "commit",
+          "preview": "AIza************************dYeg"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit ec3d704",
+          "line": 1577,
+          "source": "commit",
+          "preview": "AIza************************oqBk"
         }
       ]
     },
@@ -48164,6 +48198,33 @@
       ]
     },
     {
+      "repo": "Vk18dh/insurance-rag-system",
+      "url": "https://github.com/Vk18dh/insurance-rag-system",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.75,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 1ae17d3",
+          "line": 34,
+          "source": "commit",
+          "preview": "AIza************************w0nA"
+        }
+      ]
+    },
+    {
       "repo": "WHODABLA/THRONE-MARKETPLACE-",
       "url": "https://github.com/WHODABLA/THRONE-MARKETPLACE-",
       "status": "leaked",
@@ -72977,6 +73038,33 @@
       ]
     },
     {
+      "repo": "CodesByHarish/Kinetix",
+      "url": "https://github.com/CodesByHarish/Kinetix",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 28.16,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Kinetix-main/kinetix/backend/node_modules/pg-pool/README.md",
+          "line": 74,
+          "source": "file",
+          "preview": "post************************####"
+        }
+      ]
+    },
+    {
       "repo": "CodingMonkey19/GoogleAIStudioUpwork",
       "url": "https://github.com/CodingMonkey19/GoogleAIStudioUpwork",
       "status": "leaked",
@@ -75943,6 +76031,33 @@
           "line": 5,
           "source": "file",
           "preview": "AIza************************SIJw"
+        }
+      ]
+    },
+    {
+      "repo": "Graveetee/Bus-Ticketing-System",
+      "url": "https://github.com/Graveetee/Bus-Ticketing-System",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.72,
+      "exposureScore": 20,
+      "topTypes": [
+        "Stripe Secret Key"
+      ],
+      "typeCounts": {
+        "Stripe Secret Key": 1
+      },
+      "findings": [
+        {
+          "type": "Stripe Secret Key",
+          "file": "Bus-Ticketing-System-main/bus_ticketing/settings.py",
+          "line": 137,
+          "source": "file",
+          "preview": "sk_t************************e769"
         }
       ]
     },
@@ -80074,6 +80189,33 @@
           "line": 44,
           "source": "file",
           "preview": "8610************************-htM"
+        }
+      ]
+    },
+    {
+      "repo": "Mahad811/Health-Compass",
+      "url": "https://github.com/Mahad811/Health-Compass",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 27.77,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Health-Compass-main/docker-compose.yml",
+          "line": 41,
+          "source": "file",
+          "preview": "AIza************************O1w0"
         }
       ]
     },
