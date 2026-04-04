@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T11:01:28.450694+00:00",
+  "generatedAt": "2026-04-04T11:30:03.982773+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -51627,6 +51627,33 @@
       ]
     },
     {
+      "repo": "chaahhh/stake",
+      "url": "https://github.com/chaahhh/stake",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.97,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 8ed5f22",
+          "line": 245,
+          "source": "commit",
+          "preview": "http************************Fuac"
+        }
+      ]
+    },
+    {
       "repo": "chadyyyy/football-bot",
       "url": "https://github.com/chadyyyy/football-bot",
       "status": "leaked",
@@ -86187,6 +86214,33 @@
       ]
     },
     {
+      "repo": "SaurabhTomer/resume-screener",
+      "url": "https://github.com/SaurabhTomer/resume-screener",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.96,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "resume-screener-main/backend/test.js",
+          "line": 3,
+          "source": "file",
+          "preview": "AIza************************Jgbo"
+        }
+      ]
+    },
+    {
       "repo": "Sawom/level2-b5-ph-health-care-frontend",
       "url": "https://github.com/Sawom/level2-b5-ph-health-care-frontend",
       "status": "leaked",
@@ -86642,6 +86696,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************N1ns"
+        }
+      ]
+    },
+    {
+      "repo": "Shohruh-coder/cryltolatin",
+      "url": "https://github.com/Shohruh-coder/cryltolatin",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.78,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "cryltolatin-main/bot.py",
+          "line": 28,
+          "source": "file",
+          "preview": "8573************************0pZI"
         }
       ]
     },
@@ -130089,6 +130170,33 @@
       ]
     },
     {
+      "repo": "sawason/Eco-Reporter-Citoyennet-Environnement-",
+      "url": "https://github.com/sawason/Eco-Reporter-Citoyennet-Environnement-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.32,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Eco-Reporter-Citoyennet-Environnement--main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************N8Bc"
+        }
+      ]
+    },
+    {
       "repo": "sb9462008-creator/backend",
       "url": "https://github.com/sb9462008-creator/backend",
       "status": "leaked",
@@ -130517,6 +130625,33 @@
           "line": 12,
           "source": "file",
           "preview": "8714************************Oe68"
+        }
+      ]
+    },
+    {
+      "repo": "seyit-tekce/Dev.Aigen.QueryEngine",
+      "url": "https://github.com/seyit-tekce/Dev.Aigen.QueryEngine",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.33,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Dev.Aigen.QueryEngine-master/Dev.Aigen.QueryEngine.Tests/Unit/Connection/ConnectionConfigBuilderTests.cs",
+          "line": 39,
+          "source": "file",
+          "preview": "post************************tech"
         }
       ]
     },
