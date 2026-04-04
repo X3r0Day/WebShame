@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T06:29:38.265715+00:00",
+  "generatedAt": "2026-04-04T07:32:03.798233+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -95919,6 +95919,33 @@
           "line": 48,
           "source": "file",
           "preview": "8286************************Ylfc"
+        }
+      ]
+    },
+    {
+      "repo": "bobwares/customer-profile-app",
+      "url": "https://github.com/bobwares/customer-profile-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.84,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "customer-profile-app-main/app/docker-compose.yml",
+          "line": 39,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
