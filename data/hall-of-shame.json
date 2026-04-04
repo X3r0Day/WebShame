@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T13:30:36.278342+00:00",
+  "generatedAt": "2026-04-04T14:19:38.281295+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -6250,6 +6250,63 @@
           "type": "Private Key (RSA)",
           "file": "Commit 540f149",
           "line": 92850,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "vipulojha/-POS-System",
+      "url": "https://github.com/vipulojha/-POS-System",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 5,
+      "uniqueTypes": 2,
+      "filesAffected": 4,
+      "commitFindings": 2,
+      "scanTimeSeconds": 95.12,
+      "exposureScore": 96,
+      "topTypes": [
+        "Private Key (RSA)",
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4,
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "-POS-System-main/backend/node_modules/dotenv/README-es.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "-POS-System-main/backend/node_modules/dotenv/README.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "-POS-System-main/backend/node_modules/pg-pool/README.md",
+          "line": 74,
+          "source": "file",
+          "preview": "post************************####"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 785fcf3",
+          "line": 20060,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 785fcf3",
+          "line": 20808,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -54477,6 +54534,33 @@
       ]
     },
     {
+      "repo": "hackermind121358-collab/aiimgeditor42",
+      "url": "https://github.com/hackermind121358-collab/aiimgeditor42",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.03,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit f293434",
+          "line": 33,
+          "source": "commit",
+          "preview": "8702************************jTy4"
+        }
+      ]
+    },
+    {
       "repo": "halilgoren20/neonglow",
       "url": "https://github.com/halilgoren20/neonglow",
       "status": "leaked",
@@ -61119,6 +61203,33 @@
       ]
     },
     {
+      "repo": "pd726585-max/quan-li-chi-tieu",
+      "url": "https://github.com/pd726585-max/quan-li-chi-tieu",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.8,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 90acba4",
+          "line": 132,
+          "source": "commit",
+          "preview": "AIza************************vK1E"
+        }
+      ]
+    },
+    {
       "repo": "personal70035-bit/aqua-quence-app",
       "url": "https://github.com/personal70035-bit/aqua-quence-app",
       "status": "leaked",
@@ -66735,6 +66846,33 @@
       ]
     },
     {
+      "repo": "utkrishthrav-gif/protfolio",
+      "url": "https://github.com/utkrishthrav-gif/protfolio",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 6.6,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 775d4df",
+          "line": 47,
+          "source": "commit",
+          "preview": "AIza************************KCM8"
+        }
+      ]
+    },
+    {
       "repo": "vaishu109/HTML",
       "url": "https://github.com/vaishu109/HTML",
       "status": "leaked",
@@ -70781,6 +70919,33 @@
           "line": 11,
           "source": "file",
           "preview": "AIza************************pN_s"
+        }
+      ]
+    },
+    {
+      "repo": "ArkanFzi/Pickertime",
+      "url": "https://github.com/ArkanFzi/Pickertime",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.71,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Pickertime-main/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "AIza************************a0nU"
         }
       ]
     },
@@ -83205,6 +83370,33 @@
       ]
     },
     {
+      "repo": "PHDevTechSolutions/biolog",
+      "url": "https://github.com/PHDevTechSolutions/biolog",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 34.72,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "biolog-main/README.md",
+          "line": 20,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "PRASANAMBIGAI/CrisisGaurd",
       "url": "https://github.com/PRASANAMBIGAI/CrisisGaurd",
       "status": "leaked",
@@ -84522,6 +84714,33 @@
           "type": "PostgreSQL Connection URI",
           "file": "IndiaGPT-main/database/db.py",
           "line": 4,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "RajAkash01/WTFLivePulse",
+      "url": "https://github.com/RajAkash01/WTFLivePulse",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.02,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "WTFLivePulse-master/docker-compose.yml",
+          "line": 22,
           "source": "file",
           "preview": "post************************5432"
         }
@@ -137903,6 +138122,33 @@
           "line": 16,
           "source": "file",
           "preview": "http************************dQRq"
+        }
+      ]
+    },
+    {
+      "repo": "vijayalakshmi270605/final_year_project",
+      "url": "https://github.com/vijayalakshmi270605/final_year_project",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.38,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "final_year_project-main/gemini_handler.py",
+          "line": 4,
+          "source": "file",
+          "preview": "AIza************************MTRw"
         }
       ]
     },
