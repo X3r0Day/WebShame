@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T00:00:02.867176+00:00",
+  "generatedAt": "2026-04-04T01:18:34.539354+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -27571,6 +27571,40 @@
           "line": 18,
           "source": "commit",
           "preview": "5895************************R3Qk"
+        }
+      ]
+    },
+    {
+      "repo": "git-mugassn/12",
+      "url": "https://github.com/git-mugassn/12",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.95,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (OPENSSH)"
+      ],
+      "typeCounts": {
+        "Private Key (OPENSSH)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (OPENSSH)",
+          "file": "12-main/key.txt",
+          "line": 1,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (OPENSSH)",
+          "file": "Commit 0785933",
+          "line": 26,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -56648,6 +56682,33 @@
           "line": 2274,
           "source": "commit",
           "preview": "eyJh************************grJ8"
+        }
+      ]
+    },
+    {
+      "repo": "linearlttt/lIlIlIll",
+      "url": "https://github.com/linearlttt/lIlIlIll",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.4,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 216966e",
+          "line": 57,
+          "source": "commit",
+          "preview": "http************************JN_m"
         }
       ]
     },
@@ -94124,6 +94185,33 @@
           "line": 31,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "aydenharding69-cell/Ihope",
+      "url": "https://github.com/aydenharding69-cell/Ihope",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.76,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Ihope-main/Slobos-AFK-BOT-main/Slobos-AFK-BOT-main/settings.json",
+          "line": 81,
+          "source": "file",
+          "preview": "http************************Nqm3"
         }
       ]
     },
