@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T01:18:34.539354+00:00",
+  "generatedAt": "2026-04-04T03:50:34.554044+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -49878,6 +49878,33 @@
           "line": 18,
           "source": "commit",
           "preview": "AIza************************0rYA"
+        }
+      ]
+    },
+    {
+      "repo": "bachoreesw-sudo/bkr-nexus-sys-workshoop",
+      "url": "https://github.com/bachoreesw-sudo/bkr-nexus-sys-workshoop",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.03,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit bab234f",
+          "line": 244,
+          "source": "commit",
+          "preview": "AIza************************fmDk"
         }
       ]
     },
