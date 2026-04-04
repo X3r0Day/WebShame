@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T16:04:15.782480+00:00",
+  "generatedAt": "2026-04-04T16:22:42.551000+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -41985,6 +41985,33 @@
       ]
     },
     {
+      "repo": "Arthur20042007/se-toolkit-hackathon",
+      "url": "https://github.com/Arthur20042007/se-toolkit-hackathon",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 9.24,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 6695733",
+          "line": 18,
+          "source": "commit",
+          "preview": "AIza************************8Vug"
+        }
+      ]
+    },
+    {
       "repo": "Aryan3005/SafeNav_SeniorYear",
       "url": "https://github.com/Aryan3005/SafeNav_SeniorYear",
       "status": "leaked",
@@ -57348,6 +57375,33 @@
       ]
     },
     {
+      "repo": "krpcristales/hyper-automation",
+      "url": "https://github.com/krpcristales/hyper-automation",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.34,
+      "exposureScore": 30,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "Commit a7f151a",
+          "line": 143,
+          "source": "commit",
+          "preview": "sk-o************************3527"
+        }
+      ]
+    },
+    {
       "repo": "kryptobolt07/recursion",
       "url": "https://github.com/kryptobolt07/recursion",
       "status": "leaked",
@@ -67685,6 +67739,33 @@
           "line": 98,
           "source": "commit",
           "preview": "http************************8TUa"
+        }
+      ]
+    },
+    {
+      "repo": "whanikkim-ux/calorie-tracker",
+      "url": "https://github.com/whanikkim-ux/calorie-tracker",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.02,
+      "exposureScore": 30,
+      "topTypes": [
+        "Anthropic API Key"
+      ],
+      "typeCounts": {
+        "Anthropic API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Anthropic API Key",
+          "file": "Commit c590636",
+          "line": 252,
+          "source": "commit",
+          "preview": "sk-a************************ggAA"
         }
       ]
     },
@@ -81054,6 +81135,33 @@
       ]
     },
     {
+      "repo": "ManvithaDantuluri/smartshift-plus",
+      "url": "https://github.com/ManvithaDantuluri/smartshift-plus",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 21.16,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "smartshift-plus-main/docker-compose.yml",
+          "line": 30,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Maqsood32595/Fractal-Deterministic-Agent-Tunnel",
       "url": "https://github.com/Maqsood32595/Fractal-Deterministic-Agent-Tunnel",
       "status": "leaked",
@@ -81401,6 +81509,33 @@
           "line": 1,
           "source": "file",
           "preview": "AKIA************DPLF"
+        }
+      ]
+    },
+    {
+      "repo": "MedixAI/CVision-AI",
+      "url": "https://github.com/MedixAI/CVision-AI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 19.23,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "CVision-AI-main/BACKUP/Skill Extraction Model/maiin.py",
+          "line": 11,
+          "source": "file",
+          "preview": "sk-o************************da80"
         }
       ]
     },
@@ -83993,6 +84128,33 @@
           "line": 5,
           "source": "file",
           "preview": "8640************************zO5o"
+        }
+      ]
+    },
+    {
+      "repo": "Playitcooool/hermes-skills",
+      "url": "https://github.com/Playitcooool/hermes-skills",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.95,
+      "exposureScore": 20,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 1
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "hermes-skills-main/skills/daily-tutorial-pipeline/SKILL.md",
+          "line": 18,
+          "source": "file",
+          "preview": "http************************json"
         }
       ]
     },
@@ -86805,6 +86967,33 @@
       ]
     },
     {
+      "repo": "Sandeep7e/AI-PPT-Generator",
+      "url": "https://github.com/Sandeep7e/AI-PPT-Generator",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.23,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "AI-PPT-Generator-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "AIza************************li8A"
+        }
+      ]
+    },
+    {
       "repo": "Sanduni0601/hiru_bot",
       "url": "https://github.com/Sanduni0601/hiru_bot",
       "status": "leaked",
@@ -87017,6 +87206,33 @@
           "line": 595,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "Sayanduary/resume-builder-genai",
+      "url": "https://github.com/Sayanduary/resume-builder-genai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.51,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "resume-builder-genai-main/server/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -125766,6 +125982,33 @@
       ]
     },
     {
+      "repo": "paguevan-lgtm/LandingBDV",
+      "url": "https://github.com/paguevan-lgtm/LandingBDV",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 19.94,
+      "exposureScore": 20,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 1
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "LandingBDV-main/painel/api/index.ts",
+          "line": 51,
+          "source": "file",
+          "preview": "http************************json"
+        }
+      ]
+    },
+    {
       "repo": "painelsell-uiasa/telegram-mail-bot",
       "url": "https://github.com/painelsell-uiasa/telegram-mail-bot",
       "status": "leaked",
@@ -140045,6 +140288,33 @@
           "line": 260,
           "source": "file",
           "preview": "8221************************cJkI"
+        }
+      ]
+    },
+    {
+      "repo": "whaodu/douyin-download-skill",
+      "url": "https://github.com/whaodu/douyin-download-skill",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.16,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenAI API Key (Legacy)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Legacy)": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "douyin-download-skill-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "sk-l************************igdr"
         }
       ]
     },
