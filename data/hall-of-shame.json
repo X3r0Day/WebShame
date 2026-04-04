@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T18:37:49.417942+00:00",
+  "generatedAt": "2026-04-04T19:20:06.934643+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -5629,6 +5629,63 @@
       ]
     },
     {
+      "repo": "Leonhardiv94/verlisshop",
+      "url": "https://github.com/Leonhardiv94/verlisshop",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 5,
+      "uniqueTypes": 2,
+      "filesAffected": 4,
+      "commitFindings": 2,
+      "scanTimeSeconds": 162.16,
+      "exposureScore": 96,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "verlisshop-main/backend/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************7017"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "verlisshop-main/backend/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "verlisshop-main/backend/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 677aa9b",
+          "line": 71220,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 677aa9b",
+          "line": 71655,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "MOHANKUMARM11/digital-library",
       "url": "https://github.com/MOHANKUMARM11/digital-library",
       "status": "leaked",
@@ -10538,6 +10595,54 @@
           "type": "Private Key (RSA)",
           "file": "Commit 51a175d",
           "line": 21358,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "chandankr17/Finance-Dashboard",
+      "url": "https://github.com/chandankr17/Finance-Dashboard",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 208.38,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Finance-Dashboard-main/node_modules/dotenv/README-es.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Finance-Dashboard-main/node_modules/dotenv/README.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit d443944",
+          "line": 62847,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit d443944",
+          "line": 63595,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -19642,6 +19747,47 @@
           "line": 93,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "Diptanil-Sen/meditwin",
+      "url": "https://github.com/Diptanil-Sen/meditwin",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 26.61,
+      "exposureScore": 54,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 3
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "meditwin-main/backend/routes/api.py",
+          "line": 8,
+          "source": "file",
+          "preview": "AIza************************viQ0"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "meditwin-main/frontend/src/components/GeminiChat.jsx",
+          "line": 3,
+          "source": "file",
+          "preview": "AIza************************5M5s"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 9dda8bb",
+          "line": 46,
+          "source": "commit",
+          "preview": "AIza************************5LbU"
         }
       ]
     },
@@ -31845,6 +31991,42 @@
           "line": 10,
           "source": "file",
           "preview": "redi***********************379\""
+        }
+      ]
+    },
+    {
+      "repo": "TiBaff/savemod",
+      "url": "https://github.com/TiBaff/savemod",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.36,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "savemod-main/bot.py",
+          "line": 31,
+          "source": "file",
+          "preview": "8771************************LXSU"
+        },
+        {
+          "type": "OpenRouter API Key",
+          "file": "savemod-main/bot.py",
+          "line": 32,
+          "source": "file",
+          "preview": "sk-o************************2434"
         }
       ]
     },
@@ -44645,6 +44827,33 @@
       ]
     },
     {
+      "repo": "IIIRN/3rn-order",
+      "url": "https://github.com/IIIRN/3rn-order",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 12.8,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 03ee3fd",
+          "line": 17,
+          "source": "commit",
+          "preview": "AIza************************O3vg"
+        }
+      ]
+    },
+    {
       "repo": "Ibbnpvh/Ebd-digital",
       "url": "https://github.com/Ibbnpvh/Ebd-digital",
       "status": "leaked",
@@ -50041,6 +50250,33 @@
           "line": 4285,
           "source": "commit",
           "preview": "http************************0Y87"
+        }
+      ]
+    },
+    {
+      "repo": "alejandrofernandezardanuy/StudyFlow",
+      "url": "https://github.com/alejandrofernandezardanuy/StudyFlow",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 6.37,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 1e706d1",
+          "line": 12029,
+          "source": "commit",
+          "preview": "AIza************************DAAU"
         }
       ]
     },
@@ -80906,6 +81142,33 @@
       ]
     },
     {
+      "repo": "LevonHar/Online-Education-App",
+      "url": "https://github.com/LevonHar/Online-Education-App",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.22,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Online-Education-App-master/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************m1-s"
+        }
+      ]
+    },
+    {
       "repo": "Lilianxsi/gato-multiplayer-unison",
       "url": "https://github.com/Lilianxsi/gato-multiplayer-unison",
       "status": "leaked",
@@ -108469,6 +108732,33 @@
           "line": 12,
           "source": "file",
           "preview": "8693************************Inrk"
+        }
+      ]
+    },
+    {
+      "repo": "fishisgood/safesurf",
+      "url": "https://github.com/fishisgood/safesurf",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 184.31,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "fishisgood-safesurf-b8e37c0/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************q6Aw"
         }
       ]
     },
