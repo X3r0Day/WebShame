@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T21:53:48.123185+00:00",
+  "generatedAt": "2026-04-04T22:11:02.403402+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -16481,6 +16481,49 @@
           "line": 12381,
           "source": "commit",
           "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "olivestackscode/PresiboExpo",
+      "url": "https://github.com/olivestackscode/PresiboExpo",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 21.93,
+      "exposureScore": 62,
+      "topTypes": [
+        "OpenRouter API Key",
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1,
+        "OpenRouter API Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "PresiboExpo-main/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************w3M8"
+        },
+        {
+          "type": "OpenRouter API Key",
+          "file": "PresiboExpo-main/src/utils/constants.js",
+          "line": 41,
+          "source": "file",
+          "preview": "sk-o************************18aa"
+        },
+        {
+          "type": "OpenRouter API Key",
+          "file": "Commit 752ab8b",
+          "line": 4506,
+          "source": "commit",
+          "preview": "sk-o************************2b28"
         }
       ]
     },
@@ -85026,6 +85069,33 @@
       ]
     },
     {
+      "repo": "OmarEssameldinMousa/Dataset-registry-api",
+      "url": "https://github.com/OmarEssameldinMousa/Dataset-registry-api",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.49,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Dataset-registry-api-main/docker-compose.yml",
+          "line": 21,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Onety77/contrarian",
       "url": "https://github.com/Onety77/contrarian",
       "status": "leaked",
@@ -102144,6 +102214,33 @@
       ]
     },
     {
+      "repo": "cyraxs34345345345/wawawa",
+      "url": "https://github.com/cyraxs34345345345/wawawa",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.84,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "wawawa-main/.github/workflows/main.yml",
+          "line": 33,
+          "source": "file",
+          "preview": "http************************zSKc"
+        }
+      ]
+    },
+    {
       "repo": "dadoobato1-dev/tz",
       "url": "https://github.com/dadoobato1-dev/tz",
       "status": "leaked",
@@ -114992,6 +115089,33 @@
           "line": 13,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "jana-hagras/flutter-firebase-project",
+      "url": "https://github.com/jana-hagras/flutter-firebase-project",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 67.69,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "flutter-firebase-project-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************1zw8"
         }
       ]
     },
