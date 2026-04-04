@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T21:15:00.530502+00:00",
+  "generatedAt": "2026-04-04T21:53:48.123185+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -23591,6 +23591,47 @@
           "line": 550,
           "source": "commit",
           "preview": "8222************************c1Lk"
+        }
+      ]
+    },
+    {
+      "repo": "2tdev/One.AppGraph",
+      "url": "https://github.com/2tdev/One.AppGraph",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 0,
+      "scanTimeSeconds": 20.41,
+      "exposureScore": 44,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 3
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "One.AppGraph-main/One.Grafeno.App/App.config",
+          "line": 64,
+          "source": "file",
+          "preview": "mong************************net<"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "One.AppGraph-main/One.Grafeno.App/Properties/Settings.Designer.cs",
+          "line": 46,
+          "source": "file",
+          "preview": "mong************************t\")]"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "One.AppGraph-main/One.Grafeno.App/Startup.cs",
+          "line": 38,
+          "source": "file",
+          "preview": "mong************************et\","
         }
       ]
     },
@@ -111252,6 +111293,33 @@
           "line": 7,
           "source": "file",
           "preview": "8296************************wXaQ"
+        }
+      ]
+    },
+    {
+      "repo": "hardy88821-cell/Cold-Snos-",
+      "url": "https://github.com/hardy88821-cell/Cold-Snos-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.76,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Cold-Snos--main/Cold Snos.py",
+          "line": 9,
+          "source": "file",
+          "preview": "8521************************cWrY"
         }
       ]
     },
