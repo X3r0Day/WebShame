@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T23:11:53.537704+00:00",
+  "generatedAt": "2026-04-04T23:49:24.666016+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -6542,6 +6542,54 @@
           "line": 113080,
           "source": "commit",
           "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "Orthgnl/webhooker",
+      "url": "https://github.com/Orthgnl/webhooker",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 4,
+      "scanTimeSeconds": 2.28,
+      "exposureScore": 96,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 4
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit fa2503a",
+          "line": 237,
+          "source": "commit",
+          "preview": "http************************rDNa"
+        },
+        {
+          "type": "Discord Webhook",
+          "file": "Commit fa2503a",
+          "line": 238,
+          "source": "commit",
+          "preview": "http************************EDYN"
+        },
+        {
+          "type": "Discord Webhook",
+          "file": "Commit fa2503a",
+          "line": 239,
+          "source": "commit",
+          "preview": "http************************yLRx"
+        },
+        {
+          "type": "Discord Webhook",
+          "file": "Commit fa2503a",
+          "line": 240,
+          "source": "commit",
+          "preview": "http************************WFZP"
         }
       ]
     },
@@ -58706,6 +58754,33 @@
       ]
     },
     {
+      "repo": "kurdatana2353/snap",
+      "url": "https://github.com/kurdatana2353/snap",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.53,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 8635a5e",
+          "line": 86,
+          "source": "commit",
+          "preview": "8486************************6ImY"
+        }
+      ]
+    },
+    {
       "repo": "kwerrr/dreiner-kwer",
       "url": "https://github.com/kwerrr/dreiner-kwer",
       "status": "leaked",
@@ -81247,6 +81322,33 @@
           "line": 29,
           "source": "file",
           "preview": "sk-o************************2b14"
+        }
+      ]
+    },
+    {
+      "repo": "KoustubhAnturkar/distributed-systems-project-04-KoustubhAnturkar",
+      "url": "https://github.com/KoustubhAnturkar/distributed-systems-project-04-KoustubhAnturkar",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 62.92,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "distributed-systems-project-04-KoustubhAnturkar-main/README.md",
+          "line": 311,
+          "source": "file",
+          "preview": "mong************************7017"
         }
       ]
     },
