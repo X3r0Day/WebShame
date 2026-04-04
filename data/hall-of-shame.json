@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T07:32:03.798233+00:00",
+  "generatedAt": "2026-04-04T08:14:13.757027+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -9548,6 +9548,54 @@
       ]
     },
     {
+      "repo": "Praveena-592005/Code-Master",
+      "url": "https://github.com/Praveena-592005/Code-Master",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 180.22,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Code-Master-main/backend/node_modules/dotenv/README-es.md",
+          "line": 78,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Code-Master-main/backend/node_modules/dotenv/README.md",
+          "line": 110,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 9ae1ac4",
+          "line": 81710,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 9ae1ac4",
+          "line": 82153,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "PriyamvadhaT/digital-id-backend",
       "url": "https://github.com/PriyamvadhaT/digital-id-backend",
       "status": "leaked",
@@ -10886,6 +10934,54 @@
           "type": "Private Key (RSA)",
           "file": "Commit 2a5edb3",
           "line": 338196,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "rsaisachidhanandam-stack/Dockerizing-a-React-Application",
+      "url": "https://github.com/rsaisachidhanandam-stack/Dockerizing-a-React-Application",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 169.61,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Dockerizing-a-React-Application-main/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Dockerizing-a-React-Application-main/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 3334158",
+          "line": 152545,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 3334158",
+          "line": 152980,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -38414,6 +38510,40 @@
       ]
     },
     {
+      "repo": "kgpdeba/todo",
+      "url": "https://github.com/kgpdeba/todo",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.85,
+      "exposureScore": 32,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "todo-main/src/config/dbConnect.js",
+          "line": 3,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "todo-main/src/config/dbConnect.js",
+          "line": 4,
+          "source": "file",
+          "preview": "mong************************7017"
+        }
+      ]
+    },
+    {
       "repo": "kishore07kbp/bunk-tracer",
       "url": "https://github.com/kishore07kbp/bunk-tracer",
       "status": "leaked",
@@ -44025,6 +44155,33 @@
           "line": 16119,
           "source": "commit",
           "preview": "AKIA************MPLE"
+        }
+      ]
+    },
+    {
+      "repo": "Khushi241206/Ai-Customer-Support-Chatbot",
+      "url": "https://github.com/Khushi241206/Ai-Customer-Support-Chatbot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.74,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 2401886",
+          "line": 68,
+          "source": "commit",
+          "preview": "AIza************************aw7o"
         }
       ]
     },
@@ -59986,6 +60143,33 @@
       ]
     },
     {
+      "repo": "ohhox/WMS-System",
+      "url": "https://github.com/ohhox/WMS-System",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.85,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 75e51b1",
+          "line": 1401,
+          "source": "commit",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "ohjunho421/gov-support-alert",
       "url": "https://github.com/ohjunho421/gov-support-alert",
       "status": "leaked",
@@ -61602,6 +61786,33 @@
           "line": 648,
           "source": "commit",
           "preview": "AIza************************bbuE"
+        }
+      ]
+    },
+    {
+      "repo": "rajnishsingh61/Videochat",
+      "url": "https://github.com/rajnishsingh61/Videochat",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 8.97,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit f019fb7",
+          "line": 78,
+          "source": "commit",
+          "preview": "AIza************************vHXM"
         }
       ]
     },
@@ -74971,6 +75182,33 @@
       ]
     },
     {
+      "repo": "FutureTechVision-IN/sre-ai-synapse-core",
+      "url": "https://github.com/FutureTechVision-IN/sre-ai-synapse-core",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.49,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "sre-ai-synapse-core-main/docs/archive/AUTHENTICATION_WORKFLOW.md",
+          "line": 209,
+          "source": "file",
+          "preview": "AIza************************4QrX"
+        }
+      ]
+    },
+    {
       "repo": "G-YOGESWAR-REDDY/AI-EXAM-MONITORING",
       "url": "https://github.com/G-YOGESWAR-REDDY/AI-EXAM-MONITORING",
       "status": "leaked",
@@ -80070,6 +80308,33 @@
           "line": 1,
           "source": "file",
           "preview": "AIza************************xfkw"
+        }
+      ]
+    },
+    {
+      "repo": "MatthewdeHaas/personal-website-svelte",
+      "url": "https://github.com/MatthewdeHaas/personal-website-svelte",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.31,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "personal-website-svelte-main/docs/architecture.md",
+          "line": 217,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -93489,6 +93754,33 @@
           "line": 3,
           "source": "file",
           "preview": "AIza************************bwqg"
+        }
+      ]
+    },
+    {
+      "repo": "appdevkunal-sde/attendance_app",
+      "url": "https://github.com/appdevkunal-sde/attendance_app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 36.23,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "attendance_app-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************TZ1s"
         }
       ]
     },
@@ -125403,6 +125695,33 @@
           "line": 28,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "priyanka297-tech/Shopping-Cart-iOS-Application",
+      "url": "https://github.com/priyanka297-tech/Shopping-Cart-iOS-Application",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.0,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Shopping-Cart-iOS-Application-main/EasyCart/EasyCart/GoogleService-Info.plist",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************7yMo"
         }
       ]
     },
