@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T15:23:41.409722+00:00",
+  "generatedAt": "2026-04-04T16:04:15.782480+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -17981,6 +17981,42 @@
       ]
     },
     {
+      "repo": "jakeersfdc/bullforce-signals",
+      "url": "https://github.com/jakeersfdc/bullforce-signals",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 100.83,
+      "exposureScore": 60,
+      "topTypes": [
+        "PostgreSQL Connection URI",
+        "Stripe Secret Key"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1,
+        "Stripe Secret Key": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 922bf58",
+          "line": 315,
+          "source": "commit",
+          "preview": "post**********************5432"
+        },
+        {
+          "type": "Stripe Secret Key",
+          "file": "Commit 922bf58",
+          "line": 359,
+          "source": "commit",
+          "preview": "sk_t************************z9DZ"
+        }
+      ]
+    },
+    {
       "repo": "kochemlorenzo/casa_socorrista",
       "url": "https://github.com/kochemlorenzo/casa_socorrista",
       "status": "leaked",
@@ -32400,6 +32436,42 @@
       ]
     },
     {
+      "repo": "crossfff/trendradar",
+      "url": "https://github.com/crossfff/trendradar",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 84.86,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Slack Webhook"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Slack Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "trendradar-master/README-EN.md",
+          "line": 1376,
+          "source": "file",
+          "preview": "1234************************m9T0"
+        },
+        {
+          "type": "Slack Webhook",
+          "file": "trendradar-master/README-EN.md",
+          "line": 1731,
+          "source": "file",
+          "preview": "http************************XXXX"
+        }
+      ]
+    },
+    {
       "repo": "denisDolotov95/TelebotServiceGateIo",
       "url": "https://github.com/denisDolotov95/TelebotServiceGateIo",
       "status": "leaked",
@@ -39932,6 +40004,40 @@
           "line": 10,
           "source": "file",
           "preview": "AIza************************Vels"
+        }
+      ]
+    },
+    {
+      "repo": "samuelindra123/soplantila",
+      "url": "https://github.com/samuelindra123/soplantila",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 31.27,
+      "exposureScore": 32,
+      "topTypes": [
+        "Redis Connection URI (Password)"
+      ],
+      "typeCounts": {
+        "Redis Connection URI (Password)": 2
+      },
+      "findings": [
+        {
+          "type": "Redis Connection URI (Password)",
+          "file": "soplantila-main/STEP1_COMPLETE.md",
+          "line": 59,
+          "source": "file",
+          "preview": "redi************************6379"
+        },
+        {
+          "type": "Redis Connection URI (Password)",
+          "file": "soplantila-main/apps/server/REDIS_SETUP.md",
+          "line": 36,
+          "source": "file",
+          "preview": "redi************************6379"
         }
       ]
     },
@@ -52486,6 +52592,33 @@
           "line": 4258,
           "source": "commit",
           "preview": "http************************json"
+        }
+      ]
+    },
+    {
+      "repo": "coubegyou-jpg/NAVIEXE",
+      "url": "https://github.com/coubegyou-jpg/NAVIEXE",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.84,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit f250fa2",
+          "line": 140,
+          "source": "commit",
+          "preview": "AIza************************3tK4"
         }
       ]
     },
@@ -84512,6 +84645,33 @@
       ]
     },
     {
+      "repo": "PujithaThatikonda/trendpulse-tpujitha",
+      "url": "https://github.com/PujithaThatikonda/trendpulse-tpujitha",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.58,
+      "exposureScore": 20,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 1
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "trendpulse-tpujitha-main/task1_data_collection.py",
+          "line": 7,
+          "source": "file",
+          "preview": "http************************json"
+        }
+      ]
+    },
+    {
       "repo": "PuvaanRaaj/claude-gitlab-analytics",
       "url": "https://github.com/PuvaanRaaj/claude-gitlab-analytics",
       "status": "leaked",
@@ -93634,6 +93794,33 @@
           "line": 3,
           "source": "file",
           "preview": "AIza************************NMcg"
+        }
+      ]
+    },
+    {
+      "repo": "amannsinghh3028/ShadowSafe_Ai",
+      "url": "https://github.com/amannsinghh3028/ShadowSafe_Ai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.02,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ShadowSafe_Ai-main/shadow_safe(1)/shadowsafe-ai/app.py",
+          "line": 11,
+          "source": "file",
+          "preview": "AIza************************vSlk"
         }
       ]
     },
@@ -102926,6 +103113,33 @@
       ]
     },
     {
+      "repo": "doniyortrader0-a11y/3",
+      "url": "https://github.com/doniyortrader0-a11y/3",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.49,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "3-main/bot.py",
+          "line": 9,
+          "source": "file",
+          "preview": "7972************************k9CI"
+        }
+      ]
+    },
+    {
       "repo": "doniyortrader0-a11y/reader",
       "url": "https://github.com/doniyortrader0-a11y/reader",
       "status": "leaked",
@@ -111836,6 +112050,33 @@
       ]
     },
     {
+      "repo": "ildikonyc/scan-lab",
+      "url": "https://github.com/ildikonyc/scan-lab",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.89,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "scan-lab-main/App.tsx",
+          "line": 17,
+          "source": "file",
+          "preview": "AIza************************pjbs"
+        }
+      ]
+    },
+    {
       "repo": "ilhukjung-cloud/ai-daily-clipping",
       "url": "https://github.com/ilhukjung-cloud/ai-daily-clipping",
       "status": "leaked",
@@ -116071,6 +116312,33 @@
           "line": 11,
           "source": "file",
           "preview": "AIza************************2WUg"
+        }
+      ]
+    },
+    {
+      "repo": "kinanawad610-ctrl/AI-Homework",
+      "url": "https://github.com/kinanawad610-ctrl/AI-Homework",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.83,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "AI-Homework-main/app.py",
+          "line": 11,
+          "source": "file",
+          "preview": "AIza************************lTsY"
         }
       ]
     },
