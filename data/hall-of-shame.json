@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T09:07:14.022154+00:00",
+  "generatedAt": "2026-04-04T09:48:20.550826+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -10310,6 +10310,54 @@
           "type": "Private Key (RSA)",
           "file": "Commit 0a412b1",
           "line": 77026,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "date300/mian_api",
+      "url": "https://github.com/date300/mian_api",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 148.15,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "mian_api-main/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "mian_api-main/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 7fc9a8f",
+          "line": 81111,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 7fc9a8f",
+          "line": 81546,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -73373,6 +73421,33 @@
       ]
     },
     {
+      "repo": "DavinGN/perpustakaan_mobile_web",
+      "url": "https://github.com/DavinGN/perpustakaan_mobile_web",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 83.48,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "perpustakaan_mobile_web-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************b4RQ"
+        }
+      ]
+    },
+    {
       "repo": "Davioficialbilly/fluffy-octo-c0",
       "url": "https://github.com/Davioficialbilly/fluffy-octo-c0",
       "status": "leaked",
@@ -87949,6 +88024,33 @@
           "line": 21,
           "source": "file",
           "preview": "8524************************_hl8"
+        }
+      ]
+    },
+    {
+      "repo": "Timur000111/arc_lab2",
+      "url": "https://github.com/Timur000111/arc_lab2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.81,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "arc_lab2-main/app.py",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -131203,6 +131305,33 @@
           "line": 33,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "sindhuyadav1806/smart-bus-ai",
+      "url": "https://github.com/sindhuyadav1806/smart-bus-ai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.06,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenAI API Key (Project)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Project)": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Project)",
+          "file": "smart-bus-ai-main/server.js",
+          "line": 19,
+          "source": "file",
+          "preview": "sk-p************************KHMA"
         }
       ]
     },
