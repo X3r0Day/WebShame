@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T13:22:32.592072+00:00",
+  "generatedAt": "2026-04-05T14:16:24.318563+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -9386,6 +9386,54 @@
           "line": 6,
           "source": "file",
           "preview": "AIza************************tnCg"
+        }
+      ]
+    },
+    {
+      "repo": "AliMahmoud26/Full-MERN-Stack-Expense-Tracker-Dashboard",
+      "url": "https://github.com/AliMahmoud26/Full-MERN-Stack-Expense-Tracker-Dashboard",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 129.59,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Full-MERN-Stack-Expense-Tracker-Dashboard-main/backend/node_modules/dotenv/README-es.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Full-MERN-Stack-Expense-Tracker-Dashboard-main/backend/node_modules/dotenv/README.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 53dec82",
+          "line": 63267,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 53dec82",
+          "line": 64015,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -35237,6 +35285,78 @@
       ]
     },
     {
+      "repo": "mirzohidmiryoqubov06-web/MirzohidAI",
+      "url": "https://github.com/mirzohidmiryoqubov06-web/MirzohidAI",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.95,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "MirzohidAI-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "8674************************Zqxo"
+        },
+        {
+          "type": "Groq API Key",
+          "file": "MirzohidAI-main/.env",
+          "line": 5,
+          "source": "file",
+          "preview": "gsk_************************GJo4"
+        }
+      ]
+    },
+    {
+      "repo": "mukulhemlani/meeting-summmary",
+      "url": "https://github.com/mukulhemlani/meeting-summmary",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.1,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "meeting-summmary-main/options.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8543************************oF5A"
+        },
+        {
+          "type": "Groq API Key",
+          "file": "meeting-summmary-main/options.js",
+          "line": 23,
+          "source": "file",
+          "preview": "gsk_************************ek7Q"
+        }
+      ]
+    },
+    {
       "repo": "nludd25/TrendRadar",
       "url": "https://github.com/nludd25/TrendRadar",
       "status": "leaked",
@@ -48351,6 +48471,33 @@
           "line": 71,
           "source": "commit",
           "preview": "AIza************************7j88"
+        }
+      ]
+    },
+    {
+      "repo": "PedroPaduelo/radio-serendipd",
+      "url": "https://github.com/PedroPaduelo/radio-serendipd",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.15,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 8271381",
+          "line": 125,
+          "source": "commit",
+          "preview": "post************************4321"
         }
       ]
     },
@@ -73789,6 +73936,33 @@
       ]
     },
     {
+      "repo": "AnthonyChouGit/poseidon",
+      "url": "https://github.com/AnthonyChouGit/poseidon",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.42,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenAI API Key (Legacy)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Legacy)": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "poseidon-main/.cursor/skills/ai-image-generator/references/gen_nano_banana.py",
+          "line": 33,
+          "source": "file",
+          "preview": "sk-d************************Aliw"
+        }
+      ]
+    },
+    {
       "repo": "AntonioSalces/documentation",
       "url": "https://github.com/AntonioSalces/documentation",
       "status": "leaked",
@@ -75972,6 +76146,33 @@
           "line": 10,
           "source": "file",
           "preview": "sk-v************************5N7I"
+        }
+      ]
+    },
+    {
+      "repo": "CapJ99X0D/tele-bot-1",
+      "url": "https://github.com/CapJ99X0D/tele-bot-1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.61,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "tele-bot-1-main/bot.py",
+          "line": 4,
+          "source": "file",
+          "preview": "8672************************Gg2w"
         }
       ]
     },
@@ -95227,6 +95428,33 @@
       ]
     },
     {
+      "repo": "abhiii1801/Random-Video-Generator--Youtube-",
+      "url": "https://github.com/abhiii1801/Random-Video-Generator--Youtube-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.89,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Random-Video-Generator--Youtube--main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************0mU8"
+        }
+      ]
+    },
+    {
       "repo": "abhijeeta2007-crypto/AI-research-agent",
       "url": "https://github.com/abhijeeta2007-crypto/AI-research-agent",
       "status": "leaked",
@@ -96600,6 +96828,33 @@
           "line": 11,
           "source": "file",
           "preview": "post*************5432"
+        }
+      ]
+    },
+    {
+      "repo": "alesaduraev-debug/telegram-zvezd-bot",
+      "url": "https://github.com/alesaduraev-debug/telegram-zvezd-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.79,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "telegram-zvezd-bot-main/main.py",
+          "line": 10,
+          "source": "file",
+          "preview": "7961************************l-3c"
         }
       ]
     },
@@ -114046,6 +114301,33 @@
       ]
     },
     {
+      "repo": "haziq0403/SSD-SYNK",
+      "url": "https://github.com/haziq0403/SSD-SYNK",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 61.54,
+      "exposureScore": 20,
+      "topTypes": [
+        "Private Key (PKCS8)"
+      ],
+      "typeCounts": {
+        "Private Key (PKCS8)": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (PKCS8)",
+          "file": "SSD-SYNK-main/src/main/java/org/owasp/webgoat/lessons/cryptography/CryptoUtil.java",
+          "line": 45,
+          "source": "file",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "hdjekd/Nadeem",
       "url": "https://github.com/hdjekd/Nadeem",
       "status": "leaked",
@@ -120333,6 +120615,33 @@
           "line": 67,
           "source": "file",
           "preview": "post************************host"
+        }
+      ]
+    },
+    {
+      "repo": "khurramrashidd/JobGarden",
+      "url": "https://github.com/khurramrashidd/JobGarden",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.56,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "JobGarden-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************uWyo"
         }
       ]
     },
