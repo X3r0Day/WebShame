@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-04T23:49:24.666016+00:00",
+  "generatedAt": "2026-04-05T00:09:33.128838+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -140479,6 +140479,33 @@
           "line": 3,
           "source": "file",
           "preview": "AIza************************RlXE"
+        }
+      ]
+    },
+    {
+      "repo": "uchihayahiko26-hue/Telebot",
+      "url": "https://github.com/uchihayahiko26-hue/Telebot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.09,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Telebot-main/Telebot.py",
+          "line": 10,
+          "source": "file",
+          "preview": "8541************************dqpc"
         }
       ]
     },
