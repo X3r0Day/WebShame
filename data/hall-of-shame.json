@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T11:15:26.653790+00:00",
+  "generatedAt": "2026-04-05T11:49:33.622886+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -21947,6 +21947,40 @@
       ]
     },
     {
+      "repo": "MobyTh1cc/gamevault",
+      "url": "https://github.com/MobyTh1cc/gamevault",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 8.49,
+      "exposureScore": 52,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 1028536",
+          "line": 28,
+          "source": "commit",
+          "preview": "AIza************************TkyM"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 1028536",
+          "line": 39,
+          "source": "commit",
+          "preview": "AIza************************LXcc"
+        }
+      ]
+    },
+    {
       "repo": "Namitkumarkrrish/The-Gallery",
       "url": "https://github.com/Namitkumarkrrish/The-Gallery",
       "status": "leaked",
@@ -30612,6 +30646,40 @@
           "line": 61037,
           "source": "commit",
           "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "rsresmi281-prog/Gmail-bot",
+      "url": "https://github.com/rsresmi281-prog/Gmail-bot",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 6.17,
+      "exposureScore": 42,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 2
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Gmail-bot-main/api/webhook.py",
+          "line": 19,
+          "source": "file",
+          "preview": "8369************************xS1Y"
+        },
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 19789d9",
+          "line": 17,
+          "source": "commit",
+          "preview": "8369************************kFu0"
         }
       ]
     },
@@ -70957,6 +71025,33 @@
       ]
     },
     {
+      "repo": "zamafigl/mini-ci-runner",
+      "url": "https://github.com/zamafigl/mini-ci-runner",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.83,
+      "exposureScore": 30,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 4b6d261",
+          "line": 47,
+          "source": "commit",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "zhn-suu/nom",
       "url": "https://github.com/zhn-suu/nom",
       "status": "leaked",
@@ -99793,6 +99888,249 @@
       ]
     },
     {
+      "repo": "belshawcatterton291-lang/repo0e7m67",
+      "url": "https://github.com/belshawcatterton291-lang/repo0e7m67",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 56.21,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo0e7m67-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8792************************gPa0"
+        }
+      ]
+    },
+    {
+      "repo": "belshawcatterton291-lang/repo4bhbz3",
+      "url": "https://github.com/belshawcatterton291-lang/repo4bhbz3",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 68.02,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo4bhbz3-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8792************************gPa0"
+        }
+      ]
+    },
+    {
+      "repo": "belshawcatterton291-lang/repo6gks35",
+      "url": "https://github.com/belshawcatterton291-lang/repo6gks35",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 28.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo6gks35-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8792************************gPa0"
+        }
+      ]
+    },
+    {
+      "repo": "belshawcatterton291-lang/repo7k8vii",
+      "url": "https://github.com/belshawcatterton291-lang/repo7k8vii",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 58.66,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo7k8vii-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8792************************gPa0"
+        }
+      ]
+    },
+    {
+      "repo": "belshawcatterton291-lang/repo9or1ke",
+      "url": "https://github.com/belshawcatterton291-lang/repo9or1ke",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 24.89,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo9or1ke-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8792************************gPa0"
+        }
+      ]
+    },
+    {
+      "repo": "belshawcatterton291-lang/repobktnp2",
+      "url": "https://github.com/belshawcatterton291-lang/repobktnp2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 31.45,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repobktnp2-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8792************************gPa0"
+        }
+      ]
+    },
+    {
+      "repo": "belshawcatterton291-lang/repogmnamb",
+      "url": "https://github.com/belshawcatterton291-lang/repogmnamb",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 48.08,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repogmnamb-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8792************************gPa0"
+        }
+      ]
+    },
+    {
+      "repo": "belshawcatterton291-lang/repolnuij1",
+      "url": "https://github.com/belshawcatterton291-lang/repolnuij1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 41.43,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repolnuij1-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8792************************gPa0"
+        }
+      ]
+    },
+    {
+      "repo": "belshawcatterton291-lang/reponve2uz",
+      "url": "https://github.com/belshawcatterton291-lang/reponve2uz",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 30.01,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "reponve2uz-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8792************************gPa0"
+        }
+      ]
+    },
+    {
       "repo": "benhamouislam4-cell/my-bot-spotify",
       "url": "https://github.com/benhamouislam4-cell/my-bot-spotify",
       "status": "leaked",
@@ -118720,6 +119058,33 @@
       ]
     },
     {
+      "repo": "karthikreddythatipelli/ai-doc-orchestrator",
+      "url": "https://github.com/karthikreddythatipelli/ai-doc-orchestrator",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.62,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ai-doc-orchestrator-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************CpwU"
+        }
+      ]
+    },
+    {
       "repo": "kartikeysingh402-glitch/project2",
       "url": "https://github.com/kartikeysingh402-glitch/project2",
       "status": "leaked",
@@ -123198,6 +123563,33 @@
           "line": 10,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "madangowdru17-star/Yyyyuyyu6yyuu",
+      "url": "https://github.com/madangowdru17-star/Yyyyuyyu6yyuu",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.62,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Yyyyuyyu6yyuu-main/main.py",
+          "line": 5,
+          "source": "file",
+          "preview": "8492************************H9Ms"
         }
       ]
     },
@@ -131757,6 +132149,33 @@
           "line": 322,
           "source": "file",
           "preview": "AIza************************aIYk"
+        }
+      ]
+    },
+    {
+      "repo": "qaratay/simple-pipeline",
+      "url": "https://github.com/qaratay/simple-pipeline",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.2,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "simple-pipeline-main/airflow/config/airflow.cfg",
+          "line": 2457,
+          "source": "file",
+          "preview": "post************************gres"
         }
       ]
     },
