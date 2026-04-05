@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T17:47:52.564657+00:00",
+  "generatedAt": "2026-04-05T18:16:19.105919+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -11721,6 +11721,54 @@
       ]
     },
     {
+      "repo": "jagdaleradhika6-glitch/Fi",
+      "url": "https://github.com/jagdaleradhika6-glitch/Fi",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 183.11,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Fi-main/finance dashboard/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Fi-main/finance dashboard/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit af3d4c5",
+          "line": 64998,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit af3d4c5",
+          "line": 65433,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "kellygabot/ordering-system",
       "url": "https://github.com/kellygabot/ordering-system",
       "status": "leaked",
@@ -12675,6 +12723,56 @@
           "type": "Private Key (RSA)",
           "file": "Commit 121baf5",
           "line": 326946,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "HarryHikari/HUNG",
+      "url": "https://github.com/HarryHikari/HUNG",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 2,
+      "filesAffected": 4,
+      "commitFindings": 1,
+      "scanTimeSeconds": 127.89,
+      "exposureScore": 74,
+      "topTypes": [
+        "PostgreSQL Connection URI",
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2,
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "HUNG-main/backend/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "HUNG-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "HUNG-main/backend/node_modules/pg-pool/README.md",
+          "line": 74,
+          "source": "file",
+          "preview": "post************************####"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit aac564b",
+          "line": 85518,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -27980,6 +28078,40 @@
       ]
     },
     {
+      "repo": "Lalit42224/finance_backend",
+      "url": "https://github.com/Lalit42224/finance_backend",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 143.67,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "finance_backend-main/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 9f43c6e",
+          "line": 62753,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "LukaSL0/hassle",
       "url": "https://github.com/LukaSL0/hassle",
       "status": "leaked",
@@ -43014,6 +43146,40 @@
           "line": 3,
           "source": "file",
           "preview": "amqp*******************itmq"
+        }
+      ]
+    },
+    {
+      "repo": "vishal-giri-1234/Portfolio-Application",
+      "url": "https://github.com/vishal-giri-1234/Portfolio-Application",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 77.43,
+      "exposureScore": 32,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Portfolio-Application-main/Vishal Giri/node_modules/dotenv/README-es.md",
+          "line": 84,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Portfolio-Application-main/Vishal Giri/node_modules/dotenv/README.md",
+          "line": 102,
+          "source": "file",
+          "preview": "----************************----"
         }
       ]
     },
@@ -64960,6 +65126,33 @@
           "line": 158,
           "source": "commit",
           "preview": "AKIA************KGHU"
+        }
+      ]
+    },
+    {
+      "repo": "pimjamankur/Bromo.-festival.2026",
+      "url": "https://github.com/pimjamankur/Bromo.-festival.2026",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.99,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit a4f0168",
+          "line": 354,
+          "source": "commit",
+          "preview": "8771************************Fuc4"
         }
       ]
     },
@@ -87914,6 +88107,33 @@
       ]
     },
     {
+      "repo": "Omgupta78/shree-advertising-marketing",
+      "url": "https://github.com/Omgupta78/shree-advertising-marketing",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 49.89,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "shree-advertising-marketing-master/setting.json",
+          "line": 4,
+          "source": "file",
+          "preview": "sk-o************************69d8"
+        }
+      ]
+    },
+    {
       "repo": "Onety77/contrarian",
       "url": "https://github.com/Onety77/contrarian",
       "status": "leaked",
@@ -94934,6 +95154,33 @@
       ]
     },
     {
+      "repo": "Vp-7777/AutisMind-AI",
+      "url": "https://github.com/Vp-7777/AutisMind-AI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.34,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "AutisMind-AI-main/backend/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "Vrushali-sagar26/statboot-pro-",
       "url": "https://github.com/Vrushali-sagar26/statboot-pro-",
       "status": "leaked",
@@ -97252,6 +97499,33 @@
           "line": 7,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "ahmadshamali/eventify",
+      "url": "https://github.com/ahmadshamali/eventify",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.69,
+      "exposureScore": 20,
+      "topTypes": [
+        "MySQL/MariaDB Connection URI"
+      ],
+      "typeCounts": {
+        "MySQL/MariaDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "eventify-main/backend/alembic/env.py",
+          "line": 19,
+          "source": "file",
+          "preview": "mysq************************3306"
         }
       ]
     },
@@ -107111,6 +107385,33 @@
       ]
     },
     {
+      "repo": "daytonrduffy/Android-FitFriends",
+      "url": "https://github.com/daytonrduffy/Android-FitFriends",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.72,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Android-FitFriends-main/app/src/debug/res/values/google_maps_api.xml",
+          "line": 23,
+          "source": "file",
+          "preview": "AIza************************pt64"
+        }
+      ]
+    },
+    {
       "repo": "dbacepa/AIES-Reclutamiento-CEPA",
       "url": "https://github.com/dbacepa/AIES-Reclutamiento-CEPA",
       "status": "leaked",
@@ -107269,6 +107570,33 @@
           "line": 34,
           "source": "file",
           "preview": "eyJh************************oDM0"
+        }
+      ]
+    },
+    {
+      "repo": "denisshareshik/emotion_analyzer_telegram_bot",
+      "url": "https://github.com/denisshareshik/emotion_analyzer_telegram_bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.44,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "emotion_analyzer_telegram_bot-main/bot.py",
+          "line": 138,
+          "source": "file",
+          "preview": "8250************************zsRY"
         }
       ]
     },
@@ -114721,6 +115049,33 @@
           "line": 8,
           "source": "file",
           "preview": "sk-R************************d0dl"
+        }
+      ]
+    },
+    {
+      "repo": "hadisafatima/Custom-Knowledge-Chatbot-Excel-Text-Based-",
+      "url": "https://github.com/hadisafatima/Custom-Knowledge-Chatbot-Excel-Text-Based-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Custom-Knowledge-Chatbot-Excel-Text-Based--main/app.py",
+          "line": 75,
+          "source": "file",
+          "preview": "AIza************************ctaM"
         }
       ]
     },
@@ -131461,6 +131816,33 @@
           "line": 129,
           "source": "file",
           "preview": "AIza************************IClk"
+        }
+      ]
+    },
+    {
+      "repo": "noblemathew/RadioGermany",
+      "url": "https://github.com/noblemathew/RadioGermany",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 27.34,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "RadioGermany-master/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************3OoE"
         }
       ]
     },
