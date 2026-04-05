@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T20:12:37.889230+00:00",
+  "generatedAt": "2026-04-05T20:51:14.728772+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -19074,6 +19074,42 @@
       ]
     },
     {
+      "repo": "MohammedTeir/pay-check",
+      "url": "https://github.com/MohammedTeir/pay-check",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 8.34,
+      "exposureScore": 60,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit e79eacd",
+          "line": 146,
+          "source": "commit",
+          "preview": "8780************************7j44"
+        },
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "Commit e79eacd",
+          "line": 150,
+          "source": "commit",
+          "preview": "eyJh************************MWdo"
+        }
+      ]
+    },
+    {
       "repo": "NourEhab-del/Ght1-Cairo",
       "url": "https://github.com/NourEhab-del/Ght1-Cairo",
       "status": "leaked",
@@ -37316,6 +37352,40 @@
       ]
     },
     {
+      "repo": "Aadilur/sajid_flutter",
+      "url": "https://github.com/Aadilur/sajid_flutter",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.47,
+      "exposureScore": 32,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "sajid_flutter-main/daily_expense_tracker/android/app/google-services.json",
+          "line": 32,
+          "source": "file",
+          "preview": "AIza************************Wkl8"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "sajid_flutter-main/daily_expense_tracker/ios/Runner/GoogleService-Info.plist",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************wxa8"
+        }
+      ]
+    },
+    {
       "repo": "Abhikumar9896/GymX",
       "url": "https://github.com/Abhikumar9896/GymX",
       "status": "leaked",
@@ -52349,6 +52419,33 @@
           "line": 199,
           "source": "commit",
           "preview": "AIza************************OZv8"
+        }
+      ]
+    },
+    {
+      "repo": "ahmadhasan556/crew-ai-mastery",
+      "url": "https://github.com/ahmadhasan556/crew-ai-mastery",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.11,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 6b00702",
+          "line": 847,
+          "source": "commit",
+          "preview": "AIza************************qCJk"
         }
       ]
     },
@@ -125469,6 +125566,33 @@
       ]
     },
     {
+      "repo": "lanrecA/prosubs",
+      "url": "https://github.com/lanrecA/prosubs",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.76,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "prosubs-main/backend/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "lapuzromanita923/repo27e6wz",
       "url": "https://github.com/lapuzromanita923/repo27e6wz",
       "status": "leaked",
@@ -129542,6 +129666,33 @@
           "line": 277,
           "source": "file",
           "preview": "AIza************************Hyeo"
+        }
+      ]
+    },
+    {
+      "repo": "mkholkin/AvitoTech_test_task",
+      "url": "https://github.com/mkholkin/AvitoTech_test_task",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 17.72,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "AvitoTech_test_task-main/.env",
+          "line": 18,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
