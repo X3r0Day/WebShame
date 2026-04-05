@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T21:15:25.717206+00:00",
+  "generatedAt": "2026-04-05T21:56:06.614791+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -7543,6 +7543,70 @@
           "line": 75,
           "source": "file",
           "preview": "post************************####"
+        }
+      ]
+    },
+    {
+      "repo": "salonmoney2025/new-version-lms",
+      "url": "https://github.com/salonmoney2025/new-version-lms",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 6,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 0,
+      "scanTimeSeconds": 57.98,
+      "exposureScore": 88,
+      "topTypes": [
+        "PostgreSQL Connection URI",
+        "RabbitMQ/AMQP URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 4,
+        "RabbitMQ/AMQP URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "new-version-lms-main/.gitlab-ci.yml",
+          "line": 66,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "new-version-lms-main/APPLY_DOCKER_FIXES.sh",
+          "line": 171,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "RabbitMQ/AMQP URI",
+          "file": "new-version-lms-main/APPLY_DOCKER_FIXES.sh",
+          "line": 189,
+          "source": "file",
+          "preview": "amqp************************5672"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "new-version-lms-main/APPLY_DOCKER_FIXES.sh",
+          "line": 229,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "RabbitMQ/AMQP URI",
+          "file": "new-version-lms-main/APPLY_DOCKER_FIXES.sh",
+          "line": 245,
+          "source": "file",
+          "preview": "amqp************************5672"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "new-version-lms-main/RUST_OPTION_B_COMPLETE.md",
+          "line": 183,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -104182,6 +104246,33 @@
       ]
     },
     {
+      "repo": "carlosfree924-stack/bot-telegram",
+      "url": "https://github.com/carlosfree924-stack/bot-telegram",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.59,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "bot-telegram-main/bot.py",
+          "line": 15,
+          "source": "file",
+          "preview": "8596************************vh8A"
+        }
+      ]
+    },
+    {
       "repo": "carlylecosta2-sketch/gn-intelligence",
       "url": "https://github.com/carlylecosta2-sketch/gn-intelligence",
       "status": "leaked",
@@ -151077,6 +151168,33 @@
           "line": 35,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "zinknovo/autoacad",
+      "url": "https://github.com/zinknovo/autoacad",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.38,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenAI API Key (Legacy)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Legacy)": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "autoacad-main/references/upstream-snapshots/AI-Researcher/README.md",
+          "line": 1038,
+          "source": "file",
+          "preview": "sk-S************************PpXN"
         }
       ]
     },
