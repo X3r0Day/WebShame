@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T21:56:06.614791+00:00",
+  "generatedAt": "2026-04-05T22:13:38.719877+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -56429,6 +56429,33 @@
       ]
     },
     {
+      "repo": "dev-mauricioAB/fiscal-city-poc",
+      "url": "https://github.com/dev-mauricioAB/fiscal-city-poc",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 11.13,
+      "exposureScore": 30,
+      "topTypes": [
+        "MySQL/MariaDB Connection URI"
+      ],
+      "typeCounts": {
+        "MySQL/MariaDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MySQL/MariaDB Connection URI",
+          "file": "Commit 41eb8bf",
+          "line": 142,
+          "source": "commit",
+          "preview": "mysq************************3306"
+        }
+      ]
+    },
+    {
       "repo": "dev-serena/Rabbit-giveways",
       "url": "https://github.com/dev-serena/Rabbit-giveways",
       "status": "leaked",
@@ -57586,6 +57613,33 @@
           "line": 87,
           "source": "commit",
           "preview": "AIza************************NGDk"
+        }
+      ]
+    },
+    {
+      "repo": "frikname1/bsywysusjs",
+      "url": "https://github.com/frikname1/bsywysusjs",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.49,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit b840d85",
+          "line": 25,
+          "source": "commit",
+          "preview": "8663************************_7Dc"
         }
       ]
     },
@@ -146902,6 +146956,33 @@
           "line": 12,
           "source": "file",
           "preview": "8785************************uWOU"
+        }
+      ]
+    },
+    {
+      "repo": "urieldegrugillier-sketch/prysm-bot",
+      "url": "https://github.com/urieldegrugillier-sketch/prysm-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.92,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "prysm-bot-main/prysm_bot.py",
+          "line": 14,
+          "source": "file",
+          "preview": "8225************************76kI"
         }
       ]
     },
