@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T22:54:34.616307+00:00",
+  "generatedAt": "2026-04-05T23:26:35.580441+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -59426,6 +59426,33 @@
       ]
     },
     {
+      "repo": "ipboyka/derseski",
+      "url": "https://github.com/ipboyka/derseski",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.69,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit c6cff3a",
+          "line": 4850,
+          "source": "commit",
+          "preview": "AIza************************93XQ"
+        }
+      ]
+    },
+    {
       "repo": "jakevandenbrink20/euro_planner",
       "url": "https://github.com/jakevandenbrink20/euro_planner",
       "status": "leaked",
@@ -61420,6 +61447,33 @@
           "line": 99,
           "source": "commit",
           "preview": "eyJh************************valc"
+        }
+      ]
+    },
+    {
+      "repo": "leanbruzzo/trading-bot-v3",
+      "url": "https://github.com/leanbruzzo/trading-bot-v3",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.99,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit f2e104f",
+          "line": 42,
+          "source": "commit",
+          "preview": "8793************************uW_c"
         }
       ]
     },
@@ -78025,6 +78079,33 @@
           "line": 9,
           "source": "file",
           "preview": "AIza************************UaLg"
+        }
+      ]
+    },
+    {
+      "repo": "CodeWithNadiry/property_management_system",
+      "url": "https://github.com/CodeWithNadiry/property_management_system",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.08,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "property_management_system-main/backend/config/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "post************************6543"
         }
       ]
     },
@@ -104242,6 +104323,60 @@
           "line": 91,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "cardosocadenas/repo9hh0ni",
+      "url": "https://github.com/cardosocadenas/repo9hh0ni",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.83,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo9hh0ni-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8209************************qMNo"
+        }
+      ]
+    },
+    {
+      "repo": "cardosocadenas/repokv2y3h",
+      "url": "https://github.com/cardosocadenas/repokv2y3h",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.8,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repokv2y3h-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8209************************qMNo"
         }
       ]
     },
