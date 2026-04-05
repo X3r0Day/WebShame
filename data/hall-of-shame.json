@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T19:51:24.829439+00:00",
+  "generatedAt": "2026-04-05T20:12:37.889230+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -20786,6 +20786,54 @@
           "line": 3,
           "source": "file",
           "preview": "8336************************qOkc"
+        }
+      ]
+    },
+    {
+      "repo": "naringrekarneel/key",
+      "url": "https://github.com/naringrekarneel/key",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.94,
+      "exposureScore": 56,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 4
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "key-main/naringrekarsu.txt",
+          "line": 2,
+          "source": "file",
+          "preview": "AIza************************ZHQw"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "key-main/naringrekarsu.txt",
+          "line": 5,
+          "source": "file",
+          "preview": "AIza************************5OP8"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "key-main/naringrekarsu.txt",
+          "line": 8,
+          "source": "file",
+          "preview": "AIza************************M878"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "key-main/naringrekarsu.txt",
+          "line": 11,
+          "source": "file",
+          "preview": "AIza************************BBSw"
         }
       ]
     },
@@ -75066,6 +75114,33 @@
       ]
     },
     {
+      "repo": "Anup2601/Zorvyn",
+      "url": "https://github.com/Anup2601/Zorvyn",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.94,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Zorvyn-main/backend/docker-compose.yml",
+          "line": 33,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "AravindBapurapu/Discipline_App",
       "url": "https://github.com/AravindBapurapu/Discipline_App",
       "status": "leaked",
@@ -108870,6 +108945,33 @@
       ]
     },
     {
+      "repo": "doganozcan9/telegram-terfi-bot",
+      "url": "https://github.com/doganozcan9/telegram-terfi-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.76,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "telegram-terfi-bot-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "8792************************vvtE"
+        }
+      ]
+    },
+    {
       "repo": "dominikzielewski/dobremordy",
       "url": "https://github.com/dominikzielewski/dobremordy",
       "status": "leaked",
@@ -113811,6 +113913,33 @@
       ]
     },
     {
+      "repo": "fprogress17/biteatlas",
+      "url": "https://github.com/fprogress17/biteatlas",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 20.39,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "biteatlas-main/docs/06-deployment.md",
+          "line": 100,
+          "source": "file",
+          "preview": "post********************5432"
+        }
+      ]
+    },
+    {
       "repo": "francisalbertespina-spec/LinkUP-Messaging-App",
       "url": "https://github.com/francisalbertespina-spec/LinkUP-Messaging-App",
       "status": "leaked",
@@ -114023,6 +114152,33 @@
           "line": 2851,
           "source": "file",
           "preview": "sk-w************************kfhh"
+        }
+      ]
+    },
+    {
+      "repo": "gadhaveaditi/PulseSaver-Medical-Emergency-Donation-Network",
+      "url": "https://github.com/gadhaveaditi/PulseSaver-Medical-Emergency-Donation-Network",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 53.07,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "PulseSaver-Medical-Emergency-Donation-Network-main/backend/server.js",
+          "line": 153,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -121610,6 +121766,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************kAGk"
+        }
+      ]
+    },
+    {
+      "repo": "jumperprohack-gif/76",
+      "url": "https://github.com/jumperprohack-gif/76",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.54,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Bot Token"
+      ],
+      "typeCounts": {
+        "Discord Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Bot Token",
+          "file": "76-main/dbe.py",
+          "line": 7,
+          "source": "file",
+          "preview": "MTQ4************************Hb_8"
         }
       ]
     },
@@ -140672,6 +140855,33 @@
           "line": 7,
           "source": "file",
           "preview": "AIza************************K7jI"
+        }
+      ]
+    },
+    {
+      "repo": "siamahmed0011/food_waste_app",
+      "url": "https://github.com/siamahmed0011/food_waste_app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 14.26,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "food_waste_app-main/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************fRY0"
         }
       ]
     },
