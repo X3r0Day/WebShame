@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T18:16:19.105919+00:00",
+  "generatedAt": "2026-04-05T19:13:35.181549+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -47607,6 +47607,33 @@
       ]
     },
     {
+      "repo": "KnTanveer/Sasta-bazar",
+      "url": "https://github.com/KnTanveer/Sasta-bazar",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 8.06,
+      "exposureScore": 30,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 0c798a3",
+          "line": 29,
+          "source": "commit",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "KondkariYusuf/aicp-backend",
       "url": "https://github.com/KondkariYusuf/aicp-backend",
       "status": "leaked",
@@ -58623,6 +58650,33 @@
       ]
     },
     {
+      "repo": "hz8n/google.com",
+      "url": "https://github.com/hz8n/google.com",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 4.23,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 912d954",
+          "line": 259,
+          "source": "commit",
+          "preview": "8614************************KjnU"
+        }
+      ]
+    },
+    {
       "repo": "iMofij/abcdxyz",
       "url": "https://github.com/iMofij/abcdxyz",
       "status": "leaked",
@@ -60077,6 +60131,33 @@
           "line": 2723,
           "source": "commit",
           "preview": "ghp_************************QWD8"
+        }
+      ]
+    },
+    {
+      "repo": "kenevizpubg-ops/Xnhfnfn",
+      "url": "https://github.com/kenevizpubg-ops/Xnhfnfn",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.2,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 7f81b8a",
+          "line": 98,
+          "source": "commit",
+          "preview": "8503************************M1L8"
         }
       ]
     },
@@ -145559,6 +145640,222 @@
           "line": 4,
           "source": "file",
           "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "tuyetngan26marc2852/repoadwldl",
+      "url": "https://github.com/tuyetngan26marc2852/repoadwldl",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 33.56,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repoadwldl-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8319************************RP5g"
+        }
+      ]
+    },
+    {
+      "repo": "tuyetngan26marc2852/repob0lyf0",
+      "url": "https://github.com/tuyetngan26marc2852/repob0lyf0",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 28.88,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repob0lyf0-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8319************************RP5g"
+        }
+      ]
+    },
+    {
+      "repo": "tuyetngan26marc2852/repog7j1bk",
+      "url": "https://github.com/tuyetngan26marc2852/repog7j1bk",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 30.96,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repog7j1bk-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8319************************RP5g"
+        }
+      ]
+    },
+    {
+      "repo": "tuyetngan26marc2852/repogfc5se",
+      "url": "https://github.com/tuyetngan26marc2852/repogfc5se",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repogfc5se-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8319************************RP5g"
+        }
+      ]
+    },
+    {
+      "repo": "tuyetngan26marc2852/repop27rrk",
+      "url": "https://github.com/tuyetngan26marc2852/repop27rrk",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 25.37,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repop27rrk-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8319************************RP5g"
+        }
+      ]
+    },
+    {
+      "repo": "tuyetngan26marc2852/reporic7pr",
+      "url": "https://github.com/tuyetngan26marc2852/reporic7pr",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 25.35,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "reporic7pr-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8319************************RP5g"
+        }
+      ]
+    },
+    {
+      "repo": "tuyetngan26marc2852/reporyflg5",
+      "url": "https://github.com/tuyetngan26marc2852/reporyflg5",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.83,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "reporyflg5-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8319************************RP5g"
+        }
+      ]
+    },
+    {
+      "repo": "tuyetngan26marc2852/repotdtbw4",
+      "url": "https://github.com/tuyetngan26marc2852/repotdtbw4",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 23.86,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repotdtbw4-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8319************************RP5g"
         }
       ]
     },
