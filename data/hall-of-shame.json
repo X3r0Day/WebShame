@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T07:54:38.777964+00:00",
+  "generatedAt": "2026-04-05T08:36:03.573686+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -9898,6 +9898,54 @@
           "type": "Private Key (RSA)",
           "file": "Commit 2240ec7",
           "line": 62944,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "MilanRai813/Milan-Elevate-",
+      "url": "https://github.com/MilanRai813/Milan-Elevate-",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 156.72,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Milan-Elevate--main/backend/node_modules/dotenv/README-es.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Milan-Elevate--main/backend/node_modules/dotenv/README.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 9819a0c",
+          "line": 65195,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 9819a0c",
+          "line": 65943,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -27540,6 +27588,40 @@
       ]
     },
     {
+      "repo": "PaariKarthikeyan/WorkHive-multi-tenant-saas-project-management-platform",
+      "url": "https://github.com/PaariKarthikeyan/WorkHive-multi-tenant-saas-project-management-platform",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 103.76,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "WorkHive-multi-tenant-saas-project-management-platform-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 6b19659",
+          "line": 75610,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "PauloTorresApps/simplifica",
       "url": "https://github.com/PauloTorresApps/simplifica",
       "status": "leaked",
@@ -28690,6 +28772,40 @@
           "type": "Private Key (RSA)",
           "file": "Commit ce586c7",
           "line": 84521,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "bundela05/DavvFeedback",
+      "url": "https://github.com/bundela05/DavvFeedback",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 131.84,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "DavvFeedback-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 3775660",
+          "line": 51022,
           "source": "commit",
           "preview": "----************************----"
         }
