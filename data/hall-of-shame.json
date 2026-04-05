@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T00:09:33.128838+00:00",
+  "generatedAt": "2026-04-05T03:42:15.867743+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -29746,6 +29746,40 @@
           "line": 51264,
           "source": "commit",
           "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "manojselvakumar30-cmyk/RITIANS07",
+      "url": "https://github.com/manojselvakumar30-cmyk/RITIANS07",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.28,
+      "exposureScore": 42,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "RITIANS07-main/server.js",
+          "line": 20,
+          "source": "file",
+          "preview": "AIza************************Otvo"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 40434e4",
+          "line": 4602,
+          "source": "commit",
+          "preview": "AIza************************OObI"
         }
       ]
     },
@@ -75089,6 +75123,33 @@
       ]
     },
     {
+      "repo": "ChoCkyTV/spotify-overlay",
+      "url": "https://github.com/ChoCkyTV/spotify-overlay",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.08,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "spotify-overlay-main/spotify-overlay/api/music.js",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************nMhI"
+        }
+      ]
+    },
+    {
       "repo": "CholakDev/MySneakerShop",
       "url": "https://github.com/CholakDev/MySneakerShop",
       "status": "leaked",
@@ -108376,6 +108437,33 @@
           "line": 15,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "emanhthangngot/shipcast",
+      "url": "https://github.com/emanhthangngot/shipcast",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.5,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "shipcast-main/docker-compose.yml",
+          "line": 47,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
