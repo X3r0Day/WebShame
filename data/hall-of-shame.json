@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T20:51:14.728772+00:00",
+  "generatedAt": "2026-04-05T21:15:25.717206+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -58845,6 +58845,33 @@
           "line": 284,
           "source": "commit",
           "preview": "8718************************b4oY"
+        }
+      ]
+    },
+    {
+      "repo": "iMrFoX/websiteGithub",
+      "url": "https://github.com/iMrFoX/websiteGithub",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.1,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 55300f6",
+          "line": 199,
+          "source": "commit",
+          "preview": "8404************************u_wQ"
         }
       ]
     },
@@ -132424,6 +132451,33 @@
       ]
     },
     {
+      "repo": "nnamedao-a11y/23233dsdd33",
+      "url": "https://github.com/nnamedao-a11y/23233dsdd33",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 54.42,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "23233dsdd33-main/backend/escalation_test.py",
+          "line": 432,
+          "source": "file",
+          "preview": "7757************************FaGE"
+        }
+      ]
+    },
+    {
       "repo": "nnamedao-a11y/3232dwsd2232",
       "url": "https://github.com/nnamedao-a11y/3232dwsd2232",
       "status": "leaked",
@@ -137793,6 +137847,33 @@
           "line": 2,
           "source": "file",
           "preview": "eyJh************************MmP8"
+        }
+      ]
+    },
+    {
+      "repo": "risomj/gathering",
+      "url": "https://github.com/risomj/gathering",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.45,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "gathering-main/src/App.js",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************RjkM"
         }
       ]
     },
