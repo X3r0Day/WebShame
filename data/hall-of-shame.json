@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T09:25:41.984448+00:00",
+  "generatedAt": "2026-04-05T10:07:13.741777+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -10618,6 +10618,54 @@
           "type": "Private Key (RSA)",
           "file": "Commit b85fd1b",
           "line": 86521,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "ajay-verma30/dockertest",
+      "url": "https://github.com/ajay-verma30/dockertest",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 147.59,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "dockertest-main/notes-backend/node_modules/dotenv/README-es.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "dockertest-main/notes-backend/node_modules/dotenv/README.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 952970b",
+          "line": 50392,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 952970b",
+          "line": 51140,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -85739,6 +85787,33 @@
       ]
     },
     {
+      "repo": "NutcrackerCom/test-backend-avito",
+      "url": "https://github.com/NutcrackerCom/test-backend-avito",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 129.82,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "test-backend-avito-main/docker-compose.yaml",
+          "line": 26,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Nvafeomo/RimRun",
       "url": "https://github.com/Nvafeomo/RimRun",
       "status": "leaked",
@@ -86410,6 +86485,33 @@
           "line": 9,
           "source": "file",
           "preview": "8699************************vrYg"
+        }
+      ]
+    },
+    {
+      "repo": "Powell-Radam/DLSUBITES",
+      "url": "https://github.com/Powell-Radam/DLSUBITES",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 26.34,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "DLSUBITES-main/index.js",
+          "line": 11,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -110737,6 +110839,33 @@
           "line": 7,
           "source": "file",
           "preview": "8721************************XrJY"
+        }
+      ]
+    },
+    {
+      "repo": "g635132977-lang/tts-voice-magic",
+      "url": "https://github.com/g635132977-lang/tts-voice-magic",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.75,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenAI API Key (Legacy)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Legacy)": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "tts-voice-magic-main/index.js",
+          "line": 2851,
+          "source": "file",
+          "preview": "sk-w************************kfhh"
         }
       ]
     },
@@ -136742,6 +136871,33 @@
       ]
     },
     {
+      "repo": "sohan-mallick01/BLOOM1",
+      "url": "https://github.com/sohan-mallick01/BLOOM1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "BLOOM1-main/script.js",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************kOuU"
+        }
+      ]
+    },
+    {
       "repo": "solarmarinetech-boop/ticket",
       "url": "https://github.com/solarmarinetech-boop/ticket",
       "status": "leaked",
@@ -143785,6 +143941,33 @@
           "line": 22,
           "source": "file",
           "preview": "AKIA************XXXX"
+        }
+      ]
+    },
+    {
+      "repo": "workatbuildcrew/mellow-app",
+      "url": "https://github.com/workatbuildcrew/mellow-app",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.86,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "mellow-app-main/DEPLOY.md",
+          "line": 108,
+          "source": "file",
+          "preview": "eyJh************************g_l4"
         }
       ]
     },
