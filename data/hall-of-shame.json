@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T12:12:21.116271+00:00",
+  "generatedAt": "2026-04-05T13:22:32.592072+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -13418,6 +13418,49 @@
           "type": "Private Key (RSA)",
           "file": "Commit 99b4de9",
           "line": 116598,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "ZippoLord/mobilprogbeadando",
+      "url": "https://github.com/ZippoLord/mobilprogbeadando",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 147.61,
+      "exposureScore": 72,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2,
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "mobilprogbeadando-main/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 1e524ab",
+          "line": 20,
+          "source": "commit",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 4198a89",
+          "line": 97700,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -106119,6 +106162,33 @@
       ]
     },
     {
+      "repo": "dhanashri-1/mango-marketplace",
+      "url": "https://github.com/dhanashri-1/mango-marketplace",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 43.92,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "mango-marketplace-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "post************************tech"
+        }
+      ]
+    },
+    {
       "repo": "dhanush-panneerselvam/Nandha-smart-canteen",
       "url": "https://github.com/dhanush-panneerselvam/Nandha-smart-canteen",
       "status": "leaked",
@@ -111920,6 +111990,33 @@
           "line": 4,
           "source": "file",
           "preview": "8648************************aHAk"
+        }
+      ]
+    },
+    {
+      "repo": "fsRakib/ETA",
+      "url": "https://github.com/fsRakib/ETA",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.16,
+      "exposureScore": 20,
+      "topTypes": [
+        "Mapbox API Key"
+      ],
+      "typeCounts": {
+        "Mapbox API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Mapbox API Key",
+          "file": "ETA-main/main.go",
+          "line": 19,
+          "source": "file",
+          "preview": "pk.e************************Xm4g"
         }
       ]
     },
@@ -124155,6 +124252,33 @@
       ]
     },
     {
+      "repo": "mailinh161205/AI-Study-Mentor",
+      "url": "https://github.com/mailinh161205/AI-Study-Mentor",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.25,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "AI-Study-Mentor-main/app/src/main/java/com/example/workwithai/Fragments/HomeFragment.java",
+          "line": 46,
+          "source": "file",
+          "preview": "AIza************************dV4c"
+        }
+      ]
+    },
+    {
       "repo": "manavsingh345/Monorepo-VMs",
       "url": "https://github.com/manavsingh345/Monorepo-VMs",
       "status": "leaked",
@@ -127472,6 +127596,33 @@
           "line": 9,
           "source": "file",
           "preview": "pk.e************************ToNQ"
+        }
+      ]
+    },
+    {
+      "repo": "nainkhwalkartikeya13-cloud/reveiewbot_",
+      "url": "https://github.com/nainkhwalkartikeya13-cloud/reveiewbot_",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 16.59,
+      "exposureScore": 20,
+      "topTypes": [
+        "GitLab PAT"
+      ],
+      "typeCounts": {
+        "GitLab PAT": 1
+      },
+      "findings": [
+        {
+          "type": "GitLab PAT",
+          "file": "reveiewbot_-main/README.md",
+          "line": 160,
+          "source": "file",
+          "preview": "glpa******************xxxx"
         }
       ]
     },
@@ -137543,6 +137694,33 @@
           "line": 8,
           "source": "file",
           "preview": "eyJh************************lFaY"
+        }
+      ]
+    },
+    {
+      "repo": "shubhampunjab07-ship-it/Frdrsj",
+      "url": "https://github.com/shubhampunjab07-ship-it/Frdrsj",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.24,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Frdrsj-main/bot.py",
+          "line": 41,
+          "source": "file",
+          "preview": "8537************************omG4"
         }
       ]
     },
