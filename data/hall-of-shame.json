@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T08:36:03.573686+00:00",
+  "generatedAt": "2026-04-05T09:25:41.984448+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -11914,6 +11914,54 @@
           "type": "Private Key (RSA)",
           "file": "Commit 37ae41c",
           "line": 350800,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "sharma99shivang-oss/assignment",
+      "url": "https://github.com/sharma99shivang-oss/assignment",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 77.45,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "assignment-main/Backend/node_modules/dotenv/README-es.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "assignment-main/Backend/node_modules/dotenv/README.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit ad9ce96",
+          "line": 62448,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit ad9ce96",
+          "line": 63196,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -52288,6 +52336,33 @@
           "line": 15812,
           "source": "commit",
           "preview": "8643************************Q3q4"
+        }
+      ]
+    },
+    {
+      "repo": "aymananas1/rentguard-2",
+      "url": "https://github.com/aymananas1/rentguard-2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.38,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit eff1171",
+          "line": 342,
+          "source": "commit",
+          "preview": "AIza************************fCrQ"
         }
       ]
     },
@@ -145222,6 +145297,33 @@
           "line": 405,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "zarvisaz007/TridenB-Autoforwarder-MultiUser",
+      "url": "https://github.com/zarvisaz007/TridenB-Autoforwarder-MultiUser",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.56,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "TridenB-Autoforwarder-MultiUser-main/run_bot.py",
+          "line": 40,
+          "source": "file",
+          "preview": "8775************************TrhM"
         }
       ]
     },
