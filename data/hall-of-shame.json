@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T17:15:52.336734+00:00",
+  "generatedAt": "2026-04-05T17:47:52.564657+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -6928,6 +6928,54 @@
           "line": 64920,
           "source": "commit",
           "preview": "AIza************************KG_E"
+        }
+      ]
+    },
+    {
+      "repo": "Tharun-Techie/orgfarm-4391340cd7-dev-ed.develop.lightning.force.com",
+      "url": "https://github.com/Tharun-Techie/orgfarm-4391340cd7-dev-ed.develop.lightning.force.com",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 4,
+      "scanTimeSeconds": 14.86,
+      "exposureScore": 96,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 4
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "Commit 07e6345",
+          "line": 802,
+          "source": "commit",
+          "preview": "http************************etty"
+        },
+        {
+          "type": "Firebase Database URL",
+          "file": "Commit 07e6345",
+          "line": 804,
+          "source": "commit",
+          "preview": "http************************etty"
+        },
+        {
+          "type": "Firebase Database URL",
+          "file": "Commit 07e6345",
+          "line": 806,
+          "source": "commit",
+          "preview": "http************************etty"
+        },
+        {
+          "type": "Firebase Database URL",
+          "file": "Commit 07e6345",
+          "line": 839,
+          "source": "commit",
+          "preview": "http************************etty"
         }
       ]
     },
@@ -22487,6 +22535,40 @@
           "type": "Private Key (RSA)",
           "file": "Commit d83111b",
           "line": 83577,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "Pawel-pw/salonbot",
+      "url": "https://github.com/Pawel-pw/salonbot",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 2,
+      "scanTimeSeconds": 38.38,
+      "exposureScore": 52,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 4b47152",
+          "line": 12043,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 39e688f",
+          "line": 12490,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -51540,6 +51622,33 @@
           "line": 193,
           "source": "commit",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "ZAINAPP-creator/ZAIN",
+      "url": "https://github.com/ZAINAPP-creator/ZAIN",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 5.9,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 61b80d5",
+          "line": 762,
+          "source": "commit",
+          "preview": "AIza************************2H54"
         }
       ]
     },
@@ -89371,6 +89480,33 @@
       ]
     },
     {
+      "repo": "RaffaS2/dance-school",
+      "url": "https://github.com/RaffaS2/dance-school",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.02,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "dance-school-main/README.md",
+          "line": 33,
+          "source": "file",
+          "preview": "post************************tech"
+        }
+      ]
+    },
+    {
       "repo": "Rahban1/gym-tracker-swift",
       "url": "https://github.com/Rahban1/gym-tracker-swift",
       "status": "leaked",
@@ -91608,6 +91744,33 @@
           "line": 8,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "Sesha-Nivas/CycleSafe",
+      "url": "https://github.com/Sesha-Nivas/CycleSafe",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.28,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "CycleSafe-main/README.md",
+          "line": 145,
+          "source": "file",
+          "preview": "AIza************************wvd8"
         }
       ]
     },
@@ -143718,6 +143881,33 @@
           "line": 33,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "tomkor96/airflow-test",
+      "url": "https://github.com/tomkor96/airflow-test",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.68,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "airflow-test-main/config/airflow.cfg",
+          "line": 2463,
+          "source": "file",
+          "preview": "post************************gres"
         }
       ]
     },
