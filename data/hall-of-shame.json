@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T19:13:35.181549+00:00",
+  "generatedAt": "2026-04-05T19:51:24.829439+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -73905,6 +73905,33 @@
       ]
     },
     {
+      "repo": "Achyuth69/disaster-response-ai",
+      "url": "https://github.com/Achyuth69/disaster-response-ai",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 24.87,
+      "exposureScore": 20,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "disaster-response-ai-main/tests/test_security.py",
+          "line": 40,
+          "source": "file",
+          "preview": "gsk_************************3456"
+        }
+      ]
+    },
+    {
       "repo": "Ackahkelvin45/mosquito_dashboard_be",
       "url": "https://github.com/Ackahkelvin45/mosquito_dashboard_be",
       "status": "leaked",
@@ -82892,6 +82919,33 @@
           "line": 19,
           "source": "file",
           "preview": "AIza************************eakc"
+        }
+      ]
+    },
+    {
+      "repo": "JaviGQ/TranslateMe",
+      "url": "https://github.com/JaviGQ/TranslateMe",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.78,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "TranslateMe-main/GoogleService-Info.plist",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************8hxM"
         }
       ]
     },
@@ -117672,6 +117726,168 @@
       ]
     },
     {
+      "repo": "huongdiem26marc2853/repo0ondff",
+      "url": "https://github.com/huongdiem26marc2853/repo0ondff",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 42.64,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo0ondff-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8319************************RP5g"
+        }
+      ]
+    },
+    {
+      "repo": "huongdiem26marc2853/repo3benf6",
+      "url": "https://github.com/huongdiem26marc2853/repo3benf6",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 37.52,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo3benf6-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8319************************RP5g"
+        }
+      ]
+    },
+    {
+      "repo": "huongdiem26marc2853/repo7ltq1y",
+      "url": "https://github.com/huongdiem26marc2853/repo7ltq1y",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 41.99,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repo7ltq1y-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8319************************RP5g"
+        }
+      ]
+    },
+    {
+      "repo": "huongdiem26marc2853/repoa22821",
+      "url": "https://github.com/huongdiem26marc2853/repoa22821",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 27.35,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repoa22821-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8319************************RP5g"
+        }
+      ]
+    },
+    {
+      "repo": "huongdiem26marc2853/repoe229h4",
+      "url": "https://github.com/huongdiem26marc2853/repoe229h4",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 27.48,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repoe229h4-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8319************************RP5g"
+        }
+      ]
+    },
+    {
+      "repo": "huongdiem26marc2853/repowmtbjj",
+      "url": "https://github.com/huongdiem26marc2853/repowmtbjj",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.12,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "repowmtbjj-main/public/js/config.js",
+          "line": 4,
+          "source": "file",
+          "preview": "8319************************RP5g"
+        }
+      ]
+    },
+    {
       "repo": "huonghua26marc1181/repob31a9p",
       "url": "https://github.com/huonghua26marc1181/repob31a9p",
       "status": "leaked",
@@ -127118,6 +127334,33 @@
           "line": 895,
           "source": "file",
           "preview": "AIza************************RyHI"
+        }
+      ]
+    },
+    {
+      "repo": "marcelomeloni/passaaiscrap",
+      "url": "https://github.com/marcelomeloni/passaaiscrap",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 52.83,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "passaaiscrap-main/supabase.js",
+          "line": 6,
+          "source": "file",
+          "preview": "eyJh************************69jg"
         }
       ]
     },
