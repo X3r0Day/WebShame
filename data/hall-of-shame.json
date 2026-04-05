@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T11:49:33.622886+00:00",
+  "generatedAt": "2026-04-05T12:12:21.116271+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -11400,6 +11400,54 @@
           "type": "Private Key (RSA)",
           "file": "Commit 6f4a476",
           "line": 62102,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "kellygabot/ordering-system",
+      "url": "https://github.com/kellygabot/ordering-system",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 67.81,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "ordering-system-main/node_modules/dotenv/README-es.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "ordering-system-main/node_modules/dotenv/README.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 5cbbdad",
+          "line": 71578,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 5cbbdad",
+          "line": 72326,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -45051,6 +45099,33 @@
       ]
     },
     {
+      "repo": "Error404m/raja-swati",
+      "url": "https://github.com/Error404m/raja-swati",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 110.55,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 4d5e3c5",
+          "line": 121985,
+          "source": "commit",
+          "preview": "AIza************************-KyA"
+        }
+      ]
+    },
+    {
       "repo": "Eslamcoo66/Wifii",
       "url": "https://github.com/Eslamcoo66/Wifii",
       "status": "leaked",
@@ -60896,6 +60971,33 @@
           "line": 63,
           "source": "commit",
           "preview": "http************************json"
+        }
+      ]
+    },
+    {
+      "repo": "mariyam3262/heritagehues-backend",
+      "url": "https://github.com/mariyam3262/heritagehues-backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 68.51,
+      "exposureScore": 30,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit 2e1e27f",
+          "line": 67,
+          "source": "commit",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -77640,6 +77742,33 @@
       ]
     },
     {
+      "repo": "Divya14225/FinanceDataProcessingandAccessControlBackend",
+      "url": "https://github.com/Divya14225/FinanceDataProcessingandAccessControlBackend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.34,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "FinanceDataProcessingandAccessControlBackend-master/src/main/resources/application.properties",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "Divyacodes1/AI-News-SummarizerAutomation",
       "url": "https://github.com/Divyacodes1/AI-News-SummarizerAutomation",
       "status": "leaked",
@@ -80286,6 +80415,33 @@
       ]
     },
     {
+      "repo": "HoangBinh1612/Do_an_NNPTUD",
+      "url": "https://github.com/HoangBinh1612/Do_an_NNPTUD",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 19.85,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Do_an_NNPTUD-master/app.js",
+          "line": 52,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "Honops/dasboard",
       "url": "https://github.com/Honops/dasboard",
       "status": "leaked",
@@ -81933,6 +82089,33 @@
       ]
     },
     {
+      "repo": "KaiJoMC/Bot",
+      "url": "https://github.com/KaiJoMC/Bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.76,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Bot-main/src/config/config.js",
+          "line": 22,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "KaikyDEV/clube_da_compra",
       "url": "https://github.com/KaikyDEV/clube_da_compra",
       "status": "leaked",
@@ -81983,6 +82166,33 @@
           "line": 1,
           "source": "file",
           "preview": "8128************************J3CQ"
+        }
+      ]
+    },
+    {
+      "repo": "KaranBararwal/backend-finance",
+      "url": "https://github.com/KaranBararwal/backend-finance",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.17,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "backend-finance-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -83495,6 +83705,33 @@
           "line": 24,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "MSLOADERSHOP/Telegramhackings",
+      "url": "https://github.com/MSLOADERSHOP/Telegramhackings",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.47,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Telegramhackings-main/bot.py",
+          "line": 14,
+          "source": "file",
+          "preview": "8686************************LdK0"
         }
       ]
     },
@@ -85142,6 +85379,33 @@
           "line": 23,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "MuthuManickam-N15/mj-shoes",
+      "url": "https://github.com/MuthuManickam-N15/mj-shoes",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.06,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "mj-shoes-main/.env",
+          "line": 16,
+          "source": "file",
+          "preview": "eyJh************************zbiE"
         }
       ]
     },
@@ -88733,6 +88997,33 @@
           "line": 73,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "RoboIOTers/nuclave",
+      "url": "https://github.com/RoboIOTers/nuclave",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.73,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "nuclave-main/docker-compose.yml",
+          "line": 11,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -98808,6 +99099,33 @@
       ]
     },
     {
+      "repo": "asifalam515/focus_hub_server",
+      "url": "https://github.com/asifalam515/focus_hub_server",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.73,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "focus_hub_server-main/.env",
+          "line": 12,
+          "source": "file",
+          "preview": "post************************tech"
+        }
+      ]
+    },
+    {
       "repo": "asjad1122z-a11y/Ytapi",
       "url": "https://github.com/asjad1122z-a11y/Ytapi",
       "status": "leaked",
@@ -99506,6 +99824,33 @@
           "line": 7,
           "source": "file",
           "preview": "eyJh************************XYVY"
+        }
+      ]
+    },
+    {
+      "repo": "babo-beep/icf-coaching-evaluation-tool",
+      "url": "https://github.com/babo-beep/icf-coaching-evaluation-tool",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.04,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "icf-coaching-evaluation-tool-main/backend/alembic.ini",
+          "line": 89,
+          "source": "file",
+          "preview": "post************************3638"
         }
       ]
     },
@@ -139547,6 +139892,33 @@
           "line": 42,
           "source": "file",
           "preview": "8279************************hQRw"
+        }
+      ]
+    },
+    {
+      "repo": "tfkxianyu/wstts",
+      "url": "https://github.com/tfkxianyu/wstts",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.58,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenAI API Key (Legacy)"
+      ],
+      "typeCounts": {
+        "OpenAI API Key (Legacy)": 1
+      },
+      "findings": [
+        {
+          "type": "OpenAI API Key (Legacy)",
+          "file": "wstts-main/index.js",
+          "line": 2851,
+          "source": "file",
+          "preview": "sk-w************************kfhh"
         }
       ]
     },
