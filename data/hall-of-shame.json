@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T05:40:15.651772+00:00",
+  "generatedAt": "2026-04-05T06:55:20.990763+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -5628,6 +5628,63 @@
           "type": "Private Key (RSA)",
           "file": "Commit 61c509e",
           "line": 63000,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "HarshitaRMoger/url_shortner",
+      "url": "https://github.com/HarshitaRMoger/url_shortner",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 5,
+      "uniqueTypes": 2,
+      "filesAffected": 4,
+      "commitFindings": 2,
+      "scanTimeSeconds": 186.62,
+      "exposureScore": 96,
+      "topTypes": [
+        "Private Key (RSA)",
+        "Redis Connection URI (Password)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4,
+        "Redis Connection URI (Password)": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "url_shortner-main/url-shortener/node_modules/dotenv/README-es.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "url_shortner-main/url-shortener/node_modules/dotenv/README.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Redis Connection URI (Password)",
+          "file": "url_shortner-main/url-shortener/node_modules/redis/README.md",
+          "line": 81,
+          "source": "file",
+          "preview": "redi************************80\","
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 2523090",
+          "line": 140314,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 2523090",
+          "line": 141062,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -17303,6 +17360,51 @@
           "line": 35799,
           "source": "commit",
           "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "Aniket2832/portify",
+      "url": "https://github.com/Aniket2832/portify",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 3,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 19.31,
+      "exposureScore": 60,
+      "topTypes": [
+        "PostgreSQL Connection URI",
+        "Google OAuth Client Secret",
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1,
+        "Google OAuth Client Secret": 1,
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Aniket2832-portify-8b75cca/server/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "Google OAuth Client Secret",
+          "file": "Aniket2832-portify-8b75cca/server/.env",
+          "line": 7,
+          "source": "file",
+          "preview": "GOCS************************c0Ml"
+        },
+        {
+          "type": "Groq API Key",
+          "file": "Aniket2832-portify-8b75cca/server/.env",
+          "line": 9,
+          "source": "file",
+          "preview": "gsk_************************ldUY"
         }
       ]
     },
@@ -43344,6 +43446,33 @@
       ]
     },
     {
+      "repo": "Bhaaavyaaaa/web-page",
+      "url": "https://github.com/Bhaaavyaaaa/web-page",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.91,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit d096879",
+          "line": 26,
+          "source": "commit",
+          "preview": "AIza************************Uz0w"
+        }
+      ]
+    },
+    {
       "repo": "Bhogla/E-commerce",
       "url": "https://github.com/Bhogla/E-commerce",
       "status": "leaked",
@@ -46283,6 +46412,33 @@
           "line": 1406,
           "source": "commit",
           "preview": "eyJh************************RWHs"
+        }
+      ]
+    },
+    {
+      "repo": "Luisitozx12/guayaaquil",
+      "url": "https://github.com/Luisitozx12/guayaaquil",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 87.98,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit d3d71f9",
+          "line": 667,
+          "source": "commit",
+          "preview": "http************************blyX"
         }
       ]
     },
@@ -71285,6 +71441,33 @@
           "line": 26,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "Aadarsh-ar/N8N-Linkedin-Automation",
+      "url": "https://github.com/Aadarsh-ar/N8N-Linkedin-Automation",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.21,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "N8N-Linkedin-Automation-main/LinkedIn DM Outreach.json",
+          "line": 12,
+          "source": "file",
+          "preview": "AIza************************78JM"
         }
       ]
     },
@@ -101498,6 +101681,33 @@
           "line": 18,
           "source": "file",
           "preview": "AIza************************8ni8"
+        }
+      ]
+    },
+    {
+      "repo": "chungthelac-oss/FirebaseAuth",
+      "url": "https://github.com/chungthelac-oss/FirebaseAuth",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.89,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "FirebaseAuth-master/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************de3E"
         }
       ]
     },
