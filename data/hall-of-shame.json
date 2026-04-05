@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T23:26:35.580441+00:00",
+  "generatedAt": "2026-04-05T23:59:50.264485+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -87209,6 +87209,33 @@
       ]
     },
     {
+      "repo": "MuhammadRizo19/PrOtkProject",
+      "url": "https://github.com/MuhammadRizo19/PrOtkProject",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 10.71,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "PrOtkProject-master/pr_otk/management/commands/run_otk_bot.py",
+          "line": 20,
+          "source": "file",
+          "preview": "8598************************z6TY"
+        }
+      ]
+    },
+    {
       "repo": "MuhammadSirajShah/bychat",
       "url": "https://github.com/MuhammadSirajShah/bychat",
       "status": "leaked",
@@ -93253,6 +93280,33 @@
           "line": 11,
           "source": "file",
           "preview": "8719************************EbNA"
+        }
+      ]
+    },
+    {
+      "repo": "Slowbro213/king-of-city-backend",
+      "url": "https://github.com/Slowbro213/king-of-city-backend",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 11.99,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "compose.yaml",
+          "line": 23,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -119227,6 +119281,33 @@
           "line": 3,
           "source": "file",
           "preview": "8642************************uLcY"
+        }
+      ]
+    },
+    {
+      "repo": "iajaspion/openclaw-workspace",
+      "url": "https://github.com/iajaspion/openclaw-workspace",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 89.44,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "openclaw-workspace-main/memory/2026-04-06.md",
+          "line": 17,
+          "source": "file",
+          "preview": "AIza************************89ew"
         }
       ]
     },
