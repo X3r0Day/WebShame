@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T15:23:44.951138+00:00",
+  "generatedAt": "2026-04-05T16:01:27.108447+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -10410,6 +10410,54 @@
           "type": "Private Key (RSA)",
           "file": "Commit 9aafbb4",
           "line": 113858,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "Reyan-Dabre/SNet-Blocker",
+      "url": "https://github.com/Reyan-Dabre/SNet-Blocker",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 128.35,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "SNet-Blocker-main/node_modules/dotenv/README-es.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "SNet-Blocker-main/node_modules/dotenv/README.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 5983c8d",
+          "line": 120700,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 5983c8d",
+          "line": 121448,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -48500,6 +48548,33 @@
       ]
     },
     {
+      "repo": "NovaAppolo/sleepingbag-finance",
+      "url": "https://github.com/NovaAppolo/sleepingbag-finance",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.94,
+      "exposureScore": 30,
+      "topTypes": [
+        "Mapbox API Key"
+      ],
+      "typeCounts": {
+        "Mapbox API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Mapbox API Key",
+          "file": "Commit c41fc17",
+          "line": 326,
+          "source": "commit",
+          "preview": "pk.e************************Nh2w"
+        }
+      ]
+    },
+    {
       "repo": "NovaLukaz/Traum2-Bewerbungen",
       "url": "https://github.com/NovaLukaz/Traum2-Bewerbungen",
       "status": "leaked",
@@ -70073,6 +70148,33 @@
       ]
     },
     {
+      "repo": "umair24171/Vote-Agent",
+      "url": "https://github.com/umair24171/Vote-Agent",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.39,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit 24040ae",
+          "line": 46,
+          "source": "commit",
+          "preview": "http************************qBSs"
+        }
+      ]
+    },
+    {
       "repo": "umitcancinar/SeyahatRehberAI",
       "url": "https://github.com/umitcancinar/SeyahatRehberAI",
       "status": "leaked",
@@ -85382,6 +85484,33 @@
       ]
     },
     {
+      "repo": "MerlinDog1/foundry-ui-minimax-real",
+      "url": "https://github.com/MerlinDog1/foundry-ui-minimax-real",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.23,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "foundry-ui-minimax-real-main/server.py",
+          "line": 26,
+          "source": "file",
+          "preview": "AIza************************oSns"
+        }
+      ]
+    },
+    {
       "repo": "MicaheDev/lingo-hands",
       "url": "https://github.com/MicaheDev/lingo-hands",
       "status": "leaked",
@@ -87538,6 +87667,33 @@
           "line": 5,
           "source": "file",
           "preview": "8456************************s9Mo"
+        }
+      ]
+    },
+    {
+      "repo": "OsiniLiyanage/Generation-5.5-AI-Engineer-Lecture-Series-2026",
+      "url": "https://github.com/OsiniLiyanage/Generation-5.5-AI-Engineer-Lecture-Series-2026",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.15,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "Generation-5.5-AI-Engineer-Lecture-Series-2026-main/practical2/openrouter.js",
+          "line": 5,
+          "source": "file",
+          "preview": "sk-o************************f152"
         }
       ]
     },
