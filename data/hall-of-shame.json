@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-06T14:57:37.728914+00:00",
+  "generatedAt": "2026-04-06T15:48:38.867336+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -7444,6 +7444,54 @@
           "line": 399,
           "source": "commit",
           "preview": "eyJh************************FL48"
+        }
+      ]
+    },
+    {
+      "repo": "zy10h/Youth-Football-Team-Management-System",
+      "url": "https://github.com/zy10h/Youth-Football-Team-Management-System",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 4,
+      "scanTimeSeconds": 195.38,
+      "exposureScore": 96,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit e5f80f8",
+          "line": 74545,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit e5f80f8",
+          "line": 75308,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 872c47d",
+          "line": 74591,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 872c47d",
+          "line": 75354,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -80948,6 +80996,33 @@
       ]
     },
     {
+      "repo": "ERP15/printweaver",
+      "url": "https://github.com/ERP15/printweaver",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.39,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "printweaver-main/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "Earthiscool/BraxtonV1Chatbot",
       "url": "https://github.com/Earthiscool/BraxtonV1Chatbot",
       "status": "leaked",
@@ -87991,6 +88066,33 @@
           "line": 7,
           "source": "file",
           "preview": "AIza************************meR0"
+        }
+      ]
+    },
+    {
+      "repo": "MittalPatel-91/eventtest-assessment-ajackus",
+      "url": "https://github.com/MittalPatel-91/eventtest-assessment-ajackus",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.51,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "eventtest-assessment-ajackus-main/docker-compose.yml",
+          "line": 26,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
