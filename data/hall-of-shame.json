@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-06T12:25:00.576518+00:00",
+  "generatedAt": "2026-04-06T14:04:51.723969+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -5582,6 +5582,63 @@
       ]
     },
     {
+      "repo": "DHARANI-0101/zorvyn-fintech",
+      "url": "https://github.com/DHARANI-0101/zorvyn-fintech",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 5,
+      "uniqueTypes": 2,
+      "filesAffected": 4,
+      "commitFindings": 2,
+      "scanTimeSeconds": 75.41,
+      "exposureScore": 96,
+      "topTypes": [
+        "Private Key (RSA)",
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4,
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "zorvyn-fintech-main/node_modules/dotenv/README-es.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "zorvyn-fintech-main/node_modules/dotenv/README.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "zorvyn-fintech-main/node_modules/pg-pool/README.md",
+          "line": 74,
+          "source": "file",
+          "preview": "post************************####"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit b3ebd68",
+          "line": 26991,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit b3ebd68",
+          "line": 27739,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "Dharmi-456-design/-mongo-middleware",
       "url": "https://github.com/Dharmi-456-design/-mongo-middleware",
       "status": "leaked",
@@ -5861,6 +5918,63 @@
           "type": "Private Key (RSA)",
           "file": "Commit 17e1269",
           "line": 64653,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "Lalitmehra9720/zorvyn-finance-dashboard",
+      "url": "https://github.com/Lalitmehra9720/zorvyn-finance-dashboard",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 5,
+      "uniqueTypes": 2,
+      "filesAffected": 4,
+      "commitFindings": 2,
+      "scanTimeSeconds": 138.89,
+      "exposureScore": 96,
+      "topTypes": [
+        "Private Key (RSA)",
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1,
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "zorvyn-finance-dashboard-main/backend/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "mong************************.net"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "zorvyn-finance-dashboard-main/backend/node_modules/dotenv/README-es.md",
+          "line": 116,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "zorvyn-finance-dashboard-main/backend/node_modules/dotenv/README.md",
+          "line": 116,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 9b78f29",
+          "line": 58555,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 9b78f29",
+          "line": 59318,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -11299,6 +11413,54 @@
           "type": "Private Key (RSA)",
           "file": "Commit c9c078b",
           "line": 66972,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "blackeichi/archive-backend-deploy",
+      "url": "https://github.com/blackeichi/archive-backend-deploy",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 109.43,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "archive-backend-deploy-main/node_modules/dotenv/README-es.md",
+          "line": 116,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "archive-backend-deploy-main/node_modules/dotenv/README.md",
+          "line": 116,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 09abe60",
+          "line": 18936,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 09abe60",
+          "line": 19699,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -19380,6 +19542,42 @@
       ]
     },
     {
+      "repo": "Stratfiy/sukhya",
+      "url": "https://github.com/Stratfiy/sukhya",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 5.24,
+      "exposureScore": 60,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)",
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1,
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "Commit 3f25682",
+          "line": 38,
+          "source": "commit",
+          "preview": "eyJh************************i-B0"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 3f25682",
+          "line": 40,
+          "source": "commit",
+          "preview": "AIza************************2MU4"
+        }
+      ]
+    },
+    {
       "repo": "aalaatantawi/Vercel",
       "url": "https://github.com/aalaatantawi/Vercel",
       "status": "leaked",
@@ -21420,6 +21618,47 @@
           "type": "PostgreSQL Connection URI",
           "file": "Commit e693450",
           "line": 160,
+          "source": "commit",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "bugremover/secure_authentication",
+      "url": "https://github.com/bugremover/secure_authentication",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 1,
+      "scanTimeSeconds": 9.09,
+      "exposureScore": 54,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 3
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "secure_authentication-main/POSTGRESQL.md",
+          "line": 149,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "secure_authentication-main/docker-compose.yml",
+          "line": 33,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit e57c274",
+          "line": 152,
           "source": "commit",
           "preview": "post************************5432"
         }
@@ -68550,6 +68789,33 @@
           "line": 40,
           "source": "commit",
           "preview": "http************************X3Mk"
+        }
+      ]
+    },
+    {
+      "repo": "schutzvasitexbr/schutzvasitex-gerador-posts-wallpapers",
+      "url": "https://github.com/schutzvasitexbr/schutzvasitex-gerador-posts-wallpapers",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.96,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 304917b",
+          "line": 270,
+          "source": "commit",
+          "preview": "AIza************************yQi0"
         }
       ]
     },
@@ -124309,6 +124575,33 @@
       ]
     },
     {
+      "repo": "ketakizope/sportsverse",
+      "url": "https://github.com/ketakizope/sportsverse",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 38.03,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "sportsverse-main/backend/api/ai_utils.py",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************tw6w"
+        }
+      ]
+    },
+    {
       "repo": "kevinmakwana/TicketBooking",
       "url": "https://github.com/kevinmakwana/TicketBooking",
       "status": "leaked",
@@ -136158,6 +136451,33 @@
           "line": 32,
           "source": "file",
           "preview": "AIza************************3lh4"
+        }
+      ]
+    },
+    {
+      "repo": "pedroivofreis/report_humana",
+      "url": "https://github.com/pedroivofreis/report_humana",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 43.45,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "report_humana-main/api-main/api-main/scripts/import_users_from_monolith.py",
+          "line": 102,
+          "source": "file",
+          "preview": "post************************7717"
         }
       ]
     },
@@ -153141,6 +153461,33 @@
           "line": 7,
           "source": "file",
           "preview": "sk_t************************wgml"
+        }
+      ]
+    },
+    {
+      "repo": "zyghhh/DaseS",
+      "url": "https://github.com/zyghhh/DaseS",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.97,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "DaseS-main/docker-compose.yml",
+          "line": 87,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     }
