@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-06T10:52:35.793751+00:00",
+  "generatedAt": "2026-04-06T11:52:24.468983+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -57279,6 +57279,33 @@
       ]
     },
     {
+      "repo": "ehdgnsdn123-cyber/pageo-tool",
+      "url": "https://github.com/ehdgnsdn123-cyber/pageo-tool",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 13.35,
+      "exposureScore": 30,
+      "topTypes": [
+        "Anthropic API Key"
+      ],
+      "typeCounts": {
+        "Anthropic API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Anthropic API Key",
+          "file": "Commit b53e025",
+          "line": 23,
+          "source": "commit",
+          "preview": "sk-a************************PQAA"
+        }
+      ]
+    },
+    {
       "repo": "eliujahirbautistadelacruz-dotcom/hfyfgfygv",
       "url": "https://github.com/eliujahirbautistadelacruz-dotcom/hfyfgfygv",
       "status": "leaked",
@@ -73394,6 +73421,33 @@
           "line": 14,
           "source": "file",
           "preview": "AIza************************LK04"
+        }
+      ]
+    },
+    {
+      "repo": "2smarthrm/encoserver",
+      "url": "https://github.com/2smarthrm/encoserver",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.12,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "encoserver-main/index.js",
+          "line": 60,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -96564,6 +96618,33 @@
       ]
     },
     {
+      "repo": "Wolf-Bazil/Terosica-Security",
+      "url": "https://github.com/Wolf-Bazil/Terosica-Security",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 18.61,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "Terosica-Security-main/cyber-safety/README.md",
+          "line": 109,
+          "source": "file",
+          "preview": "sk-o************************8375"
+        }
+      ]
+    },
+    {
       "repo": "Wuchinator/Payment-service",
       "url": "https://github.com/Wuchinator/Payment-service",
       "status": "leaked",
@@ -114681,6 +114762,33 @@
       ]
     },
     {
+      "repo": "fkhaerani77/ExamifyMTs",
+      "url": "https://github.com/fkhaerani77/ExamifyMTs",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 19.31,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "ExamifyMTs-master/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************IQDs"
+        }
+      ]
+    },
+    {
       "repo": "flaksit/ha-timescaledb-recorder",
       "url": "https://github.com/flaksit/ha-timescaledb-recorder",
       "status": "leaked",
@@ -114947,6 +115055,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************HaTw"
+        }
+      ]
+    },
+    {
+      "repo": "foxelectriciancom-create/server-auction-monitor",
+      "url": "https://github.com/foxelectriciancom-create/server-auction-monitor",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.31,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "server-auction-monitor-main/server_bulk_monitor.py",
+          "line": 119,
+          "source": "file",
+          "preview": "8769************************J_dA"
         }
       ]
     },
@@ -126125,6 +126260,33 @@
           "line": 1,
           "source": "file",
           "preview": "8674************************Cro0"
+        }
+      ]
+    },
+    {
+      "repo": "laharireddy06/book-recommendation",
+      "url": "https://github.com/laharireddy06/book-recommendation",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 48.66,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "book-recommendation-main/bookrec/settings.py",
+          "line": 23,
+          "source": "file",
+          "preview": "AIza************************L9Mg"
         }
       ]
     },
@@ -142383,6 +142545,33 @@
       ]
     },
     {
+      "repo": "siddhartXportsoft/attendance-portal",
+      "url": "https://github.com/siddhartXportsoft/attendance-portal",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 82.45,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "attendance-portal-main/DEPLOYMENT.md",
+          "line": 34,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "siddiquesk/Spotify-backend-project",
       "url": "https://github.com/siddiquesk/Spotify-backend-project",
       "status": "leaked",
@@ -142512,6 +142701,33 @@
           "type": "PostgreSQL Connection URI",
           "file": "Afresco-ci-rewrite-get-charts/helm/alfresco-content-services/tests/config-infrastructure_test.yaml",
           "line": 162,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "silvanobarbosa/grsfacilities",
+      "url": "https://github.com/silvanobarbosa/grsfacilities",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 30.18,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "grsfacilities-main/setup-env.js",
+          "line": 17,
           "source": "file",
           "preview": "post************************5432"
         }
