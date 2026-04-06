@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-06T04:30:23.594537+00:00",
+  "generatedAt": "2026-04-06T06:25:42.153498+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -37186,6 +37186,42 @@
       ]
     },
     {
+      "repo": "xiangbincui/TrendRadar",
+      "url": "https://github.com/xiangbincui/TrendRadar",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 2,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 74.91,
+      "exposureScore": 40,
+      "topTypes": [
+        "Telegram Bot Token",
+        "Slack Webhook"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1,
+        "Slack Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "TrendRadar-master/README-EN.md",
+          "line": 1376,
+          "source": "file",
+          "preview": "1234************************m9T0"
+        },
+        {
+          "type": "Slack Webhook",
+          "file": "TrendRadar-master/README-EN.md",
+          "line": 1731,
+          "source": "file",
+          "preview": "http************************XXXX"
+        }
+      ]
+    },
+    {
       "repo": "xiaobaiba999/TrendRadar",
       "url": "https://github.com/xiaobaiba999/TrendRadar",
       "status": "leaked",
@@ -73246,6 +73282,33 @@
       ]
     },
     {
+      "repo": "6R1M-5H3PH3RD/ai-work-marketplace",
+      "url": "https://github.com/6R1M-5H3PH3RD/ai-work-marketplace",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 21.22,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "ai-work-marketplace-main/docker-compose.dev.yml",
+          "line": 43,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "727ptr9pcw-sketch/STALKER.PRIVADO.OFICIAL",
       "url": "https://github.com/727ptr9pcw-sketch/STALKER.PRIVADO.OFICIAL",
       "status": "leaked",
@@ -81126,6 +81189,33 @@
           "line": 2,
           "source": "file",
           "preview": "8616************************AwrI"
+        }
+      ]
+    },
+    {
+      "repo": "Gaurav1764/WizUp-gary",
+      "url": "https://github.com/Gaurav1764/WizUp-gary",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 48.81,
+      "exposureScore": 20,
+      "topTypes": [
+        "Supabase Service Role Key (JWT)"
+      ],
+      "typeCounts": {
+        "Supabase Service Role Key (JWT)": 1
+      },
+      "findings": [
+        {
+          "type": "Supabase Service Role Key (JWT)",
+          "file": "WizUp-gary-main/assets/js/GoogleAppsScript_AttendanceSync.js",
+          "line": 16,
+          "source": "file",
+          "preview": "eyJh************************SiOw"
         }
       ]
     },
@@ -89631,6 +89721,33 @@
           "line": 13,
           "source": "file",
           "preview": "AIza************************ep7Y"
+        }
+      ]
+    },
+    {
+      "repo": "Prescode-1/vanguard",
+      "url": "https://github.com/Prescode-1/vanguard",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 15.07,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "vanguard-main/backend/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -120249,6 +120366,33 @@
           "line": 4,
           "source": "file",
           "preview": "8748************************OADU"
+        }
+      ]
+    },
+    {
+      "repo": "irakozejuniorolivier/CodeMateRwa",
+      "url": "https://github.com/irakozejuniorolivier/CodeMateRwa",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 12.36,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "CodeMateRwa-main/ai-chat.php",
+          "line": 52,
+          "source": "file",
+          "preview": "AIza************************-cmc"
         }
       ]
     },
