@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-06T11:52:24.468983+00:00",
+  "generatedAt": "2026-04-06T12:25:00.576518+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -21760,6 +21760,49 @@
           "line": 109,
           "source": "file",
           "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "Nihad1903/holbertonschool-holbegram",
+      "url": "https://github.com/Nihad1903/holbertonschool-holbegram",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 3,
+      "commitFindings": 0,
+      "scanTimeSeconds": 19.66,
+      "exposureScore": 52,
+      "topTypes": [
+        "Google API/GCP Key",
+        "AWS Access Key ID"
+      ],
+      "typeCounts": {
+        "AWS Access Key ID": 1,
+        "Google API/GCP Key": 2
+      },
+      "findings": [
+        {
+          "type": "AWS Access Key ID",
+          "file": "holbertonschool-holbegram-main/README.md",
+          "line": 40,
+          "source": "file",
+          "preview": "AKIA************GMZG"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "holbertonschool-holbegram-main/holbegram/android/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************Lj9I"
+        },
+        {
+          "type": "Google API/GCP Key",
+          "file": "holbertonschool-holbegram-main/holbegram/ios/Runner/GoogleService-Info.plist",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************G1wA"
         }
       ]
     },
@@ -45264,6 +45307,33 @@
       ]
     },
     {
+      "repo": "Bekcompany/starsshop1",
+      "url": "https://github.com/Bekcompany/starsshop1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.71,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit f6614b8",
+          "line": 894,
+          "source": "commit",
+          "preview": "8776************************XxIE"
+        }
+      ]
+    },
+    {
       "repo": "Bhaaavyaaaa/web-page",
       "url": "https://github.com/Bhaaavyaaaa/web-page",
       "status": "leaked",
@@ -51312,6 +51382,33 @@
       ]
     },
     {
+      "repo": "Tidio95/CameraBot-",
+      "url": "https://github.com/Tidio95/CameraBot-",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.69,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit bdd7e59",
+          "line": 77,
+          "source": "commit",
+          "preview": "8113************************J4WI"
+        }
+      ]
+    },
+    {
       "repo": "Tokita03/aurum-V2-",
       "url": "https://github.com/Tokita03/aurum-V2-",
       "status": "leaked",
@@ -54386,6 +54483,33 @@
           "line": 18,
           "source": "commit",
           "preview": "AIza************************0rYA"
+        }
+      ]
+    },
+    {
+      "repo": "b04501513-lgtm/starsshop2121",
+      "url": "https://github.com/b04501513-lgtm/starsshop2121",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.28,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit 88767eb",
+          "line": 894,
+          "source": "commit",
+          "preview": "8776************************XxIE"
         }
       ]
     },
@@ -60488,6 +60612,33 @@
           "line": 19,
           "source": "commit",
           "preview": "gsk_************************3J7o"
+        }
+      ]
+    },
+    {
+      "repo": "jsjamil828-stack/Mini-bot",
+      "url": "https://github.com/jsjamil828-stack/Mini-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 3.92,
+      "exposureScore": 30,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Commit bfa3400",
+          "line": 745,
+          "source": "commit",
+          "preview": "7987************************nNzE"
         }
       ]
     },
@@ -80823,6 +80974,33 @@
       ]
     },
     {
+      "repo": "Fardeen0303/cloud-native-microservices-platform",
+      "url": "https://github.com/Fardeen0303/cloud-native-microservices-platform",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.15,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "cloud-native-microservices-platform-main/k8s/product-service/deployment.yaml",
+          "line": 22,
+          "source": "file",
+          "preview": "post************************5432"
+        }
+      ]
+    },
+    {
       "repo": "Fatkhurofficial/polymarket-",
       "url": "https://github.com/Fatkhurofficial/polymarket-",
       "status": "leaked",
@@ -95295,6 +95473,33 @@
       ]
     },
     {
+      "repo": "Trisha04bharti/GossipHub",
+      "url": "https://github.com/Trisha04bharti/GossipHub",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.07,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "GossipHub-main/GossipHub/GoogleService-Info.plist",
+          "line": 6,
+          "source": "file",
+          "preview": "AIza************************hezc"
+        }
+      ]
+    },
+    {
       "repo": "Tristan-DW/nexus-api",
       "url": "https://github.com/Tristan-DW/nexus-api",
       "status": "leaked",
@@ -100907,6 +101112,33 @@
           "line": 45,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "anilgangwal23/FirebaseUserAuth",
+      "url": "https://github.com/anilgangwal23/FirebaseUserAuth",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.59,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "FirebaseUserAuth-master/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************kMkE"
         }
       ]
     },
@@ -107333,6 +107565,33 @@
           "line": 407,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "cyraxs2345/wawawa",
+      "url": "https://github.com/cyraxs2345/wawawa",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.56,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "wawawa-main/.github/workflows/main.yml",
+          "line": 33,
+          "source": "file",
+          "preview": "http************************zSKc"
         }
       ]
     },
@@ -115676,6 +115935,33 @@
           "line": 10,
           "source": "file",
           "preview": "AIza************************EYq8"
+        }
+      ]
+    },
+    {
+      "repo": "georgwestin/Odin",
+      "url": "https://github.com/georgwestin/Odin",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 13.7,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Odin-main/Makefile",
+          "line": 16,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
