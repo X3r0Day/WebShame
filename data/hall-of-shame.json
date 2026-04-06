@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-05T23:59:50.264485+00:00",
+  "generatedAt": "2026-04-06T01:16:24.959726+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -81971,6 +81971,33 @@
       ]
     },
     {
+      "repo": "Hendricksoncala/Prueba_CQ2",
+      "url": "https://github.com/Hendricksoncala/Prueba_CQ2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 1.84,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Prueba_CQ2-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "post************************0153"
+        }
+      ]
+    },
+    {
       "repo": "HetrajsinhChauhan/Odoo-indusUni-Hackthone-_winarc-team",
       "url": "https://github.com/HetrajsinhChauhan/Odoo-indusUni-Hackthone-_winarc-team",
       "status": "leaked",
@@ -133942,6 +133969,33 @@
           "line": 9,
           "source": "file",
           "preview": "8778************************UOow"
+        }
+      ]
+    },
+    {
+      "repo": "overcast-software/career_caddy",
+      "url": "https://github.com/overcast-software/career_caddy",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.42,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "career_caddy-main/dagger/src/main.py",
+          "line": 69,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
