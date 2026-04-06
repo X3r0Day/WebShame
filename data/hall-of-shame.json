@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-06T15:48:38.867336+00:00",
+  "generatedAt": "2026-04-06T16:33:51.611346+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -12346,6 +12346,54 @@
       ]
     },
     {
+      "repo": "madelein-milagros/api-rest",
+      "url": "https://github.com/madelein-milagros/api-rest",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 108.53,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "api-rest-main/node_modules/dotenv/README-es.md",
+          "line": 116,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "api-rest-main/node_modules/dotenv/README.md",
+          "line": 116,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 960cd94",
+          "line": 51741,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 960cd94",
+          "line": 52504,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "madhwanibhumika24/lets-meet-backend",
       "url": "https://github.com/madhwanibhumika24/lets-meet-backend",
       "status": "leaked",
@@ -22645,6 +22693,49 @@
       ]
     },
     {
+      "repo": "rahul-ofis/fintellytics-frontend",
+      "url": "https://github.com/rahul-ofis/fintellytics-frontend",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 3,
+      "uniqueTypes": 2,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 30.93,
+      "exposureScore": 52,
+      "topTypes": [
+        "PostgreSQL Connection URI",
+        "Stripe Secret Key"
+      ],
+      "typeCounts": {
+        "Stripe Secret Key": 1,
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "Stripe Secret Key",
+          "file": "fintellytics-frontend-main/.env",
+          "line": 2,
+          "source": "file",
+          "preview": "sk_t************************Ms02"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "fintellytics-frontend-main/.env",
+          "line": 6,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "fintellytics-frontend-main/hasura-local.yml",
+          "line": 8,
+          "source": "file",
+          "preview": "post************************.com"
+        }
+      ]
+    },
+    {
       "repo": "rajeshwaranx-dev/thanos",
       "url": "https://github.com/rajeshwaranx-dev/thanos",
       "status": "leaked",
@@ -23350,6 +23441,40 @@
           "line": 39,
           "source": "commit",
           "preview": "AIza************************LXcc"
+        }
+      ]
+    },
+    {
+      "repo": "Mukesh2808/Finance-Dashboard-Backend",
+      "url": "https://github.com/Mukesh2808/Finance-Dashboard-Backend",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 2,
+      "scanTimeSeconds": 128.07,
+      "exposureScore": 52,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 129df12",
+          "line": 72633,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 129df12",
+          "line": 73068,
+          "source": "commit",
+          "preview": "----************************----"
         }
       ]
     },
@@ -28041,6 +28166,40 @@
           "line": 72562,
           "source": "commit",
           "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "Call-me-Boris-The-Razor/mtproto-cli",
+      "url": "https://github.com/Call-me-Boris-The-Razor/mtproto-cli",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 33.99,
+      "exposureScore": 42,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 2
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "mtproto-cli-main/docs/plans/2026-03-08-openclaw-skill-design.md",
+          "line": 376,
+          "source": "file",
+          "preview": "post************************5432"
+        },
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Commit 5cbcc04",
+          "line": 1093,
+          "source": "commit",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -40841,6 +41000,40 @@
       ]
     },
     {
+      "repo": "anhnhatdev/auth-rbac-pro-backend-solution",
+      "url": "https://github.com/anhnhatdev/auth-rbac-pro-backend-solution",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 101.3,
+      "exposureScore": 32,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "auth-rbac-pro-backend-solution-main/node_modules/dotenv/README-es.md",
+          "line": 116,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "auth-rbac-pro-backend-solution-main/node_modules/dotenv/README.md",
+          "line": 116,
+          "source": "file",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "ankitabera25/Personalized-Workout-Diet-Planner-with-AI",
       "url": "https://github.com/ankitabera25/Personalized-Workout-Diet-Planner-with-AI",
       "status": "leaked",
@@ -45784,6 +45977,33 @@
           "line": 357,
           "source": "commit",
           "preview": "eyJh************************AQaY"
+        }
+      ]
+    },
+    {
+      "repo": "BRisticc/skoolv2scraper",
+      "url": "https://github.com/BRisticc/skoolv2scraper",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 71.44,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit 7899e73",
+          "line": 6055,
+          "source": "commit",
+          "preview": "AIza************************mnmA"
         }
       ]
     },
@@ -55369,6 +55589,33 @@
           "line": 1495,
           "source": "commit",
           "preview": "eyJh************************N32g"
+        }
+      ]
+    },
+    {
+      "repo": "benjagmzok-ui/Argsport-net-com",
+      "url": "https://github.com/benjagmzok-ui/Argsport-net-com",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.65,
+      "exposureScore": 30,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Commit e38b3fd",
+          "line": 117,
+          "source": "commit",
+          "preview": "http************************9peJ"
         }
       ]
     },
@@ -76433,6 +76680,33 @@
       ]
     },
     {
+      "repo": "AniruddhaPKawarase/n8n-ai-workflows",
+      "url": "https://github.com/AniruddhaPKawarase/n8n-ai-workflows",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.92,
+      "exposureScore": 20,
+      "topTypes": [
+        "Firebase Database URL"
+      ],
+      "typeCounts": {
+        "Firebase Database URL": 1
+      },
+      "findings": [
+        {
+          "type": "Firebase Database URL",
+          "file": "n8n-ai-workflows-master/workflows/content_pipeline.json",
+          "line": 23,
+          "source": "file",
+          "preview": "http************************json"
+        }
+      ]
+    },
+    {
       "repo": "Anirudh-240701039/Project",
       "url": "https://github.com/Anirudh-240701039/Project",
       "status": "leaked",
@@ -76618,6 +76892,33 @@
           "line": 33,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "Aprendiz3276/Bot-de-trading-con-IA",
+      "url": "https://github.com/Aprendiz3276/Bot-de-trading-con-IA",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 8.23,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "Bot-de-trading-con-IA-main/trading-bot/DEPLOYMENT_GCP_GUIDE.md",
+          "line": 97,
+          "source": "file",
+          "preview": "8243************************8wLU"
         }
       ]
     },
@@ -77131,6 +77432,33 @@
           "line": 233,
           "source": "file",
           "preview": "mong************************7017"
+        }
+      ]
+    },
+    {
+      "repo": "Asistenciam4il2026/Asistencia",
+      "url": "https://github.com/Asistenciam4il2026/Asistencia",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 4.46,
+      "exposureScore": 20,
+      "topTypes": [
+        "Discord Webhook"
+      ],
+      "typeCounts": {
+        "Discord Webhook": 1
+      },
+      "findings": [
+        {
+          "type": "Discord Webhook",
+          "file": "Asistencia-main/discord-config.js",
+          "line": 3,
+          "source": "file",
+          "preview": "http************************mGuw"
         }
       ]
     },
@@ -78643,6 +78971,33 @@
           "line": 12,
           "source": "file",
           "preview": "AKIA************K4ZA"
+        }
+      ]
+    },
+    {
+      "repo": "CHOWBARNIKA19/academic-insights-hub-vercel",
+      "url": "https://github.com/CHOWBARNIKA19/academic-insights-hub-vercel",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 20.79,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "academic-insights-hub-vercel-main/SETUP_GUIDE.md",
+          "line": 85,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -81964,6 +82319,33 @@
           "line": 4,
           "source": "file",
           "preview": "AIza************************FrhE"
+        }
+      ]
+    },
+    {
+      "repo": "Frustracoin/avito",
+      "url": "https://github.com/Frustracoin/avito",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.43,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "avito-main/Dockerfile",
+          "line": 16,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -85339,6 +85721,33 @@
           "line": 1,
           "source": "file",
           "preview": "8128************************J3CQ"
+        }
+      ]
+    },
+    {
+      "repo": "Kanika1905/GetItDone",
+      "url": "https://github.com/Kanika1905/GetItDone",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 235.42,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "GetItDone-main/backend/connection/db.js",
+          "line": 5,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -110777,6 +111186,60 @@
       ]
     },
     {
+      "repo": "diljeet12/anime-bot",
+      "url": "https://github.com/diljeet12/anime-bot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.88,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "anime-bot-main/config.py",
+          "line": 6,
+          "source": "file",
+          "preview": "8247************************icew"
+        }
+      ]
+    },
+    {
+      "repo": "dimaspilberg/tgbot",
+      "url": "https://github.com/dimaspilberg/tgbot",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 30.31,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "tgbot-main/bot.py",
+          "line": 74,
+          "source": "file",
+          "preview": "8791************************6W9Y"
+        }
+      ]
+    },
+    {
       "repo": "dimonushub-svg/Managerbot",
       "url": "https://github.com/dimonushub-svg/Managerbot",
       "status": "leaked",
@@ -129461,6 +129924,33 @@
       ]
     },
     {
+      "repo": "m209engineer/Xabarchi-Front-end",
+      "url": "https://github.com/m209engineer/Xabarchi-Front-end",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 9.29,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Xabarchi-Front-end-main/src/app/Pages/shell/reels/reels.ts",
+          "line": 26,
+          "source": "file",
+          "preview": "AIza************************KSwQ"
+        }
+      ]
+    },
+    {
       "repo": "mackyy34/zlm-final",
       "url": "https://github.com/mackyy34/zlm-final",
       "status": "leaked",
@@ -131104,6 +131594,33 @@
           "line": 10,
           "source": "file",
           "preview": "8783************************o4vU"
+        }
+      ]
+    },
+    {
+      "repo": "mewhooik/V2",
+      "url": "https://github.com/mewhooik/V2",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 7.65,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "V2-main/vars.py",
+          "line": 13,
+          "source": "file",
+          "preview": "mong************************.net"
         }
       ]
     },
@@ -139667,6 +140184,33 @@
       ]
     },
     {
+      "repo": "ramanjanmanchikatla/SAR_Image",
+      "url": "https://github.com/ramanjanmanchikatla/SAR_Image",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.95,
+      "exposureScore": 20,
+      "topTypes": [
+        "OpenRouter API Key"
+      ],
+      "typeCounts": {
+        "OpenRouter API Key": 1
+      },
+      "findings": [
+        {
+          "type": "OpenRouter API Key",
+          "file": "SAR_Image-main/Sar_app/backend/main.py",
+          "line": 47,
+          "source": "file",
+          "preview": "sk-o************************d3af"
+        }
+      ]
+    },
+    {
       "repo": "ramazansalleh541-cmd/repo7skp5g",
       "url": "https://github.com/ramazansalleh541-cmd/repo7skp5g",
       "status": "leaked",
@@ -140824,6 +141368,33 @@
           "line": 37,
           "source": "file",
           "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
+      "repo": "rokeysai13-sys/resume",
+      "url": "https://github.com/rokeysai13-sys/resume",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 19.91,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "resume-main/.env",
+          "line": 49,
+          "source": "file",
+          "preview": "AIza************************_MhU"
         }
       ]
     },
@@ -151597,6 +152168,33 @@
           "line": 18,
           "source": "file",
           "preview": "AIza************************zL7Y"
+        }
+      ]
+    },
+    {
+      "repo": "waqaskhan137/gemini-sentinel",
+      "url": "https://github.com/waqaskhan137/gemini-sentinel",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.56,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "gemini-sentinel-main/.env",
+          "line": 1,
+          "source": "file",
+          "preview": "AIza************************u1PQ"
         }
       ]
     },
