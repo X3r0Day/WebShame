@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-06T09:43:12.302732+00:00",
+  "generatedAt": "2026-04-06T10:52:35.793751+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -10195,6 +10195,54 @@
           "type": "Private Key (RSA)",
           "file": "Commit 5443aff",
           "line": 96776,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
+      "repo": "LenHoChi/HeLa-Hardhat",
+      "url": "https://github.com/LenHoChi/HeLa-Hardhat",
+      "status": "leaked",
+      "severity": "high",
+      "totalSecrets": 4,
+      "uniqueTypes": 1,
+      "filesAffected": 3,
+      "commitFindings": 2,
+      "scanTimeSeconds": 6.62,
+      "exposureScore": 76,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 4
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "HeLa-Hardhat-main/node_modules/dotenv/README-es.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "HeLa-Hardhat-main/node_modules/dotenv/README.md",
+          "line": 101,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 0a80105",
+          "line": 1795,
+          "source": "commit",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 0a80105",
+          "line": 2543,
           "source": "commit",
           "preview": "----************************----"
         }
@@ -70758,6 +70806,33 @@
       ]
     },
     {
+      "repo": "thespacewa1ker/ethical-AI",
+      "url": "https://github.com/thespacewa1ker/ethical-AI",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 16.9,
+      "exposureScore": 30,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "Commit e8bfbcf",
+          "line": 55,
+          "source": "commit",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "thoabui01/vinhomes-green-paradise-cangio",
       "url": "https://github.com/thoabui01/vinhomes-green-paradise-cangio",
       "status": "leaked",
@@ -78989,6 +79064,33 @@
           "line": 632,
           "source": "file",
           "preview": "post************************5432"
+        }
+      ]
+    },
+    {
+      "repo": "DatrixDev/LTDD_GKY",
+      "url": "https://github.com/DatrixDev/LTDD_GKY",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 36.92,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "LTDD_GKY-main/app/google-services.json",
+          "line": 18,
+          "source": "file",
+          "preview": "AIza************************4Bfg"
         }
       ]
     },
@@ -106421,6 +106523,33 @@
           "line": 5,
           "source": "file",
           "preview": "sk-1************************unbQ"
+        }
+      ]
+    },
+    {
+      "repo": "cognizant-qylis/OM-Experiment1",
+      "url": "https://github.com/cognizant-qylis/OM-Experiment1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 5.42,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "OM-Experiment1-master/docker-compose-fastapi.yml",
+          "line": 29,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
@@ -149598,6 +149727,33 @@
       ]
     },
     {
+      "repo": "vvce23cseaiml0101-sketch/venky_own_pro1",
+      "url": "https://github.com/vvce23cseaiml0101-sketch/venky_own_pro1",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 6.55,
+      "exposureScore": 20,
+      "topTypes": [
+        "MongoDB Connection URI"
+      ],
+      "typeCounts": {
+        "MongoDB Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "MongoDB Connection URI",
+          "file": "venky_own_pro1-main/README.md",
+          "line": 84,
+          "source": "file",
+          "preview": "mong************************.net"
+        }
+      ]
+    },
+    {
       "repo": "vycao26febu4136/repob12ki2",
       "url": "https://github.com/vycao26febu4136/repob12ki2",
       "status": "leaked",
@@ -149891,6 +150047,33 @@
           "line": 21,
           "source": "file",
           "preview": "mong************************7017"
+        }
+      ]
+    },
+    {
+      "repo": "web-coder-pro/instasolo",
+      "url": "https://github.com/web-coder-pro/instasolo",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.34,
+      "exposureScore": 20,
+      "topTypes": [
+        "Telegram Bot Token"
+      ],
+      "typeCounts": {
+        "Telegram Bot Token": 1
+      },
+      "findings": [
+        {
+          "type": "Telegram Bot Token",
+          "file": "instasolo-main/script.js",
+          "line": 1,
+          "source": "file",
+          "preview": "8518************************9-w8"
         }
       ]
     },
