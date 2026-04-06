@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-06T06:25:42.153498+00:00",
+  "generatedAt": "2026-04-06T08:16:41.421509+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -27698,6 +27698,40 @@
       ]
     },
     {
+      "repo": "GAUTAM-DHIMAN/portfolio",
+      "url": "https://github.com/GAUTAM-DHIMAN/portfolio",
+      "status": "leaked",
+      "severity": "medium",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 1,
+      "scanTimeSeconds": 148.49,
+      "exposureScore": 42,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "portfolio-master/backend/node_modules/dotenv/README-es.md",
+          "line": 94,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "Commit 2e52cfc",
+          "line": 58357,
+          "source": "commit",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "GaunterOxDimm/kitchen-mix-webapp-v2",
       "url": "https://github.com/GaunterOxDimm/kitchen-mix-webapp-v2",
       "status": "leaked",
@@ -43384,6 +43418,40 @@
       ]
     },
     {
+      "repo": "vietttran/LaunchPoint",
+      "url": "https://github.com/vietttran/LaunchPoint",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 2,
+      "uniqueTypes": 1,
+      "filesAffected": 2,
+      "commitFindings": 0,
+      "scanTimeSeconds": 65.45,
+      "exposureScore": 32,
+      "topTypes": [
+        "Private Key (RSA)"
+      ],
+      "typeCounts": {
+        "Private Key (RSA)": 2
+      },
+      "findings": [
+        {
+          "type": "Private Key (RSA)",
+          "file": "LaunchPoint-main/backend/node_modules/dotenv/README-es.md",
+          "line": 112,
+          "source": "file",
+          "preview": "----************************----"
+        },
+        {
+          "type": "Private Key (RSA)",
+          "file": "LaunchPoint-main/backend/node_modules/dotenv/README.md",
+          "line": 121,
+          "source": "file",
+          "preview": "----************************----"
+        }
+      ]
+    },
+    {
       "repo": "vishal-2508/ecommerce-microservice",
       "url": "https://github.com/vishal-2508/ecommerce-microservice",
       "status": "leaked",
@@ -52438,6 +52506,33 @@
       ]
     },
     {
+      "repo": "adamram49-source/ai-check",
+      "url": "https://github.com/adamram49-source/ai-check",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 1.95,
+      "exposureScore": 30,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Commit cdf4802",
+          "line": 136,
+          "source": "commit",
+          "preview": "AIza************************D30I"
+        }
+      ]
+    },
+    {
       "repo": "adamram49-source/timde-bank",
       "url": "https://github.com/adamram49-source/timde-bank",
       "status": "leaked",
@@ -58131,6 +58226,33 @@
           "line": 69,
           "source": "commit",
           "preview": "gsk_************************0JCq"
+        }
+      ]
+    },
+    {
+      "repo": "goutham2547/langchain",
+      "url": "https://github.com/goutham2547/langchain",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 1,
+      "scanTimeSeconds": 2.15,
+      "exposureScore": 30,
+      "topTypes": [
+        "Groq API Key"
+      ],
+      "typeCounts": {
+        "Groq API Key": 1
+      },
+      "findings": [
+        {
+          "type": "Groq API Key",
+          "file": "Commit 9b1f009",
+          "line": 303,
+          "source": "commit",
+          "preview": "gsk_************************dFC1"
         }
       ]
     },
@@ -92421,6 +92543,33 @@
           "line": 21,
           "source": "file",
           "preview": "8689************************iGYk"
+        }
+      ]
+    },
+    {
+      "repo": "Sandysan1234/Bun-restfull-api-hono-drizzle-boilerplate",
+      "url": "https://github.com/Sandysan1234/Bun-restfull-api-hono-drizzle-boilerplate",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 2.78,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "Bun-restfull-api-hono-drizzle-boilerplate-main/.env",
+          "line": 3,
+          "source": "file",
+          "preview": "post************************tech"
         }
       ]
     },
@@ -149931,6 +150080,33 @@
           "line": 1,
           "source": "file",
           "preview": "sk-l************************igdr"
+        }
+      ]
+    },
+    {
+      "repo": "wheelsdown/wdw-fleet",
+      "url": "https://github.com/wheelsdown/wdw-fleet",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 3.13,
+      "exposureScore": 20,
+      "topTypes": [
+        "PostgreSQL Connection URI"
+      ],
+      "typeCounts": {
+        "PostgreSQL Connection URI": 1
+      },
+      "findings": [
+        {
+          "type": "PostgreSQL Connection URI",
+          "file": "wdw-fleet-main/compose.yaml",
+          "line": 18,
+          "source": "file",
+          "preview": "post************************5432"
         }
       ]
     },
