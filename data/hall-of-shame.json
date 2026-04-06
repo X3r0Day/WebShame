@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-06T08:16:41.421509+00:00",
+  "generatedAt": "2026-04-06T09:43:12.302732+00:00",
   "source": "XeroDay-APISniffer",
   "repos": [
     {
@@ -76968,6 +76968,33 @@
       ]
     },
     {
+      "repo": "Benat-EJ8/FitZone-Futuristic-Gym-CMS",
+      "url": "https://github.com/Benat-EJ8/FitZone-Futuristic-Gym-CMS",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 144.68,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "FitZone-Futuristic-Gym-CMS-main/FFC GYM/blog-sidebar.php",
+          "line": 280,
+          "source": "file",
+          "preview": "AIza************************P9YQ"
+        }
+      ]
+    },
+    {
       "repo": "Benja1512/PeruAllure_2026",
       "url": "https://github.com/Benja1512/PeruAllure_2026",
       "status": "leaked",
@@ -146759,6 +146786,33 @@
           "line": 4,
           "source": "file",
           "preview": "8394************************b-VU"
+        }
+      ]
+    },
+    {
+      "repo": "trung23424/Lab_8",
+      "url": "https://github.com/trung23424/Lab_8",
+      "status": "leaked",
+      "severity": "low",
+      "totalSecrets": 1,
+      "uniqueTypes": 1,
+      "filesAffected": 1,
+      "commitFindings": 0,
+      "scanTimeSeconds": 82.65,
+      "exposureScore": 20,
+      "topTypes": [
+        "Google API/GCP Key"
+      ],
+      "typeCounts": {
+        "Google API/GCP Key": 1
+      },
+      "findings": [
+        {
+          "type": "Google API/GCP Key",
+          "file": "Lab_8-main/lab 8. new/app/google-services.json",
+          "line": 24,
+          "source": "file",
+          "preview": "AIza************************3XbU"
         }
       ]
     },
