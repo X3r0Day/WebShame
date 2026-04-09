@@ -178,6 +178,78 @@ function renderRankList(items, element, formatter) {
     .join("");
 }
 
+function scanPartUrl(partFile) {
+  return new URL(partFile, new URL(SCAN_URL, window.location.href)).toString();
+}
+
+function extractScanPartFiles(parts) {
+  if (!Array.isArray(parts)) {
+    return [];
+  }
+
+  return parts
+    .map((part) => {
+      if (typeof part === "string") {
+        return part;
+      }
+      if (part && typeof part === "object") {
+        return String(part.file || "").trim();
+      }
+      return "";
+    })
+    .filter((value) => Boolean(value));
+}
+
+async function loadScannedRepoCount() {
+  const scanResponse = await fetch(SCAN_URL, { cache: "no-store" });
+  if (!scanResponse.ok) {
+    return null;
+  }
+
+  const scanPayload = await scanResponse.json();
+
+  if (Array.isArray(scanPayload?.repos)) {
+    return scanPayload.repos.length;
+  }
+
+  if (Array.isArray(scanPayload)) {
+    return scanPayload.length;
+  }
+
+  if (!scanPayload?.chunked) {
+    return null;
+  }
+
+  const totalRepos = Number(scanPayload.totalRepos);
+  if (Number.isFinite(totalRepos) && totalRepos >= 0) {
+    return totalRepos;
+  }
+
+  const partFiles = extractScanPartFiles(scanPayload.parts);
+  if (!partFiles.length) {
+    return 0;
+  }
+
+  const partCounts = await Promise.all(
+    partFiles.map(async (partFile) => {
+      const response = await fetch(scanPartUrl(partFile), { cache: "no-store" });
+      if (!response.ok) {
+        return 0;
+      }
+      const payload = await response.json();
+      if (Array.isArray(payload?.repos)) {
+        return payload.repos.length;
+      }
+      if (Array.isArray(payload)) {
+        return payload.length;
+      }
+      return 0;
+    })
+  );
+
+  return partCounts.reduce((sum, value) => sum + value, 0);
+}
+
 async function loadDataset() {
   try {
     const response = await fetch(DATA_URL, { cache: "no-store" });
@@ -188,11 +260,7 @@ async function loadDataset() {
     const payload = await response.json();
     const normalized = normalizePayload(payload);
 
-    const scanPayload = await fetch(SCAN_URL, { cache: "no-store" })
-      .then((scanResponse) => (scanResponse.ok ? scanResponse.json() : null))
-      .catch(() => null);
-
-    const scannedRepos = Array.isArray(scanPayload?.repos) ? scanPayload.repos.length : null;
+    const scannedRepos = await loadScannedRepoCount().catch(() => null);
 
     elements.meta.textContent = `Updated ${formatGeneratedAt(normalized.generatedAt)}${
       scannedRepos ? ` · ${formatCount(scannedRepos)} repos scanned` : ""

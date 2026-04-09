@@ -9,6 +9,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 
+MAX_HISTORY_FILE_BYTES = 100 * 1024 * 1024
+HISTORY_CHUNK_SAFETY_MARGIN_BYTES = 1024 * 1024
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description="Sanitize XeroDay-APISniffer leaked_keys.json for GitHub Pages."
@@ -43,6 +47,12 @@ def parse_args() -> argparse.Namespace:
         type=int,
         default=6,
         help="Maximum findings to keep per repository in the public export.",
+    )
+    parser.add_argument(
+        "--history-max-bytes",
+        type=int,
+        default=MAX_HISTORY_FILE_BYTES,
+        help="Maximum allowed size for data/scan-history JSON files before chunking.",
     )
     return parser.parse_args()
 
@@ -221,6 +231,82 @@ def build_scan_history(
     }
 
 
+def write_json_compact(path: Path, payload: object) -> None:
+    path.write_text(
+        json.dumps(payload, separators=(",", ":"), ensure_ascii=False),
+        encoding="utf-8",
+    )
+
+
+def json_size_bytes(payload: object) -> int:
+    return len(json.dumps(payload, separators=(",", ":"), ensure_ascii=False).encode("utf-8"))
+
+
+def cleanup_history_parts(history_output_path: Path, keep_names: set[str]) -> None:
+    part_prefix = f"{history_output_path.stem}.part"
+    for existing_part in history_output_path.parent.glob(f"{part_prefix}*.json"):
+        if existing_part.name not in keep_names:
+            existing_part.unlink(missing_ok=True)
+
+
+def write_scan_history(history_output_path: Path, history_payload: dict, max_history_bytes: int) -> None:
+    repos = history_payload.get("repos", [])
+    if not isinstance(repos, list):
+        repos = []
+
+    compact_size = json_size_bytes(history_payload)
+    if compact_size <= max_history_bytes:
+        write_json_compact(history_output_path, history_payload)
+        cleanup_history_parts(history_output_path, set())
+        return
+
+    chunk_target_bytes = max(1, max_history_bytes - HISTORY_CHUNK_SAFETY_MARGIN_BYTES)
+    chunked_repos: list[list[dict]] = []
+    current_chunk: list[dict] = []
+
+    for repo in repos:
+        candidate_chunk = current_chunk + [repo]
+        candidate_size = json_size_bytes({"repos": candidate_chunk})
+
+        if current_chunk and candidate_size > chunk_target_bytes:
+            chunked_repos.append(current_chunk)
+            current_chunk = [repo]
+            continue
+
+        current_chunk = candidate_chunk
+
+    if current_chunk:
+        chunked_repos.append(current_chunk)
+
+    keep_names: set[str] = set()
+    part_entries: list[dict] = []
+    part_prefix = f"{history_output_path.stem}.part"
+
+    for index, chunk in enumerate(chunked_repos, start=1):
+        part_name = f"{part_prefix}{index:04d}.json"
+        part_path = history_output_path.parent / part_name
+        part_payload = {"repos": chunk}
+
+        if json_size_bytes(part_payload) > max_history_bytes:
+            raise ValueError(
+                f"Could not split scan history safely: {part_name} still exceeds {max_history_bytes} bytes"
+            )
+
+        write_json_compact(part_path, part_payload)
+        keep_names.add(part_name)
+        part_entries.append({"file": part_name, "repos": len(chunk)})
+
+    manifest = {
+        "generatedAt": history_payload.get("generatedAt"),
+        "format": "scan-history-chunked-v1",
+        "chunked": True,
+        "totalRepos": len(repos),
+        "parts": part_entries,
+    }
+    write_json_compact(history_output_path, manifest)
+    cleanup_history_parts(history_output_path, keep_names)
+
+
 def main() -> int:
     args = parse_args()
     input_path = Path(args.input)
@@ -260,7 +346,11 @@ def main() -> int:
 
     history_payload = build_scan_history(raw_entries, clean_entries, failed_entries, generated_at)
     history_output_path.parent.mkdir(parents=True, exist_ok=True)
-    history_output_path.write_text(json.dumps(history_payload, indent=2), encoding="utf-8")
+    write_scan_history(
+        history_output_path,
+        history_payload,
+        max(1, int(args.history_max_bytes)),
+    )
     return 0
 
 

@@ -32,6 +32,7 @@ That script:
 - classifies severity for the UI
 - trims the number of findings per repo for a cleaner public board
 - writes `data/scan-history.json`, which is safe to commit and is used to deduplicate later scans
+- automatically chunks scan history into `data/scan-history.part*.json` files when it would exceed 100MB
 
 After that, commit the updated `data/hall-of-shame.json` and publish the repo with GitHub Pages.
 
@@ -41,7 +42,8 @@ After that, commit the updated `data/hall-of-shame.json` and publish the repo wi
 - `assets/styles.css`: layout and visual design
 - `assets/app.js`: data loading, filtering, and rendering
 - `data/hall-of-shame.json`: sample sanitized dataset
-- `data/scan-history.json`: safe repo history used by the scheduled scanner workflow
+- `data/scan-history.json`: safe repo history manifest used by the scheduled scanner workflow and leaderboard
+- `data/scan-history.part*.json`: optional chunk files created automatically when history grows large
 - `scripts/export_hall_of_shame.py`: converter from raw APISniffer output
 - `scripts/materialize_scan_state.py`: rebuilds APISniffer history files from safe state
 

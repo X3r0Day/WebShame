@@ -29,6 +29,36 @@ def load_state(path: Path) -> list[dict]:
         return []
 
     payload = json.loads(path.read_text(encoding="utf-8"))
+
+    if isinstance(payload, dict) and payload.get("chunked") and isinstance(payload.get("parts"), list):
+        repos: list[dict] = []
+        for part in payload["parts"]:
+            if isinstance(part, str):
+                part_name = part
+            elif isinstance(part, dict):
+                part_name = str(part.get("file") or "").strip()
+            else:
+                part_name = ""
+
+            if not part_name:
+                continue
+
+            part_path = path.parent / part_name
+            if not part_path.exists():
+                continue
+
+            part_payload = json.loads(part_path.read_text(encoding="utf-8"))
+            if isinstance(part_payload, dict):
+                part_repos = part_payload.get("repos", [])
+            elif isinstance(part_payload, list):
+                part_repos = part_payload
+            else:
+                part_repos = []
+
+            repos.extend([entry for entry in part_repos if isinstance(entry, dict)])
+
+        return repos
+
     if isinstance(payload, dict):
         repos = payload.get("repos", [])
     else:
