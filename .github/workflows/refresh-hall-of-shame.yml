@@ -73,7 +73,7 @@ jobs:
           PROXY_RETRY_LIMIT="${{ github.event.inputs.proxy_retry_limit }}"
           MAX_THREADS="${{ github.event.inputs.max_threads }}"
           HISTORY_DEPTH="${{ github.event.inputs.history_depth }}"
-          : "${LOOKBACK_MINS:=10}"
+          : "${LOOKBACK_MINS:=4}"
           : "${CHUNK_MINS:=1}"
           : "${PAGES_TO_SCRAPE:=10}"
           : "${PROXY_RETRY_LIMIT:=30}"
