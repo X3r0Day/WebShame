@@ -249,18 +249,18 @@ def cleanup_history_parts(history_output_path: Path, keep_names: set[str]) -> No
             existing_part.unlink(missing_ok=True)
 
 
-def write_scan_history(history_output_path: Path, history_payload: dict, max_history_bytes: int) -> None:
-    repos = history_payload.get("repos", [])
+def write_chunked_json(output_path: Path, payload: dict, max_bytes: int, format_name: str) -> None:
+    repos = payload.get("repos", [])
     if not isinstance(repos, list):
         repos = []
 
-    compact_size = json_size_bytes(history_payload)
-    if compact_size <= max_history_bytes:
-        write_json_compact(history_output_path, history_payload)
-        cleanup_history_parts(history_output_path, set())
+    compact_size = json_size_bytes(payload)
+    if compact_size <= max_bytes:
+        write_json_compact(output_path, payload)
+        cleanup_history_parts(output_path, set())
         return
 
-    chunk_target_bytes = max(1, max_history_bytes - HISTORY_CHUNK_SAFETY_MARGIN_BYTES)
+    chunk_target_bytes = max(1, max_bytes - HISTORY_CHUNK_SAFETY_MARGIN_BYTES)
     chunked_repos: list[list[dict]] = []
     current_chunk: list[dict] = []
 
@@ -280,31 +280,34 @@ def write_scan_history(history_output_path: Path, history_payload: dict, max_his
 
     keep_names: set[str] = set()
     part_entries: list[dict] = []
-    part_prefix = f"{history_output_path.stem}.part"
+    part_prefix = f"{output_path.stem}.part"
 
     for index, chunk in enumerate(chunked_repos, start=1):
         part_name = f"{part_prefix}{index:04d}.json"
-        part_path = history_output_path.parent / part_name
+        part_path = output_path.parent / part_name
         part_payload = {"repos": chunk}
 
-        if json_size_bytes(part_payload) > max_history_bytes:
+        if json_size_bytes(part_payload) > max_bytes:
             raise ValueError(
-                f"Could not split scan history safely: {part_name} still exceeds {max_history_bytes} bytes"
+                f"Could not split safely: {part_name} still exceeds {max_bytes} bytes"
             )
 
         write_json_compact(part_path, part_payload)
         keep_names.add(part_name)
         part_entries.append({"file": part_name, "repos": len(chunk)})
 
-    manifest = {
-        "generatedAt": history_payload.get("generatedAt"),
-        "format": "scan-history-chunked-v1",
+    manifest = {"generatedAt": payload.get("generatedAt")}
+    if "source" in payload:
+        manifest["source"] = payload["source"]
+        
+    manifest.update({
+        "format": format_name,
         "chunked": True,
         "totalRepos": len(repos),
         "parts": part_entries,
-    }
-    write_json_compact(history_output_path, manifest)
-    cleanup_history_parts(history_output_path, keep_names)
+    })
+    write_json_compact(output_path, manifest)
+    cleanup_history_parts(output_path, keep_names)
 
 
 def main() -> int:
@@ -342,14 +345,20 @@ def main() -> int:
     }
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
-    output_path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
+    write_chunked_json(
+        output_path,
+        payload,
+        max(1, int(args.history_max_bytes)),
+        "hall-of-shame-chunked-v1"
+    )
 
     history_payload = build_scan_history(raw_entries, clean_entries, failed_entries, generated_at)
     history_output_path.parent.mkdir(parents=True, exist_ok=True)
-    write_scan_history(
+    write_chunked_json(
         history_output_path,
         history_payload,
         max(1, int(args.history_max_bytes)),
+        "scan-history-chunked-v1"
     )
     return 0
 

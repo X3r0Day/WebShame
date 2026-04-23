@@ -410,7 +410,35 @@ async function loadDataset() {
     }
 
     const payload = await response.json();
-    const normalized = normalizePayload(payload);
+    let fullPayload = payload;
+
+    if (payload.chunked && Array.isArray(payload.parts)) {
+      const partFiles = payload.parts.map((part) => {
+        if (typeof part === "string") return part;
+        if (part && typeof part === "object") return String(part.file || "").trim();
+        return "";
+      }).filter(Boolean);
+
+      const partRepos = await Promise.all(
+        partFiles.map(async (partFile) => {
+          const partUrl = new URL(partFile, new URL(DATA_URL, window.location.href)).toString();
+          const partResponse = await fetch(partUrl, { cache: "no-store" });
+          if (!partResponse.ok) return [];
+          const partPayload = await partResponse.json();
+          if (Array.isArray(partPayload?.repos)) return partPayload.repos;
+          if (Array.isArray(partPayload)) return partPayload;
+          return [];
+        })
+      );
+
+      fullPayload = {
+        generatedAt: payload.generatedAt || null,
+        source: payload.source || "XeroDay-APISniffer",
+        repos: partRepos.flat(),
+      };
+    }
+
+    const normalized = normalizePayload(fullPayload);
 
     state.sourceName = normalized.sourceName;
     state.generatedAt = normalized.generatedAt;
