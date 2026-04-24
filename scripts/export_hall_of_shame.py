@@ -232,14 +232,15 @@ def build_scan_history(
 
 
 def write_json_compact(path: Path, payload: object) -> None:
-    path.write_text(
-        json.dumps(payload, separators=(",", ":"), ensure_ascii=False),
-        encoding="utf-8",
-    )
+    path.write_bytes(compact_json_bytes(payload))
+
+
+def compact_json_bytes(payload: object) -> bytes:
+    return json.dumps(payload, separators=(",", ":"), ensure_ascii=False).encode("utf-8")
 
 
 def json_size_bytes(payload: object) -> int:
-    return len(json.dumps(payload, separators=(",", ":"), ensure_ascii=False).encode("utf-8"))
+    return len(compact_json_bytes(payload))
 
 
 def cleanup_history_parts(history_output_path: Path, keep_names: set[str]) -> None:
@@ -261,19 +262,24 @@ def write_chunked_json(output_path: Path, payload: dict, max_bytes: int, format_
         return
 
     chunk_target_bytes = max(1, max_bytes - HISTORY_CHUNK_SAFETY_MARGIN_BYTES)
+    empty_repos_payload_size = json_size_bytes({"repos": []})
     chunked_repos: list[list[dict]] = []
     current_chunk: list[dict] = []
+    current_chunk_payload_size = empty_repos_payload_size
 
     for repo in repos:
-        candidate_chunk = current_chunk + [repo]
-        candidate_size = json_size_bytes({"repos": candidate_chunk})
+        repo_size = json_size_bytes(repo)
+        comma_separator_size = 1 if current_chunk else 0
+        candidate_size = current_chunk_payload_size + repo_size + comma_separator_size
 
         if current_chunk and candidate_size > chunk_target_bytes:
             chunked_repos.append(current_chunk)
             current_chunk = [repo]
+            current_chunk_payload_size = empty_repos_payload_size + repo_size
             continue
 
-        current_chunk = candidate_chunk
+        current_chunk.append(repo)
+        current_chunk_payload_size = candidate_size
 
     if current_chunk:
         chunked_repos.append(current_chunk)
