@@ -22,7 +22,7 @@ on:
       max_threads:
         description: "Scanner thread count"
         required: false
-        default: "25"
+        default: "35"
       history_depth:
         description: "How many recent commits to scan"
         required: false
