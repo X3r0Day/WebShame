@@ -269,8 +269,8 @@ def write_chunked_json(output_path: Path, payload: dict, max_bytes: int, format_
 
     for repo in repos:
         repo_size = json_size_bytes(repo)
-        next_len = len(current_chunk) + 1
-        candidate_size = current_chunk_payload_size + repo_size + (1 if next_len > 1 else 0)
+        comma_separator_size = 1 if current_chunk else 0
+        candidate_size = current_chunk_payload_size + repo_size + comma_separator_size
 
         if current_chunk and candidate_size > chunk_target_bytes:
             chunked_repos.append(current_chunk)
